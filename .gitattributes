@@ -1,1 +1,9 @@
 * text=auto !eol
+/Makefile -text
+/apertium-cy-en.cy-en.dix.in -text
+/apertium-cy-en.cy-en.t1x -text
+/apertium-cy-en.cy-en.t2x -text
+/apertium-cy-en.cy-en.t3x -text
+/apertium-cy-en.cy.dix.in -text
+/apertium-cy-en.en.dix.in -text
+/apertium-cy-en.symbols.xml -text
