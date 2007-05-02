@@ -1,7 +1,7 @@
 * text=auto !eol
 /AUTHORS -text
 /ChangeLog -text
-/Makefile -text
+/Makefile.am -text
 /NEWS -text
 /README -text
 /TODO -text
@@ -11,4 +11,7 @@
 /apertium-cy-en.cy-en.t3x -text
 /apertium-cy-en.cy.dix.xml -text
 /apertium-cy-en.en.dix.xml -text
+/apertium-cy-en.post-en.dix -text
 /apertium-cy-en.symbols.xml -text
+/autogen.sh -text
+/configure.ac -text
