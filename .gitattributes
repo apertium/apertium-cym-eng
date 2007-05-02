@@ -10,6 +10,9 @@
 /apertium-cy-en.cy-en.t2x -text
 /apertium-cy-en.cy-en.t3x -text
 /apertium-cy-en.cy.dix.xml -text
+/apertium-cy-en.en-cy.t1x -text
+/apertium-cy-en.en-cy.t2x -text
+/apertium-cy-en.en-cy.t3x -text
 /apertium-cy-en.en.dix.xml -text
 /apertium-cy-en.post-en.dix -text
 /apertium-cy-en.symbols.xml -text
