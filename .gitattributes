@@ -15,3 +15,5 @@
 /apertium-cy-en.symbols.xml -text
 /autogen.sh -text
 /configure.ac -text
+/cy-en.prob -text
+/en-cy.prob -text
