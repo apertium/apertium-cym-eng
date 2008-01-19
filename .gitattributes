@@ -21,4 +21,6 @@
 /apertium-cy-en.symbols.xml -text
 /autogen.sh -text
 /configure.ac -text
+/cy-en.prob -text svneol=unset#unset
+/en-cy.prob -text svneol=unset#unset
 /modes.xml -text
