@@ -48,7 +48,7 @@
     <sdef n="subj"    c="Subject"/>
     <sdef n="pro"     c="Proclitic"/>
     <sdef n="acr"     c="Acronym"/>
-    <sdef n="loc"     c="Locative"/>
+    <sdef n="top"     c="Toponym"/>
     <sdef n="ant"     c="Antroponym"/>
     <sdef n="al"      c="Other / Otros"/>
     <sdef n="np"      c="Proper noun"/>
