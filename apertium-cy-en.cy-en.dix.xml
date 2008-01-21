@@ -10,6 +10,9 @@
 
     <e><p><l>yr<s n="det"/></l><r>the<s n="det"/></r></p></e>
 
+      <!-- CHECK THIS -->
+    <e r="RL"><p><l>yr<s n="det"/><s n="def"/></l><r>this<s n="det"/><s n="dem"/></r></p></e>
+
     <!-- Prepositions -->
     
     <!-- Inflected prepositions -->
@@ -35,7 +38,8 @@
     
     <!-- Compound inflected prepositions -->
     <e><p><l>nesaf at<s n="pr"/></l><r>next to<s n="pr"/></r></p></e>
-    <e><p><l>oddi wrth<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
+
+    <e r="LR"><p><l>oddi wrth<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
     
     
     <!-- Uninflected prepositions -->
@@ -74,7 +78,9 @@
     <e><p><l>ymhlith<s n="pr"/></l><r>among<s n="pr"/></r></p></e>
     <e><p><l>yn lle<s n="pr"/></l><r>instead of<s n="pr"/></r></p></e>
     <e><p><l>yn ôl<s n="pr"/></l><r>according to<s n="pr"/></r></p></e> 
-    <e><p><l>oddi wrth<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
+
+    <e r="LR"><p><l>oddi wrth<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
+
     <e><p><l>ar ôl<s n="pr"/></l><r>after<s n="pr"/></r></p></e>
     <e><p><l>ynghyd â<s n="pr"/></l><r>together with<s n="pr"/></r></p></e>
     <e><p><l>gyferbyn â<s n="pr"/></l><r>opposite<s n="pr"/></r></p></e>
@@ -2671,7 +2677,7 @@
     <e><p><l>perifferolyn<s n="n"/><s n="m"/></l><r>peripheral<s n="n"/></r></p></e>
     <e><p><l>planhigyn<s n="n"/><s n="m"/></l><r>plant<s n="n"/></r></p></e>
     <e><p><l>rhifolyn<s n="n"/><s n="m"/></l><r>numeral<s n="n"/></r></p></e>
-    <e><p><l>trigolyn<s n="n"/><s n="m"/></l><r>inhabitants<s n="n"/></r></p></e>
+    <e><p><l>trigolyn<s n="n"/><s n="m"/></l><r>inhabitant<s n="n"/></r></p></e>
     <e><p><l>unigolyn<s n="n"/><s n="m"/></l><r>individual<s n="n"/></r></p></e>
     <e><p><l>ychwanegyn<s n="n"/><s n="m"/></l><r>additive<s n="n"/></r></p></e>
     <e><p><l>academi<s n="n"/><s n="m"/></l><r>academy<s n="n"/></r></p></e>
@@ -4576,7 +4582,10 @@
     <e><p><l>positif<s n="adj"/></l><r>positive<s n="adj"/></r></p></e>
     <e><p><l>preifat<s n="adj"/></l><r>private<s n="adj"/></r></p></e>
     <e><p><l>presennol<s n="adj"/></l><r>present<s n="adj"/></r></p></e>
-    <e><p><l>prif<s n="adj"/></l><r>principal<s n="adj"/></r></p></e>
+
+    <!-- changed from 'principal' to 'first' ~fmt -->
+    <e><p><l>prif<s n="adj"/></l><r>first<s n="adj"/></r></p></e>
+
     <e><p><l>priflythrennol<s n="adj"/></l><r>upper-case<s n="adj"/></r></p></e>
     <e><p><l>prifol<s n="adj"/></l><r>cardinal<s n="adj"/></r></p></e>
     <e><p><l>prin<s n="adj"/></l><r>scarce<s n="adj"/></r></p></e>
@@ -4861,7 +4870,10 @@
     <e><p><l>ymweledig<s n="adj"/></l><r>punished<s n="adj"/></r></p></e>
     <e><p><l>ymwybodol<s n="adj"/></l><r>conscious<s n="adj"/></r></p></e>
     <e><p><l>ymylol<s n="adj"/></l><r>marginal<s n="adj"/></r></p></e>
-    <e><p><l>yn<s n="adj"/></l><r>-<s n="adj"/></r></p></e>
+
+    <!-- check -->
+    <e><p><l>yn<s n="adj"/></l><r>in<s n="adj"/></r></p></e>
+
     <e><p><l>ynghlwm<s n="adj"/></l><r>attached<s n="adj"/></r></p></e>
     <e><p><l>yn-y-car<s n="adj"/></l><r>in-car<s n="adj"/></r></p></e>
     <e><p><l>ysbeidiol<s n="adj"/></l><r>intermittent<s n="adj"/></r></p></e>
@@ -6785,7 +6797,7 @@
     <e><p><l>galarnadu<s n="vblex"/></l><r>lament<s n="vblex"/></r></p></e>
     <e><p><l>galaru<s n="vblex"/></l><r>wail<s n="vblex"/></r></p></e>
     <e><p><l>galfaneiddio<s n="vblex"/></l><r>galvanise<s n="vblex"/></r></p></e>
-    <e><p><l>gallu<s n="vblex"/></l><r>be able<s n="vblex"/></r></p></e>
+    <e><p><l>gallu<s n="vblex"/></l><r>be able to<s n="vbmod"/></r></p></e>
     <e><p><l>galluogi<s n="vblex"/></l><r>enable<s n="vblex"/></r></p></e>
     <e><p><l>galw<s n="vblex"/></l><r>call<s n="vblex"/></r></p></e>
     <e><p><l>gamblo<s n="vblex"/></l><r>gamble<s n="vblex"/></r></p></e>
@@ -7433,7 +7445,7 @@
     <e><p><l>meddwl<s n="vblex"/></l><r>think<s n="vblex"/></r></p></e>
     <e><p><l>meddyginiaethu<s n="vblex"/></l><r>treat<s n="vblex"/></r></p></e>
     <e><p><l>medi<s n="vblex"/></l><r>reap<s n="vblex"/></r></p></e>
-    <e><p><l>medru<s n="vblex"/></l><r>be able<s n="vblex"/></r></p></e>
+    <e><p><l>medru<s n="vblex"/></l><r>be able to<s n="vbmod"/></r></p></e>
     <e><p><l>meflu<s n="vblex"/></l><r>disgrace<s n="vblex"/></r></p></e>
     <e><p><l>megina<s n="vblex"/></l><r>use bellows<s n="vblex"/></r></p></e>
     <e><p><l>meiddio<s n="vblex"/></l><r>dare<s n="vblex"/></r></p></e>
@@ -8811,6 +8823,388 @@
     <!-- Abbreviations -->
 
     <e><p><l>e.e.<s n="abbr"/></l><r>e.g.<s n="abbr"/></r></p></e>
+
+    <!-- Proper names -->
+
+    <!--  Anthroponyms -->
+
+          <!-- Should probably add some Welsh ones here ~fmt -->      
+
+    <e><p><l>Dafydd<s n="np"/><s n="ant"/></l><r>Dafydd<s n="np"/><s n="ant"/></r></p></e>
+
+    <e><p><l>Aaron<s n="np"/><s n="ant"/></l><r>Aaron<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Abril<s n="np"/><s n="ant"/></l><r>Abril<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Adam<s n="np"/><s n="ant"/></l><r>Adam<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Adrià<s n="np"/><s n="ant"/></l><r>Adrià<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Agnes<s n="np"/><s n="ant"/></l><r>Agnes<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ainara<s n="np"/><s n="ant"/></l><r>Ainara<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Aina<s n="np"/><s n="ant"/></l><r>Aina<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ainhoa<s n="np"/><s n="ant"/></l><r>Ainhoa<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Aitana<s n="np"/><s n="ant"/></l><r>Aitana<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Aitor<s n="np"/><s n="ant"/></l><r>Aitor<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Alan<s n="np"/><s n="ant"/></l><r>Alan<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Alba<s n="np"/><s n="ant"/></l><r>Alba<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Albert<s n="np"/><s n="ant"/></l><r>Albert<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Alexander<s n="np"/><s n="ant"/></l><r>Alexander<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Alexandra<s n="np"/><s n="ant"/></l><r>Alexandra<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Alex<s n="np"/><s n="ant"/></l><r>Alex<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Àlex<s n="np"/><s n="ant"/></l><r>Àlex<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Alianore-<s n="np"/><s n="ant"/></l><r>Alianore-<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Alice<s n="np"/><s n="ant"/></l><r>Alice<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Alicia<s n="np"/><s n="ant"/></l><r>Alicia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Alyne<s n="np"/><s n="ant"/></l><r>Alyne<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Alys<s n="np"/><s n="ant"/></l><r>Alys<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Amice<s n="np"/><s n="ant"/></l><r>Amice<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Amphelice<s n="np"/><s n="ant"/></l><r>Amphelice<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Andrea<s n="np"/><s n="ant"/></l><r>Andrea<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Andreu<s n="np"/><s n="ant"/></l><r>Andreu<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Andrew<s n="np"/><s n="ant"/></l><r>Andrew<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Àngela<s n="np"/><s n="ant"/></l><r>Àngela<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Àngel<s n="np"/><s n="ant"/></l><r>Àngel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Annabel<s n="np"/><s n="ant"/></l><r>Annabel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Anna Maria<s n="np"/><s n="ant"/></l><r>Anna Maria<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Anna<s n="np"/><s n="ant"/></l><r>Anna<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Anne<s n="np"/><s n="ant"/></l><r>Anne<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Anthony<s n="np"/><s n="ant"/></l><r>Anthony<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Antònia<s n="np"/><s n="ant"/></l><r>Antònia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Antoni<s n="np"/><s n="ant"/></l><r>Antoni<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Antony<s n="np"/><s n="ant"/></l><r>Antony<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Anys<s n="np"/><s n="ant"/></l><r>Anys<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Arantxa<s n="np"/><s n="ant"/></l><r>Arantxa<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ariadna<s n="np"/><s n="ant"/></l><r>Ariadna<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Arnald<s n="np"/><s n="ant"/></l><r>Arnald<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Arnold<s n="np"/><s n="ant"/></l><r>Arnold<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Aroa<s n="np"/><s n="ant"/></l><r>Aroa<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Arthur<s n="np"/><s n="ant"/></l><r>Arthur<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Audrey<s n="np"/><s n="ant"/></l><r>Audrey<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Baldwin<s n="np"/><s n="ant"/></l><r>Baldwin<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Barbara<s n="np"/><s n="ant"/></l><r>Barbara<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Bàrbara<s n="np"/><s n="ant"/></l><r>Bàrbara<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Barnard<s n="np"/><s n="ant"/></l><r>Barnard<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Bartholomew<s n="np"/><s n="ant"/></l><r>Bartholomew<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Bartomeu<s n="np"/><s n="ant"/></l><r>Bartomeu<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Baterich<s n="np"/><s n="ant"/></l><r>Baterich<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Batholomew<s n="np"/><s n="ant"/></l><r>Batholomew<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Beatrice<s n="np"/><s n="ant"/></l><r>Beatrice<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Beatrix<s n="np"/><s n="ant"/></l><r>Beatrix<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Benedict<s n="np"/><s n="ant"/></l><r>Benedict<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Benet<s n="np"/><s n="ant"/></l><r>Benet<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Bennet<s n="np"/><s n="ant"/></l><r>Bennet<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Bernard<s n="np"/><s n="ant"/></l><r>Bernard<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Bernat<s n="np"/><s n="ant"/></l><r>Bernat<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Biel<s n="np"/><s n="ant"/></l><r>Biel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Blanca<s n="np"/><s n="ant"/></l><r>Blanca<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Blanche<s n="np"/><s n="ant"/></l><r>Blanche<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Borja<s n="np"/><s n="ant"/></l><r>Borja<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Bridget<s n="np"/><s n="ant"/></l><r>Bridget<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Bryan<s n="np"/><s n="ant"/></l><r>Bryan<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Carla<s n="np"/><s n="ant"/></l><r>Carla<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Carles<s n="np"/><s n="ant"/></l><r>Carles<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Carlota<s n="np"/><s n="ant"/></l><r>Carlota<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Carme<s n="np"/><s n="ant"/></l><r>Carme<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Catalina<s n="np"/><s n="ant"/></l><r>Catalina<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Caterina<s n="np"/><s n="ant"/></l><r>Caterina<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Cecilia<s n="np"/><s n="ant"/></l><r>Cecilia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Cecil<s n="np"/><s n="ant"/></l><r>Cecil<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Cecily<s n="np"/><s n="ant"/></l><r>Cecily<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Charles<s n="np"/><s n="ant"/></l><r>Charles<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Christina<s n="np"/><s n="ant"/></l><r>Christina<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Christine<s n="np"/><s n="ant"/></l><r>Christine<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Christopher<s n="np"/><s n="ant"/></l><r>Christopher<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Christpher<s n="np"/><s n="ant"/></l><r>Christpher<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Cicely<s n="np"/><s n="ant"/></l><r>Cicely<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Clara<s n="np"/><s n="ant"/></l><r>Clara<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Clarice<s n="np"/><s n="ant"/></l><r>Clarice<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Clàudia<s n="np"/><s n="ant"/></l><r>Clàudia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Collys<s n="np"/><s n="ant"/></l><r>Collys<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Constance<s n="np"/><s n="ant"/></l><r>Constance<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Crestian<s n="np"/><s n="ant"/></l><r>Crestian<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Cristian<s n="np"/><s n="ant"/></l><r>Cristian<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Cristina<s n="np"/><s n="ant"/></l><r>Cristina<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Cyriac<s n="np"/><s n="ant"/></l><r>Cyriac<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Daniela<s n="np"/><s n="ant"/></l><r>Daniela<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Daniel<s n="np"/><s n="ant"/></l><r>Daniel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>David<s n="np"/><s n="ant"/></l><r>David<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Dennis<s n="np"/><s n="ant"/></l><r>Dennis<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Denys<s n="np"/><s n="ant"/></l><r>Denys<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Desirée<s n="np"/><s n="ant"/></l><r>Desirée<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Diego<s n="np"/><s n="ant"/></l><r>Diego<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Dionisia<s n="np"/><s n="ant"/></l><r>Dionisia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Dorothy<s n="np"/><s n="ant"/></l><r>Dorothy<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Douce<s n="np"/><s n="ant"/></l><r>Douce<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Drew<s n="np"/><s n="ant"/></l><r>Drew<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Edith<s n="np"/><s n="ant"/></l><r>Edith<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Edmond<s n="np"/><s n="ant"/></l><r>Edmond<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Edmund<s n="np"/><s n="ant"/></l><r>Edmund<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Eduard<s n="np"/><s n="ant"/></l><r>Eduard<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Edward<s n="np"/><s n="ant"/></l><r>Edward<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Eleanor<s n="np"/><s n="ant"/></l><r>Eleanor<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Elena<s n="np"/><s n="ant"/></l><r>Elena<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Elizabeth<s n="np"/><s n="ant"/></l><r>Elizabeth<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ellen<s n="np"/><s n="ant"/></l><r>Ellen<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ellyn<s n="np"/><s n="ant"/></l><r>Ellyn<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Elynor<s n="np"/><s n="ant"/></l><r>Elynor<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Elyn<s n="np"/><s n="ant"/></l><r>Elyn<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Emma<s n="np"/><s n="ant"/></l><r>Emma<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Erasmus<s n="np"/><s n="ant"/></l><r>Erasmus<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Eric<s n="np"/><s n="ant"/></l><r>Eric<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Erika<s n="np"/><s n="ant"/></l><r>Erika<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Esmour<s n="np"/><s n="ant"/></l><r>Esmour<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Esperaunce<s n="np"/><s n="ant"/></l><r>Esperaunce<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Estela<s n="np"/><s n="ant"/></l><r>Estela<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Esther<s n="np"/><s n="ant"/></l><r>Esther<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ethelbert<s n="np"/><s n="ant"/></l><r>Ethelbert<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ethelred<s n="np"/><s n="ant"/></l><r>Ethelred<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Eustace<s n="np"/><s n="ant"/></l><r>Eustace<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Evelyn<s n="np"/><s n="ant"/></l><r>Evelyn<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Fàtima<s n="np"/><s n="ant"/></l><r>Fàtima<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Felice<s n="np"/><s n="ant"/></l><r>Felice<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Fernando<s n="np"/><s n="ant"/></l><r>Fernando<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Florence<s n="np"/><s n="ant"/></l><r>Florence<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Florens<s n="np"/><s n="ant"/></l><r>Florens<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Folke<s n="np"/><s n="ant"/></l><r>Folke<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Francesca<s n="np"/><s n="ant"/></l><r>Francesca<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Francesc<s n="np"/><s n="ant"/></l><r>Francesc<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Francesc Xavier<s n="np"/><s n="ant"/></l><r>Francesc Xavier<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Frances<s n="np"/><s n="ant"/></l><r>Frances<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Francis<s n="np"/><s n="ant"/></l><r>Francis<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Gabriela<s n="np"/><s n="ant"/></l><r>Gabriela<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Gabriel<s n="np"/><s n="ant"/></l><r>Gabriel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Gauwyn<s n="np"/><s n="ant"/></l><r>Gauwyn<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Geerardt<s n="np"/><s n="ant"/></l><r>Geerardt<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Gemma<s n="np"/><s n="ant"/></l><r>Gemma<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Geoffrey<s n="np"/><s n="ant"/></l><r>Geoffrey<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>George<s n="np"/><s n="ant"/></l><r>George<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Gerard<s n="np"/><s n="ant"/></l><r>Gerard<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Gilbert<s n="np"/><s n="ant"/></l><r>Gilbert<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Giles<s n="np"/><s n="ant"/></l><r>Giles<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Glòria<s n="np"/><s n="ant"/></l><r>Glòria<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Godfrey<s n="np"/><s n="ant"/></l><r>Godfrey<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Grace<s n="np"/><s n="ant"/></l><r>Grace<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Griffin<s n="np"/><s n="ant"/></l><r>Griffin<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Guillem<s n="np"/><s n="ant"/></l><r>Guillem<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Guy<s n="np"/><s n="ant"/></l><r>Guy<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Gyles<s n="np"/><s n="ant"/></l><r>Gyles<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Harry<s n="np"/><s n="ant"/></l><r>Harry<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Héctor<s n="np"/><s n="ant"/></l><r>Héctor<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Helena<s n="np"/><s n="ant"/></l><r>Helena<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Helen<s n="np"/><s n="ant"/></l><r>Helen<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Henry<s n="np"/><s n="ant"/></l><r>Henry<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Hercules<s n="np"/><s n="ant"/></l><r>Hercules<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Hewrey<s n="np"/><s n="ant"/></l><r>Hewrey<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Honor<s n="np"/><s n="ant"/></l><r>Honor<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Hugh<s n="np"/><s n="ant"/></l><r>Hugh<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Hugo<s n="np"/><s n="ant"/></l><r>Hugo<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Humphrey<s n="np"/><s n="ant"/></l><r>Humphrey<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ignaci<s n="np"/><s n="ant"/></l><r>Ignaci<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Íker<s n="np"/><s n="ant"/></l><r>Íker<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Inès<s n="np"/><s n="ant"/></l><r>Inès<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ingham<s n="np"/><s n="ant"/></l><r>Ingham<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Irene<s n="np"/><s n="ant"/></l><r>Irene<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Isaac<s n="np"/><s n="ant"/></l><r>Isaac<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Isabella<s n="np"/><s n="ant"/></l><r>Isabella<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Isabelle<s n="np"/><s n="ant"/></l><r>Isabelle<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Isabel<s n="np"/><s n="ant"/></l><r>Isabel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ismael<s n="np"/><s n="ant"/></l><r>Ismael<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ivan<s n="np"/><s n="ant"/></l><r>Ivan<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ivo<s n="np"/><s n="ant"/></l><r>Ivo<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Izan<s n="np"/><s n="ant"/></l><r>Izan<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jacquette<s n="np"/><s n="ant"/></l><r>Jacquette<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jakys<s n="np"/><s n="ant"/></l><r>Jakys<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>James<s n="np"/><s n="ant"/></l><r>James<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jane<s n="np"/><s n="ant"/></l><r>Jane<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jaume<s n="np"/><s n="ant"/></l><r>Jaume<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jeanne<s n="np"/><s n="ant"/></l><r>Jeanne<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jeffrey<s n="np"/><s n="ant"/></l><r>Jeffrey<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jenlyns<s n="np"/><s n="ant"/></l><r>Jenlyns<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jesús<s n="np"/><s n="ant"/></l><r>Jesús<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Joan Antoni<s n="np"/><s n="ant"/></l><r>Joan Antoni<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Joan Josep<s n="np"/><s n="ant"/></l><r>Joan Josep<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Joan Manel<s n="np"/><s n="ant"/></l><r>Joan Manel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Joan<s n="np"/><s n="ant"/></l><r>Joan<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Joel<s n="np"/><s n="ant"/></l><r>Joel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>John<s n="np"/><s n="ant"/></l><r>John<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jon<s n="np"/><s n="ant"/></l><r>Jon<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jordi<s n="np"/><s n="ant"/></l><r>Jordi<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jorge<s n="np"/><s n="ant"/></l><r>Jorge<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Josep Antoni<s n="np"/><s n="ant"/></l><r>Josep Antoni<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Josep<s n="np"/><s n="ant"/></l><r>Josep<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Joyce<s n="np"/><s n="ant"/></l><r>Joyce<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Judith<s n="np"/><s n="ant"/></l><r>Judith<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Judit<s n="np"/><s n="ant"/></l><r>Judit<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Julian<s n="np"/><s n="ant"/></l><r>Julian<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Júlia<s n="np"/><s n="ant"/></l><r>Júlia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Juli<s n="np"/><s n="ant"/></l><r>Juli<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Julyan<s n="np"/><s n="ant"/></l><r>Julyan<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Kateryn<s n="np"/><s n="ant"/></l><r>Kateryn<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Katherine<s n="np"/><s n="ant"/></l><r>Katherine<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Kath<s n="np"/><s n="ant"/></l><r>Kath<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Laia<s n="np"/><s n="ant"/></l><r>Laia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Lara<s n="np"/><s n="ant"/></l><r>Lara<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Laura<s n="np"/><s n="ant"/></l><r>Laura<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Laurence<s n="np"/><s n="ant"/></l><r>Laurence<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Lawrence<s n="np"/><s n="ant"/></l><r>Lawrence<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Leonard<s n="np"/><s n="ant"/></l><r>Leonard<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Letitia<s n="np"/><s n="ant"/></l><r>Letitia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Lewis<s n="np"/><s n="ant"/></l><r>Lewis<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Lídia<s n="np"/><s n="ant"/></l><r>Lídia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Llorenç<s n="np"/><s n="ant"/></l><r>Llorenç<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Llúcia<s n="np"/><s n="ant"/></l><r>Llúcia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Lluc<s n="np"/><s n="ant"/></l><r>Lluc<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Lluís<s n="np"/><s n="ant"/></l><r>Lluís<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Lluna<s n="np"/><s n="ant"/></l><r>Lluna<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Lorena<s n="np"/><s n="ant"/></l><r>Lorena<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Lucas<s n="np"/><s n="ant"/></l><r>Lucas<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Lucie<s n="np"/><s n="ant"/></l><r>Lucie<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Lucy<s n="np"/><s n="ant"/></l><r>Lucy<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Luke<s n="np"/><s n="ant"/></l><r>Luke<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Magdalena<s n="np"/><s n="ant"/></l><r>Magdalena<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Malin<s n="np"/><s n="ant"/></l><r>Malin<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Manel<s n="np"/><s n="ant"/></l><r>Manel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Margalida<s n="np"/><s n="ant"/></l><r>Margalida<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Margarete<s n="np"/><s n="ant"/></l><r>Margarete<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Margaret<s n="np"/><s n="ant"/></l><r>Margaret<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Margarida<s n="np"/><s n="ant"/></l><r>Margarida<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Margery<s n="np"/><s n="ant"/></l><r>Margery<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Margry<s n="np"/><s n="ant"/></l><r>Margry<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Maria Antònia<s n="np"/><s n="ant"/></l><r>Maria Antònia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Maria del Carme<s n="np"/><s n="ant"/></l><r>Maria del Carme<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Maria del Mar<s n="np"/><s n="ant"/></l><r>Maria del Mar<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Maria Magdalena<s n="np"/><s n="ant"/></l><r>Maria Magdalena<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Marian<s n="np"/><s n="ant"/></l><r>Marian<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Maria<s n="np"/><s n="ant"/></l><r>Maria<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Marie<s n="np"/><s n="ant"/></l><r>Marie<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Marina<s n="np"/><s n="ant"/></l><r>Marina<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Mariona<s n="np"/><s n="ant"/></l><r>Mariona<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Marion<s n="np"/><s n="ant"/></l><r>Marion<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Mario<s n="np"/><s n="ant"/></l><r>Mario<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Marta<s n="np"/><s n="ant"/></l><r>Marta<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Martina<s n="np"/><s n="ant"/></l><r>Martina<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Martin<s n="np"/><s n="ant"/></l><r>Martin<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Martí<s n="np"/><s n="ant"/></l><r>Martí<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Mary<s n="np"/><s n="ant"/></l><r>Mary<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Mathye<s n="np"/><s n="ant"/></l><r>Mathye<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Matilda<s n="np"/><s n="ant"/></l><r>Matilda<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Matthew<s n="np"/><s n="ant"/></l><r>Matthew<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Maude<s n="np"/><s n="ant"/></l><r>Maude<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Maud<s n="np"/><s n="ant"/></l><r>Maud<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Maurice<s n="np"/><s n="ant"/></l><r>Maurice<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Meryell<s n="np"/><s n="ant"/></l><r>Meryell<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Michael<s n="np"/><s n="ant"/></l><r>Michael<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Mildred<s n="np"/><s n="ant"/></l><r>Mildred<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Millicent<s n="np"/><s n="ant"/></l><r>Millicent<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Miquel Àngel<s n="np"/><s n="ant"/></l><r>Miquel Àngel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Miquel<s n="np"/><s n="ant"/></l><r>Miquel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Mireia<s n="np"/><s n="ant"/></l><r>Mireia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Morys<s n="np"/><s n="ant"/></l><r>Morys<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Muriel<s n="np"/><s n="ant"/></l><r>Muriel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Nàdia<s n="np"/><s n="ant"/></l><r>Nàdia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Naiara<s n="np"/><s n="ant"/></l><r>Naiara<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Natàlia<s n="np"/><s n="ant"/></l><r>Natàlia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Nathaniel<s n="np"/><s n="ant"/></l><r>Nathaniel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Nerea<s n="np"/><s n="ant"/></l><r>Nerea<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Neus<s n="np"/><s n="ant"/></l><r>Neus<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Nicholas<s n="np"/><s n="ant"/></l><r>Nicholas<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Nichole<s n="np"/><s n="ant"/></l><r>Nichole<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Nichol<s n="np"/><s n="ant"/></l><r>Nichol<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Nicolas<s n="np"/><s n="ant"/></l><r>Nicolas<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Nicolau<s n="np"/><s n="ant"/></l><r>Nicolau<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Nicole<s n="np"/><s n="ant"/></l><r>Nicole<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Noa<s n="np"/><s n="ant"/></l><r>Noa<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Noelia<s n="np"/><s n="ant"/></l><r>Noelia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Noemi<s n="np"/><s n="ant"/></l><r>Noemi<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Nora<s n="np"/><s n="ant"/></l><r>Nora<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Núria<s n="np"/><s n="ant"/></l><r>Núria<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Olever<s n="np"/><s n="ant"/></l><r>Olever<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Olga<s n="np"/><s n="ant"/></l><r>Olga<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Oliver<s n="np"/><s n="ant"/></l><r>Oliver<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Olyver<s n="np"/><s n="ant"/></l><r>Olyver<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Òscar<s n="np"/><s n="ant"/></l><r>Òscar<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Patrícia<s n="np"/><s n="ant"/></l><r>Patrícia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Paula<s n="np"/><s n="ant"/></l><r>Paula<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Pere<s n="np"/><s n="ant"/></l><r>Pere<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Philippa<s n="np"/><s n="ant"/></l><r>Philippa<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Philippe<s n="np"/><s n="ant"/></l><r>Philippe<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Philip<s n="np"/><s n="ant"/></l><r>Philip<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Piers<s n="np"/><s n="ant"/></l><r>Piers<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Powle<s n="np"/><s n="ant"/></l><r>Powle<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Prudence<s n="np"/><s n="ant"/></l><r>Prudence<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Rafel<s n="np"/><s n="ant"/></l><r>Rafel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Raffe<s n="np"/><s n="ant"/></l><r>Raffe<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Raff<s n="np"/><s n="ant"/></l><r>Raff<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ralf<s n="np"/><s n="ant"/></l><r>Ralf<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ralph<s n="np"/><s n="ant"/></l><r>Ralph<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ramon<s n="np"/><s n="ant"/></l><r>Ramon<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Raquel<s n="np"/><s n="ant"/></l><r>Raquel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Rauffe<s n="np"/><s n="ant"/></l><r>Rauffe<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Rauff<s n="np"/><s n="ant"/></l><r>Rauff<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Rauf<s n="np"/><s n="ant"/></l><r>Rauf<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Raulin<s n="np"/><s n="ant"/></l><r>Raulin<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Raúl<s n="np"/><s n="ant"/></l><r>Raúl<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Reginald<s n="np"/><s n="ant"/></l><r>Reginald<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Reynard<s n="np"/><s n="ant"/></l><r>Reynard<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Reynold<s n="np"/><s n="ant"/></l><r>Reynold<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Richard<s n="np"/><s n="ant"/></l><r>Richard<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Roberto<s n="np"/><s n="ant"/></l><r>Roberto<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Robert<s n="np"/><s n="ant"/></l><r>Robert<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Rocio<s n="np"/><s n="ant"/></l><r>Rocio<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Roger<s n="np"/><s n="ant"/></l><r>Roger<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Rosa<s n="np"/><s n="ant"/></l><r>Rosa<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Rose<s n="np"/><s n="ant"/></l><r>Rose<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Rowland<s n="np"/><s n="ant"/></l><r>Rowland<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ruben<s n="np"/><s n="ant"/></l><r>Ruben<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Salma<s n="np"/><s n="ant"/></l><r>Salma<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Salvador<s n="np"/><s n="ant"/></l><r>Salvador<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Samuel<s n="np"/><s n="ant"/></l><r>Samuel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Sandra<s n="np"/><s n="ant"/></l><r>Sandra<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Santiago<s n="np"/><s n="ant"/></l><r>Santiago<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Sara<s n="np"/><s n="ant"/></l><r>Sara<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Saray<s n="np"/><s n="ant"/></l><r>Saray<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Sarra<s n="np"/><s n="ant"/></l><r>Sarra<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Sebastià<s n="np"/><s n="ant"/></l><r>Sebastià<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Sence<s n="np"/><s n="ant"/></l><r>Sence<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Sergi<s n="np"/><s n="ant"/></l><r>Sergi<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Sibil<s n="np"/><s n="ant"/></l><r>Sibil<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Sílvia<s n="np"/><s n="ant"/></l><r>Sílvia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Simon<s n="np"/><s n="ant"/></l><r>Simon<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Sònia<s n="np"/><s n="ant"/></l><r>Sònia<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Stehen<s n="np"/><s n="ant"/></l><r>Stehen<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Stephen<s n="np"/><s n="ant"/></l><r>Stephen<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Steven<s n="np"/><s n="ant"/></l><r>Steven<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Susan<s n="np"/><s n="ant"/></l><r>Susan<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Suzanne<s n="np"/><s n="ant"/></l><r>Suzanne<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Sybell<s n="np"/><s n="ant"/></l><r>Sybell<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Sybill<s n="np"/><s n="ant"/></l><r>Sybill<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Sybil<s n="np"/><s n="ant"/></l><r>Sybil<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Symond<s n="np"/><s n="ant"/></l><r>Symond<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Tània<s n="np"/><s n="ant"/></l><r>Tània<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Thames<s n="np"/><s n="ant"/></l><r>Thames<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Thomasine<s n="np"/><s n="ant"/></l><r>Thomasine<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Thomas<s n="np"/><s n="ant"/></l><r>Thomas<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Thomasyn<s n="np"/><s n="ant"/></l><r>Thomasyn<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Tomas<s n="np"/><s n="ant"/></l><r>Tomas<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Tomàs<s n="np"/><s n="ant"/></l><r>Tomàs<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ursula<s n="np"/><s n="ant"/></l><r>Ursula<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Valentine<s n="np"/><s n="ant"/></l><r>Valentine<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Victòria<s n="np"/><s n="ant"/></l><r>Victòria<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Víctor<s n="np"/><s n="ant"/></l><r>Víctor<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Vyncent<s n="np"/><s n="ant"/></l><r>Vyncent<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Walter<s n="np"/><s n="ant"/></l><r>Walter<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Warin<s n="np"/><s n="ant"/></l><r>Warin<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Wenefride<s n="np"/><s n="ant"/></l><r>Wenefride<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Wilham<s n="np"/><s n="ant"/></l><r>Wilham<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>William<s n="np"/><s n="ant"/></l><r>William<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Willmott<s n="np"/><s n="ant"/></l><r>Willmott<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Winnifred<s n="np"/><s n="ant"/></l><r>Winnifred<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Xavier<s n="np"/><s n="ant"/></l><r>Xavier<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Yaiza<s n="np"/><s n="ant"/></l><r>Yaiza<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Yedythe<s n="np"/><s n="ant"/></l><r>Yedythe<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Zacheus<s n="np"/><s n="ant"/></l><r>Zacheus<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Zaira<s n="np"/><s n="ant"/></l><r>Zaira<s n="np"/><s n="ant"/></r></p></e>
+
+    <!--  Toponyms -->
+
+    <e><p><l>Blaenafon<s n="np"/><s n="top"/></l><r>Blaenafon<s n="np"/><s n="top"/></r></p></e>
 
     <!-- Punctuation etc. -->
     <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>

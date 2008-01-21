@@ -2622,7 +2622,7 @@
       <e>
         <p>
           <l/>
-          <r><s n="np"/><s n="loc"/><s n="sg"/></r>
+          <r><s n="np"/><s n="top"/><s n="sg"/></r>
         </p>
       </e>
 </pardef>
@@ -2634,7 +2634,7 @@
                               <e>
         <p>
           <l/>
-          <r><s n="np"/><s n="loc"/><s n="sg"/></r>
+          <r><s n="np"/><s n="top"/><s n="sg"/></r>
         </p>
       </e>
 
@@ -20735,6 +20735,8 @@
 
                         <e lm="living"><i>living</i><par n="expensive__adj"/></e>
 
+                        <e lm="first"><i>first</i><par n="expensive__adj"/></e>
+
                         <e lm="comer"><i>comer</i><par n="expensive__adj"/></e>
 
                         <e lm="vile"><i>vile</i><par n="expensive__adj"/></e>
@@ -26833,7 +26835,7 @@
 
                         <e lm="that"><i>th</i><par n="th/at__prn"/></e>
 
-                        <e lm="this"><i>th</i><par n="th/is__prn"/></e>
+<!--                        <e lm="this"><i>th</i><par n="th/is__prn"/></e> -->
 
                         <e lm="too many"><i>too<b/>many</i><par n="both__prn"/></e>
 
@@ -58146,6 +58148,7 @@
                         <e lm="Lithuania"><i>Lithuania</i><par n="Barcelona__np"/></e>
 
                         <e lm="London"><i>London</i><par n="Barcelona__np"/></e>
+                        <e lm="Blaenafon"><i>Blaenafon</i><par n="Barcelona__np"/></e>
                         <e lm="Bloemfontein"><i>Bloemfontein</i><par n="Barcelona__np"/></e>
 
                         <e lm="Lorraine"><i>Lorraine</i><par n="Barcelona__np"/></e>
@@ -60096,6 +60099,16 @@
 
 
                         <e lm="apply for">  <i>appl</i>  <par n="appl/y__vblex"/>  <p><l><b/>for</l>  <r><g><b/>for</g></r>  </p></e>
+
+                        <e lm="be able">  
+			  <i/>  
+                            <par n="/be__vblex"/>  
+			    <p>
+			      <l><b/>able</l>  
+                              <r><g><b/>able</g></r>  
+                            </p>
+                        </e>
+
 
 
                         <e lm="ask for"><i>ask</i><par n="accept__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
