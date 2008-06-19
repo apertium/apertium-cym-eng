@@ -48835,7 +48835,7 @@
     <e lm="cyfrinair"><par n="initial-c"/><i>yfrin</i><par n="allwedd/air__n"/></e>
     <e lm="cywair"><par n="initial-c"/><i>yw</i><par n="allwedd/air__n"/></e>
     <e lm="dangosair"><par n="initial-d"/><i>angos</i><par n="allwedd/air__n"/></e>
-    <e lm="gair"><i>g</i><par n="allwedd/air__n"/></e>
+    <e lm="gair"><par n="initial-g"/><par n="allwedd/air__n"/></e>
     <e lm="gwair"><par n="initial-g"/><i>w</i><par n="allwedd/air__n"/></e>
     <e lm="rhagair"><par n="initial-rh"/><i>ag</i><par n="allwedd/air__n"/></e>
     <e lm="silwair"><i>silw</i><par n="allwedd/air__n"/></e>
@@ -49114,8 +49114,8 @@
     <e lm="bwlch"><i>b</i><par n="b/wlch__n"/></e>
     <e lm="bwlch"><i>b</i><par n="b/wlch__n"/></e>
     <e lm="olfwlch"><i>olf</i><par n="b/wlch__n"/></e>
-    <e lm="gŵyl"><i>g</i><par n="g/ŵyl__n"/></e>
-    <e lm="gŵyl"><i>g</i><par n="g/ŵyl__n"/></e>
+    <e lm="gŵyl"><par n="initial-g"/><par n="g/ŵyl__n"/></e>
+    <e lm="gŵyl"><par n="initial-g"/><par n="g/ŵyl__n"/></e>
     <e lm="cant"><par n="initial-c"/><i>an</i><par n="can/t__n"/></e>
     <e lm="punt"><par n="initial-p"/><i>un</i><par n="pun/t__n"/></e>
     <e lm="jwg"><i>j</i><par n="j/wg__n"/></e>
@@ -49186,8 +49186,8 @@
     <e lm="sgwrs"><i>sg</i><par n="sg/wrs__n"/></e>
     <e lm="cynsail"><par n="initial-c"/><i>yns</i><par n="cyns/ail__n"/></e>
     <e lm="sail"><i>s</i><par n="cyns/ail__n"/></e>
-    <e lm="gŵr"><i>g</i><par n="g/ŵr__n"/></e>
-    <e lm="gŵr"><i>g</i><par n="g/ŵr__n"/></e>
+    <e lm="gŵr"><par n="initial-g"/><par n="g/ŵr__n"/></e>
+    <e lm="gŵr"><par n="initial-g"/><par n="g/ŵr__n"/></e>
     <e lm="saib"><i>s</i><par n="s/aib__n"/></e>
     <e lm="saib"><i>s</i><par n="s/aib__n"/></e>
     <e lm="cynnyrch"><par n="initial-c"/><i>yn</i><par n="cyn/nyrch__n"/></e>
@@ -49335,7 +49335,7 @@
     <e lm="môr"><i>m</i><par n="m/ôr__n"/></e>
     <e lm="cymharydd"><par n="initial-c"/><i>ym</i><par n="cym/harydd__n"/></e>
     <e lm="morgais"><par n="initial-m"/><i>org</i><par n="morg/ais__n"/></e>
-    <e lm="gafr"><i>g</i><par n="g/afr__n"/></e>
+    <e lm="gafr"><par n="initial-g"/><par n="g/afr__n"/></e>
     <e lm="cynhwysydd"><par n="initial-c"/><i>yn</i><par n="cyn/hwysydd__n"/></e>
     <e lm="twnnel"><par n="initial-t"/><i>wn</i><par n="twn/nel__n"/></e>
     <e lm="swigen"><i>swig</i><par n="swig/en__n"/></e>
@@ -49355,7 +49355,7 @@
     <e lm="oriawr"><i>ori</i><par n="ori/awr__n"/></e>
     <e lm="llwgr"><i>ll</i><par n="ll/wgr__n"/></e>
     <e lm="menter"><par n="initial-m"/><i>ent</i><par n="ment/er__n"/></e>
-    <e lm="gêm"><i>g</i><par n="g/êm__n"/></e>
+    <e lm="gêm"><par n="initial-g"/><par n="g/êm__n"/></e>
     <e lm="cymell"><par n="initial-c"/><i>ym</i><par n="cym/ell__n"/></e>
     <e lm="llên"><i>ll</i><par n="ll/ên__n"/></e>
     <e lm="enghraifft"><i>enghr</i><par n="enghr/aifft__n"/></e>
@@ -49370,7 +49370,7 @@
     <e lm="sgwâr"><i>sgw</i><par n="sgw/âr__n"/></e>
     <e lm="stori"><i>st</i><par n="st/ori__n"/></e>
     <e lm="annedd"><i>an</i><par n="an/nedd__n"/></e>
-    <e lm="gardd"><i>g</i><par n="g/ardd__n"/></e>
+    <e lm="gardd"><par n="initial-g"/><par n="g/ardd__n"/></e>
     <e lm="bargen"><par n="initial-b"/><i>arge</i><par n="barge/n__n"/></e>
     <e lm="sombi"><i>somb</i><par n="somb/i__n"/></e>
     <e lm="cymhorthdal"><par n="initial-c"/><i>ym</i><par n="cym/horthdal__n"/></e>
