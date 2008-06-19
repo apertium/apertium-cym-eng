@@ -52,7 +52,7 @@
     <e><p><l>hyd<s n="pr"/></l><r>until<s n="pr"/></r></p></e>
     <e><p><l>cyn<s n="pr"/></l><r>before<s n="pr"/></r></p></e>
     <e><p><l>fel<s n="pr"/></l><r>like<s n="pr"/></r></p></e>
-    <e><p><l>ger<s n="pr"/></l><r>near<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>ger<s n="pr"/></l><r>near<s n="pr"/></r></p></e>
     <e><p><l>megis<s n="pr"/></l><r>as<s n="pr"/></r></p></e>
     <e r="LR"><p><l>mewn<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
     <e><p><l>wedi<s n="pr"/></l><r>after<s n="pr"/></r></p></e>
@@ -66,7 +66,7 @@
 
 
     <!-- Prepositions using possessive pronoun for inflection -->
-    <e><p><l>ar bwys<s n="pr"/></l><r>near<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>ar bwys<s n="pr"/></l><r>near<s n="pr"/></r></p></e>
     <e><p><l>ar draws<s n="pr"/></l><r>across<s n="pr"/></r></p></e>
     <e><p><l>ar gyfer<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
     <e><p><l>er mwyn<s n="pr"/></l><r>for the sake of<s n="pr"/></r></p></e>
@@ -97,7 +97,7 @@
     <e><p><l>er gwaethaf<s n="pr"/></l><r>in spite of<s n="pr"/></r></p></e>
     <e><p><l>yn erbyn<s n="pr"/></l><r>against<s n="pr"/></r></p></e>
     <e><p><l>gerbron<s n="pr"/></l><r>in the presence of<s n="pr"/></r></p></e>
-    <e><p><l>gerllaw<s n="pr"/></l><r>near<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>gerllaw<s n="pr"/></l><r>near<s n="pr"/></r></p></e>
     <e><p><l>ar hyd<s n="pr"/></l><r>along<s n="pr"/></r></p></e>
     <e><p><l>o achos<s n="pr"/></l><r>because of<s n="pr"/></r></p></e>
     <e><p><l>o gylch<s n="pr"/></l><r>aound<s n="pr"/></r></p></e>
