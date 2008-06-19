@@ -22,6 +22,7 @@
       <attr-item tags="det.ind"/>
       <attr-item tags="det.def"/>
       <attr-item tags="det.dem"/>
+      <attr-item tags="det.pos"/>
     </def-attr>
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
@@ -138,6 +139,124 @@
         </let>
       </action>
     </rule>
+
+    <rule comment="REGLA: DET NOM">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+      <choose>
+      <when>
+        <test>
+	  <and>
+          <equal>
+            <clip pos="1" side="tl" part="lem"/>
+	    <lit v="yr"/>
+	  </equal>
+          <equal>
+            <clip pos="2" side="tl" part="gen"/>
+	    <lit-tag v="f"/>
+	  </equal>
+	  </and>
+	</test>
+	 <out>
+          <chunk name="det_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+            </tags>
+	    <lu>
+	       <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	    <b/>
+	    <lu>
+		<lit-tag v="s1"/> <!-- Soft mutation (limited) -->
+	    </lu>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen" link-to="2"/> 
+              <clip pos="2" side="tl" part="nbr" link-to="3"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+
+      </when>
+
+      <when>
+        <test>
+          <equal>
+            <clip pos="1" side="tl" part="lem"/>
+	    <lit v="fy"/>
+	  </equal>
+	</test>
+	 <out>
+          <chunk name="det_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+            </tags>
+	    <lu>
+	       <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	    <b/>
+	    <lu>
+		<lit-tag v="n1"/> <!-- Nasal mutation -->
+	    </lu>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen" link-to="2"/> 
+              <clip pos="2" side="tl" part="nbr" link-to="3"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+
+      </when>
+	<otherwise>
+        <out>
+          <chunk name="det_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+            </tags>
+	    <lu>
+	       <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	    <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen" link-to="2"/> 
+              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </otherwise>
+      </choose>
+      </action>
+    </rule>
+
+
 
     <rule comment="REGLA: DET">
       <pattern>

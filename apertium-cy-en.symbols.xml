@@ -97,4 +97,10 @@
     <sdef n="pron"/>
     <sdef n="apos"    c="Apostrophe"/>
     <sdef n="abbr"    c="Abbreviation"/>
+
+    <sdef n="r1"/>
+    <sdef n="s1"/>
+    <sdef n="s2"/>
+    <sdef n="n1"/>
+    <sdef n="a1"/>
   </sdefs>

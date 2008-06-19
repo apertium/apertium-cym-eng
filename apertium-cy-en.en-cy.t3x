@@ -44,6 +44,10 @@
                                         <lu>
                                                 <clip pos="2" part="whole"/>
                                         </lu>
+                                        <b pos="2"/>
+                                        <lu>
+                                                <clip pos="3" part="whole"/>
+                                        </lu>
                                 </out>
                         </action>
                 </rule>
@@ -60,6 +64,7 @@
                                 </out>
                         </action>
                 </rule>
+
    <rule comment="CHUNK: nom">
       <pattern>
         <pattern-item n="nom"/>

@@ -57,6 +57,7 @@
 
   </section-def-macros>
   <section-rules>
+
 <rule comment="REGLA: SN">
       <pattern>
         <pattern-item n="SN"/>
@@ -102,6 +103,7 @@
         </call-macro>
       </action>
 </rule>
+
 
     <!--                   S  V  O -->
     <rule comment="REGLA: SN SV SN">
