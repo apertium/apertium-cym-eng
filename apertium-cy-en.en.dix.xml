@@ -1000,7 +1000,7 @@
 
     <pardef n="her__det">
 
-                              <e r="LR">
+                              <e>
         <p>
 	  <l/>
           <r><s n="det"/><s n="pos"/><s n="sp"/></r>
@@ -18195,6 +18195,7 @@
 
 
                         <e lm="equal"><i>equal</i><par n="expensive__adj"/></e>
+                        <e lm="equal in rank"><i>equal<b/>in<b/>rank</i><par n="expensive__adj"/></e>
 
 
                         <e lm="turbulent"><i>turbulent</i><par n="expensive__adj"/></e>

@@ -129,12 +129,29 @@
   </pardefs>
 
   <section id="main" type="standard">
-    <e>
+<!--    <e>
       <p>
         <l><a/>yr<b/></l>
         <r><a/>yr<b/></r>
       </p>
       <par n="alphabet"/>
+    </e>
+
+-->
+    <e>
+      <p>
+        <l><a/>yr<b/></l>
+        <r>yr<b/></r>
+      </p>
+      <par n="vowels"/>
+    </e>
+
+    <e>
+      <p>
+        <l><a/>yr<b/></l>
+        <r>y<b/></r>
+      </p>
+      <par n="consonants"/>
     </e>
 
     <e>

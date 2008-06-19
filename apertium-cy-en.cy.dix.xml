@@ -104,7 +104,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>p</l>
+          <l>p</l>
           <r>p</r>
         </p>
       </e>
@@ -130,7 +130,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>b</l>
+          <l>b</l>
           <r>b</r>
         </p>
       </e>
@@ -162,7 +162,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>t</l>
+          <l>t</l>
           <r>t</r>
         </p>
       </e>
@@ -188,7 +188,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>d</l>
+          <l>d</l>
           <r>d</r>
         </p>
       </e>
@@ -220,7 +220,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>c</l>
+          <l>c</l>
           <r>c</r>
         </p>
       </e>
@@ -246,7 +246,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>g</l>
+          <l>g</l>
           <r>g</r>
         </p>
       </e>
@@ -266,7 +266,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>m</l>
+          <l>m</l>
           <r>m</r>
         </p>
       </e>
@@ -286,7 +286,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>ll</l>
+          <l>ll</l>
           <r>ll</r>
         </p>
       </e>
@@ -306,7 +306,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>rh</l>
+          <l>rh</l>
           <r>rh</r>
         </p>
       </e>
@@ -339,7 +339,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>P</l>
+          <l>P</l>
           <r>P</r>
         </p>
       </e>
@@ -365,7 +365,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>B</l>
+          <l>B</l>
           <r>B</r>
         </p>
       </e>
@@ -397,7 +397,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>T</l>
+          <l>T</l>
           <r>T</r>
         </p>
       </e>
@@ -423,7 +423,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>D</l>
+          <l>D</l>
           <r>D</r>
         </p>
       </e>
@@ -455,7 +455,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>C</l>
+          <l>C</l>
           <r>C</r>
         </p>
       </e>
@@ -481,7 +481,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>G</l>
+          <l>G</l>
           <r>G</r>
         </p>
       </e>
@@ -501,7 +501,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>M</l>
+          <l>M</l>
           <r>M</r>
         </p>
       </e>
@@ -521,7 +521,7 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>Ll</l>
+          <l>Ll</l>
           <r>Ll</r>
         </p>
       </e>
@@ -541,16 +541,88 @@
       </e>
       <e r="RL">
         <p>
-          <l><a/>Rh</l>
+          <l>Rh</l>
           <r>Rh</r>
         </p>
       </e>
     </pardef>
 
+    <pardef n="mutations">
+      <e r="LR">
+        <p>
+          <l><s n="r1"/></l>
+          <r><s n="r1"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/><s n="r1"/></l>
+          <r><s n="r1"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l><s n="s1"/></l>
+          <r><s n="s1"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/><s n="s1"/></l>
+          <r><s n="s1"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l><s n="s2"/></l>
+          <r><s n="s2"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/><s n="s2"/></l>
+          <r><s n="s2"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l><s n="n1"/></l>
+          <r><s n="n1"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/><s n="n1"/></l>
+          <r><s n="n1"/></r>
+        </p>
+      </e>
+
+      <e r="LR">
+        <p>
+          <l><s n="a1"/></l>
+          <r><s n="a1"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/><s n="a1"/></l>
+          <r><s n="a1"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="fy__det">
+      <e>
+        <p>
+          <l/>
+          <r><s n="det"/><s n="pos"/><s n="sp"/></r>
+        </p>
+      </e>
+    </pardef>
 
 
     <pardef n="/yr__det">
-      <e>
+      <e r="LR">
         <p>
           <l>yr</l>
           <r>yr<s n="det"/><s n="def"/><s n="sp"/></r>
@@ -565,6 +637,12 @@
       <e r="LR">
         <p>
           <l>'r</l>
+          <r>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>yr</l>
           <r>yr<s n="det"/><s n="def"/><s n="sp"/></r>
         </p>
       </e>
@@ -46085,6 +46163,7 @@
   </pardefs>
 
   <section id="main" type="standard">
+    <e lm="mutations"><i/><par n="mutations"/></e>
     <e lm="pronoms personals de subjecte"><i/><par n="prsubj__prn"/></e>
 
     <e lm="ar"><i/><par n="/ar__pr"/></e>
@@ -50242,7 +50321,9 @@
     <e lm="ffynci"><i>ffynci</i><par n="caredig__adj"/></e>
     <e lm="ffyniannus"><i>ffyniannus</i><par n="caredig__adj"/></e>
     <e lm="ffyrnig"><i>ffyrnig</i><par n="caredig__adj"/></e>
-    <e lm="fy"><i>fy</i><par n="caredig__adj"/></e>
+
+    <e lm="fy"><i>fy</i><par n="fy__det"/></e>
+
     <e lm="galarnadus"><par n="initial-g"/><i>alarnadus</i><par n="caredig__adj"/></e>
     <e lm="galluog"><par n="initial-g"/><i>alluog</i><par n="caredig__adj"/></e>
     <e lm="galluog"><par n="initial-g"/><i>alluog</i><par n="caredig__adj"/></e>
@@ -50909,7 +50990,11 @@
     <e lm="ymweledig"><i>ymweledig</i><par n="caredig__adj"/></e>
     <e lm="ymwybodol"><i>ymwybodol</i><par n="caredig__adj"/></e>
     <e lm="ymylol"><i>ymylol</i><par n="caredig__adj"/></e>
+
+    <!--
     <e lm="yn"><i>yn</i><par n="caredig__adj"/></e>
+    -->
+
     <e lm="ynghlwm"><i>ynghlwm</i><par n="caredig__adj"/></e>
     <e lm="yn-y-car"><i>yn-y-car</i><par n="caredig__adj"/></e>
     <e lm="ysbeidiol"><i>ysbeidiol</i><par n="caredig__adj"/></e>
