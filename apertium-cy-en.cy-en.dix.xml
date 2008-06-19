@@ -4944,8 +4944,8 @@
     <e><p><l>ysgafn<s n="adj"/></l><r>light<s n="adj"/></r></p></e>
 
     <!-- Verbs -->
+
     <e><p><l>aberthu<s n="vblex"/></l><r>sacrifice<s n="vblex"/></r></p></e>
-    <e><p><l>aberu<s n="vblex"/></l><r>flow into<s n="vblex"/></r></p></e>
     <e><p><l>absennu<s n="vblex"/></l><r>backbite<s n="vblex"/></r></p></e>
     <e><p><l>acennu<s n="vblex"/></l><r>accentuate<s n="vblex"/></r></p></e>
     <e><p><l>achlesu<s n="vblex"/></l><r>succour<s n="vblex"/></r></p></e>
@@ -4955,7 +4955,6 @@
     <e><p><l>achwyn<s n="vblex"/></l><r>complain<s n="vblex"/></r></p></e>
     <e><p><l>actio<s n="vblex"/></l><r>act<s n="vblex"/></r></p></e>
     <e><p><l>adalw<s n="vblex"/></l><r>retrieve<s n="vblex"/></r></p></e>
-    <e><p><l>adara<s n="vblex"/></l><r>catch birds<s n="vblex"/></r></p></e>
     <e><p><l>adarfogi<s n="vblex"/></l><r>rearm<s n="vblex"/></r></p></e>
     <e><p><l>adargraffu<s n="vblex"/></l><r>reprint<s n="vblex"/></r></p></e>
     <e><p><l>adchwyddo<s n="vblex"/></l><r>reinflate<s n="vblex"/></r></p></e>
@@ -4984,9 +4983,7 @@
     <e><p><l>adleoli<s n="vblex"/></l><r>relocate<s n="vblex"/></r></p></e>
     <e><p><l>adlewyrchu<s n="vblex"/></l><r>reflect<s n="vblex"/></r></p></e>
     <e><p><l>adlifo<s n="vblex"/></l><r>reflux<s n="vblex"/></r></p></e>
-
     <e><p><l>adnabod<s n="vblex"/></l><r>know<s n="vblex"/></r></p></e> <!-- to know someone -->
-
     <e><p><l>adneuo<s n="vblex"/></l><r>deposit<s n="vblex"/></r></p></e>
     <e><p><l>adnewyddu<s n="vblex"/></l><r>renew<s n="vblex"/></r></p></e>
     <e><p><l>adnoddu<s n="vblex"/></l><r>resource<s n="vblex"/></r></p></e>
@@ -5049,7 +5046,6 @@
     <e><p><l>aildrefnu<s n="vblex"/></l><r>rearrange<s n="vblex"/></r></p></e>
     <e><p><l>aildroseddu<s n="vblex"/></l><r>reoffend<s n="vblex"/></r></p></e>
     <e><p><l>aildyfu<s n="vblex"/></l><r>regrow<s n="vblex"/></r></p></e>
-    <e><p><l>ailedrych<s n="vblex"/></l><r>look again<s n="vblex"/></r></p></e>
     <e><p><l>ailennill<s n="vblex"/></l><r>re-win<s n="vblex"/></r></p></e>
     <e><p><l>ailfeddiannu<s n="vblex"/></l><r>repossess<s n="vblex"/></r></p></e>
     <e><p><l>ailfeddwl<s n="vblex"/></l><r>rethink<s n="vblex"/></r></p></e>
@@ -5069,7 +5065,6 @@
     <e><p><l>ailgodi<s n="vblex"/></l><r>re-erect<s n="vblex"/></r></p></e>
     <e><p><l>ailgoncro<s n="vblex"/></l><r>reconquer<s n="vblex"/></r></p></e>
     <e><p><l>ailgreu<s n="vblex"/></l><r>recreate<s n="vblex"/></r></p></e>
-    <e><p><l>ailgwympo<s n="vblex"/></l><r>fall again<s n="vblex"/></r></p></e>
     <e><p><l>ailgyfansoddi<s n="vblex"/></l><r>recompose<s n="vblex"/></r></p></e>
     <e><p><l>ailgyfeirio<s n="vblex"/></l><r>re-refer<s n="vblex"/></r></p></e>
     <e><p><l>ailgyflogi<s n="vblex"/></l><r>rehire<s n="vblex"/></r></p></e>
@@ -5078,13 +5073,10 @@
     <e><p><l>ailgyhoeddi<s n="vblex"/></l><r>republish<s n="vblex"/></r></p></e>
     <e><p><l>ailgylchu<s n="vblex"/></l><r>recycle<s n="vblex"/></r></p></e>
     <e><p><l>ailgylchynu<s n="vblex"/></l><r>recycle<s n="vblex"/></r></p></e>
-    <e><p><l>ailgymodi<s n="vblex"/></l><r>reconcile again<s n="vblex"/></r></p></e>
-    <e><p><l>ailgynefino<s n="vblex"/></l><r>reaccustom oneself<s n="vblex"/></r></p></e>
     <e><p><l>ailgynllunio<s n="vblex"/></l><r>replan<s n="vblex"/></r></p></e>
     <e><p><l>ailgynnig<s n="vblex"/></l><r>re-offer<s n="vblex"/></r></p></e>
     <e><p><l>ailgynnull<s n="vblex"/></l><r>reassemble<s n="vblex"/></r></p></e>
     <e><p><l>ailgysegru<s n="vblex"/></l><r>reconsecrate<s n="vblex"/></r></p></e>
-    <e><p><l>ailgysgu<s n="vblex"/></l><r>sleep again<s n="vblex"/></r></p></e>
     <e><p><l>ailgysodi<s n="vblex"/></l><r>recompose<s n="vblex"/></r></p></e>
     <e><p><l>ailgysylltu<s n="vblex"/></l><r>reconnect<s n="vblex"/></r></p></e>
     <e><p><l>ailgyweirio<s n="vblex"/></l><r>reset<s n="vblex"/></r></p></e>
@@ -5097,11 +5089,8 @@
     <e><p><l>ailraddio<s n="vblex"/></l><r>regrade<s n="vblex"/></r></p></e>
     <e><p><l>ailrannu<s n="vblex"/></l><r>redistribute<s n="vblex"/></r></p></e>
     <e><p><l>ailrestru<s n="vblex"/></l><r>relist<s n="vblex"/></r></p></e>
-    <e><p><l>ailrybuddio<s n="vblex"/></l><r>warn again<s n="vblex"/></r></p></e>
     <e><p><l>ailsefydlu<s n="vblex"/></l><r>reestablish<s n="vblex"/></r></p></e>
-    <e><p><l>ailsefyll<s n="vblex"/></l><r>stand again<s n="vblex"/></r></p></e>
     <e><p><l>ailsianelu<s n="vblex"/></l><r>rechannel<s n="vblex"/></r></p></e>
-    <e><p><l>ailstorio<s n="vblex"/></l><r>store again<s n="vblex"/></r></p></e>
     <e><p><l>ailstrwythuro<s n="vblex"/></l><r>restructure<s n="vblex"/></r></p></e>
     <e><p><l>ailwampio<s n="vblex"/></l><r>rework<s n="vblex"/></r></p></e>
     <e><p><l>ailweirio<s n="vblex"/></l><r>rewire<s n="vblex"/></r></p></e>
@@ -5109,15 +5098,12 @@
     <e><p><l>ailwirio<s n="vblex"/></l><r>recheck<s n="vblex"/></r></p></e>
     <e><p><l>ailwladychu<s n="vblex"/></l><r>recolonise<s n="vblex"/></r></p></e>
     <e><p><l>ailwneud<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
-    <e><p><l>ailwrando<s n="vblex"/></l><r>listen again<s n="vblex"/></r></p></e>
     <e><p><l>ailymaelodi<s n="vblex"/></l><r>rejoin<s n="vblex"/></r></p></e>
     <e><p><l>ailymddangos<s n="vblex"/></l><r>reappear<s n="vblex"/></r></p></e>
     <e><p><l>ailymgeisio<s n="vblex"/></l><r>reapply<s n="vblex"/></r></p></e>
     <e><p><l>ailymgynull<s n="vblex"/></l><r>reconvene<s n="vblex"/></r></p></e>
     <e><p><l>ailymosod<s n="vblex"/></l><r>reattack<s n="vblex"/></r></p></e>
-    <e><p><l>ailymrwymo<s n="vblex"/></l><r>recommit oneself<s n="vblex"/></r></p></e>
     <e><p><l>ailymuno<s n="vblex"/></l><r>rejoin<s n="vblex"/></r></p></e>
-    <e><p><l>ailysgogi<s n="vblex"/></l><r>stir again<s n="vblex"/></r></p></e>
     <e><p><l>ailysgwyddo<s n="vblex"/></l><r>reshoulder<s n="vblex"/></r></p></e>
     <e><p><l>ailystyried<s n="vblex"/></l><r>reconsider<s n="vblex"/></r></p></e>
     <e><p><l>ailyswirio<s n="vblex"/></l><r>reinsure<s n="vblex"/></r></p></e>
@@ -5129,8 +5115,6 @@
     <e><p><l>allbynnu<s n="vblex"/></l><r>output<s n="vblex"/></r></p></e>
     <e><p><l>allforio<s n="vblex"/></l><r>export<s n="vblex"/></r></p></e>
     <e><p><l>allfudo<s n="vblex"/></l><r>emigrate<s n="vblex"/></r></p></e>
-    <e><p><l>allgofnodi<s n="vblex"/></l><r>log out<s n="vblex"/></r></p></e>
-    <e><p><l>allolchi<s n="vblex"/></l><r>wash out<s n="vblex"/></r></p></e>
     <e><p><l>alltudio<s n="vblex"/></l><r>exile<s n="vblex"/></r></p></e>
     <e><p><l>allweddu<s n="vblex"/></l><r>key<s n="vblex"/></r></p></e>
     <e><p><l>allyrru<s n="vblex"/></l><r>emit<s n="vblex"/></r></p></e>
@@ -5148,8 +5132,6 @@
     <e><p><l>amgylchynu<s n="vblex"/></l><r>surround<s n="vblex"/></r></p></e>
     <e><p><l>amharchu<s n="vblex"/></l><r>dishonour<s n="vblex"/></r></p></e>
     <e><p><l>amharu<s n="vblex"/></l><r>spoil<s n="vblex"/></r></p></e>
-    <e><p><l>amhwyllo<s n="vblex"/></l><r>go mad<s n="vblex"/></r></p></e>
-    <e><p><l>amlapio<s n="vblex"/></l><r>wrap around<s n="vblex"/></r></p></e>
     <e><p><l>amlhau<s n="vblex"/></l><r>increase<s n="vblex"/></r></p></e>
     <e><p><l>amlinellu<s n="vblex"/></l><r>outline<s n="vblex"/></r></p></e>
     <e><p><l>amlosgi<s n="vblex"/></l><r>cremate<s n="vblex"/></r></p></e>
@@ -5169,7 +5151,6 @@
     <e><p><l>analluogi<s n="vblex"/></l><r>disable<s n="vblex"/></r></p></e>
     <e><p><l>andwyo<s n="vblex"/></l><r>spoil<s n="vblex"/></r></p></e>
     <e><p><l>anelu<s n="vblex"/></l><r>aim<s n="vblex"/></r></p></e>
-    <e><p><l>anesmwytho<s n="vblex"/></l><r>become restless<s n="vblex"/></r></p></e>
     <e><p><l>anfarwoli<s n="vblex"/></l><r>immortalise<s n="vblex"/></r></p></e>
     <e><p><l>anffurfio<s n="vblex"/></l><r>deform<s n="vblex"/></r></p></e>
     <e><p><l>anfoddio<s n="vblex"/></l><r>displease<s n="vblex"/></r></p></e>
@@ -5188,11 +5169,8 @@
     <e><p><l>anghytuno<s n="vblex"/></l><r>disagree<s n="vblex"/></r></p></e>
     <e><p><l>angori<s n="vblex"/></l><r>anchor<s n="vblex"/></r></p></e>
     <e><p><l>anhrefnu<s n="vblex"/></l><r>disarrange<s n="vblex"/></r></p></e>
-    <e><p><l>anhuddo<s n="vblex"/></l><r>bank up<s n="vblex"/></r></p></e>
     <e><p><l>anhwyluso<s n="vblex"/></l><r>inconvenience<s n="vblex"/></r></p></e>
-    <e><p><l>anhyfrydu<s n="vblex"/></l><r>make unpleasant<s n="vblex"/></r></p></e>
     <e><p><l>anifeileiddio<s n="vblex"/></l><r>brutalise<s n="vblex"/></r></p></e>
-    <e><p><l>anlladu<s n="vblex"/></l><r>behave wantonly<s n="vblex"/></r></p></e>
     <e><p><l>annerch<s n="vblex"/></l><r>address<s n="vblex"/></r></p></e>
     <e><p><l>annog<s n="vblex"/></l><r>urge<s n="vblex"/></r></p></e>
     <e><p><l>annos<s n="vblex"/></l><r>incite<s n="vblex"/></r></p></e>
@@ -5205,7 +5183,6 @@
     <e><p><l>ansefydlu<s n="vblex"/></l><r>disestablish<s n="vblex"/></r></p></e>
     <e><p><l>anturio<s n="vblex"/></l><r>venture<s n="vblex"/></r></p></e>
     <e><p><l>anufuddhau<s n="vblex"/></l><r>disobey<s n="vblex"/></r></p></e>
-    <e><p><l>anurddo<s n="vblex"/></l><r>treat with disrespect<s n="vblex"/></r></p></e>
     <e><p><l>anwadalu<s n="vblex"/></l><r>fluctuate<s n="vblex"/></r></p></e>
     <e><p><l>anweddu<s n="vblex"/></l><r>evaporate<s n="vblex"/></r></p></e>
     <e><p><l>anwesu<s n="vblex"/></l><r>fondle<s n="vblex"/></r></p></e>
@@ -5218,7 +5195,6 @@
     <e><p><l>apelio<s n="vblex"/></l><r>appeal<s n="vblex"/></r></p></e>
     <e><p><l>apwyntio<s n="vblex"/></l><r>appoint<s n="vblex"/></r></p></e>
     <e><p><l>aradru<s n="vblex"/></l><r>plough<s n="vblex"/></r></p></e>
-    <e><p><l>arafu<s n="vblex"/></l><r>slow down<s n="vblex"/></r></p></e>
     <e><p><l>aralleirio<s n="vblex"/></l><r>paraphrase<s n="vblex"/></r></p></e>
     <e><p><l>arallgyfeirio<s n="vblex"/></l><r>redirect<s n="vblex"/></r></p></e>
     <e><p><l>arbed<s n="vblex"/></l><r>save<s n="vblex"/></r></p></e>
@@ -5238,11 +5214,9 @@
     <e><p><l>ardystio<s n="vblex"/></l><r>pledge<s n="vblex"/></r></p></e>
     <e><p><l>aredig<s n="vblex"/></l><r>plough<s n="vblex"/></r></p></e>
     <e><p><l>aredig<s n="vblex"/></l><r>plough<s n="vblex"/></r></p></e>
-    <e><p><l>areithio<s n="vblex"/></l><r>make a speech<s n="vblex"/></r></p></e>
     <e><p><l>arestio<s n="vblex"/></l><r>arrest<s n="vblex"/></r></p></e>
     <e><p><l>arfaethu<s n="vblex"/></l><r>intend<s n="vblex"/></r></p></e>
     <e><p><l>arfer<s n="vblex"/></l><r>use<s n="vblex"/></r></p></e>
-    <e><p><l>arferu<s n="vblex"/></l><r>be accustomed<s n="vblex"/></r></p></e>
     <e><p><l>arfogi<s n="vblex"/></l><r>arm<s n="vblex"/></r></p></e>
     <e><p><l>argeisio<s n="vblex"/></l><r>seek<s n="vblex"/></r></p></e>
     <e><p><l>arglwyddiaethu<s n="vblex"/></l><r>govern<s n="vblex"/></r></p></e>
@@ -5256,7 +5230,6 @@
     <e><p><l>arlunio<s n="vblex"/></l><r>paint<s n="vblex"/></r></p></e>
     <e><p><l>arlwyo<s n="vblex"/></l><r>cater<s n="vblex"/></r></p></e>
     <e><p><l>arnofio<s n="vblex"/></l><r>float<s n="vblex"/></r></p></e>
-    <e><p><l>arogldarthu<s n="vblex"/></l><r>burn incense<s n="vblex"/></r></p></e>
     <e><p><l>arogli<s n="vblex"/></l><r>smell<s n="vblex"/></r></p></e>
     <e><p><l>arolygu<s n="vblex"/></l><r>supervise<s n="vblex"/></r></p></e>
     <e><p><l>aros<s n="vblex"/></l><r>wait<s n="vblex"/></r></p></e>
@@ -5284,11 +5257,8 @@
     <e><p><l>atchwelyd<s n="vblex"/></l><r>regress<s n="vblex"/></r></p></e>
     <e><p><l>ateb<s n="vblex"/></l><r>answer<s n="vblex"/></r></p></e>
     <e><p><l>ategu<s n="vblex"/></l><r>support<s n="vblex"/></r></p></e>
-    <e><p><l>atglafychu<s n="vblex"/></l><r>become ill again<s n="vblex"/></r></p></e>
-    <e><p><l>atgnoi<s n="vblex"/></l><r>feel remorse<s n="vblex"/></r></p></e>
     <e><p><l>atgoffa<s n="vblex"/></l><r>remind<s n="vblex"/></r></p></e>
     <e><p><l>atgoffáu<s n="vblex"/></l><r>remind<s n="vblex"/></r></p></e>
-    <e><p><l>atgryfhau<s n="vblex"/></l><r>recover health<s n="vblex"/></r></p></e>
     <e><p><l>atgyfannu<s n="vblex"/></l><r>reintegrate<s n="vblex"/></r></p></e>
     <e><p><l>atgyflyru<s n="vblex"/></l><r>recondition<s n="vblex"/></r></p></e>
     <e><p><l>atgyfnerthu<s n="vblex"/></l><r>replenish<s n="vblex"/></r></p></e>
@@ -5316,7 +5286,6 @@
     <e><p><l>babanu<s n="vblex"/></l><r>spoil<s n="vblex"/></r></p></e>
     <e><p><l>bachu<s n="vblex"/></l><r>hook<s n="vblex"/></r></p></e>
     <e><p><l>bacio<s n="vblex"/></l><r>back<s n="vblex"/></r></p></e>
-    <e><p><l>bacsu<s n="vblex"/></l><r>muddle through<s n="vblex"/></r></p></e>
     <e><p><l>baeddu<s n="vblex"/></l><r>soil<s n="vblex"/></r></p></e>
     <e><p><l>baetio<s n="vblex"/></l><r>bait<s n="vblex"/></r></p></e>
     <e><p><l>bagadu<s n="vblex"/></l><r>cluster<s n="vblex"/></r></p></e>
@@ -5325,23 +5294,17 @@
     <e><p><l>baldorddi<s n="vblex"/></l><r>babble<s n="vblex"/></r></p></e>
     <e><p><l>bancawio<s n="vblex"/></l><r>bind<s n="vblex"/></r></p></e>
     <e><p><l>bancio<s n="vblex"/></l><r>bank<s n="vblex"/></r></p></e>
-    <e><p><l>baneru<s n="vblex"/></l><r>flag up<s n="vblex"/></r></p></e>
     <e><p><l>barbareiddio<s n="vblex"/></l><r>barbarise<s n="vblex"/></r></p></e>
-    <e><p><l>barbio<s n="vblex"/></l><r>clip hedge<s n="vblex"/></r></p></e>
     <e><p><l>barcuta<s n="vblex"/></l><r>hang-glide<s n="vblex"/></r></p></e>
-    <e><p><l>barddoni<s n="vblex"/></l><r>write poetry<s n="vblex"/></r></p></e>
     <e><p><l>bargeinio<s n="vblex"/></l><r>bargain<s n="vblex"/></r></p></e>
     <e><p><l>bargodi<s n="vblex"/></l><r>project<s n="vblex"/></r></p></e>
     <e><p><l>bario<s n="vblex"/></l><r>bar<s n="vblex"/></r></p></e>
     <e><p><l>barneisio<s n="vblex"/></l><r>varnish<s n="vblex"/></r></p></e>
     <e><p><l>barnu<s n="vblex"/></l><r>judge<s n="vblex"/></r></p></e>
-    <e><p><l>barugo<s n="vblex"/></l><r>get frosty<s n="vblex"/></r></p></e>
-    <e><p><l>basgedu<s n="vblex"/></l><r>put in a basket<s n="vblex"/></r></p></e>
     <e><p><l>bathodi<s n="vblex"/></l><r>coin<s n="vblex"/></r></p></e>
     <e><p><l>bathu<s n="vblex"/></l><r>coin<s n="vblex"/></r></p></e>
     <e><p><l>batingo<s n="vblex"/></l><r>hoe<s n="vblex"/></r></p></e>
     <e><p><l>batio<s n="vblex"/></l><r>bat<s n="vblex"/></r></p></e>
-    <e><p><l>bawdfedi<s n="vblex"/></l><r>reap by hand<s n="vblex"/></r></p></e>
     <e><p><l>bedyddio<s n="vblex"/></l><r>baptise<s n="vblex"/></r></p></e>
     <e><p><l>begian<s n="vblex"/></l><r>beg<s n="vblex"/></r></p></e>
     <e><p><l>beichio<s n="vblex"/></l><r>sob<s n="vblex"/></r></p></e>
@@ -5363,14 +5326,12 @@
     <e><p><l>bihafio<s n="vblex"/></l><r>behave<s n="vblex"/></r></p></e>
     <e><p><l>bilio<s n="vblex"/></l><r>bill<s n="vblex"/></r></p></e>
     <e><p><l>blaenbrofi<s n="vblex"/></l><r>anticipate<s n="vblex"/></r></p></e>
-    <e><p><l>blaendalu<s n="vblex"/></l><r>pay in advance<s n="vblex"/></r></p></e>
     <e><p><l>blaendarddu<s n="vblex"/></l><r>sprout<s n="vblex"/></r></p></e>
     <e><p><l>blaenddodi<s n="vblex"/></l><r>prefix<s n="vblex"/></r></p></e>
     <e><p><l>blaendorri<s n="vblex"/></l><r>truncate<s n="vblex"/></r></p></e>
     <e><p><l>blaengynllunio<s n="vblex"/></l><r>blueprint<s n="vblex"/></r></p></e>
     <e><p><l>blaenllymu<s n="vblex"/></l><r>sharpen<s n="vblex"/></r></p></e>
     <e><p><l>blaenori<s n="vblex"/></l><r>precede<s n="vblex"/></r></p></e>
-    <e><p><l>blaenoriaethu<s n="vblex"/></l><r>take precedence<s n="vblex"/></r></p></e>
     <e><p><l>blaguro<s n="vblex"/></l><r>sprout<s n="vblex"/></r></p></e>
     <e><p><l>blasu<s n="vblex"/></l><r>taste<s n="vblex"/></r></p></e>
     <e><p><l>blasuso<s n="vblex"/></l><r>flavour<s n="vblex"/></r></p></e>
@@ -5378,16 +5339,13 @@
     <e><p><l>blino<s n="vblex"/></l><r>tire<s n="vblex"/></r></p></e>
     <e><p><l>blocio<s n="vblex"/></l><r>block<s n="vblex"/></r></p></e>
     <e><p><l>blodeuo<s n="vblex"/></l><r>flower<s n="vblex"/></r></p></e>
-    <e><p><l>blodio<s n="vblex"/></l><r>make meal<s n="vblex"/></r></p></e>
     <e><p><l>bloeddio<s n="vblex"/></l><r>shout<s n="vblex"/></r></p></e>
-    <e><p><l>bloesgi<s n="vblex"/></l><r>speak indistinctly<s n="vblex"/></r></p></e>
     <e><p><l>blonegu<s n="vblex"/></l><r>grease<s n="vblex"/></r></p></e>
     <e><p><l>blotio<s n="vblex"/></l><r>blot<s n="vblex"/></r></p></e>
     <e><p><l>blysio<s n="vblex"/></l><r>crave<s n="vblex"/></r></p></e>
     <e><p><l>blysu<s n="vblex"/></l><r>crave<s n="vblex"/></r></p></e>
     <e><p><l>bochio<s n="vblex"/></l><r>gobble<s n="vblex"/></r></p></e>
     <e><p><l>bocsio<s n="vblex"/></l><r>box<s n="vblex"/></r></p></e>
-
     <e><p><l>bod<s n="vblex"/></l><r>be<s n="vbser"/></r></p></e>
 <!--    <e><p><l>bod<s n="vblex"/></l><r>be<s n="vblex"/></r></p></e> -->
     <e><p><l>boddhau<s n="vblex"/></l><r>please<s n="vblex"/></r></p></e>
@@ -5402,12 +5360,10 @@
     <e><p><l>bolheulo<s n="vblex"/></l><r>sunbathe<s n="vblex"/></r></p></e>
     <e><p><l>bolltio<s n="vblex"/></l><r>bolt<s n="vblex"/></r></p></e>
     <e><p><l>bomio<s n="vblex"/></l><r>bomb<s n="vblex"/></r></p></e>
-    <e><p><l>bonclustio<s n="vblex"/></l><r>box on the ears<s n="vblex"/></r></p></e>
     <e><p><l>bongamu<s n="vblex"/></l><r>waddle<s n="vblex"/></r></p></e>
     <e><p><l>botymu<s n="vblex"/></l><r>button<s n="vblex"/></r></p></e>
     <e><p><l>bowlio<s n="vblex"/></l><r>bowl<s n="vblex"/></r></p></e>
     <e><p><l>bownsio<s n="vblex"/></l><r>bounce<s n="vblex"/></r></p></e>
-    <e><p><l>bracso<s n="vblex"/></l><r>pull through<s n="vblex"/></r></p></e>
     <e><p><l>bradfwriadu<s n="vblex"/></l><r>conspire<s n="vblex"/></r></p></e>
     <e><p><l>bradlofruddio<s n="vblex"/></l><r>assassinate<s n="vblex"/></r></p></e>
     <e><p><l>bradu<s n="vblex"/></l><r>betray<s n="vblex"/></r></p></e>
@@ -5419,9 +5375,7 @@
     <e><p><l>bragu<s n="vblex"/></l><r>brew<s n="vblex"/></r></p></e>
     <e><p><l>brasáu<s n="vblex"/></l><r>fatten<s n="vblex"/></r></p></e>
     <e><p><l>brasbwytho<s n="vblex"/></l><r>baste<s n="vblex"/></r></p></e>
-    <e><p><l>brasbwythu<s n="vblex"/></l><r>sew with large stitches<s n="vblex"/></r></p></e>
     <e><p><l>brasgamu<s n="vblex"/></l><r>stride<s n="vblex"/></r></p></e>
-    <e><p><l>brasio<s n="vblex"/></l><r>do a rough job<s n="vblex"/></r></p></e>
     <e><p><l>braslunio<s n="vblex"/></l><r>sketch<s n="vblex"/></r></p></e>
     <e><p><l>brasnaddu<s n="vblex"/></l><r>rough-hew<s n="vblex"/></r></p></e>
     <e><p><l>brathu<s n="vblex"/></l><r>bite<s n="vblex"/></r></p></e>
@@ -5434,28 +5388,21 @@
     <e><p><l>brefu<s n="vblex"/></l><r>bleat<s n="vblex"/></r></p></e>
     <e><p><l>bregysu<s n="vblex"/></l><r>ferment<s n="vblex"/></r></p></e>
     <e><p><l>breicheidio<s n="vblex"/></l><r>embrace<s n="vblex"/></r></p></e>
-    <e><p><l>breichio<s n="vblex"/></l><r>link arms<s n="vblex"/></r></p></e>
     <e><p><l>breinio<s n="vblex"/></l><r>honour<s n="vblex"/></r></p></e>
     <e><p><l>breintio<s n="vblex"/></l><r>honour<s n="vblex"/></r></p></e>
-    <e><p><l>breisgáu<s n="vblex"/></l><r>become fat<s n="vblex"/></r></p></e>
-    <e><p><l>breisgio<s n="vblex"/></l><r>become fat<s n="vblex"/></r></p></e>
     <e><p><l>breuddwydio<s n="vblex"/></l><r>dream<s n="vblex"/></r></p></e>
-    <e><p><l>breuhau<s n="vblex"/></l><r>become fragile<s n="vblex"/></r></p></e>
-    <e><p><l>breuo<s n="vblex"/></l><r>become brittle<s n="vblex"/></r></p></e>
     <e><p><l>brewlan<s n="vblex"/></l><r>drizzle<s n="vblex"/></r></p></e>
     <e><p><l>bricio<s n="vblex"/></l><r>brick<s n="vblex"/></r></p></e>
     <e><p><l>bridio<s n="vblex"/></l><r>breed<s n="vblex"/></r></p></e>
     <e><p><l>brifo<s n="vblex"/></l><r>hurt<s n="vblex"/></r></p></e>
     <e><p><l>brigbori<s n="vblex"/></l><r>browse<s n="vblex"/></r></p></e>
     <e><p><l>brigdorri<s n="vblex"/></l><r>lop<s n="vblex"/></r></p></e>
-    <e><p><l>brigladd<s n="vblex"/></l><r>lop the top off<s n="vblex"/></r></p></e>
     <e><p><l>brigo<s n="vblex"/></l><r>sprout<s n="vblex"/></r></p></e>
     <e><p><l>britho<s n="vblex"/></l><r>dapple<s n="vblex"/></r></p></e>
     <e><p><l>briwio<s n="vblex"/></l><r>mince<s n="vblex"/></r></p></e>
     <e><p><l>briwlan<s n="vblex"/></l><r>drizzle<s n="vblex"/></r></p></e>
     <e><p><l>briwlio<s n="vblex"/></l><r>broil<s n="vblex"/></r></p></e>
     <e><p><l>briwo<s n="vblex"/></l><r>crush<s n="vblex"/></r></p></e>
-    <e><p><l>briwsioni<s n="vblex"/></l><r>make crumbs<s n="vblex"/></r></p></e>
     <e><p><l>brochi<s n="vblex"/></l><r>foam<s n="vblex"/></r></p></e>
     <e><p><l>brodio<s n="vblex"/></l><r>embroider<s n="vblex"/></r></p></e>
     <e><p><l>brolio<s n="vblex"/></l><r>boast<s n="vblex"/></r></p></e>
@@ -5467,7 +5414,6 @@
     <e><p><l>brwysgio<s n="vblex"/></l><r>stir<s n="vblex"/></r></p></e>
     <e><p><l>brychu<s n="vblex"/></l><r>fleck<s n="vblex"/></r></p></e>
     <e><p><l>brydio<s n="vblex"/></l><r>intend<s n="vblex"/></r></p></e>
-    <e><p><l>brysgerdded<s n="vblex"/></l><r>walk briskly<s n="vblex"/></r></p></e>
     <e><p><l>brysio<s n="vblex"/></l><r>hurry<s n="vblex"/></r></p></e>
     <e><p><l>bryweddu<s n="vblex"/></l><r>brew<s n="vblex"/></r></p></e>
     <e><p><l>buarthu<s n="vblex"/></l><r>pen<s n="vblex"/></r></p></e>
@@ -5482,7 +5428,6 @@
     <e><p><l>bugunad<s n="vblex"/></l><r>bellow<s n="vblex"/></r></p></e>
     <e><p><l>busnesa<s n="vblex"/></l><r>meddle<s n="vblex"/></r></p></e>
     <e><p><l>busnesu<s n="vblex"/></l><r>meddle<s n="vblex"/></r></p></e>
-    <e><p><l>bustachu<s n="vblex"/></l><r>blunder about<s n="vblex"/></r></p></e>
     <e><p><l>bwcio<s n="vblex"/></l><r>book<s n="vblex"/></r></p></e>
     <e><p><l>bwldagu<s n="vblex"/></l><r>belch<s n="vblex"/></r></p></e>
     <e><p><l>bwnglera<s n="vblex"/></l><r>bungle<s n="vblex"/></r></p></e>
@@ -5507,7 +5452,6 @@
     <e><p><l>byrnu<s n="vblex"/></l><r>bundle<s n="vblex"/></r></p></e>
     <e><p><l>byrstio<s n="vblex"/></l><r>burst<s n="vblex"/></r></p></e>
     <e><p><l>byseddu<s n="vblex"/></l><r>finger<s n="vblex"/></r></p></e>
-    <e><p><l>bysellu<s n="vblex"/></l><r>key in<s n="vblex"/></r></p></e>
     <e><p><l>bysio<s n="vblex"/></l><r>finger<s n="vblex"/></r></p></e>
     <e><p><l>bysu<s n="vblex"/></l><r>finger<s n="vblex"/></r></p></e>
     <e><p><l>bytheirio<s n="vblex"/></l><r>threaten<s n="vblex"/></r></p></e>
@@ -5537,15 +5481,12 @@
     <e><p><l>calcio<s n="vblex"/></l><r>caulk<s n="vblex"/></r></p></e>
     <e><p><l>caledu<s n="vblex"/></l><r>harden<s n="vblex"/></r></p></e>
     <e><p><l>calibro<s n="vblex"/></l><r>calibrate<s n="vblex"/></r></p></e>
-    <e><p><l>callio<s n="vblex"/></l><r>get wiser<s n="vblex"/></r></p></e>
     <e><p><l>calonogi<s n="vblex"/></l><r>encourage<s n="vblex"/></r></p></e>
     <e><p><l>cam<s n="vblex"/></l><r>step<s n="vblex"/></r></p></e>
     <e><p><l>camacennu<s n="vblex"/></l><r>mispronounce<s n="vblex"/></r></p></e>
     <e><p><l>camamseru<s n="vblex"/></l><r>mistime<s n="vblex"/></r></p></e>
     <e><p><l>camarfer<s n="vblex"/></l><r>misuse<s n="vblex"/></r></p></e>
     <e><p><l>camarwain<s n="vblex"/></l><r>mislead<s n="vblex"/></r></p></e>
-    <e><p><l>camatal<s n="vblex"/></l><r>withhold unjustly<s n="vblex"/></r></p></e>
-    <e><p><l>camdaflu<s n="vblex"/></l><r>foul throw<s n="vblex"/></r></p></e>
     <e><p><l>camddarlunio<s n="vblex"/></l><r>misrepresent<s n="vblex"/></r></p></e>
     <e><p><l>camddeall<s n="vblex"/></l><r>misunderstand<s n="vblex"/></r></p></e>
     <e><p><l>camddefnyddio<s n="vblex"/></l><r>misuse<s n="vblex"/></r></p></e>
@@ -5555,29 +5496,20 @@
     <e><p><l>camdreulio<s n="vblex"/></l><r>squander<s n="vblex"/></r></p></e>
     <e><p><l>camdrin<s n="vblex"/></l><r>ill-treat<s n="vblex"/></r></p></e>
     <e><p><l>camdybio<s n="vblex"/></l><r>mistake<s n="vblex"/></r></p></e>
-    <e><p><l>camdyngu<s n="vblex"/></l><r>swear falsely<s n="vblex"/></r></p></e>
-    <e><p><l>camdystiolaethu<s n="vblex"/></l><r>commit perjury<s n="vblex"/></r></p></e>
     <e><p><l>camenwi<s n="vblex"/></l><r>miscall<s n="vblex"/></r></p></e>
     <e><p><l>camfarnu<s n="vblex"/></l><r>misjudge<s n="vblex"/></r></p></e>
     <e><p><l>camfeddwl<s n="vblex"/></l><r>misapprehend<s n="vblex"/></r></p></e>
-    <e><p><l>camfesur<s n="vblex"/></l><r>estimate wrongly<s n="vblex"/></r></p></e>
     <e><p><l>camfihafio<s n="vblex"/></l><r>misbehave<s n="vblex"/></r></p></e>
-    <e><p><l>camfucheddu<s n="vblex"/></l><r>lead a dissolute life<s n="vblex"/></r></p></e>
-    <e><p><l>camgoelio<s n="vblex"/></l><r>believe wrongly<s n="vblex"/></r></p></e>
     <e><p><l>camgolledu<s n="vblex"/></l><r>defraud<s n="vblex"/></r></p></e>
-    <e><p><l>camgredu<s n="vblex"/></l><r>believe wrongly<s n="vblex"/></r></p></e>
     <e><p><l>camgyfarwyddo<s n="vblex"/></l><r>mislead<s n="vblex"/></r></p></e>
     <e><p><l>camgyfrifo<s n="vblex"/></l><r>miscalculate<s n="vblex"/></r></p></e>
-    <e><p><l>camgyhuddo<s n="vblex"/></l><r>accuse falsely<s n="vblex"/></r></p></e>
     <e><p><l>camgymryd<s n="vblex"/></l><r>mistake<s n="vblex"/></r></p></e>
     <e><p><l>camhysbysu<s n="vblex"/></l><r>mislead<s n="vblex"/></r></p></e>
     <e><p><l>camleoli<s n="vblex"/></l><r>misplace<s n="vblex"/></r></p></e>
     <e><p><l>camliwio<s n="vblex"/></l><r>misrepresent<s n="vblex"/></r></p></e>
-    <e><p><l>camochri<s n="vblex"/></l><r>go offside<s n="vblex"/></r></p></e>
     <e><p><l>camosod<s n="vblex"/></l><r>mislay<s n="vblex"/></r></p></e>
     <e><p><l>campio<s n="vblex"/></l><r>camp<s n="vblex"/></r></p></e>
     <e><p><l>camrifo<s n="vblex"/></l><r>miscount<s n="vblex"/></r></p></e>
-    <e><p><l>camsefyll<s n="vblex"/></l><r>stand in the wrong place<s n="vblex"/></r></p></e>
     <e><p><l>camsillafu<s n="vblex"/></l><r>mis-spell<s n="vblex"/></r></p></e>
     <e><p><l>camsynio<s n="vblex"/></l><r>mistake<s n="vblex"/></r></p></e>
     <e><p><l>camu<s n="vblex"/></l><r>step<s n="vblex"/></r></p></e>
@@ -5600,7 +5532,6 @@
     <e><p><l>capio<s n="vblex"/></l><r>cap<s n="vblex"/></r></p></e>
     <e><p><l>carboneiddio<s n="vblex"/></l><r>carbonise<s n="vblex"/></r></p></e>
     <e><p><l>carcharu<s n="vblex"/></l><r>imprison<s n="vblex"/></r></p></e>
-    <e><p><l>carcu<s n="vblex"/></l><r>take heed<s n="vblex"/></r></p></e>
     <e><p><l>cardota<s n="vblex"/></l><r>beg<s n="vblex"/></r></p></e>
     <e><p><l>caregu<s n="vblex"/></l><r>petrify<s n="vblex"/></r></p></e>
     <e><p><l>carfaglu<s n="vblex"/></l><r>ensnare<s n="vblex"/></r></p></e>
@@ -5611,7 +5542,6 @@
     <e><p><l>carpedu<s n="vblex"/></l><r>carpet<s n="vblex"/></r></p></e>
     <e><p><l>carpio<s n="vblex"/></l><r>tear<s n="vblex"/></r></p></e>
     <e><p><l>carpu<s n="vblex"/></l><r>tear<s n="vblex"/></r></p></e>
-    <e><p><l>carthu<s n="vblex"/></l><r>muck out<s n="vblex"/></r></p></e>
     <e><p><l>cartio<s n="vblex"/></l><r>cart<s n="vblex"/></r></p></e>
     <e><p><l>cartrefu<s n="vblex"/></l><r>inhabit<s n="vblex"/></r></p></e>
     <e><p><l>caru<s n="vblex"/></l><r>love<s n="vblex"/></r></p></e>
@@ -5620,22 +5550,17 @@
     <e><p><l>castellu<s n="vblex"/></l><r>fortify<s n="vblex"/></r></p></e>
     <e><p><l>castio<s n="vblex"/></l><r>cast<s n="vblex"/></r></p></e>
     <e><p><l>catalogio<s n="vblex"/></l><r>catalogue<s n="vblex"/></r></p></e>
-    <e><p><l>catrodi<s n="vblex"/></l><r>form into regiments<s n="vblex"/></r></p></e>
     <e><p><l>cau<s n="vblex"/></l><r>close<s n="vblex"/></r></p></e>
     <e><p><l>cawlio<s n="vblex"/></l><r>confuse<s n="vblex"/></r></p></e>
-    <e><p><l>cawna<s n="vblex"/></l><r>gather reeds<s n="vblex"/></r></p></e>
     <e><p><l>cawodi<s n="vblex"/></l><r>shower<s n="vblex"/></r></p></e>
     <e><p><l>cebystru<s n="vblex"/></l><r>halter<s n="vblex"/></r></p></e>
     <e><p><l>cecian<s n="vblex"/></l><r>stutter<s n="vblex"/></r></p></e>
     <e><p><l>cecru<s n="vblex"/></l><r>quarrel<s n="vblex"/></r></p></e>
-    <e><p><l>cedenu<s n="vblex"/></l><r>nap cloth<s n="vblex"/></r></p></e>
     <e><p><l>cefnogi<s n="vblex"/></l><r>support<s n="vblex"/></r></p></e>
-    <e><p><l>cefnu<s n="vblex"/></l><r>turn your back on<s n="vblex"/></r></p></e>
     <e><p><l>cega<s n="vblex"/></l><r>mouth<s n="vblex"/></r></p></e>
     <e><p><l>cegrythu<s n="vblex"/></l><r>yawn<s n="vblex"/></r></p></e>
     <e><p><l>cegu<s n="vblex"/></l><r>gulp<s n="vblex"/></r></p></e>
     <e><p><l>ceibio<s n="vblex"/></l><r>hack<s n="vblex"/></r></p></e>
-    <e><p><l>ceincio<s n="vblex"/></l><r>spread out<s n="vblex"/></r></p></e>
     <e><p><l>ceintach<s n="vblex"/></l><r>grumble<s n="vblex"/></r></p></e>
     <e><p><l>ceisio<s n="vblex"/></l><r>seek<s n="vblex"/></r></p></e>
     <e><p><l>celcio<s n="vblex"/></l><r>conceal<s n="vblex"/></r></p></e>
@@ -5648,7 +5573,6 @@
     <e><p><l>cenglu<s n="vblex"/></l><r>wind<s n="vblex"/></r></p></e>
     <e><p><l>cenhadu<s n="vblex"/></l><r>proselytise<s n="vblex"/></r></p></e>
     <e><p><l>cenhedlu<s n="vblex"/></l><r>beget<s n="vblex"/></r></p></e>
-    <e><p><l>cennu<s n="vblex"/></l><r>grow scaly<s n="vblex"/></r></p></e>
     <e><p><l>cerdded<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
     <e><p><l>cerddetan<s n="vblex"/></l><r>stroll<s n="vblex"/></r></p></e>
     <e><p><l>cerfio<s n="vblex"/></l><r>carve<s n="vblex"/></r></p></e>
@@ -5660,19 +5584,14 @@
     <e><p><l>chwaethu<s n="vblex"/></l><r>savour<s n="vblex"/></r></p></e>
     <e><p><l>chwalpio<s n="vblex"/></l><r>butcher<s n="vblex"/></r></p></e>
     <e><p><l>chwalu<s n="vblex"/></l><r>scatter<s n="vblex"/></r></p></e>
-    <e><p><l>chwantu<s n="vblex"/></l><r>lust after<s n="vblex"/></r></p></e>
     <e><p><l>chwarae<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
     <e><p><l>chwarterio<s n="vblex"/></l><r>quarter<s n="vblex"/></r></p></e>
     <e><p><l>chwarteru<s n="vblex"/></l><r>quarter<s n="vblex"/></r></p></e>
-    <e><p><l>chwedleua<s n="vblex"/></l><r>tell a tale<s n="vblex"/></r></p></e>
     <e><p><l>chwennych<s n="vblex"/></l><r>desire<s n="vblex"/></r></p></e>
     <e><p><l>chwenychu<s n="vblex"/></l><r>desire<s n="vblex"/></r></p></e>
     <e><p><l>chwerthin<s n="vblex"/></l><r>laugh<s n="vblex"/></r></p></e>
-    <e><p><l>chwerwi<s n="vblex"/></l><r>become bitter<s n="vblex"/></r></p></e>
     <e><p><l>chwibanu<s n="vblex"/></l><r>whistle<s n="vblex"/></r></p></e>
     <e><p><l>chwibianu<s n="vblex"/></l><r>whistle<s n="vblex"/></r></p></e>
-    <e><p><l>chwiblo<s n="vblex"/></l><r>turn sour<s n="vblex"/></r></p></e>
-    <e><p><l>chwidlo<s n="vblex"/></l><r>inform on<s n="vblex"/></r></p></e>
     <e><p><l>chwifio<s n="vblex"/></l><r>wave<s n="vblex"/></r></p></e>
     <e><p><l>chwilfriwio<s n="vblex"/></l><r>smash<s n="vblex"/></r></p></e>
     <e><p><l>chwilio<s n="vblex"/></l><r>search<s n="vblex"/></r></p></e>
@@ -5699,7 +5618,6 @@
     <e><p><l>cigyddio<s n="vblex"/></l><r>butcher<s n="vblex"/></r></p></e>
     <e><p><l>cilagor<s n="vblex"/></l><r>half-open<s n="vblex"/></r></p></e>
     <e><p><l>cildremio<s n="vblex"/></l><r>glance<s n="vblex"/></r></p></e>
-    <e><p><l>cildynnu<s n="vblex"/></l><r>become obstinate<s n="vblex"/></r></p></e>
     <e><p><l>ciledrych<s n="vblex"/></l><r>peep<s n="vblex"/></r></p></e>
     <e><p><l>cilgnoi<s n="vblex"/></l><r>ruminate<s n="vblex"/></r></p></e>
     <e><p><l>cilgwthio<s n="vblex"/></l><r>repel<s n="vblex"/></r></p></e>
@@ -5712,30 +5630,22 @@
     <e><p><l>ciprys<s n="vblex"/></l><r>contend<s n="vblex"/></r></p></e>
     <e><p><l>ciwio<s n="vblex"/></l><r>queue<s n="vblex"/></r></p></e>
     <e><p><l>claddu<s n="vblex"/></l><r>bury<s n="vblex"/></r></p></e>
-    <e><p><l>claearu<s n="vblex"/></l><r>become lukewarm<s n="vblex"/></r></p></e>
-    <e><p><l>claeru<s n="vblex"/></l><r>become lukewarm<s n="vblex"/></r></p></e>
     <e><p><l>clafeiddio<s n="vblex"/></l><r>sicken<s n="vblex"/></r></p></e>
     <e><p><l>clafychu<s n="vblex"/></l><r>sicken<s n="vblex"/></r></p></e>
     <e><p><l>clampio<s n="vblex"/></l><r>clamp<s n="vblex"/></r></p></e>
     <e><p><l>clandrio<s n="vblex"/></l><r>reckon<s n="vblex"/></r></p></e>
-    <e><p><l>clapian<s n="vblex"/></l><r>tell tales<s n="vblex"/></r></p></e>
     <e><p><l>clapio<s n="vblex"/></l><r>clap<s n="vblex"/></r></p></e>
     <e><p><l>clatsian<s n="vblex"/></l><r>crackle<s n="vblex"/></r></p></e>
     <e><p><l>clatsio<s n="vblex"/></l><r>clout<s n="vblex"/></r></p></e>
     <e><p><l>clebran<s n="vblex"/></l><r>prattle<s n="vblex"/></r></p></e>
-    <e><p><l>clecian<s n="vblex"/></l><r>tell tales<s n="vblex"/></r></p></e>
     <e><p><l>cledru<s n="vblex"/></l><r>beat<s n="vblex"/></r></p></e>
     <e><p><l>clegru<s n="vblex"/></l><r>tattle<s n="vblex"/></r></p></e>
-    <e><p><l>cleilenwi<s n="vblex"/></l><r>put clay on<s n="vblex"/></r></p></e>
-    <e><p><l>cleio<s n="vblex"/></l><r>put clay on<s n="vblex"/></r></p></e>
     <e><p><l>cleisio<s n="vblex"/></l><r>bruise<s n="vblex"/></r></p></e>
     <e><p><l>clemio<s n="vblex"/></l><r>patch<s n="vblex"/></r></p></e>
     <e><p><l>clensio<s n="vblex"/></l><r>clench<s n="vblex"/></r></p></e>
     <e><p><l>clepio<s n="vblex"/></l><r>tattle<s n="vblex"/></r></p></e>
-    <e><p><l>clercio<s n="vblex"/></l><r>act as clerk to<s n="vblex"/></r></p></e>
     <e><p><l>clero<s n="vblex"/></l><r>frisk<s n="vblex"/></r></p></e>
     <e><p><l>clewtio<s n="vblex"/></l><r>clout<s n="vblex"/></r></p></e>
-    <e><p><l>cliciedu<s n="vblex"/></l><r>fasten with a latch<s n="vblex"/></r></p></e>
     <e><p><l>clicio<s n="vblex"/></l><r>click<s n="vblex"/></r></p></e>
     <e><p><l>clipio<s n="vblex"/></l><r>clip<s n="vblex"/></r></p></e>
     <e><p><l>clirio<s n="vblex"/></l><r>clear<s n="vblex"/></r></p></e>
@@ -5748,12 +5658,9 @@
     <e><p><l>cloi<s n="vblex"/></l><r>lock<s n="vblex"/></r></p></e>
     <e><p><l>cloncio<s n="vblex"/></l><r>clank<s n="vblex"/></r></p></e>
     <e><p><l>cloriannu<s n="vblex"/></l><r>balance<s n="vblex"/></r></p></e>
-    <e><p><l>closio<s n="vblex"/></l><r>draw close<s n="vblex"/></r></p></e>
     <e><p><l>cludo<s n="vblex"/></l><r>carry<s n="vblex"/></r></p></e>
     <e><p><l>clunhecio<s n="vblex"/></l><r>hobble<s n="vblex"/></r></p></e>
-    <e><p><l>clunhercio<s n="vblex"/></l><r>hobble along<s n="vblex"/></r></p></e>
     <e><p><l>cluro<s n="vblex"/></l><r>colour<s n="vblex"/></r></p></e>
-    <e><p><l>clustfeinio<s n="vblex"/></l><r>listen hard<s n="vblex"/></r></p></e>
     <e><p><l>clustnodi<s n="vblex"/></l><r>earmark<s n="vblex"/></r></p></e>
     <e><p><l>clwcio<s n="vblex"/></l><r>cluck<s n="vblex"/></r></p></e>
     <e><p><l>clwydo<s n="vblex"/></l><r>roost<s n="vblex"/></r></p></e>
@@ -5766,15 +5673,12 @@
     <e><p><l>cnecio<s n="vblex"/></l><r>jar<s n="vblex"/></r></p></e>
     <e><p><l>cnecu<s n="vblex"/></l><r>jar<s n="vblex"/></r></p></e>
     <e><p><l>cneifio<s n="vblex"/></l><r>shear<s n="vblex"/></r></p></e>
-    <e><p><l>cneua<s n="vblex"/></l><r>gather nuts<s n="vblex"/></r></p></e>
-    <e><p><l>cneuo<s n="vblex"/></l><r>gather nuts<s n="vblex"/></r></p></e>
     <e><p><l>cnithio<s n="vblex"/></l><r>tap<s n="vblex"/></r></p></e>
     <e><p><l>cnocellu<s n="vblex"/></l><r>peck<s n="vblex"/></r></p></e>
     <e><p><l>cnocio<s n="vblex"/></l><r>knock<s n="vblex"/></r></p></e>
     <e><p><l>cnoi<s n="vblex"/></l><r>chew<s n="vblex"/></r></p></e>
     <e><p><l>cnuchio<s n="vblex"/></l><r>copulate<s n="vblex"/></r></p></e>
     <e><p><l>cnulio<s n="vblex"/></l><r>clamour<s n="vblex"/></r></p></e>
-    <e><p><l>cnydio<s n="vblex"/></l><r>bear fruit<s n="vblex"/></r></p></e>
     <e><p><l>cobleru<s n="vblex"/></l><r>cobble<s n="vblex"/></r></p></e>
     <e><p><l>cochi<s n="vblex"/></l><r>blush<s n="vblex"/></r></p></e>
     <e><p><l>cochli<s n="vblex"/></l><r>cloak<s n="vblex"/></r></p></e>
@@ -5783,7 +5687,6 @@
     <e><p><l>codio<s n="vblex"/></l><r>code<s n="vblex"/></r></p></e>
     <e><p><l>codlo<s n="vblex"/></l><r>muddle<s n="vblex"/></r></p></e>
     <e><p><l>codymu<s n="vblex"/></l><r>tumble<s n="vblex"/></r></p></e>
-    <e><p><l>coedio<s n="vblex"/></l><r>construct timberwork<s n="vblex"/></r></p></e>
     <e><p><l>coedwigo<s n="vblex"/></l><r>forest<s n="vblex"/></r></p></e>
     <e><p><l>coegi<s n="vblex"/></l><r>lampoon<s n="vblex"/></r></p></e>
     <e><p><l>coegio<s n="vblex"/></l><r>cheat<s n="vblex"/></r></p></e>
@@ -5791,7 +5694,6 @@
     <e><p><l>coethi<s n="vblex"/></l><r>purify<s n="vblex"/></r></p></e>
     <e><p><l>coffáu<s n="vblex"/></l><r>commemorate<s n="vblex"/></r></p></e>
     <e><p><l>cofftio<s n="vblex"/></l><r>quaff<s n="vblex"/></r></p></e>
-    <e><p><l>cofiannu<s n="vblex"/></l><r>write a memoir<s n="vblex"/></r></p></e>
     <e><p><l>cofio<s n="vblex"/></l><r>remember<s n="vblex"/></r></p></e>
     <e><p><l>cofleidio<s n="vblex"/></l><r>hug<s n="vblex"/></r></p></e>
     <e><p><l>cofnodi<s n="vblex"/></l><r>record<s n="vblex"/></r></p></e>
@@ -5830,7 +5732,6 @@
     <e><p><l>corganu<s n="vblex"/></l><r>chant<s n="vblex"/></r></p></e>
     <e><p><l>corlannu<s n="vblex"/></l><r>pen<s n="vblex"/></r></p></e>
     <e><p><l>cornelu<s n="vblex"/></l><r>corner<s n="vblex"/></r></p></e>
-    <e><p><l>corni<s n="vblex"/></l><r>become hard<s n="vblex"/></r></p></e>
     <e><p><l>cornio<s n="vblex"/></l><r>gore<s n="vblex"/></r></p></e>
     <e><p><l>coroni<s n="vblex"/></l><r>crown<s n="vblex"/></r></p></e>
     <e><p><l>cosbi<s n="vblex"/></l><r>punish<s n="vblex"/></r></p></e>
@@ -5838,8 +5739,6 @@
     <e><p><l>costio<s n="vblex"/></l><r>cost<s n="vblex"/></r></p></e>
     <e><p><l>costrelu<s n="vblex"/></l><r>bottle<s n="vblex"/></r></p></e>
     <e><p><l>cowntio<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
-    <e><p><l>crabio<s n="vblex"/></l><r>waste away<s n="vblex"/></r></p></e>
-    <e><p><l>crachennu<s n="vblex"/></l><r>become scabby<s n="vblex"/></r></p></e>
     <e><p><l>cracio<s n="vblex"/></l><r>crack<s n="vblex"/></r></p></e>
     <e><p><l>crafangu<s n="vblex"/></l><r>claw<s n="vblex"/></r></p></e>
     <e><p><l>craffu<s n="vblex"/></l><r>grasp<s n="vblex"/></r></p></e>
@@ -5855,28 +5754,23 @@
     <e><p><l>crecio<s n="vblex"/></l><r>cackle<s n="vblex"/></r></p></e>
     <e><p><l>credu<s n="vblex"/></l><r>believe<s n="vblex"/></r></p></e>
     <e><p><l>credydu<s n="vblex"/></l><r>credit<s n="vblex"/></r></p></e>
-    <e><p><l>crefftwra<s n="vblex"/></l><r>practise a craft<s n="vblex"/></r></p></e>
     <e><p><l>creffynnu<s n="vblex"/></l><r>bind<s n="vblex"/></r></p></e>
     <e><p><l>crefu<s n="vblex"/></l><r>implore<s n="vblex"/></r></p></e>
     <e><p><l>crefyddu<s n="vblex"/></l><r>worship<s n="vblex"/></r></p></e>
     <e><p><l>creiddio<s n="vblex"/></l><r>centralise<s n="vblex"/></r></p></e>
     <e><p><l>creinio<s n="vblex"/></l><r>wallow<s n="vblex"/></r></p></e>
-    <e><p><l>creisioni<s n="vblex"/></l><r>burn to ashes<s n="vblex"/></r></p></e>
     <e><p><l>creithio<s n="vblex"/></l><r>scar<s n="vblex"/></r></p></e>
     <e><p><l>crensian<s n="vblex"/></l><r>crunch<s n="vblex"/></r></p></e>
     <e><p><l>crensio<s n="vblex"/></l><r>crunch<s n="vblex"/></r></p></e>
     <e><p><l>crestennu<s n="vblex"/></l><r>encrust<s n="vblex"/></r></p></e>
     <e><p><l>creu<s n="vblex"/></l><r>create<s n="vblex"/></r></p></e>
-    <e><p><l>creuloni<s n="vblex"/></l><r>become cruel<s n="vblex"/></r></p></e>
     <e><p><l>crewcian<s n="vblex"/></l><r>croak<s n="vblex"/></r></p></e>
     <e><p><l>crewtio<s n="vblex"/></l><r>whine<s n="vblex"/></r></p></e>
     <e><p><l>cribddeilio<s n="vblex"/></l><r>extort<s n="vblex"/></r></p></e>
     <e><p><l>cribinio<s n="vblex"/></l><r>rake<s n="vblex"/></r></p></e>
     <e><p><l>cribo<s n="vblex"/></l><r>comb<s n="vblex"/></r></p></e>
     <e><p><l>crimpio<s n="vblex"/></l><r>crimp<s n="vblex"/></r></p></e>
-    <e><p><l>crinellu<s n="vblex"/></l><r>become brittle<s n="vblex"/></r></p></e>
     <e><p><l>crino<s n="vblex"/></l><r>wither<s n="vblex"/></r></p></e>
-    <e><p><l>crintachu<s n="vblex"/></l><r>become miserly<s n="vblex"/></r></p></e>
     <e><p><l>crio<s n="vblex"/></l><r>cry<s n="vblex"/></r></p></e>
     <e><p><l>cripian<s n="vblex"/></l><r>crawl<s n="vblex"/></r></p></e>
     <e><p><l>cripio<s n="vblex"/></l><r>creep<s n="vblex"/></r></p></e>
@@ -5898,8 +5792,6 @@
     <e><p><l>cropian<s n="vblex"/></l><r>crawl<s n="vblex"/></r></p></e>
     <e><p><l>cropio<s n="vblex"/></l><r>trim<s n="vblex"/></r></p></e>
     <e><p><l>crosio<s n="vblex"/></l><r>crochet<s n="vblex"/></r></p></e>
-    <e><p><l>cruglwytho<s n="vblex"/></l><r>heap together<s n="vblex"/></r></p></e>
-    <e><p><l>crugo<s n="vblex"/></l><r>pile up<s n="vblex"/></r></p></e>
     <e><p><l>crwnio<s n="vblex"/></l><r>croon<s n="vblex"/></r></p></e>
     <e><p><l>crwydro<s n="vblex"/></l><r>wander<s n="vblex"/></r></p></e>
     <e><p><l>crybwyll<s n="vblex"/></l><r>mention<s n="vblex"/></r></p></e>
@@ -5909,11 +5801,8 @@
     <e><p><l>crydu<s n="vblex"/></l><r>tremble<s n="vblex"/></r></p></e>
     <e><p><l>cryffáu<s n="vblex"/></l><r>strengthen<s n="vblex"/></r></p></e>
     <e><p><l>cryfhau<s n="vblex"/></l><r>strengthen<s n="vblex"/></r></p></e>
-    <e><p><l>crygleisio<s n="vblex"/></l><r>speak hoarsely<s n="vblex"/></r></p></e>
-    <e><p><l>crygu<s n="vblex"/></l><r>become hoarse<s n="vblex"/></r></p></e>
     <e><p><l>crymanu<s n="vblex"/></l><r>slice<s n="vblex"/></r></p></e> <!-- a kick -->
     <e><p><l>crymu<s n="vblex"/></l><r>stoop<s n="vblex"/></r></p></e>
-    <e><p><l>crynhau<s n="vblex"/></l><r>become round<s n="vblex"/></r></p></e>
     <e><p><l>crynhoi<s n="vblex"/></l><r>summarise<s n="vblex"/></r></p></e>
     <e><p><l>crynodebu<s n="vblex"/></l><r>summarise<s n="vblex"/></r></p></e>
     <e><p><l>crynu<s n="vblex"/></l><r>shiver<s n="vblex"/></r></p></e>
@@ -5926,7 +5815,6 @@
     <e><p><l>cwato<s n="vblex"/></l><r>hide<s n="vblex"/></r></p></e>
     <e><p><l>cwblhau<s n="vblex"/></l><r>complete<s n="vblex"/></r></p></e>
     <e><p><l>cweryla<s n="vblex"/></l><r>quarrel<s n="vblex"/></r></p></e>
-    <e><p><l>cwestio<s n="vblex"/></l><r>hold an inquiry<s n="vblex"/></r></p></e>
     <e><p><l>cwestiynu<s n="vblex"/></l><r>question<s n="vblex"/></r></p></e>
     <e><p><l>cwffio<s n="vblex"/></l><r>fight<s n="vblex"/></r></p></e>
     <e><p><l>cwlio<s n="vblex"/></l><r>reproach<s n="vblex"/></r></p></e>
@@ -5947,88 +5835,48 @@
     <e><p><l>cwynfanu<s n="vblex"/></l><r>complain<s n="vblex"/></r></p></e>
     <e><p><l>cwyno<s n="vblex"/></l><r>complain<s n="vblex"/></r></p></e>
     <e><p><l>cwyro<s n="vblex"/></l><r>polish<s n="vblex"/></r></p></e>
-    <e><p><l>cyboli<s n="vblex"/></l><r>talk nonsense<s n="vblex"/></r></p></e>
     <e><p><l>cybyddu<s n="vblex"/></l><r>covet<s n="vblex"/></r></p></e>
-    <e><p><l>cychio<s n="vblex"/></l><r>keep bees<s n="vblex"/></r></p></e>
-    <e><p><l>cychu<s n="vblex"/></l><r>keep bees<s n="vblex"/></r></p></e>
     <e><p><l>cychwyn<s n="vblex"/></l><r>start<s n="vblex"/></r></p></e>
     <e><p><l>cycyllu<s n="vblex"/></l><r>hood<s n="vblex"/></r></p></e>
     <e><p><l>cydaddoli<s n="vblex"/></l><r>co-worship<s n="vblex"/></r></p></e>
     <e><p><l>cydaddysgu<s n="vblex"/></l><r>co-educate<s n="vblex"/></r></p></e>
-    <e><p><l>cydadrodd<s n="vblex"/></l><r>recite together<s n="vblex"/></r></p></e>
     <e><p><l>cydariannu<s n="vblex"/></l><r>co-finance<s n="vblex"/></r></p></e>
-    <e><p><l>cydarwain<s n="vblex"/></l><r>lead jointly<s n="vblex"/></r></p></e>
     <e><p><l>cydateb<s n="vblex"/></l><r>correspond<s n="vblex"/></r></p></e>
-    <e><p><l>cydbenderfynu<s n="vblex"/></l><r>decide together<s n="vblex"/></r></p></e>
-    <e><p><l>cydbwrcasu<s n="vblex"/></l><r>purchase jointly<s n="vblex"/></r></p></e>
     <e><p><l>cydbwyso<s n="vblex"/></l><r>balance<s n="vblex"/></r></p></e>
-    <e><p><l>cyd-ddefnyddio<s n="vblex"/></l><r>share the use of<s n="vblex"/></r></p></e>
-    <e><p><l>cyd-ddioddef<s n="vblex"/></l><r>suffer together<s n="vblex"/></r></p></e>
     <e><p><l>cyd-deimlo<s n="vblex"/></l><r>sympathise<s n="vblex"/></r></p></e>
-    <e><p><l>cyd-deithio<s n="vblex"/></l><r>travel together<s n="vblex"/></r></p></e>
-    <e><p><l>cyd-drefnu<s n="vblex"/></l><r>arrange jointly<s n="vblex"/></r></p></e>
-    <e><p><l>cyd-dyfu<s n="vblex"/></l><r>grow togther<s n="vblex"/></r></p></e>
-    <e><p><l>cyd-dynnu<s n="vblex"/></l><r>act in harmony<s n="vblex"/></r></p></e>
-    <e><p><l>cydeistedd<s n="vblex"/></l><r>sit jointly<s n="vblex"/></r></p></e>
-    <e><p><l>cydfagu<s n="vblex"/></l><r>raise jointly<s n="vblex"/></r></p></e>
-    <e><p><l>cydfarnu<s n="vblex"/></l><r>judge jointly<s n="vblex"/></r></p></e>
-    <e><p><l>cydfeddiannu<s n="vblex"/></l><r>possess in common<s n="vblex"/></r></p></e>
-    <e><p><l>cydfenthyg<s n="vblex"/></l><r>borrow jointly<s n="vblex"/></r></p></e>
     <e><p><l>cydffurfio<s n="vblex"/></l><r>conform<s n="vblex"/></r></p></e>
     <e><p><l>cydfodoli<s n="vblex"/></l><r>co-exist<s n="vblex"/></r></p></e>
-    <e><p><l>cydfonitro<s n="vblex"/></l><r>monitor jointly<s n="vblex"/></r></p></e>
-    <e><p><l>cydfwriadu<s n="vblex"/></l><r>plan together<s n="vblex"/></r></p></e>
-    <e><p><l>cydfyw<s n="vblex"/></l><r>live together<s n="vblex"/></r></p></e>
     <e><p><l>cydganlyn<s n="vblex"/></l><r>accompany<s n="vblex"/></r></p></e>
-    <e><p><l>cydganu<s n="vblex"/></l><r>sing together<s n="vblex"/></r></p></e>
-    <e><p><l>cydgasglu<s n="vblex"/></l><r>gather together<s n="vblex"/></r></p></e>
-    <e><p><l>cydgefnogi<s n="vblex"/></l><r>support jointly<s n="vblex"/></r></p></e>
     <e><p><l>cydgeisio<s n="vblex"/></l><r>compete<s n="vblex"/></r></p></e>
     <e><p><l>cydgerdded<s n="vblex"/></l><r>accompany<s n="vblex"/></r></p></e>
-    <e><p><l>cydgomisiynu<s n="vblex"/></l><r>commission jointly<s n="vblex"/></r></p></e>
     <e><p><l>cydgordio<s n="vblex"/></l><r>accord<s n="vblex"/></r></p></e>
     <e><p><l>cydgroesi<s n="vblex"/></l><r>concur<s n="vblex"/></r></p></e>
-    <e><p><l>cydgrynhoi<s n="vblex"/></l><r>gather together<s n="vblex"/></r></p></e>
     <e><p><l>cydgyfeirio<s n="vblex"/></l><r>converge<s n="vblex"/></r></p></e>
     <e><p><l>cydgyffwrdd<s n="vblex"/></l><r>coincide<s n="vblex"/></r></p></e>
     <e><p><l>cydgyfranogi<s n="vblex"/></l><r>participate<s n="vblex"/></r></p></e>
-    <e><p><l>cydgyllido<s n="vblex"/></l><r>finance jointly<s n="vblex"/></r></p></e>
     <e><p><l>cydgynllunio<s n="vblex"/></l><r>collude<s n="vblex"/></r></p></e>
-    <e><p><l>cydgynnull<s n="vblex"/></l><r>gather together<s n="vblex"/></r></p></e>
     <e><p><l>cydio<s n="vblex"/></l><r>grip<s n="vblex"/></r></p></e>
     <e><p><l>cydladd<s n="vblex"/></l><r>agree<s n="vblex"/></r></p></e>
-    <e><p><l>cydlafurio<s n="vblex"/></l><r>work jointly<s n="vblex"/></r></p></e>
-    <e><p><l>cydlawenhau<s n="vblex"/></l><r>rejoice jointly<s n="vblex"/></r></p></e>
     <e><p><l>cydleoli<s n="vblex"/></l><r>colocate<s n="vblex"/></r></p></e>
-    <e><p><l>cydletya<s n="vblex"/></l><r>lodge together<s n="vblex"/></r></p></e>
-    <e><p><l>cydlifio<s n="vblex"/></l><r>flow together<s n="vblex"/></r></p></e>
     <e><p><l>cydlofnoda<s n="vblex"/></l><r>co-sign<s n="vblex"/></r></p></e>
     <e><p><l>cydlynu<s n="vblex"/></l><r>cohere<s n="vblex"/></r></p></e>
-    <e><p><l>cydoesi<s n="vblex"/></l><r>be contemporary<s n="vblex"/></r></p></e>
-    <e><p><l>cydolygu<s n="vblex"/></l><r>edit jointly<s n="vblex"/></r></p></e>
     <e><p><l>cydorwedd<s n="vblex"/></l><r>copulate<s n="vblex"/></r></p></e>
     <e><p><l>cydosod<s n="vblex"/></l><r>juxtapose<s n="vblex"/></r></p></e>
     <e><p><l>cydraddol<s n="vblex"/></l><r>equalise<s n="vblex"/></r></p></e>
     <e><p><l>cydrannu<s n="vblex"/></l><r>divide<s n="vblex"/></r></p></e>
     <e><p><l>cydredeg<s n="vblex"/></l><r>coincide<s n="vblex"/></r></p></e>
     <e><p><l>cydroddi<s n="vblex"/></l><r>contribute<s n="vblex"/></r></p></e>
-    <e><p><l>cydsefydlu<s n="vblex"/></l><r>establish jointly<s n="vblex"/></r></p></e>
-    <e><p><l>cydsefyll<s n="vblex"/></l><r>be compatible<s n="vblex"/></r></p></e>
     <e><p><l>cydseinio<s n="vblex"/></l><r>harmonise<s n="vblex"/></r></p></e>
     <e><p><l>cydserennu<s n="vblex"/></l><r>co-star<s n="vblex"/></r></p></e>
     <e><p><l>cydsynio<s n="vblex"/></l><r>agree<s n="vblex"/></r></p></e>
     <e><p><l>cyduno<s n="vblex"/></l><r>unite<s n="vblex"/></r></p></e>
     <e><p><l>cydweddu<s n="vblex"/></l><r>conform<s n="vblex"/></r></p></e>
-    <e><p><l>cydweithio<s n="vblex"/></l><r>work together<s n="vblex"/></r></p></e>
     <e><p><l>cydweithredu<s n="vblex"/></l><r>co-operate<s n="vblex"/></r></p></e>
     <e><p><l>cydweu<s n="vblex"/></l><r>interlace<s n="vblex"/></r></p></e>
     <e><p><l>cydymagweddu<s n="vblex"/></l><r>conform<s n="vblex"/></r></p></e>
     <e><p><l>cydymddwyn<s n="vblex"/></l><r>tolerate<s n="vblex"/></r></p></e>
     <e><p><l>cydymdeimlo<s n="vblex"/></l><r>sympathise<s n="vblex"/></r></p></e>
-    <e><p><l>cydymdrechu<s n="vblex"/></l><r>make a united effort<s n="vblex"/></r></p></e>
     <e><p><l>cydymffurfio<s n="vblex"/></l><r>conform<s n="vblex"/></r></p></e>
-    <e><p><l>cydymgynghori<s n="vblex"/></l><r>consult together<s n="vblex"/></r></p></e>
-    <e><p><l>cydystyrio<s n="vblex"/></l><r>deliberate jointly<s n="vblex"/></r></p></e>
     <e><p><l>cyfaddasu<s n="vblex"/></l><r>adapt<s n="vblex"/></r></p></e>
     <e><p><l>cyfaddawdu<s n="vblex"/></l><r>compromise<s n="vblex"/></r></p></e>
     <e><p><l>cyfaddef<s n="vblex"/></l><r>admit<s n="vblex"/></r></p></e>
@@ -6052,8 +5900,6 @@
     <e><p><l>cyfarwain<s n="vblex"/></l><r>conduct<s n="vblex"/></r></p></e>
     <e><p><l>cyfarwyddo<s n="vblex"/></l><r>direct<s n="vblex"/></r></p></e>
     <e><p><l>cyfatal<s n="vblex"/></l><r>support<s n="vblex"/></r></p></e>
-    <e><p><l>cyfateb<s n="vblex"/></l><r>correspond to<s n="vblex"/></r></p></e>
-    <e><p><l>cyfatebu<s n="vblex"/></l><r>correspond to<s n="vblex"/></r></p></e>
     <e><p><l>cyfathrach<s n="vblex"/></l><r>mix<s n="vblex"/></r></p></e>
     <e><p><l>cyfathrachu<s n="vblex"/></l><r>mix<s n="vblex"/></r></p></e>
     <e><p><l>cyfathrebu<s n="vblex"/></l><r>communicate<s n="vblex"/></r></p></e>
@@ -6061,7 +5907,6 @@
     <e><p><l>cyfebu<s n="vblex"/></l><r>conceive<s n="vblex"/></r></p></e>
     <e><p><l>cyfeilio<s n="vblex"/></l><r>accompany<s n="vblex"/></r></p></e>
     <e><p><l>cyfeiliorni<s n="vblex"/></l><r>stray<s n="vblex"/></r></p></e>
-    <e><p><l>cyfeillacha<s n="vblex"/></l><r>associate with<s n="vblex"/></r></p></e>
     <e><p><l>cyfeiriannu<s n="vblex"/></l><r>orienteer<s n="vblex"/></r></p></e>
     <e><p><l>cyfeirio<s n="vblex"/></l><r>direct<s n="vblex"/></r></p></e>
     <e><p><l>cyfeirnodi<s n="vblex"/></l><r>reference<s n="vblex"/></r></p></e>
@@ -6072,7 +5917,6 @@
     <e><p><l>cyffeithio<s n="vblex"/></l><r>pickle<s n="vblex"/></r></p></e>
     <e><p><l>cyffelybu<s n="vblex"/></l><r>compare<s n="vblex"/></r></p></e>
     <e><p><l>cyffesu<s n="vblex"/></l><r>confess<s n="vblex"/></r></p></e>
-    <e><p><l>cyffio<s n="vblex"/></l><r>become stiff<s n="vblex"/></r></p></e>
     <e><p><l>cyffredinoli<s n="vblex"/></l><r>generalise<s n="vblex"/></r></p></e>
     <e><p><l>cyffroi<s n="vblex"/></l><r>excite<s n="vblex"/></r></p></e>
     <e><p><l>cyffwrdd<s n="vblex"/></l><r>touch<s n="vblex"/></r></p></e>
@@ -6095,18 +5939,12 @@
     <e><p><l>cyfnerthu<s n="vblex"/></l><r>reinforce<s n="vblex"/></r></p></e>
     <e><p><l>cyfnewid<s n="vblex"/></l><r>exchange<s n="vblex"/></r></p></e>
     <e><p><l>cyfodi<s n="vblex"/></l><r>lift<s n="vblex"/></r></p></e>
-    <e><p><l>cyfodli<s n="vblex"/></l><r>rhyme with<s n="vblex"/></r></p></e>
-    <e><p><l>cyfoedi<s n="vblex"/></l><r>be contemporaneous with<s n="vblex"/></r></p></e>
-    <e><p><l>cyfoesi<s n="vblex"/></l><r>be contemporaneous with<s n="vblex"/></r></p></e>
     <e><p><l>cyfoethogi<s n="vblex"/></l><r>enrich<s n="vblex"/></r></p></e>
     <e><p><l>cyfogi<s n="vblex"/></l><r>vomit<s n="vblex"/></r></p></e>
     <e><p><l>cyfori<s n="vblex"/></l><r>cover<s n="vblex"/></r></p></e>
     <e><p><l>cyfosod<s n="vblex"/></l><r>juxtapose<s n="vblex"/></r></p></e>
     <e><p><l>cyfrannu<s n="vblex"/></l><r>contribute<s n="vblex"/></r></p></e>
-    <e><p><l>cyfranogi<s n="vblex"/></l><r>participate in<s n="vblex"/></r></p></e>
-    <e><p><l>cyfrddwyn<s n="vblex"/></l><r>remove entirely<s n="vblex"/></r></p></e>
     <e><p><l>cyfrdroi<s n="vblex"/></l><r>permute<s n="vblex"/></r></p></e>
-    <e><p><l>cyfredeg<s n="vblex"/></l><r>keep pace with<s n="vblex"/></r></p></e>
     <e><p><l>cyfreithio<s n="vblex"/></l><r>litigate<s n="vblex"/></r></p></e>
     <e><p><l>cyfreithloni<s n="vblex"/></l><r>legalise<s n="vblex"/></r></p></e>
     <e><p><l>cyfresymu<s n="vblex"/></l><r>syllogise<s n="vblex"/></r></p></e>
@@ -6125,8 +5963,6 @@
     <e><p><l>cyhoeddi<s n="vblex"/></l><r>publish<s n="vblex"/></r></p></e>
     <e><p><l>cyhuddo<s n="vblex"/></l><r>accuse<s n="vblex"/></r></p></e>
     <e><p><l>cyhwfan<s n="vblex"/></l><r>flutter<s n="vblex"/></r></p></e>
-    <e><p><l>cyhydeddu<s n="vblex"/></l><r>divide equally<s n="vblex"/></r></p></e>
-    <e><p><l>cylcharwain<s n="vblex"/></l><r>lead about<s n="vblex"/></r></p></e>
     <e><p><l>cylchdroi<s n="vblex"/></l><r>rotate<s n="vblex"/></r></p></e>
     <e><p><l>cylchlythyru<s n="vblex"/></l><r>circularise<s n="vblex"/></r></p></e>
     <e><p><l>cylchredeg<s n="vblex"/></l><r>circulate<s n="vblex"/></r></p></e>
@@ -6158,16 +5994,11 @@
     <e><p><l>cymynroddi<s n="vblex"/></l><r>bequeath<s n="vblex"/></r></p></e>
     <e><p><l>cymynu<s n="vblex"/></l><r>fell<s n="vblex"/></r></p></e>
     <e><p><l>cymysgu<s n="vblex"/></l><r>mix<s n="vblex"/></r></p></e>
-    <e><p><l>cynadledda<s n="vblex"/></l><r>attend conferences<s n="vblex"/></r></p></e>
     <e><p><l>cynadleddu<s n="vblex"/></l><r>confer<s n="vblex"/></r></p></e>
     <e><p><l>cynaeafu<s n="vblex"/></l><r>harvest<s n="vblex"/></r></p></e>
     <e><p><l>cynanu<s n="vblex"/></l><r>pronounce<s n="vblex"/></r></p></e>
     <e><p><l>cynddeiriogi<s n="vblex"/></l><r>enrage<s n="vblex"/></r></p></e>
-    <e><p><l>cyndynnu<s n="vblex"/></l><r>act stubbornly<s n="vblex"/></r></p></e>
-    <e><p><l>cyneddfu<s n="vblex"/></l><r>judge competent<s n="vblex"/></r></p></e>
-    <e><p><l>cynefino<s n="vblex"/></l><r>become accustomed<s n="vblex"/></r></p></e>
     <e><p><l>cynffonna<s n="vblex"/></l><r>toady<s n="vblex"/></r></p></e>
-    <e><p><l>cynganeddu<s n="vblex"/></l><r>compose verse<s n="vblex"/></r></p></e>
     <e><p><l>cynghori<s n="vblex"/></l><r>advise<s n="vblex"/></r></p></e>
     <e><p><l>cynghraffu<s n="vblex"/></l><r>clutch<s n="vblex"/></r></p></e>
     <e><p><l>cynghreirio<s n="vblex"/></l><r>ally<s n="vblex"/></r></p></e>
@@ -6193,16 +6024,13 @@
     <e><p><l>cynnull<s n="vblex"/></l><r>gather<s n="vblex"/></r></p></e>
     <e><p><l>cynnwys<s n="vblex"/></l><r>contain<s n="vblex"/></r></p></e>
     <e><p><l>cynorthwyo<s n="vblex"/></l><r>support<s n="vblex"/></r></p></e>
-    <e><p><l>cynrhoni<s n="vblex"/></l><r>breed maggots<s n="vblex"/></r></p></e>
     <e><p><l>cynrychioli<s n="vblex"/></l><r>represent<s n="vblex"/></r></p></e>
-    <e><p><l>cynuta<s n="vblex"/></l><r>gather fuel<s n="vblex"/></r></p></e>
     <e><p><l>cynyddu<s n="vblex"/></l><r>increase<s n="vblex"/></r></p></e>
     <e><p><l>cynysgaeddu<s n="vblex"/></l><r>endow<s n="vblex"/></r></p></e>
     <e><p><l>cyplu<s n="vblex"/></l><r>couple<s n="vblex"/></r></p></e>
     <e><p><l>cyplysu<s n="vblex"/></l><r>couple<s n="vblex"/></r></p></e>
     <e><p><l>cyrchu<s n="vblex"/></l><r>approach<s n="vblex"/></r></p></e>
     <e><p><l>cyrcydu<s n="vblex"/></l><r>squat<s n="vblex"/></r></p></e>
-    <e><p><l>cyrnio<s n="vblex"/></l><r>pile up<s n="vblex"/></r></p></e>
     <e><p><l>cyrraedd<s n="vblex"/></l><r>arrive<s n="vblex"/></r></p></e>
     <e><p><l>cyrydu<s n="vblex"/></l><r>corrode<s n="vblex"/></r></p></e>
     <e><p><l>cysegru<s n="vblex"/></l><r>consecrate<s n="vblex"/></r></p></e>
@@ -6223,11 +6051,9 @@
     <e><p><l>cythruddo<s n="vblex"/></l><r>provoke<s n="vblex"/></r></p></e>
     <e><p><l>cythryblu<s n="vblex"/></l><r>harass<s n="vblex"/></r></p></e>
     <e><p><l>cytio<s n="vblex"/></l><r>pen<s n="vblex"/></r></p></e>
-    <e><p><l>cytundebu<s n="vblex"/></l><r>make a pact<s n="vblex"/></r></p></e>
     <e><p><l>cytuno<s n="vblex"/></l><r>agree<s n="vblex"/></r></p></e>
     <e><p><l>cywain<s n="vblex"/></l><r>haul<s n="vblex"/></r></p></e>
     <e><p><l>cywasgu<s n="vblex"/></l><r>compress<s n="vblex"/></r></p></e>
-    <e><p><l>cyweirio<s n="vblex"/></l><r>set in order<s n="vblex"/></r></p></e>
     <e><p><l>cywilyddio<s n="vblex"/></l><r>shame<s n="vblex"/></r></p></e>
     <e><p><l>cywiro<s n="vblex"/></l><r>correct<s n="vblex"/></r></p></e>
     <e><p><l>cywreinio<s n="vblex"/></l><r>adorn<s n="vblex"/></r></p></e>
@@ -6247,12 +6073,9 @@
     <e><p><l>dadlennu<s n="vblex"/></l><r>reveal<s n="vblex"/></r></p></e>
     <e><p><l>dadleoli<s n="vblex"/></l><r>displace<s n="vblex"/></r></p></e>
     <e><p><l>dadlewygu<s n="vblex"/></l><r>resuscitate<s n="vblex"/></r></p></e>
-    <e><p><l>dadluddedu<s n="vblex"/></l><r>get a new lease of life<s n="vblex"/></r></p></e>
     <e><p><l>dadlwytho<s n="vblex"/></l><r>unload<s n="vblex"/></r></p></e>
     <e><p><l>dadlygru<s n="vblex"/></l><r>decontaminate<s n="vblex"/></r></p></e>
     <e><p><l>dadocsideiddio<s n="vblex"/></l><r>deoxidise<s n="vblex"/></r></p></e>
-    <e><p><l>dadolwch<s n="vblex"/></l><r>make amends<s n="vblex"/></r></p></e>
-    <e><p><l>dadolychu<s n="vblex"/></l><r>make amends<s n="vblex"/></r></p></e>
     <e><p><l>dadorchuddio<s n="vblex"/></l><r>reveal<s n="vblex"/></r></p></e>
     <e><p><l>dadosod<s n="vblex"/></l><r>displace<s n="vblex"/></r></p></e>
     <e><p><l>dadredeg<s n="vblex"/></l><r>rerun<s n="vblex"/></r></p></e>
@@ -6276,7 +6099,6 @@
     <e><p><l>dallu<s n="vblex"/></l><r>blind<s n="vblex"/></r></p></e>
     <e><p><l>damcaniaethu<s n="vblex"/></l><r>theorise<s n="vblex"/></r></p></e>
     <e><p><l>damcanu<s n="vblex"/></l><r>theorise<s n="vblex"/></r></p></e>
-    <e><p><l>damhegu<s n="vblex"/></l><r>speak figuratively<s n="vblex"/></r></p></e>
     <e><p><l>damnio<s n="vblex"/></l><r>damn<s n="vblex"/></r></p></e>
     <e><p><l>damsangu<s n="vblex"/></l><r>trample<s n="vblex"/></r></p></e>
     <e><p><l>damwain<s n="vblex"/></l><r>befall<s n="vblex"/></r></p></e>
@@ -6292,12 +6114,10 @@
     <e><p><l>dargopïo<s n="vblex"/></l><r>trace<s n="vblex"/></r></p></e>
     <e><p><l>dargyfeirio<s n="vblex"/></l><r>diverge<s n="vblex"/></r></p></e>
     <e><p><l>darlithio<s n="vblex"/></l><r>lecture<s n="vblex"/></r></p></e>
-    <e><p><l>darllaw<s n="vblex"/></l><r>brew up<s n="vblex"/></r></p></e>
     <e><p><l>darlledu<s n="vblex"/></l><r>broadcast<s n="vblex"/></r></p></e>
     <e><p><l>darllen<s n="vblex"/></l><r>read<s n="vblex"/></r></p></e>
     <e><p><l>darlosgi<s n="vblex"/></l><r>singe<s n="vblex"/></r></p></e>
     <e><p><l>darlunio<s n="vblex"/></l><r>illustrate<s n="vblex"/></r></p></e>
-    <e><p><l>darnguddio<s n="vblex"/></l><r>conceal partially<s n="vblex"/></r></p></e>
     <e><p><l>darnio<s n="vblex"/></l><r>tear<s n="vblex"/></r></p></e>
     <e><p><l>darnladd<s n="vblex"/></l><r>half-kill<s n="vblex"/></r></p></e>
     <e><p><l>darnodi<s n="vblex"/></l><r>denote<s n="vblex"/></r></p></e>
@@ -6306,7 +6126,6 @@
     <e><p><l>darostwng<s n="vblex"/></l><r>subjugate<s n="vblex"/></r></p></e>
     <e><p><l>darparu<s n="vblex"/></l><r>provide<s n="vblex"/></r></p></e>
     <e><p><l>darsyllu<s n="vblex"/></l><r>contemplate<s n="vblex"/></r></p></e>
-    <e><p><l>darymred<s n="vblex"/></l><r>flit about<s n="vblex"/></r></p></e>
     <e><p><l>datblygu<s n="vblex"/></l><r>develop<s n="vblex"/></r></p></e>
     <e><p><l>datgan<s n="vblex"/></l><r>declare<s n="vblex"/></r></p></e>
     <e><p><l>datganoli<s n="vblex"/></l><r>decentralise<s n="vblex"/></r></p></e>
@@ -6345,18 +6164,14 @@
     <e><p><l>deialu<s n="vblex"/></l><r>dial<s n="vblex"/></r></p></e>
     <e><p><l>deifio<s n="vblex"/></l><r>dive<s n="vblex"/></r></p></e>
     <e><p><l>deilio<s n="vblex"/></l><r>leaf<s n="vblex"/></r></p></e>
-    <e><p><l>deillio<s n="vblex"/></l><r>derive from<s n="vblex"/></r></p></e>
     <e><p><l>deintio<s n="vblex"/></l><r>nibble<s n="vblex"/></r></p></e>
-    <e><p><l>deirydu<s n="vblex"/></l><r>belong to<s n="vblex"/></r></p></e>
     <e><p><l>deisebu<s n="vblex"/></l><r>petition<s n="vblex"/></r></p></e>
     <e><p><l>deisyf<s n="vblex"/></l><r>beseech<s n="vblex"/></r></p></e>
     <e><p><l>deisyfu<s n="vblex"/></l><r>beseech<s n="vblex"/></r></p></e>
     <e><p><l>delffu<s n="vblex"/></l><r>bewilder<s n="vblex"/></r></p></e>
     <e><p><l>delfrydu<s n="vblex"/></l><r>idealise<s n="vblex"/></r></p></e>
     <e><p><l>delio<s n="vblex"/></l><r>deal<s n="vblex"/></r></p></e>
-    <e><p><l>delw-addoli<s n="vblex"/></l><r>practise idolatry<s n="vblex"/></r></p></e>
     <e><p><l>delweddu<s n="vblex"/></l><r>portray<s n="vblex"/></r></p></e>
-    <e><p><l>delwi<s n="vblex"/></l><r>be motionless<s n="vblex"/></r></p></e>
     <e><p><l>democrateiddio<s n="vblex"/></l><r>democratise<s n="vblex"/></r></p></e>
     <e><p><l>denu<s n="vblex"/></l><r>attract<s n="vblex"/></r></p></e>
     <e><p><l>deor<s n="vblex"/></l><r>hatch<s n="vblex"/></r></p></e>
@@ -6368,12 +6183,10 @@
     <e><p><l>dewis<s n="vblex"/></l><r>choose<s n="vblex"/></r></p></e>
     <e><p><l>diadellu<s n="vblex"/></l><r>herd<s n="vblex"/></r></p></e>
     <e><p><l>diaelodi<s n="vblex"/></l><r>dismember<s n="vblex"/></r></p></e>
-    <e><p><l>dial<s n="vblex"/></l><r>take revenge<s n="vblex"/></r></p></e>
     <e><p><l>dianc<s n="vblex"/></l><r>escape<s n="vblex"/></r></p></e>
     <e><p><l>dianghenu<s n="vblex"/></l><r>satisfy<s n="vblex"/></r></p></e>
     <e><p><l>dianrhydeddu<s n="vblex"/></l><r>dishonour<s n="vblex"/></r></p></e>
     <e><p><l>diarfogi<s n="vblex"/></l><r>disarm<s n="vblex"/></r></p></e>
-    <e><p><l>diarhebu<s n="vblex"/></l><r>use as a proverb<s n="vblex"/></r></p></e>
     <e><p><l>diasbedain<s n="vblex"/></l><r>resound<s n="vblex"/></r></p></e>
     <e><p><l>diasgellu<s n="vblex"/></l><r>separate<s n="vblex"/></r></p></e>
     <e><p><l>diawlio<s n="vblex"/></l><r>curse<s n="vblex"/></r></p></e>
@@ -6382,9 +6195,7 @@
     <e><p><l>dibriddo<s n="vblex"/></l><r>unearth<s n="vblex"/></r></p></e>
     <e><p><l>dibrisio<s n="vblex"/></l><r>despise<s n="vblex"/></r></p></e>
     <e><p><l>dibynnu<s n="vblex"/></l><r>depend<s n="vblex"/></r></p></e>
-    <e><p><l>dichellu<s n="vblex"/></l><r>act with guile<s n="vblex"/></r></p></e>
     <e><p><l>dichlynu<s n="vblex"/></l><r>grade<s n="vblex"/></r></p></e>
-    <e><p><l>diclloni<s n="vblex"/></l><r>be indignant<s n="vblex"/></r></p></e>
     <e><p><l>diddanu<s n="vblex"/></l><r>comfort<s n="vblex"/></r></p></e>
     <e><p><l>diddori<s n="vblex"/></l><r>interest<s n="vblex"/></r></p></e>
     <e><p><l>diddosi<s n="vblex"/></l><r>make weather-proof<s n="vblex"/></r></p></e>
@@ -6393,7 +6204,6 @@
     <e><p><l>diddymu<s n="vblex"/></l><r>abolish<s n="vblex"/></r></p></e>
     <e><p><l>didol<s n="vblex"/></l><r>segregate<s n="vblex"/></r></p></e>
     <e><p><l>didoli<s n="vblex"/></l><r>segregate<s n="vblex"/></r></p></e>
-    <e><p><l>didroedio<s n="vblex"/></l><r>trip up<s n="vblex"/></r></p></e>
     <e><p><l>didynnu<s n="vblex"/></l><r>subtract<s n="vblex"/></r></p></e>
     <e><p><l>dieithrio<s n="vblex"/></l><r>estrange<s n="vblex"/></r></p></e>
     <e><p><l>dieneidio<s n="vblex"/></l><r>slay<s n="vblex"/></r></p></e>
@@ -6401,7 +6211,6 @@
     <e><p><l>dienyddu<s n="vblex"/></l><r>execute<s n="vblex"/></r></p></e>
     <e><p><l>diesgyrnu<s n="vblex"/></l><r>debone<s n="vblex"/></r></p></e>
     <e><p><l>difeddiannu<s n="vblex"/></l><r>dispossess<s n="vblex"/></r></p></e>
-    <e><p><l>difeio<s n="vblex"/></l><r>hold free of blame<s n="vblex"/></r></p></e>
     <e><p><l>difenwi<s n="vblex"/></l><r>revile<s n="vblex"/></r></p></e>
     <e><p><l>diferu<s n="vblex"/></l><r>drip<s n="vblex"/></r></p></e>
     <e><p><l>diferynnu<s n="vblex"/></l><r>dribble<s n="vblex"/></r></p></e>
@@ -6415,26 +6224,20 @@
     <e><p><l>diffygio<s n="vblex"/></l><r>fail<s n="vblex"/></r></p></e>
     <e><p><l>diffyn<s n="vblex"/></l><r>protect<s n="vblex"/></r></p></e>
     <e><p><l>diflannu<s n="vblex"/></l><r>disappear<s n="vblex"/></r></p></e>
-    <e><p><l>diflasu<s n="vblex"/></l><r>be fed up with<s n="vblex"/></r></p></e>
     <e><p><l>difodi<s n="vblex"/></l><r>annihilate<s n="vblex"/></r></p></e>
     <e><p><l>difreinio<s n="vblex"/></l><r>disenfranchise<s n="vblex"/></r></p></e>
-    <e><p><l>difrifoli<s n="vblex"/></l><r>become serious<s n="vblex"/></r></p></e>
     <e><p><l>difrïo<s n="vblex"/></l><r>malign<s n="vblex"/></r></p></e>
     <e><p><l>difrodi<s n="vblex"/></l><r>despoil<s n="vblex"/></r></p></e>
     <e><p><l>difuddio<s n="vblex"/></l><r>deprive<s n="vblex"/></r></p></e>
     <e><p><l>difwyno<s n="vblex"/></l><r>violate<s n="vblex"/></r></p></e>
     <e><p><l>difyrru<s n="vblex"/></l><r>amuse<s n="vblex"/></r></p></e>
-    <e><p><l>digalonni<s n="vblex"/></l><r>lose heart<s n="vblex"/></r></p></e>
-    <e><p><l>digaregu<s n="vblex"/></l><r>remove stones<s n="vblex"/></r></p></e>
     <e><p><l>digennu<s n="vblex"/></l><r>peel<s n="vblex"/></r></p></e>
-    <e><p><l>digio<s n="vblex"/></l><r>get angry<s n="vblex"/></r></p></e>
     <e><p><l>digolledu<s n="vblex"/></l><r>compensate<s n="vblex"/></r></p></e>
     <e><p><l>digomisiynu<s n="vblex"/></l><r>decommission<s n="vblex"/></r></p></e>
     <e><p><l>digoni<s n="vblex"/></l><r>suffice<s n="vblex"/></r></p></e>
     <e><p><l>digroeni<s n="vblex"/></l><r>skin<s n="vblex"/></r></p></e>
     <e><p><l>digwydd<s n="vblex"/></l><r>happen<s n="vblex"/></r></p></e>
     <e><p><l>dihangu<s n="vblex"/></l><r>escape<s n="vblex"/></r></p></e>
-    <e><p><l>diharffu<s n="vblex"/></l><r>waste away<s n="vblex"/></r></p></e>
     <e><p><l>dihatru<s n="vblex"/></l><r>undress<s n="vblex"/></r></p></e>
     <e><p><l>dihatryd<s n="vblex"/></l><r>undress<s n="vblex"/></r></p></e>
     <e><p><l>diheintio<s n="vblex"/></l><r>disinfect<s n="vblex"/></r></p></e>
@@ -6455,7 +6258,6 @@
     <e><p><l>dinodi<s n="vblex"/></l><r>deface<s n="vblex"/></r></p></e>
     <e><p><l>dinoethi<s n="vblex"/></l><r>denude<s n="vblex"/></r></p></e>
     <e><p><l>dioddef<s n="vblex"/></l><r>suffer<s n="vblex"/></r></p></e>
-    <e><p><l>diodi<s n="vblex"/></l><r>give a drink to<s n="vblex"/></r></p></e>
     <e><p><l>diofryd<s n="vblex"/></l><r>renounce<s n="vblex"/></r></p></e>
     <e><p><l>diofrydu<s n="vblex"/></l><r>renounce<s n="vblex"/></r></p></e>
     <e><p><l>diofynnu<s n="vblex"/></l><r>default<s n="vblex"/></r></p></e>
@@ -6475,7 +6277,6 @@
     <e><p><l>dirdynnu<s n="vblex"/></l><r>torture<s n="vblex"/></r></p></e>
     <e><p><l>dirgelu<s n="vblex"/></l><r>conceal<s n="vblex"/></r></p></e>
     <e><p><l>dirgrynu<s n="vblex"/></l><r>vibrate<s n="vblex"/></r></p></e>
-    <e><p><l>diriaethu<s n="vblex"/></l><r>make concrete<s n="vblex"/></r></p></e>
     <e><p><l>dirisglo<s n="vblex"/></l><r>peel<s n="vblex"/></r></p></e>
     <e><p><l>dirmygu<s n="vblex"/></l><r>despise<s n="vblex"/></r></p></e>
     <e><p><l>dirnadu<s n="vblex"/></l><r>wail<s n="vblex"/></r></p></e>
@@ -6500,8 +6301,6 @@
     <e><p><l>distyllio<s n="vblex"/></l><r>distil<s n="vblex"/></r></p></e>
     <e><p><l>distyllu<s n="vblex"/></l><r>distil<s n="vblex"/></r></p></e>
     <e><p><l>diswyddo<s n="vblex"/></l><r>dismiss<s n="vblex"/></r></p></e>
-    <e><p><l>disychedu<s n="vblex"/></l><r>slake thirst<s n="vblex"/></r></p></e>
-    <e><p><l>disychu<s n="vblex"/></l><r>slake thirst<s n="vblex"/></r></p></e>
     <e><p><l>ditio<s n="vblex"/></l><r>indict<s n="vblex"/></r></p></e>
     <e><p><l>diwallu<s n="vblex"/></l><r>satisfy<s n="vblex"/></r></p></e>
     <e><p><l>diweddaru<s n="vblex"/></l><r>update<s n="vblex"/></r></p></e>
@@ -6535,7 +6334,6 @@
     <e><p><l>dosbarthu<s n="vblex"/></l><r>distribute<s n="vblex"/></r></p></e>
     <e><p><l>dosrannu<s n="vblex"/></l><r>parse<s n="vblex"/></r></p></e>
     <e><p><l>dotio<s n="vblex"/></l><r>dote<s n="vblex"/></r></p></e>
-    <e><p><l>drabio<s n="vblex"/></l><r>cut to bits<s n="vblex"/></r></p></e>
     <e><p><l>drachtio<s n="vblex"/></l><r>quaff<s n="vblex"/></r></p></e>
     <e><p><l>draenio<s n="vblex"/></l><r>drain<s n="vblex"/></r></p></e>
     <e><p><l>drafftio<s n="vblex"/></l><r>draft<s n="vblex"/></r></p></e>
@@ -6563,8 +6361,6 @@
     <e><p><l>dwyn<s n="vblex"/></l><r>steal<s n="vblex"/></r></p></e>
     <e><p><l>dwyrannu<s n="vblex"/></l><r>bisect<s n="vblex"/></r></p></e>
     <e><p><l>dwysáu<s n="vblex"/></l><r>intensify<s n="vblex"/></r></p></e>
-    <e><p><l>dwysbigo<s n="vblex"/></l><r>pierce to the heart<s n="vblex"/></r></p></e>
-    <e><p><l>dwysfyfyrio<s n="vblex"/></l><r>contemplate deeply<s n="vblex"/></r></p></e>
     <e><p><l>dwyso<s n="vblex"/></l><r>compress<s n="vblex"/></r></p></e>
     <e><p><l>dyblo<s n="vblex"/></l><r>double<s n="vblex"/></r></p></e>
     <e><p><l>dyblu<s n="vblex"/></l><r>double<s n="vblex"/></r></p></e>
@@ -6589,15 +6385,12 @@
     <e><p><l>dyfynnu<s n="vblex"/></l><r>quote<s n="vblex"/></r></p></e>
     <e><p><l>dyfynodi<s n="vblex"/></l><r>quote<s n="vblex"/></r></p></e>
     <e><p><l>dygnu<s n="vblex"/></l><r>molest<s n="vblex"/></r></p></e>
-    <e><p><l>dygyforio<s n="vblex"/></l><r>create commotion<s n="vblex"/></r></p></e>
-    <e><p><l>dyheu<s n="vblex"/></l><r>long for<s n="vblex"/></r></p></e>
     <e><p><l>dyhuddo<s n="vblex"/></l><r>appease<s n="vblex"/></r></p></e>
     <e><p><l>dylanwadu<s n="vblex"/></l><r>influence<s n="vblex"/></r></p></e>
     <e><p><l>dylifo<s n="vblex"/></l><r>flow<s n="vblex"/></r></p></e>
     <e><p><l>dylunio<s n="vblex"/></l><r>delineate<s n="vblex"/></r></p></e>
     <e><p><l>dymchwel<s n="vblex"/></l><r>overturn<s n="vblex"/></r></p></e>
     <e><p><l>dympio<s n="vblex"/></l><r>dump<s n="vblex"/></r></p></e>
-    <e><p><l>dymuno<s n="vblex"/></l><r>wish to<s n="vblex"/></r></p></e>
     <e><p><l>dynesáu<s n="vblex"/></l><r>approach<s n="vblex"/></r></p></e>
     <e><p><l>dynesu<s n="vblex"/></l><r>approach<s n="vblex"/></r></p></e>
     <e><p><l>dynodi<s n="vblex"/></l><r>denote<s n="vblex"/></r></p></e>
@@ -6611,15 +6404,11 @@
     <e><p><l>dyrnu<s n="vblex"/></l><r>thresh<s n="vblex"/></r></p></e>
     <e><p><l>dyroddi<s n="vblex"/></l><r>bestow<s n="vblex"/></r></p></e>
     <e><p><l>dysgu<s n="vblex"/></l><r>teach<s n="vblex"/></r></p></e>
-    <e><p><l>dysgub<s n="vblex"/></l><r>sweep away<s n="vblex"/></r></p></e>
-    <e><p><l>dywalhau<s n="vblex"/></l><r>grow fierce<s n="vblex"/></r></p></e>
-    <e><p><l>dywalu<s n="vblex"/></l><r>grow fierce<s n="vblex"/></r></p></e>
     <e><p><l>dyweddïo<s n="vblex"/></l><r>betroth<s n="vblex"/></r></p></e>
     <e><p><l>dywedyd<s n="vblex"/></l><r>say<s n="vblex"/></r></p></e>
     <e><p><l>ebargofi<s n="vblex"/></l><r>forget<s n="vblex"/></r></p></e>
     <e><p><l>ebillio<s n="vblex"/></l><r>bore<s n="vblex"/></r></p></e>
     <e><p><l>ebostio<s n="vblex"/></l><r>email<s n="vblex"/></r></p></e>
-    <e><p><l>ebrannu<s n="vblex"/></l><r>feed a horse<s n="vblex"/></r></p></e>
     <e><p><l>ebychu<s n="vblex"/></l><r>gasp<s n="vblex"/></r></p></e>
     <e><p><l>echdorri<s n="vblex"/></l><r>erupt<s n="vblex"/></r></p></e>
     <e><p><l>echdynnu<s n="vblex"/></l><r>extract<s n="vblex"/></r></p></e>
@@ -6640,7 +6429,6 @@
     <e><p><l>efengylu<s n="vblex"/></l><r>evangelise<s n="vblex"/></r></p></e>
     <e><p><l>eferwi<s n="vblex"/></l><r>effervesce<s n="vblex"/></r></p></e>
     <e><p><l>effeithio<s n="vblex"/></l><r>effect<s n="vblex"/></r></p></e>
-    <e><p><l>effeithioli<s n="vblex"/></l><r>make effective<s n="vblex"/></r></p></e>
     <e><p><l>efrydio<s n="vblex"/></l><r>study<s n="vblex"/></r></p></e>
     <e><p><l>efrydu<s n="vblex"/></l><r>study<s n="vblex"/></r></p></e>
     <e><p><l>egino<s n="vblex"/></l><r>germinate<s n="vblex"/></r></p></e>
@@ -6656,7 +6444,6 @@
     <e><p><l>eiledu<s n="vblex"/></l><r>alternate<s n="vblex"/></r></p></e>
     <e><p><l>eilio<s n="vblex"/></l><r>second<s n="vblex"/></r></p></e>
     <e><p><l>eillio<s n="vblex"/></l><r>shave<s n="vblex"/></r></p></e>
-    <e><p><l>eilunaddoli<s n="vblex"/></l><r>worship idols<s n="vblex"/></r></p></e>
     <e><p><l>eingo<s n="vblex"/></l><r>complain<s n="vblex"/></r></p></e>
     <e><p><l>eiriasu<s n="vblex"/></l><r>glow red-hot<s n="vblex"/></r></p></e>
     <e><p><l>eirio<s n="vblex"/></l><r>snow<s n="vblex"/></r></p></e>
@@ -6674,7 +6461,6 @@
     <e><p><l>encilio<s n="vblex"/></l><r>retreat<s n="vblex"/></r></p></e>
     <e><p><l>eneinio<s n="vblex"/></l><r>anoint<s n="vblex"/></r></p></e>
     <e><p><l>enghreifftio<s n="vblex"/></l><r>exemplify<s n="vblex"/></r></p></e>
-    <e><p><l>englynu<s n="vblex"/></l><r>compose englynion<s n="vblex"/></r></p></e>
     <e><p><l>enhuddo<s n="vblex"/></l><r>envelop<s n="vblex"/></r></p></e>
     <e><p><l>enllibio<s n="vblex"/></l><r>slander<s n="vblex"/></r></p></e>
     <e><p><l>ennill<s n="vblex"/></l><r>win<s n="vblex"/></r></p></e>
@@ -6684,9 +6470,7 @@
     <e><p><l>enwaedu<s n="vblex"/></l><r>circumcise<s n="vblex"/></r></p></e>
     <e><p><l>enwebu<s n="vblex"/></l><r>nominate<s n="vblex"/></r></p></e>
     <e><p><l>enwi<s n="vblex"/></l><r>name<s n="vblex"/></r></p></e>
-    <e><p><l>enwogi<s n="vblex"/></l><r>make famous<s n="vblex"/></r></p></e>
     <e><p><l>enynnu<s n="vblex"/></l><r>kindle<s n="vblex"/></r></p></e>
-    <e><p><l>eoca<s n="vblex"/></l><r>fish for salmon<s n="vblex"/></r></p></e>
     <e><p><l>epilio<s n="vblex"/></l><r>propagate<s n="vblex"/></r></p></e>
     <e><p><l>eplesu<s n="vblex"/></l><r>ferment<s n="vblex"/></r></p></e>
     <e><p><l>erchi<s n="vblex"/></l><r>request<s n="vblex"/></r></p></e>
@@ -6702,7 +6486,6 @@
     <e><p><l>esblygu<s n="vblex"/></l><r>explain<s n="vblex"/></r></p></e>
     <e><p><l>esbonio<s n="vblex"/></l><r>explain<s n="vblex"/></r></p></e>
     <e><p><l>esgeuluso<s n="vblex"/></l><r>neglect<s n="vblex"/></r></p></e>
-    <e><p><l>esgor<s n="vblex"/></l><r>give birth<s n="vblex"/></r></p></e>
     <e><p><l>esgusodi<s n="vblex"/></l><r>excuse<s n="vblex"/></r></p></e>
     <e><p><l>esgymuno<s n="vblex"/></l><r>excommunicate<s n="vblex"/></r></p></e>
     <e><p><l>esgyn<s n="vblex"/></l><r>ascend<s n="vblex"/></r></p></e>
@@ -6728,13 +6511,11 @@
     <e><p><l>ffaelu<s n="vblex"/></l><r>err<s n="vblex"/></r></p></e>
     <e><p><l>ffafrio<s n="vblex"/></l><r>favour<s n="vblex"/></r></p></e>
     <e><p><l>ffaglu<s n="vblex"/></l><r>blaze<s n="vblex"/></r></p></e>
-    <e><p><l>ffagodi<s n="vblex"/></l><r>tie into faggots<s n="vblex"/></r></p></e>
     <e><p><l>ffaldio<s n="vblex"/></l><r>impound<s n="vblex"/></r></p></e>
     <e><p><l>ffalsio<s n="vblex"/></l><r>deceive<s n="vblex"/></r></p></e>
     <e><p><l>ffansïo<s n="vblex"/></l><r>fancy<s n="vblex"/></r></p></e>
     <e><p><l>ffarmio<s n="vblex"/></l><r>farm<s n="vblex"/></r></p></e>
     <e><p><l>ffarwelio<s n="vblex"/></l><r>farewell<s n="vblex"/></r></p></e>
-    <e><p><l>ffasgu<s n="vblex"/></l><r>tie in a bundle<s n="vblex"/></r></p></e>
     <e><p><l>ffasno<s n="vblex"/></l><r>fasten<s n="vblex"/></r></p></e>
     <e><p><l>ffatio<s n="vblex"/></l><r>batter<s n="vblex"/></r></p></e>
     <e><p><l>ffedereiddio<s n="vblex"/></l><r>federate<s n="vblex"/></r></p></e>
@@ -6748,7 +6529,6 @@
     <e><p><l>ffidlo<s n="vblex"/></l><r>fiddle<s n="vblex"/></r></p></e>
     <e><p><l>ffieiddio<s n="vblex"/></l><r>detest<s n="vblex"/></r></p></e>
     <e><p><l>ffilmio<s n="vblex"/></l><r>film<s n="vblex"/></r></p></e>
-    <e><p><l>ffinio<s n="vblex"/></l><r>border on<s n="vblex"/></r></p></e>
     <e><p><l>ffitio<s n="vblex"/></l><r>fit<s n="vblex"/></r></p></e>
     <e><p><l>ffiwdalhau<s n="vblex"/></l><r>feudalise<s n="vblex"/></r></p></e>
     <e><p><l>ffiwsio<s n="vblex"/></l><r>fuse<s n="vblex"/></r></p></e>
@@ -6774,12 +6554,10 @@
     <e><p><l>ffrio<s n="vblex"/></l><r>fry<s n="vblex"/></r></p></e>
     <e><p><l>ffroeni<s n="vblex"/></l><r>snort<s n="vblex"/></r></p></e>
     <e><p><l>ffromi<s n="vblex"/></l><r>rage<s n="vblex"/></r></p></e>
-    <e><p><l>ffrwcsio<s n="vblex"/></l><r>be in a tizzy<s n="vblex"/></r></p></e>
     <e><p><l>ffrwtian<s n="vblex"/></l><r>simmer<s n="vblex"/></r></p></e>
     <e><p><l>ffrwydro<s n="vblex"/></l><r>explode<s n="vblex"/></r></p></e>
     <e><p><l>ffrwyno<s n="vblex"/></l><r>bridle<s n="vblex"/></r></p></e>
     <e><p><l>ffrwythloni<s n="vblex"/></l><r>fertilise<s n="vblex"/></r></p></e>
-    <e><p><l>ffrwytho<s n="vblex"/></l><r>be fruitful<s n="vblex"/></r></p></e>
     <e><p><l>ffrydio<s n="vblex"/></l><r>brandish<s n="vblex"/></r></p></e>
     <e><p><l>ffugbasio<s n="vblex"/></l><r>dummy<s n="vblex"/></r></p></e>
     <e><p><l>ffugio<s n="vblex"/></l><r>falsify<s n="vblex"/></r></p></e>
@@ -6803,18 +6581,15 @@
     <e><p><l>galarnadu<s n="vblex"/></l><r>lament<s n="vblex"/></r></p></e>
     <e><p><l>galaru<s n="vblex"/></l><r>wail<s n="vblex"/></r></p></e>
     <e><p><l>galfaneiddio<s n="vblex"/></l><r>galvanise<s n="vblex"/></r></p></e>
-    <e><p><l>gallu<s n="vblex"/></l><r>be able to<s n="vbmod"/></r></p></e>
     <e><p><l>galluogi<s n="vblex"/></l><r>enable<s n="vblex"/></r></p></e>
     <e><p><l>galw<s n="vblex"/></l><r>call<s n="vblex"/></r></p></e>
     <e><p><l>gamblo<s n="vblex"/></l><r>gamble<s n="vblex"/></r></p></e>
-    <e><p><l>garanu<s n="vblex"/></l><r>fit with a shaft<s n="vblex"/></r></p></e>
     <e><p><l>garddio<s n="vblex"/></l><r>garden<s n="vblex"/></r></p></e>
     <e><p><l>garwhau<s n="vblex"/></l><r>roughen<s n="vblex"/></r></p></e>
     <e><p><l>gefeillio<s n="vblex"/></l><r>twin<s n="vblex"/></r></p></e>
     <e><p><l>gefynnu<s n="vblex"/></l><r>shackle<s n="vblex"/></r></p></e>
     <e><p><l>geirio<s n="vblex"/></l><r>enunciate<s n="vblex"/></r></p></e>
     <e><p><l>generadu<s n="vblex"/></l><r>generate<s n="vblex"/></r></p></e>
-    <e><p><l>gerwino<s n="vblex"/></l><r>become rough<s n="vblex"/></r></p></e>
     <e><p><l>gesio<s n="vblex"/></l><r>guess<s n="vblex"/></r></p></e>
     <e><p><l>glafoeri<s n="vblex"/></l><r>slaver<s n="vblex"/></r></p></e>
     <e><p><l>glafoerio<s n="vblex"/></l><r>slaver<s n="vblex"/></r></p></e>
@@ -6822,7 +6597,6 @@
     <e><p><l>glanio<s n="vblex"/></l><r>land<s n="vblex"/></r></p></e>
     <e><p><l>glasenwi<s n="vblex"/></l><r>nickname<s n="vblex"/></r></p></e>
     <e><p><l>glastwreiddio<s n="vblex"/></l><r>dilute<s n="vblex"/></r></p></e>
-    <e><p><l>glasu<s n="vblex"/></l><r>become verdant<s n="vblex"/></r></p></e>
     <e><p><l>glaswenu<s n="vblex"/></l><r>simper<s n="vblex"/></r></p></e>
     <e><p><l>gleidio<s n="vblex"/></l><r>glide<s n="vblex"/></r></p></e>
     <e><p><l>gloddesta<s n="vblex"/></l><r>carouse<s n="vblex"/></r></p></e>
@@ -6836,7 +6610,6 @@
     <e><p><l>goddiweddyd<s n="vblex"/></l><r>overtake<s n="vblex"/></r></p></e>
     <e><p><l>godinebu<s n="vblex"/></l><r>fornicate<s n="vblex"/></r></p></e>
     <e><p><l>godro<s n="vblex"/></l><r>milk<s n="vblex"/></r></p></e>
-    <e><p><l>gofalu<s n="vblex"/></l><r>take care<s n="vblex"/></r></p></e>
     <e><p><l>goferu<s n="vblex"/></l><r>pour<s n="vblex"/></r></p></e>
     <e><p><l>goferwi<s n="vblex"/></l><r>simmer<s n="vblex"/></r></p></e>
     <e><p><l>gofidio<s n="vblex"/></l><r>worry<s n="vblex"/></r></p></e>
@@ -6865,7 +6638,6 @@
     <e><p><l>gorchymyn<s n="vblex"/></l><r>command<s n="vblex"/></r></p></e>
     <e><p><l>gorddefnyddio<s n="vblex"/></l><r>overuse<s n="vblex"/></r></p></e>
     <e><p><l>gordderchu<s n="vblex"/></l><r>ravish<s n="vblex"/></r></p></e>
-    <e><p><l>gorddibynnu<s n="vblex"/></l><r>be too dependent<s n="vblex"/></r></p></e>
     <e><p><l>gor-ddweud<s n="vblex"/></l><r>overstate<s n="vblex"/></r></p></e>
     <e><p><l>gordyfu<s n="vblex"/></l><r>outgrow<s n="vblex"/></r></p></e>
     <e><p><l>goresgyn<s n="vblex"/></l><r>overcome<s n="vblex"/></r></p></e>
@@ -6874,7 +6646,6 @@
     <e><p><l>gorffwyso<s n="vblex"/></l><r>rest<s n="vblex"/></r></p></e>
     <e><p><l>gorflino<s n="vblex"/></l><r>overtire<s n="vblex"/></r></p></e>
     <e><p><l>gorfodi<s n="vblex"/></l><r>compel<s n="vblex"/></r></p></e>
-    <e><p><l>gorfoleddu<s n="vblex"/></l><r>be jubilant<s n="vblex"/></r></p></e>
     <e><p><l>gorgyffwrdd<s n="vblex"/></l><r>overlap<s n="vblex"/></r></p></e>
     <e><p><l>gorgyflenwi<s n="vblex"/></l><r>over-fulfil<s n="vblex"/></r></p></e>
     <e><p><l>gori<s n="vblex"/></l><r>brood<s n="vblex"/></r></p></e>
@@ -6884,13 +6655,11 @@
     <e><p><l>gorlwytho<s n="vblex"/></l><r>overload<s n="vblex"/></r></p></e>
     <e><p><l>gormesu<s n="vblex"/></l><r>oppress<s n="vblex"/></r></p></e>
     <e><p><l>goroesi<s n="vblex"/></l><r>survive<s n="vblex"/></r></p></e>
-    <e><p><l>gorofalu<s n="vblex"/></l><r>be overprotective<s n="vblex"/></r></p></e>
     <e><p><l>gorseddu<s n="vblex"/></l><r>enthrone<s n="vblex"/></r></p></e>
     <e><p><l>gorthrechu<s n="vblex"/></l><r>overcome<s n="vblex"/></r></p></e>
     <e><p><l>gorthrymu<s n="vblex"/></l><r>overcome<s n="vblex"/></r></p></e>
     <e><p><l>goruchwylio<s n="vblex"/></l><r>supervise<s n="vblex"/></r></p></e>
     <e><p><l>goruwchlywodraethu<s n="vblex"/></l><r>overrule<s n="vblex"/></r></p></e>
-    <e><p><l>gorwedd<s n="vblex"/></l><r>lie down<s n="vblex"/></r></p></e>
     <e><p><l>gorweithio<s n="vblex"/></l><r>overwork<s n="vblex"/></r></p></e>
     <e><p><l>gorwlychu<s n="vblex"/></l><r>soak<s n="vblex"/></r></p></e>
     <e><p><l>gorymdeithio<s n="vblex"/></l><r>march<s n="vblex"/></r></p></e>
@@ -6902,9 +6671,6 @@
     <e><p><l>graddnodi<s n="vblex"/></l><r>graduate<s n="vblex"/></r></p></e>
     <e><p><l>graddoli<s n="vblex"/></l><r>grade<s n="vblex"/></r></p></e>
     <e><p><l>graeanu<s n="vblex"/></l><r>granulate<s n="vblex"/></r></p></e>
-    <e><p><l>graenio<s n="vblex"/></l><r>spruce up<s n="vblex"/></r></p></e>
-    <e><p><l>graenu<s n="vblex"/></l><r>spruce up<s n="vblex"/></r></p></e>
-    <e><p><l>greddfu<s n="vblex"/></l><r>become ingrained<s n="vblex"/></r></p></e>
     <e><p><l>gresynu<s n="vblex"/></l><r>deplore<s n="vblex"/></r></p></e>
     <e><p><l>griddfan<s n="vblex"/></l><r>groan<s n="vblex"/></r></p></e>
     <e><p><l>griddfanu<s n="vblex"/></l><r>groan<s n="vblex"/></r></p></e>
@@ -6917,7 +6683,6 @@
     <e><p><l>gwacáu<s n="vblex"/></l><r>empty<s n="vblex"/></r></p></e>
     <e><p><l>gwaddodi<s n="vblex"/></l><r>precipitate<s n="vblex"/></r></p></e>
     <e><p><l>gwaddoli<s n="vblex"/></l><r>endow<s n="vblex"/></r></p></e>
-    <e><p><l>gwaddota<s n="vblex"/></l><r>catch moles<s n="vblex"/></r></p></e>
     <e><p><l>gwadnu<s n="vblex"/></l><r>sole<s n="vblex"/></r></p></e>
     <e><p><l>gwadu<s n="vblex"/></l><r>deny<s n="vblex"/></r></p></e>
     <e><p><l>gwaedu<s n="vblex"/></l><r>bleed<s n="vblex"/></r></p></e>
@@ -6931,18 +6696,14 @@
     <e><p><l>gwahanu<s n="vblex"/></l><r>separate<s n="vblex"/></r></p></e>
     <e><p><l>gwahardd<s n="vblex"/></l><r>forbid<s n="vblex"/></r></p></e>
     <e><p><l>gwahodd<s n="vblex"/></l><r>invite<s n="vblex"/></r></p></e>
-    <e><p><l>gwalcio<s n="vblex"/></l><r>turn up<s n="vblex"/></r></p></e>
-    <e><p><l>gwallgofi<s n="vblex"/></l><r>go mad<s n="vblex"/></r></p></e>
     <e><p><l>gwalteisio<s n="vblex"/></l><r>hem<s n="vblex"/></r></p></e>
     <e><p><l>gwaltysu<s n="vblex"/></l><r>hem<s n="vblex"/></r></p></e>
     <e><p><l>gwamalu<s n="vblex"/></l><r>vacillate<s n="vblex"/></r></p></e>
     <e><p><l>gwancu<s n="vblex"/></l><r>gorge<s n="vblex"/></r></p></e>
     <e><p><l>gwanedu<s n="vblex"/></l><r>dilute<s n="vblex"/></r></p></e>
-    <e><p><l>gwangalonni<s n="vblex"/></l><r>lose heart<s n="vblex"/></r></p></e>
     <e><p><l>gwanhau<s n="vblex"/></l><r>weaken<s n="vblex"/></r></p></e>
     <e><p><l>gwanobeithio<s n="vblex"/></l><r>despair<s n="vblex"/></r></p></e>
     <e><p><l>gwanu<s n="vblex"/></l><r>pierce<s n="vblex"/></r></p></e>
-    <e><p><l>gwanwyno<s n="vblex"/></l><r>become verdant<s n="vblex"/></r></p></e>
     <e><p><l>gwanychu<s n="vblex"/></l><r>weaken<s n="vblex"/></r></p></e>
     <e><p><l>gwaradwyddo<s n="vblex"/></l><r>shame<s n="vblex"/></r></p></e>
     <e><p><l>gwarantu<s n="vblex"/></l><r>guarantee<s n="vblex"/></r></p></e>
@@ -6970,7 +6731,6 @@
     <e><p><l>gweddïo<s n="vblex"/></l><r>pray<s n="vblex"/></r></p></e>
     <e><p><l>gweddnewid<s n="vblex"/></l><r>transform<s n="vblex"/></r></p></e>
     <e><p><l>gweddu<s n="vblex"/></l><r>suit<s n="vblex"/></r></p></e>
-    <e><p><l>gwedduso<s n="vblex"/></l><r>make suitable<s n="vblex"/></r></p></e>
     <e><p><l>gweddwhau<s n="vblex"/></l><r>widow<s n="vblex"/></r></p></e>
     <e><p><l>gwefreiddio<s n="vblex"/></l><r>electrify<s n="vblex"/></r></p></e>
     <e><p><l>gwefru<s n="vblex"/></l><r>charge<s n="vblex"/></r></p></e> <!-- to charge a battery -->
@@ -6996,9 +6756,7 @@
     <e><p><l>gwersylla<s n="vblex"/></l><r>camp<s n="vblex"/></r></p></e>
     <e><p><l>gwerthfawrogi<s n="vblex"/></l><r>appreciate<s n="vblex"/></r></p></e>
     <e><p><l>gwerthu<s n="vblex"/></l><r>sell<s n="vblex"/></r></p></e>
-    <e><p><l>gwerthyd<s n="vblex"/></l><r>furnish with an axle<s n="vblex"/></r></p></e>
     <e><p><l>gweru<s n="vblex"/></l><r>grease<s n="vblex"/></r></p></e>
-    <e><p><l>gwerydu<s n="vblex"/></l><r>manure land<s n="vblex"/></r></p></e>
     <e><p><l>gweryru<s n="vblex"/></l><r>whinny<s n="vblex"/></r></p></e>
     <e><p><l>gweu<s n="vblex"/></l><r>knit<s n="vblex"/></r></p></e>
     <e><p><l>gwgu<s n="vblex"/></l><r>frown<s n="vblex"/></r></p></e>
@@ -7013,10 +6771,8 @@
     <e><p><l>gwirioneddu<s n="vblex"/></l><r>substantiate<s n="vblex"/></r></p></e>
     <e><p><l>gwirioni<s n="vblex"/></l><r>dote<s n="vblex"/></r></p></e>
     <e><p><l>gwisgo<s n="vblex"/></l><r>dress<s n="vblex"/></r></p></e>
-    <e><p><l>gwiweru<s n="vblex"/></l><r>squirrel away<s n="vblex"/></r></p></e>
     <e><p><l>gwladoli<s n="vblex"/></l><r>nationalise<s n="vblex"/></r></p></e>
     <e><p><l>gwladychu<s n="vblex"/></l><r>colonise<s n="vblex"/></r></p></e>
-    <e><p><l>gwlana<s n="vblex"/></l><r>gather wool<s n="vblex"/></r></p></e>
     <e><p><l>gwleidyddoli<s n="vblex"/></l><r>politicise<s n="vblex"/></r></p></e>
     <e><p><l>gwlychu<s n="vblex"/></l><r>moisten<s n="vblex"/></r></p></e>
     <e><p><l>gwneud<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
@@ -7024,12 +6780,10 @@
     <e><p><l>gwobrwyo<s n="vblex"/></l><r>reward<s n="vblex"/></r></p></e>
     <e><p><l>gwrando<s n="vblex"/></l><r>listen<s n="vblex"/></r></p></e>
     <e><p><l>gwregysu<s n="vblex"/></l><r>girdle<s n="vblex"/></r></p></e>
-    <e><p><l>gwreica<s n="vblex"/></l><r>seek a wife<s n="vblex"/></r></p></e>
     <e><p><l>gwreichioni<s n="vblex"/></l><r>sparkle<s n="vblex"/></r></p></e>
     <e><p><l>gwreiddio<s n="vblex"/></l><r>root<s n="vblex"/></r></p></e>
     <e><p><l>gwresogi<s n="vblex"/></l><r>heat<s n="vblex"/></r></p></e>
     <e><p><l>gwrido<s n="vblex"/></l><r>blush<s n="vblex"/></r></p></e>
-    <e><p><l>gwrogi<s n="vblex"/></l><r>pay homage<s n="vblex"/></r></p></e>
     <e><p><l>gwroli<s n="vblex"/></l><r>hearten<s n="vblex"/></r></p></e>
     <e><p><l>gwrteithio<s n="vblex"/></l><r>manure<s n="vblex"/></r></p></e>
     <e><p><l>gwrthbrofi<s n="vblex"/></l><r>disprove<s n="vblex"/></r></p></e>
@@ -7050,24 +6804,18 @@
     <e><p><l>gwrthsefyll<s n="vblex"/></l><r>withstand<s n="vblex"/></r></p></e>
     <e><p><l>gwrthsoddi<s n="vblex"/></l><r>countersink<s n="vblex"/></r></p></e>
     <e><p><l>gwrthuno<s n="vblex"/></l><r>deface<s n="vblex"/></r></p></e>
-    <e><p><l>gwrthwasgu<s n="vblex"/></l><r>do pushups<s n="vblex"/></r></p></e>
     <e><p><l>gwrthweithio<s n="vblex"/></l><r>react<s n="vblex"/></r></p></e>
     <e><p><l>gwrthwynebu<s n="vblex"/></l><r>oppose<s n="vblex"/></r></p></e>
     <e><p><l>gwrymio<s n="vblex"/></l><r>seam<s n="vblex"/></r></p></e>
     <e><p><l>gwthio<s n="vblex"/></l><r>shove<s n="vblex"/></r></p></e>
-    <e><p><l>gwybeta<s n="vblex"/></l><r>dart about<s n="vblex"/></r></p></e>
     <e><p><l>gwyddori<s n="vblex"/></l><r>instruct<s n="vblex"/></r></p></e>
     <e><p><l>gwydnhau<s n="vblex"/></l><r>toughen<s n="vblex"/></r></p></e>
     <e><p><l>gwydro<s n="vblex"/></l><r>glaze<s n="vblex"/></r></p></e>
     <e><p><l>gwylio<s n="vblex"/></l><r>watch<s n="vblex"/></r></p></e>
-    <e><p><l>gwylltio<s n="vblex"/></l><r>fly into a temper<s n="vblex"/></r></p></e>
     <e><p><l>gwyngalchu<s n="vblex"/></l><r>whitewash<s n="vblex"/></r></p></e>
-    <e><p><l>gwynlasu<s n="vblex"/></l><r>turn deathly pale<s n="vblex"/></r></p></e>
     <e><p><l>gwynnu<s n="vblex"/></l><r>whiten<s n="vblex"/></r></p></e>
     <e><p><l>gwyntio<s n="vblex"/></l><r>smell<s n="vblex"/></r></p></e>
     <e><p><l>gwyntyllu<s n="vblex"/></l><r>ventilate<s n="vblex"/></r></p></e>
-    <e><p><l>gwyrddu<s n="vblex"/></l><r>turn green<s n="vblex"/></r></p></e>
-    <e><p><l>gwyrgamu<s n="vblex"/></l><r>go awry<s n="vblex"/></r></p></e>
     <e><p><l>gwyro<s n="vblex"/></l><r>veer<s n="vblex"/></r></p></e>
     <e><p><l>gwysio<s n="vblex"/></l><r>summon<s n="vblex"/></r></p></e>
     <e><p><l>gwystlo<s n="vblex"/></l><r>pledge<s n="vblex"/></r></p></e>
@@ -7090,12 +6838,10 @@
     <e><p><l>halltu<s n="vblex"/></l><r>salt<s n="vblex"/></r></p></e>
     <e><p><l>halogi<s n="vblex"/></l><r>sully<s n="vblex"/></r></p></e>
     <e><p><l>hambygio<s n="vblex"/></l><r>tease<s n="vblex"/></r></p></e>
-    <e><p><l>hamddena<s n="vblex"/></l><r>take it easy<s n="vblex"/></r></p></e>
     <e><p><l>haneru<s n="vblex"/></l><r>halve<s n="vblex"/></r></p></e>
     <e><p><l>hanu<s n="vblex"/></l><r>originate<s n="vblex"/></r></p></e>
     <e><p><l>hapchwarae<s n="vblex"/></l><r>gamble<s n="vblex"/></r></p></e>
     <e><p><l>hapfasnachu<s n="vblex"/></l><r>speculate<s n="vblex"/></r></p></e>
-    <e><p><l>hapgyrchu<s n="vblex"/></l><r>random access<s n="vblex"/></r></p></e>
     <e><p><l>harddu<s n="vblex"/></l><r>beautify<s n="vblex"/></r></p></e>
     <e><p><l>harneisio<s n="vblex"/></l><r>harness<s n="vblex"/></r></p></e>
     <e><p><l>hau<s n="vblex"/></l><r>sow<s n="vblex"/></r></p></e>
@@ -7110,7 +6856,6 @@
     <e><p><l>heidio<s n="vblex"/></l><r>swarm<s n="vblex"/></r></p></e>
     <e><p><l>heigio<s n="vblex"/></l><r>swarm<s n="vblex"/></r></p></e>
     <e><p><l>heintio<s n="vblex"/></l><r>contaminate<s n="vblex"/></r></p></e>
-    <e><p><l>heislanu<s n="vblex"/></l><r>hackle flax<s n="vblex"/></r></p></e>
     <e><p><l>hel<s n="vblex"/></l><r>collect<s n="vblex"/></r></p></e>
     <e><p><l>hela<s n="vblex"/></l><r>hunt<s n="vblex"/></r></p></e>
     <e><p><l>helaethu<s n="vblex"/></l><r>enlarge<s n="vblex"/></r></p></e>
@@ -7122,7 +6867,6 @@
     <e><p><l>hendrefu<s n="vblex"/></l><r>dwell<s n="vblex"/></r></p></e>
     <e><p><l>heneiddio<s n="vblex"/></l><r>age<s n="vblex"/></r></p></e>
     <e><p><l>hepgor<s n="vblex"/></l><r>omit<s n="vblex"/></r></p></e>
-    <e><p><l>hepian<s n="vblex"/></l><r>nod off<s n="vblex"/></r></p></e>
     <e><p><l>hercian<s n="vblex"/></l><r>limp<s n="vblex"/></r></p></e>
     <e><p><l>hercio<s n="vblex"/></l><r>hobble<s n="vblex"/></r></p></e>
     <e><p><l>herfeiddio<s n="vblex"/></l><r>defy<s n="vblex"/></r></p></e>
@@ -7138,18 +6882,14 @@
     <e><p><l>hidio<s n="vblex"/></l><r>heed<s n="vblex"/></r></p></e>
     <e><p><l>hidlo<s n="vblex"/></l><r>strain<s n="vblex"/></r></p></e>
     <e><p><l>hidroleiddio<s n="vblex"/></l><r>hydrolyse<s n="vblex"/></r></p></e>
-
     <e><p><l>drifftio<s n="vblex"/></l><r>drift<s n="vblex"/></r></p></e>
     <e><p><l>hiffio<s n="vblex"/></l><r>drift<s n="vblex"/></r></p></e> <!-- to snow drift -->
     <e><p><l>lluwchio<s n="vblex"/></l><r>drift<s n="vblex"/></r></p></e> <!-- snow -->
-
     <e><p><l>hifflo<s n="vblex"/></l><r>gush<s n="vblex"/></r></p></e>
     <e><p><l>hifio<s n="vblex"/></l><r>heave<s n="vblex"/></r></p></e>
     <e><p><l>hindreulio<s n="vblex"/></l><r>weather<s n="vblex"/></r></p></e>
     <e><p><l>hindro<s n="vblex"/></l><r>hinder<s n="vblex"/></r></p></e>
-    <e><p><l>hinoni<s n="vblex"/></l><r>become fine<s n="vblex"/></r></p></e> <!-- weather -->
     <e><p><l>hinsoddi<s n="vblex"/></l><r>acclimatise<s n="vblex"/></r></p></e>
-    <e><p><l>hiraethu<s n="vblex"/></l><r>long for<s n="vblex"/></r></p></e>
     <e><p><l>hirbarhau<s n="vblex"/></l><r>endure<s n="vblex"/></r></p></e>
     <e><p><l>hisian<s n="vblex"/></l><r>hiss<s n="vblex"/></r></p></e>
     <e><p><l>hobelu<s n="vblex"/></l><r>hobble<s n="vblex"/></r></p></e>
@@ -7177,10 +6917,8 @@
     <e><p><l>hunanddewis<s n="vblex"/></l><r>self-select<s n="vblex"/></r></p></e>
     <e><p><l>hunangyfeirio<s n="vblex"/></l><r>self-regard<s n="vblex"/></r></p></e>
     <e><p><l>hunanholi<s n="vblex"/></l><r>self-examine<s n="vblex"/></r></p></e>
-    <e><p><l>hunanymwadu<s n="vblex"/></l><r>deny oneself<s n="vblex"/></r></p></e>
     <e><p><l>huno<s n="vblex"/></l><r>sleep<s n="vblex"/></r></p></e>
     <e><p><l>hurio<s n="vblex"/></l><r>hire<s n="vblex"/></r></p></e>
-    <e><p><l>hurtio<s n="vblex"/></l><r>become confused<s n="vblex"/></r></p></e>
     <e><p><l>hwpio<s n="vblex"/></l><r>ram<s n="vblex"/></r></p></e>
     <e><p><l>hwpo<s n="vblex"/></l><r>ram<s n="vblex"/></r></p></e>
     <e><p><l>hwrio<s n="vblex"/></l><r>whore<s n="vblex"/></r></p></e>
@@ -7191,9 +6929,7 @@
     <e><p><l>hwylfyrddio<s n="vblex"/></l><r>sailboard<s n="vblex"/></r></p></e>
     <e><p><l>hwylio<s n="vblex"/></l><r>sail<s n="vblex"/></r></p></e>
     <e><p><l>hwyluso<s n="vblex"/></l><r>facilitate<s n="vblex"/></r></p></e>
-    <e><p><l>hwyrhau<s n="vblex"/></l><r>get late<s n="vblex"/></r></p></e>
     <e><p><l>hybu<s n="vblex"/></l><r>promote<s n="vblex"/></r></p></e>
-    <e><p><l>hyderu<s n="vblex"/></l><r>be confident<s n="vblex"/></r></p></e>
     <e><p><l>hyfforddi<s n="vblex"/></l><r>train<s n="vblex"/></r></p></e>
     <e><p><l>hyfrydu<s n="vblex"/></l><r>delight<s n="vblex"/></r></p></e>
     <e><p><l>hylifo<s n="vblex"/></l><r>liquidise<s n="vblex"/></r></p></e>
@@ -7207,7 +6943,6 @@
     <e><p><l>hysbyddu<s n="vblex"/></l><r>exhaust<s n="vblex"/></r></p></e>
     <e><p><l>hysbysebu<s n="vblex"/></l><r>advertise<s n="vblex"/></r></p></e>
     <e><p><l>hysbysu<s n="vblex"/></l><r>announce<s n="vblex"/></r></p></e>
-    <e><p><l>hysian<s n="vblex"/></l><r>set on<s n="vblex"/></r></p></e>
     <e><p><l>hyweddu<s n="vblex"/></l><r>pacify<s n="vblex"/></r></p></e>
     <e><p><l>iacháu<s n="vblex"/></l><r>heal<s n="vblex"/></r></p></e>
     <e><p><l>iasu<s n="vblex"/></l><r>simmer<s n="vblex"/></r></p></e>
@@ -7223,7 +6958,6 @@
     <e><p><l>iro<s n="vblex"/></l><r>anoint<s n="vblex"/></r></p></e>
     <e><p><l>iselhau<s n="vblex"/></l><r>lower<s n="vblex"/></r></p></e>
     <e><p><l>iselu<s n="vblex"/></l><r>lower<s n="vblex"/></r></p></e>
-    <e><p><l>isgilio<s n="vblex"/></l><r>ride as passenger<s n="vblex"/></r></p></e>
     <e><p><l>isosod<s n="vblex"/></l><r>sublet<s n="vblex"/></r></p></e>
     <e><p><l>isrannu<s n="vblex"/></l><r>subdivide<s n="vblex"/></r></p></e>
     <e><p><l>jacio<s n="vblex"/></l><r>jack<s n="vblex"/></r></p></e>
@@ -7260,23 +6994,14 @@
     <e><p><l>llafurio<s n="vblex"/></l><r>labour<s n="vblex"/></r></p></e>
     <e><p><l>llamsachu<s n="vblex"/></l><r>frisk<s n="vblex"/></r></p></e>
     <e><p><l>llamu<s n="vblex"/></l><r>leap<s n="vblex"/></r></p></e>
-    <e><p><l>llanastru<s n="vblex"/></l><r>mess up<s n="vblex"/></r></p></e>
-    <e><p><l>llanerchu<s n="vblex"/></l><r>clear land<s n="vblex"/></r></p></e>
     <e><p><l>llanw<s n="vblex"/></l><r>fill<s n="vblex"/></r></p></e>
     <e><p><l>llarieiddio<s n="vblex"/></l><r>moderate<s n="vblex"/></r></p></e>
     <e><p><l>llarpio<s n="vblex"/></l><r>devour<s n="vblex"/></r></p></e>
     <e><p><l>llathru<s n="vblex"/></l><r>gleam<s n="vblex"/></r></p></e>
     <e><p><l>llawcio<s n="vblex"/></l><r>gobble<s n="vblex"/></r></p></e>
-
-    <e><p><l>cynheica<s n="vblex"/></l><r>be in heat<s n="vblex"/></r></p></e>
-    <e><p><l>llawdio<s n="vblex"/></l><r>be in heat<s n="vblex"/></r></p></e> <!-- sow/animal -->
-    <e><p><l>marchio<s n="vblex"/></l><r>be in heat<s n="vblex"/></r></p></e> <!-- mare / horse -->
-    <e><p><l>llodi<s n="vblex"/></l><r>be in heat<s n="vblex"/></r></p></e> <!-- sow -->
-
     <e><p><l>llawenhau<s n="vblex"/></l><r>rejoice<s n="vblex"/></r></p></e>
     <e><p><l>llawenychu<s n="vblex"/></l><r>rejoice<s n="vblex"/></r></p></e>
     <e><p><l>llawnodi<s n="vblex"/></l><r>brand<s n="vblex"/></r></p></e>
-    <e><p><l>llechfeddiannu<s n="vblex"/></l><r>encroach upon<s n="vblex"/></r></p></e>
     <e><p><l>llechu<s n="vblex"/></l><r>hide<s n="vblex"/></r></p></e>
     <e><p><l>llechweddu<s n="vblex"/></l><r>slope<s n="vblex"/></r></p></e>
     <e><p><l>lledaenu<s n="vblex"/></l><r>disseminate<s n="vblex"/></r></p></e>
@@ -7293,19 +7018,13 @@
     <e><p><l>lleinasio<s n="vblex"/></l><r>fillet-weld<s n="vblex"/></r></p></e>
     <e><p><l>lleisio<s n="vblex"/></l><r>voice<s n="vblex"/></r></p></e>
     <e><p><l>llemain<s n="vblex"/></l><r>leap<s n="vblex"/></r></p></e>
-    <e><p><l>llenora<s n="vblex"/></l><r>be an author<s n="vblex"/></r></p></e>
     <e><p><l>llenwi<s n="vblex"/></l><r>fill<s n="vblex"/></r></p></e>
-    <e><p><l>llenydda<s n="vblex"/></l><r>be well-versed in literature<s n="vblex"/></r></p></e>
     <e><p><l>lleoli<s n="vblex"/></l><r>locate<s n="vblex"/></r></p></e>
     <e><p><l>llercian<s n="vblex"/></l><r>lurk<s n="vblex"/></r></p></e>
     <e><p><l>llesgáu<s n="vblex"/></l><r>enfeeble<s n="vblex"/></r></p></e>
     <e><p><l>llesgu<s n="vblex"/></l><r>enfeeble<s n="vblex"/></r></p></e>
-    <e><p><l>llesio<s n="vblex"/></l><r>be advantageous<s n="vblex"/></r></p></e>
     <e><p><l>llesmeirio<s n="vblex"/></l><r>swoon<s n="vblex"/></r></p></e>
     <e><p><l>llesteirio<s n="vblex"/></l><r>hinder<s n="vblex"/></r></p></e>
-    <e><p><l>llestrio<s n="vblex"/></l><r>put into a vessel<s n="vblex"/></r></p></e>
-    <e><p><l>llestru<s n="vblex"/></l><r>put into a vessel<s n="vblex"/></r></p></e>
-    <e><p><l>llesu<s n="vblex"/></l><r>be advantageous<s n="vblex"/></r></p></e>
     <e><p><l>lletemu<s n="vblex"/></l><r>rivet<s n="vblex"/></r></p></e>
     <e><p><l>llethu<s n="vblex"/></l><r>oppress<s n="vblex"/></r></p></e>
     <e><p><l>lletya<s n="vblex"/></l><r>lodge<s n="vblex"/></r></p></e>
@@ -7330,7 +7049,6 @@
     <e><p><l>llochesu<s n="vblex"/></l><r>shelter<s n="vblex"/></r></p></e>
     <e><p><l>llochi<s n="vblex"/></l><r>caress<s n="vblex"/></r></p></e>
     <e><p><l>llocio<s n="vblex"/></l><r>pen<s n="vblex"/></r></p></e> <!-- to pen sheep -->
-    <e><p><l>lloesi<s n="vblex"/></l><r>get rid of<s n="vblex"/></r></p></e>
     <e><p><l>llofelu<s n="vblex"/></l><r>stroke<s n="vblex"/></r></p></e>
     <e><p><l>lloffa<s n="vblex"/></l><r>collect<s n="vblex"/></r></p></e>
     <e><p><l>llofnodi<s n="vblex"/></l><r>sign<s n="vblex"/></r></p></e>
@@ -7339,7 +7057,6 @@
     <e><p><l>llongyfarch<s n="vblex"/></l><r>congratulate<s n="vblex"/></r></p></e>
     <e><p><l>llonni<s n="vblex"/></l><r>gladden<s n="vblex"/></r></p></e>
     <e><p><l>llonyddu<s n="vblex"/></l><r>pacify<s n="vblex"/></r></p></e>
-    <e><p><l>llori<s n="vblex"/></l><r>cut down<s n="vblex"/></r></p></e>
     <e><p><l>llorio<s n="vblex"/></l><r>floor<s n="vblex"/></r></p></e>
     <e><p><l>llosgi<s n="vblex"/></l><r>burn<s n="vblex"/></r></p></e>
     <e><p><l>llowcio<s n="vblex"/></l><r>gobble<s n="vblex"/></r></p></e>
@@ -7355,37 +7072,27 @@
     <e><p><l>lluosi<s n="vblex"/></l><r>multiply<s n="vblex"/></r></p></e>
     <e><p><l>lluosogi<s n="vblex"/></l><r>multiply<s n="vblex"/></r></p></e>
     <e><p><l>llurgunio<s n="vblex"/></l><r>mutilate<s n="vblex"/></r></p></e>
-    <e><p><l>llusa<s n="vblex"/></l><r>gather bilberries<s n="vblex"/></r></p></e>
     <e><p><l>llusgo<s n="vblex"/></l><r>drag<s n="vblex"/></r></p></e>
     <e><p><l>llutrodi<s n="vblex"/></l><r>defile<s n="vblex"/></r></p></e>
     <e><p><l>lluyddu<s n="vblex"/></l><r>mobilise<s n="vblex"/></r></p></e>
-    <e><p><l>llwfrhau<s n="vblex"/></l><r>lose heart<s n="vblex"/></r></p></e>
     <e><p><l>llwgrwobrwyo<s n="vblex"/></l><r>bribe<s n="vblex"/></r></p></e>
-    <e><p><l>llwgu<s n="vblex"/></l><r>be ravenously hungry<s n="vblex"/></r></p></e>
     <e><p><l>llwya<s n="vblex"/></l><r>spoon<s n="vblex"/></r></p></e>
     <e><p><l>llwybreiddio<s n="vblex"/></l><r>guide<s n="vblex"/></r></p></e>
     <e><p><l>llwybro<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
     <e><p><l>llwyddo<s n="vblex"/></l><r>succeed<s n="vblex"/></r></p></e>
-    <e><p><l>llwydo<s n="vblex"/></l><r>become mouldy<s n="vblex"/></r></p></e>
     <e><p><l>llwydrewi<s n="vblex"/></l><r>freeze<s n="vblex"/></r></p></e> <!-- (hoarfrost) -->
     <e><p><l>llwyfannu<s n="vblex"/></l><r>stage<s n="vblex"/></r></p></e>
-    <e><p><l>llwyrlanhau<s n="vblex"/></l><r>clean thoroughly<s n="vblex"/></r></p></e>
-    <e><p><l>llwyrymatal<s n="vblex"/></l><r>abstain totally<s n="vblex"/></r></p></e>
-    <e><p><l>llwyrymwrthod<s n="vblex"/></l><r>abstain totally<s n="vblex"/></r></p></e>
     <e><p><l>llwytho<s n="vblex"/></l><r>load<s n="vblex"/></r></p></e>
     <e><p><l>llychwino<s n="vblex"/></l><r>stain<s n="vblex"/></r></p></e>
     <e><p><l>llydnu<s n="vblex"/></l><r>lamb<s n="vblex"/></r></p></e>
     <e><p><l>llyffetheirio<s n="vblex"/></l><r>fetter<s n="vblex"/></r></p></e>
     <e><p><l>llyfnhau<s n="vblex"/></l><r>level<s n="vblex"/></r></p></e>
     <e><p><l>llyfnu<s n="vblex"/></l><r>harrow<s n="vblex"/></r></p></e>
-    <e><p><l>llyfrïo<s n="vblex"/></l><r>tear to bits<s n="vblex"/></r></p></e>
     <e><p><l>llyfru<s n="vblex"/></l><r>book<s n="vblex"/></r></p></e>
-    <e><p><l>llyfrwerthu<s n="vblex"/></l><r>sell books<s n="vblex"/></r></p></e>
     <e><p><l>llyfu<s n="vblex"/></l><r>lick<s n="vblex"/></r></p></e>
     <e><p><l>llygad-dynnu<s n="vblex"/></l><r>fascinate<s n="vblex"/></r></p></e>
     <e><p><l>llygadrythu<s n="vblex"/></l><r>stare<s n="vblex"/></r></p></e>
     <e><p><l>llygadu<s n="vblex"/></l><r>eye<s n="vblex"/></r></p></e>
-    <e><p><l>llygota<s n="vblex"/></l><r>catch mice<s n="vblex"/></r></p></e>
     <e><p><l>llygrio<s n="vblex"/></l><r>corrupt<s n="vblex"/></r></p></e>
     <e><p><l>llygru<s n="vblex"/></l><r>corrupt<s n="vblex"/></r></p></e>
     <e><p><l>llymeidio<s n="vblex"/></l><r>sip<s n="vblex"/></r></p></e>
@@ -7395,7 +7102,6 @@
     <e><p><l>llyncu<s n="vblex"/></l><r>swallow<s n="vblex"/></r></p></e>
     <e><p><l>llyo<s n="vblex"/></l><r>lick<s n="vblex"/></r></p></e>
     <e><p><l>llysenwi<s n="vblex"/></l><r>nickname<s n="vblex"/></r></p></e>
-    <e><p><l>llythrennu<s n="vblex"/></l><r>form letters<s n="vblex"/></r></p></e>
     <e><p><l>llythyra<s n="vblex"/></l><r>correspond<s n="vblex"/></r></p></e>
     <e><p><l>llythyru<s n="vblex"/></l><r>correspond<s n="vblex"/></r></p></e>
     <e><p><l>llyu<s n="vblex"/></l><r>lick<s n="vblex"/></r></p></e>
@@ -7405,7 +7111,6 @@
     <e><p><l>loetran<s n="vblex"/></l><r>loiter<s n="vblex"/></r></p></e>
     <e><p><l>lolian<s n="vblex"/></l><r>lounge<s n="vblex"/></r></p></e>
     <e><p><l>loncian<s n="vblex"/></l><r>jog<s n="vblex"/></r></p></e>
-    <e><p><l>lordio<s n="vblex"/></l><r>lord it<s n="vblex"/></r></p></e>
     <e><p><l>mabwysiadu<s n="vblex"/></l><r>adopt<s n="vblex"/></r></p></e>
     <e><p><l>machlud<s n="vblex"/></l><r>set<s n="vblex"/></r></p></e> <!-- to set (sun) -->
     <e><p><l>macsu<s n="vblex"/></l><r>brew<s n="vblex"/></r></p></e>
@@ -7423,7 +7128,6 @@
     <e><p><l>magwyro<s n="vblex"/></l><r>wall<s n="vblex"/></r></p></e>
     <e><p><l>maldodi<s n="vblex"/></l><r>pamper<s n="vblex"/></r></p></e>
     <e><p><l>malu<s n="vblex"/></l><r>grind<s n="vblex"/></r></p></e>
-    <e><p><l>malurio<s n="vblex"/></l><r>break into fragments<s n="vblex"/></r></p></e>
     <e><p><l>mamogi<s n="vblex"/></l><r>mother<s n="vblex"/></r></p></e>
     <e><p><l>mandadu<s n="vblex"/></l><r>mandate<s n="vblex"/></r></p></e>
     <e><p><l>manteisio<s n="vblex"/></l><r>benefit<s n="vblex"/></r></p></e>
@@ -7442,7 +7146,6 @@
     <e><p><l>masgio<s n="vblex"/></l><r>mask<s n="vblex"/></r></p></e>
     <e><p><l>masglu<s n="vblex"/></l><r>shell<s n="vblex"/></r></p></e>
     <e><p><l>masnachu<s n="vblex"/></l><r>trade<s n="vblex"/></r></p></e>
-    <e><p><l>mathru<s n="vblex"/></l><r>trample on<s n="vblex"/></r></p></e>
     <e><p><l>matriciwleiddio<s n="vblex"/></l><r>matriculate<s n="vblex"/></r></p></e>
     <e><p><l>mawrhau<s n="vblex"/></l><r>enlarge<s n="vblex"/></r></p></e>
     <e><p><l>mawrygu<s n="vblex"/></l><r>glorify<s n="vblex"/></r></p></e>
@@ -7452,13 +7155,10 @@
     <e><p><l>meddalu<s n="vblex"/></l><r>soften<s n="vblex"/></r></p></e>
     <e><p><l>meddiannu<s n="vblex"/></l><r>possess<s n="vblex"/></r></p></e>
     <e><p><l>meddu<s n="vblex"/></l><r>own<s n="vblex"/></r></p></e>
-    <e><p><l>meddwi<s n="vblex"/></l><r>get drunk<s n="vblex"/></r></p></e>
     <e><p><l>meddwl<s n="vblex"/></l><r>think<s n="vblex"/></r></p></e>
     <e><p><l>meddyginiaethu<s n="vblex"/></l><r>treat<s n="vblex"/></r></p></e>
     <e><p><l>medi<s n="vblex"/></l><r>reap<s n="vblex"/></r></p></e>
-    <e><p><l>medru<s n="vblex"/></l><r>be able to<s n="vbmod"/></r></p></e>
     <e><p><l>meflu<s n="vblex"/></l><r>disgrace<s n="vblex"/></r></p></e>
-    <e><p><l>megina<s n="vblex"/></l><r>use bellows<s n="vblex"/></r></p></e>
     <e><p><l>meiddio<s n="vblex"/></l><r>dare<s n="vblex"/></r></p></e>
     <e><p><l>meidryddu<s n="vblex"/></l><r>gauge<s n="vblex"/></r></p></e>
     <e><p><l>meimio<s n="vblex"/></l><r>mime<s n="vblex"/></r></p></e>
@@ -7469,8 +7169,6 @@
     <e><p><l>meirioli<s n="vblex"/></l><r>thaw<s n="vblex"/></r></p></e>
     <e><p><l>meistroli<s n="vblex"/></l><r>master<s n="vblex"/></r></p></e>
     <e><p><l>meithrin<s n="vblex"/></l><r>nurture<s n="vblex"/></r></p></e>
-    <e><p><l>melltennu<s n="vblex"/></l><r>flash lightning<s n="vblex"/></r></p></e>
-    <e><p><l>melltio<s n="vblex"/></l><r>flash lightning<s n="vblex"/></r></p></e>
     <e><p><l>melltithio<s n="vblex"/></l><r>curse<s n="vblex"/></r></p></e>
     <e><p><l>melynu<s n="vblex"/></l><r>yellow<s n="vblex"/></r></p></e>
     <e><p><l>melysu<s n="vblex"/></l><r>sweeten<s n="vblex"/></r></p></e>
@@ -7485,7 +7183,6 @@
     <e><p><l>mesuro<s n="vblex"/></l><r>measure<s n="vblex"/></r></p></e>
     <e><p><l>methu<s n="vblex"/></l><r>fail<s n="vblex"/></r></p></e>
     <e><p><l>metrigeiddio<s n="vblex"/></l><r>metricate<s n="vblex"/></r></p></e>
-    <e><p><l>meudwyo<s n="vblex"/></l><r>live like a hermit<s n="vblex"/></r></p></e>
     <e><p><l>mewian<s n="vblex"/></l><r>mew<s n="vblex"/></r></p></e>
     <e><p><l>mewnbynnu<s n="vblex"/></l><r>input<s n="vblex"/></r></p></e>
     <e><p><l>mewnddodi<s n="vblex"/></l><r>infix<s n="vblex"/></r></p></e>
@@ -7497,7 +7194,6 @@
     <e><p><l>mewnsaethu<s n="vblex"/></l><r>inject<s n="vblex"/></r></p></e>
     <e><p><l>migno<s n="vblex"/></l><r>trample<s n="vblex"/></r></p></e>
     <e><p><l>milwrio<s n="vblex"/></l><r>militate<s n="vblex"/></r></p></e>
-    <e><p><l>mingamu<s n="vblex"/></l><r>smile sardonically<s n="vblex"/></r></p></e>
     <e><p><l>minimeiddio<s n="vblex"/></l><r>minimise<s n="vblex"/></r></p></e>
     <e><p><l>mireinio<s n="vblex"/></l><r>beautify<s n="vblex"/></r></p></e>
     <e><p><l>misio<s n="vblex"/></l><r>miss<s n="vblex"/></r></p></e>
@@ -7508,8 +7204,6 @@
     <e><p><l>modrwyo<s n="vblex"/></l><r>ring<s n="vblex"/></r></p></e>
     <e><p><l>moduro<s n="vblex"/></l><r>motor<s n="vblex"/></r></p></e>
     <e><p><l>modylu<s n="vblex"/></l><r>modulate<s n="vblex"/></r></p></e>
-    <e><p><l>moeli<s n="vblex"/></l><r>become bald<s n="vblex"/></r></p></e>
-    <e><p><l>moelio<s n="vblex"/></l><r>become bald<s n="vblex"/></r></p></e>
     <e><p><l>moesgyfarch<s n="vblex"/></l><r>compliment<s n="vblex"/></r></p></e>
     <e><p><l>moesoli<s n="vblex"/></l><r>moralise<s n="vblex"/></r></p></e>
     <e><p><l>moesymgrymu<s n="vblex"/></l><r>curtsy<s n="vblex"/></r></p></e>
@@ -7531,7 +7225,6 @@
     <e><p><l>mudo<s n="vblex"/></l><r>silence<s n="vblex"/></r></p></e>
     <e><p><l>munudio<s n="vblex"/></l><r>gesticulate<s n="vblex"/></r></p></e>
     <e><p><l>murmuro<s n="vblex"/></l><r>murmer<s n="vblex"/></r></p></e>
-    <e><p><l>mursennu<s n="vblex"/></l><r>behave coyly<s n="vblex"/></r></p></e>
     <e><p><l>mwgydu<s n="vblex"/></l><r>mask<s n="vblex"/></r></p></e>
     <e><p><l>mwmial<s n="vblex"/></l><r>mutter<s n="vblex"/></r></p></e>
     <e><p><l>mwmialu<s n="vblex"/></l><r>mutter<s n="vblex"/></r></p></e>
@@ -7543,21 +7236,17 @@
     <e><p><l>mwydioni<s n="vblex"/></l><r>steep<s n="vblex"/></r></p></e>
     <e><p><l>mwydo<s n="vblex"/></l><r>steep<s n="vblex"/></r></p></e>
     <e><p><l>mwydro<s n="vblex"/></l><r>bewilder<s n="vblex"/></r></p></e>
-    <e><p><l>mwyglo<s n="vblex"/></l><r>be tepid<s n="vblex"/></r></p></e>
     <e><p><l>mwyhau<s n="vblex"/></l><r>enlarge<s n="vblex"/></r></p></e>
     <e><p><l>mwyndoddi<s n="vblex"/></l><r>smelt<s n="vblex"/></r></p></e>
-    <e><p><l>mwyneiddio<s n="vblex"/></l><r>become gentle<s n="vblex"/></r></p></e>
     <e><p><l>mwyngloddio<s n="vblex"/></l><r>mine<s n="vblex"/></r></p></e>
     <e><p><l>mwynhau<s n="vblex"/></l><r>enjoy<s n="vblex"/></r></p></e>
     <e><p><l>mwytho<s n="vblex"/></l><r>fondle<s n="vblex"/></r></p></e>
     <e><p><l>mydryddu<s n="vblex"/></l><r>versify<s n="vblex"/></r></p></e>
     <e><p><l>mydylu<s n="vblex"/></l><r>stack<s n="vblex"/></r></p></e>
     <e><p><l>myfyrio<s n="vblex"/></l><r>contemplate<s n="vblex"/></r></p></e>
-    <e><p><l>mygdarthu<s n="vblex"/></l><r>burn incense<s n="vblex"/></r></p></e>
     <e><p><l>mygu<s n="vblex"/></l><r>suffocate<s n="vblex"/></r></p></e>
     <e><p><l>mygu<s n="vblex"/></l><r>smoke<s n="vblex"/></r></p></e>
     <e><p><l>mygydu<s n="vblex"/></l><r>mask<s n="vblex"/></r></p></e>
-    <e><p><l>myllio<s n="vblex"/></l><r>fly into a rage<s n="vblex"/></r></p></e>
     <e><p><l>mynd<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
     <e><p><l>mynegeio<s n="vblex"/></l><r>index<s n="vblex"/></r></p></e>
     <e><p><l>mynegi<s n="vblex"/></l><r>express<s n="vblex"/></r></p></e>
@@ -7566,7 +7255,6 @@
     <e><p><l>mynnu<s n="vblex"/></l><r>insist<s n="vblex"/></r></p></e>
     <e><p><l>mynwesu<s n="vblex"/></l><r>embrace<s n="vblex"/></r></p></e>
     <e><p><l>mynychu<s n="vblex"/></l><r>frequent<s n="vblex"/></r></p></e>
-    <e><p><l>mynydda<s n="vblex"/></l><r>climb mountains<s n="vblex"/></r></p></e>
     <e><p><l>mysgu<s n="vblex"/></l><r>disentangle<s n="vblex"/></r></p></e>
     <e><p><l>nacáu<s n="vblex"/></l><r>refuse<s n="vblex"/></r></p></e>
     <e><p><l>naddu<s n="vblex"/></l><r>carve<s n="vblex"/></r></p></e>
@@ -7576,7 +7264,6 @@
     <e><p><l>nawddogi<s n="vblex"/></l><r>sponsor<s n="vblex"/></r></p></e>
     <e><p><l>nawseiddio<s n="vblex"/></l><r>soften<s n="vblex"/></r></p></e>
     <e><p><l>nefoli<s n="vblex"/></l><r>sanctify<s n="vblex"/></r></p></e>
-    <e><p><l>negesa<s n="vblex"/></l><r>run a message<s n="vblex"/></r></p></e>
     <e><p><l>negeseua<s n="vblex"/></l><r>negotiate<s n="vblex"/></r></p></e>
     <e><p><l>negyddu<s n="vblex"/></l><r>negate<s n="vblex"/></r></p></e>
     <e><p><l>neidio<s n="vblex"/></l><r>jump<s n="vblex"/></r></p></e>
@@ -7586,7 +7273,6 @@
     <e><p><l>nesáu<s n="vblex"/></l><r>approach<s n="vblex"/></r></p></e>
     <e><p><l>nesu<s n="vblex"/></l><r>approach<s n="vblex"/></r></p></e>
     <e><p><l>newid<s n="vblex"/></l><r>change<s n="vblex"/></r></p></e>
-    <e><p><l>newyddiadura<s n="vblex"/></l><r>be a journalist<s n="vblex"/></r></p></e>
     <e><p><l>newyddu<s n="vblex"/></l><r>renew<s n="vblex"/></r></p></e>
     <e><p><l>newynu<s n="vblex"/></l><r>starve<s n="vblex"/></r></p></e>
     <e><p><l>nithio<s n="vblex"/></l><r>sift<s n="vblex"/></r></p></e>
@@ -7598,11 +7284,8 @@
     <e><p><l>noethi<s n="vblex"/></l><r>strip<s n="vblex"/></r></p></e>
     <e><p><l>nofio<s n="vblex"/></l><r>swim<s n="vblex"/></r></p></e>
     <e><p><l>nogio<s n="vblex"/></l><r>tire<s n="vblex"/></r></p></e>
-    <e><p><l>nosi<s n="vblex"/></l><r>become night<s n="vblex"/></r></p></e>
-    <e><p><l>noswylio<s n="vblex"/></l><r>rest at night<s n="vblex"/></r></p></e>
     <e><p><l>nwyeiddio<s n="vblex"/></l><r>gasify<s n="vblex"/></r></p></e>
     <e><p><l>nychu<s n="vblex"/></l><r>vex<s n="vblex"/></r></p></e>
-    <e><p><l>nyddu<s n="vblex"/></l><r>spin yarn<s n="vblex"/></r></p></e>
     <e><p><l>nyrsio<s n="vblex"/></l><r>nurse<s n="vblex"/></r></p></e>
     <e><p><l>nythu<s n="vblex"/></l><r>nest<s n="vblex"/></r></p></e>
     <e><p><l>ochneidio<s n="vblex"/></l><r>sigh<s n="vblex"/></r></p></e>
@@ -7613,9 +7296,7 @@
     <e><p><l>oedi<s n="vblex"/></l><r>pause<s n="vblex"/></r></p></e>
     <e><p><l>oelio<s n="vblex"/></l><r>oil<s n="vblex"/></r></p></e>
     <e><p><l>oeni<s n="vblex"/></l><r>lamb<s n="vblex"/></r></p></e>
-    <e><p><l>oeri<s n="vblex"/></l><r>grow cold<s n="vblex"/></r></p></e>
     <e><p><l>oernadu<s n="vblex"/></l><r>lament<s n="vblex"/></r></p></e>
-    <e><p><l>ofera<s n="vblex"/></l><r>live dissolutely<s n="vblex"/></r></p></e>
     <e><p><l>offeiriadu<s n="vblex"/></l><r>minister<s n="vblex"/></r></p></e>
     <e><p><l>offrymu<s n="vblex"/></l><r>sacrifice<s n="vblex"/></r></p></e>
     <e><p><l>ofni<s n="vblex"/></l><r>fear<s n="vblex"/></r></p></e>
@@ -7627,7 +7308,6 @@
     <e><p><l>ordeinio<s n="vblex"/></l><r>ordain<s n="vblex"/></r></p></e>
     <e><p><l>osgoi<s n="vblex"/></l><r>avoid<s n="vblex"/></r></p></e>
     <e><p><l>pabellu<s n="vblex"/></l><r>camp<s n="vblex"/></r></p></e>
-    <e><p><l>pabwyra<s n="vblex"/></l><r>gather rushes<s n="vblex"/></r></p></e>
     <e><p><l>pacio<s n="vblex"/></l><r>pack<s n="vblex"/></r></p></e>
     <e><p><l>paderu<s n="vblex"/></l><r>pray<s n="vblex"/></r></p></e>
     <e><p><l>padlo<s n="vblex"/></l><r>paddle<s n="vblex"/></r></p></e>
@@ -7674,7 +7354,6 @@
     <e><p><l>penderfynu<s n="vblex"/></l><r>decide<s n="vblex"/></r></p></e>
     <e><p><l>pendifadu<s n="vblex"/></l><r>confuse<s n="vblex"/></r></p></e>
     <e><p><l>pendroni<s n="vblex"/></l><r>bewilder<s n="vblex"/></r></p></e>
-    <e><p><l>pendrymu<s n="vblex"/></l><r>be dejected<s n="vblex"/></r></p></e>
     <e><p><l>pendwmpio<s n="vblex"/></l><r>doze<s n="vblex"/></r></p></e>
     <e><p><l>penelinio<s n="vblex"/></l><r>nudge<s n="vblex"/></r></p></e>
     <e><p><l>penglinio<s n="vblex"/></l><r>kneel<s n="vblex"/></r></p></e>
@@ -7690,8 +7369,6 @@
     <e><p><l>perchenogi<s n="vblex"/></l><r>possess<s n="vblex"/></r></p></e>
     <e><p><l>perchnogi<s n="vblex"/></l><r>possess<s n="vblex"/></r></p></e>
     <e><p><l>pereiddio<s n="vblex"/></l><r>sweeten<s n="vblex"/></r></p></e>
-    <e><p><l>pererindota<s n="vblex"/></l><r>go on a pilgrimage<s n="vblex"/></r></p></e>
-    <e><p><l>pererinio<s n="vblex"/></l><r>go on a pilgrimage<s n="vblex"/></r></p></e>
     <e><p><l>perffeithio<s n="vblex"/></l><r>perfect<s n="vblex"/></r></p></e>
     <e><p><l>perfformio<s n="vblex"/></l><r>perform<s n="vblex"/></r></p></e>
     <e><p><l>peri<s n="vblex"/></l><r>cause<s n="vblex"/></r></p></e>
@@ -7706,15 +7383,12 @@
     <e><p><l>pesychu<s n="vblex"/></l><r>cough<s n="vblex"/></r></p></e>
     <e><p><l>petruso<s n="vblex"/></l><r>hesitate<s n="vblex"/></r></p></e>
     <e><p><l>peuo<s n="vblex"/></l><r>pant<s n="vblex"/></r></p></e>
-    <e><p><l>pibo<s n="vblex"/></l><r>have diarrhoea<s n="vblex"/></r></p></e>
-    <e><p><l>pibyddio<s n="vblex"/></l><r>play pipes<s n="vblex"/></r></p></e>
     <e><p><l>picedu<s n="vblex"/></l><r>picket<s n="vblex"/></r></p></e>
     <e><p><l>picellu<s n="vblex"/></l><r>spear<s n="vblex"/></r></p></e>
     <e><p><l>picio<s n="vblex"/></l><r>dart<s n="vblex"/></r></p></e>
     <e><p><l>piclo<s n="vblex"/></l><r>pickle<s n="vblex"/></r></p></e>
     <e><p><l>piffio<s n="vblex"/></l><r>snigger<s n="vblex"/></r></p></e>
     <e><p><l>pigo<s n="vblex"/></l><r>prick<s n="vblex"/></r></p></e>
-    <e><p><l>pilcota<s n="vblex"/></l><r>catch minnows<s n="vblex"/></r></p></e>
     <e><p><l>pilio<s n="vblex"/></l><r>peel<s n="vblex"/></r></p></e>
     <e><p><l>pilo<s n="vblex"/></l><r>peel<s n="vblex"/></r></p></e>
     <e><p><l>pinbwyntio<s n="vblex"/></l><r>pinpoint<s n="vblex"/></r></p></e>
@@ -7726,7 +7400,6 @@
     <e><p><l>pistyllio<s n="vblex"/></l><r>spout<s n="vblex"/></r></p></e>
     <e><p><l>pistyllu<s n="vblex"/></l><r>spout<s n="vblex"/></r></p></e>
     <e><p><l>pitïo<s n="vblex"/></l><r>pity<s n="vblex"/></r></p></e>
-    <e><p><l>pladuro<s n="vblex"/></l><r>mow with a scythe<s n="vblex"/></r></p></e>
     <e><p><l>plaenio<s n="vblex"/></l><r>plane<s n="vblex"/></r></p></e>
     <e><p><l>plagio<s n="vblex"/></l><r>plague<s n="vblex"/></r></p></e>
     <e><p><l>plannu<s n="vblex"/></l><r>plant<s n="vblex"/></r></p></e>
@@ -7744,8 +7417,6 @@
     <e><p><l>plotio<s n="vblex"/></l><r>plot<s n="vblex"/></r></p></e>
     <e><p><l>pluennu<s n="vblex"/></l><r>feather<s n="vblex"/></r></p></e>
     <e><p><l>plufio<s n="vblex"/></l><r>pluck<s n="vblex"/></r></p></e>
-    <e><p><l>pluo<s n="vblex"/></l><r>pluck feathers<s n="vblex"/></r></p></e>
-    <e><p><l>plwyfo<s n="vblex"/></l><r>settle in a parish<s n="vblex"/></r></p></e>
     <e><p><l>plwyfoli<s n="vblex"/></l><r>parochialise<s n="vblex"/></r></p></e>
     <e><p><l>plycio<s n="vblex"/></l><r>pluck<s n="vblex"/></r></p></e>
     <e><p><l>plygu<s n="vblex"/></l><r>fold<s n="vblex"/></r></p></e>
@@ -7767,7 +7438,6 @@
     <e><p><l>porfelu<s n="vblex"/></l><r>pasture<s n="vblex"/></r></p></e>
     <e><p><l>pori<s n="vblex"/></l><r>graze<s n="vblex"/></r></p></e>
     <e><p><l>porthi<s n="vblex"/></l><r>feed<s n="vblex"/></r></p></e>
-    <e><p><l>porthmona<s n="vblex"/></l><r>deal in cattle<s n="vblex"/></r></p></e>
     <e><p><l>portreadu<s n="vblex"/></l><r>portray<s n="vblex"/></r></p></e>
     <e><p><l>postio<s n="vblex"/></l><r>post<s n="vblex"/></r></p></e>
     <e><p><l>potelu<s n="vblex"/></l><r>bottle<s n="vblex"/></r></p></e>
@@ -7785,7 +7455,6 @@
     <e><p><l>prepian<s n="vblex"/></l><r>prattle<s n="vblex"/></r></p></e>
     <e><p><l>presenoli<s n="vblex"/></l><r>present<s n="vblex"/></r></p></e>
     <e><p><l>preswylio<s n="vblex"/></l><r>reside<s n="vblex"/></r></p></e>
-    <e><p><l>priddio<s n="vblex"/></l><r>earth up<s n="vblex"/></r></p></e>
     <e><p><l>priddo<s n="vblex"/></l><r>inter<s n="vblex"/></r></p></e>
     <e><p><l>prifio<s n="vblex"/></l><r>flourish<s n="vblex"/></r></p></e>
     <e><p><l>prinhau<s n="vblex"/></l><r>diminish<s n="vblex"/></r></p></e>
@@ -7807,7 +7476,6 @@
     <e><p><l>prydferthu<s n="vblex"/></l><r>beautify<s n="vblex"/></r></p></e>
     <e><p><l>prydu<s n="vblex"/></l><r>versify<s n="vblex"/></r></p></e>
     <e><p><l>prydyddu<s n="vblex"/></l><r>versify<s n="vblex"/></r></p></e>
-    <e><p><l>pryfedu<s n="vblex"/></l><r>breed worms<s n="vblex"/></r></p></e>
     <e><p><l>pryfocio<s n="vblex"/></l><r>tease<s n="vblex"/></r></p></e>
     <e><p><l>prygowtha<s n="vblex"/></l><r>rant<s n="vblex"/></r></p></e>
     <e><p><l>prynu<s n="vblex"/></l><r>buy<s n="vblex"/></r></p></e>
@@ -7844,7 +7512,6 @@
     <e><p><l>recordio<s n="vblex"/></l><r>record<s n="vblex"/></r></p></e>
     <e><p><l>reidio<s n="vblex"/></l><r>ride<s n="vblex"/></r></p></e>
     <e><p><l>rhacanu<s n="vblex"/></l><r>rake<s n="vblex"/></r></p></e>
-    <e><p><l>rhadroddi<s n="vblex"/></l><r>give freely<s n="vblex"/></r></p></e>
     <e><p><l>rhaeadru<s n="vblex"/></l><r>cascade<s n="vblex"/></r></p></e>
     <e><p><l>rhaffo<s n="vblex"/></l><r>rope<s n="vblex"/></r></p></e>
     <e><p><l>rhaffu<s n="vblex"/></l><r>rope<s n="vblex"/></r></p></e>
@@ -7853,7 +7520,6 @@
     <e><p><l>rhagarwyddo<s n="vblex"/></l><r>presage<s n="vblex"/></r></p></e>
     <e><p><l>rhagbenodi<s n="vblex"/></l><r>predetermine<s n="vblex"/></r></p></e>
     <e><p><l>rhagchwilio<s n="vblex"/></l><r>reconnoitre<s n="vblex"/></r></p></e>
-    <e><p><l>rhagddarbodi<s n="vblex"/></l><r>prepare in advance<s n="vblex"/></r></p></e>
     <e><p><l>rhagddodi<s n="vblex"/></l><r>prefix<s n="vblex"/></r></p></e>
     <e><p><l>rhagddweud<s n="vblex"/></l><r>predict<s n="vblex"/></r></p></e>
     <e><p><l>rhagddyddio<s n="vblex"/></l><r>predate<s n="vblex"/></r></p></e>
@@ -7868,14 +7534,11 @@
     <e><p><l>rhag-gynllunio<s n="vblex"/></l><r>preplan<s n="vblex"/></r></p></e>
     <e><p><l>rhaghysbysu<s n="vblex"/></l><r>preannounce<s n="vblex"/></r></p></e>
     <e><p><l>rhaglennu<s n="vblex"/></l><r>programme<s n="vblex"/></r></p></e>
-    <e><p><l>rhaglunio<s n="vblex"/></l><r>design beforehand<s n="vblex"/></r></p></e>
     <e><p><l>rhagnodi<s n="vblex"/></l><r>prescribe<s n="vblex"/></r></p></e>
     <e><p><l>rhagod<s n="vblex"/></l><r>ambush<s n="vblex"/></r></p></e>
-    <e><p><l>rhagofalu<s n="vblex"/></l><r>take precautions<s n="vblex"/></r></p></e>
     <e><p><l>rhagolygu<s n="vblex"/></l><r>forecast<s n="vblex"/></r></p></e>
     <e><p><l>rhagori<s n="vblex"/></l><r>exceed<s n="vblex"/></r></p></e>
     <e><p><l>rhagosod<s n="vblex"/></l><r>preordain<s n="vblex"/></r></p></e>
-    <e><p><l>rhagrithio<s n="vblex"/></l><r>be hypocritical<s n="vblex"/></r></p></e>
     <e><p><l>rhagrybuddio<s n="vblex"/></l><r>forewarn<s n="vblex"/></r></p></e>
     <e><p><l>rhagweld<s n="vblex"/></l><r>foresee<s n="vblex"/></r></p></e>
     <e><p><l>rhamantu<s n="vblex"/></l><r>romanticise<s n="vblex"/></r></p></e>
@@ -7895,9 +7558,7 @@
     <e><p><l>rheoleiddio<s n="vblex"/></l><r>regulate<s n="vblex"/></r></p></e>
     <e><p><l>rheoli<s n="vblex"/></l><r>manage<s n="vblex"/></r></p></e>
     <e><p><l>rhestru<s n="vblex"/></l><r>list<s n="vblex"/></r></p></e>
-    <e><p><l>rhesymegu<s n="vblex"/></l><r>think logically<s n="vblex"/></r></p></e>
     <e><p><l>rhesymu<s n="vblex"/></l><r>reason<s n="vblex"/></r></p></e>
-    <e><p><l>rhethregu<s n="vblex"/></l><r>speak rhetorically<s n="vblex"/></r></p></e>
     <e><p><l>rheweiddio<s n="vblex"/></l><r>refrigerate<s n="vblex"/></r></p></e>
     <e><p><l>rhewi<s n="vblex"/></l><r>freeze<s n="vblex"/></r></p></e>
     <e><p><l>rhibinio<s n="vblex"/></l><r>string<s n="vblex"/></r></p></e>
@@ -7910,7 +7571,6 @@
     <e><p><l>rhincian<s n="vblex"/></l><r>creak<s n="vblex"/></r></p></e>
     <e><p><l>rhincio<s n="vblex"/></l><r>creak<s n="vblex"/></r></p></e>
     <e><p><l>rhisglio<s n="vblex"/></l><r>peel<s n="vblex"/></r></p></e>
-    <e><p><l>rhithio<s n="vblex"/></l><r>transform supernaturally<s n="vblex"/></r></p></e>
     <e><p><l>rhochian<s n="vblex"/></l><r>grunt<s n="vblex"/></r></p></e>
     <e><p><l>rhochio<s n="vblex"/></l><r>grunt<s n="vblex"/></r></p></e>
     <e><p><l>rhoddi<s n="vblex"/></l><r>give<s n="vblex"/></r></p></e>
@@ -7948,8 +7608,6 @@
     <e><p><l>rhydu<s n="vblex"/></l><r>rust<s n="vblex"/></r></p></e>
     <e><p><l>rhydyllu<s n="vblex"/></l><r>perforate<s n="vblex"/></r></p></e>
     <e><p><l>rhyfeddu<s n="vblex"/></l><r>wonder<s n="vblex"/></r></p></e>
-    <e><p><l>rhyfela<s n="vblex"/></l><r>make war<s n="vblex"/></r></p></e>
-    <e><p><l>rhyfygu<s n="vblex"/></l><r>behave arrrogantly<s n="vblex"/></r></p></e>
     <e><p><l>rhygnu<s n="vblex"/></l><r>grate<s n="vblex"/></r></p></e>
     <e><p><l>rhygyngu<s n="vblex"/></l><r>canter<s n="vblex"/></r></p></e>
     <e><p><l>rhyngu<s n="vblex"/></l><r>gratify<s n="vblex"/></r></p></e>
@@ -7957,8 +7615,6 @@
     <e><p><l>rhynnu<s n="vblex"/></l><r>shiver<s n="vblex"/></r></p></e>
     <e><p><l>rhythu<s n="vblex"/></l><r>gape<s n="vblex"/></r></p></e>
     <e><p><l>rowlio<s n="vblex"/></l><r>roll<s n="vblex"/></r></p></e>
-    <e><p><l>rwdlan<s n="vblex"/></l><r>talk rubbish<s n="vblex"/></r></p></e>
-    <e><p><l>rwdlian<s n="vblex"/></l><r>talk rubbish<s n="vblex"/></r></p></e>
     <e><p><l>sacio<s n="vblex"/></l><r>sack<s n="vblex"/></r></p></e>
     <e><p><l>sadio<s n="vblex"/></l><r>stabilise<s n="vblex"/></r></p></e>
     <e><p><l>saernïo<s n="vblex"/></l><r>fashion<s n="vblex"/></r></p></e>
@@ -7967,7 +7623,6 @@
     <e><p><l>safnio<s n="vblex"/></l><r>devour<s n="vblex"/></r></p></e>
     <e><p><l>safnrhythu<s n="vblex"/></l><r>gape<s n="vblex"/></r></p></e>
     <e><p><l>safoni<s n="vblex"/></l><r>standardise<s n="vblex"/></r></p></e>
-    <e><p><l>samona<s n="vblex"/></l><r>catch salmon<s n="vblex"/></r></p></e>
     <e><p><l>samplo<s n="vblex"/></l><r>sample<s n="vblex"/></r></p></e>
     <e><p><l>samplu<s n="vblex"/></l><r>sample<s n="vblex"/></r></p></e>
     <e><p><l>sancteiddio<s n="vblex"/></l><r>sanctify<s n="vblex"/></r></p></e>
@@ -8086,11 +7741,7 @@
     <e><p><l>sniffian<s n="vblex"/></l><r>sniff<s n="vblex"/></r></p></e>
     <e><p><l>snwffian<s n="vblex"/></l><r>sniff<s n="vblex"/></r></p></e>
     <e><p><l>snwffio<s n="vblex"/></l><r>sniffle<s n="vblex"/></r></p></e>
-    <e><p><l>sobreiddio<s n="vblex"/></l><r>sober up<s n="vblex"/></r></p></e>
-    <e><p><l>sobri<s n="vblex"/></l><r>sober up<s n="vblex"/></r></p></e>
-    <e><p><l>sobrio<s n="vblex"/></l><r>sober up<s n="vblex"/></r></p></e>
     <e><p><l>soddi<s n="vblex"/></l><r>sink<s n="vblex"/></r></p></e>
-    <e><p><l>sodli<s n="vblex"/></l><r>follow on the heel<s n="vblex"/></r></p></e>
     <e><p><l>sodro<s n="vblex"/></l><r>solder<s n="vblex"/></r></p></e>
     <e><p><l>somi<s n="vblex"/></l><r>disappoint<s n="vblex"/></r></p></e>
     <e><p><l>sôn<s n="vblex"/></l><r>mention<s n="vblex"/></r></p></e>
@@ -8105,15 +7756,12 @@
     <e><p><l>sticio<s n="vblex"/></l><r>stick<s n="vblex"/></r></p></e>
     <e><p><l>stigmateiddio<s n="vblex"/></l><r>stigmatise<s n="vblex"/></r></p></e>
     <e><p><l>stilio<s n="vblex"/></l><r>distil<s n="vblex"/></r></p></e>
-    <e><p><l>stiwardio<s n="vblex"/></l><r>keep watch<s n="vblex"/></r></p></e>
     <e><p><l>stocanu<s n="vblex"/></l><r>stook<s n="vblex"/></r></p></e>
     <e><p><l>stocio<s n="vblex"/></l><r>stock<s n="vblex"/></r></p></e>
     <e><p><l>stompio<s n="vblex"/></l><r>mash<s n="vblex"/></r></p></e>
     <e><p><l>stopio<s n="vblex"/></l><r>stop<s n="vblex"/></r></p></e>
     <e><p><l>storio<s n="vblex"/></l><r>store<s n="vblex"/></r></p></e>
-    <e><p><l>strancio<s n="vblex"/></l><r>throw a tantrum<s n="vblex"/></r></p></e>
     <e><p><l>strapio<s n="vblex"/></l><r>strap<s n="vblex"/></r></p></e>
-    <e><p><l>streicio<s n="vblex"/></l><r>go on strike<s n="vblex"/></r></p></e>
     <e><p><l>strimio<s n="vblex"/></l><r>strim<s n="vblex"/></r></p></e>
     <e><p><l>strwythuro<s n="vblex"/></l><r>structure<s n="vblex"/></r></p></e>
     <e><p><l>stumogi<s n="vblex"/></l><r>stomach<s n="vblex"/></r></p></e>
@@ -8127,7 +7775,6 @@
     <e><p><l>swalpio<s n="vblex"/></l><r>wriggle<s n="vblex"/></r></p></e>
     <e><p><l>swatio<s n="vblex"/></l><r>crouch<s n="vblex"/></r></p></e>
     <e><p><l>swbachu<s n="vblex"/></l><r>shrivel<s n="vblex"/></r></p></e>
-    <e><p><l>swcro<s n="vblex"/></l><r>give refuge<s n="vblex"/></r></p></e>
     <e><p><l>switsio<s n="vblex"/></l><r>switch<s n="vblex"/></r></p></e>
     <e><p><l>swmpo<s n="vblex"/></l><r>fondle<s n="vblex"/></r></p></e>
     <e><p><l>swnan<s n="vblex"/></l><r>grumble<s n="vblex"/></r></p></e>
@@ -8135,8 +7782,6 @@
     <e><p><l>swnian<s n="vblex"/></l><r>grumble<s n="vblex"/></r></p></e>
     <e><p><l>swnio<s n="vblex"/></l><r>sound<s n="vblex"/></r></p></e>
     <e><p><l>swno<s n="vblex"/></l><r>sound<s n="vblex"/></r></p></e>
-    <e><p><l>swpera<s n="vblex"/></l><r>eat supper<s n="vblex"/></r></p></e>
-    <e><p><l>swperu<s n="vblex"/></l><r>eat supper<s n="vblex"/></r></p></e>
     <e><p><l>swyno<s n="vblex"/></l><r>enchant<s n="vblex"/></r></p></e>
     <e><p><l>sybachu<s n="vblex"/></l><r>shrivel<s n="vblex"/></r></p></e>
     <e><p><l>sychdarthu<s n="vblex"/></l><r>sublimate<s n="vblex"/></r></p></e>
@@ -8165,7 +7810,6 @@
     <e><p><l>sypio<s n="vblex"/></l><r>bundle<s n="vblex"/></r></p></e>
     <e><p><l>sypynio<s n="vblex"/></l><r>bundle<s n="vblex"/></r></p></e>
     <e><p><l>sypynnu<s n="vblex"/></l><r>bundle<s n="vblex"/></r></p></e>
-    <e><p><l>syrffedu<s n="vblex"/></l><r>be sick and tired of<s n="vblex"/></r></p></e>
     <e><p><l>syrthio<s n="vblex"/></l><r>fall<s n="vblex"/></r></p></e>
     <e><p><l>sythu<s n="vblex"/></l><r>benumb<s n="vblex"/></r></p></e>
     <e><p><l>sythu<s n="vblex"/></l><r>straighten<s n="vblex"/></r></p></e>
@@ -8191,10 +7835,8 @@
     <e><p><l>talchu<s n="vblex"/></l><r>clot<s n="vblex"/></r></p></e>
     <e><p><l>talfyrru<s n="vblex"/></l><r>abbreviate<s n="vblex"/></r></p></e>
     <e><p><l>talgrychu<s n="vblex"/></l><r>scowl<s n="vblex"/></r></p></e>
-    <e><p><l>talgrynnu<s n="vblex"/></l><r>round up<s n="vblex"/></r></p></e> <!-- maths -->
     <e><p><l>talmu<s n="vblex"/></l><r>resolve<s n="vblex"/></r></p></e>
     <e><p><l>talu<s n="vblex"/></l><r>pay<s n="vblex"/></r></p></e>
-    <e><p><l>tameidio<s n="vblex"/></l><r>cut into morsels<s n="vblex"/></r></p></e>
     <e><p><l>tanamcangyfrifo<s n="vblex"/></l><r>underestimate<s n="vblex"/></r></p></e>
     <e><p><l>tanasio<s n="vblex"/></l><r>fire-weld<s n="vblex"/></r></p></e>
     <e><p><l>tanbeidio<s n="vblex"/></l><r>flare<s n="vblex"/></r></p></e>
@@ -8238,7 +7880,6 @@
     <e><p><l>teledu<s n="vblex"/></l><r>televise<s n="vblex"/></r></p></e>
     <e><p><l>telegynadledda<s n="vblex"/></l><r>teleconference<s n="vblex"/></r></p></e>
     <e><p><l>telori<s n="vblex"/></l><r>warble<s n="vblex"/></r></p></e>
-    <e><p><l>telynegu<s n="vblex"/></l><r>compose lyrics<s n="vblex"/></r></p></e>
     <e><p><l>tempro<s n="vblex"/></l><r>temper<s n="vblex"/></r></p></e>
     <e><p><l>tempru<s n="vblex"/></l><r>temper<s n="vblex"/></r></p></e>
     <e><p><l>temtio<s n="vblex"/></l><r>tempt<s n="vblex"/></r></p></e>
@@ -8247,7 +7888,6 @@
     <e><p><l>terfynu<s n="vblex"/></l><r>terminate<s n="vblex"/></r></p></e>
     <e><p><l>terfysgu<s n="vblex"/></l><r>terrorise<s n="vblex"/></r></p></e>
     <e><p><l>tewhau<s n="vblex"/></l><r>fatten<s n="vblex"/></r></p></e>
-    <e><p><l>tewi<s n="vblex"/></l><r>keep silent<s n="vblex"/></r></p></e>
     <e><p><l>tewychu<s n="vblex"/></l><r>fatten<s n="vblex"/></r></p></e>
     <e><p><l>teyrnasu<s n="vblex"/></l><r>reign<s n="vblex"/></r></p></e>
     <e><p><l>ticio<s n="vblex"/></l><r>tick<s n="vblex"/></r></p></e>
@@ -8272,13 +7912,9 @@
     <e><p><l>tolachu<s n="vblex"/></l><r>caress<s n="vblex"/></r></p></e>
     <e><p><l>tolchennu<s n="vblex"/></l><r>clot<s n="vblex"/></r></p></e>
     <e><p><l>tolcio<s n="vblex"/></l><r>dent<s n="vblex"/></r></p></e>
-    <e><p><l>tolio<s n="vblex"/></l><r>be thrifty<s n="vblex"/></r></p></e>
-    <e><p><l>tolli<s n="vblex"/></l><r>charge a toll<s n="vblex"/></r></p></e>
     <e><p><l>tomennu<s n="vblex"/></l><r>pile<s n="vblex"/></r></p></e>
     <e><p><l>toncio<s n="vblex"/></l><r>knell<s n="vblex"/></r></p></e>
     <e><p><l>tonni<s n="vblex"/></l><r>billow<s n="vblex"/></r></p></e>
-    <e><p><l>topi<s n="vblex"/></l><r>block up<s n="vblex"/></r></p></e>
-    <e><p><l>topio<s n="vblex"/></l><r>block up<s n="vblex"/></r></p></e>
     <e><p><l>torchi<s n="vblex"/></l><r>coil<s n="vblex"/></r></p></e>
     <e><p><l>torfynyglu<s n="vblex"/></l><r>decapitate<s n="vblex"/></r></p></e>
     <e><p><l>torheulo<s n="vblex"/></l><r>sunbathe<s n="vblex"/></r></p></e>
@@ -8294,7 +7930,6 @@
     <e><p><l>traddodi<s n="vblex"/></l><r>deliver<s n="vblex"/></r></p></e> <!-- (lecture) -->
     <e><p><l>traddodi<s n="vblex"/></l><r>commit<s n="vblex"/></r></p></e> <!-- to trial -->
     <e><p><l>tradyrchafu<s n="vblex"/></l><r>exalt<s n="vblex"/></r></p></e>
-    <e><p><l>traeanu<s n="vblex"/></l><r>divide into thirds<s n="vblex"/></r></p></e>
     <e><p><l>traenio<s n="vblex"/></l><r>drain<s n="vblex"/></r></p></e>
     <e><p><l>traethu<s n="vblex"/></l><r>pronounce<s n="vblex"/></r></p></e>
     <e><p><l>trafaelio<s n="vblex"/></l><r>labour<s n="vblex"/></r></p></e>
@@ -8302,7 +7937,6 @@
     <e><p><l>trafferthu<s n="vblex"/></l><r>trouble<s n="vblex"/></r></p></e>
     <e><p><l>traflyncu<s n="vblex"/></l><r>guzzle<s n="vblex"/></r></p></e>
     <e><p><l>trafod<s n="vblex"/></l><r>discuss<s n="vblex"/></r></p></e>
-    <e><p><l>trafriwio<s n="vblex"/></l><r>break into smithereens<s n="vblex"/></r></p></e>
     <e><p><l>tragwyddoli<s n="vblex"/></l><r>perpetuate<s n="vblex"/></r></p></e>
     <e><p><l>trallodi<s n="vblex"/></l><r>afflict<s n="vblex"/></r></p></e>
     <e><p><l>trallwyso<s n="vblex"/></l><r>transfuse<s n="vblex"/></r></p></e>
@@ -8368,13 +8002,11 @@
     <e><p><l>trosglwyddo<s n="vblex"/></l><r>transfer<s n="vblex"/></r></p></e>
     <e><p><l>trosi<s n="vblex"/></l><r>translate<s n="vblex"/></r></p></e>
     <e><p><l>trosi<s n="vblex"/></l><r>convert<s n="vblex"/></r></p></e>
-    <e><p><l>trosiadu<s n="vblex"/></l><r>use a metaphor<s n="vblex"/></r></p></e>
     <e><p><l>trosroddi<s n="vblex"/></l><r>extradite<s n="vblex"/></r></p></e>
     <e><p><l>trosysgrifo<s n="vblex"/></l><r>overwrite<s n="vblex"/></r></p></e>
     <e><p><l>trotian<s n="vblex"/></l><r>trot<s n="vblex"/></r></p></e>
     <e><p><l>trotio<s n="vblex"/></l><r>trot<s n="vblex"/></r></p></e>
     <e><p><l>trugarhau<s n="vblex"/></l><r>pity<s n="vblex"/></r></p></e>
-    <e><p><l>trullio<s n="vblex"/></l><r>serve wine<s n="vblex"/></r></p></e>
     <e><p><l>truthio<s n="vblex"/></l><r>flatter<s n="vblex"/></r></p></e>
     <e><p><l>trwblio<s n="vblex"/></l><r>trouble<s n="vblex"/></r></p></e>
     <e><p><l>trwblo<s n="vblex"/></l><r>trouble<s n="vblex"/></r></p></e>
@@ -8392,12 +8024,10 @@
     <e><p><l>tryferu<s n="vblex"/></l><r>spear<s n="vblex"/></r></p></e>
     <e><p><l>tryledu<s n="vblex"/></l><r>diffuse<s n="vblex"/></r></p></e>
     <e><p><l>trylifo<s n="vblex"/></l><r>filter<s n="vblex"/></r></p></e>
-    <e><p><l>trymhau<s n="vblex"/></l><r>grow heavy<s n="vblex"/></r></p></e>
     <e><p><l>trysori<s n="vblex"/></l><r>treasure<s n="vblex"/></r></p></e>
     <e><p><l>trystio<s n="vblex"/></l><r>trust<s n="vblex"/></r></p></e>
     <e><p><l>trywanu<s n="vblex"/></l><r>pierce<s n="vblex"/></r></p></e>
     <e><p><l>tuchanu<s n="vblex"/></l><r>grumble<s n="vblex"/></r></p></e>
-    <e><p><l>tueddu<s n="vblex"/></l><r>tend to<s n="vblex"/></r></p></e>
     <e><p><l>turio<s n="vblex"/></l><r>burrow<s n="vblex"/></r></p></e>
     <e><p><l>turnio<s n="vblex"/></l><r>turn<s n="vblex"/></r></p></e> <!-- on a lathe -->
     <e><p><l>tuthian<s n="vblex"/></l><r>trot<s n="vblex"/></r></p></e>
@@ -8441,7 +8071,6 @@
     <e><p><l>tywysu<s n="vblex"/></l><r>lead<s n="vblex"/></r></p></e>
     <e><p><l>udo<s n="vblex"/></l><r>wail<s n="vblex"/></r></p></e>
     <e><p><l>ufuddhau<s n="vblex"/></l><r>obey<s n="vblex"/></r></p></e>
-    <e><p><l>uniaethu<s n="vblex"/></l><r>identify with<s n="vblex"/></r></p></e>
     <e><p><l>unioni<s n="vblex"/></l><r>straighten<s n="vblex"/></r></p></e>
     <e><p><l>uno<s n="vblex"/></l><r>unite<s n="vblex"/></r></p></e>
     <e><p><l>unoli<s n="vblex"/></l><r>unite<s n="vblex"/></r></p></e>
@@ -8462,7 +8091,6 @@
     <e><p><l>wylo<s n="vblex"/></l><r>weep<s n="vblex"/></r></p></e>
     <e><p><l>wylofain<s n="vblex"/></l><r>wail<s n="vblex"/></r></p></e>
     <e><p><l>wyna<s n="vblex"/></l><r>lamb<s n="vblex"/></r></p></e>
-    <e><p><l>wyneblasu<s n="vblex"/></l><r>turn pale<s n="vblex"/></r></p></e>
     <e><p><l>wynebu<s n="vblex"/></l><r>face<s n="vblex"/></r></p></e>
     <e><p><l>ychwanegu<s n="vblex"/></l><r>add<s n="vblex"/></r></p></e>
     <e><p><l>yfed<s n="vblex"/></l><r>drink<s n="vblex"/></r></p></e>
@@ -8471,15 +8099,12 @@
     <e><p><l>ymaddasu<s n="vblex"/></l><r>adjust<s n="vblex"/></r></p></e>
     <e><p><l>ymadrodd<s n="vblex"/></l><r>converse<s n="vblex"/></r></p></e>
     <e><p><l>ymadu<s n="vblex"/></l><r>depart<s n="vblex"/></r></p></e>
-    <e><p><l>ymaelodi<s n="vblex"/></l><r>become a member<s n="vblex"/></r></p></e>
     <e><p><l>ymaelyd<s n="vblex"/></l><r>grasp<s n="vblex"/></r></p></e>
     <e><p><l>ymafael<s n="vblex"/></l><r>grasp<s n="vblex"/></r></p></e>
     <e><p><l>ymaflyd<s n="vblex"/></l><r>grapple<s n="vblex"/></r></p></e>
     <e><p><l>ymageru<s n="vblex"/></l><r>evaporate<s n="vblex"/></r></p></e>
     <e><p><l>ymagor<s n="vblex"/></l><r>yawn<s n="vblex"/></r></p></e>
-    <e><p><l>ymagweddu<s n="vblex"/></l><r>conduct oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymannerch<s n="vblex"/></l><r>greet<s n="vblex"/></r></p></e>
-    <e><p><l>ymannog<s n="vblex"/></l><r>encourage oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymanodi<s n="vblex"/></l><r>sink<s n="vblex"/></r></p></e>
     <e><p><l>ymarfer<s n="vblex"/></l><r>practice<s n="vblex"/></r></p></e>
     <e><p><l>ymarweddu<s n="vblex"/></l><r>behave<s n="vblex"/></r></p></e>
@@ -8487,30 +8112,21 @@
     <e><p><l>ymateb<s n="vblex"/></l><r>respond<s n="vblex"/></r></p></e>
     <e><p><l>ymawyddu<s n="vblex"/></l><r>yearn<s n="vblex"/></r></p></e>
     <e><p><l>ymbalfalu<s n="vblex"/></l><r>grope<s n="vblex"/></r></p></e>
-    <e><p><l>ymbaratoi<s n="vblex"/></l><r>make ready<s n="vblex"/></r></p></e>
     <e><p><l>ymbellhau<s n="vblex"/></l><r>recede<s n="vblex"/></r></p></e>
-    <e><p><l>ymbelydru<s n="vblex"/></l><r>be radioactive<s n="vblex"/></r></p></e>
     <e><p><l>ymbesgi<s n="vblex"/></l><r>fatten<s n="vblex"/></r></p></e>
     <e><p><l>ymbil<s n="vblex"/></l><r>implore<s n="vblex"/></r></p></e>
     <e><p><l>ymbilio<s n="vblex"/></l><r>implore<s n="vblex"/></r></p></e>
-    <e><p><l>ymbincio<s n="vblex"/></l><r>put on makeup<s n="vblex"/></r></p></e>
-    <e><p><l>ymboeni<s n="vblex"/></l><r>take pains<s n="vblex"/></r></p></e>
-    <e><p><l>ymborthi<s n="vblex"/></l><r>feed on<s n="vblex"/></r></p></e>
-    <e><p><l>ymbriodi<s n="vblex"/></l><r>get married<s n="vblex"/></r></p></e>
     <e><p><l>ymbrofi<s n="vblex"/></l><r>compete<s n="vblex"/></r></p></e>
     <e><p><l>ymbwyllo<s n="vblex"/></l><r>meditate<s n="vblex"/></r></p></e>
     <e><p><l>ymchwarae<s n="vblex"/></l><r>loiter<s n="vblex"/></r></p></e>
     <e><p><l>ymchwilio<s n="vblex"/></l><r>investigate<s n="vblex"/></r></p></e>
     <e><p><l>ymchwyddo<s n="vblex"/></l><r>swell<s n="vblex"/></r></p></e>
-    <e><p><l>ymdaclo<s n="vblex"/></l><r>tidy oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ymdaclu<s n="vblex"/></l><r>tidy oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymdaenu<s n="vblex"/></l><r>disseminate<s n="vblex"/></r></p></e>
     <e><p><l>ymdaeru<s n="vblex"/></l><r>quarrel<s n="vblex"/></r></p></e>
     <e><p><l>ymdaflu<s n="vblex"/></l><r>vault<s n="vblex"/></r></p></e>
     <e><p><l>ymdagu<s n="vblex"/></l><r>choke<s n="vblex"/></r></p></e>
     <e><p><l>ymdannu<s n="vblex"/></l><r>spread<s n="vblex"/></r></p></e>
     <e><p><l>ymdaro<s n="vblex"/></l><r>contend<s n="vblex"/></r></p></e>
-    <e><p><l>ymdawelu<s n="vblex"/></l><r>fall silent<s n="vblex"/></r></p></e>
     <e><p><l>ymddadlau<s n="vblex"/></l><r>dispute<s n="vblex"/></r></p></e>
     <e><p><l>ymddangos<s n="vblex"/></l><r>appear<s n="vblex"/></r></p></e>
     <e><p><l>ymddatod<s n="vblex"/></l><r>dissolve<s n="vblex"/></r></p></e>
@@ -8518,8 +8134,6 @@
     <e><p><l>ymdderian<s n="vblex"/></l><r>quarrel<s n="vblex"/></r></p></e>
     <e><p><l>ymdderu<s n="vblex"/></l><r>quarrel<s n="vblex"/></r></p></e>
     <e><p><l>ymddial<s n="vblex"/></l><r>avenge<s n="vblex"/></r></p></e>
-    <e><p><l>ymddiddori<s n="vblex"/></l><r>take an interest<s n="vblex"/></r></p></e>
-    <e><p><l>ymddieithrio<s n="vblex"/></l><r>become estranged<s n="vblex"/></r></p></e>
     <e><p><l>ymddigrifo<s n="vblex"/></l><r>delight<s n="vblex"/></r></p></e>
     <e><p><l>ymddihatru<s n="vblex"/></l><r>undress<s n="vblex"/></r></p></e>
     <e><p><l>ymddiheuro<s n="vblex"/></l><r>apologise<s n="vblex"/></r></p></e>
@@ -8530,14 +8144,10 @@
     <e><p><l>ymddiswyddo<s n="vblex"/></l><r>resign<s n="vblex"/></r></p></e>
     <e><p><l>ymddolennu<s n="vblex"/></l><r>meander<s n="vblex"/></r></p></e>
     <e><p><l>ymddwyn<s n="vblex"/></l><r>behave<s n="vblex"/></r></p></e>
-    <e><p><l>ymddyfalu<s n="vblex"/></l><r>describe oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ymddyrchafu<s n="vblex"/></l><r>exalt oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymdebygu<s n="vblex"/></l><r>resemble<s n="vblex"/></r></p></e>
-    <e><p><l>ymdecáu<s n="vblex"/></l><r>prettify oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymdeimlo<s n="vblex"/></l><r>feel<s n="vblex"/></r></p></e>
     <e><p><l>ymdeithio<s n="vblex"/></l><r>march<s n="vblex"/></r></p></e>
     <e><p><l>ymdoddi<s n="vblex"/></l><r>melt<s n="vblex"/></r></p></e>
-    <e><p><l>ymdopi<s n="vblex"/></l><r>cope with<s n="vblex"/></r></p></e>
     <e><p><l>ymdrechu<s n="vblex"/></l><r>strive<s n="vblex"/></r></p></e>
     <e><p><l>ymdreiddio<s n="vblex"/></l><r>pervade<s n="vblex"/></r></p></e>
     <e><p><l>ymdreiglo<s n="vblex"/></l><r>tumble<s n="vblex"/></r></p></e>
@@ -8545,20 +8155,15 @@
     <e><p><l>ymdrinio<s n="vblex"/></l><r>strive<s n="vblex"/></r></p></e>
     <e><p><l>ymdrochi<s n="vblex"/></l><r>soak<s n="vblex"/></r></p></e>
     <e><p><l>ymdroi<s n="vblex"/></l><r>loiter<s n="vblex"/></r></p></e>
-    <e><p><l>ymdrwsio<s n="vblex"/></l><r>adorn oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymdrybaeddu<s n="vblex"/></l><r>wallow<s n="vblex"/></r></p></e>
-    <e><p><l>ymdrythyllu<s n="vblex"/></l><r>behave wantonly<s n="vblex"/></r></p></e>
     <e><p><l>ymdwyro<s n="vblex"/></l><r>heat<s n="vblex"/></r></p></e>
     <e><p><l>ymdynghedu<s n="vblex"/></l><r>vow<s n="vblex"/></r></p></e>
     <e><p><l>ymdynnu<s n="vblex"/></l><r>contend<s n="vblex"/></r></p></e>
     <e><p><l>ymdyrru<s n="vblex"/></l><r>crowd<s n="vblex"/></r></p></e>
     <e><p><l>ymegnïo<s n="vblex"/></l><r>strive<s n="vblex"/></r></p></e>
-    <e><p><l>ymehangu<s n="vblex"/></l><r>spread out<s n="vblex"/></r></p></e>
     <e><p><l>ymeiriol<s n="vblex"/></l><r>intercede<s n="vblex"/></r></p></e>
     <e><p><l>ymeithrio<s n="vblex"/></l><r>except<s n="vblex"/></r></p></e>
-    <e><p><l>ymesgusodi<s n="vblex"/></l><r>excuse oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymestyn<s n="vblex"/></l><r>extend<s n="vblex"/></r></p></e>
-    <e><p><l>ymfalchïo<s n="vblex"/></l><r>pride oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymfflamychu<s n="vblex"/></l><r>blaze<s n="vblex"/></r></p></e>
     <e><p><l>ymffrostio<s n="vblex"/></l><r>brag<s n="vblex"/></r></p></e>
     <e><p><l>ymffyrnigo<s n="vblex"/></l><r>rage<s n="vblex"/></r></p></e>
@@ -8567,68 +8172,40 @@
     <e><p><l>ymfyddino<s n="vblex"/></l><r>mobilise<s n="vblex"/></r></p></e>
     <e><p><l>ymfywiocáu<s n="vblex"/></l><r>enliven<s n="vblex"/></r></p></e>
     <e><p><l>ymgadw<s n="vblex"/></l><r>refrain<s n="vblex"/></r></p></e>
-    <e><p><l>ymgaledu<s n="vblex"/></l><r>become hard<s n="vblex"/></r></p></e>
-    <e><p><l>ymgartrefu<s n="vblex"/></l><r>make oneself at home<s n="vblex"/></r></p></e>
     <e><p><l>ymgasglu<s n="vblex"/></l><r>congregate<s n="vblex"/></r></p></e>
     <e><p><l>ymgecru<s n="vblex"/></l><r>quarrel<s n="vblex"/></r></p></e>
     <e><p><l>ymgeisio<s n="vblex"/></l><r>seek<s n="vblex"/></r></p></e>
     <e><p><l>ymgeleddu<s n="vblex"/></l><r>succour<s n="vblex"/></r></p></e>
-    <e><p><l>ymgelu<s n="vblex"/></l><r>conceal oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymgilio<s n="vblex"/></l><r>retreat<s n="vblex"/></r></p></e>
     <e><p><l>ymgiprys<s n="vblex"/></l><r>contend<s n="vblex"/></r></p></e>
-    <e><p><l>ymgladdu<s n="vblex"/></l><r>get buried<s n="vblex"/></r></p></e>
     <e><p><l>ymgleddyfu<s n="vblex"/></l><r>fence<s n="vblex"/></r></p></e>
-    <e><p><l>ymglwyfo<s n="vblex"/></l><r>get wounded<s n="vblex"/></r></p></e>
     <e><p><l>ymglywed<s n="vblex"/></l><r>sense<s n="vblex"/></r></p></e>
-    <e><p><l>ymgnawdoli<s n="vblex"/></l><r>become incarnate<s n="vblex"/></r></p></e>
     <e><p><l>ymgodi<s n="vblex"/></l><r>rise<s n="vblex"/></r></p></e>
     <e><p><l>ymgodymu<s n="vblex"/></l><r>wrestle<s n="vblex"/></r></p></e>
-    <e><p><l>ymgofrestru<s n="vblex"/></l><r>register oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ymgolli<s n="vblex"/></l><r>lose oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymgomio<s n="vblex"/></l><r>converse<s n="vblex"/></r></p></e>
     <e><p><l>ymgorffori<s n="vblex"/></l><r>embody<s n="vblex"/></r></p></e>
     <e><p><l>ymgreinio<s n="vblex"/></l><r>grovel<s n="vblex"/></r></p></e>
     <e><p><l>ymgripio<s n="vblex"/></l><r>scratch<s n="vblex"/></r></p></e>
-    <e><p><l>ymgroesi<s n="vblex"/></l><r>cross oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ymgrogi<s n="vblex"/></l><r>hang oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymgrymu<s n="vblex"/></l><r>bow<s n="vblex"/></r></p></e>
-    <e><p><l>ymguddio<s n="vblex"/></l><r>conceal oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ymgurio<s n="vblex"/></l><r>pine away<s n="vblex"/></r></p></e>
     <e><p><l>ymgydio<s n="vblex"/></l><r>copulate<s n="vblex"/></r></p></e>
-    <e><p><l>ymgydnabyddu<s n="vblex"/></l><r>acquaint oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ymgyfarwyddu<s n="vblex"/></l><r>familiarise oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ymgyfathrachu<s n="vblex"/></l><r>associate oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ymgyfeillachu<s n="vblex"/></l><r>associate oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ymgyffelybu<s n="vblex"/></l><r>resemble each other<s n="vblex"/></r></p></e>
-    <e><p><l>ymgyfoethogi<s n="vblex"/></l><r>enrich oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ymgyfuno<s n="vblex"/></l><r>ally oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymgymryd<s n="vblex"/></l><r>undertake<s n="vblex"/></r></p></e>
     <e><p><l>ymgynghori<s n="vblex"/></l><r>consult<s n="vblex"/></r></p></e>
-    <e><p><l>ymgynghreirio<s n="vblex"/></l><r>ally oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymgynnull<s n="vblex"/></l><r>assemble<s n="vblex"/></r></p></e>
     <e><p><l>ymgyrchu<s n="vblex"/></l><r>attack<s n="vblex"/></r></p></e>
-    <e><p><l>ymgysegru<s n="vblex"/></l><r>devote oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ymgyweirio<s n="vblex"/></l><r>prepare oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ymhalogi<s n="vblex"/></l><r>defile oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymhél<s n="vblex"/></l><r>meddle<s n="vblex"/></r></p></e>
-    <e><p><l>ymhelaethu<s n="vblex"/></l><r>enlarge upon<s n="vblex"/></r></p></e>
     <e><p><l>ymheulo<s n="vblex"/></l><r>sunbathe<s n="vblex"/></r></p></e>
     <e><p><l>ymholi<s n="vblex"/></l><r>inquire<s n="vblex"/></r></p></e>
-    <e><p><l>ymhyfrydu<s n="vblex"/></l><r>take pride in<s n="vblex"/></r></p></e>
     <e><p><l>ymlacio<s n="vblex"/></l><r>relax<s n="vblex"/></r></p></e>
     <e><p><l>ymladd<s n="vblex"/></l><r>fight<s n="vblex"/></r></p></e>
-    <e><p><l>ymlâdd<s n="vblex"/></l><r>grow tired<s n="vblex"/></r></p></e>
     <e><p><l>ymlaesu<s n="vblex"/></l><r>slacken<s n="vblex"/></r></p></e>
     <e><p><l>ymlafnio<s n="vblex"/></l><r>strive<s n="vblex"/></r></p></e>
     <e><p><l>ymlafurio<s n="vblex"/></l><r>strive<s n="vblex"/></r></p></e>
     <e><p><l>ymlawenhau<s n="vblex"/></l><r>rejoice<s n="vblex"/></r></p></e>
     <e><p><l>ymlawenychu<s n="vblex"/></l><r>rejoice<s n="vblex"/></r></p></e>
     <e><p><l>ymledu<s n="vblex"/></l><r>spread<s n="vblex"/></r></p></e>
-    <e><p><l>ymlenwi<s n="vblex"/></l><r>fill up<s n="vblex"/></r></p></e>
     <e><p><l>ymlid<s n="vblex"/></l><r>pursue<s n="vblex"/></r></p></e>
     <e><p><l>ymliwio<s n="vblex"/></l><r>reprove<s n="vblex"/></r></p></e>
     <e><p><l>ymlusgo<s n="vblex"/></l><r>crawl<s n="vblex"/></r></p></e>
-    <e><p><l>ymlwybro<s n="vblex"/></l><r>make progress<s n="vblex"/></r></p></e>
     <e><p><l>ymlyn<s n="vblex"/></l><r>pursue<s n="vblex"/></r></p></e>
     <e><p><l>ymlynu<s n="vblex"/></l><r>pursue<s n="vblex"/></r></p></e>
     <e><p><l>ymneilltuo<s n="vblex"/></l><r>withdraw<s n="vblex"/></r></p></e>
@@ -8636,45 +8213,32 @@
     <e><p><l>ymochel<s n="vblex"/></l><r>avoid<s n="vblex"/></r></p></e>
     <e><p><l>ymod<s n="vblex"/></l><r>move<s n="vblex"/></r></p></e>
     <e><p><l>ymofyn<s n="vblex"/></l><r>seek<s n="vblex"/></r></p></e>
-    <e><p><l>ymolchi<s n="vblex"/></l><r>wash oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymollwng<s n="vblex"/></l><r>collapse<s n="vblex"/></r></p></e>
     <e><p><l>ymorchestu<s n="vblex"/></l><r>attack<s n="vblex"/></r></p></e>
     <e><p><l>ymosod<s n="vblex"/></l><r>attack<s n="vblex"/></r></p></e>
     <e><p><l>ymostwng<s n="vblex"/></l><r>bow<s n="vblex"/></r></p></e>
     <e><p><l>ymprydio<s n="vblex"/></l><r>fast<s n="vblex"/></r></p></e>
     <e><p><l>ymrafaelio<s n="vblex"/></l><r>differ<s n="vblex"/></r></p></e>
-    <e><p><l>ymrannu<s n="vblex"/></l><r>split up<s n="vblex"/></r></p></e>
     <e><p><l>ymrestru<s n="vblex"/></l><r>enlist<s n="vblex"/></r></p></e>
     <e><p><l>ymresymu<s n="vblex"/></l><r>reason<s n="vblex"/></r></p></e>
-    <e><p><l>ymrithio<s n="vblex"/></l><r>assume the shape of<s n="vblex"/></r></p></e>
-    <e><p><l>ymroddi<s n="vblex"/></l><r>devote oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ymroi<s n="vblex"/></l><r>devote oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ymrwyfo<s n="vblex"/></l><r>thrash about<s n="vblex"/></r></p></e>
-    <e><p><l>ymrwymo<s n="vblex"/></l><r>commit oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymryson<s n="vblex"/></l><r>contend<s n="vblex"/></r></p></e>
     <e><p><l>ymsefydlu<s n="vblex"/></l><r>settle<s n="vblex"/></r></p></e>
     <e><p><l>ymsennu<s n="vblex"/></l><r>rebuke<s n="vblex"/></r></p></e>
     <e><p><l>ymserchu<s n="vblex"/></l><r>cherish<s n="vblex"/></r></p></e>
     <e><p><l>ymson<s n="vblex"/></l><r>soliloquise<s n="vblex"/></r></p></e>
     <e><p><l>ymsoni<s n="vblex"/></l><r>soliloquise<s n="vblex"/></r></p></e>
-    <e><p><l>ymsuddo<s n="vblex"/></l><r>sink oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ymswyno<s n="vblex"/></l><r>cross oneself<s n="vblex"/></r></p></e>
     <e><p><l>ymsynio<s n="vblex"/></l><r>think<s n="vblex"/></r></p></e>
     <e><p><l>ymsythu<s n="vblex"/></l><r>swagger<s n="vblex"/></r></p></e>
     <e><p><l>ymuno<s n="vblex"/></l><r>join<s n="vblex"/></r></p></e>
-    <e><p><l>ymwacáu<s n="vblex"/></l><r>become empty<s n="vblex"/></r></p></e>
     <e><p><l>ymwadu<s n="vblex"/></l><r>renounce<s n="vblex"/></r></p></e>
     <e><p><l>ymwaredu<s n="vblex"/></l><r>redeem<s n="vblex"/></r></p></e>
     <e><p><l>ymweld<s n="vblex"/></l><r>visit<s n="vblex"/></r></p></e>
     <e><p><l>ymwisgo<s n="vblex"/></l><r>dress<s n="vblex"/></r></p></e>
-    <e><p><l>ymwrando<s n="vblex"/></l><r>listen carefully<s n="vblex"/></r></p></e>
     <e><p><l>ymwrthod<s n="vblex"/></l><r>abstain<s n="vblex"/></r></p></e>
     <e><p><l>ymwthio<s n="vblex"/></l><r>strive<s n="vblex"/></r></p></e>
     <e><p><l>ymylu<s n="vblex"/></l><r>border<s n="vblex"/></r></p></e>
     <e><p><l>ymyrru<s n="vblex"/></l><r>interfere<s n="vblex"/></r></p></e>
     <e><p><l>ymyrryd<s n="vblex"/></l><r>interfere<s n="vblex"/></r></p></e>
-    <e><p><l>ymysgwyd<s n="vblex"/></l><r>bestir oneself<s n="vblex"/></r></p></e>
-    <e><p><l>ynfydu<s n="vblex"/></l><r>go mad<s n="vblex"/></r></p></e>
     <e><p><l>yngan<s n="vblex"/></l><r>pronounce<s n="vblex"/></r></p></e>
     <e><p><l>ynganu<s n="vblex"/></l><r>pronounce<s n="vblex"/></r></p></e>
     <e><p><l>ynysu<s n="vblex"/></l><r>isolate<s n="vblex"/></r></p></e>
@@ -8701,7 +8265,6 @@
     <e><p><l>ysgrifennu<s n="vblex"/></l><r>write<s n="vblex"/></r></p></e>
     <e><p><l>ysgrytio<s n="vblex"/></l><r>shiver<s n="vblex"/></r></p></e>
     <e><p><l>ysgubo<s n="vblex"/></l><r>sweep<s n="vblex"/></r></p></e>
-    <e><p><l>ysguborio<s n="vblex"/></l><r>store in a barn<s n="vblex"/></r></p></e>
     <e><p><l>ysgwrio<s n="vblex"/></l><r>scour<s n="vblex"/></r></p></e>
     <e><p><l>ysgwyd<s n="vblex"/></l><r>shake<s n="vblex"/></r></p></e>
     <e><p><l>ysgwyddo<s n="vblex"/></l><r>shoulder<s n="vblex"/></r></p></e>
@@ -8722,11 +8285,453 @@
     <e><p><l>ystumio<s n="vblex"/></l><r>distort<s n="vblex"/></r></p></e>
     <e><p><l>ystwyrian<s n="vblex"/></l><r>stir<s n="vblex"/></r></p></e>
     <e><p><l>ystwytho<s n="vblex"/></l><r>flex<s n="vblex"/></r></p></e>
-    <e><p><l>ystyfnigo<s n="vblex"/></l><r>be stubborn<s n="vblex"/></r></p></e>
     <e><p><l>ystyried<s n="vblex"/></l><r>consider<s n="vblex"/></r></p></e>
     <e><p><l>ystyrio<s n="vblex"/></l><r>consider<s n="vblex"/></r></p></e>
     <e><p><l>ysu<s n="vblex"/></l><r>crave<s n="vblex"/></r></p></e>
     <e><p><l>yswirio<s n="vblex"/></l><r>insure<s n="vblex"/></r></p></e>
+
+
+     <!-- Multiword verbs -->
+
+    <e><p><l>gwalcio<s n="vblex"/></l><r>turn<g><b/>up</g><s n="vblex"/></r></p></e>
+    <e><p><l>gofalu<s n="vblex"/></l><r>take<g><b/>care</g><s n="vblex"/></r></p></e>
+
+    <e><p><l>aberu<s n="vblex"/></l><r>flow into<s n="vblex"/></r></p></e>
+    <e><p><l>adara<s n="vblex"/></l><r>catch birds<s n="vblex"/></r></p></e>
+    <e><p><l>ailedrych<s n="vblex"/></l><r>look again<s n="vblex"/></r></p></e>
+    <e><p><l>ailgwympo<s n="vblex"/></l><r>fall again<s n="vblex"/></r></p></e>
+    <e><p><l>ailgymodi<s n="vblex"/></l><r>reconcile again<s n="vblex"/></r></p></e>
+    <e><p><l>ailgynefino<s n="vblex"/></l><r>reaccustom oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ailgysgu<s n="vblex"/></l><r>sleep again<s n="vblex"/></r></p></e>
+    <e><p><l>ailrybuddio<s n="vblex"/></l><r>warn again<s n="vblex"/></r></p></e>
+    <e><p><l>ailsefyll<s n="vblex"/></l><r>stand again<s n="vblex"/></r></p></e>
+    <e><p><l>ailstorio<s n="vblex"/></l><r>store again<s n="vblex"/></r></p></e>
+    <e><p><l>ailwrando<s n="vblex"/></l><r>listen again<s n="vblex"/></r></p></e>
+    <e><p><l>ailymrwymo<s n="vblex"/></l><r>recommit oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ailysgogi<s n="vblex"/></l><r>stir again<s n="vblex"/></r></p></e>
+    <e><p><l>allgofnodi<s n="vblex"/></l><r>log out<s n="vblex"/></r></p></e>
+    <e><p><l>allolchi<s n="vblex"/></l><r>wash out<s n="vblex"/></r></p></e>
+    <e><p><l>amhwyllo<s n="vblex"/></l><r>go mad<s n="vblex"/></r></p></e>
+    <e><p><l>amlapio<s n="vblex"/></l><r>wrap around<s n="vblex"/></r></p></e>
+    <e><p><l>anesmwytho<s n="vblex"/></l><r>become restless<s n="vblex"/></r></p></e>
+    <e><p><l>anhuddo<s n="vblex"/></l><r>bank up<s n="vblex"/></r></p></e>
+    <e><p><l>anhyfrydu<s n="vblex"/></l><r>make unpleasant<s n="vblex"/></r></p></e>
+    <e><p><l>anlladu<s n="vblex"/></l><r>behave wantonly<s n="vblex"/></r></p></e>
+    <e><p><l>anurddo<s n="vblex"/></l><r>treat with disrespect<s n="vblex"/></r></p></e>
+    <e><p><l>arafu<s n="vblex"/></l><r>slow down<s n="vblex"/></r></p></e>
+    <e><p><l>areithio<s n="vblex"/></l><r>make a speech<s n="vblex"/></r></p></e>
+    <e><p><l>arferu<s n="vblex"/></l><r>be accustomed<s n="vblex"/></r></p></e>
+    <e><p><l>arogldarthu<s n="vblex"/></l><r>burn incense<s n="vblex"/></r></p></e>
+    <e><p><l>atglafychu<s n="vblex"/></l><r>become ill again<s n="vblex"/></r></p></e>
+    <e><p><l>atgnoi<s n="vblex"/></l><r>feel remorse<s n="vblex"/></r></p></e>
+    <e><p><l>atgryfhau<s n="vblex"/></l><r>recover health<s n="vblex"/></r></p></e>
+    <e><p><l>bacsu<s n="vblex"/></l><r>muddle through<s n="vblex"/></r></p></e>
+    <e><p><l>baneru<s n="vblex"/></l><r>flag up<s n="vblex"/></r></p></e>
+    <e><p><l>barbio<s n="vblex"/></l><r>clip hedge<s n="vblex"/></r></p></e>
+    <e><p><l>barddoni<s n="vblex"/></l><r>write poetry<s n="vblex"/></r></p></e>
+    <e><p><l>barugo<s n="vblex"/></l><r>get frosty<s n="vblex"/></r></p></e>
+    <e><p><l>basgedu<s n="vblex"/></l><r>put in a basket<s n="vblex"/></r></p></e>
+    <e><p><l>bawdfedi<s n="vblex"/></l><r>reap by hand<s n="vblex"/></r></p></e>
+    <e><p><l>blaendalu<s n="vblex"/></l><r>pay in advance<s n="vblex"/></r></p></e>
+    <e><p><l>blaenoriaethu<s n="vblex"/></l><r>take precedence<s n="vblex"/></r></p></e>
+    <e><p><l>blodio<s n="vblex"/></l><r>make meal<s n="vblex"/></r></p></e>
+    <e><p><l>bloesgi<s n="vblex"/></l><r>speak indistinctly<s n="vblex"/></r></p></e>
+    <e><p><l>bonclustio<s n="vblex"/></l><r>box on the ears<s n="vblex"/></r></p></e>
+    <e><p><l>bracso<s n="vblex"/></l><r>pull through<s n="vblex"/></r></p></e>
+    <e><p><l>brasbwythu<s n="vblex"/></l><r>sew with large stitches<s n="vblex"/></r></p></e>
+    <e><p><l>brasio<s n="vblex"/></l><r>do a rough job<s n="vblex"/></r></p></e>
+    <e><p><l>breichio<s n="vblex"/></l><r>link arms<s n="vblex"/></r></p></e>
+    <e><p><l>breisgáu<s n="vblex"/></l><r>become fat<s n="vblex"/></r></p></e>
+    <e><p><l>breisgio<s n="vblex"/></l><r>become fat<s n="vblex"/></r></p></e>
+    <e><p><l>breuhau<s n="vblex"/></l><r>become fragile<s n="vblex"/></r></p></e>
+    <e><p><l>breuo<s n="vblex"/></l><r>become brittle<s n="vblex"/></r></p></e>
+    <e><p><l>brigladd<s n="vblex"/></l><r>lop the top off<s n="vblex"/></r></p></e>
+    <e><p><l>briwsioni<s n="vblex"/></l><r>make crumbs<s n="vblex"/></r></p></e>
+    <e><p><l>brysgerdded<s n="vblex"/></l><r>walk briskly<s n="vblex"/></r></p></e>
+    <e><p><l>bustachu<s n="vblex"/></l><r>blunder about<s n="vblex"/></r></p></e>
+    <e><p><l>bysellu<s n="vblex"/></l><r>key in<s n="vblex"/></r></p></e>
+    <e><p><l>callio<s n="vblex"/></l><r>get wiser<s n="vblex"/></r></p></e>
+    <e><p><l>camatal<s n="vblex"/></l><r>withhold unjustly<s n="vblex"/></r></p></e>
+    <e><p><l>camdaflu<s n="vblex"/></l><r>foul throw<s n="vblex"/></r></p></e>
+    <e><p><l>camdyngu<s n="vblex"/></l><r>swear falsely<s n="vblex"/></r></p></e>
+    <e><p><l>camdystiolaethu<s n="vblex"/></l><r>commit perjury<s n="vblex"/></r></p></e>
+    <e><p><l>camfesur<s n="vblex"/></l><r>estimate wrongly<s n="vblex"/></r></p></e>
+    <e><p><l>camfucheddu<s n="vblex"/></l><r>lead a dissolute life<s n="vblex"/></r></p></e>
+    <e><p><l>camgoelio<s n="vblex"/></l><r>believe wrongly<s n="vblex"/></r></p></e>
+    <e><p><l>camgredu<s n="vblex"/></l><r>believe wrongly<s n="vblex"/></r></p></e>
+    <e><p><l>camgyhuddo<s n="vblex"/></l><r>accuse falsely<s n="vblex"/></r></p></e>
+    <e><p><l>camochri<s n="vblex"/></l><r>go offside<s n="vblex"/></r></p></e>
+    <e><p><l>camsefyll<s n="vblex"/></l><r>stand in the wrong place<s n="vblex"/></r></p></e>
+    <e><p><l>carcu<s n="vblex"/></l><r>take heed<s n="vblex"/></r></p></e>
+    <e><p><l>carthu<s n="vblex"/></l><r>muck out<s n="vblex"/></r></p></e>
+    <e><p><l>catrodi<s n="vblex"/></l><r>form into regiments<s n="vblex"/></r></p></e>
+    <e><p><l>cawna<s n="vblex"/></l><r>gather reeds<s n="vblex"/></r></p></e>
+    <e><p><l>cedenu<s n="vblex"/></l><r>nap cloth<s n="vblex"/></r></p></e>
+    <e><p><l>cefnu<s n="vblex"/></l><r>turn your back on<s n="vblex"/></r></p></e>
+    <e><p><l>ceincio<s n="vblex"/></l><r>spread out<s n="vblex"/></r></p></e>
+    <e><p><l>cennu<s n="vblex"/></l><r>grow scaly<s n="vblex"/></r></p></e>
+    <e><p><l>chwantu<s n="vblex"/></l><r>lust after<s n="vblex"/></r></p></e>
+    <e><p><l>chwedleua<s n="vblex"/></l><r>tell a tale<s n="vblex"/></r></p></e>
+    <e><p><l>chwerwi<s n="vblex"/></l><r>become bitter<s n="vblex"/></r></p></e>
+    <e><p><l>chwiblo<s n="vblex"/></l><r>turn sour<s n="vblex"/></r></p></e>
+    <e><p><l>chwidlo<s n="vblex"/></l><r>inform on<s n="vblex"/></r></p></e>
+    <e><p><l>cildynnu<s n="vblex"/></l><r>become obstinate<s n="vblex"/></r></p></e>
+    <e><p><l>claearu<s n="vblex"/></l><r>become lukewarm<s n="vblex"/></r></p></e>
+    <e><p><l>claeru<s n="vblex"/></l><r>become lukewarm<s n="vblex"/></r></p></e>
+    <e><p><l>clapian<s n="vblex"/></l><r>tell tales<s n="vblex"/></r></p></e>
+    <e><p><l>clecian<s n="vblex"/></l><r>tell tales<s n="vblex"/></r></p></e>
+    <e><p><l>cleilenwi<s n="vblex"/></l><r>put clay on<s n="vblex"/></r></p></e>
+    <e><p><l>cleio<s n="vblex"/></l><r>put clay on<s n="vblex"/></r></p></e>
+    <e><p><l>clercio<s n="vblex"/></l><r>act as clerk to<s n="vblex"/></r></p></e>
+    <e><p><l>cliciedu<s n="vblex"/></l><r>fasten with a latch<s n="vblex"/></r></p></e>
+    <e><p><l>closio<s n="vblex"/></l><r>draw close<s n="vblex"/></r></p></e>
+    <e><p><l>clunhercio<s n="vblex"/></l><r>hobble along<s n="vblex"/></r></p></e>
+    <e><p><l>clustfeinio<s n="vblex"/></l><r>listen hard<s n="vblex"/></r></p></e>
+    <e><p><l>cneua<s n="vblex"/></l><r>gather nuts<s n="vblex"/></r></p></e>
+    <e><p><l>cneuo<s n="vblex"/></l><r>gather nuts<s n="vblex"/></r></p></e>
+    <e><p><l>cnydio<s n="vblex"/></l><r>bear fruit<s n="vblex"/></r></p></e>
+    <e><p><l>coedio<s n="vblex"/></l><r>construct timberwork<s n="vblex"/></r></p></e>
+    <e><p><l>cofiannu<s n="vblex"/></l><r>write a memoir<s n="vblex"/></r></p></e>
+    <e><p><l>corni<s n="vblex"/></l><r>become hard<s n="vblex"/></r></p></e>
+    <e><p><l>crabio<s n="vblex"/></l><r>waste away<s n="vblex"/></r></p></e>
+    <e><p><l>crachennu<s n="vblex"/></l><r>become scabby<s n="vblex"/></r></p></e>
+    <e><p><l>crefftwra<s n="vblex"/></l><r>practise a craft<s n="vblex"/></r></p></e>
+    <e><p><l>creisioni<s n="vblex"/></l><r>burn to ashes<s n="vblex"/></r></p></e>
+    <e><p><l>creuloni<s n="vblex"/></l><r>become cruel<s n="vblex"/></r></p></e>
+    <e><p><l>crinellu<s n="vblex"/></l><r>become brittle<s n="vblex"/></r></p></e>
+    <e><p><l>crintachu<s n="vblex"/></l><r>become miserly<s n="vblex"/></r></p></e>
+    <e><p><l>cruglwytho<s n="vblex"/></l><r>heap together<s n="vblex"/></r></p></e>
+    <e><p><l>crugo<s n="vblex"/></l><r>pile up<s n="vblex"/></r></p></e>
+    <e><p><l>crygleisio<s n="vblex"/></l><r>speak hoarsely<s n="vblex"/></r></p></e>
+    <e><p><l>crygu<s n="vblex"/></l><r>become hoarse<s n="vblex"/></r></p></e>
+    <e><p><l>crynhau<s n="vblex"/></l><r>become round<s n="vblex"/></r></p></e>
+    <e><p><l>cwestio<s n="vblex"/></l><r>hold an inquiry<s n="vblex"/></r></p></e>
+    <e><p><l>cyboli<s n="vblex"/></l><r>talk nonsense<s n="vblex"/></r></p></e>
+    <e><p><l>cychio<s n="vblex"/></l><r>keep bees<s n="vblex"/></r></p></e>
+    <e><p><l>cychu<s n="vblex"/></l><r>keep bees<s n="vblex"/></r></p></e>
+    <e><p><l>cydadrodd<s n="vblex"/></l><r>recite together<s n="vblex"/></r></p></e>
+    <e><p><l>cydarwain<s n="vblex"/></l><r>lead jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cydbenderfynu<s n="vblex"/></l><r>decide together<s n="vblex"/></r></p></e>
+    <e><p><l>cydbwrcasu<s n="vblex"/></l><r>purchase jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cyd-ddefnyddio<s n="vblex"/></l><r>share the use of<s n="vblex"/></r></p></e>
+    <e><p><l>cyd-ddioddef<s n="vblex"/></l><r>suffer together<s n="vblex"/></r></p></e>
+    <e><p><l>cyd-deithio<s n="vblex"/></l><r>travel together<s n="vblex"/></r></p></e>
+    <e><p><l>cyd-drefnu<s n="vblex"/></l><r>arrange jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cyd-dyfu<s n="vblex"/></l><r>grow togther<s n="vblex"/></r></p></e>
+    <e><p><l>cyd-dynnu<s n="vblex"/></l><r>act in harmony<s n="vblex"/></r></p></e>
+    <e><p><l>cydeistedd<s n="vblex"/></l><r>sit jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cydfagu<s n="vblex"/></l><r>raise jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cydfarnu<s n="vblex"/></l><r>judge jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cydfeddiannu<s n="vblex"/></l><r>possess in common<s n="vblex"/></r></p></e>
+    <e><p><l>cydfenthyg<s n="vblex"/></l><r>borrow jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cydfonitro<s n="vblex"/></l><r>monitor jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cydfwriadu<s n="vblex"/></l><r>plan together<s n="vblex"/></r></p></e>
+    <e><p><l>cydfyw<s n="vblex"/></l><r>live together<s n="vblex"/></r></p></e>
+    <e><p><l>cydganu<s n="vblex"/></l><r>sing together<s n="vblex"/></r></p></e>
+    <e><p><l>cydgasglu<s n="vblex"/></l><r>gather together<s n="vblex"/></r></p></e>
+    <e><p><l>cydgefnogi<s n="vblex"/></l><r>support jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cydgomisiynu<s n="vblex"/></l><r>commission jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cydgrynhoi<s n="vblex"/></l><r>gather together<s n="vblex"/></r></p></e>
+    <e><p><l>cydgyllido<s n="vblex"/></l><r>finance jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cydgynnull<s n="vblex"/></l><r>gather together<s n="vblex"/></r></p></e>
+    <e><p><l>cydlafurio<s n="vblex"/></l><r>work jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cydlawenhau<s n="vblex"/></l><r>rejoice jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cydletya<s n="vblex"/></l><r>lodge together<s n="vblex"/></r></p></e>
+    <e><p><l>cydlifio<s n="vblex"/></l><r>flow together<s n="vblex"/></r></p></e>
+    <e><p><l>cydoesi<s n="vblex"/></l><r>be contemporary<s n="vblex"/></r></p></e>
+    <e><p><l>cydolygu<s n="vblex"/></l><r>edit jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cydsefydlu<s n="vblex"/></l><r>establish jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cydsefyll<s n="vblex"/></l><r>be compatible<s n="vblex"/></r></p></e>
+    <e><p><l>cydweithio<s n="vblex"/></l><r>work together<s n="vblex"/></r></p></e>
+    <e><p><l>cydymdrechu<s n="vblex"/></l><r>make a united effort<s n="vblex"/></r></p></e>
+    <e><p><l>cydymgynghori<s n="vblex"/></l><r>consult together<s n="vblex"/></r></p></e>
+    <e><p><l>cydystyrio<s n="vblex"/></l><r>deliberate jointly<s n="vblex"/></r></p></e>
+    <e><p><l>cyfateb<s n="vblex"/></l><r>correspond to<s n="vblex"/></r></p></e>
+    <e><p><l>cyfatebu<s n="vblex"/></l><r>correspond to<s n="vblex"/></r></p></e>
+    <e><p><l>cyfeillacha<s n="vblex"/></l><r>associate with<s n="vblex"/></r></p></e>
+    <e><p><l>cyffio<s n="vblex"/></l><r>become stiff<s n="vblex"/></r></p></e>
+    <e><p><l>cyfodli<s n="vblex"/></l><r>rhyme with<s n="vblex"/></r></p></e>
+    <e><p><l>cyfoedi<s n="vblex"/></l><r>be contemporaneous with<s n="vblex"/></r></p></e>
+    <e><p><l>cyfoesi<s n="vblex"/></l><r>be contemporaneous with<s n="vblex"/></r></p></e>
+    <e><p><l>cyfranogi<s n="vblex"/></l><r>participate in<s n="vblex"/></r></p></e>
+    <e><p><l>cyfrddwyn<s n="vblex"/></l><r>remove entirely<s n="vblex"/></r></p></e>
+    <e><p><l>cyfredeg<s n="vblex"/></l><r>keep pace with<s n="vblex"/></r></p></e>
+    <e><p><l>cyhydeddu<s n="vblex"/></l><r>divide equally<s n="vblex"/></r></p></e>
+    <e><p><l>cylcharwain<s n="vblex"/></l><r>lead about<s n="vblex"/></r></p></e>
+    <e><p><l>cynadledda<s n="vblex"/></l><r>attend conferences<s n="vblex"/></r></p></e>
+    <e><p><l>cyndynnu<s n="vblex"/></l><r>act stubbornly<s n="vblex"/></r></p></e>
+    <e><p><l>cyneddfu<s n="vblex"/></l><r>judge competent<s n="vblex"/></r></p></e>
+    <e><p><l>cynefino<s n="vblex"/></l><r>become accustomed<s n="vblex"/></r></p></e>
+    <e><p><l>cynganeddu<s n="vblex"/></l><r>compose verse<s n="vblex"/></r></p></e>
+    <e><p><l>cynrhoni<s n="vblex"/></l><r>breed maggots<s n="vblex"/></r></p></e>
+    <e><p><l>cynuta<s n="vblex"/></l><r>gather fuel<s n="vblex"/></r></p></e>
+    <e><p><l>cyrnio<s n="vblex"/></l><r>pile up<s n="vblex"/></r></p></e>
+    <e><p><l>cytundebu<s n="vblex"/></l><r>make a pact<s n="vblex"/></r></p></e>
+    <e><p><l>cyweirio<s n="vblex"/></l><r>set in order<s n="vblex"/></r></p></e>
+    <e><p><l>dadluddedu<s n="vblex"/></l><r>get a new lease of life<s n="vblex"/></r></p></e>
+    <e><p><l>dadolwch<s n="vblex"/></l><r>make amends<s n="vblex"/></r></p></e>
+    <e><p><l>dadolychu<s n="vblex"/></l><r>make amends<s n="vblex"/></r></p></e>
+    <e><p><l>damhegu<s n="vblex"/></l><r>speak figuratively<s n="vblex"/></r></p></e>
+    <e><p><l>darllaw<s n="vblex"/></l><r>brew up<s n="vblex"/></r></p></e>
+    <e><p><l>darnguddio<s n="vblex"/></l><r>conceal partially<s n="vblex"/></r></p></e>
+    <e><p><l>darymred<s n="vblex"/></l><r>flit about<s n="vblex"/></r></p></e>
+    <e><p><l>deillio<s n="vblex"/></l><r>derive from<s n="vblex"/></r></p></e>
+    <e><p><l>deirydu<s n="vblex"/></l><r>belong to<s n="vblex"/></r></p></e>
+    <e><p><l>delw-addoli<s n="vblex"/></l><r>practise idolatry<s n="vblex"/></r></p></e>
+    <e><p><l>delwi<s n="vblex"/></l><r>be motionless<s n="vblex"/></r></p></e>
+    <e><p><l>dial<s n="vblex"/></l><r>take revenge<s n="vblex"/></r></p></e>
+    <e><p><l>diarhebu<s n="vblex"/></l><r>use as a proverb<s n="vblex"/></r></p></e>
+    <e><p><l>dichellu<s n="vblex"/></l><r>act with guile<s n="vblex"/></r></p></e>
+    <e><p><l>diclloni<s n="vblex"/></l><r>be indignant<s n="vblex"/></r></p></e>
+    <e><p><l>didroedio<s n="vblex"/></l><r>trip up<s n="vblex"/></r></p></e>
+    <e><p><l>difeio<s n="vblex"/></l><r>hold free of blame<s n="vblex"/></r></p></e>
+    <e><p><l>diflasu<s n="vblex"/></l><r>be fed up with<s n="vblex"/></r></p></e>
+    <e><p><l>difrifoli<s n="vblex"/></l><r>become serious<s n="vblex"/></r></p></e>
+    <e><p><l>digalonni<s n="vblex"/></l><r>lose heart<s n="vblex"/></r></p></e>
+    <e><p><l>digaregu<s n="vblex"/></l><r>remove stones<s n="vblex"/></r></p></e>
+    <e><p><l>digio<s n="vblex"/></l><r>get angry<s n="vblex"/></r></p></e>
+    <e><p><l>diharffu<s n="vblex"/></l><r>waste away<s n="vblex"/></r></p></e>
+    <e><p><l>diodi<s n="vblex"/></l><r>give a drink to<s n="vblex"/></r></p></e>
+    <e><p><l>diriaethu<s n="vblex"/></l><r>make concrete<s n="vblex"/></r></p></e>
+    <e><p><l>disychedu<s n="vblex"/></l><r>slake thirst<s n="vblex"/></r></p></e>
+    <e><p><l>disychu<s n="vblex"/></l><r>slake thirst<s n="vblex"/></r></p></e>
+    <e><p><l>drabio<s n="vblex"/></l><r>cut to bits<s n="vblex"/></r></p></e>
+    <e><p><l>dwysbigo<s n="vblex"/></l><r>pierce to the heart<s n="vblex"/></r></p></e>
+    <e><p><l>dwysfyfyrio<s n="vblex"/></l><r>contemplate deeply<s n="vblex"/></r></p></e>
+    <e><p><l>dygyforio<s n="vblex"/></l><r>create commotion<s n="vblex"/></r></p></e>
+    <e><p><l>dyheu<s n="vblex"/></l><r>long for<s n="vblex"/></r></p></e>
+    <e><p><l>dymuno<s n="vblex"/></l><r>wish to<s n="vblex"/></r></p></e>
+    <e><p><l>dysgub<s n="vblex"/></l><r>sweep away<s n="vblex"/></r></p></e>
+    <e><p><l>dywalhau<s n="vblex"/></l><r>grow fierce<s n="vblex"/></r></p></e>
+    <e><p><l>dywalu<s n="vblex"/></l><r>grow fierce<s n="vblex"/></r></p></e>
+    <e><p><l>ebrannu<s n="vblex"/></l><r>feed a horse<s n="vblex"/></r></p></e>
+    <e><p><l>effeithioli<s n="vblex"/></l><r>make effective<s n="vblex"/></r></p></e>
+    <e><p><l>eilunaddoli<s n="vblex"/></l><r>worship idols<s n="vblex"/></r></p></e>
+    <e><p><l>englynu<s n="vblex"/></l><r>compose englynion<s n="vblex"/></r></p></e>
+    <e><p><l>enwogi<s n="vblex"/></l><r>make famous<s n="vblex"/></r></p></e>
+    <e><p><l>eoca<s n="vblex"/></l><r>fish for salmon<s n="vblex"/></r></p></e>
+    <e><p><l>esgor<s n="vblex"/></l><r>give birth<s n="vblex"/></r></p></e>
+    <e><p><l>ffagodi<s n="vblex"/></l><r>tie into faggots<s n="vblex"/></r></p></e>
+    <e><p><l>ffasgu<s n="vblex"/></l><r>tie in a bundle<s n="vblex"/></r></p></e>
+    <e><p><l>ffinio<s n="vblex"/></l><r>border on<s n="vblex"/></r></p></e>
+    <e><p><l>ffrwcsio<s n="vblex"/></l><r>be in a tizzy<s n="vblex"/></r></p></e>
+    <e><p><l>ffrwytho<s n="vblex"/></l><r>be fruitful<s n="vblex"/></r></p></e>
+    <e><p><l>gallu<s n="vblex"/></l><r>be able to<s n="vbmod"/></r></p></e>
+    <e><p><l>garanu<s n="vblex"/></l><r>fit with a shaft<s n="vblex"/></r></p></e>
+    <e><p><l>gerwino<s n="vblex"/></l><r>become rough<s n="vblex"/></r></p></e>
+    <e><p><l>glasu<s n="vblex"/></l><r>become verdant<s n="vblex"/></r></p></e>
+    <e><p><l>gorddibynnu<s n="vblex"/></l><r>be too dependent<s n="vblex"/></r></p></e>
+    <e><p><l>gorfoleddu<s n="vblex"/></l><r>be jubilant<s n="vblex"/></r></p></e>
+    <e><p><l>gorofalu<s n="vblex"/></l><r>be overprotective<s n="vblex"/></r></p></e>
+    <e><p><l>gorwedd<s n="vblex"/></l><r>lie down<s n="vblex"/></r></p></e>
+    <e><p><l>graenio<s n="vblex"/></l><r>spruce up<s n="vblex"/></r></p></e>
+    <e><p><l>graenu<s n="vblex"/></l><r>spruce up<s n="vblex"/></r></p></e>
+    <e><p><l>greddfu<s n="vblex"/></l><r>become ingrained<s n="vblex"/></r></p></e>
+    <e><p><l>gwaddota<s n="vblex"/></l><r>catch moles<s n="vblex"/></r></p></e>
+    <e><p><l>gwallgofi<s n="vblex"/></l><r>go mad<s n="vblex"/></r></p></e>
+    <e><p><l>gwangalonni<s n="vblex"/></l><r>lose heart<s n="vblex"/></r></p></e>
+    <e><p><l>gwanwyno<s n="vblex"/></l><r>become verdant<s n="vblex"/></r></p></e>
+    <e><p><l>gwedduso<s n="vblex"/></l><r>make suitable<s n="vblex"/></r></p></e>
+    <e><p><l>gwerthyd<s n="vblex"/></l><r>furnish with an axle<s n="vblex"/></r></p></e>
+    <e><p><l>gwerydu<s n="vblex"/></l><r>manure land<s n="vblex"/></r></p></e>
+    <e><p><l>gwiweru<s n="vblex"/></l><r>squirrel away<s n="vblex"/></r></p></e>
+    <e><p><l>gwlana<s n="vblex"/></l><r>gather wool<s n="vblex"/></r></p></e>
+    <e><p><l>gwreica<s n="vblex"/></l><r>seek a wife<s n="vblex"/></r></p></e>
+    <e><p><l>gwrogi<s n="vblex"/></l><r>pay homage<s n="vblex"/></r></p></e>
+    <e><p><l>gwrthwasgu<s n="vblex"/></l><r>do pushups<s n="vblex"/></r></p></e>
+    <e><p><l>gwybeta<s n="vblex"/></l><r>dart about<s n="vblex"/></r></p></e>
+    <e><p><l>gwylltio<s n="vblex"/></l><r>fly into a temper<s n="vblex"/></r></p></e>
+    <e><p><l>gwynlasu<s n="vblex"/></l><r>turn deathly pale<s n="vblex"/></r></p></e>
+    <e><p><l>gwyrddu<s n="vblex"/></l><r>turn green<s n="vblex"/></r></p></e>
+    <e><p><l>gwyrgamu<s n="vblex"/></l><r>go awry<s n="vblex"/></r></p></e>
+    <e><p><l>hamddena<s n="vblex"/></l><r>take it easy<s n="vblex"/></r></p></e>
+    <e><p><l>hapgyrchu<s n="vblex"/></l><r>random access<s n="vblex"/></r></p></e>
+    <e><p><l>heislanu<s n="vblex"/></l><r>hackle flax<s n="vblex"/></r></p></e>
+    <e><p><l>hepian<s n="vblex"/></l><r>nod off<s n="vblex"/></r></p></e>
+    <e><p><l>hinoni<s n="vblex"/></l><r>become fine<s n="vblex"/></r></p></e> <!-- weather -->
+    <e><p><l>hiraethu<s n="vblex"/></l><r>long for<s n="vblex"/></r></p></e>
+    <e><p><l>hunanymwadu<s n="vblex"/></l><r>deny oneself<s n="vblex"/></r></p></e>
+    <e><p><l>hurtio<s n="vblex"/></l><r>become confused<s n="vblex"/></r></p></e>
+    <e><p><l>hwyrhau<s n="vblex"/></l><r>get late<s n="vblex"/></r></p></e>
+    <e><p><l>hyderu<s n="vblex"/></l><r>be confident<s n="vblex"/></r></p></e>
+    <e><p><l>hysian<s n="vblex"/></l><r>set on<s n="vblex"/></r></p></e>
+    <e><p><l>isgilio<s n="vblex"/></l><r>ride as passenger<s n="vblex"/></r></p></e>
+    <e><p><l>llanastru<s n="vblex"/></l><r>mess up<s n="vblex"/></r></p></e>
+    <e><p><l>llanerchu<s n="vblex"/></l><r>clear land<s n="vblex"/></r></p></e>
+    <e><p><l>cynheica<s n="vblex"/></l><r>be in heat<s n="vblex"/></r></p></e>
+    <e><p><l>llawdio<s n="vblex"/></l><r>be in heat<s n="vblex"/></r></p></e> <!-- sow/animal -->
+    <e><p><l>marchio<s n="vblex"/></l><r>be in heat<s n="vblex"/></r></p></e> <!-- mare / horse -->
+    <e><p><l>llodi<s n="vblex"/></l><r>be in heat<s n="vblex"/></r></p></e> <!-- sow -->
+    <e><p><l>llechfeddiannu<s n="vblex"/></l><r>encroach upon<s n="vblex"/></r></p></e>
+    <e><p><l>llenora<s n="vblex"/></l><r>be an author<s n="vblex"/></r></p></e>
+    <e><p><l>llenydda<s n="vblex"/></l><r>be well-versed in literature<s n="vblex"/></r></p></e>
+    <e><p><l>llesio<s n="vblex"/></l><r>be advantageous<s n="vblex"/></r></p></e>
+    <e><p><l>llestrio<s n="vblex"/></l><r>put into a vessel<s n="vblex"/></r></p></e>
+    <e><p><l>llestru<s n="vblex"/></l><r>put into a vessel<s n="vblex"/></r></p></e>
+    <e><p><l>llesu<s n="vblex"/></l><r>be advantageous<s n="vblex"/></r></p></e>
+    <e><p><l>lloesi<s n="vblex"/></l><r>get rid of<s n="vblex"/></r></p></e>
+    <e><p><l>llori<s n="vblex"/></l><r>cut down<s n="vblex"/></r></p></e>
+    <e><p><l>llusa<s n="vblex"/></l><r>gather bilberries<s n="vblex"/></r></p></e>
+    <e><p><l>llwfrhau<s n="vblex"/></l><r>lose heart<s n="vblex"/></r></p></e>
+    <e><p><l>llwgu<s n="vblex"/></l><r>be ravenously hungry<s n="vblex"/></r></p></e>
+    <e><p><l>llwydo<s n="vblex"/></l><r>become mouldy<s n="vblex"/></r></p></e>
+    <e><p><l>llwyrlanhau<s n="vblex"/></l><r>clean thoroughly<s n="vblex"/></r></p></e>
+    <e><p><l>llwyrymatal<s n="vblex"/></l><r>abstain totally<s n="vblex"/></r></p></e>
+    <e><p><l>llwyrymwrthod<s n="vblex"/></l><r>abstain totally<s n="vblex"/></r></p></e>
+    <e><p><l>llyfrïo<s n="vblex"/></l><r>tear to bits<s n="vblex"/></r></p></e>
+    <e><p><l>llyfrwerthu<s n="vblex"/></l><r>sell books<s n="vblex"/></r></p></e>
+    <e><p><l>llygota<s n="vblex"/></l><r>catch mice<s n="vblex"/></r></p></e>
+    <e><p><l>llythrennu<s n="vblex"/></l><r>form letters<s n="vblex"/></r></p></e>
+    <e><p><l>lordio<s n="vblex"/></l><r>lord it<s n="vblex"/></r></p></e>
+    <e><p><l>malurio<s n="vblex"/></l><r>break into fragments<s n="vblex"/></r></p></e>
+    <e><p><l>mathru<s n="vblex"/></l><r>trample on<s n="vblex"/></r></p></e>
+    <e><p><l>meddwi<s n="vblex"/></l><r>get drunk<s n="vblex"/></r></p></e>
+    <e><p><l>medru<s n="vblex"/></l><r>be able to<s n="vbmod"/></r></p></e>
+    <e><p><l>megina<s n="vblex"/></l><r>use bellows<s n="vblex"/></r></p></e>
+    <e><p><l>melltennu<s n="vblex"/></l><r>flash lightning<s n="vblex"/></r></p></e>
+    <e><p><l>melltio<s n="vblex"/></l><r>flash lightning<s n="vblex"/></r></p></e>
+    <e><p><l>meudwyo<s n="vblex"/></l><r>live like a hermit<s n="vblex"/></r></p></e>
+    <e><p><l>mingamu<s n="vblex"/></l><r>smile sardonically<s n="vblex"/></r></p></e>
+    <e><p><l>moeli<s n="vblex"/></l><r>become bald<s n="vblex"/></r></p></e>
+    <e><p><l>moelio<s n="vblex"/></l><r>become bald<s n="vblex"/></r></p></e>
+    <e><p><l>mursennu<s n="vblex"/></l><r>behave coyly<s n="vblex"/></r></p></e>
+    <e><p><l>mwyglo<s n="vblex"/></l><r>be tepid<s n="vblex"/></r></p></e>
+    <e><p><l>mwyneiddio<s n="vblex"/></l><r>become gentle<s n="vblex"/></r></p></e>
+    <e><p><l>mygdarthu<s n="vblex"/></l><r>burn incense<s n="vblex"/></r></p></e>
+    <e><p><l>myllio<s n="vblex"/></l><r>fly into a rage<s n="vblex"/></r></p></e>
+    <e><p><l>mynydda<s n="vblex"/></l><r>climb mountains<s n="vblex"/></r></p></e>
+    <e><p><l>negesa<s n="vblex"/></l><r>run a message<s n="vblex"/></r></p></e>
+    <e><p><l>newyddiadura<s n="vblex"/></l><r>be a journalist<s n="vblex"/></r></p></e>
+    <e><p><l>nosi<s n="vblex"/></l><r>become night<s n="vblex"/></r></p></e>
+    <e><p><l>noswylio<s n="vblex"/></l><r>rest at night<s n="vblex"/></r></p></e>
+    <e><p><l>nyddu<s n="vblex"/></l><r>spin yarn<s n="vblex"/></r></p></e>
+    <e><p><l>oeri<s n="vblex"/></l><r>grow cold<s n="vblex"/></r></p></e>
+    <e><p><l>ofera<s n="vblex"/></l><r>live dissolutely<s n="vblex"/></r></p></e>
+    <e><p><l>pabwyra<s n="vblex"/></l><r>gather rushes<s n="vblex"/></r></p></e>
+    <e><p><l>pendrymu<s n="vblex"/></l><r>be dejected<s n="vblex"/></r></p></e>
+    <e><p><l>pererindota<s n="vblex"/></l><r>go on a pilgrimage<s n="vblex"/></r></p></e>
+    <e><p><l>pererinio<s n="vblex"/></l><r>go on a pilgrimage<s n="vblex"/></r></p></e>
+    <e><p><l>pibo<s n="vblex"/></l><r>have diarrhoea<s n="vblex"/></r></p></e>
+    <e><p><l>pibyddio<s n="vblex"/></l><r>play pipes<s n="vblex"/></r></p></e>
+    <e><p><l>pilcota<s n="vblex"/></l><r>catch minnows<s n="vblex"/></r></p></e>
+    <e><p><l>pladuro<s n="vblex"/></l><r>mow with a scythe<s n="vblex"/></r></p></e>
+    <e><p><l>pluo<s n="vblex"/></l><r>pluck feathers<s n="vblex"/></r></p></e>
+    <e><p><l>plwyfo<s n="vblex"/></l><r>settle in a parish<s n="vblex"/></r></p></e>
+    <e><p><l>porthmona<s n="vblex"/></l><r>deal in cattle<s n="vblex"/></r></p></e>
+    <e><p><l>priddio<s n="vblex"/></l><r>earth up<s n="vblex"/></r></p></e>
+    <e><p><l>pryfedu<s n="vblex"/></l><r>breed worms<s n="vblex"/></r></p></e>
+    <e><p><l>rhadroddi<s n="vblex"/></l><r>give freely<s n="vblex"/></r></p></e>
+    <e><p><l>rhagddarbodi<s n="vblex"/></l><r>prepare in advance<s n="vblex"/></r></p></e>
+    <e><p><l>rhaglunio<s n="vblex"/></l><r>design beforehand<s n="vblex"/></r></p></e>
+    <e><p><l>rhagofalu<s n="vblex"/></l><r>take precautions<s n="vblex"/></r></p></e>
+    <e><p><l>rhagrithio<s n="vblex"/></l><r>be hypocritical<s n="vblex"/></r></p></e>
+    <e><p><l>rhesymegu<s n="vblex"/></l><r>think logically<s n="vblex"/></r></p></e>
+    <e><p><l>rhethregu<s n="vblex"/></l><r>speak rhetorically<s n="vblex"/></r></p></e>
+    <e><p><l>rhithio<s n="vblex"/></l><r>transform supernaturally<s n="vblex"/></r></p></e>
+    <e><p><l>rhyfela<s n="vblex"/></l><r>make war<s n="vblex"/></r></p></e>
+    <e><p><l>rhyfygu<s n="vblex"/></l><r>behave arrrogantly<s n="vblex"/></r></p></e>
+    <e><p><l>rwdlan<s n="vblex"/></l><r>talk rubbish<s n="vblex"/></r></p></e>
+    <e><p><l>rwdlian<s n="vblex"/></l><r>talk rubbish<s n="vblex"/></r></p></e>
+    <e><p><l>samona<s n="vblex"/></l><r>catch salmon<s n="vblex"/></r></p></e>
+    <e><p><l>sobreiddio<s n="vblex"/></l><r>sober up<s n="vblex"/></r></p></e>
+    <e><p><l>sobri<s n="vblex"/></l><r>sober up<s n="vblex"/></r></p></e>
+    <e><p><l>sobrio<s n="vblex"/></l><r>sober up<s n="vblex"/></r></p></e>
+    <e><p><l>sodli<s n="vblex"/></l><r>follow on the heel<s n="vblex"/></r></p></e>
+    <e><p><l>stiwardio<s n="vblex"/></l><r>keep watch<s n="vblex"/></r></p></e>
+    <e><p><l>strancio<s n="vblex"/></l><r>throw a tantrum<s n="vblex"/></r></p></e>
+    <e><p><l>streicio<s n="vblex"/></l><r>go on strike<s n="vblex"/></r></p></e>
+    <e><p><l>swcro<s n="vblex"/></l><r>give refuge<s n="vblex"/></r></p></e>
+    <e><p><l>swpera<s n="vblex"/></l><r>eat supper<s n="vblex"/></r></p></e>
+    <e><p><l>swperu<s n="vblex"/></l><r>eat supper<s n="vblex"/></r></p></e>
+    <e><p><l>syrffedu<s n="vblex"/></l><r>be sick and tired of<s n="vblex"/></r></p></e>
+    <e><p><l>talgrynnu<s n="vblex"/></l><r>round up<s n="vblex"/></r></p></e> <!-- maths -->
+    <e><p><l>tameidio<s n="vblex"/></l><r>cut into morsels<s n="vblex"/></r></p></e>
+    <e><p><l>telynegu<s n="vblex"/></l><r>compose lyrics<s n="vblex"/></r></p></e>
+    <e><p><l>tewi<s n="vblex"/></l><r>keep silent<s n="vblex"/></r></p></e>
+    <e><p><l>tolio<s n="vblex"/></l><r>be thrifty<s n="vblex"/></r></p></e>
+    <e><p><l>tolli<s n="vblex"/></l><r>charge a toll<s n="vblex"/></r></p></e>
+    <e><p><l>topi<s n="vblex"/></l><r>block up<s n="vblex"/></r></p></e>
+    <e><p><l>topio<s n="vblex"/></l><r>block up<s n="vblex"/></r></p></e>
+    <e><p><l>traeanu<s n="vblex"/></l><r>divide into thirds<s n="vblex"/></r></p></e>
+    <e><p><l>trafriwio<s n="vblex"/></l><r>break into smithereens<s n="vblex"/></r></p></e>
+    <e><p><l>trosiadu<s n="vblex"/></l><r>use a metaphor<s n="vblex"/></r></p></e>
+    <e><p><l>trullio<s n="vblex"/></l><r>serve wine<s n="vblex"/></r></p></e>
+    <e><p><l>trymhau<s n="vblex"/></l><r>grow heavy<s n="vblex"/></r></p></e>
+    <e><p><l>tueddu<s n="vblex"/></l><r>tend to<s n="vblex"/></r></p></e>
+    <e><p><l>uniaethu<s n="vblex"/></l><r>identify with<s n="vblex"/></r></p></e>
+    <e><p><l>wyneblasu<s n="vblex"/></l><r>turn pale<s n="vblex"/></r></p></e>
+    <e><p><l>ymaelodi<s n="vblex"/></l><r>become a member<s n="vblex"/></r></p></e>
+    <e><p><l>ymagweddu<s n="vblex"/></l><r>conduct oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymannog<s n="vblex"/></l><r>encourage oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymbaratoi<s n="vblex"/></l><r>make ready<s n="vblex"/></r></p></e>
+    <e><p><l>ymbelydru<s n="vblex"/></l><r>be radioactive<s n="vblex"/></r></p></e>
+    <e><p><l>ymbincio<s n="vblex"/></l><r>put on makeup<s n="vblex"/></r></p></e>
+    <e><p><l>ymboeni<s n="vblex"/></l><r>take pains<s n="vblex"/></r></p></e>
+    <e><p><l>ymborthi<s n="vblex"/></l><r>feed on<s n="vblex"/></r></p></e>
+    <e><p><l>ymbriodi<s n="vblex"/></l><r>get married<s n="vblex"/></r></p></e>
+    <e><p><l>ymdaclo<s n="vblex"/></l><r>tidy oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymdaclu<s n="vblex"/></l><r>tidy oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymdawelu<s n="vblex"/></l><r>fall silent<s n="vblex"/></r></p></e>
+    <e><p><l>ymddiddori<s n="vblex"/></l><r>take an interest<s n="vblex"/></r></p></e>
+    <e><p><l>ymddieithrio<s n="vblex"/></l><r>become estranged<s n="vblex"/></r></p></e>
+    <e><p><l>ymddyfalu<s n="vblex"/></l><r>describe oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymddyrchafu<s n="vblex"/></l><r>exalt oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymdecáu<s n="vblex"/></l><r>prettify oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymdopi<s n="vblex"/></l><r>cope with<s n="vblex"/></r></p></e>
+    <e><p><l>ymdrwsio<s n="vblex"/></l><r>adorn oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymdrythyllu<s n="vblex"/></l><r>behave wantonly<s n="vblex"/></r></p></e>
+    <e><p><l>ymehangu<s n="vblex"/></l><r>spread out<s n="vblex"/></r></p></e>
+    <e><p><l>ymesgusodi<s n="vblex"/></l><r>excuse oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymfalchïo<s n="vblex"/></l><r>pride oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymgaledu<s n="vblex"/></l><r>become hard<s n="vblex"/></r></p></e>
+    <e><p><l>ymgartrefu<s n="vblex"/></l><r>make oneself at home<s n="vblex"/></r></p></e>
+    <e><p><l>ymgelu<s n="vblex"/></l><r>conceal oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymgladdu<s n="vblex"/></l><r>get buried<s n="vblex"/></r></p></e>
+    <e><p><l>ymglwyfo<s n="vblex"/></l><r>get wounded<s n="vblex"/></r></p></e>
+    <e><p><l>ymgnawdoli<s n="vblex"/></l><r>become incarnate<s n="vblex"/></r></p></e>
+    <e><p><l>ymgofrestru<s n="vblex"/></l><r>register oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymgolli<s n="vblex"/></l><r>lose oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymgroesi<s n="vblex"/></l><r>cross oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymgrogi<s n="vblex"/></l><r>hang oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymguddio<s n="vblex"/></l><r>conceal oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymgurio<s n="vblex"/></l><r>pine away<s n="vblex"/></r></p></e>
+    <e><p><l>ymgydnabyddu<s n="vblex"/></l><r>acquaint oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymgyfarwyddu<s n="vblex"/></l><r>familiarise oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymgyfathrachu<s n="vblex"/></l><r>associate oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymgyfeillachu<s n="vblex"/></l><r>associate oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymgyffelybu<s n="vblex"/></l><r>resemble each other<s n="vblex"/></r></p></e>
+    <e><p><l>ymgyfoethogi<s n="vblex"/></l><r>enrich oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymgyfuno<s n="vblex"/></l><r>ally oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymgynghreirio<s n="vblex"/></l><r>ally oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymgysegru<s n="vblex"/></l><r>devote oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymgyweirio<s n="vblex"/></l><r>prepare oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymhalogi<s n="vblex"/></l><r>defile oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymhelaethu<s n="vblex"/></l><r>enlarge upon<s n="vblex"/></r></p></e>
+    <e><p><l>ymhyfrydu<s n="vblex"/></l><r>take pride in<s n="vblex"/></r></p></e>
+    <e><p><l>ymlâdd<s n="vblex"/></l><r>grow tired<s n="vblex"/></r></p></e>
+    <e><p><l>ymlenwi<s n="vblex"/></l><r>fill up<s n="vblex"/></r></p></e>
+    <e><p><l>ymlwybro<s n="vblex"/></l><r>make progress<s n="vblex"/></r></p></e>
+    <e><p><l>ymolchi<s n="vblex"/></l><r>wash oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymrannu<s n="vblex"/></l><r>split up<s n="vblex"/></r></p></e>
+    <e><p><l>ymrithio<s n="vblex"/></l><r>assume the shape of<s n="vblex"/></r></p></e>
+    <e><p><l>ymroddi<s n="vblex"/></l><r>devote oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymroi<s n="vblex"/></l><r>devote oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymrwyfo<s n="vblex"/></l><r>thrash about<s n="vblex"/></r></p></e>
+    <e><p><l>ymrwymo<s n="vblex"/></l><r>commit oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymsuddo<s n="vblex"/></l><r>sink oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymswyno<s n="vblex"/></l><r>cross oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ymwacáu<s n="vblex"/></l><r>become empty<s n="vblex"/></r></p></e>
+    <e><p><l>ymwrando<s n="vblex"/></l><r>listen carefully<s n="vblex"/></r></p></e>
+    <e><p><l>ymysgwyd<s n="vblex"/></l><r>bestir oneself<s n="vblex"/></r></p></e>
+    <e><p><l>ynfydu<s n="vblex"/></l><r>go mad<s n="vblex"/></r></p></e>
+    <e><p><l>ysguborio<s n="vblex"/></l><r>store in a barn<s n="vblex"/></r></p></e>
+    <e><p><l>ystyfnigo<s n="vblex"/></l><r>be stubborn<s n="vblex"/></r></p></e>
+
+
+
+
+
+
 
     <!-- Personal pronouns -->
 
