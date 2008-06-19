@@ -10,6 +10,8 @@
 
     <e><p><l>yr<s n="det"/></l><r>the<s n="det"/></r></p></e>
 
+    <e><p><l>fy<s n="det"/><s n="pos"/></l><r>my<s n="det"/><s n="pos"/></r></p></e>
+
       <!-- CHECK THIS -->
     <e r="RL"><p><l>yr<s n="det"/><s n="def"/></l><r>this<s n="det"/><s n="dem"/></r></p></e>
 
@@ -483,7 +485,7 @@
     <e><p><l>cynulliad<s n="n"/><s n="m"/></l><r>assembly<s n="n"/></r></p></e>
     <e><p><l>cyrchiad<s n="n"/><s n="m"/></l><r>access<s n="n"/></r></p></e>
     <e><p><l>cyrchnod<s n="n"/><s n="m"/></l><r>goal<s n="n"/></r></p></e>
-    <e><p><l>cysawd<s n="n"/><s n="m"/></l><r>computer system (including peripherals)<s n="n"/></r></p></e>
+    <e><p><l>cysawd<s n="n"/><s n="m"/></l><r>computer system<s n="n"/></r></p></e>
     <e><p><l>cysoniad<s n="n"/><s n="m"/></l><r>synchronisation<s n="n"/></r></p></e>
     <e><p><l>cysylltiad<s n="n"/><s n="m"/></l><r>connection<s n="n"/></r></p></e>
     <e><p><l>cysylltiad<s n="n"/><s n="m"/></l><r>association<s n="n"/></r></p></e>
@@ -1126,7 +1128,7 @@
     <e><p><l>undeb<s n="n"/><s n="m"/></l><r>union<s n="n"/></r></p></e>
     <e><p><l>undod<s n="n"/><s n="m"/></l><r>unity<s n="n"/></r></p></e>
     <e><p><l>uned<s n="n"/><s n="f"/></l><r>unit<s n="n"/></r></p></e>
-    <e><p><l>urddas<s n="n"/><s n="m"/></l><r>dignity<s n="n"/></r></p></e>
+    <e><p><l>urddas<s n="n"/><s n="m"/></l><r>dignity<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>uwchraddiad<s n="n"/><s n="m"/></l><r>upgrade<s n="n"/></r></p></e>
     <e><p><l>waled<s n="n"/><s n="f"/></l><r>wallet<s n="n"/></r></p></e>
     <e><p><l>wy<s n="n"/><s n="m"/></l><r>egg<s n="n"/></r></p></e>
@@ -1420,8 +1422,10 @@
     <e><p><l>economeg<s n="n"/><s n="f"/></l><r>economics<s n="n"/></r></p></e>
     <e><p><l>e-ddysgu<s n="n"/><s n="m"/></l><r>e-learning<s n="n"/></r></p></e>
     <e><p><l>e-fasnach<s n="n"/><s n="f"/></l><r>e-commerce<s n="n"/></r></p></e>
-    <e><p><l>effeithiolrwydd<s n="n"/><s n="m"/></l><r>effectiveness<s n="n"/></r></p></e>
+
+    <e r="LR"><p><l>effeithiolrwydd<s n="n"/><s n="m"/></l><r>effectiveness<s n="n"/></r></p></e>
     <e><p><l>effeithlonrwydd<s n="n"/><s n="m"/></l><r>efficiency<s n="n"/></r></p></e>
+
     <e><p><l>eglurder<s n="n"/><s n="m"/></l><r>clarity<s n="n"/></r></p></e>
     <e><p><l>e-gyhoeddi<s n="n"/><s n="m"/></l><r>e-publishing<s n="n"/></r></p></e>
     <e><p><l>e-hyfforddi<s n="n"/><s n="m"/></l><r>e-training<s n="n"/></r></p></e>
@@ -1450,7 +1454,7 @@
     <e><p><l>ffuglen<s n="n"/><s n="f"/></l><r>fiction<s n="n"/></r></p></e>
     <e><p><l>ffurfioldeb<s n="n"/><s n="m"/></l><r>formality<s n="n"/></r></p></e>
     <e><p><l>ffyniant<s n="n"/><s n="m"/></l><r>prosperity<s n="n"/></r></p></e>
-    <e><p><l>Gaeleg<s n="n"/><s n="f"/></l><r>Scots Gaelic (Gàidhlig)<s n="n"/></r></p></e>
+    <e><p><l>Gaeleg<s n="n"/><s n="f"/></l><r>Scots Gaelic<s n="n"/></r></p></e>
     <e><p><l>garddwriaeth<s n="n"/><s n="f"/></l><r>horticulture<s n="n"/></r></p></e>
     <e><p><l>glasoed<s n="n"/><s n="m"/></l><r>youth<s n="n"/></r></p></e>
     <e><p><l>gloywder<s n="n"/><s n="m"/></l><r>brightness<s n="n"/></r></p></e>
@@ -1486,7 +1490,7 @@
     <e><p><l>gwrthiant<s n="n"/><s n="m"/></l><r>resistance<s n="n"/></r></p></e>
     <e><p><l>gwrthrychedd<s n="n"/><s n="m"/></l><r>objectivity<s n="n"/></r></p></e>
     <e><p><l>gŵydd<s n="n"/><s n="m"/></l><r>presence<s n="n"/></r></p></e>
-    <e><p><l>Gwyddeleg<s n="n"/><s n="f"/></l><r>Irish Gaelic (Gaeilge)<s n="n"/></r></p></e>
+    <e><p><l>Gwyddeleg<s n="n"/><s n="f"/></l><r>Irish<s n="n"/></r></p></e> <!-- language -->
     <e><p><l>gwyddoniaeth<s n="n"/><s n="f"/></l><r>science<s n="n"/></r></p></e>
     <e><p><l>gymnasteg<s n="n"/><s n="f"/></l><r>gymnastics<s n="n"/></r></p></e>
     <e><p><l>haearnach<s n="n"/><s n="m"/></l><r>scrap iron<s n="n"/></r></p></e>
@@ -2286,7 +2290,7 @@
     <e><p><l>teulu<s n="n"/><s n="m"/></l><r>family<s n="n"/></r></p></e>
     <e><p><l>tir<s n="n"/><s n="m"/></l><r>land<s n="n"/></r></p></e>
     <e><p><l>tribiwnlys<s n="n"/><s n="m"/></l><r>tribunal<s n="n"/></r></p></e>
-    <e><p><l>trysorlys<s n="n"/><s n="m"/></l><r>(the) Treasury<s n="n"/></r></p></e>
+    <e><p><l>trysorlys<s n="n"/><s n="m"/></l><r>Treasury<s n="n"/></r></p></e>
     <e><p><l>ucheldir<s n="n"/><s n="m"/></l><r>highland<s n="n"/></r></p></e>
     <e><p><l>uwchfarchnad<s n="n"/><s n="f"/></l><r>supermarket<s n="n"/></r></p></e>
     <e><p><l>wynebwerth<s n="n"/><s n="m"/></l><r>face value<s n="n"/></r></p></e>
@@ -2902,7 +2906,7 @@
     <e><p><l>clôn<s n="n"/><s n="m"/></l><r>clone<s n="n"/></r></p></e>
     <e><p><l>côn<s n="n"/><s n="m"/></l><r>cone<s n="n"/></r></p></e>
     <e><p><l>ffôn<s n="n"/><s n="m"/></l><r>phone<s n="n"/></r></p></e>
-    <e><p><l>stôn<s n="n"/><s n="f"/></l><r>stone<s n="n"/></r></p></e>
+    <e r="LR"><p><l>stôn<s n="n"/><s n="f"/></l><r>stone<s n="n"/></r></p></e>
     <e><p><l>tôn<s n="n"/><s n="f"/></l><r>tone<s n="n"/></r></p></e>
     <e><p><l>anaf<s n="n"/><s n="m"/></l><r>wound<s n="n"/></r></p></e>
     <e><p><l>awgrym<s n="n"/><s n="m"/></l><r>hint<s n="n"/></r></p></e>
@@ -2973,7 +2977,7 @@
     <e><p><l>campws<s n="n"/><s n="m"/></l><r>campus<s n="n"/></r></p></e>
     <e><p><l>ffocws<s n="n"/><s n="m"/></l><r>focus<s n="n"/></r></p></e>
     <e><p><l>conglfaen<s n="n"/><s n="m"/></l><r>cornerstone<s n="n"/></r></p></e>
-    <e><p><l>maen<s n="n"/><s n="m"/></l><r>stone<s n="n"/></r></p></e>
+    <e r="LR"><p><l>maen<s n="n"/><s n="m"/></l><r>stone<s n="n"/></r></p></e>
     <e><p><l>sylfaen<s n="n"/><s n="f"/></l><r>foundation<s n="n"/></r></p></e>
     <e><p><l>sylfaen<s n="n"/><s n="f"/></l><r>basis<s n="n"/></r></p></e>
     <e><p><l>argyfwng<s n="n"/><s n="m"/></l><r>emergency<s n="n"/></r></p></e>
@@ -3802,7 +3806,9 @@
     <e><p><l>cydlynus<s n="adj"/></l><r>cohesive<s n="adj"/></r></p></e>
     <e><p><l>cydnabyddedig<s n="adj"/></l><r>recognised<s n="adj"/></r></p></e>
     <e><p><l>cydnaws<s n="adj"/></l><r>compatible<s n="adj"/></r></p></e>
-    <e><p><l>cydradd<s n="adj"/></l><r>equal in rank<s n="adj"/></r></p></e>
+
+    <e><p><l>cydradd<s n="adj"/></l><r>equal<b/>in<b/>rank<s n="adj"/></r></p></e>
+
     <e><p><l>cydweddol<s n="adj"/></l><r>matching<s n="adj"/></r></p></e>
     <e><p><l>cydweithredol<s n="adj"/></l><r>cooperative<s n="adj"/></r></p></e>
     <e><p><l>cydymffurfiol<s n="adj"/></l><r>compliant<s n="adj"/></r></p></e>
@@ -4200,7 +4206,6 @@
     <e><p><l>ffynci<s n="adj"/></l><r>funky<s n="adj"/></r></p></e>
     <e><p><l>ffyniannus<s n="adj"/></l><r>prosperous<s n="adj"/></r></p></e>
     <e><p><l>ffyrnig<s n="adj"/></l><r>fierce<s n="adj"/></r></p></e>
-    <e><p><l>fy<s n="adj"/></l><r>my<s n="adj"/></r></p></e>
     <e><p><l>galarnadus<s n="adj"/></l><r>mournful<s n="adj"/></r></p></e>
     <e><p><l>galluog<s n="adj"/></l><r>enabled<s n="adj"/></r></p></e>
     <e><p><l>galluog<s n="adj"/></l><r>able<s n="adj"/></r></p></e>
@@ -4658,7 +4663,7 @@
     <e><p><l>rhwym<s n="adj"/></l><r>obliged<s n="adj"/></r></p></e>
     <e><p><l>rhwystredig<s n="adj"/></l><r>frustrated<s n="adj"/></r></p></e>
     <e><p><l>rhy<s n="adj"/></l><r>too<s n="adj"/></r></p></e>
-    <e><p><l>rhydd<s n="adj"/></l><r>free<s n="adj"/></r></p></e>
+    <e><p><l>rhydd<s n="adj"/></l><r>free<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>rhyddfrydig<s n="adj"/></l><r>liberal<s n="adj"/></r></p></e>
     <e><p><l>rhyfedd<s n="adj"/></l><r>strange<s n="adj"/></r></p></e>
     <e><p><l>rhyfeddol<s n="adj"/></l><r>wonderful<s n="adj"/></r></p></e>
@@ -4872,7 +4877,7 @@
     <e><p><l>ymylol<s n="adj"/></l><r>marginal<s n="adj"/></r></p></e>
 
     <!-- check -->
-    <e><p><l>yn<s n="adj"/></l><r>in<s n="adj"/></r></p></e>
+<!--    <e><p><l>yn<s n="adj"/></l><r>in<s n="adj"/></r></p></e> -->
 
     <e><p><l>ynghlwm<s n="adj"/></l><r>attached<s n="adj"/></r></p></e>
     <e><p><l>yn-y-car<s n="adj"/></l><r>in-car<s n="adj"/></r></p></e>
@@ -4979,7 +4984,9 @@
     <e><p><l>adleoli<s n="vblex"/></l><r>relocate<s n="vblex"/></r></p></e>
     <e><p><l>adlewyrchu<s n="vblex"/></l><r>reflect<s n="vblex"/></r></p></e>
     <e><p><l>adlifo<s n="vblex"/></l><r>reflux<s n="vblex"/></r></p></e>
-    <e><p><l>adnabod<s n="vblex"/></l><r>know (someone)<s n="vblex"/></r></p></e>
+
+    <e><p><l>adnabod<s n="vblex"/></l><r>know<s n="vblex"/></r></p></e> <!-- to know someone -->
+
     <e><p><l>adneuo<s n="vblex"/></l><r>deposit<s n="vblex"/></r></p></e>
     <e><p><l>adnewyddu<s n="vblex"/></l><r>renew<s n="vblex"/></r></p></e>
     <e><p><l>adnoddu<s n="vblex"/></l><r>resource<s n="vblex"/></r></p></e>
@@ -5904,7 +5911,7 @@
     <e><p><l>cryfhau<s n="vblex"/></l><r>strengthen<s n="vblex"/></r></p></e>
     <e><p><l>crygleisio<s n="vblex"/></l><r>speak hoarsely<s n="vblex"/></r></p></e>
     <e><p><l>crygu<s n="vblex"/></l><r>become hoarse<s n="vblex"/></r></p></e>
-    <e><p><l>crymanu<s n="vblex"/></l><r>slice (a kick)<s n="vblex"/></r></p></e>
+    <e><p><l>crymanu<s n="vblex"/></l><r>slice<s n="vblex"/></r></p></e> <!-- a kick -->
     <e><p><l>crymu<s n="vblex"/></l><r>stoop<s n="vblex"/></r></p></e>
     <e><p><l>crynhau<s n="vblex"/></l><r>become round<s n="vblex"/></r></p></e>
     <e><p><l>crynhoi<s n="vblex"/></l><r>summarise<s n="vblex"/></r></p></e>
@@ -6165,7 +6172,6 @@
     <e><p><l>cynghraffu<s n="vblex"/></l><r>clutch<s n="vblex"/></r></p></e>
     <e><p><l>cynghreirio<s n="vblex"/></l><r>ally<s n="vblex"/></r></p></e>
     <e><p><l>cyn-gofrestru<s n="vblex"/></l><r>preregister<s n="vblex"/></r></p></e>
-    <e><p><l>cynheica<s n="vblex"/></l><r>be in heat<s n="vblex"/></r></p></e>
     <e><p><l>cynhenna<s n="vblex"/></l><r>quarrel<s n="vblex"/></r></p></e>
     <e><p><l>cynhennu<s n="vblex"/></l><r>quarrel<s n="vblex"/></r></p></e>
     <e><p><l>cynhesu<s n="vblex"/></l><r>warm<s n="vblex"/></r></p></e>
@@ -6516,7 +6522,8 @@
     <e><p><l>dod<s n="vblex"/></l><r>come<s n="vblex"/></r></p></e>
     <e><p><l>dodi<s n="vblex"/></l><r>place<s n="vblex"/></r></p></e>
     <e><p><l>dodrefnu<s n="vblex"/></l><r>furnish<s n="vblex"/></r></p></e>
-    <e><p><l>dodwy<s n="vblex"/></l><r>lay (eggs)<s n="vblex"/></r></p></e>
+    <e><p><l>dodwy<s n="vblex"/></l><r>lay<s n="vblex"/></r></p></e> <!-- to lay eggs -->
+    <e><p><l>hulio<s n="vblex"/></l><r>lay<s n="vblex"/></r></p></e> <!-- to lay a table -->
     <e><p><l>doethinebu<s n="vblex"/></l><r>pontificate<s n="vblex"/></r></p></e>
     <e><p><l>dofi<s n="vblex"/></l><r>tame<s n="vblex"/></r></p></e>
     <e><p><l>dogni<s n="vblex"/></l><r>ration<s n="vblex"/></r></p></e>
@@ -6538,7 +6545,6 @@
     <e><p><l>drensio<s n="vblex"/></l><r>dose<s n="vblex"/></r></p></e>
     <e><p><l>drewi<s n="vblex"/></l><r>stink<s n="vblex"/></r></p></e>
     <e><p><l>driblo<s n="vblex"/></l><r>dribble<s n="vblex"/></r></p></e>
-    <e><p><l>drifftio<s n="vblex"/></l><r>drift<s n="vblex"/></r></p></e>
     <e><p><l>driflo<s n="vblex"/></l><r>drivel<s n="vblex"/></r></p></e>
     <e><p><l>drilio<s n="vblex"/></l><r>drill<s n="vblex"/></r></p></e>
     <e><p><l>dringo<s n="vblex"/></l><r>climb<s n="vblex"/></r></p></e>
@@ -6967,7 +6973,7 @@
     <e><p><l>gwedduso<s n="vblex"/></l><r>make suitable<s n="vblex"/></r></p></e>
     <e><p><l>gweddwhau<s n="vblex"/></l><r>widow<s n="vblex"/></r></p></e>
     <e><p><l>gwefreiddio<s n="vblex"/></l><r>electrify<s n="vblex"/></r></p></e>
-    <e><p><l>gwefru<s n="vblex"/></l><r>charge (battery)<s n="vblex"/></r></p></e>
+    <e><p><l>gwefru<s n="vblex"/></l><r>charge<s n="vblex"/></r></p></e> <!-- to charge a battery -->
     <e><p><l>gwehyddu<s n="vblex"/></l><r>weave<s n="vblex"/></r></p></e>
     <e><p><l>gweiddi<s n="vblex"/></l><r>shout<s n="vblex"/></r></p></e>
     <e><p><l>gweinidogaethu<s n="vblex"/></l><r>minister<s n="vblex"/></r></p></e>
@@ -7132,12 +7138,16 @@
     <e><p><l>hidio<s n="vblex"/></l><r>heed<s n="vblex"/></r></p></e>
     <e><p><l>hidlo<s n="vblex"/></l><r>strain<s n="vblex"/></r></p></e>
     <e><p><l>hidroleiddio<s n="vblex"/></l><r>hydrolyse<s n="vblex"/></r></p></e>
-    <e><p><l>hiffio<s n="vblex"/></l><r>drift (snow)<s n="vblex"/></r></p></e>
+
+    <e><p><l>drifftio<s n="vblex"/></l><r>drift<s n="vblex"/></r></p></e>
+    <e><p><l>hiffio<s n="vblex"/></l><r>drift<s n="vblex"/></r></p></e> <!-- to snow drift -->
+    <e><p><l>lluwchio<s n="vblex"/></l><r>drift<s n="vblex"/></r></p></e> <!-- snow -->
+
     <e><p><l>hifflo<s n="vblex"/></l><r>gush<s n="vblex"/></r></p></e>
     <e><p><l>hifio<s n="vblex"/></l><r>heave<s n="vblex"/></r></p></e>
     <e><p><l>hindreulio<s n="vblex"/></l><r>weather<s n="vblex"/></r></p></e>
     <e><p><l>hindro<s n="vblex"/></l><r>hinder<s n="vblex"/></r></p></e>
-    <e><p><l>hinoni<s n="vblex"/></l><r>become fine (weather)<s n="vblex"/></r></p></e>
+    <e><p><l>hinoni<s n="vblex"/></l><r>become fine<s n="vblex"/></r></p></e> <!-- weather -->
     <e><p><l>hinsoddi<s n="vblex"/></l><r>acclimatise<s n="vblex"/></r></p></e>
     <e><p><l>hiraethu<s n="vblex"/></l><r>long for<s n="vblex"/></r></p></e>
     <e><p><l>hirbarhau<s n="vblex"/></l><r>endure<s n="vblex"/></r></p></e>
@@ -7163,7 +7173,6 @@
     <e><p><l>hudladrata<s n="vblex"/></l><r>swindle<s n="vblex"/></r></p></e>
     <e><p><l>hudo<s n="vblex"/></l><r>captivate<s n="vblex"/></r></p></e>
     <e><p><l>hufennu<s n="vblex"/></l><r>cream<s n="vblex"/></r></p></e>
-    <e><p><l>hulio<s n="vblex"/></l><r>lay (table)<s n="vblex"/></r></p></e>
     <e><p><l>hunanasesu<s n="vblex"/></l><r>self-assess<s n="vblex"/></r></p></e>
     <e><p><l>hunanddewis<s n="vblex"/></l><r>self-select<s n="vblex"/></r></p></e>
     <e><p><l>hunangyfeirio<s n="vblex"/></l><r>self-regard<s n="vblex"/></r></p></e>
@@ -7258,7 +7267,12 @@
     <e><p><l>llarpio<s n="vblex"/></l><r>devour<s n="vblex"/></r></p></e>
     <e><p><l>llathru<s n="vblex"/></l><r>gleam<s n="vblex"/></r></p></e>
     <e><p><l>llawcio<s n="vblex"/></l><r>gobble<s n="vblex"/></r></p></e>
-    <e><p><l>llawdio<s n="vblex"/></l><r>be in heat (sow)<s n="vblex"/></r></p></e>
+
+    <e><p><l>cynheica<s n="vblex"/></l><r>be in heat<s n="vblex"/></r></p></e>
+    <e><p><l>llawdio<s n="vblex"/></l><r>be in heat<s n="vblex"/></r></p></e> <!-- sow/animal -->
+    <e><p><l>marchio<s n="vblex"/></l><r>be in heat<s n="vblex"/></r></p></e> <!-- mare / horse -->
+    <e><p><l>llodi<s n="vblex"/></l><r>be in heat<s n="vblex"/></r></p></e> <!-- sow -->
+
     <e><p><l>llawenhau<s n="vblex"/></l><r>rejoice<s n="vblex"/></r></p></e>
     <e><p><l>llawenychu<s n="vblex"/></l><r>rejoice<s n="vblex"/></r></p></e>
     <e><p><l>llawnodi<s n="vblex"/></l><r>brand<s n="vblex"/></r></p></e>
@@ -7315,8 +7329,7 @@
     <e><p><l>lliwio<s n="vblex"/></l><r>colour<s n="vblex"/></r></p></e>
     <e><p><l>llochesu<s n="vblex"/></l><r>shelter<s n="vblex"/></r></p></e>
     <e><p><l>llochi<s n="vblex"/></l><r>caress<s n="vblex"/></r></p></e>
-    <e><p><l>llocio<s n="vblex"/></l><r>pen (sheep)<s n="vblex"/></r></p></e>
-    <e><p><l>llodi<s n="vblex"/></l><r>be in heat (sow)<s n="vblex"/></r></p></e>
+    <e><p><l>llocio<s n="vblex"/></l><r>pen<s n="vblex"/></r></p></e> <!-- to pen sheep -->
     <e><p><l>lloesi<s n="vblex"/></l><r>get rid of<s n="vblex"/></r></p></e>
     <e><p><l>llofelu<s n="vblex"/></l><r>stroke<s n="vblex"/></r></p></e>
     <e><p><l>lloffa<s n="vblex"/></l><r>collect<s n="vblex"/></r></p></e>
@@ -7345,7 +7358,6 @@
     <e><p><l>llusa<s n="vblex"/></l><r>gather bilberries<s n="vblex"/></r></p></e>
     <e><p><l>llusgo<s n="vblex"/></l><r>drag<s n="vblex"/></r></p></e>
     <e><p><l>llutrodi<s n="vblex"/></l><r>defile<s n="vblex"/></r></p></e>
-    <e><p><l>lluwchio<s n="vblex"/></l><r>drift (snow)<s n="vblex"/></r></p></e>
     <e><p><l>lluyddu<s n="vblex"/></l><r>mobilise<s n="vblex"/></r></p></e>
     <e><p><l>llwfrhau<s n="vblex"/></l><r>lose heart<s n="vblex"/></r></p></e>
     <e><p><l>llwgrwobrwyo<s n="vblex"/></l><r>bribe<s n="vblex"/></r></p></e>
@@ -7355,7 +7367,7 @@
     <e><p><l>llwybro<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
     <e><p><l>llwyddo<s n="vblex"/></l><r>succeed<s n="vblex"/></r></p></e>
     <e><p><l>llwydo<s n="vblex"/></l><r>become mouldy<s n="vblex"/></r></p></e>
-    <e><p><l>llwydrewi<s n="vblex"/></l><r>freeze (hoarfrost)<s n="vblex"/></r></p></e>
+    <e><p><l>llwydrewi<s n="vblex"/></l><r>freeze<s n="vblex"/></r></p></e> <!-- (hoarfrost) -->
     <e><p><l>llwyfannu<s n="vblex"/></l><r>stage<s n="vblex"/></r></p></e>
     <e><p><l>llwyrlanhau<s n="vblex"/></l><r>clean thoroughly<s n="vblex"/></r></p></e>
     <e><p><l>llwyrymatal<s n="vblex"/></l><r>abstain totally<s n="vblex"/></r></p></e>
@@ -7395,7 +7407,7 @@
     <e><p><l>loncian<s n="vblex"/></l><r>jog<s n="vblex"/></r></p></e>
     <e><p><l>lordio<s n="vblex"/></l><r>lord it<s n="vblex"/></r></p></e>
     <e><p><l>mabwysiadu<s n="vblex"/></l><r>adopt<s n="vblex"/></r></p></e>
-    <e><p><l>machlud<s n="vblex"/></l><r>set (sun)<s n="vblex"/></r></p></e>
+    <e><p><l>machlud<s n="vblex"/></l><r>set<s n="vblex"/></r></p></e> <!-- to set (sun) -->
     <e><p><l>macsu<s n="vblex"/></l><r>brew<s n="vblex"/></r></p></e>
     <e><p><l>maddau<s n="vblex"/></l><r>forgive<s n="vblex"/></r></p></e>
     <e><p><l>madru<s n="vblex"/></l><r>fester<s n="vblex"/></r></p></e>
@@ -7419,10 +7431,9 @@
     <e><p><l>mantoli<s n="vblex"/></l><r>balance<s n="vblex"/></r></p></e>
     <e><p><l>mân-werthu<s n="vblex"/></l><r>retail<s n="vblex"/></r></p></e>
     <e><p><l>manylu<s n="vblex"/></l><r>detail<s n="vblex"/></r></p></e>
-    <e><p><l>marchio<s n="vblex"/></l><r>be in heat (mare)<s n="vblex"/></r></p></e>
     <e><p><l>marchnata<s n="vblex"/></l><r>trade<s n="vblex"/></r></p></e>
     <e><p><l>marchocáu<s n="vblex"/></l><r>ride<s n="vblex"/></r></p></e>
-    <e><p><l>marchogaeth<s n="vblex"/></l><r>ride (horse)<s n="vblex"/></r></p></e>
+    <e><p><l>marchogaeth<s n="vblex"/></l><r>ride<s n="vblex"/></r></p></e> <!-- ride (horse) --> 
     <e><p><l>marcio<s n="vblex"/></l><r>mark<s n="vblex"/></r></p></e>
     <e><p><l>martsio<s n="vblex"/></l><r>march<s n="vblex"/></r></p></e>
     <e><p><l>marweiddio<s n="vblex"/></l><r>mortify<s n="vblex"/></r></p></e>
@@ -7649,8 +7660,8 @@
     <e><p><l>pastynu<s n="vblex"/></l><r>cudgel<s n="vblex"/></r></p></e>
     <e><p><l>pawennu<s n="vblex"/></l><r>paw<s n="vblex"/></r></p></e>
     <e><p><l>pechu<s n="vblex"/></l><r>sin<s n="vblex"/></r></p></e>
-    <e><p><l>pedlera<s n="vblex"/></l><r>peddle (goods)<s n="vblex"/></r></p></e>
-    <e><p><l>pedoli<s n="vblex"/></l><r>shoe (horse)<s n="vblex"/></r></p></e>
+    <e><p><l>pedlera<s n="vblex"/></l><r>peddle<s n="vblex"/></r></p></e> <!-- goods -->
+    <e><p><l>pedoli<s n="vblex"/></l><r>shoe<s n="vblex"/></r></p></e> <!-- to shoe a horse -->
     <e><p><l>pefrio<s n="vblex"/></l><r>twinkle<s n="vblex"/></r></p></e>
     <e><p><l>pegio<s n="vblex"/></l><r>peg<s n="vblex"/></r></p></e>
     <e><p><l>pegynu<s n="vblex"/></l><r>polarise<s n="vblex"/></r></p></e>
@@ -7667,7 +7678,7 @@
     <e><p><l>pendwmpio<s n="vblex"/></l><r>doze<s n="vblex"/></r></p></e>
     <e><p><l>penelinio<s n="vblex"/></l><r>nudge<s n="vblex"/></r></p></e>
     <e><p><l>penglinio<s n="vblex"/></l><r>kneel<s n="vblex"/></r></p></e>
-    <e><p><l>penio<s n="vblex"/></l><r>head (football)<s n="vblex"/></r></p></e>
+    <e><p><l>penio<s n="vblex"/></l><r>head<s n="vblex"/></r></p></e> <!-- to head a football -->
     <e><p><l>penlinio<s n="vblex"/></l><r>kneel<s n="vblex"/></r></p></e>
     <e><p><l>pennu<s n="vblex"/></l><r>determine<s n="vblex"/></r></p></e>
     <e><p><l>penodi<s n="vblex"/></l><r>appoint<s n="vblex"/></r></p></e>
@@ -7719,7 +7730,7 @@
     <e><p><l>plaenio<s n="vblex"/></l><r>plane<s n="vblex"/></r></p></e>
     <e><p><l>plagio<s n="vblex"/></l><r>plague<s n="vblex"/></r></p></e>
     <e><p><l>plannu<s n="vblex"/></l><r>plant<s n="vblex"/></r></p></e>
-    <e><p><l>planta<s n="vblex"/></l><r>beget (children)<s n="vblex"/></r></p></e>
+    <e><p><l>planta<s n="vblex"/></l><r>beget<s n="vblex"/></r></p></e> <!-- to beget children -->
     <e><p><l>plastro<s n="vblex"/></l><r>plaster<s n="vblex"/></r></p></e>
     <e><p><l>pledio<s n="vblex"/></l><r>plead<s n="vblex"/></r></p></e>
     <e><p><l>pleidio<s n="vblex"/></l><r>support<s n="vblex"/></r></p></e>
@@ -7769,7 +7780,7 @@
     <e><p><l>preblan<s n="vblex"/></l><r>babble<s n="vblex"/></r></p></e>
     <e><p><l>pregethu<s n="vblex"/></l><r>preach<s n="vblex"/></r></p></e>
     <e><p><l>preifateiddio<s n="vblex"/></l><r>privatise<s n="vblex"/></r></p></e>
-    <e><p><l>prenio<s n="vblex"/></l><r>bolt (door)<s n="vblex"/></r></p></e>
+    <e><p><l>prenio<s n="vblex"/></l><r>bolt<s n="vblex"/></r></p></e> <!-- to bolt a door -->
     <e><p><l>prentisio<s n="vblex"/></l><r>apprentice<s n="vblex"/></r></p></e>
     <e><p><l>prepian<s n="vblex"/></l><r>prattle<s n="vblex"/></r></p></e>
     <e><p><l>presenoli<s n="vblex"/></l><r>present<s n="vblex"/></r></p></e>
@@ -7828,7 +7839,7 @@
     <e><p><l>pynio<s n="vblex"/></l><r>truss<s n="vblex"/></r></p></e>
     <e><p><l>pysgota<s n="vblex"/></l><r>fish<s n="vblex"/></r></p></e>
     <e><p><l>pystylad<s n="vblex"/></l><r>stamp<s n="vblex"/></r></p></e>
-    <e><p><l>pystyladu<s n="vblex"/></l><r>stamp (hooves)<s n="vblex"/></r></p></e>
+    <e><p><l>pystyladu<s n="vblex"/></l><r>stamp<s n="vblex"/></r></p></e> <!-- to stamp (hooves) -->
     <e><p><l>rasio<s n="vblex"/></l><r>race<s n="vblex"/></r></p></e>
     <e><p><l>recordio<s n="vblex"/></l><r>record<s n="vblex"/></r></p></e>
     <e><p><l>reidio<s n="vblex"/></l><r>ride<s n="vblex"/></r></p></e>
@@ -7923,7 +7934,7 @@
     <e><p><l>rhwdu<s n="vblex"/></l><r>rust<s n="vblex"/></r></p></e>
     <e><p><l>rhwyddhau<s n="vblex"/></l><r>facilitate<s n="vblex"/></r></p></e>
     <e><p><l>rhwydo<s n="vblex"/></l><r>ensnare<s n="vblex"/></r></p></e>
-    <e><p><l>rhwyfo<s n="vblex"/></l><r>row (boat)<s n="vblex"/></r></p></e>
+    <e><p><l>rhwyfo<s n="vblex"/></l><r>row<s n="vblex"/></r></p></e> <!-- row (boat) -->
     <e><p><l>rhwygo<s n="vblex"/></l><r>tear<s n="vblex"/></r></p></e>
     <e><p><l>rhwymo<s n="vblex"/></l><r>bind<s n="vblex"/></r></p></e>
     <e><p><l>rhwymynnu<s n="vblex"/></l><r>swathe<s n="vblex"/></r></p></e>
@@ -8180,7 +8191,7 @@
     <e><p><l>talchu<s n="vblex"/></l><r>clot<s n="vblex"/></r></p></e>
     <e><p><l>talfyrru<s n="vblex"/></l><r>abbreviate<s n="vblex"/></r></p></e>
     <e><p><l>talgrychu<s n="vblex"/></l><r>scowl<s n="vblex"/></r></p></e>
-    <e><p><l>talgrynnu<s n="vblex"/></l><r>round up (maths)<s n="vblex"/></r></p></e>
+    <e><p><l>talgrynnu<s n="vblex"/></l><r>round up<s n="vblex"/></r></p></e> <!-- maths -->
     <e><p><l>talmu<s n="vblex"/></l><r>resolve<s n="vblex"/></r></p></e>
     <e><p><l>talu<s n="vblex"/></l><r>pay<s n="vblex"/></r></p></e>
     <e><p><l>tameidio<s n="vblex"/></l><r>cut into morsels<s n="vblex"/></r></p></e>
@@ -8200,7 +8211,7 @@
     <e><p><l>tansuddo<s n="vblex"/></l><r>submerge<s n="vblex"/></r></p></e>
     <e><p><l>tanysgrifio<s n="vblex"/></l><r>subscribe<s n="vblex"/></r></p></e>
     <e><p><l>tapio<s n="vblex"/></l><r>tape<s n="vblex"/></r></p></e>
-    <e><p><l>tapo<s n="vblex"/></l><r>sole (a boot)<s n="vblex"/></r></p></e>
+    <e><p><l>tapo<s n="vblex"/></l><r>sole<s n="vblex"/></r></p></e> <!-- a boot -->
     <e><p><l>taranu<s n="vblex"/></l><r>thunder<s n="vblex"/></r></p></e>
     <e><p><l>tarddellu<s n="vblex"/></l><r>emanate<s n="vblex"/></r></p></e>
     <e><p><l>tarddu<s n="vblex"/></l><r>originate<s n="vblex"/></r></p></e>
@@ -8280,8 +8291,8 @@
     <e><p><l>tra-awdurdodi<s n="vblex"/></l><r>dominate<s n="vblex"/></r></p></e>
     <e><p><l>trachwantu<s n="vblex"/></l><r>covet<s n="vblex"/></r></p></e>
     <e><p><l>tracio<s n="vblex"/></l><r>track<s n="vblex"/></r></p></e>
-    <e><p><l>traddodi<s n="vblex"/></l><r>deliver (lecture)<s n="vblex"/></r></p></e>
-    <e><p><l>traddodi<s n="vblex"/></l><r>commit (to trial)<s n="vblex"/></r></p></e>
+    <e><p><l>traddodi<s n="vblex"/></l><r>deliver<s n="vblex"/></r></p></e> <!-- (lecture) -->
+    <e><p><l>traddodi<s n="vblex"/></l><r>commit<s n="vblex"/></r></p></e> <!-- to trial -->
     <e><p><l>tradyrchafu<s n="vblex"/></l><r>exalt<s n="vblex"/></r></p></e>
     <e><p><l>traeanu<s n="vblex"/></l><r>divide into thirds<s n="vblex"/></r></p></e>
     <e><p><l>traenio<s n="vblex"/></l><r>drain<s n="vblex"/></r></p></e>
@@ -8308,7 +8319,7 @@
     <e><p><l>trawsfudo<s n="vblex"/></l><r>transmigrate<s n="vblex"/></r></p></e>
     <e><p><l>trawsgludo<s n="vblex"/></l><r>transport<s n="vblex"/></r></p></e>
     <e><p><l>trawsgyfeirio<s n="vblex"/></l><r>cross-refer<s n="vblex"/></r></p></e>
-    <e><p><l>trawsgyweirio<s n="vblex"/></l><r>transpose (music)<s n="vblex"/></r></p></e>
+    <e><p><l>trawsgyweirio<s n="vblex"/></l><r>transpose<s n="vblex"/></r></p></e> <!-- music -->
     <e><p><l>trawsleoli<s n="vblex"/></l><r>transpose<s n="vblex"/></r></p></e>
     <e><p><l>trawslifio<s n="vblex"/></l><r>cross-cut<s n="vblex"/></r></p></e>
     <e><p><l>trawslythrennu<s n="vblex"/></l><r>transliterate<s n="vblex"/></r></p></e>
@@ -8388,7 +8399,7 @@
     <e><p><l>tuchanu<s n="vblex"/></l><r>grumble<s n="vblex"/></r></p></e>
     <e><p><l>tueddu<s n="vblex"/></l><r>tend to<s n="vblex"/></r></p></e>
     <e><p><l>turio<s n="vblex"/></l><r>burrow<s n="vblex"/></r></p></e>
-    <e><p><l>turnio<s n="vblex"/></l><r>turn (on lathe)<s n="vblex"/></r></p></e>
+    <e><p><l>turnio<s n="vblex"/></l><r>turn<s n="vblex"/></r></p></e> <!-- on a lathe -->
     <e><p><l>tuthian<s n="vblex"/></l><r>trot<s n="vblex"/></r></p></e>
     <e><p><l>tuthio<s n="vblex"/></l><r>trot<s n="vblex"/></r></p></e>
     <e><p><l>twlcio<s n="vblex"/></l><r>gore<s n="vblex"/></r></p></e>
@@ -8435,7 +8446,7 @@
     <e><p><l>uno<s n="vblex"/></l><r>unite<s n="vblex"/></r></p></e>
     <e><p><l>unoli<s n="vblex"/></l><r>unite<s n="vblex"/></r></p></e>
     <e><p><l>urddo<s n="vblex"/></l><r>honour<s n="vblex"/></r></p></e>
-    <e><p><l>utganu<s n="vblex"/></l><r>blow (horn)<s n="vblex"/></r></p></e>
+    <e><p><l>utganu<s n="vblex"/></l><r>blow<s n="vblex"/></r></p></e> <!-- as in horn -->
     <e><p><l>uwchraddio<s n="vblex"/></l><r>upgrade<s n="vblex"/></r></p></e>
     <e><p><l>wado<s n="vblex"/></l><r>wallop<s n="vblex"/></r></p></e>
     <e><p><l>waldio<s n="vblex"/></l><r>thrash<s n="vblex"/></r></p></e>
