@@ -8,15 +8,6 @@
     <sdef n="a1" c="Aspirate"/>
   </sdefs>
   <pardefs>
-    <pardef n="alphabet">
-      <e>
-        <par n="consonants"/>
-      </e>
-      <e>
-        <par n="vowels"/>
-      </e>
-    </pardef>
-
     <pardef n="consonants">
       <e><p><l>B</l><r>B</r></p></e>
       <e><p><l>C</l><r>C</r></p></e>
@@ -124,7 +115,15 @@
       <e><p><l>ò</l><r>ò</r></p></e>
       <e><p><l>ù</l><r>ù</r></p></e>
       <e><p><l>ẁ</l><r>ẁ</r></p></e>
+    </pardef>
 
+    <pardef n="alphabet">
+      <e>
+        <par n="consonants"/>
+      </e>
+      <e>
+        <par n="vowels"/>
+      </e>
     </pardef>
 
   </pardefs>
