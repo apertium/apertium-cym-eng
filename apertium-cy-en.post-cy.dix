@@ -188,7 +188,7 @@
     <e>
       <p>
         <l><a/><s n="s1"/>g</l>
-	<r/>
+	<r><b/></r>
       </p>
       <par n="alphabet"/> 
     </e>
@@ -239,7 +239,7 @@
     <e>
       <p>
         <l><a/><s n="s2"/>g</l>
-	<r/>
+	<r><b/></r>
       </p>
       <par n="alphabet"/> 
     </e>
