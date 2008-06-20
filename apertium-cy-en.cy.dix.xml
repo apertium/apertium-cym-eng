@@ -54804,6 +54804,8 @@
     <e lm="Blaenafon"><par n="initial-B"/><i>laenafon</i><par n="Blaenafon__np"/></e>
     <e lm="Caerdydd"><par n="initial-C"/><i>aerdydd</i><par n="Blaenafon__np"/></e>
     <e lm="Cymru"><par n="initial-C"/><i>ymru</i><par n="Blaenafon__np"/></e>
+    <e lm="Dolgellau"><par n="initial-D"/><i>olgellau</i><par n="Blaenafon__np"/></e>
+    <e lm="Merthyr Tudful"><par n="initial-M"/><i>erthyr<b/>Tudful</i><par n="Blaenafon__np"/></e>
 
   </section>
   <section id="final" type="inconditional">

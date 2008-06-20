@@ -167,6 +167,31 @@
             </out>
           </when>
 
+	  <!-- Soft mutation, e.g. "o Merthyr Tudful" ~~> "o Ferthyr Tudful" --> 
+          <when>
+	    <!-- The lemma of the preposition is "o" -->
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="lem"/>
+                <lit v="o"/>
+              </equal>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <lit-tag v="s1"/>
+                <!-- Soft mutation -->
+              </lu>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </when>
+
+
 	  <!-- Do nothing. -->
           <otherwise>
             <out>
