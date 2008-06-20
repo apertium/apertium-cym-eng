@@ -4961,6 +4961,13 @@
 
     <!-- Verbs -->
 
+    <e><p><l>plygu<s n="vblex"/></l><r>bend<s n="vblex"/></r></p></e>
+    <e><p><l>eangu<s n="vblex"/></l><r>broaden<s n="vblex"/></r></p></e>
+    <e><p><l>caboli<s n="vblex"/></l><r>burnish<s n="vblex"/></r></p></e>
+    <e><p><l>galluogi<s n="vblex"/></l><r>empower<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>gorfodi<s n="vblex"/></l><r>force<s n="vblex"/></r></p></e>
+
+
     <e><p><l>aberthu<s n="vblex"/></l><r>sacrifice<s n="vblex"/></r></p></e>
     <e><p><l>absennu<s n="vblex"/></l><r>backbite<s n="vblex"/></r></p></e>
     <e><p><l>acennu<s n="vblex"/></l><r>accentuate<s n="vblex"/></r></p></e>

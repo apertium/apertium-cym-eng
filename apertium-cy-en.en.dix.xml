@@ -10896,7 +10896,7 @@
     <e lm="seminal"><i>seminal</i><par n="expensive__adj"/></e>
     <e lm="interactive"><i>interactive</i><par n="expensive__adj"/></e>
     <e lm="Chinese"><i>Chinese</i><par n="expensive__adj"/></e>
-    <e lm="civilizing"><i>civilizing</i><par n="expensive__adj"/></e>
+    <e lm="civilising"><i>civilizing</i><par n="expensive__adj"/></e>
     <e lm="terric"><i>terric</i><par n="expensive__adj"/></e>
     <e lm="scalar"><i>scalar</i><par n="expensive__adj"/></e>
     <e lm="tsarist"><i>tsarist</i><par n="expensive__adj"/></e>
@@ -11654,7 +11654,7 @@
     <e lm="organic"><i>organic</i><par n="expensive__adj"/></e>
     <e lm="disciplinary"><i>disciplinary</i><par n="expensive__adj"/></e>
     <e lm="carboxylic"><i>carboxylic</i><par n="expensive__adj"/></e>
-    <e lm="colonizing"><i>colonizing</i><par n="expensive__adj"/></e>
+    <e lm="colonising"><i>colonizing</i><par n="expensive__adj"/></e>
     <e lm="sculptural"><i>sculptural</i><par n="expensive__adj"/></e>
     <e lm="rare"><i>rare</i><par n="nice/__adj"/></e>
     <e lm="palliative"><i>palliative</i><par n="expensive__adj"/></e>
@@ -19937,7 +19937,7 @@
     <e lm="mussel"><i>mussel</i><par n="house__n"/></e>
     <e lm="muffle"><i>muffle</i><par n="house__n"/></e>
     <e lm="linesman"><i>linesm</i><par n="m/an__n"/></e>
-    <e lm="galvanizing"><i>galvanizing</i><par n="house__n"/></e>
+    <e lm="galvanising"><i>galvanising</i><par n="house__n"/></e>
     <e lm="frigate"><i>frigate</i><par n="house__n"/></e>
     <e lm="footprint"><i>footprint</i><par n="house__n"/></e>
     <e lm="foal"><i>foal</i><par n="house__n"/></e>
@@ -25641,7 +25641,7 @@
     <e lm="conicoid"><i>conicoid</i><par n="house__n"/></e>
     <e lm="orchiectomy"><i>orchiectom</i><par n="bab/y__n"/></e>
     <e lm="limnology"><i>limnolog</i><par n="bab/y__n"/></e>
-    <e lm="decatizing"><i>decatizing</i><par n="house__n"/></e>
+    <e lm="decatising"><i>decatizing</i><par n="house__n"/></e>
     <e lm="de-rating"><i>de-rating</i><par n="house__n"/></e>
     <e lm="cummin"><i>cummin</i><par n="house__n"/></e>
     <e lm="carburation"><i>carburation</i><par n="house__n"/></e>
@@ -29365,7 +29365,6 @@
     <e lm="overheat"><i>overheat</i><par n="accept__vblex"/></e>
     <e lm="stew"><i>stew</i><par n="accept__vblex"/></e>
     <e lm="purse"><i>purs</i><par n="liv/e__vblex"/></e>
-    <e lm="declutch"><i>declutch</i><par n="approach__vblex"/></e>
     <e lm="dredge"><i>dredg</i><par n="liv/e__vblex"/></e>
     <e lm="appease"><i>appeas</i><par n="liv/e__vblex"/></e>
     <e lm="blind"><i>blind</i><par n="accept__vblex"/></e>
@@ -29413,7 +29412,6 @@
     <e lm="exhale"><i>exhal</i><par n="liv/e__vblex"/></e>
     <e lm="distill"><i>distill</i><par n="accept__vblex"/></e>
     <e lm="prop"><i>prop</i><par n="step__vblex"/></e>
-    <e lm="decouple"><i>decoupl</i><par n="liv/e__vblex"/></e>
     <e lm="harrow"><i>harrow</i><par n="accept__vblex"/></e>
     <e lm="blur"><i>blur</i><par n="occur__vblex"/></e>
     <e lm="depilate"><i>depilat</i><par n="liv/e__vblex"/></e>
@@ -29510,7 +29508,6 @@
     <e lm="debunch"><i>debunch</i><par n="approach__vblex"/></e>
     <e lm="collate"><i>collat</i><par n="liv/e__vblex"/></e>
     <e lm="manoeuvre"><i>manoeuvr</i><par n="liv/e__vblex"/></e>
-    <e lm="calender"><i>calender</i><par n="accept__vblex"/></e>
     <e lm="steel"><i>steel</i><par n="accept__vblex"/></e>
     <e lm="reconsider"><i>reconsider</i><par n="accept__vblex"/></e>
     <e lm="decelerate"><i>decelerat</i><par n="liv/e__vblex"/></e>
@@ -29537,7 +29534,6 @@
     <e lm="cure"><i>cur</i><par n="liv/e__vblex"/></e>
     <e lm="configure"><i>configur</i><par n="liv/e__vblex"/></e>
     <e lm="dechlorinate"><i>dechlorinat</i><par n="liv/e__vblex"/></e>
-    <e lm="nitride"><i>nitrid</i><par n="liv/e__vblex"/></e>
     <e lm="caricature"><i>caricatur</i><par n="liv/e__vblex"/></e>
     <e lm="supersaturate"><i>supersaturat</i><par n="liv/e__vblex"/></e>
     <e lm="choke"><i>chok</i><par n="liv/e__vblex"/></e>
@@ -29632,7 +29628,6 @@
     <e lm="lower"><i>lower</i><par n="accept__vblex"/></e>
     <e lm="skew"><i>skew</i><par n="accept__vblex"/></e>
     <e lm="grease"><i>greas</i><par n="liv/e__vblex"/></e>
-    <e lm="degrease"><i>degreas</i><par n="liv/e__vblex"/></e>
     <e lm="affix"><i>affix</i><par n="approach__vblex"/></e>
     <e lm="plaster"><i>plaster</i><par n="accept__vblex"/></e>
     <e lm="bewitch"><i>bewitch</i><par n="approach__vblex"/></e>
