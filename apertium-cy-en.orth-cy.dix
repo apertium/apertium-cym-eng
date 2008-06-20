@@ -164,6 +164,16 @@
       </p>
       <par n="alphabet"/>
     </e>
+ 
+
+    <!-- a (a, ac) -->
+    <e>
+      <p>
+        <l><a/>a<b/></l>
+        <r>ac<b/></r>
+      </p>
+      <par n="vowels"/>
+    </e>
 
   </section>
 

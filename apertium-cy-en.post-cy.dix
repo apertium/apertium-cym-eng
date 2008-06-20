@@ -133,6 +133,7 @@
   </pardefs>
 
   <section id="main" type="standard">
+    <!-- We let these cases pass through until the next stage of post-processing -->
     <e>
       <p>
         <l><a/>yr<b/></l>
@@ -147,14 +148,6 @@
         <r><a/>yn<b/></r>
       </p>
       <par n="alphabet"/>
-    </e>
-
-    <e>
-      <p>
-        <l><a/>a<b/></l>
-        <r>ac<b/></r>
-      </p>
-      <par n="vowels"/>
     </e>
 
   </section>
