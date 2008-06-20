@@ -124,28 +124,17 @@
     <!-- yr (yr, y) -->
 
     <e>
-      <par n="consonants"/>
       <p>
-        <l><b/><a/>yr<b/></l>
-        <r><b/>yr<b/></r>
+        <l><a/>yr<b/></l>
+        <r>yr<b/></r>
       </p>
       <par n="vowels"/>
     </e>
 
     <e>
-      <par n="vowels"/>
       <p>
-        <l><b/><a/>yr<b/></l>
-        <r>'r<b/></r>
-      </p>
-      <par n="alphabet"/>
-    </e>
-
-    <e>
-      <par n="consonants"/>
-      <p>
-        <l><b/><a/>yr<b/></l>
-        <r><b/>y<b/></r>
+        <l><a/>yr<b/></l>
+        <r>y<b/></r>
       </p>
       <par n="consonants"/>
     </e>
