@@ -1641,7 +1641,7 @@
       </e>
     </pardef>
     <pardef n="/yn__pr">
-      <e>
+      <e r="LR">
         <p>
           <l>yn</l>
           <r>yn<s n="pr"/></r>
@@ -1659,6 +1659,14 @@
           <r>yn<s n="pr"/></r>
         </p>
       </e>
+
+      <e r="RL">
+        <p>
+          <l><a/>yn</l>
+          <r>yn<s n="pr"/></r>
+        </p>
+      </e>
+
       <e>
         <p>
           <l>ynof</l>
@@ -2866,6 +2874,7 @@
           <r><s n="n"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
+    </pardef>
     <pardef n="actores__n">
       <e>
         <p>

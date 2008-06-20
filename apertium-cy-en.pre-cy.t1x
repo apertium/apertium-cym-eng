@@ -9,6 +9,9 @@
     <def-cat n="det">
       <cat-item tags="det.*"/>
     </def-cat>
+    <def-cat n="prep">
+      <cat-item tags="pr"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -129,6 +132,56 @@
         </choose>
       </action>
     </rule>
+
+    <rule comment="REGLA: PR NOM">
+      <pattern>
+        <pattern-item n="prep"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <choose>
+	  <!-- Nasal mutation, e.g. "yn Cymru" ~~> "yn Nghymru" --> 
+          <when>
+	    <!-- The lemma of the preposition is "yn" -->
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="lem"/>
+                <lit v="yn"/>
+              </equal>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <lit-tag v="n1"/>
+                <!-- Nasal mutation -->
+              </lu>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </when>
+
+	  <!-- Do nothing. -->
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </otherwise>
+
+        </choose>
+      </action>
+    </rule>
+
+
 
   </section-rules>
 </transfer>
