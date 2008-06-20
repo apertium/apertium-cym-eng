@@ -54,7 +54,7 @@
       <action>
         <choose>
 
-	  <!-- Soft mutation, e.g. "yr carreg" --> "yr garreg" --> 
+	  <!-- Soft mutation, e.g. "yr carreg" ~~> "yr garreg" --> 
           <when>
             <test>
               <and>
@@ -87,7 +87,7 @@
             </out>
           </when>
 
-	  <!-- Nasal mutation, e.g. "fy carreg" --> "fy ngharreg" --> 
+	  <!-- Nasal mutation, e.g. "fy carreg" ~~> "fy ngharreg" --> 
           <when>
             <test>
               <equal>

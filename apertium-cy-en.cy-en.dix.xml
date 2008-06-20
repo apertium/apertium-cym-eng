@@ -4372,8 +4372,11 @@
     <e><p><l>Iddewig<s n="adj"/></l><r>Jewish<s n="adj"/></r></p></e>
     <e><p><l>ideolegol<s n="adj"/></l><r>ideological<s n="adj"/></r></p></e>
     <e><p><l>ieithyddol<s n="adj"/></l><r>linguistic<s n="adj"/></r></p></e>
-    <e><p><l>ieuainc<s n="adj"/></l><r>young<s n="adj"/></r></p></e>
-    <e><p><l>ieuanc<s n="adj"/></l><r>young<s n="adj"/></r></p></e>
+
+    <e><p><l>ifanc<s n="adj"/></l><r>young<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>ieuainc<s n="adj"/></l><r>young<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>ieuanc<s n="adj"/></l><r>young<s n="adj"/></r></p></e>
+
     <e><p><l>imperial<s n="adj"/></l><r>imperial<s n="adj"/></r></p></e>
     <e><p><l>integredig<s n="adj"/></l><r>integrated<s n="adj"/></r></p></e>
     <e><p><l>integrol<s n="adj"/></l><r>integral<s n="adj"/></r></p></e>
@@ -4920,7 +4923,6 @@
     <e><p><l>hir<s n="adj"/></l><r>long<s n="adj"/></r></p></e>
     <e><p><l>hwyr<s n="adj"/></l><r>late<s n="adj"/></r></p></e>
     <e><p><l>iach<s n="adj"/></l><r>healthy<s n="adj"/></r></p></e>
-    <e><p><l>ifanc<s n="adj"/></l><r>young<s n="adj"/></r></p></e>
     <e><p><l>isel<s n="adj"/></l><r>low<s n="adj"/></r></p></e>
     <e><p><l>llawn<s n="adj"/></l><r>full<s n="adj"/></r></p></e>
     <e><p><l>llydan<s n="adj"/></l><r>wide<s n="adj"/></r></p></e>
