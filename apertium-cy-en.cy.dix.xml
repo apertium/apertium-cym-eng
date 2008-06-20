@@ -54799,8 +54799,10 @@
 
     <e lm="e.e."><i>e.e.</i><par n="e.e.__abbr"/></e>
 
-    <e lm="Blaenafon"><par n="initial-B"/><i>laenafon</i><par n="Blaenafon__np"/></e>
+    <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Blaenafon__np"/></e>
     <e lm="Bangor"><par n="initial-B"/><i>angor</i><par n="Blaenafon__np"/></e>
+    <e lm="Blaenafon"><par n="initial-B"/><i>laenafon</i><par n="Blaenafon__np"/></e>
+    <e lm="Caerdydd"><par n="initial-C"/><i>aerdydd</i><par n="Blaenafon__np"/></e>
     <e lm="Cymru"><par n="initial-C"/><i>ymru</i><par n="Blaenafon__np"/></e>
 
   </section>

@@ -11341,9 +11341,9 @@
 
                         <e lm="national"><i>national</i><par n="expensive__adj"/></e>
 
-
+<!--
                         <e lm="near"><i>near</i><par n="long/__adj"/></e>
-
+-->
 
                         <e lm="nearby"><i>nearby</i><par n="expensive__adj"/></e>
 
@@ -58152,6 +58152,9 @@
 
                         <e lm="London"><i>London</i><par n="Barcelona__np"/></e>
                         <e lm="Blaenafon"><i>Blaenafon</i><par n="Barcelona__np"/></e>
+                        <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Barcelona__np"/></e>
+                        <e lm="Bangor"><i>Bangor</i><par n="Barcelona__np"/></e>
+                        <e lm="Cardiff"><i>Cardiff</i><par n="Barcelona__np"/></e>
                         <e lm="Bloemfontein"><i>Bloemfontein</i><par n="Barcelona__np"/></e>
 
                         <e lm="Lorraine"><i>Lorraine</i><par n="Barcelona__np"/></e>
