@@ -197,6 +197,7 @@
       </p>
       <par n="alphabet"/> 
     </e>
+
     <e>
       <p>
         <l><a/><s n="s1"/>m</l>
@@ -204,6 +205,16 @@
       </p>
       <par n="alphabet"/> 
     </e>
+
+    <e>
+      <p>
+        <l><a/><s n="s1"/></l>
+	<r></r>
+      </p>
+      <par n="alphabet"/>
+    </e>
+
+
 
     <!-- Soft mutation (full) -->
     <e>
