@@ -18,6 +18,7 @@
 /apertium-cy-en.en.tsx -text
 /apertium-cy-en.post-cy.dix -text
 /apertium-cy-en.post-en.dix -text
+/apertium-cy-en.pre-cy.t1x -text
 /apertium-cy-en.symbols.xml -text
 /autogen.sh -text
 /configure.ac -text

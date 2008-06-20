@@ -53,6 +53,10 @@
         <file name="apertium-cy-en.en-cy.t3x"/>
         <file name="en-cy.t3x.bin"/>
       </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-cy-en.pre-cy.t1x"/>
+        <file name="pre-cy.t1x.bin"/>
+      </program>
       <program name="lt-proc $1">
         <file name="en-cy.autogen.bin"/>
       </program>
