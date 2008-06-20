@@ -63,6 +63,9 @@
       <program name="lt-proc -p">
         <file name="en-cy.autopgen.bin"/>
       </program> 
+      <program name="lt-proc -p">
+        <file name="en-cy.autoorth.bin"/>
+      </program> 
     </pipeline>
   </mode>
 

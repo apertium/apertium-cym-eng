@@ -11,6 +11,7 @@ TARGETS_COMMON = $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG2).dix $(BASENAME).$
      $(PREFIX1).autopgen.bin $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
      $(PREFIX2).autogen.bin \
      $(PREFIX2).autopgen.bin \
+     $(PREFIX2).autoorth.bin \
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin pre-$(LANG1).t1x.bin \
      $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes
 
@@ -52,6 +53,10 @@ $(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).dix
 $(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).post-$(LANG1).dix
 	lt-comp lr $(BASENAME).post-$(LANG1).dix $@
+
+$(PREFIX2).autoorth.bin: $(BASENAME).orth-$(LANG1).dix
+	apertium-validate-dictionary $(BASENAME).orth-$(LANG1).dix
+	lt-comp lr $(BASENAME).orth-$(LANG1).dix $@
 
 pre-$(LANG1).t1x.bin: $(BASENAME).pre-$(LANG1).t1x
 	apertium-validate-transfer $(BASENAME).pre-$(LANG1).t1x
@@ -119,6 +124,7 @@ apertium_cy_en_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
                     $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
                     $(PREFIX1).autopgen.bin \
                     $(PREFIX2).autopgen.bin \
+     		    $(PREFIX2).autoorth.bin \
                     $(PREFIX1).prob $(PREFIX2).prob \
 		    $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
 		    $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin pre-$(LANG1).t1x.bin \
