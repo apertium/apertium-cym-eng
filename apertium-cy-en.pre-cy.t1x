@@ -57,6 +57,8 @@
 	  <!-- Soft mutation, e.g. "yr carreg" ~~> "yr garreg" --> 
           <when>
             <test>
+	      <!-- The lemma of the determiner is "yr" and 
+	           the noun is feminine and singular -->
               <and>
                 <equal>
                   <clip pos="1" side="tl" part="lem"/>
@@ -89,6 +91,7 @@
 
 	  <!-- Nasal mutation, e.g. "fy carreg" ~~> "fy ngharreg" --> 
           <when>
+	    <!-- The lemma of the determiner is "fy" -->
             <test>
               <equal>
                 <clip pos="1" side="tl" part="lem"/>
