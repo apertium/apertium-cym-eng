@@ -1,13 +1,5 @@
 <dictionary>
   <alphabet/>
-  <sdefs>
-    <sdef n="r1" c="Radical"/>
-    <sdef n="s1" c="Soft mutation (limited)"/>
-    <sdef n="s2" c="Soft mutation (full)"/>
-    <sdef n="n1" c="Nasal"/>
-    <sdef n="a1" c="Aspirate"/>
-    <sdef n="m1" c="Mixed"/>
-  </sdefs>
   <pardefs>
     <pardef n="consonants">
       <e><p><l>B</l><r>B</r></p></e>
@@ -125,223 +117,52 @@
       <e>
         <par n="vowels"/>
       </e>
-      <e>
-        <i><a/></i>
-      </e>
     </pardef>
-
   </pardefs>
 
   <section id="main" type="standard">
+    <!-- yr (yr, y) -->
+
     <e>
       <p>
         <l><a/>yr<b/></l>
-        <r><a/>yr<b/></r>
-      </p>
-      <par n="alphabet"/>
-    </e>
-
-    <e>
-      <p>
-        <l><a/>yn<b/></l>
-        <r><a/>yn<b/></r>
-      </p>
-      <par n="alphabet"/>
-    </e>
-
-    <e>
-      <p>
-        <l><a/>a<b/></l>
-        <r>ac<b/></r>
+        <r>yr<b/></r>
       </p>
       <par n="vowels"/>
     </e>
 
-  </section>
-
-  <section id="mutations" type="standard">
-
-    <!-- Soft mutation (limited) -->
     <e>
       <p>
-        <l><a/><s n="s1"/>p</l>
-	<r>b</r>
+        <l><a/>yr<b/></l>
+        <r>y<b/></r>
       </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="s1"/>b</l>
-	<r>f</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="s1"/>t</l>
-	<r>d</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="s1"/>d</l>
-	<r>dd</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="s1"/>c</l>
-	<r>g</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="s1"/>g</l>
-	<r><b/></r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="s1"/>m</l>
-	<r>f</r>
-      </p>
-      <par n="alphabet"/> 
+      <par n="consonants"/>
     </e>
 
-    <!-- Soft mutation (full) -->
+    <!-- yn (yn, ym, yng) -->
+
     <e>
       <p>
-        <l><a/><s n="s2"/>p</l>
-	<r>b</r>
+        <l><a/>yn<b/></l>
+        <r>yn<b/></r>
       </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="s2"/>b</l>
-	<r>f</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="s2"/>t</l>
-	<r>d</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="s2"/>d</l>
-	<r>dd</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="s2"/>c</l>
-	<r>g</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="s2"/>g</l>
-	<r><b/></r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="s2"/>m</l>
-	<r>f</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="s2"/>ll</l>
-	<r>l</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="s2"/>rh</l>
-	<r>r</r>
-      </p>
-      <par n="alphabet"/> 
+      <par n="alphabet"/>
     </e>
 
-    <!-- Nasal mutation -->
     <e>
       <p>
-        <l><a/><s n="n1"/>p</l>
-	<r>mh</r>
+        <l><a/>yn<b/>ngh</l>
+        <r>yng<b/>ngh</r>
       </p>
-      <par n="alphabet"/> 
+      <par n="alphabet"/>
     </e>
+
     <e>
       <p>
-        <l><a/><s n="n1"/>b</l>
-	<r>m</r>
+        <l><a/>yn<b/>mh</l>
+        <r>ym<b/>mh</r>
       </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="n1"/>t</l>
-	<r>nh</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="n1"/>d</l>
-	<r>n</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="n1"/>c</l>
-	<r>ngh</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="n1"/>g</l>
-	<r>ng</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
- 
-    <!-- Aspirate mutation -->
-    <e>
-      <p>
-        <l><a/><s n="a1"/>p</l>
-	<r>th</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="a1"/>t</l>
-	<r>ph</r>
-      </p>
-      <par n="alphabet"/> 
-    </e>
-    <e>
-      <p>
-        <l><a/><s n="a1"/>c</l>
-	<r>ch</r>
-      </p>
-      <par n="alphabet"/> 
+      <par n="alphabet"/>
     </e>
 
   </section>
