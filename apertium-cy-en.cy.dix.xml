@@ -1640,6 +1640,23 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="/â__pr">
+      <e r="LR">
+        <p>
+          <l>â</l>
+          <r>â<s n="pr"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>â</l>
+          <r>â<s n="pr"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
     <pardef n="/yn__pr">
       <e r="LR">
         <p>
@@ -2804,6 +2821,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="gyda__pr">
       <e>
         <p>
@@ -2815,17 +2833,23 @@
 
     <!-- Conjunctions -->
 
-    <pardef n="a__cnjcoo">
-      <e>
+    <pardef n="/a__cnjcoo">
+      <e r="LR">
         <p>
-          <l/>
-          <r><s n="cnjcoo"/></r>
+          <l>a</l>
+          <r>a<s n="cnjcoo"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
-          <l>c</l>
-          <r><s n="cnjcoo"/></r>
+          <l>ac</l>
+          <r>a<s n="cnjcoo"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>a</l>
+          <r>a<s n="cnjcoo"/></r>
         </p>
       </e>
     </pardef>
@@ -46201,7 +46225,9 @@
     <e lm="nesaf at"><i>nesaf<b/></i><par n="/at__pr"/></e>
     <e lm="oddi wrth"><i>oddi<b/></i><par n="/wrth__pr"/></e>
     <e lm="gyda"><i>gyda</i><par n="gyda__pr"/></e>
-    <e lm="â"><i>â</i><par n="gyda__pr"/></e>
+
+    <e lm="â"><i/><par n="/â__pr"/></e>
+
     <e lm="efo"><i>efo</i><par n="gyda__pr"/></e>
     <e lm="tua"><i>tua</i><par n="gyda__pr"/></e>
     <e lm="hyd"><i>hyd</i><par n="gyda__pr"/></e>
@@ -46264,7 +46290,7 @@
     <e lm="ymhen"><i>ymhen</i><par n="gyda__pr"/></e>
 
 
-    <e lm="a"><i>a</i><par n="a__cnjcoo"/></e>
+    <e lm="a"><i/><par n="/a__cnjcoo"/></e>
 
     <e lm="yr"><i/><par n="/yr__det"/></e>
 

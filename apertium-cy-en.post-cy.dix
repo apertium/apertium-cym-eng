@@ -150,6 +150,22 @@
       <par n="alphabet"/>
     </e>
 
+    <e>
+      <p>
+        <l><a/>â<b/></l>
+        <r><a/>â<b/></r>
+      </p>
+      <par n="alphabet"/>
+    </e>
+
+    <e>
+      <p>
+        <l><a/>a<b/></l>
+        <r><a/>a<b/></r>
+      </p>
+      <par n="alphabet"/>
+    </e>
+
   </section>
 
   <section id="mutations" type="standard">
