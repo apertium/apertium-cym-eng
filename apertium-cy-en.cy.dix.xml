@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
 <!-- The lowercase letters of the Welsh alphabet followed by letters with accents, followed by letters found in loan words -->
-  <alphabet>ABCDEFGHILMNOPRSTUWYÂÊÎÔŴŶKVXZabcdefghilmnoprstuwyâêîôŵŷáïjkvxzáéíóú</alphabet>
+  <alphabet>ABCDEFGHILMNOPRSTUWYÂÊÎÔŴŶJKVXZabcdefghilmnoprstuwyâêîôŵŷáïjkvxzáéíóú</alphabet>
   <!-- Symbol definitions -->
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-cy-en.symbols.xml"/>
   <!-- Paradigm definitions -->
@@ -620,7 +620,7 @@
       </e>
     </pardef>
 
-    <pardef n="ma__det">
+    <pardef n="yna__det">
       <e>
         <p>
           <l/>
@@ -640,12 +640,6 @@
       <e r="LR">
         <p>
           <l>y</l>
-          <r>yr<s n="det"/><s n="def"/><s n="sp"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>'r</l>
           <r>yr<s n="det"/><s n="def"/><s n="sp"/></r>
         </p>
       </e>
@@ -2888,6 +2882,25 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="Cymdeithas_yr_Iaith__np">
+      <e>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="Aled__np">
+      <e>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
 
     <!-- Nouns -->
     <pardef n="aberth__n">
@@ -46322,17 +46335,17 @@
     <!-- Determiners -->
     <e lm="yr"><i/><par n="/yr__det"/></e>
 
-    <e lm="ma"><i>ma</i><par n="ma__det"/></e>
-    <e lm="na"><i>na</i><par n="ma__det"/></e>
+    <e lm="yma"><i>yma</i><par n="yna__det"/></e>
+    <e lm="yna"><i>yna</i><par n="yna__det"/></e>
 
     <e lm="fy"><i>fy</i><par n="fy__det"/></e>
     <e lm="dy"><par n="initial-d"/><i>y</i><par n="fy__det"/></e>
 
-    <e lm="ei"><par n="initial-d"/><i>y</i><par n="fy__det"/></e>
+    <e lm="ei"><i>ei</i><par n="fy__det"/></e>
 
-    <e lm="ein"><par n="initial-d"/><i>y</i><par n="fy__det"/></e>
-    <e lm="eich"><par n="initial-d"/><i>y</i><par n="fy__det"/></e>
-    <e lm="eu"><par n="initial-d"/><i>y</i><par n="fy__det"/></e>
+    <e lm="ein"><i>ein</i><par n="fy__det"/></e>
+    <e lm="eich"><i>eich</i><par n="fy__det"/></e>
+    <e lm="eu"><i>eu</i><par n="fy__det"/></e>
 
 
     <!-- Adverbs -->
@@ -54867,6 +54880,11 @@
 
     <e lm="e.e."><i>e.e.</i><par n="e.e.__abbr"/></e>
 
+    <e lm="Cymdeithas"><par n="initial-C"/><i>ymdeithas</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Cymdeithas yr Iaith"><par n="initial-C"/><i>ymdeithas<b/>yr<b/>Iaith</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Cymdeithas yr Iaith Gymraeg"><par n="initial-C"/><i>ymdeithas<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+
+
     <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Blaenafon__np"/></e>
     <e lm="Bangor"><par n="initial-B"/><i>angor</i><par n="Blaenafon__np"/></e>
     <e lm="Blaenafon"><par n="initial-B"/><i>laenafon</i><par n="Blaenafon__np"/></e>
@@ -54875,7 +54893,44 @@
     <e lm="Dolgellau"><par n="initial-D"/><i>olgellau</i><par n="Blaenafon__np"/></e>
     <e lm="Merthyr Tudful"><par n="initial-M"/><i>erthyr<b/>Tudful</i><par n="Blaenafon__np"/></e>
 
+
+    <e lm="Aled"><i>Aled</i><par n="Aled__np"/></e>
   </section>
+
+  <section id="apostrophes" type="postblank">
+    <e lm="'n" r="LR">
+      <p>
+        <l>'n</l>
+        <r>yn</r>
+      </p>
+      <par n="gyda__pr"/>
+    </e>
+
+    <e lm="'r" r="LR">
+      <p>
+        <l>'r</l>
+        <r>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="'na" r="LR">
+      <p>
+        <l>'na</l>
+        <r>yna</r>
+      </p>
+      <par n="yna__det"/>
+    </e>
+
+    <e lm="'ma" r="LR">
+      <p>
+        <l>'ma</l>
+        <r>yma</r>
+      </p>
+      <par n="yna__det"/>
+    </e>
+
+  </section>
+
   <section id="final" type="inconditional">
     <e>
       <par n="separa"/>
@@ -54886,9 +54941,11 @@
     <e>
       <par n="coma"/>
     </e>
+<!--
     <e>
       <par n="cometa"/>
     </e>
+-->
     <e>
       <par n="paresq"/>
     </e>
