@@ -620,6 +620,15 @@
       </e>
     </pardef>
 
+    <pardef n="ma__det">
+      <e>
+        <p>
+          <l/>
+          <r><s n="det"/><s n="dem"/><s n="sp"/></r>
+        </p>
+      </e>
+    </pardef>
+
 
     <pardef n="/yr__det">
       <e r="LR">
@@ -46308,8 +46317,25 @@
 
     <e lm="a"><i/><par n="/a__cnjcoo"/></e>
 
+
+
+    <!-- Determiners -->
     <e lm="yr"><i/><par n="/yr__det"/></e>
 
+    <e lm="ma"><i>ma</i><par n="ma__det"/></e>
+    <e lm="na"><i>na</i><par n="ma__det"/></e>
+
+    <e lm="fy"><i>fy</i><par n="fy__det"/></e>
+    <e lm="dy"><par n="initial-d"/><i>y</i><par n="fy__det"/></e>
+
+    <e lm="ei"><par n="initial-d"/><i>y</i><par n="fy__det"/></e>
+
+    <e lm="ein"><par n="initial-d"/><i>y</i><par n="fy__det"/></e>
+    <e lm="eich"><par n="initial-d"/><i>y</i><par n="fy__det"/></e>
+    <e lm="eu"><par n="initial-d"/><i>y</i><par n="fy__det"/></e>
+
+
+    <!-- Adverbs -->
     <e lm="yma"><i>yma</i><par n="yma__adv"/></e>
     <e lm="hefyd"><i>hefyd</i><par n="yma__adv"/></e>
     <e lm="rwan"><i>rwan</i><par n="yma__adv"/></e>
@@ -50266,7 +50292,8 @@
     <e lm="dwyreiniol"><par n="initial-d"/><i>wyreiniol</i><par n="caredig__adj"/></e>
     <e lm="dwysgyfalafol"><par n="initial-d"/><i>wysgyfalafol</i><par n="caredig__adj"/></e>
     <e lm="dwywaith-y-flwyddyn"><par n="initial-d"/><i>wywaith-y-flwyddyn</i><par n="caredig__adj"/></e>
-    <e lm="dy"><par n="initial-d"/><i>y</i><par n="caredig__adj"/></e>
+
+
     <e lm="dyblyg"><par n="initial-d"/><i>yblyg</i><par n="caredig__adj"/></e>
     <e lm="dyblygedig"><par n="initial-d"/><i>yblygedig</i><par n="caredig__adj"/></e>
     <e lm="dybryd"><par n="initial-d"/><i>ybryd</i><par n="caredig__adj"/></e>
@@ -50378,7 +50405,6 @@
     <e lm="ffyniannus"><i>ffyniannus</i><par n="caredig__adj"/></e>
     <e lm="ffyrnig"><i>ffyrnig</i><par n="caredig__adj"/></e>
 
-    <e lm="fy"><i>fy</i><par n="fy__det"/></e>
 
     <e lm="galarnadus"><par n="initial-g"/><i>alarnadus</i><par n="caredig__adj"/></e>
     <e lm="galluog"><par n="initial-g"/><i>alluog</i><par n="caredig__adj"/></e>
