@@ -169,12 +169,22 @@
 
 	  <!-- Soft mutation, e.g. "o Merthyr Tudful" ~~> "o Ferthyr Tudful" --> 
           <when>
-	    <!-- The lemma of the preposition is "o" -->
             <test>
-              <equal>
-                <clip pos="1" side="tl" part="lem"/>
-                <lit v="o"/>
-              </equal>
+	      <or>
+	        <!-- List of prepositions which cause soft mutation -->
+                <equal>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <lit v="o"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <lit v="i"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <lit v="wrth"/>
+                </equal>
+              </or>
             </test>
             <out>
               <lu>
