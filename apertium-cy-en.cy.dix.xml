@@ -665,7 +665,7 @@
           <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>i</l>
           <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
@@ -738,6 +738,10 @@
         </p>
       </e>
     </pardef>
+
+
+    <!-- Prepositions -->
+
     <pardef n="/ar__pr">
       <e>
         <p>
@@ -860,6 +864,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="/am__pr">
       <e>
         <p>
@@ -982,6 +987,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="/dan__pr">
       <e>
         <p>
@@ -1104,6 +1110,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="/at__pr">
       <e>
         <p>
@@ -1226,6 +1233,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="/tros__pr">
       <e>
         <p>
@@ -1366,6 +1374,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="/trwy__pr">
       <e>
         <p>
@@ -1506,6 +1515,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="/heb__pr">
       <e>
         <p>
@@ -1656,7 +1666,6 @@
       </e>
     </pardef>
 
-
     <pardef n="/yn__pr">
       <e r="LR">
         <p>
@@ -1799,6 +1808,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="/o__pr">
       <e>
         <p>
@@ -1975,6 +1985,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="/rhwng__pr">
       <e>
         <p>
@@ -2109,6 +2120,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="/rhag__pr">
       <e>
         <p>
@@ -2243,6 +2255,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="/er__pr">
       <e>
         <p>
@@ -2371,6 +2384,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="/gan__pr">
       <e>
         <p>
@@ -2541,6 +2555,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="/wrth__pr">
       <e>
         <p>
@@ -2687,6 +2702,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="/i__pr">
       <e>
         <p>
@@ -50285,7 +50301,7 @@
     <e lm="egnïol"><i>egnïol</i><par n="caredig__adj"/></e>
     <e lm="ehangedig"><i>ehangedig</i><par n="caredig__adj"/></e>
     <e lm="ei"><i>ei</i><par n="caredig__adj"/></e>
-    <e lm="ei"><i>ei</i><par n="caredig__adj"/></e>
+    <e lm="ei"><p><l>'i</l><r>ei</r></p><par n="caredig__adj"/></e>
     <e lm="eiconig"><i>eiconig</i><par n="caredig__adj"/></e>
     <e lm="eilaidd"><i>eilaidd</i><par n="caredig__adj"/></e>
     <e lm="eiledol"><i>eiledol</i><par n="caredig__adj"/></e>
