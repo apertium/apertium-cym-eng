@@ -33,7 +33,7 @@
     <e><p><l>rhwng<s n="pr"/></l><r>between<s n="pr"/></r></p></e>
     <e><p><l>rhag<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
     <e><p><l>er<s n="pr"/></l><r>despite<s n="pr"/></r></p></e>
-    <e><p><l>gan<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>gan<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
     <e><p><l>i<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
     <e><p><l>wrth<s n="pr"/></l><r>beside<s n="pr"/></r></p></e>
     
@@ -46,8 +46,8 @@
     
     <!-- Uninflected prepositions -->
     <e><p><l>gyda<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
-    <e><p><l>â<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
-    <e><p><l>efo<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>â<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>efo<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
     <e><p><l>tua<s n="pr"/></l><r>towards<s n="pr"/></r></p></e>
     <e><p><l>hyd<s n="pr"/></l><r>until<s n="pr"/></r></p></e>
     <e><p><l>cyn<s n="pr"/></l><r>before<s n="pr"/></r></p></e>
