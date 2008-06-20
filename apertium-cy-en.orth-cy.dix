@@ -175,6 +175,16 @@
       <par n="vowels"/>
     </e>
 
+    <!-- â (â, ag) -->
+    <e>
+      <p>
+        <l><a/>â<b/></l>
+        <r>ag<b/></r>
+      </p>
+      <par n="vowels"/>
+    </e>
+
+
   </section>
 
 </dictionary>

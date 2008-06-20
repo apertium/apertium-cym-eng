@@ -201,6 +201,29 @@
             </out>
           </when>
 
+	  <!-- Aspirate mutation, e.g. "â ci" ~~> "â chi" --> 
+          <when>
+	    <!-- The lemma of the preposition is "â" -->
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="lem"/>
+                <lit v="â"/>
+              </equal>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <lit-tag v="a1"/>
+                <!-- Aspirate mutation -->
+              </lu>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </when>
 
 	  <!-- Do nothing. -->
           <otherwise>
