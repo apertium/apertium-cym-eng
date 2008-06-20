@@ -103,4 +103,7 @@
     <sdef n="s2"/>
     <sdef n="n1"/>
     <sdef n="a1"/>
+
+    <sdef n="ND"/>
+    <sdef n="GD"/>
   </sdefs>

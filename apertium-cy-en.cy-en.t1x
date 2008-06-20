@@ -48,6 +48,7 @@
       <attr-item tags="det.ind"/>
       <attr-item tags="det.def"/>
       <attr-item tags="det.pos"/>
+      <attr-item tags="det.dem"/>
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
