@@ -2851,16 +2851,21 @@
       <e>
         <p>
           <l/>
+          <r><s n="n"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l/>
           <r><s n="n"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
-      <e>
+      <e r="RL">
         <p>
           <l/>
           <r><s n="n"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
-    </pardef>
     <pardef n="actores__n">
       <e>
         <p>
