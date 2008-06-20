@@ -6,6 +6,7 @@
     <sdef n="s2" c="Soft mutation (full)"/>
     <sdef n="n1" c="Nasal"/>
     <sdef n="a1" c="Aspirate"/>
+    <sdef n="m1" c="Mixed"/>
   </sdefs>
   <pardefs>
     <pardef n="consonants">
