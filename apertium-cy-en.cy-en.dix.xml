@@ -9222,7 +9222,10 @@
 
     <!--  Toponyms -->
 
+    <e><p><l>Aberystwyth<s n="np"/><s n="top"/></l><r>Aberystwyth<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bangor<s n="np"/><s n="top"/></l><r>Bangor<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Blaenafon<s n="np"/><s n="top"/></l><r>Blaenafon<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Caerdydd<s n="np"/><s n="top"/></l><r>Cardiff<s n="np"/><s n="top"/></r></p></e>
 
     <e><p><l>Abidjan<s n="np"/><s n="top"/></l><r>Abidjan<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ethiopia<s n="np"/><s n="top"/></l><r>Abyssinia<s n="np"/><s n="top"/></r></p></e>
