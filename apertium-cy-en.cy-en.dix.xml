@@ -10,13 +10,13 @@
 
     <e><p><l>yr<s n="det"/></l><r>the<s n="det"/></r></p></e>
 
-    <e r="LR"><p><l>ma<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>ma<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>ma<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>yma<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="ND"/></r></p></e>
+    <e r="RL"><p><l>yma<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>yma<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
-    <e r="LR"><p><l>na<s n="det"/><s n="dem"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>na<s n="det"/><s n="dem"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>na<s n="det"/><s n="dem"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>yna<s n="det"/><s n="dem"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="ND"/></r></p></e>
+    <e r="RL"><p><l>yna<s n="det"/><s n="dem"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>yna<s n="det"/><s n="dem"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
     <e><p><l>fy<s n="det"/><s n="pos"/></l><r>my<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>dy<s n="det"/><s n="pos"/></l><r>your<s n="det"/><s n="pos"/></r></p></e>
@@ -1955,7 +1955,7 @@
     <e><p><l>ymwelydd<s n="n"/><s n="m"/></l><r>visitor<s n="n"/></r></p></e>
     <e><p><l>ysbryd<s n="n"/><s n="m"/></l><r>spirit<s n="n"/></r></p></e>
     <e><p><l>ysgol<s n="n"/><s n="f"/></l><r>school<s n="n"/></r></p></e>
-    <e><p><l>ysgol<s n="n"/><s n="f"/></l><r>ladder<s n="n"/></r></p></e>
+    <e r="RL"><p><l>ysgol<s n="n"/><s n="f"/></l><r>ladder<s n="n"/></r></p></e>
     <e><p><l>ystod<s n="n"/><s n="f"/></l><r>range<s n="n"/></r></p></e>
     <e><p><l>ystod<s n="n"/><s n="f"/></l><r>span<s n="n"/></r></p></e>
     <e><p><l>amlap<s n="n"/><s n="m"/></l><r>wrap-around<s n="n"/></r></p></e>
@@ -8857,8 +8857,14 @@
     <e><p><l>e.e.<s n="abbr"/></l><r>e.g.<s n="abbr"/></r></p></e>
 
     <!-- Proper names -->
+      <!-- Organisations -->
 
-    <!--  Anthroponyms -->
+    <e><p><l>Cymdeithas yr Iaith Gymraeg<s n="np"/></l><r>Cymdeithas yr Iaith Gymraeg<s n="np"/></r></p></e>
+    <e><p><l>Cymdeithas yr Iaith<s n="np"/></l><r>Cymdeithas yr Iaith<s n="np"/></r></p></e>
+    <e><p><l>Cymdeithas<s n="np"/></l><r>Cymdeithas<s n="np"/></r></p></e>
+
+
+      <!--  Anthroponyms -->
 
           <!-- Should probably add some Welsh ones here ~fmt -->      
 
@@ -8880,6 +8886,7 @@
     <e><p><l>Alexander<s n="np"/><s n="ant"/></l><r>Alexander<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alexandra<s n="np"/><s n="ant"/></l><r>Alexandra<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alex<s n="np"/><s n="ant"/></l><r>Alex<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Aled<s n="np"/><s n="ant"/></l><r>Aled<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Àlex<s n="np"/><s n="ant"/></l><r>Àlex<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alianore-<s n="np"/><s n="ant"/></l><r>Alianore-<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alice<s n="np"/><s n="ant"/></l><r>Alice<s n="np"/><s n="ant"/></r></p></e>
