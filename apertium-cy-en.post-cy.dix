@@ -297,6 +297,14 @@
       <par n="alphabet"/> 
     </e>
 
+    <e>
+      <p>
+        <l><a/><s n="s2"/></l>
+	<r></r>
+      </p>
+      <par n="alphabet"/>
+    </e>
+
     <!-- Nasal mutation -->
     <e>
       <p>
@@ -341,6 +349,15 @@
       <par n="alphabet"/> 
     </e>
  
+    <e>
+      <par n="alphabet"/>
+      <p>
+        <l><a/><s n="n1"/></l>
+	<r></r>
+      </p>
+      <par n="alphabet"/>
+    </e>
+
     <!-- Aspirate mutation -->
     <e>
       <p>
@@ -364,6 +381,13 @@
       <par n="alphabet"/> 
     </e>
 
+    <e>
+      <p>
+        <l><a/><s n="a1"/></l>
+	<r></r>
+      </p>
+      <par n="alphabet"/>
+    </e>
   </section>
 
 </dictionary>
