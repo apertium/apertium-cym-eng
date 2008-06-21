@@ -1,0 +1,23 @@
+DELIMITERS = "<.>" "<!>" "<?>";
+
+LIST N = n;
+LIST NP = (np top) (np ant) (np cog);
+LIST V = vblex vbser;
+LIST Adv = adv;
+LIST Num = num;
+LIST CC = cnjcoo;
+LIST CS = cnjsub;
+LIST Interj = ij;
+LIST Pr = pr;
+
+LIST Def = def;
+LIST Ind = ind;
+
+LIST VblexInf = (vblex inf);
+
+LIST Prep_i = ("i" pr);
+
+SECTION
+
+SELECT Prep_i IF (1 VblexInf);
+
