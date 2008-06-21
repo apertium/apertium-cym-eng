@@ -1,5 +1,13 @@
 <dictionary>
   <alphabet/>
+  <sdefs>
+    <sdef n="r1" c="Radical"/>
+    <sdef n="s1" c="Soft mutation (limited)"/>
+    <sdef n="s2" c="Soft mutation (full)"/>
+    <sdef n="n1" c="Nasal"/>
+    <sdef n="a1" c="Aspirate"/>
+    <sdef n="m1" c="Mixed"/>
+  </sdefs>
   <pardefs>
     <pardef n="consonants">
       <e><p><l>B</l><r>B</r></p></e>
@@ -117,10 +125,34 @@
       <e>
         <par n="vowels"/>
       </e>
+      <e>
+        <p>
+	  <l><b/><s n="n1"/></l>
+	  <r><b/></r>
+	</p>
+      </e>
     </pardef>
   </pardefs>
 
   <section id="main" type="standard">
+    <!-- Combo (for "~a ~yr") -->
+
+    <e>
+      <p>
+        <l><a/>a<b/><a/>yr<b/></l>
+        <r>ac<b/>yr<b/></r>
+      </p>
+      <par n="vowels"/>
+    </e>
+    <e>
+      <p>
+        <l><a/>a<b/><a/>yr<b/></l>
+        <r>ac<b/>y<b/></r>
+      </p>
+      <par n="consonants"/>
+    </e>
+
+
     <!-- yr (yr, y) -->
 
     <e>

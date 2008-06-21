@@ -9,6 +9,9 @@
     <def-cat n="det">
       <cat-item tags="det.*"/>
     </def-cat>
+    <def-cat n="adj">
+      <cat-item tags="adj.*"/>
+    </def-cat>
     <def-cat n="prep">
       <cat-item tags="pr"/>
     </def-cat>
@@ -267,6 +270,100 @@
               <lu>
                 <lit-tag v="a1"/>
                 <!-- Aspirate mutation -->
+              </lu>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </when>
+
+	  <!-- Do nothing. -->
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </otherwise>
+
+        </choose>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: DET NOM ADJ">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+        <choose>
+
+	  <!-- Soft mutation, e.g. "yr carreg" ~~> "yr garreg" --> 
+          <when>
+            <test>
+	      <!-- The lemma of the determiner is "yr" and 
+	           the noun is feminine and singular -->
+              <and>
+                <equal caseless="yes">
+                  <clip pos="1" side="tl" part="lem"/>
+                  <lit v="yr"/>
+                </equal>
+                <equal>
+                  <clip pos="2" side="tl" part="gen"/>
+                  <lit-tag v="f"/>
+                </equal>
+                <equal>
+                  <clip pos="2" side="tl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <lit-tag v="s1"/>
+                <!-- Soft mutation (limited) -->
+              </lu>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+	      <b pos="2"/>
+              <lu>
+                <lit-tag v="s1"/>
+                <!-- Soft mutation (limited) -->
+              </lu>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </when>
+
+	  <!-- Nasal mutation, e.g. "fy carreg" ~~> "fy ngharreg" --> 
+          <when>
+	    <!-- The lemma of the determiner is "fy" -->
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="tl" part="lem"/>
+                <lit v="fy"/>
+              </equal>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <lit-tag v="n1"/>
+                <!-- Nasal mutation -->
               </lu>
               <lu>
                 <clip pos="2" side="tl" part="whole"/>
