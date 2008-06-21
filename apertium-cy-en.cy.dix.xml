@@ -9795,6 +9795,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="achos/i__vblex">
       <e>
         <p>
@@ -17077,7 +17078,7 @@
       </e>
       <e>
         <p>
-          <l>i</l>
+          <l>ylli</l>
           <r>yll<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
@@ -21722,12 +21723,7 @@
       <e>
         <p>
           <l/>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+          <r>wd<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -21901,12 +21897,7 @@
       <e>
         <p>
           <l/>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <r>wd<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -41120,11 +41111,11 @@
         </p>
       </e>
     </pardef>
-    <pardef n="seng/i__vblex">
+    <pardef n="s/engi__vblex">
       <e>
         <p>
-          <l>i</l>
-          <r>i<s n="vblex"/><s n="inf"/></r>
+          <l>engi</l>
+          <r>engi<s n="vblex"/><s n="inf"/></r>
         </p>
       </e>
       <e>
@@ -41147,8 +41138,8 @@
       </e>
       <e>
         <p>
-          <l>wch</l>
-          <r>i<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
+          <l>engwch</l>
+          <r>engi<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
@@ -41201,20 +41192,20 @@
       </e>
       <e>
         <p>
-          <l>id</l>
-          <r>i<s n="vblex"/><s n="pii"/><s n="impers"/><s n="pl"/></r>
+          <l>engid</l>
+          <r>engi<s n="vblex"/><s n="pii"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ais</l>
-          <r>i<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+          <l>engais</l>
+          <r>engi<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>aist</l>
-          <r>i<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+          <l>engaist</l>
+          <r>engi<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -41297,8 +41288,8 @@
       </e>
       <e>
         <p>
-          <l>i</l>
-          <r>i<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
+          <l>engi</l>
+          <r>engi<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -41315,8 +41306,8 @@
       </e>
       <e>
         <p>
-          <l>wch</l>
-          <r>i<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
+          <l>engwch</l>
+          <r>engi<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
@@ -41327,8 +41318,8 @@
       </e>
       <e>
         <p>
-          <l>ir</l>
-          <r>i<s n="vblex"/><s n="pres"/><s n="impers"/><s n="pl"/></r>
+          <l>engir</l>
+          <r>engi<s n="vblex"/><s n="pres"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
       <e>
@@ -41339,8 +41330,8 @@
       </e>
       <e>
         <p>
-          <l>ych</l>
-          <r>i<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r>
+          <l>engych</l>
+          <r>engi<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -54153,7 +54144,7 @@
     <e lm="secretu"><i>secret</i><par n="aberth/u__vblex"/></e>
     <e lm="sefydlogi"><i>sefydlog</i><par n="achos/i__vblex"/></e>
     <e lm="sefydlu"><i>sefydl</i><par n="aberth/u__vblex"/></e>
-    <e lm="sefyll"><i>s</i><par n="ailsef/yll__vblex"/></e>
+    <e lm="sefyll"><i>sef</i><par n="ailsef/yll__vblex"/></e>
     <e lm="segura"><i>segur</i><par n="adar/a__vblex"/></e>
     <e lm="seguro"><i>segur</i><par n="achlysur/o__vblex"/></e>
     <e lm="seibio"><i>seibi</i><par n="achlysur/o__vblex"/></e>
@@ -54164,7 +54155,7 @@
     <e lm="seisnigeiddio"><i>seisnigeiddi</i><par n="achlysur/o__vblex"/></e>
     <e lm="seisnigo"><i>seisnig</i><par n="achlysur/o__vblex"/></e>
     <e lm="selio"><i>seli</i><par n="achlysur/o__vblex"/></e>
-    <e lm="sengi"><i>s</i><par n="seng/i__vblex"/></e>
+    <e lm="sengi"><i>s</i><par n="s/engi__vblex"/></e>
     <e lm="sennu"><i>senn</i><par n="absenn/u__vblex"/></e>
     <e lm="serchu"><i>serch</i><par n="aberth/u__vblex"/></e>
     <e lm="serennu"><i>serenn</i><par n="absenn/u__vblex"/></e>

@@ -5,6 +5,9 @@
       <program name="lt-proc">
         <file name="cy-en.automorf.bin"/>
       </program>
+      <program name="cg-proc">
+        <file name="cy-en.cg.bin"/> 
+      </program>
       <program name="apertium-tagger -g">
         <file name="cy-en.prob"/>
       </program>
