@@ -126,10 +126,16 @@
     <e><p><l>ynglŷn â<s n="pr"/></l><r>about<s n="pr"/></r></p></e>
     <e><p><l>ynghanol<s n="pr"/></l><r>in the middle of<s n="pr"/></r></p></e>
     <e><p><l>ymhen<s n="pr"/></l><r>at the end of<s n="pr"/></r></p></e>
+
+
+    <!-- Generic multiword prepositions -->
+
+    <e><p><l>yn unol â<s n="pr"/></l><r>in accordance with<s n="pr"/></r></p></e>
     
     <!-- Conjunctions -->
 
     <e><p><l>a<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ond<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
 
     <!-- Adverbs -->
 
@@ -141,8 +147,384 @@
 
 
     <!-- Nouns -->
+
+
+
+
     <e><p><l>llysywen<s n="n"/><s n="f"/></l><r>eel<s n="n"/></r></p></e>
     <e><p><l>hofrenfad<s n="n"/><s n="mf"/></l><r>hovercraft<s n="n"/></r></p></e>
+
+    <e><p><l>gormodiaith<s n="n"/><s n="f"/></l><r>exaggeration<s n="n"/></r></p></e><!-- exaggeration - gormodiaith [f.]-->
+    <e><p><l>ymollyngdod<s n="n"/><s n="m"/></l><r>relaxation<s n="n"/></r></p></e><!-- relaxation - ymollyngdod [m.]-->
+    <e><p><l>sadrwydd<s n="n"/><s n="m"/></l><r>firmness<s n="n"/></r></p></e><!-- firmness - sadrwydd [m.]-->
+    <e><p><l>alltudiaeth<s n="n"/><s n="f"/></l><r>deportation<s n="n"/></r></p></e><!-- deportation - alltudiaeth [f.]-->
+    <e><p><l>cieidd-dra<s n="n"/><s n="m"/></l><r>brutality<s n="n"/></r></p></e><!-- brutality - cieidd-dra [m.]-->
+    <e><p><l>pragmatiaeth<s n="n"/><s n="f"/></l><r>pragmatism<s n="n"/></r></p></e><!-- pragmatism - pragmatiaeth [f.]-->
+    <e><p><l>arwaesaf<s n="n"/><s n="m"/></l><r>guarantor<s n="n"/></r></p></e><!-- guarantor - arwaesaf [m.]-->
+    <e><p><l>ysbïaeth<s n="n"/><s n="f"/></l><r>espionage<s n="n"/></r></p></e><!-- espionage - ysbïaeth [f.]-->
+    <e><p><l>nicotin<s n="n"/><s n="m"/></l><r>nicotine<s n="n"/></r></p></e><!-- nicotine - nicotin [m.?]-->
+    <e><p><l>cam-faeth<s n="n"/><s n="m"/></l><r>malnutrition<s n="n"/></r></p></e><!-- malnutrition - cam-faeth [m.]-->
+    <e><p><l>arbelydriad<s n="n"/><s n="m"/></l><r>irradiation<s n="n"/></r></p></e><!-- irradiation - arbelydriad [m.]-->
+    <e><p><l>pesimistiaeth<s n="n"/><s n="f"/></l><r>pessimism<s n="n"/></r></p></e><!-- pessimism - pesimistiaeth [f.]-->
+    <e><p><l>cysondeb<s n="n"/><s n="m"/></l><r>regularity<s n="n"/></r></p></e><!-- regularity - cysondeb [m.]-->
+    <e><p><l>nitrad<s n="n"/><s n="m"/></l><r>nitrate<s n="n"/></r></p></e><!-- nitrate - nitrad [m.?]-->
+    <e><p><l>barbariaeth<s n="n"/><s n="m"/></l><r>barbarism<s n="n"/></r></p></e><!-- barbarism - barbariaeth [m.]-->
+    <e><p><l>afreoleidd-dra<s n="n"/><s n="m"/></l><r>irregularity<s n="n"/></r></p></e><!-- irregularity - afreoleidd-dra [m.]-->
+    <e><p><l>ecoleg<s n="n"/><s n="f"/></l><r>ecology<s n="n"/></r></p></e><!-- ecology - ecoleg [f.]-->
+    <e><p><l>gwrthuni<s n="n"/><s n="m"/></l><r>absurdity<s n="n"/></r></p></e><!-- absurdity - gwrthuni [m.]-->
+    <e><p><l>anfodlonrwydd<s n="n"/><s n="m"/></l><r>discontent<s n="n"/></r></p></e><!-- discontent - anfodlonrwydd [m.]-->
+    <e><p><l>deddfeg<s n="n"/><s n="f"/></l><r>jurisprudence<s n="n"/></r></p></e><!-- jurisprudence - deddfeg [f.]-->
+    <e><p><l>arafeiddiwch<s n="n"/><s n="m"/></l><r>deliberation<s n="n"/></r></p></e><!-- deliberation - arafeiddiwch [m.]-->
+    <e><p><l>chwisgi<s n="n"/><s n="m"/></l><r>whisky<s n="n"/></r></p></e><!-- whisky - chwisgi [m.]-->
+    <e><p><l>treiddgarwch<s n="n"/><s n="m"/></l><r>penetration<s n="n"/></r></p></e><!-- penetration - treiddgarwch [m.]-->
+    <e><p><l>rhyddhad<s n="n"/><s n="m"/></l><r>emancipation<s n="n"/></r></p></e><!-- emancipation - rhyddhad [m.]-->
+    <e><p><l>anadliad<s n="n"/><s n="m"/></l><r>breathing<s n="n"/></r></p></e><!-- breathing - anadliad [m.]-->
+    <e><p><l>gwêr<s n="n"/><s n="m"/></l><r>tallow<s n="n"/></r></p></e><!-- tallow - gwêr [m.]-->
+    <e><p><l>poblogrwydd<s n="n"/><s n="m"/></l><r>popularity<s n="n"/></r></p></e><!-- popularity - poblogrwydd [m.]-->
+    <e><p><l>ifori<s n="n"/><s n="m"/></l><r>ivory<s n="n"/></r></p></e><!-- ivory - ifori [m.]-->
+    <e><p><l>geneteg<s n="n"/><s n="f"/></l><r>genetics<s n="n"/></r></p></e><!-- genetics - geneteg [f.]-->
+    <e><p><l>distylliad<s n="n"/><s n="m"/></l><r>distillation<s n="n"/></r></p></e><!-- distillation - distylliad [m.]-->
+    <e><p><l>gwrogaeth<s n="n"/><s n="f"/></l><r>homage<s n="n"/></r></p></e><!-- homage - gwrogaeth (gwarogaeth) [f.]-->
+    <e><p><l>hiwmaniaeth<s n="n"/><s n="f"/></l><r>humanism<s n="n"/></r></p></e><!-- humanism - hiwmaniaeth [f.]-->
+    <e><p><l>arian<s n="n"/><s n="m"/></l><r>silver<s n="n"/></r></p></e><!-- silver - arian [m.]-->
+    <e><p><l>ocsid<s n="n"/><s n="m"/></l><r>oxide<s n="n"/></r></p></e><!-- oxide - ocsid [m.?]-->
+    <e><p><l>cynddaredd<s n="n"/><s n="f"/></l><r>rabies<s n="n"/></r></p></e><!-- rabies - cynddaredd [f.]-->
+    <e><p><l>llwfrdra<s n="n"/><s n="m"/></l><r>cowardice<s n="n"/></r></p></e><!-- cowardice - llwfrdra [m.]-->
+    <e><p><l>chwerwder<s n="n"/><s n="m"/></l><r>bitterness<s n="n"/></r></p></e><!-- bitterness - chwerwder (chwerwdod; chwerwedd) [m.]-->
+    <e><p><l>gwarchae<s n="n"/><s n="m"/></l><r>siege<s n="n"/></r></p></e><!-- siege - gwarchae [m.]-->
+    <e><p><l>cyfunrhywoliaeth<s n="n"/><s n="f"/></l><r>homosexuality<s n="n"/></r></p></e><!-- homosexuality - cyfunrhywoliaeth [f.]-->
+    <e><p><l>rwber<s n="n"/><s n="m"/></l><r>rubber<s n="n"/></r></p></e><!-- rubber - rwber [m.]-->
+    <e><p><l>herald<s n="n"/><s n="m"/></l><r>herald<s n="n"/></r></p></e><!-- herald - herald [m.?]-->
+    <e><p><l>dallineb<s n="n"/><s n="m"/></l><r>blindness<s n="n"/></r></p></e><!-- blindness - dallineb [m.]-->
+    <e><p><l>stadiwm<s n="n"/><s n="mf"/></l><r>stadium<s n="n"/></r></p></e><!-- stadium - stadiwm [mf.]-->
+    <e><p><l>cysgbair<s n="n"/><s n="m"/></l><r>narcotic<s n="n"/></r></p></e><!-- narcotic - cysgbair [m.?]-->
+    <e><p><l>aeronoteg<s n="n"/><s n="m"/></l><r>aeronautics<s n="n"/></r></p></e><!-- aeronautics - aeronoteg [m.]-->
+    <e><p><l>tomaten<s n="n"/><s n="f"/></l><r>tomato<s n="n"/></r></p></e><!-- tomato - tomaten [f.]-->
+    <e><p><l>cynefindra<s n="n"/><s n="m"/></l><r>familiarity<s n="n"/></r></p></e><!-- familiarity - cynefindra (cynefinder) [m.]-->
+    <e><p><l>coedwigaeth<s n="n"/><s n="f"/></l><r>afforestation<s n="n"/></r></p></e><!-- afforestation - coedwigaeth [f.]-->
+    <e><p><l>newyddiaduriaeth<s n="n"/><s n="f"/></l><r>journalism<s n="n"/></r></p></e><!-- journalism - newyddiaduriaeth [f.]-->
+    <e><p><l>cymathiad<s n="n"/><s n="m"/></l><r>assimilation<s n="n"/></r></p></e><!-- assimilation - cymathiad [m.]-->
+    <e><p><l>litani<s n="n"/><s n="m"/></l><r>litany<s n="n"/></r></p></e><!-- litany - litani [m.?]-->
+    <e><p><l>ffrwythlondeb<s n="n"/><s n="m"/></l><r>fertility<s n="n"/></r></p></e><!-- fertility - ffrwythlondeb [m.]-->
+    <e><p><l>fandaliaeth<s n="n"/><s n="f"/></l><r>vandalism<s n="n"/></r></p></e><!-- vandalism - fandaliaeth [f.]-->
+    <e><p><l>areulder<s n="n"/><s n="m"/></l><r>serenity<s n="n"/></r></p></e><!-- serenity - areulder (areuledd) [m.]-->
+    <e><p><l>cwarant<s n="n"/><s n="m"/></l><r>quarantine<s n="n"/></r></p></e><!-- quarantine - cwarant [m.?]-->
+    <e><p><l>hidrogen<s n="n"/><s n="m"/></l><r>hydrogen<s n="n"/></r></p></e><!-- hydrogen - hidrogen [m.]-->
+    <e><p><l>ether<s n="n"/><s n="m"/></l><r>ether<s n="n"/></r></p></e><!-- ether - ether [m.?]-->
+    <e><p><l>godineb<s n="n"/><s n="m"/></l><r>adultery<s n="n"/></r></p></e><!-- adultery - godineb [m.]-->
+    <e><p><l>symboliaeth<s n="n"/><s n="f"/></l><r>symbolism<s n="n"/></r></p></e><!-- symbolism - symboliaeth [f.]-->
+    <e><p><l>perffeithrwydd<s n="n"/><s n="m"/></l><r>perfection<s n="n"/></r></p></e><!-- perfection - perffeithrwydd [m.]-->
+    <e><p><l>inc<s n="n"/><s n="m"/></l><r>ink<s n="n"/></r></p></e><!-- ink - inc [m.]-->
+    <e><p><l>chwyrndra<s n="n"/><s n="m"/></l><r>rapidity<s n="n"/></r></p></e><!-- rapidity - chwyrndra [m.]-->
+    <e><p><l>chwys<s n="n"/><s n="m"/></l><r>sweat<s n="n"/></r></p></e><!-- sweat - chwys [m.]-->
+    <e><p><l>chwerthin<s n="n"/><s n="m"/></l><r>laughter<s n="n"/></r></p></e><!-- laughter - chwerthin [m.]-->
+    <e><p><l>anghymhwyster<s n="n"/><s n="m"/></l><r>disqualification<s n="n"/></r></p></e><!-- disqualification - anghymhwyster [m.]-->
+    <e><p><l>hiraeth<s n="n"/><s n="m"/></l><r>nostalgia<s n="n"/></r></p></e><!-- nostalgia - hiraeth [m.]-->
+    <e><p><l>cemeg<s n="n"/><s n="f"/></l><r>chemistry<s n="n"/></r></p></e><!-- chemistry - cemeg [f.]-->
+    <e><p><l>annedwyddwch<s n="n"/><s n="m"/></l><r>unhappiness<s n="n"/></r></p></e><!-- unhappiness - annedwyddwch [m.]-->
+    <e><p><l>syr<s n="n"/><s n="m"/></l><r>sir<s n="n"/></r></p></e><!-- sir - syr [m.]-->
+    <e><p><l>rhyg<s n="n"/><s n="m"/></l><r>rye<s n="n"/></r></p></e><!-- rye - rhyg [m.]-->
+    <e><p><l>paill<s n="n"/><s n="m"/></l><r>pollen<s n="n"/></r></p></e><!-- pollen - paill [m.]-->
+    <e><p><l>mosg<s n="n"/><s n="f"/></l><r>mosque<s n="n"/></r></p></e><!-- mosque - mosg [f.?]-->
+    <e><p><l>ceidwadaeth<s n="n"/><s n="f"/></l><r>conservatism<s n="n"/></r></p></e><!-- conservatism - ceidwadaeth [f.]-->
+    <e><p><l>arbenigrwydd<s n="n"/><s n="m"/></l><r>speciality<s n="n"/></r></p></e><!-- speciality - arbenigrwydd [m.]-->
+    <e><p><l>gwladgarwch<s n="n"/><s n="m"/></l><r>patriotism<s n="n"/></r></p></e><!-- patriotism - gwladgarwch [m.]-->
+    <e><p><l>ufudd-dod<s n="n"/><s n="m"/></l><r>obedience<s n="n"/></r></p></e><!-- obedience - ufudd-dod [m.]-->
+    <e><p><l>prisiad<s n="n"/><s n="m"/></l><r>valuation<s n="n"/></r></p></e><!-- valuation - prisiad (prisiant) [m.]-->
+    <e><p><l>hir hoedledd<s n="n"/><s n="m"/></l><r>longevity<s n="n"/></r></p></e><!-- longevity - hir.hoedledd [m.]-->
+    <e><p><l>cyfosod<s n="n"/><s n="m"/></l><r>juxtaposition<s n="n"/></r></p></e><!-- juxtaposition - cyfosod [m.]-->
+    <e><p><l>annigonedd<s n="n"/><s n="m"/></l><r>insufficiency<s n="n"/></r></p></e><!-- insufficiency - annigonedd [m.]-->
+    <e><p><l>amhariad<s n="n"/><s n="m"/></l><r>impairment<s n="n"/></r></p></e><!-- impairment - amhariad [m.]-->
+    <e><p><l>gwrthwenwyn<s n="n"/><s n="m"/></l><r>antidote<s n="n"/></r></p></e><!-- antidote - gwrthwenwyn [m.]-->
+    <e><p><l>amrywedd<s n="n"/><s n="m"/></l><r>heterogeneity<s n="n"/></r></p></e><!-- heterogeneity - amrywedd [m.]-->
+    <e><p><l>mawredd<s n="n"/><s n="m"/></l><r>greatness<s n="n"/></r></p></e><!-- greatness - mawredd [m.]-->
+    <e><p><l>anonestrwydd<s n="n"/><s n="m"/></l><r>dishonesty<s n="n"/></r></p></e><!-- dishonesty - anonestrwydd [m.]-->
+    <e><p><l>dirywiad<s n="n"/><s n="m"/></l><r>degeneration<s n="n"/></r></p></e><!-- degeneration - dirywiad [m.]-->
+    <e><p><l>uchder<s n="n"/><s n="m"/></l><r>altitude<s n="n"/></r></p></e><!-- altitude - uchder [m.]-->
+    <e><p><l>digonolrwydd<s n="n"/><s n="m"/></l><r>sufficiency<s n="n"/></r></p></e><!-- sufficiency - digonolrwydd [m.]-->
+    <e><p><l>parchusrwydd<s n="n"/><s n="m"/></l><r>respectability<s n="n"/></r></p></e><!-- respectability - parchusrwydd [m.]-->
+    <e><p><l>nerfusrwydd<s n="n"/><s n="m"/></l><r>nervousness<s n="n"/></r></p></e><!-- nervousness - nerfusrwydd [m.]-->
+    <e><p><l>materoliaeth<s n="n"/><s n="f"/></l><r>materialism<s n="n"/></r></p></e><!-- materialism - materoliaeth [f.]-->
+    <e><p><l>merthyrdod<s n="n"/><s n="m"/></l><r>martyrdom<s n="n"/></r></p></e><!-- martyrdom - merthyrdod [m.]-->
+    <e><p><l>anghyfanhedd-dra<s n="n"/><s n="m"/></l><r>desolation<s n="n"/></r></p></e><!-- desolation - anghyfanhedd-dra [m.]-->
+    <e><p><l>diwinyddiaeth<s n="n"/><s n="f"/></l><r>theology<s n="n"/></r></p></e><!-- theology - diwinyddiaeth [f.]-->
+    <e><p><l>dadeni<s n="n"/><s n="m"/></l><r>renaissance<s n="n"/></r></p></e><!-- renaissance - dadeni [m.]-->
+    <e><p><l>gwawr<s n="n"/><s n="f"/></l><r>nuance<s n="n"/></r></p></e><!-- nuance - gwawr [f.]-->
+    <e><p><l>brag<s n="n"/><s n="m"/></l><r>malt<s n="n"/></r></p></e><!-- malt - brag [m.]-->
+    <e><p><l>piano<s n="n"/><s n="mf"/></l><r>piano<s n="n"/></r></p></e><!-- piano - piano [mf.]-->
+    <e><p><l>manna<s n="n"/><s n="m"/></l><r>manna<s n="n"/></r></p></e><!-- manna - manna [m.]-->
+    <e><p><l>newrosis<s n="n"/><s n="m"/></l><r>neurosis<s n="n"/></r></p></e><!-- neurosis - newrosis [m.?]-->
+    <e><p><l>mwstard<s n="n"/><s n="m"/></l><r>mustard<s n="n"/></r></p></e><!-- mustard - mwstard (mwstart) [m.]-->
+    <e><p><l>anferthedd<s n="n"/><s n="m"/></l><r>monstrosity<s n="n"/></r></p></e><!-- monstrosity - anferthedd [m.]-->
+    <e><p><l>israddoldeb<s n="n"/><s n="m"/></l><r>inferiority<s n="n"/></r></p></e><!-- inferiority - israddoldeb [m.]-->
+    <e><p><l>eplesiad<s n="n"/><s n="m"/></l><r>fermentation<s n="n"/></r></p></e><!-- fermentation - eplesiad [m.]-->
+    <e><p><l>anufudd-dod<s n="n"/><s n="m"/></l><r>disobedience<s n="n"/></r></p></e><!-- disobedience - anufudd-dod [m.]-->
+    <e><p><l>balast<s n="n"/><s n="m"/></l><r>ballast<s n="n"/></r></p></e><!-- ballast - balast [m.?]-->
+    <e><p><l>clybodeg<s n="n"/><s n="f"/></l><r>acoustics<s n="n"/></r></p></e><!-- acoustics - clybodeg [f.]-->
+    <e><p><l>diogi<s n="n"/><s n="m"/></l><r>laziness<s n="n"/></r></p></e><!-- laziness - diogi [m.]-->
+    <e><p><l>llosgach<s n="n"/><s n="m"/></l><r>incest<s n="n"/></r></p></e><!-- incest - llosgach [m.]-->
+    <e><p><l>gogoneddiad<s n="n"/><s n="m"/></l><r>glorification<s n="n"/></r></p></e><!-- glorification - gogoneddiad [m.]-->
+    <e><p><l>ergonomeg<s n="n"/><s n="f"/></l><r>ergonomics<s n="n"/></r></p></e><!-- ergonomics - ergonomeg [f.]-->
+    <e><p><l>eluse garwch<s n="n"/><s n="m"/></l><r>benevolence<s n="n"/></r></p></e><!-- benevolence - elusen.garwch [m.]-->
+    <e><p><l>gwarth<s n="n"/><s n="m"/></l><r>opprobrium<s n="n"/></r></p></e><!-- opprobrium - gwarth [m.]-->
+    <e><p><l>mawrfrydigrwydd<s n="n"/><s n="m"/></l><r>magnanimity<s n="n"/></r></p></e><!-- magnanimity - mawrfrydigrwydd [m.]-->
+    <e><p><l>cyfreithlondeb<s n="n"/><s n="m"/></l><r>lawfulness<s n="n"/></r></p></e><!-- lawfulness - cyfreithlondeb [m.]-->
+    <e><p><l>garddio<s n="n"/><s n="m"/></l><r>gardening<s n="n"/></r></p></e><!-- gardening - garddio (garddu) [m.]-->
+    <e><p><l>troad allan<s n="n"/><s n="m"/></l><r>eviction<s n="n"/></r></p></e><!-- eviction - troad allan [m.]-->
+    <e><p><l>gwead<s n="n"/><s n="m"/></l><r>weaving<s n="n"/></r></p></e><!-- weaving - gwead [m.]-->
+    <e><p><l>rhesymoliaeth<s n="n"/><s n="f"/></l><r>rationalism<s n="n"/></r></p></e><!-- rationalism - rhesymoliaeth [f.]-->
+    <e><p><l>amlwreiciaeth<s n="n"/><s n="f"/></l><r>polygamy<s n="n"/></r></p></e><!-- polygamy - amlwreiciaeth (amlwreigiaeth) [f.]-->
+    <e><p><l>ffosfforws<s n="n"/><s n="m"/></l><r>phosphorus<s n="n"/></r></p></e><!-- phosphorus - ffosfforws [m.?]-->
+    <e><p><l>metaboleg<s n="n"/><s n="f"/></l><r>metabolism<s n="n"/></r></p></e><!-- metabolism - metaboleg (metabolaeth) [f.]-->
+    <e><p><l>margarîn<s n="n"/><s n="m"/></l><r>margarine<s n="n"/></r></p></e><!-- margarine - margarîn [m.?]-->
+    <e><p><l>mewnsylliad<s n="n"/><s n="m"/></l><r>introspection<s n="n"/></r></p></e><!-- introspection - mewnsylliad [m.]-->
+    <e><p><l>tawelwch<s n="n"/><s n="m"/></l><r>equanimity<s n="n"/></r></p></e><!-- equanimity - tawelwch [m.]-->
+    <e><p><l>gwaedlif<s n="n"/><s n="m"/></l><r>dysentery<s n="n"/></r></p></e><!-- dysentery - gwaedlif [m.]-->
+    <e><p><l>amseryddiaeth<s n="n"/><s n="f"/></l><r>chronology<s n="n"/></r></p></e><!-- chronology - amseryddiaeth [f.]-->
+    <e><p><l>gwefr<s n="n"/><s n="f"/></l><r>amber<s n="n"/></r></p></e><!-- amber - gwefr [f.]-->
+    <e><p><l>estheteg<s n="n"/><s n="mf"/></l><r>aesthetics<s n="n"/></r></p></e><!-- aesthetics - estheteg [mf.]-->
+    <e><p><l>tenis<s n="n"/><s n="m"/></l><r>tennis<s n="n"/></r></p></e><!-- tennis - tenis [m.]-->
+    <e><p><l>gwrthnysedd<s n="n"/><s n="f"/></l><r>repulsion<s n="n"/></r></p></e><!-- repulsion - gwrthnysedd [f.]-->
+    <e><p><l>gwrêng<s n="n"/><s n="m"/></l><r>proletariat<s n="n"/></r></p></e><!-- proletariat - gwrêng [coll. & m.]-->
+    <e><p><l>neithdar<s n="n"/><s n="m"/></l><r>nectar<s n="n"/></r></p></e><!-- nectar - neithdar [m.]-->
+    <e><p><l>carennydd<s n="n"/><s n="m"/></l><r>kinship<s n="n"/></r></p></e><!-- kinship - carennydd [m.]-->
+    <e><p><l>camedd<s n="n"/><s n="m"/></l><r>curvature<s n="n"/></r></p></e><!-- curvature - camedd [m.]-->
+    <e><p><l>diflaster<s n="n"/><s n="m"/></l><r>boredom<s n="n"/></r></p></e><!-- boredom - diflaster [m.]-->
+    <e><p><l>ysbrydolrwydd<s n="n"/><s n="m"/></l><r>spirituality<s n="n"/></r></p></e><!-- spirituality - ysbrydolrwydd [m.]-->
+    <e><p><l>gwahan glwyf<s n="n"/><s n="m"/></l><r>leprosy<s n="n"/></r></p></e><!-- leprosy - gwahan.glwyf [m.]-->
+    <e><p><l>anfarwoldeb<s n="n"/><s n="m"/></l><r>immortality<s n="n"/></r></p></e><!-- immortality - anfarwoldeb [m.]-->
+    <e><p><l>cyhydedd<s n="n"/><s n="mf"/></l><r>equator<s n="n"/></r></p></e><!-- equator - cyhydedd [mf.]-->
+    <e><p><l>oferedd<s n="n"/><s n="m"/></l><r>dissipation<s n="n"/></r></p></e><!-- dissipation - oferedd [m.]-->
+    <e><p><l>pendefigaeth<s n="n"/><s n="f"/></l><r>aristocracy<s n="n"/></r></p></e><!-- aristocracy - pendefigaeth [f.]-->
+    <e><p><l>alcemeg<s n="n"/><s n="f"/></l><r>alchemy<s n="n"/></r></p></e><!-- alchemy - alcemeg [f.]-->
+    <e><p><l>corodyn<s n="n"/><s n="m"/></l><r>trifle<s n="n"/></r></p></e><!-- trifle - corodyn [m.]-->
+    <e><p><l>molecwl<s n="n"/><s n="m"/></l><r>molecule<s n="n"/></r></p></e><!-- molecule - molecwl [m.?]-->
+    <e><p><l>ffiwdaliaeth<s n="n"/><s n="f"/></l><r>feudalism<s n="n"/></r></p></e><!-- feudalism - ffiwdaliaeth [f.]-->
+    <e><p><l>byddardod<s n="n"/><s n="m"/></l><r>deafness<s n="n"/></r></p></e><!-- deafness - byddardod [m.]-->
+    <e><p><l>cysylltedd<s n="n"/><s n="m"/></l><r>connectivity<s n="n"/></r></p></e><!-- connectivity - cysylltedd [m.]-->
+    <e><p><l>anatomeg<s n="n"/><s n="f"/></l><r>anatomy<s n="n"/></r></p></e><!-- anatomy - anatomeg (anatomi) [f.]-->
+    <e><p><l>byrder<s n="n"/><s n="m"/></l><r>shortness<s n="n"/></r></p></e><!-- shortness - byrder (byrdra) [m.]-->
+    <e><p><l>anfoesgarwch<s n="n"/><s n="m"/></l><r>rudeness<s n="n"/></r></p></e><!-- rudeness - anfoesgarwch [m.]-->
+    <e><p><l>purdan<s n="n"/><s n="m"/></l><r>purgatory<s n="n"/></r></p></e><!-- purgatory - purdan [m.]-->
+    <e><p><l>petrol<s n="n"/><s n="m"/></l><r>gasoline<s n="n"/></r></p></e><!-- gasoline - petrol [m.]-->
+    <e><p><l>empeiraeth<s n="n"/><s n="f"/></l><r>empiricism<s n="n"/></r></p></e><!-- empiricism - empeiraeth [f.]-->
+    <e><p><l>oerfelgarwch<s n="n"/><s n="m"/></l><r>coolness<s n="n"/></r></p></e><!-- coolness - oerfelgarwch [m.]-->
+    <e><p><l>bwn glerwch<s n="n"/><s n="m"/></l><r>clumsiness<s n="n"/></r></p></e><!-- clumsiness - bwn.glerwch [m.]-->
+    <e><p><l>archaeoleg<s n="n"/><s n="f"/></l><r>archaeology<s n="n"/></r></p></e><!-- archaeology - archaeoleg [f.]-->
+    <e><p><l>almon<s n="n"/><s n="f"/></l><r>almond<s n="n"/></r></p></e><!-- almond - almon [f.]-->
+    <e><p><l>llysnafedd<s n="n"/><s n="m"/></l><r>slime<s n="n"/></r></p></e><!-- slime - llysnafedd [m.]-->
+    <e><p><l>llaw-fer<s n="n"/><s n="f"/></l><r>shorthand<s n="n"/></r></p></e><!-- shorthand - llaw-fer (llawfer) [f.]-->
+    <e><p><l>saets<s n="n"/><s n="m"/></l><r>sage<s n="n"/></r></p></e><!-- sage - saets [m.]-->
+    <e><p><l>rhefr<s n="n"/><s n="m"/></l><r>rectum<s n="n"/></r></p></e><!-- rectum - rhefr [m.]-->
+    <e><p><l>ffurfianneg<s n="n"/><s n="f"/></l><r>morphology<s n="n"/></r></p></e><!-- morphology - ffurfianneg [f.]-->
+    <e><p><l>metelyddiaeth<s n="n"/><s n="f"/></l><r>metallurgy<s n="n"/></r></p></e><!-- metallurgy - metelyddiaeth [f.]-->
+    <e><p><l>beddadail<s n="n"/><s n="m"/></l><r>mausoleum<s n="n"/></r></p></e><!-- mausoleum - beddadail [m.]-->
+    <e><p><l>ïodin<s n="n"/><s n="m"/></l><r>iodine<s n="n"/></r></p></e><!-- iodine - ïodin [m.]-->
+    <e><p><l>penwan<s n="n"/><s n="m"/></l><r>imbecile<s n="n"/></r></p></e><!-- imbecile - penwan [m.]-->
+    <e><p><l>gaeafgwsg<s n="n"/><s n="m"/></l><r>hibernation<s n="n"/></r></p></e><!-- hibernation - gaeafgwsg [m.]-->
+    <e><p><l>glythineb<s n="n"/><s n="m"/></l><r>gluttony<s n="n"/></r></p></e><!-- gluttony - glythineb (glythni) [m.]-->
+    <e><p><l>geudeb<s n="n"/><s n="m"/></l><r>falsity<s n="n"/></r></p></e><!-- falsity - geudeb (geuedd) [m.]-->
+    <e><p><l>emrallt<s n="n"/><s n="m"/></l><r>emerald<s n="n"/></r></p></e><!-- emerald - emrallt [m.]-->
+    <e><p><l>meddwdod<s n="n"/><s n="m"/></l><r>drunkenness<s n="n"/></r></p></e><!-- drunkenness - meddwdod [m.]-->
+    <e><p><l>ceudod<s n="n"/><s n="m"/></l><r>cavity<s n="n"/></r></p></e><!-- cavity - ceudod [m.]-->
+    <e><p><l>dwywreigiaeth<s n="n"/><s n="f"/></l><r>bigamy<s n="n"/></r></p></e><!-- bigamy - dwywreigiaeth [f.]-->
+    <e><p><l>annhyfiant<s n="n"/><s n="m"/></l><r>atrophy<s n="n"/></r></p></e><!-- atrophy - annhyfiant [m.]-->
+    <e><p><l>milofyddiaeth<s n="n"/><s n="f"/></l><r>zoology<s n="n"/></r></p></e><!-- zoology - milofyddiaeth [f.]-->
+    <e><p><l>gweddwdod<s n="n"/><s n="m"/></l><r>widowhood<s n="n"/></r></p></e><!-- widowhood - gweddwdod [m.]-->
+    <e><p><l>hydyniad<s n="n"/><s n="m"/></l><r>traction<s n="n"/></r></p></e><!-- traction - hydyniad [m.]-->
+    <e><p><l>tynder<s n="n"/><s n="m"/></l><r>tightness<s n="n"/></r></p></e><!-- tightness - tynder (tyndra) [m.]-->
+    <e><p><l>plod<s n="n"/><s n="m"/></l><r>tartan<s n="n"/></r></p></e><!-- tartan - plod [m.]-->
+    <e><p><l>twyllresymeg<s n="n"/><s n="f"/></l><r>sophism<s n="n"/></r></p></e><!-- sophism - twyllresymeg [f.]-->
+    <e><p><l>alban<s n="n"/><s n="m"/></l><r>solstice<s n="n"/></r></p></e><!-- solstice - alban [m.]-->
+    <e><p><l>meddalwch<s n="n"/><s n="m"/></l><r>softness<s n="n"/></r></p></e><!-- softness - meddalwch [m.]-->
+    <e><p><l>gwirionyn<s n="n"/><s n="m"/></l><r>simpleton<s n="n"/></r></p></e><!-- simpleton - gwirionyn [m.]-->
+    <e><p><l>llymder<s n="n"/><s n="m"/></l><r>sharpness<s n="n"/></r></p></e><!-- sharpness - llymder [m.]-->
+    <e><p><l>cysegr-ladrad<s n="n"/><s n="m"/></l><r>sacrilege<s n="n"/></r></p></e><!-- sacrilege - cysegr-ladrad [m.]-->
+    <e><p><l>rhiwbob<s n="n"/><s n="m"/></l><r>rhubarb<s n="n"/></r></p></e><!-- rhubarb - rhiwbob [m.]-->
+    <e><p><l>piwritaniaeth<s n="n"/><s n="f"/></l><r>puritanism<s n="n"/></r></p></e><!-- puritanism - piwritaniaeth [f.]-->
+    <e><p><l>offeiriadaeth<s n="n"/><s n="f"/></l><r>priesthood<s n="n"/></r></p></e><!-- priesthood - offeiriadaeth [f.]-->
+    <e><p><l>pupur<s n="n"/><s n="m"/></l><r>pepper<s n="n"/></r></p></e><!-- pepper - pupur [m.]-->
+    <e><p><l>persli<s n="n"/><s n="m"/></l><r>parsley<s n="n"/></r></p></e><!-- parsley - persli [m.]-->
+    <e><p><l>unwreigiaeth<s n="n"/><s n="f"/></l><r>monogamy<s n="n"/></r></p></e><!-- monogamy - unwreigiaeth [f.]-->
+    <e><p><l>ïon<s n="n"/><s n="m"/></l><r>ion<s n="n"/></r></p></e><!-- ion - ïon [m.]-->
+    <e><p><l>meddwdod<s n="n"/><s n="m"/></l><r>intoxication<s n="n"/></r></p></e><!-- intoxication - meddwdod [m.]-->
+    <e><p><l>anniolchgarwch<s n="n"/><s n="m"/></l><r>ingratitude<s n="n"/></r></p></e><!-- ingratitude - anniolchgarwch [m.]-->
+    <e><p><l>pruddglwyf<s n="n"/><s n="m"/></l><r>hypochondria<s n="n"/></r></p></e><!-- hypochondria - pruddglwyf [m.]-->
+    <e><p><l>dig<s n="n"/><s n="m"/></l><r>grudge<s n="n"/></r></p></e><!-- grudge - dig [m.]-->
+    <e><p><l>daeareg<s n="n"/><s n="f"/></l><r>geology<s n="n"/></r></p></e><!-- geology - daeareg [f.]-->
+    <e><p><l>eferwad<s n="n"/><s n="m"/></l><r>effervescence<s n="n"/></r></p></e><!-- effervescence - eferwad [m.]-->
+    <e><p><l>rhwymedd<s n="n"/><s n="m"/></l><r>constipation<s n="n"/></r></p></e><!-- constipation - rhwymedd [m.]-->
+    <e><p><l>gwaedoliaeth<s n="n"/><s n="f"/></l><r>consanguinity<s n="n"/></r></p></e><!-- consanguinity - gwaedoliaeth [f.]-->
+    <e><p><l>achosiaeth<s n="n"/><s n="m"/></l><r>causality<s n="n"/></r></p></e><!-- causality - achosiaeth [m.]-->
+    <e><p><l>lindys<s n="n"/><s n="m"/></l><r>caterpillar<s n="n"/></r></p></e><!-- caterpillar - lindys [m.]-->
+    <e><p><l>llysieueg<s n="n"/><s n="f"/></l><r>botany<s n="n"/></r></p></e><!-- botany - llysieueg [f.]-->
+    <e><p><l>seryddiaeth<s n="n"/><s n="f"/></l><r>astronomy<s n="n"/></r></p></e><!-- astronomy - seryddiaeth [f.]-->
+    <e><p><l>dyfalwch<s n="n"/><s n="m"/></l><r>assiduity<s n="n"/></r></p></e><!-- assiduity - dyfalwch [m.]-->
+    <e><p><l>asgetiaeth<s n="n"/><s n="f"/></l><r>asceticism<s n="n"/></r></p></e><!-- asceticism - asgetiaeth [f.]-->
+    <e><p><l>coedyddiaeth<s n="n"/><s n="f"/></l><r>arboriculture<s n="n"/></r></p></e><!-- arboriculture - coedyddiaeth [f.]-->
+    <e><p><l>burum<s n="n"/><s n="m"/></l><r>yeast<s n="n"/></r></p></e><!-- yeast - burum (burman) [m.]-->
+    <e><p><l>gwardrob<s n="n"/><s n="mf"/></l><r>wardrobe<s n="n"/></r></p></e><!-- wardrobe - gwardrob [mf.]-->
+    <e><p><l>uncorn<s n="n"/><s n="m"/></l><r>unicorn<s n="n"/></r></p></e><!-- unicorn - uncorn [m.]-->
+    <e><p><l>tyrpant<s n="n"/><s n="m"/></l><r>turpentine<s n="n"/></r></p></e><!-- turpentine - tyrpant [m.]-->
+    <e><p><l>twrban<s n="n"/><s n="m"/></l><r>turban<s n="n"/></r></p></e><!-- turban - twrban [m.]-->
+    <e><p><l>tild<s n="n"/><s n="m"/></l><r>tilde<s n="n"/></r></p></e><!-- tilde - tild [m.]-->
+    <e><p><l>uniondeb<s n="n"/><s n="m"/></l><r>straightness<s n="n"/></r></p></e><!-- straightness - uniondeb [m.]-->
+    <e><p><l>stof<s n="n"/><s n="f"/></l><r>stove<s n="n"/></r></p></e><!-- stove - stof [f.?]-->
+    <e><p><l>ysbrydegaeth<s n="n"/><s n="f"/></l><r>spiritualism<s n="n"/></r></p></e><!-- spiritualism - ysbrydegaeth [f.]-->
+    <e><p><l>hydoddedd<s n="n"/><s n="m"/></l><r>solubility<s n="n"/></r></p></e><!-- solubility - hydoddedd [m.]-->
+    <e><p><l>sgrotwm<s n="n"/><s n="m"/></l><r>scrotum<s n="n"/></r></p></e><!-- scrotum - sgrotwm [m.]-->
+    <e><p><l>saffir<s n="n"/><s n="m"/></l><r>sapphire<s n="n"/></r></p></e><!-- sapphire - saffir [m.]-->
+    <e><p><l>tywodfaen<s n="n"/><s n="m"/></l><r>sandstone<s n="n"/></r></p></e><!-- sandstone - tywodfaen [m.]-->
+    <e><p><l>coch-gam<s n="n"/><s n="f"/></l><r>robin<s n="n"/></r></p></e><!-- robin - coch-gam [f.]-->
+    <e><p><l>defodaeth<s n="n"/><s n="f"/></l><r>ritualism<s n="n"/></r></p></e><!-- ritualism - defodaeth [f.]-->
+    <e><p><l>synfyfyrdod<s n="n"/><s n="m"/></l><r>reverie<s n="n"/></r></p></e><!-- reverie - synfyfyrdod [m.]-->
+    <e><p><l>crefyddolder<s n="n"/><s n="m"/></l><r>religiousness<s n="n"/></r></p></e><!-- religiousness - crefyddolder (crefyddoldeb) [m.]-->
+    <e><p><l>adweitheg<s n="n"/><s n="f"/></l><r>reflexology<s n="n"/></r></p></e><!-- reflexology - adweitheg [f.]-->
+    <e><p><l>adroddgan<s n="n"/><s n="f"/></l><r>recitative<s n="n"/></r></p></e><!-- recitative - adroddgan [f.]-->
+    <e><p><l>llewyrch<s n="n"/><s n="m"/></l><r>radiance<s n="n"/></r></p></e><!-- radiance - llewyrch [m.]-->
+    <e><p><l>caniadaeth<s n="n"/><s n="f"/></l><r>psalmody<s n="n"/></r></p></e><!-- psalmody - caniadaeth [f.]-->
+    <e><p><l>chwydd<s n="n"/><s n="m"/></l><r>protuberance<s n="n"/></r></p></e><!-- protuberance - chwydd (chwyddi) [m.]-->
+    <e><p><l>mydryddiaeth<s n="n"/><s n="f"/></l><r>prosody<s n="n"/></r></p></e><!-- prosody - mydryddiaeth [f.]-->
+    <e><p><l>rhagarfaethiad<s n="n"/><s n="m"/></l><r>predestination<s n="n"/></r></p></e><!-- predestination - rhagarfaethiad [m.]-->
+    <e><p><l>uwd<s n="n"/><s n="m"/></l><r>porridge<s n="n"/></r></p></e><!-- porridge - uwd [m.]-->
+    <e><p><l>amldduwiaeth<s n="n"/><s n="f"/></l><r>polytheism<s n="n"/></r></p></e><!-- polytheism - amldduwiaeth [f.]-->
+    <e><p><l>barddas<s n="n"/><s n="mf"/></l><r>poetics<s n="n"/></r></p></e><!-- poetics - barddas [mf.]-->
+    <e><p><l>podiatreg<s n="n"/><s n="f"/></l><r>podiatry<s n="n"/></r></p></e><!-- podiatry - podiatreg [f.]-->
+    <e><p><l>darfodedigaeth<s n="n"/><s n="m"/></l><r>phthisis<s n="n"/></r></p></e><!-- phthisis - darfodedigaeth [m.]-->
+    <e><p><l>seinyddiaeth<s n="n"/><s n="f"/></l><r>phonology<s n="n"/></r></p></e><!-- phonology - seinyddiaeth [f.]-->
+    <e><p><l>seineg<s n="n"/><s n="f"/></l><r>phonetics<s n="n"/></r></p></e><!-- phonetics - seineg [f.]-->
+    <e><p><l>penwn<s n="n"/><s n="m"/></l><r>pennant<s n="n"/></r></p></e><!-- pennant - penwn [m.?]-->
+    <e><p><l>pedant<s n="n"/><s n="m"/></l><r>pedant<s n="n"/></r></p></e><!-- pedant - pedant [m.?]-->
+    <e><p><l>paraffin<s n="n"/><s n="m"/></l><r>paraffin<s n="n"/></r></p></e><!-- paraffin - paraffin [m.]-->
+    <e><p><l>cefndedyn<s n="n"/><s n="m"/></l><r>pancreas<s n="n"/></r></p></e><!-- pancreas - cefndedyn [m.]-->
+    <e><p><l>rhodres<s n="n"/><s n="m"/></l><r>ostentation<s n="n"/></r></p></e><!-- ostentation - rhodres [m.]-->
+    <e><p><l>mêr-helygen<s n="n"/><s n="f"/></l><r>osier<s n="n"/></r></p></e><!-- osier - mêr-helygen [f.]-->
+    <e><p><l>gorllewin<s n="n"/><s n="m"/></l><r>occident<s n="n"/></r></p></e><!-- occident - gorllewin [m.]-->
+    <e><p><l>achlysuraeth<s n="n"/><s n="f"/></l><r>occasionalism<s n="n"/></r></p></e><!-- occasionalism - achlysuraeth (achlysuriaeth) [f.]-->
+    <e><p><l>nerfwst<s n="n"/><s n="m"/></l><r>neurasthenia<s n="n"/></r></p></e><!-- neurasthenia - nerfwst [m.]-->
+    <e><p><l>gieuwst<s n="n"/><s n="f"/></l><r>neuralgia<s n="n"/></r></p></e><!-- neuralgia - gieuwst [f.]-->
+    <e><p><l>cyfriniaeth<s n="n"/><s n="f"/></l><r>mysticism<s n="n"/></r></p></e><!-- mysticism - cyfriniaeth [f.]-->
+    <e><p><l>myrr<s n="n"/><s n="m"/></l><r>myrrh<s n="n"/></r></p></e><!-- myrrh - myrr [m.]-->
+    <e><p><l>mwsg<s n="n"/><s n="m"/></l><r>musk<s n="n"/></r></p></e><!-- musk - mwsg [m.]-->
+    <e><p><l>mwmi<s n="n"/><s n="m"/></l><r>mummy<s n="n"/></r></p></e><!-- mummy - mwmi [m.?]-->
+    <e><p><l>mwsogl<s n="n"/><s n="m"/></l><r>moss<s n="n"/></r></p></e><!-- moss - mwsogl (mwswgl) [m.]-->
+    <e><p><l>marian<s n="n"/><s n="m"/></l><r>moraine<s n="n"/></r></p></e><!-- moraine - marian [m.]-->
+    <e><p><l>monsŵn<s n="n"/><s n="m"/></l><r>monsoon<s n="n"/></r></p></e><!-- monsoon - monsw+n [m.]-->
+    <e><p><l>undduwiaeth<s n="n"/><s n="f"/></l><r>monotheism<s n="n"/></r></p></e><!-- monotheism - undduwiaeth [f.]-->
+    <e><p><l>dyn gasedd<s n="n"/><s n="m"/></l><r>misanthropy<s n="n"/></r></p></e><!-- misanthropy - dyn.gasedd [m.]-->
+    <e><p><l>llwydi<s n="n"/><s n="m"/></l><r>mildew<s n="n"/></r></p></e><!-- mildew - llwydi (llwydni) [m.]-->
+    <e><p><l>trawsenwad<s n="n"/><s n="m"/></l><r>metonymy<s n="n"/></r></p></e><!-- metonymy - trawsenwad [m.]-->
+    <e><p><l>cefndedyn<s n="n"/><s n="m"/></l><r>mesentery<s n="n"/></r></p></e><!-- mesentery - cefndedyn [m.]-->
+    <e><p><l>medd<s n="n"/><s n="m"/></l><r>mead<s n="n"/></r></p></e><!-- mead - medd [m.]-->
+    <e><p><l>madrigal<s n="n"/><s n="f"/></l><r>madrigal<s n="n"/></r></p></e><!-- madrigal - madrigal [f.?]-->
+    <e><p><l>llwynwst<s n="n"/><s n="m"/></l><r>lumbago<s n="n"/></r></p></e><!-- lumbago - llwynwst [m.]-->
+    <e><p><l>turn<s n="n"/><s n="m"/></l><r>lathe<s n="n"/></r></p></e><!-- lathe - turn [m.]-->
+    <e><p><l>trythyllwch<s n="n"/><s n="m"/></l><r>lasciviousness<s n="n"/></r></p></e><!-- lasciviousness - trythyllwch [m.]-->
+    <e><p><l>anufudd-dod<s n="n"/><s n="m"/></l><r>insubordination<s n="n"/></r></p></e><!-- insubordination - anufudd-dod [m.]-->
+    <e><p><l>delfrydiaeth<s n="n"/><s n="f"/></l><r>ideality<s n="n"/></r></p></e><!-- ideality - delfrydiaeth [f.]-->
+    <e><p><l>pysgyddiaeth<s n="n"/><s n="f"/></l><r>ichthyology<s n="n"/></r></p></e><!-- ichthyology - pysgyddiaeth [f.]-->
+    <e><p><l>isop<s n="n"/><s n="m"/></l><r>hyssop<s n="n"/></r></p></e><!-- hyssop - isop [m.]-->
+    <e><p><l>archgyfrwng<s n="n"/><s n="m"/></l><r>hypermedia<s n="n"/></r></p></e><!-- hypermedia - archgyfrwng [m.]-->
+    <e><p><l>hidrostateg<s n="n"/><s n="f"/></l><r>hydrostatics<s n="n"/></r></p></e><!-- hydrostatics - hidrostateg [f.]-->
+    <e><p><l>bors<s n="n"/><s n="f"/></l><r>hernia<s n="n"/></r></p></e><!-- hernia - bors [f.]-->
+    <e><p><l>henna<s n="n"/><s n="m"/></l><r>henna<s n="n"/></r></p></e><!-- henna - henna [m.?]-->
+    <e><p><l>paganiaeth<s n="n"/><s n="f"/></l><r>heathenism<s n="n"/></r></p></e><!-- heathenism - paganiaeth [f.]-->
+    <e><p><l>sinsir<s n="n"/><s n="m"/></l><r>ginger<s n="n"/></r></p></e><!-- ginger - sinsir [m.]-->
+    <e><p><l>achyddiaeth<s n="n"/><s n="f"/></l><r>genealogy<s n="n"/></r></p></e><!-- genealogy - achyddiaeth [f.]-->
+    <e><p><l>bancr<s n="n"/><s n="m"/></l><r>fender<s n="n"/></r></p></e><!-- fender - bancr [m.]-->
+    <e><p><l>ethnyddiaeth<s n="n"/><s n="f"/></l><r>ethnology<s n="n"/></r></p></e><!-- ethnology - ethnyddiaeth [f.]-->
+    <e><p><l>ymrestriad<s n="n"/><s n="m"/></l><r>enlistment<s n="n"/></r></p></e><!-- enlistment - ymrestriad [m.]-->
+    <e><p><l>areithyddiaeth<s n="n"/><s n="f"/></l><r>elocution<s n="n"/></r></p></e><!-- elocution - areithyddiaeth [f.]-->
+    <e><p><l>digalondid<s n="n"/><s n="m"/></l><r>dejection<s n="n"/></r></p></e><!-- dejection - digalondid [m.]-->
+    <e><p><l>had-deilen<s n="n"/><s n="f"/></l><r>cotyledon<s n="n"/></r></p></e><!-- cotyledon - had-deilen [f.]-->
+    <e><p><l>ategiad<s n="n"/><s n="m"/></l><r>corroboration<s n="n"/></r></p></e><!-- corroboration - ategiad [m.]-->
+    <e><p><l>cornis<s n="n"/><s n="m"/></l><r>cornice<s n="n"/></r></p></e><!-- cornice - cornis [m.?]-->
+    <e><p><l>coriander<s n="n"/><s n="m"/></l><r>coriander<s n="n"/></r></p></e><!-- coriander - coriander [m.]-->
+    <e><p><l>prysglwyn<s n="n"/><s n="m"/></l><r>copse<s n="n"/></r></p></e><!-- copse - prysglwyn [m.?]-->
+    <e><p><l>glendid<s n="n"/><s n="m"/></l><r>cleanness<s n="n"/></r></p></e><!-- cleanness - glendid [m.]-->
+    <e><p><l>rhadlondeb<s n="n"/><s n="m"/></l><r>cheapness<s n="n"/></r></p></e><!-- cheapness - rhadlondeb (rhadlonrwydd) [m.]-->
+    <e><p><l>cathod<s n="n"/><s n="f"/></l><r>cathode<s n="n"/></r></p></e><!-- cathode - cathod [f.]-->
+    <e><p><l>gormwyth<s n="n"/><s n="m"/></l><r>catarrh<s n="n"/></r></p></e><!-- catarrh - gormwyth [m.]-->
+    <e><p><l>madruddyn<s n="n"/><s n="m"/></l><r>cartilage<s n="n"/></r></p></e><!-- cartilage - madruddyn [m.]-->
+    <e><p><l>caffe<s n="n"/><s n="m"/></l><r>cafe<s n="n"/></r></p></e><!-- cafe - caffe [m.]-->
+    <e><p><l>chwyddiaeth<s n="n"/><s n="f"/></l><r>bombast<s n="n"/></r></p></e><!-- bombast - chwyddiaeth [f.]-->
+    <e><p><l>pyg<s n="n"/><s n="m"/></l><r>bitumen<s n="n"/></r></p></e><!-- bitumen - pyg [m.]-->
+    <e><p><l>baritôn<s n="n"/><s n="m"/></l><r>baritone<s n="n"/></r></p></e><!-- baritone - baritôn [m.]-->
+    <e><p><l>triagl<s n="n"/><s n="m"/></l><r>balsam<s n="n"/></r></p></e><!-- balsam - triagl [m.]-->
+    <e><p><l>balisteg<s n="n"/><s n="f"/></l><r>ballistics<s n="n"/></r></p></e><!-- ballistics - balisteg [f.]-->
+    <e><p><l>moelni<s n="n"/><s n="m"/></l><r>baldness<s n="n"/></r></p></e><!-- baldness - moelni [m.]-->
+    <e><p><l>bacterioleg<s n="n"/><s n="f"/></l><r>bacteriology<s n="n"/></r></p></e><!-- bacteriology - bacterioleg [f.]-->
+    <e><p><l>afocado<s n="n"/><s n="m"/></l><r>avocado<s n="n"/></r></p></e><!-- avocado - afocado [m.?]-->
+    <e><p><l>atomiaeth<s n="n"/><s n="f"/></l><r>atomism<s n="n"/></r></p></e><!-- atomism - atomiaeth [f.]-->
+    <e><p><l>anis<s n="n"/><s n="m"/></l><r>anise<s n="n"/></r></p></e><!-- anise - anis [m.?]-->
+    <e><p><l>anffyddiaeth<s n="n"/><s n="f"/></l><r>agnosticism<s n="n"/></r></p></e><!-- agnosticism - anffyddiaeth [f.]-->
+    <e><p><l>morlys<s n="n"/><s n="m"/></l><r>admiralty<s n="n"/></r></p></e><!-- admiralty - morlys [m.]-->
+
+    <e><p><l>tu<b/>allan<s n="n"/><s n="GD"/></l><r>outside<s n="n"/></r></p></e>
+    <e><p><l>arian<b/>breiniol<s n="n"/><s n="GD"/></l><r>currency<s n="n"/></r></p></e>
+    <e><p><l>mabwysiad<s n="n"/><s n="m"/></l><r>adoption<s n="n"/></r></p></e>
+    <e><p><l>persbectif<s n="n"/><s n="GD"/></l><r>perspective<s n="n"/></r></p></e>
+    <e><p><l>teledu<s n="n"/><s n="m"/></l><r>television<s n="n"/></r></p></e>
+    <e><p><l>arwybod<s n="n"/><s n="m"/></l><r>awareness<s n="n"/></r></p></e>
+    <e><p><l>atebolrwydd<s n="n"/><s n="m"/></l><r>liability<s n="n"/></r></p></e>
+    <e><p><l>adferiad<s n="n"/><s n="m"/></l><r>recovery<s n="n"/></r></p></e>
+    <e><p><l>Dydd Gwener<s n="n"/><s n="m"/></l><r>Friday<s n="n"/></r></p></e>
+    <e><p><l>Dydd Llun<s n="n"/><s n="m"/></l><r>Monday<s n="n"/></r></p></e>
+    <e><p><l>ymreolaeth<s n="n"/><s n="f"/></l><r>autonomy<s n="n"/></r></p></e>
+    <e><p><l>syndod<s n="n"/><s n="m"/></l><r>surprise<s n="n"/></r></p></e>
+    <e><p><l>Dydd Mercher<s n="n"/><s n="m"/></l><r>Wednesday<s n="n"/></r></p></e>
+    <e><p><l>cymod<s n="n"/><s n="GD"/></l><r>reconciliation<s n="n"/></r></p></e>
+    <e><p><l>llwyth<b/>llong<s n="n"/><s n="GD"/></l><r>freight<s n="n"/></r></p></e>
+    <e><p><l>awyrborth<s n="n"/><s n="m"/></l><r>airport<s n="n"/></r></p></e>
+    <e><p><l>cloadur<s n="n"/><s n="m"/></l><r>closure<s n="n"/></r></p></e>
+    <e><p><l>Dydd Mawrth<s n="n"/><s n="m"/></l><r>Tuesday<s n="n"/></r></p></e>
+    <e><p><l>diolchgarwch<s n="n"/><s n="m"/></l><r>gratitude<s n="n"/></r></p></e>
+    <e><p><l>optimistiaeth<s n="n"/><s n="f"/></l><r>optimism<s n="n"/></r></p></e>
+    <e><p><l>trawsgyweiriad<s n="n"/><s n="m"/></l><r>transposition<s n="n"/></r></p></e>
+    <e><p><l>diarfogiad<s n="n"/><s n="m"/></l><r>disarmament<s n="n"/></r></p></e>
+    <e><p><l>bufrechiad<s n="n"/><s n="m"/></l><r>vaccination<s n="n"/></r></p></e>
+    <e><p><l>dynolryw<s n="n"/><s n="f"/></l><r>mankind<s n="n"/></r></p></e>
+    <e><p><l>propaganda<s n="n"/><s n="f"/></l><r>propaganda<s n="n"/></r></p></e>
+    <e><p><l>cytunedd<s n="n"/><s n="m"/></l><r>compatibility<s n="n"/></r></p></e>
+    <e><p><l>reis<s n="n"/><s n="m"/></l><r>rice<s n="n"/></r></p></e>
+    <e><p><l>puteindra<s n="n"/><s n="m"/></l><r>prostitution<s n="n"/></r></p></e>
+    <e><p><l>diffyndollaeth<s n="n"/><s n="f"/></l><r>protectionism<s n="n"/></r></p></e>
+    <e><p><l>cenedlaetholdeb<s n="n"/><s n="m"/></l><r>nationalism<s n="n"/></r></p></e>
+    <e><p><l>clo marw<s n="n"/><s n="GD"/></l><r>deadlock<s n="n"/></r></p></e>
+    <e><p><l>dilema<s n="n"/><s n="f"/></l><r>dilemma<s n="n"/></r></p></e>
+    <e><p><l>personoliaeth<s n="n"/><s n="f"/></l><r>personality<s n="n"/></r></p></e>
+    <e><p><l>carchariad<s n="n"/><s n="m"/></l><r>imprisonment<s n="n"/></r></p></e>
+    <e><p><l>carreg filltir<s n="n"/><s n="m"/></l><r>milestone<s n="n"/></r></p></e>
+    <e><p><l>dibynnedd<s n="n"/><s n="f"/></l><r>reliability<s n="n"/></r></p></e>
+    <e><p><l>achubiad<s n="n"/><s n="m"/></l><r>rescue<s n="n"/></r></p></e>
+    <e><p><l>feirws<s n="n"/><s n="m"/></l><r>virus<s n="n"/></r></p></e>
+    <e><p><l>arian bygwth<s n="n"/><s n="GD"/></l><r>blackmail<s n="n"/></r></p></e>
+    <e><p><l>Dydd Sadwrn<s n="n"/><s n="m"/></l><r>Saturday<s n="n"/></r></p></e>
+    <e><p><l>cyfalafiaeth<s n="n"/><s n="f"/></l><r>capitalism<s n="n"/></r></p></e>
+    <e><p><l>marwoldeb<s n="n"/><s n="m"/></l><r>mortality<s n="n"/></r></p></e>
+    <e><p><l>edmygedd<s n="n"/><s n="m"/></l><r>admiration<s n="n"/></r></p></e>
+    <e><p><l>unffurfiaeth<s n="n"/><s n="f"/></l><r>uniformity<s n="n"/></r></p></e>
+    <e><p><l>gwarchae<s n="n"/><s n="m"/></l><r>blockade<s n="n"/></r></p></e>
+    <e><p><l>starts<s n="n"/><s n="m"/></l><r>starch<s n="n"/></r></p></e>
+    <e><p><l>parlys<s n="n"/><s n="m"/></l><r>paralysis<s n="n"/></r></p></e>
+    <e><p><l>termeg<s n="n"/><s n="f"/></l><r>terminology<s n="n"/></r></p></e>
+    <e><p><l>cywirdeb<s n="n"/><s n="m"/></l><r>accuracy<s n="n"/></r></p></e>
+    <e><p><l>rhyddhad<s n="n"/><s n="m"/></l><r>liberation<s n="n"/></r></p></e>
+    <e><p><l>caledi<s n="n"/><s n="m"/></l><r>hardship<s n="n"/></r></p></e>
+    <e><p><l>gwareiddiad<s n="n"/><s n="m"/></l><r>civilisation<s n="n"/></r></p></e>
+    <e><p><l>perswâd<s n="n"/><s n="m"/></l><r>persuasion<s n="n"/></r></p></e>
+    <e><p><l>cywarch<s n="n"/><s n="f"/></l><r>hemp<s n="n"/></r></p></e>
+
+    <e><p><l>amhleidiaeth<s n="n"/><s n="f"/></l><r>impartiality<s n="n"/></r></p></e>
+    <e><p><l>gelyniaeth<s n="n"/><s n="f"/></l><r>hostility<s n="n"/></r></p></e>
+    <e><p><l>comiwnyddiaeth<s n="n"/><s n="f"/></l><r>communism<s n="n"/></r></p></e>
+    <e><p><l>dynameg<s n="n"/><s n="f"/></l><r>dynamics<s n="n"/></r></p></e>
+    <e><p><l>daioni<s n="n"/><s n="m"/></l><r>goodness<s n="n"/></r></p></e>
+    <e><p><l>sylweddoliad<s n="n"/><s n="m"/></l><r>realisation<s n="n"/></r></p></e>
+
+
+
+
     <e><p><l>cysur<s n="n"/><s n="m"/></l><r>comfort<s n="n"/></r></p></e>
     <e><p><l>ffermwr<s n="n"/><s n="m"/></l><r>farmer<s n="n"/></r></p></e>
     <e><p><l>goblygiad<s n="n"/><s n="m"/></l><r>implication<s n="n"/></r></p></e>
@@ -8866,6 +9248,8 @@
     <!-- Proper names -->
       <!-- Organisations -->
 
+    <e><p><l>Llywodraeth Cynulliad Cymru<s n="np"/></l><r>Welsh Assembly Government<s n="np"/></r></p></e>
+    <e><p><l>Llywodraeth y Cynulliad<s n="np"/></l><r>Assembly Government<s n="np"/></r></p></e>
     <e><p><l>Cymdeithas yr Iaith Gymraeg<s n="np"/></l><r>Cymdeithas yr Iaith Gymraeg<s n="np"/></r></p></e>
     <e><p><l>Cymdeithas yr Iaith<s n="np"/></l><r>Cymdeithas yr Iaith<s n="np"/></r></p></e>
     <e><p><l>Cymdeithas<s n="np"/></l><r>Cymdeithas<s n="np"/></r></p></e>
