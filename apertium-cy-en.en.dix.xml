@@ -9019,6 +9019,7 @@
     <e lm="the most"><p><l>the<b/>most</l><r>the<s n="det"/><s n="def"/><s n="sp"/><j/>most<s n="preadv"/></r></p></e>
     <e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
     <e lm="including"><i>including</i><par n="expensive__adj"/></e>
+    <e lm="th"><i>th</i><par n="expensive__adj"/></e> <!-- This is as in 19th -->
     <e lm="far-reaching"><i>far-reaching</i><par n="expensive__adj"/></e>
     <e lm="second"><i>second</i><par n="expensive__adj"/></e>
     <e lm="actual"><i>actual</i><par n="expensive__adj"/></e>
