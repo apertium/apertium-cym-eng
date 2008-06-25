@@ -41,6 +41,7 @@
       </action>
     </rule>
 
+<!--
     <rule comment="REGLA: SV SN">
       <pattern>
         <pattern-item n="SV"/>
@@ -63,7 +64,6 @@
       </action>
     </rule>
 
-    <!--                   V  S  O -->
     <rule comment="REGLA: SV SN SN">
       <pattern>
         <pattern-item n="SV"/>
@@ -92,7 +92,7 @@
         </out>
       </action>
     </rule>
-
+-->
 
   </section-rules>
 </interchunk>
