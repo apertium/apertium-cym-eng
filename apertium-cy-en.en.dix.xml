@@ -9071,6 +9071,7 @@
     <e lm="true"><i>true</i><par n="nice/__adj"/></e>
     <e lm="university"><i>university</i><par n="expensive__adj"/></e>
     <e lm="varied"><i>varied</i><par n="expensive__adj"/></e>
+    <e lm="amazed"><i>amazed</i><par n="expensive__adj"/></e>
     <e lm="agreed"><i>agreed</i><par n="expensive__adj"/></e>
     <e lm="west"><i>west</i><par n="expensive__adj"/></e>
     <e lm="east"><i>east</i><par n="expensive__adj"/></e>
@@ -16883,6 +16884,7 @@
     <e lm="defence"><i>defence</i><par n="house__n"/></e>
     <e r="LR"><p><l>defense</l><r>defence</r></p><par n="house__n"/></e>
     <e lm="person, people"><i>p</i><par n="p/erson__n"/></e>
+    <e lm="people"><i>people</i><par n="house__n"/></e> <!-- as in 'people', 'peoples' of the world -->
     <e lm="occupational accident"><i>occupational<b/>accident</i><par n="house__n"/></e>
     <e lm="cash balance"><i>cash<b/>balance</i><par n="house__n"/></e>
     <e lm="work accident"><i>work<b/>accident</i><par n="house__n"/></e>
