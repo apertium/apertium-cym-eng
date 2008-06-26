@@ -36,6 +36,8 @@
       <cat-item tags="vblex.plu.*"/>
       <cat-item tags="vblex.prs.*"/>
 
+      <cat-item tags="vbser.cni.*"/>
+      <cat-item tags="vbser.fut.*"/>
       <cat-item tags="vbser.imp.*"/>
       <cat-item tags="vbser.inf.*"/>
       <cat-item tags="vbser.past.*"/>
