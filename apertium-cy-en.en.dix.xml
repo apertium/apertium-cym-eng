@@ -15434,6 +15434,7 @@
     <e lm="wife"><i>wi</i><par n="li/fe__n"/></e>
     <e lm="executive"><i>executive</i><par n="house__n"/></e>
     <e lm="tax"><i>tax</i><par n="access__n"/></e>
+    <e lm="ship's compass"><i>ship's<b/>compass</i><par n="access__n"/></e>
     <e lm="bill"><i>bill</i><par n="house__n"/></e>
     <e lm="member"><i>member</i><par n="house__n"/></e>
     <e lm="share"><i>share</i><par n="house__n"/></e>
@@ -15460,6 +15461,7 @@
     <e lm="career"><i>career</i><par n="house__n"/></e>
     <e lm="child"><i>child</i><par n="child__n"/></e>
     <e lm="loss"><i>loss</i><par n="access__n"/></e>
+    <e lm="census"><i>census</i><par n="access__n"/></e>
     <e lm="idea"><i>idea</i><par n="house__n"/></e>
     <e lm="damage"><i>damage</i><par n="house__n"/></e>
     <e lm="process"><i>process</i><par n="access__n"/></e>
@@ -15601,6 +15603,7 @@
     <e lm="opening"><i>opening</i><par n="house__n"/></e>
     <e lm="station"><i>station</i><par n="house__n"/></e>
     <e lm="committee"><i>committee</i><par n="house__n"/></e>
+    <e lm="joint committee"><i>joint<b/>committee</i><par n="house__n"/></e>
     <e lm="hospital"><i>hospital</i><par n="house__n"/></e>
     <e lm="light"><i>light</i><par n="house__n"/></e>
     <e lm="husband"><i>husband</i><par n="house__n"/></e>
@@ -15619,6 +15622,7 @@
     <e lm="research"><i>research</i><par n="access__n__unc"/></e>
     <e lm="bit"><i>bit</i><par n="house__n"/></e>
     <e lm="organisation"><i>organisation</i><par n="house__n"/></e>
+    <e lm="serialisation"><i>serialisation</i><par n="house__n"/></e>
     <e lm="naturalisation"><i>naturalisation</i><par n="house__n"/></e>
     <e lm="band"><i>band</i><par n="house__n"/></e>
     <e lm="competition"><i>competition</i><par n="house__n"/></e>
@@ -28420,6 +28424,7 @@
 
     <e lm="squeeze"><i>squeez</i><par n="liv/e__vblex"/></e>
     <e lm="recognise"><i>recognis</i><par n="liv/e__vblex"/></e>
+    <e lm="summarise"><i>summarise</i><par n="liv/e__vblex"/></e>
     <e lm="gaze"><i>gaz</i><par n="liv/e__vblex"/></e>
     <e lm="seise"><i>seis</i><par n="liv/e__vblex"/></e>
     <e lm="realise"><i>realis</i><par n="liv/e__vblex"/></e>
