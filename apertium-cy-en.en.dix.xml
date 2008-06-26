@@ -694,22 +694,10 @@
       </e>
     </pardef>
     <pardef n="other__det">
-      <e r="LR">
+      <e>
         <p>
           <l/>
           <r><s n="det"/><s n="ind"/><s n="sp"/></r>
-        </p>
-      </e>
-      <e r="RL">
-        <p>
-          <l/>
-          <r><s n="det"/><s n="ind"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e r="RL">
-        <p>
-          <l/>
-          <r><s n="det"/><s n="ind"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -15168,6 +15156,7 @@
     <e lm="out of"><i>out<b/>of</i><par n="at__pr"/></e>
     <e lm="out"><i>out</i><par n="at__pr"/></e>
     <e lm="outside"><i>outside</i><par n="at__pr"/></e>
+    <e lm="beside"><i>beside</i><par n="at__pr"/></e>
     <e lm="over"><i>over</i><par n="at__pr"/></e>
     <e lm="per"><i>per</i><par n="at__pr"/></e>
     <e lm="plus"><i>plus</i><par n="at__pr"/></e>
@@ -27019,7 +27008,6 @@
     <e lm="rake"><i>rake</i><par n="house__n"/></e>
     <e lm="angler"><i>angler</i><par n="house__n"/></e>
     <e lm="scraper"><i>scraper</i><par n="house__n"/></e>
-    <e lm="rake"><i>rake</i><par n="house__n"/></e>
     <e lm="scraper"><i>scraper</i><par n="house__n"/></e>
     <e lm="bat"><i>bat</i><par n="house__n"/></e>
     <e lm="suburb"><i>suburb</i><par n="house__n"/></e>
@@ -28871,6 +28859,7 @@
     <e lm="coordinate"><i>coordinat</i> <par n="liv/e__vblex"/></e>
     <e lm="sew"><i>sew</i> <par n="hew__vblex"/></e>
     <e lm="bake"><i>bak</i> <par n="liv/e__vblex"/></e>
+    <e lm="rake"><i>rak</i> <par n="liv/e__vblex"/></e>
     <e lm="hatch"><i>hatch</i> <par n="approach__vblex"/></e>
     <e lm="cross"><i>cross</i> <par n="approach__vblex"/></e>
     <e lm="criticise"><i>criticis</i> <par n="liv/e__vblex"/></e>

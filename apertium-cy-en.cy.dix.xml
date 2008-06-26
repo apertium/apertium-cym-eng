@@ -660,7 +660,17 @@
       </e>
     </pardef>
 
-    <!-- Personal pronouns -->
+    <!-- Pronouns -->
+
+    <pardef n="unrhywun__prn">
+      <e>
+        <p>
+          <l/>
+          <r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="prsubj__prn">
       <e>
         <p>
@@ -2963,20 +2973,12 @@
       <e>
         <p>
           <l/>
-          
-            
-            
-            
           <r><s n="n"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ion</l>
-          
-            
-            
-            
           <r><s n="n"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
@@ -2985,13 +2987,7 @@
       <e>
         <p>
           <l/>
-          <r><s n="n"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l/>
-          <r><s n="n"/><s n="f"/><s n="pl"/></r>
+          <r><s n="n"/><s n="f"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -2999,20 +2995,12 @@
       <e>
         <p>
           <l/>
-          
-            
-            
-            
           <r><s n="n"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>iau</l>
-          
-            
-            
-            
           <r><s n="n"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
@@ -3063,20 +3051,12 @@
       <e>
         <p>
           <l/>
-          
-            
-            
-            
           <r><s n="n"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>iau</l>
-          
-            
-            
-            
           <r><s n="n"/><s n="f"/><s n="pl"/></r>
         </p>
       </e>
@@ -26222,357 +26202,355 @@
       </e>
     </pardef>
 
-    <pardef n="b/od__vblex">
+    <pardef n="b/od__vbser">
       <e>
         <p>
           <l>od</l>
-          <r>od<s n="vblex"/><s n="inf"/></r>
+          <r>od<s n="vbser"/><s n="inf"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ydd</l>
-          <r>od<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ydded</l>
-          <r>od<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="imp"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ed</l>
-          <r>od<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="imp"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>id</l>
-          <r>od<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="imp"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>yddwn</l>
-          <r>od<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>yddwch</l>
-          <r>od<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>yddent</l>
-          <r>od<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="imp"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ydder</l>
-          <r>od<s n="vblex"/><s n="imp"/><s n="impers"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="imp"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oeddwn</l>
-          <r>od<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="pii"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oeddit</l>
-          <r>od<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oedd</l>
-          <r>od<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ydoedd</l>
-          <r>od<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oeddem</l>
-          <r>od<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oeddech</l>
-          <r>od<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oeddynt</l>
-          <r>od<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oeddent</l>
-          <r>od<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oeddid</l>
-          <r>od<s n="vblex"/><s n="pii"/><s n="impers"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="pii"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ûm</l>
-          <r>od<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>uost</l>
-          <r>od<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="past"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>u</l>
-          <r>od<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>uom</l>
-          <r>od<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="past"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>uoch</l>
-          <r>od<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="past"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>uont</l>
-          <r>od<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>uwyd</l>
-          <r>od<s n="vblex"/><s n="past"/><s n="impers"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="past"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>uaswn</l>
-          <r>od<s n="vblex"/><s n="plu"/><s n="p1"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="plu"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>uasit</l>
-          <r>od<s n="vblex"/><s n="plu"/><s n="p2"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="plu"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>uasai</l>
-          <r>od<s n="vblex"/><s n="plu"/><s n="p3"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="plu"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>uasem</l>
-          <r>od<s n="vblex"/><s n="plu"/><s n="p1"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="plu"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>uasech</l>
-          <r>od<s n="vblex"/><s n="plu"/><s n="p2"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="plu"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>uasent</l>
-          <r>od<s n="vblex"/><s n="plu"/><s n="p3"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="plu"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>uasid</l>
-          <r>od<s n="vblex"/><s n="plu"/><s n="impers"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="plu"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ydwyf</l>
-          <r>od<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>wyf</l>
-          <r>od<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ydwyt</l>
-          <r>od<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>wyt</l>
-          <r>od<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ae</l>
-          <r>od<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <!-- check the restrictions -->
       <e r="LR">
         <p>
           <l>ydyw</l>
-          <r>od<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>yw</l>
-          <r>od<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ydym</l>
-          <r>od<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ŷm</l>
-          <r>od<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ydych</l>
-          <r>od<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ych</l>
-          <r>od<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ydynt</l>
-          <r>od<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aent</l>
-          <r>od<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ŷnt</l>
-          <r>od<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ydys</l>
-          <r>od<s n="vblex"/><s n="pres"/><s n="impers"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="pres"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>wyf</l>
-          <r>od<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="prs"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>yddych</l>
-          <r>od<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="prs"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>yddo</l>
-          <r>od<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>od</l>
-          <r>od<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
+          <r>od<s n="vbser"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>yddom</l>
-          <r>od<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ôm</l>
-          <r>od<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>yddoch</l>
-          <r>od<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="prs"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ch</l>
-          <r>od<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="prs"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>yddont</l>
-          <r>od<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="prs"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ônt</l>
-          <r>od<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="prs"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ydder</l>
-          <r>od<s n="vblex"/><s n="prs"/><s n="impers"/><s n="pl"/></r>
+          <r>od<s n="vbser"/><s n="prs"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
+
+
+
+
     <pardef n="adnab/od__vblex">
       <e>
         <p>
@@ -46503,6 +46481,8 @@
   <section id="main" type="standard">
     <e lm="mutations"><i/><par n="mutations"/></e>
     <e lm="pronoms personals de subjecte"><i/><par n="prsubj__prn"/></e>
+    <e lm="unrhywun"><i>unrhywun</i><par n="unrhywun__prn"/></e>
+    <e lm="rhywun"><i>rhywun</i><par n="unrhywun__prn"/></e>
 
     <e lm="ar"><i/><par n="/ar__pr"/></e>
     <e lm="am"><i/><par n="/am__pr"/></e>
@@ -51807,7 +51787,9 @@
     <e lm="blysu"><par n="initial-b"/><i>lys</i><par n="aberth/u__vblex"/></e>
     <e lm="bochio"><par n="initial-b"/><i>ochi</i><par n="achlysur/o__vblex"/></e>
     <e lm="bocsio"><par n="initial-b"/><i>ocsi</i><par n="achlysur/o__vblex"/></e>
-    <e lm="bod"><par n="initial-b"/><i/><par n="b/od__vblex"/></e>
+
+    <e lm="bod"><par n="initial-b"/><i/><par n="b/od__vbser"/></e>
+
     <e lm="boddhau"><par n="initial-b"/><i>oddh</i><par n="adfywh/au__vblex"/></e>
     <e lm="boddi"><par n="initial-b"/><i>odd</i><par n="achos/i__vblex"/></e>
     <e lm="boddloni"><par n="initial-b"/><i>oddlon</i><par n="achos/i__vblex"/></e>
