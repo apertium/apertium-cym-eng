@@ -31293,13 +31293,61 @@
     <e lm="property"><i>propert</i><par n="bab/y__n"/></e>
     <e lm="deputy"><i>deput</i><par n="bab/y__n"/></e>
 
-    <e lm="magazine about poetry"><i>magazine<b/>about<b/>poetr</i><par n="bab/y__n"/></e>
-    <e lm="day before yesterday"><i>day<b/>before<b/>yesterda</i><par n="bab/y__n"/></e>
-    <e lm="breach of contract"><i>breach<b/>of<b/>contract</i><par n="house__n"/></e>
-    <e lm="piece of furniture"><i>piece<b/>of<b/>furniture</i><par n="house__n"/></e>
-    <e lm="a head of cattle"><i>a<b/>head<b/>of<b/>cattle</i><par n="house__n"/></e>
-    <e lm="grain of sand"><i>grain<b/>of<b/>sand</i><par n="house__n"/></e>
-    <e lm="state of mind"><i>state<b/>of<b/>mind</i><par n="house__n"/></e>
+    <e lm="magazine about poetry">
+        <i>magazine</i>
+	<par n="house__n"/>
+	<p>
+	  <l><b/>about<b/>poetry</l>
+	  <r><g><b/>about<b/>poetry</l>
+	</p>
+    </e>
+
+    <e lm="day before yesterday">
+        <i>day</i>
+	<par n="house__n"/>
+	<p>
+	  <l><b/>before<b/>yesterday</l>
+	  <r><g><b/>before<b/>yesterday</l>
+	</p>
+    </e>
+
+    <e lm="breach of contract">
+        <i>board</i>
+	<par n="house__n"/>
+	<p>
+	  <l><b/>of<b/>contract</l>
+	  <r><g><b/>of<b/>contract</l>
+	</p>
+    </e>
+
+    <e lm="piece of furniture">
+        <i>piece</i>
+	<par n="house__n"/>
+	<p>
+	  <l><b/>of<b/>furniture</l>
+	  <r><g><b/>of<b/>furniture</l>
+	</p>
+    </e>
+
+    <e lm="grain of sand">
+        <i>grain</i>
+	<par n="house__n"/>
+	<p>
+	  <l><b/>of<b/>sand</l>
+	  <r><g><b/>of<b/>sand</l>
+	</p>
+    </e>
+
+    <e lm="state of mind">
+        <i>state</i>
+	<par n="house__n"/>
+	<p>
+	  <l><b/>of<b/>mind</l>
+	  <r><g><b/>of<b/>mind</l>
+	</p>
+    </e>
+
+    <e lm="head of cattle"><i>head<b/>of<b/>cattle</i><par n="house__n"/></e>
   </section>
   <section id="final" type="inconditional">
     <e>
