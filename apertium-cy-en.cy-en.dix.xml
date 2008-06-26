@@ -4984,7 +4984,7 @@
     <e><p><l>petryal<s n="adj"/></l><r>rectangular<s n="adj"/></r></p></e>
     <e><p><l>pinc<s n="adj"/></l><r>pink<s n="adj"/></r></p></e>
     <e><p><l>pitw<s n="adj"/></l><r>tiny<s n="adj"/></r></p></e>
-    <e><p><l>plaen<s n="adj"/></l><r>plain<s n="adj"/></r></p></e>
+    <e><p><l>plaen<s n="adj"/></l><r>plain<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>planedig<s n="adj"/></l><r>embedded<s n="adj"/></r></p></e>
     <e><p><l>pleserus<s n="adj"/></l><r>pleasant<s n="adj"/></r></p></e>
     <e><p><l>pluog<s n="adj"/></l><r>feathered<s n="adj"/></r></p></e>
@@ -8432,7 +8432,7 @@
     <e><p><l>trwco<s n="vblex"/></l><r>exchange<s n="vblex"/></r></p></e>
     <e><p><l>trwmpo<s n="vblex"/></l><r>trump<s n="vblex"/></r></p></e>
     <e><p><l>trwsio<s n="vblex"/></l><r>mend<s n="vblex"/></r></p></e>
-    <e><p><l>trwyddedu<s n="vblex"/></l><r>licence<s n="vblex"/></r></p></e>
+    <e><p><l>trwyddedu<s n="vblex"/></l><r>license<s n="vblex"/></r></p></e>
     <e><p><l>trwyno<s n="vblex"/></l><r>nose<s n="vblex"/></r></p></e>
     <e><p><l>trwytho<s n="vblex"/></l><r>saturate<s n="vblex"/></r></p></e>
     <e><p><l>trybaeddu<s n="vblex"/></l><r>besmirch<s n="vblex"/></r></p></e>
