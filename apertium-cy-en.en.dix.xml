@@ -9015,6 +9015,7 @@
     <e lm="striking"><i>striking</i><par n="expensive__adj"/></e>
     <e lm="irate"><i>irate</i><par n="expensive__adj"/></e>
     <e lm="available"><i>available</i><par n="expensive__adj"/></e>
+    <e lm="agreeable"><i>agreeable</i><par n="expensive__adj"/></e>
     <e lm="average"><i>average</i><par n="expensive__adj"/></e>
     <e lm="business"><i>business</i><par n="expensive__adj"/></e>
     <e lm="close"><i>close</i><par n="nice/__adj"/></e>
@@ -9393,6 +9394,7 @@
     <e lm="electrolytic"><i>electrolytic</i><par n="expensive__adj"/></e>
     <e lm="preliminary"><i>preliminary</i><par n="expensive__adj"/></e>
     <e lm="supposed"><i>supposed</i><par n="expensive__adj"/></e>
+    <e lm="centralised"><i>centralised</i><par n="expensive__adj"/></e>
     <e lm="secular"><i>secular</i><par n="expensive__adj"/></e>
     <e lm="imprescriptible"><i>imprescriptible</i><par n="expensive__adj"/></e>
     <e lm="epistemological"><i>epistemological</i><par n="expensive__adj"/></e>
@@ -10048,6 +10050,8 @@
     <e lm="imprecise"><i>imprecise</i><par n="expensive__adj"/></e>
     <e lm="aberrant"><i>aberrant</i><par n="expensive__adj"/></e>
     <e lm="permissible"><i>permissible</i><par n="expensive__adj"/></e>
+    <e lm="assistant"><i>assistant</i><par n="expensive__adj"/></e>
+    <e lm="permissive"><i>permissive</i><par n="expensive__adj"/></e>
     <e lm="thrilling"><i>thrilling</i><par n="expensive__adj"/></e>
     <e lm="Babylonian"><i>Babylonian</i><par n="expensive__adj"/></e>
     <e lm="explosive"><i>explosive</i><par n="expensive__adj"/></e>
@@ -30195,6 +30199,7 @@
     <e lm="(as) wise"><i>(as)<b/>wise</i><par n="expensive__adj"/></e>
     <e lm="atrocious"><i>atrocious</i><par n="expensive__adj"/></e>
     <e lm="bankrupt"><i>bankrupt</i><par n="expensive__adj"/></e>
+    <e lm="corrupt"><i>corrupt</i><par n="expensive__adj"/></e>
     <e lm="believing"><i>believing</i><par n="expensive__adj"/></e>
     <e lm="billionth"><i>billionth</i><par n="expensive__adj"/></e>
     <e lm="bimonthly"><i>bimonthly</i><par n="expensive__adj"/></e>
