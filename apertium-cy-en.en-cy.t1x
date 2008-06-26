@@ -76,6 +76,7 @@
       <attr-item tags="nt"/>
     </def-attr>
   </section-def-attrs>
+
   <section-def-vars>
     <def-var n="numero"/>
     <def-var n="genere"/>
@@ -83,6 +84,19 @@
     <def-var n="caseFirstWord"/>
     <def-var n="EOS"/>
   </section-def-vars>
+
+  <section-def-lists>
+     <def-list n="prepos_adjs">
+      <list-item v="hen"/>
+      <list-item v="ambell"/>
+      <list-item v="pob"/>
+      <list-item v="prif"/>
+      <list-item v="holl"/>
+      <list-item v="cryn"/>
+     </def-list>
+  </section-def-lists>
+
+
   <section-def-macros>
     <def-macro n="firstWord" npar="1">
       <choose>
@@ -240,6 +254,54 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="2" side="tl" part="lem"/>
+                <list n="prepos_adjs"/>
+              </in>
+            </test>
+            <out>
+              <chunk name="det_adj_nom" case="caseFirstWord">
+                <tags>
+                  <tag>
+                    <lit-tag v="SN"/>
+                  </tag>
+                  <tag>
+                    <clip pos="3" side="tl" part="gen"/>
+                  </tag>
+                  <tag>
+                    <clip pos="3" side="tl" part="nbr"/>
+                  </tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="whole"/>
+                </lu>
+                <b/>
+                <lu>
+                  <clip pos="2" side="tl" part="lem"/>
+                  <clip pos="2" side="tl" part="a_adj"/>
+                  <clip pos="2" side="tl" part="deg"/>
+                  <clip pos="3" side="tl" part="nbr" link-to="3"/>
+                </lu>
+                <b/>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh"/>
+                  <clip pos="3" side="tl" part="a_nom"/>
+                  <clip pos="3" side="tl" part="gen" link-to="2"/>
+                  <clip pos="3" side="tl" part="nbr" link-to="3"/>
+                  <clip pos="3" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+            <let>
+              <var n="caseFirstWord"/>
+              <lit v="aa"/>
+            </let>
+          </when>
+
+          <otherwise>
             <out>
               <chunk name="det_nom_adj" case="caseFirstWord">
                 <tags>
@@ -278,6 +340,8 @@
               <var n="caseFirstWord"/>
               <lit v="aa"/>
             </let>
+          </otherwise>
+        </choose>
       </action>
     </rule>
 
