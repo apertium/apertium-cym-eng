@@ -100,6 +100,7 @@
     <sdef n="pron"/>
     <sdef n="apos"    c="Apostrophe"/>
     <sdef n="abbr"    c="Abbreviation"/>
+    <sdef n="part"    c="Particle"/>
 
     <sdef n="r1"/>
     <sdef n="s1"/>
