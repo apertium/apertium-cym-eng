@@ -4,38 +4,39 @@
   <!-- Symbol definitions -->
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-cy-en.symbols.xml"/>
 
+ 
   <!-- Main dictionary section -->
   <section id="main" type="standard">
     <!-- Determiners -->
-
+ 
     <e><p><l>yr<s n="det"/></l><r>the<s n="det"/></r></p></e>
-
+ 
     <e r="LR"><p><l>yma<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="ND"/></r></p></e>
     <e r="RL"><p><l>yma<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>yma<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
-
+ 
     <e r="LR"><p><l>yna<s n="det"/><s n="dem"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="ND"/></r></p></e>
     <e r="RL"><p><l>yna<s n="det"/><s n="dem"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>yna<s n="det"/><s n="dem"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
-
-
+ 
+ 
     <e><p><l>hon<s n="adj"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
     <e><p><l>unrhyw<s n="adj"/></l><r>any<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
-
+ 
     <e><p><l>fy<s n="det"/><s n="pos"/></l><r>my<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>dy<s n="det"/><s n="pos"/></l><r>your<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>ei<s n="det"/><s n="pos"/></l><r>his<s n="det"/><s n="pos"/></r></p></e>
-
+ 
     <e><p><l>ein<s n="det"/><s n="pos"/></l><r>our<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>eich<s n="det"/><s n="pos"/></l><r>your<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>eu<s n="det"/><s n="pos"/></l><r>their<s n="det"/><s n="pos"/></r></p></e>
-
+ 
       <!-- CHECK THIS -->
     <e r="RL"><p><l>yr<s n="det"/><s n="def"/></l><r>this<s n="det"/><s n="dem"/></r></p></e>
-
+ 
     <e><p><l>rhywun<s n="prn"/></l><r>someone<s n="prn"/></r></p></e>
     <e><p><l>unrhywun<s n="prn"/></l><r>anyone<s n="prn"/></r></p></e>
-
+ 
     <!-- Prepositions -->
     
     <!-- Inflected prepositions -->
@@ -61,7 +62,7 @@
     
     <!-- Compound inflected prepositions -->
     <e><p><l>nesaf at<s n="pr"/></l><r>next to<s n="pr"/></r></p></e>
-
+ 
     <e r="LR"><p><l>oddi wrth<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
     
     
@@ -84,8 +85,8 @@
     <e><p><l>ac eithrio<s n="pr"/></l><r>with the exception of<s n="pr"/></r></p></e>
     <e><p><l>eithr<s n="pr"/></l><r>except<s n="pr"/></r></p></e>
     <e><p><l>gogyfer â<s n="pr"/></l><r>for the purpose of<s n="pr"/></r></p></e>
-
-
+ 
+ 
     <!-- Prepositions using possessive pronoun for inflection -->
     <e r="LR"><p><l>ar bwys<s n="pr"/></l><r>near<s n="pr"/></r></p></e>
     <e><p><l>ar draws<s n="pr"/></l><r>across<s n="pr"/></r></p></e>
@@ -101,9 +102,9 @@
     <e><p><l>ymhlith<s n="pr"/></l><r>among<s n="pr"/></r></p></e>
     <e><p><l>yn lle<s n="pr"/></l><r>instead of<s n="pr"/></r></p></e>
     <e><p><l>yn ôl<s n="pr"/></l><r>according to<s n="pr"/></r></p></e> 
-
+ 
     <e r="LR"><p><l>oddi wrth<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
-
+ 
     <e><p><l>ar ôl<s n="pr"/></l><r>after<s n="pr"/></r></p></e>
     <e><p><l>ynghyd â<s n="pr"/></l><r>together with<s n="pr"/></r></p></e>
     <e><p><l>gyferbyn â<s n="pr"/></l><r>opposite<s n="pr"/></r></p></e>
@@ -133,35 +134,35 @@
     <e><p><l>ynglŷn â<s n="pr"/></l><r>about<s n="pr"/></r></p></e>
     <e><p><l>ynghanol<s n="pr"/></l><r>in the middle of<s n="pr"/></r></p></e>
     <e><p><l>ymhen<s n="pr"/></l><r>at the end of<s n="pr"/></r></p></e>
-
-
+ 
+ 
     <!-- Generic multiword prepositions -->
-
+ 
     <e><p><l>yn unol â<s n="pr"/></l><r>in accordance with<s n="pr"/></r></p></e>
     
     <!-- Conjunctions -->
-
+ 
     <e><p><l>a<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
     <e><p><l>ond<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
     <e><p><l>neu<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
-
+ 
     <!-- Adverbs -->
-
+ 
     <e><p><l>yma<s n="adv"/></l><r>here<s n="adv"/></r></p></e>
     <e><p><l>hefyd<s n="adv"/></l><r>also<s n="adv"/></r></p></e>
     <e><p><l>rwan<s n="adv"/></l><r>now<s n="adv"/></r></p></e>    <!-- this form is probably incorrect -->
     <e><p><l>rŵan<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
     <e><p><l>erioed<s n="adv"/></l><r>never<s n="adv"/></r></p></e>
-
-
+ 
+ 
     <!-- Nouns -->
-
-
-
-
+ 
+ 
+ 
+ 
     <e><p><l>llysywen<s n="n"/><s n="f"/></l><r>eel<s n="n"/></r></p></e>
     <e><p><l>hofrenfad<s n="n"/><s n="mf"/></l><r>hovercraft<s n="n"/></r></p></e>
-
+ 
     <e><p><l>gormodiaith<s n="n"/><s n="f"/></l><r>exaggeration<s n="n"/></r></p></e><!-- exaggeration - gormodiaith [f.]-->
     <e><p><l>ymollyngdod<s n="n"/><s n="m"/></l><r>relaxation<s n="n"/></r></p></e><!-- relaxation - ymollyngdod [m.]-->
     <e><p><l>sadrwydd<s n="n"/><s n="m"/></l><r>firmness<s n="n"/></r></p></e><!-- firmness - sadrwydd [m.]-->
@@ -467,7 +468,7 @@
     <e><p><l>anis<s n="n"/><s n="m"/></l><r>anise<s n="n"/></r></p></e><!-- anise - anis [m.?]-->
     <e><p><l>anffyddiaeth<s n="n"/><s n="f"/></l><r>agnosticism<s n="n"/></r></p></e><!-- agnosticism - anffyddiaeth [f.]-->
     <e><p><l>morlys<s n="n"/><s n="m"/></l><r>admiralty<s n="n"/></r></p></e><!-- admiralty - morlys [m.]-->
-
+ 
     <e><p><l>tu<b/>allan<s n="n"/><s n="GD"/></l><r>outside<s n="n"/></r></p></e>
     <e><p><l>arian<b/>breiniol<s n="n"/><s n="GD"/></l><r>currency<s n="n"/></r></p></e>
     <e><p><l>mabwysiad<s n="n"/><s n="m"/></l><r>adoption<s n="n"/></r></p></e>
@@ -522,17 +523,17 @@
     <e><p><l>gwareiddiad<s n="n"/><s n="m"/></l><r>civilisation<s n="n"/></r></p></e>
     <e><p><l>perswâd<s n="n"/><s n="m"/></l><r>persuasion<s n="n"/></r></p></e>
     <e><p><l>cywarch<s n="n"/><s n="f"/></l><r>hemp<s n="n"/></r></p></e>
-
+ 
     <e><p><l>amhleidiaeth<s n="n"/><s n="f"/></l><r>impartiality<s n="n"/></r></p></e>
     <e><p><l>gelyniaeth<s n="n"/><s n="f"/></l><r>hostility<s n="n"/></r></p></e>
     <e><p><l>comiwnyddiaeth<s n="n"/><s n="f"/></l><r>communism<s n="n"/></r></p></e>
     <e><p><l>dynameg<s n="n"/><s n="f"/></l><r>dynamics<s n="n"/></r></p></e>
     <e><p><l>daioni<s n="n"/><s n="m"/></l><r>goodness<s n="n"/></r></p></e>
     <e><p><l>sylweddoliad<s n="n"/><s n="m"/></l><r>realisation<s n="n"/></r></p></e>
-
-
-
-
+ 
+ 
+ 
+ 
     <e><p><l>cysur<s n="n"/><s n="m"/></l><r>comfort<s n="n"/></r></p></e>
     <e><p><l>ffermwr<s n="n"/><s n="m"/></l><r>farmer<s n="n"/></r></p></e>
     <e><p><l>goblygiad<s n="n"/><s n="m"/></l><r>implication<s n="n"/></r></p></e>
@@ -787,7 +788,7 @@
     <e><p><l>crynodeb<s n="n"/><s n="m"/></l><r>summary<s n="n"/></r></p></e>
     <e><p><l>cufydd<s n="n"/><s n="m"/></l><r>cubit<s n="n"/></r></p></e>
     <e><p><l>cwblhad<s n="n"/><s n="m"/></l><r>completion<s n="n"/></r></p></e>
-    <e><p><l>cwmpas<s n="n"/><s n="m"/></l><r>pair of compasses<s n="n"/></r></p></e>
+    <e><p><l>cwmpas<s n="n"/><s n="m"/></l><r>compass<s n="n"/></r></p></e>
     <e><p><l>cwmpawd<s n="n"/><s n="m"/></l><r>ship's compass<s n="n"/></r></p></e>
     <e><p><l>cwndid<s n="n"/><s n="m"/></l><r>conduit<s n="n"/></r></p></e>
     <e><p><l>cwpan<s n="n"/><s n="mf"/></l><r>cup<s n="n"/></r></p></e>
@@ -1272,7 +1273,7 @@
     <e><p><l>nonagon<s n="n"/><s n="m"/></l><r>nonagon<s n="n"/></r></p></e>
     <e><p><l>norm<s n="n"/><s n="m"/></l><r>norm<s n="n"/></r></p></e>
     <e><p><l>nos<s n="n"/><s n="f"/></l><r>night<s n="n"/></r></p></e>
-    <e><p><l>nwydd<s n="n"/><s n="m"/></l><r>article of merchandise<s n="n"/></r></p></e>
+    <e><p><l>nwydd<s n="n"/><s n="m"/></l><r>article<g><b/>of<b/>merchandise</g><s n="n"/></r></p></e>
     <e><p><l>ochr<s n="n"/><s n="f"/></l><r>side<s n="n"/></r></p></e>
     <e><p><l>octagon<s n="n"/><s n="m"/></l><r>octagon<s n="n"/></r></p></e>
     <e><p><l>octahedron<s n="n"/><s n="m"/></l><r>octahedron<s n="n"/></r></p></e>
@@ -1590,9 +1591,9 @@
     <e><p><l>achubiad<s n="n"/><s n="m"/></l><r>deliverance<s n="n"/></r></p></e>
     <e><p><l>adborth<s n="n"/><s n="m"/></l><r>feedback<s n="n"/></r></p></e>
     <e><p><l>addasrwydd<s n="n"/><s n="m"/></l><r>appropriateness<s n="n"/></r></p></e>
-
+ 
     <e><p><l>ieithyddiaeth<s n="n"/><s n="f"/></l><r>linguistics<s n="n"/></r></p></e>
-
+ 
     <e><p><l>addysg<s n="n"/><s n="f"/></l><r>education<s n="n"/></r></p></e>
     <e><p><l>adeiladwaith<s n="n"/><s n="m"/></l><r>structure<s n="n"/></r></p></e>
     <e><p><l>adloniant<s n="n"/><s n="m"/></l><r>entertainment<s n="n"/></r></p></e>
@@ -1826,10 +1827,10 @@
     <e><p><l>economeg<s n="n"/><s n="f"/></l><r>economics<s n="n"/></r></p></e>
     <e><p><l>e-ddysgu<s n="n"/><s n="m"/></l><r>e-learning<s n="n"/></r></p></e>
     <e><p><l>e-fasnach<s n="n"/><s n="f"/></l><r>e-commerce<s n="n"/></r></p></e>
-
+ 
     <e r="LR"><p><l>effeithiolrwydd<s n="n"/><s n="m"/></l><r>effectiveness<s n="n"/></r></p></e>
     <e><p><l>effeithlonrwydd<s n="n"/><s n="m"/></l><r>efficiency<s n="n"/></r></p></e>
-
+ 
     <e><p><l>eglurder<s n="n"/><s n="m"/></l><r>clarity<s n="n"/></r></p></e>
     <e><p><l>e-gyhoeddi<s n="n"/><s n="m"/></l><r>e-publishing<s n="n"/></r></p></e>
     <e><p><l>e-hyfforddi<s n="n"/><s n="m"/></l><r>e-training<s n="n"/></r></p></e>
@@ -1966,7 +1967,7 @@
     <e><p><l>Mawrth<s n="n"/><s n="m"/></l><r>Mars<s n="n"/></r></p></e>
     <e><p><l>meddalwedd<s n="n"/><s n="mf"/></l><r>software<s n="n"/></r></p></e>
     <e><p><l>meddygaeth<s n="n"/><s n="f"/></l><r>medicine<s n="n"/></r></p></e>
-    <e><p><l>meddylfryd<s n="n"/><s n="m"/></l><r>state of mind<s n="n"/></r></p></e>
+    <e><p><l>meddylfryd<s n="n"/><s n="m"/></l><r>state<g><b/>of<b/>mind</g><s n="n"/></r></p></e>
     <e><p><l>Medi<s n="n"/><s n="m"/></l><r>September<s n="n"/></r></p></e>
     <e><p><l>Mehefin<s n="n"/><s n="m"/></l><r>June<s n="n"/></r></p></e>
     <e><p><l>meil<s n="n"/><s n="mf"/></l><r>msec<s n="n"/></r></p></e>
@@ -2100,7 +2101,7 @@
     <e><p><l>twf<s n="n"/><s n="m"/></l><r>growth<s n="n"/></r></p></e>
     <e><p><l>twristiaeth<s n="n"/><s n="f"/></l><r>tourism<s n="n"/></r></p></e>
     <e><p><l>tybaco<s n="n"/><s n="m"/></l><r>tobacco<s n="n"/></r></p></e>
-    <e><p><l>tywodyn<s n="n"/><s n="m"/></l><r>grain of sand<s n="n"/></r></p></e>
+    <e><p><l>tywodyn<s n="n"/><s n="m"/></l><r>grain<g><b/>of<b/>sand<s n="n"/></g></r></p></e>
     <e><p><l>unarddeg<s n="n"/><s n="m"/></l><r>an eleven<s n="n"/></r></p></e>
     <e><p><l>unigolyddiaeth<s n="n"/><s n="f"/></l><r>individualism<s n="n"/></r></p></e>
     <e><p><l>Urdd<s n="n"/><s n="f"/></l><r>Urdd<s n="n"/></r></p></e>
@@ -2618,7 +2619,7 @@
     <e><p><l>archfarchnad<s n="n"/><s n="f"/></l><r>hypermarket<s n="n"/></r></p></e>
     <e><p><l>ardal<s n="n"/><s n="f"/></l><r>region<s n="n"/></r></p></e>
     <e><p><l>arfordir<s n="n"/><s n="m"/></l><r>coast<s n="n"/></r></p></e>
-    <e><p><l>athrofa<s n="n"/><s n="f"/></l><r>institute of education<s n="n"/></r></p></e>
+    <e><p><l>athrofa<s n="n"/><s n="f"/></l><r>institute<g><b/>of<b/>education<s n="n"/></g></r></p></e>
     <e><p><l>blaendir<s n="n"/><s n="m"/></l><r>foreground<s n="n"/></r></p></e>
     <e><p><l>byd<s n="n"/><s n="m"/></l><r>world<s n="n"/></r></p></e>
     <e><p><l>byddin<s n="n"/><s n="f"/></l><r>army<s n="n"/></r></p></e>
@@ -2849,7 +2850,7 @@
     <e><p><l>gliniadur<s n="n"/><s n="m"/></l><r>laptop<s n="n"/></r></p></e>
     <e><p><l>gliniadur<s n="n"/><s n="m"/></l><r>laptop<s n="n"/></r></p></e>
     <e><p><l>gwyddoniadur<s n="n"/><s n="m"/></l><r>encyclopaedia<s n="n"/></r></p></e>
-    <e><p><l>hapchwarae<s n="n"/><s n="m"/></l><r>game of chance<s n="n"/></r></p></e>
+    <e><p><l>hapchwarae<s n="n"/><s n="m"/></l><r>game<g><b/>of<b/>chance</g><s n="n"/></r></p></e>
     <e><p><l>holiadur<s n="n"/><s n="m"/></l><r>questionnaire<s n="n"/></r></p></e>
     <e><p><l>Iddew<s n="n"/><s n="m"/></l><r>Jew<s n="n"/></r></p></e>
     <e><p><l>llawiadur<s n="n"/><s n="m"/></l><r>palmtop<s n="n"/></r></p></e>
@@ -3292,7 +3293,7 @@
     <e><p><l>atsain<s n="n"/><s n="f"/></l><r>echo<s n="n"/></r></p></e>
     <e><p><l>damwain<s n="n"/><s n="f"/></l><r>accident<s n="n"/></r></p></e>
     <e><p><l>glain<s n="n"/><s n="m"/></l><r>bead<s n="n"/></r></p></e>
-    <e><p><l>llain<s n="n"/><s n="f"/></l><r>strip of land<s n="n"/></r></p></e>
+    <e><p><l>llain<s n="n"/><s n="f"/></l><r>strip<g><b/>of<b/>land</g><s n="n"/></r></p></e>
     <e><p><l>lliain<s n="n"/><s n="m"/></l><r>linen<s n="n"/></r></p></e>
     <e><p><l>llys-nain<s n="n"/><s n="f"/></l><r>step-grandmother<s n="n"/></r></p></e>
     <e><p><l>nain<s n="n"/><s n="f"/></l><r>grandmother<s n="n"/></r></p></e>
@@ -3300,9 +3301,9 @@
     <e><p><l>pysgodyn<s n="n"/><s n="m"/></l><r>fish<s n="n"/></r></p></e>
     <e><p><l>blewyn<s n="n"/><s n="m"/></l><r>hair<s n="n"/></r></p></e>
     <e><p><l>cnewyllyn<s n="n"/><s n="m"/></l><r>kernel<s n="n"/></r></p></e>
-    <e><p><l>dodrefnyn<s n="n"/><s n="m"/></l><r>piece of furniture<s n="n"/></r></p></e>
+    <e><p><l>dodrefnyn<s n="n"/><s n="m"/></l><r>piece<g><b/>of<b/>furniture</g><s n="n"/></r></p></e>
     <e><p><l>gwarthegyn<s n="n"/><s n="m"/></l><r>head of cattle<s n="n"/></r></p></e>
-    <e><p><l>gwelltyn<s n="n"/><s n="m"/></l><r>blade of grass<s n="n"/></r></p></e>
+    <e><p><l>gwelltyn<s n="n"/><s n="m"/></l><r>blade<g><b/>of<b/>grass</g><s n="n"/></r></p></e>
     <e><p><l>gwybedyn<s n="n"/><s n="m"/></l><r>gnat<s n="n"/></r></p></e>
     <e><p><l>mochyn<s n="n"/><s n="m"/></l><r>pig<s n="n"/></r></p></e>
     <e><p><l>bôn<s n="n"/><s n="m"/></l><r>base<s n="n"/></r></p></e>
@@ -3474,7 +3475,7 @@
     <e><p><l>haul<s n="n"/><s n="m"/></l><r>sun<s n="n"/></r></p></e>
     <e><p><l>traul<s n="n"/><s n="f"/></l><r>charge<s n="n"/></r></p></e>
     <e><p><l>niwed<s n="n"/><s n="m"/></l><r>damage<s n="n"/></r></p></e>
-    <e><p><l>paned<s n="n"/><s n="m"/></l><r>cup of tea<s n="n"/></r></p></e>
+    <e><p><l>paned<s n="n"/><s n="m"/></l><r>cup<g><b/>of<b/>tea</g><s n="n"/></r></p></e>
     <e><p><l>maer<s n="n"/><s n="m"/></l><r>mayor<s n="n"/></r></p></e>
     <e><p><l>saer<s n="n"/><s n="m"/></l><r>carpenter<s n="n"/></r></p></e>
     <e><p><l>glaw<s n="n"/><s n="m"/></l><r>rain<s n="n"/></r></p></e>
@@ -3592,7 +3593,7 @@
     <e><p><l>claf<s n="n"/><s n="m"/></l><r>patient<s n="n"/></r></p></e>
     <e><p><l>gwar<s n="n"/><s n="m"/></l><r>nape<s n="n"/></r></p></e>
     <e><p><l>cwlwm<s n="n"/><s n="m"/></l><r>knot<s n="n"/></r></p></e>
-    <e><p><l>siswrn<s n="n"/><s n="m"/></l><r>pair of scissors<s n="n"/></r></p></e>
+    <e><p><l>siswrn<s n="n"/><s n="m"/></l><r>pair<g><b/>of<b/>scissors</g><s n="n"/></r></p></e>
     <e><p><l>maes<s n="n"/><s n="m"/></l><r>field<s n="n"/></r></p></e>
     <e><p><l>tŵr<s n="n"/><s n="m"/></l><r>tower<s n="n"/></r></p></e>
     <e><p><l>angau<s n="n"/><s n="mf"/></l><r>death<s n="n"/></r></p></e>
@@ -3781,7 +3782,7 @@
     <e><p><l>consensws<s n="n"/><s n="m"/></l><r>consensus<s n="n"/></r></p></e>
     <e><p><l>camddefnydd<s n="n"/><s n="m"/></l><r>abuse<s n="n"/></r></p></e>
     <e><p><l>camdriniaeth<s n="n"/><s n="f"/></l><r>abuse<s n="n"/></r></p></e>
-
+ 
     <!-- Adjectives -->
     <e><p><l>absennol<s n="adj"/></l><r>absent<s n="adj"/></r></p></e>
     <e><p><l>absoliwt<s n="adj"/></l><r>absolute<s n="adj"/></r></p></e>
@@ -3865,7 +3866,7 @@
     <e><p><l>amlygedig<s n="adj"/></l><r>highlighted<s n="adj"/></r></p></e>
     <e><p><l>amodol<s n="adj"/></l><r>conditional<s n="adj"/></r></p></e>
     <e><p><l>amrantol<s n="adj"/></l><r>blinking<s n="adj"/></r></p></e>
-    <e><p><l>amrwd<s n="adj"/></l><r>raw<s n="adj"/></r></p></e>
+    <e><p><l>amrwd<s n="adj"/></l><r>raw<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>amryfal<s n="adj"/></l><r>assorted<s n="adj"/></r></p></e>
     <e><p><l>amryw<s n="adj"/></l><r>various<s n="adj"/></r></p></e>
     <e><p><l>amrywiadwy<s n="adj"/></l><r>variable<s n="adj"/></r></p></e>
@@ -3931,7 +3932,7 @@
     <e><p><l>anghytûn<s n="adj"/></l><r>incompatible<s n="adj"/></r></p></e>
     <e><p><l>anghywir<s n="adj"/></l><r>incorrect<s n="adj"/></r></p></e>
     <e><p><l>anhafal<s n="adj"/></l><r>unequal<s n="adj"/></r></p></e>
-    <e><p><l>anhapus<s n="adj"/></l><r>unhappy<s n="adj"/></r></p></e>
+    <e><p><l>anhapus<s n="adj"/></l><r>unhappy<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>anhepgor<s n="adj"/></l><r>indispensable<s n="adj"/></r></p></e>
     <e><p><l>anhepgorol<s n="adj"/></l><r>indispensable<s n="adj"/></r></p></e>
     <e><p><l>anhraddodiadol<s n="adj"/></l><r>untraditional<s n="adj"/></r></p></e>
@@ -4035,7 +4036,7 @@
     <e><p><l>awtomatig<s n="adj"/></l><r>automatic<s n="adj"/></r></p></e>
     <e><p><l>awtomatig<s n="adj"/></l><r>automatic<s n="adj"/></r></p></e>
     <e><p><l>awyddus<s n="adj"/></l><r>eager<s n="adj"/></r></p></e>
-    <e><p><l>balch<s n="adj"/></l><r>proud<s n="adj"/></r></p></e>
+    <e><p><l>balch<s n="adj"/></l><r>proud<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>barnwrol<s n="adj"/></l><r>judgemental<s n="adj"/></r></p></e>
     <e><p><l>beirniadol<s n="adj"/></l><r>critical<s n="adj"/></r></p></e>
     <e><p><l>bendigedig<s n="adj"/></l><r>wonderful<s n="adj"/></r></p></e>
@@ -4049,7 +4050,7 @@
     <e><p><l>bisg<s n="adj"/></l><r>bisque<s n="adj"/></r></p></e>
     <e><p><l>blaengar<s n="adj"/></l><r>progressive<s n="adj"/></r></p></e>
     <e><p><l>blaenllaw<s n="adj"/></l><r>leading<s n="adj"/></r></p></e>
-    <e><p><l>blaenllym<s n="adj"/></l><r>keen<s n="adj"/></r></p></e>
+    <e><p><l>blaenllym<s n="adj"/></l><r>keen<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>blaenol<s n="adj"/></l><r>leading<s n="adj"/></r></p></e>
     <e><p><l>blaenoriaethol<s n="adj"/></l><r>priority<s n="adj"/></r></p></e>
     <e><p><l>blaenorol<s n="adj"/></l><r>previous<s n="adj"/></r></p></e>
@@ -4059,24 +4060,24 @@
     <e><p><l>bodlon<s n="adj"/></l><r>content<s n="adj"/></r></p></e>
     <e><p><l>bonheddig<s n="adj"/></l><r>gentlemanly<s n="adj"/></r></p></e>
     <e><p><l>booleaidd<s n="adj"/></l><r>Boolean<s n="adj"/></r></p></e>
-    <e><p><l>braf<s n="adj"/></l><r>fine<s n="adj"/></r></p></e>
-    <e><p><l>bras<s n="adj"/></l><r>fat<s n="adj"/></r></p></e>
-    <e><p><l>bras<s n="adj"/></l><r>rough<s n="adj"/></r></p></e>
-    <e><p><l>bregus<s n="adj"/></l><r>brittle<s n="adj"/></r></p></e>
+    <e><p><l>braf<s n="adj"/></l><r>fine<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>bras<s n="adj"/></l><r>fat<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>bras<s n="adj"/></l><r>rough<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>bregus<s n="adj"/></l><r>brittle<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>breintiedig<s n="adj"/></l><r>privileged<s n="adj"/></r></p></e>
     <e><p><l>brenhinol<s n="adj"/></l><r>royal<s n="adj"/></r></p></e>
     <e><p><l>brodorol<s n="adj"/></l><r>indigenous<s n="adj"/></r></p></e>
     <e><p><l>brown<s n="adj"/></l><r>brown<s n="adj"/></r></p></e>
-    <e><p><l>brwd<s n="adj"/></l><r>hot<s n="adj"/></r></p></e>
+    <e><p><l>brwd<s n="adj"/></l><r>hot<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>brwdfrydig<s n="adj"/></l><r>enthusiastic<s n="adj"/></r></p></e>
     <e><p><l>buan<s n="adj"/></l><r>soon<s n="adj"/></r></p></e>
     <e><p><l>buddiol<s n="adj"/></l><r>beneficial<s n="adj"/></r></p></e>
-    <e><p><l>budr<s n="adj"/></l><r>dirty<s n="adj"/></r></p></e>
-    <e><p><l>budron<s n="adj"/></l><r>dirty<s n="adj"/></r></p></e>
+    <e><p><l>budr<s n="adj"/></l><r>dirty<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>budron<s n="adj"/></l><r>dirty<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>bwriadol<s n="adj"/></l><r>intentional<s n="adj"/></r></p></e>
-    <e><p><l>bychain<s n="adj"/></l><r>small<s n="adj"/></r></p></e>
-    <e><p><l>bychan<s n="adj"/></l><r>small<s n="adj"/></r></p></e>
-    <e><p><l>byddar<s n="adj"/></l><r>deaf<s n="adj"/></r></p></e>
+    <e><p><l>bychain<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>bychan<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>byddar<s n="adj"/></l><r>deaf<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>byd-eang<s n="adj"/></l><r>worldwide<s n="adj"/></r></p></e>
     <e><p><l>bynnag<s n="adj"/></l><r>-ever<s n="adj"/></r></p></e>
     <e><p><l>byrhoedlog<s n="adj"/></l><r>short-lived<s n="adj"/></r></p></e>
@@ -4086,14 +4087,14 @@
     <e><p><l>bywiog<s n="adj"/></l><r>lively<s n="adj"/></r></p></e>
     <e><p><l>bywiol<s n="adj"/></l><r>alive<s n="adj"/></r></p></e>
     <e><p><l>bywluniedig<s n="adj"/></l><r>animated<s n="adj"/></r></p></e>
-    <e><p><l>caci<s n="adj"/></l><r>khaki<s n="adj"/></r></p></e>
+    <e><p><l>caci<s n="adj"/></l><r>khaki<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>cadarn<s n="adj"/></l><r>firm<s n="adj"/></r></p></e>
     <e><p><l>cadarnhaol<s n="adj"/></l><r>affirmative<s n="adj"/></r></p></e>
     <e><p><l>cadwedig<s n="adj"/></l><r>saved<s n="adj"/></r></p></e>
     <e><p><l>cadwedig<s n="adj"/></l><r>saved<s n="adj"/></r></p></e>
     <e><p><l>caeedig<s n="adj"/></l><r>closed<s n="adj"/></r></p></e>
     <e><p><l>caeth<s n="adj"/></l><r>captive<s n="adj"/></r></p></e>
-    <e><p><l>caled<s n="adj"/></l><r>hard<s n="adj"/></r></p></e>
+    <e><p><l>caled<s n="adj"/></l><r>hard<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>called<s n="adj"/></l><r>(as) wise<s n="adj"/></r></p></e>
     <e><p><l>camarweiniol<s n="adj"/></l><r>misleading<s n="adj"/></r></p></e>
     <e><p><l>camffurfiedig<s n="adj"/></l><r>malformatted<s n="adj"/></r></p></e>
@@ -4118,10 +4119,10 @@
     <e><p><l>canolraddol<s n="adj"/></l><r>intermediate<s n="adj"/></r></p></e>
     <e><p><l>cardiag<s n="adj"/></l><r>cardiac<s n="adj"/></r></p></e>
     <e><p><l>cardiolegol<s n="adj"/></l><r>cardiac<s n="adj"/></r></p></e>
-    <e><p><l>caredig<s n="adj"/></l><r>kind<s n="adj"/></r></p></e>
+    <e><p><l>caredig<s n="adj"/></l><r>kind<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>cartesaidd<s n="adj"/></l><r>Cartesian<s n="adj"/></r></p></e>
     <e><p><l>Cartesaidd<s n="adj"/></l><r>Cartesian<s n="adj"/></r></p></e>
-    <e><p><l>cas<s n="adj"/></l><r>nasty<s n="adj"/></r></p></e>
+    <e><p><l>cas<s n="adj"/></l><r>nasty<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>cefnogol<s n="adj"/></l><r>encouraging<s n="adj"/></r></p></e>
     <e><p><l>ceinciog<s n="adj"/></l><r>burled<s n="adj"/></r></p></e>
     <e><p><l>ceisiedig<s n="adj"/></l><r>requested<s n="adj"/></r></p></e>
@@ -4146,17 +4147,17 @@
     <e><p><l>chwith<s n="adj"/></l><r>left<s n="adj"/></r></p></e>
     <e><p><l>chwithig<s n="adj"/></l><r>clumsy<s n="adj"/></r></p></e>
     <e><p><l>chwithig<s n="adj"/></l><r>awkward<s n="adj"/></r></p></e>
-    <e><p><l>chwyrn<s n="adj"/></l><r>harsh<s n="adj"/></r></p></e>
+    <e><p><l>chwyrn<s n="adj"/></l><r>harsh<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>ciwbig<s n="adj"/></l><r>cubic<s n="adj"/></r></p></e>
     <e><p><l>clasurol<s n="adj"/></l><r>classic<s n="adj"/></r></p></e>
     <e><p><l>clasurol<s n="adj"/></l><r>classical<s n="adj"/></r></p></e>
     <e><p><l>clinigol<s n="adj"/></l><r>clinical<s n="adj"/></r></p></e>
-    <e><p><l>clir<s n="adj"/></l><r>clear<s n="adj"/></r></p></e>
+    <e><p><l>clir<s n="adj"/></l><r>clear<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>clocwedd<s n="adj"/></l><r>clockwise<s n="adj"/></r></p></e>
-    <e><p><l>clos<s n="adj"/></l><r>tight<s n="adj"/></r></p></e>
+    <e><p><l>clos<s n="adj"/></l><r>tight<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>cludadwy<s n="adj"/></l><r>portable<s n="adj"/></r></p></e>
     <e><p><l>clustfain<s n="adj"/></l><r>perceptive<s n="adj"/></r></p></e>
-    <e><p><l>clyfar<s n="adj"/></l><r>clever<s n="adj"/></r></p></e>
+    <e><p><l>clyfar<s n="adj"/></l><r>clever<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>clymadwy<s n="adj"/></l><r>mountable<s n="adj"/></r></p></e>
     <e><p><l>clymedig<s n="adj"/></l><r>mounted<s n="adj"/></r></p></e>
     <e><p><l>clywedig<s n="adj"/></l><r>audible<s n="adj"/></r></p></e>
@@ -4171,8 +4172,8 @@
     <e><p><l>corfforol<s n="adj"/></l><r>physical<s n="adj"/></r></p></e>
     <e><p><l>cost-effeithiol<s n="adj"/></l><r>cost-effective<s n="adj"/></r></p></e>
     <e><p><l>cost-effeithlon<s n="adj"/></l><r>cost-efficient<s n="adj"/></r></p></e>
-    <e><p><l>crai<s n="adj"/></l><r>raw<s n="adj"/></r></p></e>
-    <e><p><l>crau<s n="adj"/></l><r>raw<s n="adj"/></r></p></e>
+    <e><p><l>crai<s n="adj"/></l><r>raw<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>crau<s n="adj"/></l><r>raw<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>creadigol<s n="adj"/></l><r>creative<s n="adj"/></r></p></e>
     <e><p><l>credadwy<s n="adj"/></l><r>credible<s n="adj"/></r></p></e>
     <e><p><l>crefyddol<s n="adj"/></l><r>religious<s n="adj"/></r></p></e>
@@ -4182,13 +4183,13 @@
     <e><p><l>crog<s n="adj"/></l><r>hanging<s n="adj"/></r></p></e>
     <e><p><l>crom<s n="adj"/></l><r>curved<s n="adj"/></r></p></e>
     <e><p><l>cromfachog<s n="adj"/></l><r>bracketed<s n="adj"/></r></p></e>
-    <e><p><l>cron<s n="adj"/></l><r>round<s n="adj"/></r></p></e>
+    <e><p><l>cron<s n="adj"/></l><r>round<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>cronedig<s n="adj"/></l><r>accrued<s n="adj"/></r></p></e>
     <e><p><l>cronig<s n="adj"/></l><r>chronic<s n="adj"/></r></p></e>
     <e><p><l>cronnus<s n="adj"/></l><r>cumulative<s n="adj"/></r></p></e>
-    <e><p><l>croyw<s n="adj"/></l><r>fresh<s n="adj"/></r></p></e>
+    <e><p><l>croyw<s n="adj"/></l><r>fresh<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>crwm<s n="adj"/></l><r>curved<s n="adj"/></r></p></e>
-    <e><p><l>crwn<s n="adj"/></l><r>round<s n="adj"/></r></p></e>
+    <e><p><l>crwn<s n="adj"/></l><r>round<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>cryn<s n="adj"/></l><r>somewhat<s n="adj"/></r></p></e>
     <e><p><l>cryn<s n="adj"/></l><r>considerable<s n="adj"/></r></p></e>
     <e><p><l>crynodedig<s n="adj"/></l><r>concentrated<s n="adj"/></r></p></e>
@@ -4197,9 +4198,9 @@
     <e><p><l>cuddiedig<s n="adj"/></l><r>hidden<s n="adj"/></r></p></e>
     <e><p><l>cwbl<s n="adj"/></l><r>all<s n="adj"/></r></p></e>
     <e><p><l>cwbwl<s n="adj"/></l><r>all<s n="adj"/></r></p></e>
-    <e><p><l>cŵl<s n="adj"/></l><r>cool<s n="adj"/></r></p></e>
+    <e><p><l>cŵl<s n="adj"/></l><r>cool<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>cwsmer-benodol<s n="adj"/></l><r>customer-specific<s n="adj"/></r></p></e>
-    <e><p><l>cwta<s n="adj"/></l><r>short<s n="adj"/></r></p></e>
+    <e><p><l>cwta<s n="adj"/></l><r>short<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>cychwynnol<s n="adj"/></l><r>initial<s n="adj"/></r></p></e>
     <e><p><l>cyd<s n="adj"/></l><r>joint<s n="adj"/></r></p></e>
     <e><p><l>cydamseredig<s n="adj"/></l><r>synchronous<s n="adj"/></r></p></e>
@@ -4210,19 +4211,19 @@
     <e><p><l>cydlynus<s n="adj"/></l><r>cohesive<s n="adj"/></r></p></e>
     <e><p><l>cydnabyddedig<s n="adj"/></l><r>recognised<s n="adj"/></r></p></e>
     <e><p><l>cydnaws<s n="adj"/></l><r>compatible<s n="adj"/></r></p></e>
-
+ 
     <e><p><l>cydradd<s n="adj"/></l><r>equal<b/>in<b/>rank<s n="adj"/></r></p></e>
-
+ 
     <e><p><l>cydweddol<s n="adj"/></l><r>matching<s n="adj"/></r></p></e>
     <e><p><l>cydweithredol<s n="adj"/></l><r>cooperative<s n="adj"/></r></p></e>
     <e><p><l>cydymffurfiol<s n="adj"/></l><r>compliant<s n="adj"/></r></p></e>
     <e><p><l>cyf<s n="adj"/></l><r>ltd<s n="adj"/></r></p></e>
     <e><p><l>cyfaddas<s n="adj"/></l><r>suitable<s n="adj"/></r></p></e>
     <e><p><l>cyfagos<s n="adj"/></l><r>adjacent<s n="adj"/></r></p></e>
-
+ 
     <e r="RL"><p><l>cyfain<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
     <e><p><l>cyfan<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
-
+ 
     <e><p><l>cyfannol<s n="adj"/></l><r>integrated<s n="adj"/></r></p></e>
     <e><p><l>cyfansawdd<s n="adj"/></l><r>compound<s n="adj"/></r></p></e>
     <e><p><l>cyfansawdd<s n="adj"/></l><r>composite<s n="adj"/></r></p></e>
@@ -4233,7 +4234,7 @@
     <e><p><l>cyfarwydd<s n="adj"/></l><r>skilled<s n="adj"/></r></p></e>
     <e><p><l>cyfatebol<s n="adj"/></l><r>corresponding<s n="adj"/></r></p></e>
     <e><p><l>cyfath<s n="adj"/></l><r>congruent<s n="adj"/></r></p></e>
-    <e><p><l>cyfeillgar<s n="adj"/></l><r>friendly<s n="adj"/></r></p></e>
+    <e><p><l>cyfeillgar<s n="adj"/></l><r>friendly<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>cyfeiriol<s n="adj"/></l><r>directional<s n="adj"/></r></p></e>
     <e><p><l>cyferbyn<s n="adj"/></l><r>opposite<s n="adj"/></r></p></e>
     <e><p><l>cyffelyb<s n="adj"/></l><r>similar<s n="adj"/></r></p></e>
@@ -4280,7 +4281,7 @@
     <e><p><l>cymaint<s n="adj"/></l><r>as much<s n="adj"/></r></p></e>
     <e><p><l>cymaradwy<s n="adj"/></l><r>comparable<s n="adj"/></r></p></e>
     <e><p><l>cymdeithasol<s n="adj"/></l><r>social<s n="adj"/></r></p></e>
-    <e><p><l>cymedrig<s n="adj"/></l><r>mean<s n="adj"/></r></p></e>
+    <e><p><l>cymedrig<s n="adj"/></l><r>mean<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>cymedrol<s n="adj"/></l><r>moderate<s n="adj"/></r></p></e>
     <e><p><l>cymedroledig<s n="adj"/></l><r>moderated<s n="adj"/></r></p></e>
     <e><p><l>cymeradwy<s n="adj"/></l><r>acceptable<s n="adj"/></r></p></e>
@@ -4294,7 +4295,7 @@
     <e><p><l>Cymreig<s n="adj"/></l><r>Welsh<s n="adj"/></r></p></e>
     <e><p><l>Cymru-Gyfan<s n="adj"/></l><r>All-Wales<s n="adj"/></r></p></e>
     <e><p><l>cymunedol<s n="adj"/></l><r>community<s n="adj"/></r></p></e>
-    <e><p><l>cymwys<s n="adj"/></l><r>fit<s n="adj"/></r></p></e>
+    <e><p><l>cymwys<s n="adj"/></l><r>fit<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>cymwysedig<s n="adj"/></l><r>qualified<s n="adj"/></r></p></e>
     <e><p><l>cymysg<s n="adj"/></l><r>mixed<s n="adj"/></r></p></e>
     <e><p><l>cymysglyd<s n="adj"/></l><r>muddled<s n="adj"/></r></p></e>
@@ -4345,7 +4346,7 @@
     <e><p><l>cywrain<s n="adj"/></l><r>skilful<s n="adj"/></r></p></e>
     <e><p><l>dadleuol<s n="adj"/></l><r>controversial<s n="adj"/></r></p></e>
     <e><p><l>daearyddol<s n="adj"/></l><r>geographical<s n="adj"/></r></p></e>
-    <e><p><l>dall<s n="adj"/></l><r>blind<s n="adj"/></r></p></e>
+    <e><p><l>dall<s n="adj"/></l><r>blind<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>damcaniaethol<s n="adj"/></l><r>theoretical<s n="adj"/></r></p></e>
     <e><p><l>damnïol<s n="adj"/></l><r>damning<s n="adj"/></r></p></e>
     <e><p><l>darfodedig<s n="adj"/></l><r>expired<s n="adj"/></r></p></e>
@@ -4365,7 +4366,7 @@
     <e><p><l>dau-ddimensiwn<s n="adj"/></l><r>two-dimensional<s n="adj"/></r></p></e>
     <e><p><l>dawnus<s n="adj"/></l><r>gifted<s n="adj"/></r></p></e>
     <e><p><l>dealladwy<s n="adj"/></l><r>understandable<s n="adj"/></r></p></e>
-    <e><p><l>deallus<s n="adj"/></l><r>smart<s n="adj"/></r></p></e>
+    <e><p><l>deallus<s n="adj"/></l><r>smart<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>deallus<s n="adj"/></l><r>intelligent<s n="adj"/></r></p></e>
     <e><p><l>deallusol<s n="adj"/></l><r>intellectual<s n="adj"/></r></p></e>
     <e><p><l>dechreuol<s n="adj"/></l><r>initial<s n="adj"/></r></p></e>
@@ -4402,7 +4403,7 @@
     <e><p><l>deuol<s n="adj"/></l><r>dual<s n="adj"/></r></p></e>
     <e><p><l>dewisiedig<s n="adj"/></l><r>selected<s n="adj"/></r></p></e>
     <e><p><l>dewisol<s n="adj"/></l><r>discretionary<s n="adj"/></r></p></e>
-    <e><p><l>dewr<s n="adj"/></l><r>brave<s n="adj"/></r></p></e>
+    <e><p><l>dewr<s n="adj"/></l><r>brave<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>diagnostig<s n="adj"/></l><r>diagnostic<s n="adj"/></r></p></e>
     <e><p><l>diamod<s n="adj"/></l><r>unconditional<s n="adj"/></r></p></e>
     <e><p><l>diamwys<s n="adj"/></l><r>explicit<s n="adj"/></r></p></e>
@@ -4433,7 +4434,7 @@
     <e><p><l>diffiniedig<s n="adj"/></l><r>defined<s n="adj"/></r></p></e>
     <e><p><l>diffurfdro<s n="adj"/></l><r>non-inflected<s n="adj"/></r></p></e>
     <e><p><l>diffygiol<s n="adj"/></l><r>defective<s n="adj"/></r></p></e>
-    <e><p><l>di-fin<s n="adj"/></l><r>blunt<s n="adj"/></r></p></e>
+    <e><p><l>di-fin<s n="adj"/></l><r>blunt<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>diflanedig<s n="adj"/></l><r>fleeting<s n="adj"/></r></p></e>
     <e><p><l>diflas<s n="adj"/></l><r>annoying<s n="adj"/></r></p></e>
     <e><p><l>diflas<s n="adj"/></l><r>annoying<s n="adj"/></r></p></e>
@@ -4442,14 +4443,14 @@
     <e><p><l>difrifol<s n="adj"/></l><r>serious<s n="adj"/></r></p></e>
     <e><p><l>difwlch<s n="adj"/></l><r>gapless<s n="adj"/></r></p></e>
     <e><p><l>difyr<s n="adj"/></l><r>amusing<s n="adj"/></r></p></e>
-    <e><p><l>dig<s n="adj"/></l><r>angry<s n="adj"/></r></p></e>
+    <e><p><l>dig<s n="adj"/></l><r>angry<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>di-gais<s n="adj"/></l><r>unrequested<s n="adj"/></r></p></e>
     <e><p><l>digidol<s n="adj"/></l><r>digital<s n="adj"/></r></p></e>
     <e><p><l>digonol<s n="adj"/></l><r>sufficient<s n="adj"/></r></p></e>
     <e><p><l>digwyddiadol<s n="adj"/></l><r>incidental<s n="adj"/></r></p></e>
     <e><p><l>di-Gymraeg<s n="adj"/></l><r>non-Welsh speaking<s n="adj"/></r></p></e>
     <e><p><l>digyswllt<s n="adj"/></l><r>disconnected<s n="adj"/></r></p></e>
-    <e><p><l>dihangol<s n="adj"/></l><r>safe<s n="adj"/></r></p></e>
+    <e><p><l>dihangol<s n="adj"/></l><r>safe<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>dilynedig<s n="adj"/></l><r>followed<s n="adj"/></r></p></e>
     <e><p><l>dilyniannol<s n="adj"/></l><r>sequential<s n="adj"/></r></p></e>
     <e><p><l>dilynol<s n="adj"/></l><r>following<s n="adj"/></r></p></e>
@@ -4457,8 +4458,8 @@
     <e><p><l>dilys<s n="adj"/></l><r>valid<s n="adj"/></r></p></e>
     <e><p><l>dinesig<s n="adj"/></l><r>civic<s n="adj"/></r></p></e>
     <e><p><l>dinistriol<s n="adj"/></l><r>destructive<s n="adj"/></r></p></e>
-    <e><p><l>diog<s n="adj"/></l><r>lazy<s n="adj"/></r></p></e>
-    <e><p><l>diogel<s n="adj"/></l><r>safe<s n="adj"/></r></p></e>
+    <e><p><l>diog<s n="adj"/></l><r>lazy<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>diogel<s n="adj"/></l><r>safe<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>diosod<s n="adj"/></l><r>unset<s n="adj"/></r></p></e>
     <e><p><l>di-ri<s n="adj"/></l><r>innumerable<s n="adj"/></r></p></e>
     <e><p><l>diriaethol<s n="adj"/></l><r>concrete<s n="adj"/></r></p></e>
@@ -4467,7 +4468,7 @@
     <e><p><l>dirprwyol<s n="adj"/></l><r>proxy<s n="adj"/></r></p></e>
     <e><p><l>dirymedig<s n="adj"/></l><r>abolished<s n="adj"/></r></p></e>
     <e><p><l>disberod<s n="adj"/></l><r>wandering<s n="adj"/></r></p></e>
-    <e><p><l>disglair<s n="adj"/></l><r>bright<s n="adj"/></r></p></e>
+    <e><p><l>disglair<s n="adj"/></l><r>bright<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>di-sglein<s n="adj"/></l><r>matte<s n="adj"/></r></p></e>
     <e><p><l>disgrifiadol<s n="adj"/></l><r>descriptive<s n="adj"/></r></p></e>
     <e><p><l>disgwyliedig<s n="adj"/></l><r>expected<s n="adj"/></r></p></e>
@@ -4486,8 +4487,8 @@
     <e><p><l>diwylliannol<s n="adj"/></l><r>cultural<s n="adj"/></r></p></e>
     <e><p><l>diymatal<s n="adj"/></l><r>uninhibited<s n="adj"/></r></p></e>
     <e><p><l>diymddiriedol<s n="adj"/></l><r>untrusted<s n="adj"/></r></p></e>
-    <e><p><l>doeth<s n="adj"/></l><r>wise<s n="adj"/></r></p></e>
-    <e><p><l>dofn<s n="adj"/></l><r>deep<s n="adj"/></r></p></e>
+    <e><p><l>doeth<s n="adj"/></l><r>wise<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>dofn<s n="adj"/></l><r>deep<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>domestig<s n="adj"/></l><r>domestic<s n="adj"/></r></p></e>
     <e><p><l>dosranedig<s n="adj"/></l><r>parsed<s n="adj"/></r></p></e>
     <e><p><l>dramatig<s n="adj"/></l><r>dramatic<s n="adj"/></r></p></e>
@@ -4510,7 +4511,7 @@
     <e><p><l>dyddiedig<s n="adj"/></l><r>dated<s n="adj"/></r></p></e>
     <e><p><l>dyddiol<s n="adj"/></l><r>daily<s n="adj"/></r></p></e>
     <e><p><l>dyfeisgar<s n="adj"/></l><r>ingenious<s n="adj"/></r></p></e>
-    <e><p><l>dyfnion<s n="adj"/></l><r>deep<s n="adj"/></r></p></e>
+    <e><p><l>dyfnion<s n="adj"/></l><r>deep<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>dyfynedig<s n="adj"/></l><r>quoted<s n="adj"/></r></p></e>
     <e><p><l>dyledus<s n="adj"/></l><r>indebted<s n="adj"/></r></p></e>
     <e><p><l>dymunadwy<s n="adj"/></l><r>ideal<s n="adj"/></r></p></e>
@@ -4531,7 +4532,7 @@
     <e><p><l>effeithlon<s n="adj"/></l><r>efficient<s n="adj"/></r></p></e>
     <e><p><l>effro<s n="adj"/></l><r>awake<s n="adj"/></r></p></e>
     <e><p><l>efydd<s n="adj"/></l><r>bronze<s n="adj"/></r></p></e>
-    <e><p><l>eglur<s n="adj"/></l><r>clear<s n="adj"/></r></p></e>
+    <e><p><l>eglur<s n="adj"/></l><r>clear<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>eglwysig<s n="adj"/></l><r>ecclesiastical<s n="adj"/></r></p></e>
     <e><p><l>egnïol<s n="adj"/></l><r>energetic<s n="adj"/></r></p></e>
     <e><p><l>ehangedig<s n="adj"/></l><r>expanded<s n="adj"/></r></p></e>
@@ -4570,7 +4571,7 @@
     <e><p><l>esbonyddol<s n="adj"/></l><r>exponential<s n="adj"/></r></p></e>
     <e><p><l>esgynnol<s n="adj"/></l><r>ascending<s n="adj"/></r></p></e>
     <e><p><l>esmwyth<s n="adj"/></l><r>easing<s n="adj"/></r></p></e>
-    <e><p><l>esmwyth<s n="adj"/></l><r>smooth<s n="adj"/></r></p></e>
+    <e><p><l>esmwyth<s n="adj"/></l><r>smooth<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>estynadwy<s n="adj"/></l><r>stretchable<s n="adj"/></r></p></e>
     <e><p><l>estynadwy<s n="adj"/></l><r>extensible<s n="adj"/></r></p></e>
     <e><p><l>estynedig<s n="adj"/></l><r>extended<s n="adj"/></r></p></e>
@@ -4580,11 +4581,11 @@
     <e><p><l>etifeddol<s n="adj"/></l><r>inherited<s n="adj"/></r></p></e>
     <e><p><l>etifeddol<s n="adj"/></l><r>inherited<s n="adj"/></r></p></e>
     <e><p><l>etifeddol<s n="adj"/></l><r>hereditary<s n="adj"/></r></p></e>
-    <e><p><l>euog<s n="adj"/></l><r>guilty<s n="adj"/></r></p></e>
+    <e><p><l>euog<s n="adj"/></l><r>guilty<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>Ewropeaidd<s n="adj"/></l><r>European<s n="adj"/></r></p></e>
-    <e><p><l>fechan<s n="adj"/></l><r>small<s n="adj"/></r></p></e>
+    <e><p><l>fechan<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>fed<s n="adj"/></l><r>th<s n="adj"/></r></p></e>
-    <e><p><l>fer<s n="adj"/></l><r>short<s n="adj"/></r></p></e>
+    <e><p><l>fer<s n="adj"/></l><r>short<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>fertigol<s n="adj"/></l><r>vertical<s n="adj"/></r></p></e>
     <e><p><l>ffafriol<s n="adj"/></l><r>favourable<s n="adj"/></r></p></e>
     <e><p><l>ffeithiol<s n="adj"/></l><r>factual<s n="adj"/></r></p></e>
@@ -4592,15 +4593,15 @@
     <e><p><l>fferyllol<s n="adj"/></l><r>pharmaceutical<s n="adj"/></r></p></e>
     <e><p><l>ffiniol<s n="adj"/></l><r>borderline<s n="adj"/></r></p></e>
     <e><p><l>ffisegol<s n="adj"/></l><r>physical<s n="adj"/></r></p></e>
-    <e><p><l>ffit<s n="adj"/></l><r>fit<s n="adj"/></r></p></e>
+    <e><p><l>ffit<s n="adj"/></l><r>fit<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>ffocysedig<s n="adj"/></l><r>focussed<s n="adj"/></r></p></e>
     <e><p><l>ffodus<s n="adj"/></l><r>fortunate<s n="adj"/></r></p></e>
     <e><p><l>fforddiadwy<s n="adj"/></l><r>affordable<s n="adj"/></r></p></e>
     <e><p><l>fformig<s n="adj"/></l><r>formic<s n="adj"/></r></p></e>
     <e><p><l>ffracsiynol<s n="adj"/></l><r>fractional<s n="adj"/></r></p></e>
-    <e><p><l>ffres<s n="adj"/></l><r>fresh<s n="adj"/></r></p></e>
+    <e><p><l>ffres<s n="adj"/></l><r>fresh<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>ffug<s n="adj"/></l><r>pretend<s n="adj"/></r></p></e>
-    <e><p><l>ffug<s n="adj"/></l><r>false<s n="adj"/></r></p></e>
+    <e><p><l>ffug<s n="adj"/></l><r>false<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>ffurfdroadol<s n="adj"/></l><r>inflectional<s n="adj"/></r></p></e>
     <e><p><l>ffurfdroëdig<s n="adj"/></l><r>inflected<s n="adj"/></r></p></e>
     <e><p><l>ffurfdroëdig<s n="adj"/></l><r>declined<s n="adj"/></r></p></e>
@@ -4614,17 +4615,17 @@
     <e><p><l>ffyrnig<s n="adj"/></l><r>fierce<s n="adj"/></r></p></e>
     <e><p><l>galarnadus<s n="adj"/></l><r>mournful<s n="adj"/></r></p></e>
     <e><p><l>galluog<s n="adj"/></l><r>enabled<s n="adj"/></r></p></e>
-    <e><p><l>galluog<s n="adj"/></l><r>able<s n="adj"/></r></p></e>
+    <e><p><l>galluog<s n="adj"/></l><r>able<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>galwedigaethol<s n="adj"/></l><r>vocational<s n="adj"/></r></p></e>
     <e><p><l>gama<s n="adj"/></l><r>gamma<s n="adj"/></r></p></e>
-    <e><p><l>garw<s n="adj"/></l><r>rough<s n="adj"/></r></p></e>
+    <e><p><l>garw<s n="adj"/></l><r>rough<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>generig<s n="adj"/></l><r>generic<s n="adj"/></r></p></e>
     <e><p><l>genetig<s n="adj"/></l><r>genetic<s n="adj"/></r></p></e>
     <e><p><l>geneuol<s n="adj"/></l><r>oral<s n="adj"/></r></p></e>
     <e><p><l>geometrig<s n="adj"/></l><r>geometrig<s n="adj"/></r></p></e>
-    <e><p><l>glân<s n="adj"/></l><r>clean<s n="adj"/></r></p></e>
+    <e><p><l>glân<s n="adj"/></l><r>clean<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>glas<s n="adj"/></l><r>blue<s n="adj"/></r></p></e>
-    <e><p><l>gludog<s n="adj"/></l><r>sticky<s n="adj"/></r></p></e>
+    <e><p><l>gludog<s n="adj"/></l><r>sticky<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>goddefol<s n="adj"/></l><r>passive<s n="adj"/></r></p></e>
     <e><p><l>gofalus<s n="adj"/></l><r>careful<s n="adj"/></r></p></e>
     <e><p><l>gofodol<s n="adj"/></l><r>spatial<s n="adj"/></r></p></e>
@@ -4648,14 +4649,14 @@
     <e><p><l>goruchel<s n="adj"/></l><r>eminent<s n="adj"/></r></p></e>
     <e><p><l>gosod<s n="adj"/></l><r>artificial<s n="adj"/></r></p></e>
     <e><p><l>gosodol<s n="adj"/></l><r>fixed<s n="adj"/></r></p></e>
-    <e><p><l>gostyngedig<s n="adj"/></l><r>humble<s n="adj"/></r></p></e>
+    <e><p><l>gostyngedig<s n="adj"/></l><r>humble<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>graddlwyd<s n="adj"/></l><r>greyscale<s n="adj"/></r></p></e>
     <e><p><l>graddol<s n="adj"/></l><r>gradual<s n="adj"/></r></p></e>
     <e><p><l>graenus<s n="adj"/></l><r>polished<s n="adj"/></r></p></e>
     <e><p><l>graffig<s n="adj"/></l><r>graphic<s n="adj"/></r></p></e>
     <e><p><l>graffigol<s n="adj"/></l><r>graphical<s n="adj"/></r></p></e>
     <e><p><l>grediniol<s n="adj"/></l><r>believing<s n="adj"/></r></p></e>
-    <e><p><l>gros<s n="adj"/></l><r>gross<s n="adj"/></r></p></e>
+    <e><p><l>gros<s n="adj"/></l><r>gross<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>grymus<s n="adj"/></l><r>mighty<s n="adj"/></r></p></e>
     <e><p><l>gwael<s n="adj"/></l><r>poorly<s n="adj"/></r></p></e>
     <e><p><l>gwaelodol<s n="adj"/></l><r>underlying<s n="adj"/></r></p></e>
@@ -4665,12 +4666,12 @@
     <e><p><l>gwahoddedig<s n="adj"/></l><r>invited<s n="adj"/></r></p></e>
     <e><p><l>gwallgof<s n="adj"/></l><r>mad<s n="adj"/></r></p></e>
     <e><p><l>gwallus<s n="adj"/></l><r>faulty<s n="adj"/></r></p></e>
-    <e><p><l>gwallus<s n="adj"/></l><r>bad<s n="adj"/></r></p></e>
-    <e><p><l>gwan<s n="adj"/></l><r>weak<s n="adj"/></r></p></e>
+    <e><p><l>gwallus<s n="adj"/></l><r>bad<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>gwan<s n="adj"/></l><r>weak<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>gwan<s n="adj"/></l><r>pale<s n="adj"/></r></p></e>
     <e><p><l>gwarchodedig<s n="adj"/></l><r>protected<s n="adj"/></r></p></e>
     <e><p><l>gwasgaredig<s n="adj"/></l><r>scattered<s n="adj"/></r></p></e>
-    <e><p><l>gwastad<s n="adj"/></l><r>flat<s n="adj"/></r></p></e>
+    <e><p><l>gwastad<s n="adj"/></l><r>flat<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>gweddol<s n="adj"/></l><r>fairly<s n="adj"/></r></p></e>
     <e><p><l>gweddw<s n="adj"/></l><r>widowed<s n="adj"/></r></p></e>
     <e><p><l>gweinidogol<s n="adj"/></l><r>administrative<s n="adj"/></r></p></e>
@@ -4681,11 +4682,11 @@
     <e><p><l>gweladwy<s n="adj"/></l><r>visible<s n="adj"/></r></p></e>
     <e><p><l>gweledig<s n="adj"/></l><r>visible<s n="adj"/></r></p></e>
     <e><p><l>gweledol<s n="adj"/></l><r>visual<s n="adj"/></r></p></e>
-    <e><p><l>gwen<s n="adj"/></l><r>white<s n="adj"/></r></p></e>
-    <e><p><l>gwerdd<s n="adj"/></l><r>green<s n="adj"/></r></p></e>
+    <e><p><l>gwen<s n="adj"/></l><r>white<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>gwerdd<s n="adj"/></l><r>green<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>gwerthadwy<s n="adj"/></l><r>saleable<s n="adj"/></r></p></e>
     <e><p><l>gwerthfawr<s n="adj"/></l><r>valuable<s n="adj"/></r></p></e>
-    <e><p><l>gwir<s n="adj"/></l><r>true<s n="adj"/></r></p></e>
+    <e><p><l>gwir<s n="adj"/></l><r>true<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>gwirfoddol<s n="adj"/></l><r>voluntary<s n="adj"/></r></p></e>
     <e><p><l>gwirioneddol<s n="adj"/></l><r>real<s n="adj"/></r></p></e>
     <e><p><l>gwladol<s n="adj"/></l><r>national<s n="adj"/></r></p></e>
@@ -4693,7 +4694,7 @@
     <e><p><l>gwleidyddol<s n="adj"/></l><r>political<s n="adj"/></r></p></e>
     <e><p><l>gwlyb<s n="adj"/></l><r>wet<s n="adj"/></r></p></e>
     <e><p><l>gwreiddiol<s n="adj"/></l><r>original<s n="adj"/></r></p></e>
-    <e><p><l>gwresog<s n="adj"/></l><r>warm<s n="adj"/></r></p></e>
+    <e><p><l>gwresog<s n="adj"/></l><r>warm<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>gwrogaethol<s n="adj"/></l><r>submissive<s n="adj"/></r></p></e>
     <e><p><l>gwrthbwysol<s n="adj"/></l><r>counterbalancing<s n="adj"/></r></p></e>
     <e><p><l>gwrthdro<s n="adj"/></l><r>inverted<s n="adj"/></r></p></e>
@@ -4710,8 +4711,8 @@
     <e><p><l>gwybyddus<s n="adj"/></l><r>known<s n="adj"/></r></p></e>
     <e><p><l>gwych<s n="adj"/></l><r>splendid<s n="adj"/></r></p></e>
     <e><p><l>gwyddonol<s n="adj"/></l><r>scientific<s n="adj"/></r></p></e>
-    <e><p><l>gwyllt<s n="adj"/></l><r>wild<s n="adj"/></r></p></e>
-    <e><p><l>gwyrdd<s n="adj"/></l><r>green<s n="adj"/></r></p></e>
+    <e><p><l>gwyllt<s n="adj"/></l><r>wild<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>gwyrdd<s n="adj"/></l><r>green<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>gwyrddlas<s n="adj"/></l><r>cyan<s n="adj"/></r></p></e>
     <e><p><l>gyrfaol<s n="adj"/></l><r>career<s n="adj"/></r></p></e>
     <e><p><l>hafal<s n="adj"/></l><r>equal<s n="adj"/></r></p></e>
@@ -4721,15 +4722,15 @@
     <e><p><l>hanesyddol<s n="adj"/></l><r>historical<s n="adj"/></r></p></e>
     <e><p><l>hanfodol<s n="adj"/></l><r>essential<s n="adj"/></r></p></e>
     <e><p><l>hanner-awtomatig<s n="adj"/></l><r>semi-automatic<s n="adj"/></r></p></e>
-    <e><p><l>hapus<s n="adj"/></l><r>happy<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>hapus<s n="adj"/></l><r>happy<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>harmonig<s n="adj"/></l><r>harmonic<s n="adj"/></r></p></e>
-    <e><p><l>hawdd<s n="adj"/></l><r>easy<s n="adj"/></r></p></e>
+    <e><p><l>hawdd<s n="adj"/></l><r>easy<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>haws<s n="adj"/></l><r>easier<s n="adj"/></r></p></e>
     <e><p><l>hecs<s n="adj"/></l><r>hex<s n="adj"/></r></p></e>
     <e><p><l>hecsadegol<s n="adj"/></l><r>hexadecimal<s n="adj"/></r></p></e>
     <e><p><l>hecto<s n="adj"/></l><r>hecto<s n="adj"/></r></p></e>
     <e><p><l>heddychlon<s n="adj"/></l><r>peaceful<s n="adj"/></r></p></e>
-    <e><p><l>heini<s n="adj"/></l><r>fit<s n="adj"/></r></p></e>
+    <e><p><l>heini<s n="adj"/></l><r>fit<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>heintus<s n="adj"/></l><r>infectious<s n="adj"/></r></p></e>
     <e><p><l>henaidd<s n="adj"/></l><r>old-fashioned<s n="adj"/></r></p></e>
     <e><p><l>heriol<s n="adj"/></l><r>challenging<s n="adj"/></r></p></e>
@@ -4746,8 +4747,8 @@
     <e><p><l>holl<s n="adj"/></l><r>all<s n="adj"/></r></p></e>
     <e><p><l>hollol<s n="adj"/></l><r>completely<s n="adj"/></r></p></e>
     <e><p><l>hollt<s n="adj"/></l><r>forked<s n="adj"/></r></p></e>
-
-
+ 
+ 
     <e><p><l>honedig<s n="adj"/></l><r>alleged<s n="adj"/></r></p></e>
     <e><p><l>hoyw<s n="adj"/></l><r>gay<s n="adj"/></r></p></e>
     <e><p><l>hud<s n="adj"/></l><r>magic<s n="adj"/></r></p></e>
@@ -4758,7 +4759,7 @@
     <e><p><l>hwn<s n="adj"/></l><r>this<s n="adj"/></r></p></e>
     <e><p><l>hwylus<s n="adj"/></l><r>convenient<s n="adj"/></r></p></e>
     <e><p><l>hwyred<s n="adj"/></l><r>as late<s n="adj"/></r></p></e>
-    <e><p><l>hy<s n="adj"/></l><r>bold<s n="adj"/></r></p></e>
+    <e><p><l>hy<s n="adj"/></l><r>bold<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>hyblyg<s n="adj"/></l><r>flexible<s n="adj"/></r></p></e>
     <e><p><l>hyderus<s n="adj"/></l><r>confident<s n="adj"/></r></p></e>
     <e><p><l>hyfforddedig<s n="adj"/></l><r>trained<s n="adj"/></r></p></e>
@@ -4768,7 +4769,7 @@
     <e><p><l>hygyrch<s n="adj"/></l><r>accessible<s n="adj"/></r></p></e>
     <e><p><l>hylaw<s n="adj"/></l><r>convenient<s n="adj"/></r></p></e>
     <e><p><l>hylifol<s n="adj"/></l><r>liquid<s n="adj"/></r></p></e>
-    <e><p><l>hyll<s n="adj"/></l><r>ugly<s n="adj"/></r></p></e>
+    <e><p><l>hyll<s n="adj"/></l><r>ugly<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>hynafol<s n="adj"/></l><r>ancient<s n="adj"/></r></p></e>
     <e><p><l>hynod<s n="adj"/></l><r>remarkable<s n="adj"/></r></p></e>
     <e><p><l>hyperbolig<s n="adj"/></l><r>hyperbolic<s n="adj"/></r></p></e>
@@ -4779,15 +4780,15 @@
     <e><p><l>Iddewig<s n="adj"/></l><r>Jewish<s n="adj"/></r></p></e>
     <e><p><l>ideolegol<s n="adj"/></l><r>ideological<s n="adj"/></r></p></e>
     <e><p><l>ieithyddol<s n="adj"/></l><r>linguistic<s n="adj"/></r></p></e>
-
-    <e><p><l>ifanc<s n="adj"/></l><r>young<s n="adj"/></r></p></e>
-    <e r="LR"><p><l>ieuainc<s n="adj"/></l><r>young<s n="adj"/></r></p></e>
-    <e r="LR"><p><l>ieuanc<s n="adj"/></l><r>young<s n="adj"/></r></p></e>
-
+ 
+    <e><p><l>ifanc<s n="adj"/></l><r>young<s n="adj"/><s n="sint"/></r></p></e> 
+    <e r="LR"><p><l>ieuainc<s n="adj"/></l><r>young<s n="adj"/><s n="sint"/></r></p></e> 
+    <e r="LR"><p><l>ieuanc<s n="adj"/></l><r>young<s n="adj"/><s n="sint"/></r></p></e> 
+ 
     <e><p><l>imperial<s n="adj"/></l><r>imperial<s n="adj"/></r></p></e>
     <e><p><l>integredig<s n="adj"/></l><r>integrated<s n="adj"/></r></p></e>
     <e><p><l>integrol<s n="adj"/></l><r>integral<s n="adj"/></r></p></e>
-    <e><p><l>ir<s n="adj"/></l><r>fresh<s n="adj"/></r></p></e>
+    <e><p><l>ir<s n="adj"/></l><r>fresh<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>isgoch<s n="adj"/></l><r>infrared<s n="adj"/></r></p></e>
     <e><p><l>islythrennol<s n="adj"/></l><r>lower-case<s n="adj"/></r></p></e>
     <e><p><l>isomedrig<s n="adj"/></l><r>isometric<s n="adj"/></r></p></e>
@@ -4796,11 +4797,11 @@
     <e><p><l>isymwybodol<s n="adj"/></l><r>subconscious<s n="adj"/></r></p></e>
     <e><p><l>italig<s n="adj"/></l><r>italig<s n="adj"/></r></p></e>
     <e><p><l>iterus<s n="adj"/></l><r>iterative<s n="adj"/></r></p></e>
-    <e><p><l>llachar<s n="adj"/></l><r>bright<s n="adj"/></r></p></e>
+    <e><p><l>llachar<s n="adj"/></l><r>bright<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>lladin<s n="adj"/></l><r>Latin<s n="adj"/></r></p></e>
     <e><p><l>llaes<s n="adj"/></l><r>loose<s n="adj"/></r></p></e>
     <e><p><l>llaith<s n="adj"/></l><r>damp<s n="adj"/></r></p></e>
-    <e><p><l>llawen<s n="adj"/></l><r>merry<s n="adj"/></r></p></e>
+    <e><p><l>llawen<s n="adj"/></l><r>merry<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>llawer<s n="adj"/></l><r>many<s n="adj"/></r></p></e>
     <e><p><l>llawfeddygol<s n="adj"/></l><r>surgical<s n="adj"/></r></p></e>
     <e><p><l>lled<s n="adj"/></l><r>fairly<s n="adj"/></r></p></e>
@@ -4822,7 +4823,7 @@
     <e><p><l>llinol<s n="adj"/></l><r>linear<s n="adj"/></r></p></e>
     <e><p><l>llipa<s n="adj"/></l><r>floppy<s n="adj"/></r></p></e>
     <e><p><l>lliwgar<s n="adj"/></l><r>colourful<s n="adj"/></r></p></e>
-    <e><p><l>llonydd<s n="adj"/></l><r>still<s n="adj"/></r></p></e>
+    <e><p><l>llonydd<s n="adj"/></l><r>still<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>llorweddol<s n="adj"/></l><r>horizontal<s n="adj"/></r></p></e>
     <e><p><l>llosg<s n="adj"/></l><r>burnt<s n="adj"/></r></p></e>
     <e><p><l>lluosog<s n="adj"/></l><r>plural<s n="adj"/></r></p></e>
@@ -4830,8 +4831,8 @@
     <e><p><l>lluosol<s n="adj"/></l><r>multiple<s n="adj"/></r></p></e>
     <e><p><l>llusgadwy<s n="adj"/></l><r>draggable<s n="adj"/></r></p></e>
     <e><p><l>llwgr<s n="adj"/></l><r>corrupt<s n="adj"/></r></p></e>
-    <e><p><l>llwgr<s n="adj"/></l><r>bad<s n="adj"/></r></p></e>
-    <e><p><l>llwyd<s n="adj"/></l><r>grey<s n="adj"/></r></p></e>
+    <e><p><l>llwgr<s n="adj"/></l><r>bad<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>llwyd<s n="adj"/></l><r>grey<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>llwyddiannus<s n="adj"/></l><r>successful<s n="adj"/></r></p></e>
     <e><p><l>llwydfelyn<s n="adj"/></l><r>beige<s n="adj"/></r></p></e>
     <e><p><l>llwydnetig<s n="adj"/></l><r>greynetic<s n="adj"/></r></p></e>
@@ -4840,7 +4841,7 @@
     <e><p><l>llwyr<s n="adj"/></l><r>complete<s n="adj"/></r></p></e>
     <e><p><l>llwythedig<s n="adj"/></l><r>loaded<s n="adj"/></r></p></e>
     <e><p><l>llwythog<s n="adj"/></l><r>loaded<s n="adj"/></r></p></e>
-    <e><p><l>llyfn<s n="adj"/></l><r>smooth<s n="adj"/></r></p></e>
+    <e><p><l>llyfn<s n="adj"/></l><r>smooth<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>llyfryddol<s n="adj"/></l><r>bibliographic<s n="adj"/></r></p></e>
     <e><p><l>llygredig<s n="adj"/></l><r>polluted<s n="adj"/></r></p></e>
     <e><p><l>llym<s n="adj"/></l><r>sharp<s n="adj"/></r></p></e>
@@ -4848,13 +4849,13 @@
     <e><p><l>llywodraethol<s n="adj"/></l><r>governing<s n="adj"/></r></p></e>
     <e><p><l>logarithmig<s n="adj"/></l><r>logarithmic<s n="adj"/></r></p></e>
     <e><p><l>logistaidd<s n="adj"/></l><r>logistic<s n="adj"/></r></p></e>
-    <e><p><l>lwcus<s n="adj"/></l><r>lucky<s n="adj"/></r></p></e>
+    <e><p><l>lwcus<s n="adj"/></l><r>lucky<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>mabwysiadol<s n="adj"/></l><r>adoptive<s n="adj"/></r></p></e>
     <e><p><l>mabwysiedig<s n="adj"/></l><r>adopted<s n="adj"/></r></p></e>
     <e><p><l>maethlon<s n="adj"/></l><r>nutritious<s n="adj"/></r></p></e>
     <e><p><l>magenta<s n="adj"/></l><r>magenta<s n="adj"/></r></p></e>
     <e><p><l>magnetig<s n="adj"/></l><r>magnetic<s n="adj"/></r></p></e>
-    <e><p><l>mân<s n="adj"/></l><r>fine<s n="adj"/></r></p></e>
+    <e><p><l>mân<s n="adj"/></l><r>fine<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>manteisiol<s n="adj"/></l><r>advantageous<s n="adj"/></r></p></e>
     <e><p><l>manwerth<s n="adj"/></l><r>retail<s n="adj"/></r></p></e>
     <e><p><l>mapiedig<s n="adj"/></l><r>mapped<s n="adj"/></r></p></e>
@@ -4866,9 +4867,9 @@
     <e><p><l>masnachol-sensitif<s n="adj"/></l><r>commercially sensitive<s n="adj"/></r></p></e>
     <e><p><l>materol<s n="adj"/></l><r>material<s n="adj"/></r></p></e>
     <e><p><l>mathemategol<s n="adj"/></l><r>mathematical<s n="adj"/></r></p></e>
-    <e><p><l>mawrion<s n="adj"/></l><r>great<s n="adj"/></r></p></e>
+    <e><p><l>mawrion<s n="adj"/></l><r>great<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>mecanyddol<s n="adj"/></l><r>mechanical<s n="adj"/></r></p></e>
-    <e><p><l>meddal<s n="adj"/></l><r>soft<s n="adj"/></r></p></e>
+    <e><p><l>meddal<s n="adj"/></l><r>soft<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>meddiannol<s n="adj"/></l><r>possessive<s n="adj"/></r></p></e>
     <e><p><l>meddygol<s n="adj"/></l><r>medical<s n="adj"/></r></p></e>
     <e><p><l>meddyliol<s n="adj"/></l><r>mental<s n="adj"/></r></p></e>
@@ -4876,9 +4877,9 @@
     <e><p><l>meidraidd<s n="adj"/></l><r>finite<s n="adj"/></r></p></e>
     <e><p><l>meintiol<s n="adj"/></l><r>quantitative<s n="adj"/></r></p></e>
     <e><p><l>meirw<s n="adj"/></l><r>dead<s n="adj"/></r></p></e>
-    <e><p><l>melyn<s n="adj"/></l><r>yellow<s n="adj"/></r></p></e>
+    <e><p><l>melyn<s n="adj"/></l><r>yellow<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>melynddu<s n="adj"/></l><r>tan<s n="adj"/></r></p></e>
-    <e><p><l>melys<s n="adj"/></l><r>sweet<s n="adj"/></r></p></e>
+    <e><p><l>melys<s n="adj"/></l><r>sweet<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>mentergarol<s n="adj"/></l><r>entrepreneurial<s n="adj"/></r></p></e>
     <e><p><l>mentrus<s n="adj"/></l><r>enterprising<s n="adj"/></r></p></e>
     <e><p><l>mesuradwy<s n="adj"/></l><r>measurable<s n="adj"/></r></p></e>
@@ -4898,7 +4899,7 @@
     <e><p><l>mor<s n="adj"/></l><r>as<s n="adj"/></r></p></e>
     <e><p><l>morlas<s n="adj"/></l><r>aquamarine<s n="adj"/></r></p></e>
     <e><p><l>morol<s n="adj"/></l><r>marine<s n="adj"/></r></p></e>
-    <e><p><l>mud<s n="adj"/></l><r>dumb<s n="adj"/></r></p></e>
+    <e><p><l>mud<s n="adj"/></l><r>dumb<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>munudol<s n="adj"/></l><r>by the minute<s n="adj"/></r></p></e>
     <e><p><l>mwys<s n="adj"/></l><r>ambiguous<s n="adj"/></r></p></e>
     <e><p><l>mympwyol<s n="adj"/></l><r>arbitrary<s n="adj"/></r></p></e>
@@ -4911,7 +4912,7 @@
     <e><p><l>negyddol<s n="adj"/></l><r>negative<s n="adj"/></r></p></e>
     <e><p><l>neilltuedig<s n="adj"/></l><r>reserved<s n="adj"/></r></p></e>
     <e><p><l>neilltuol<s n="adj"/></l><r>particular<s n="adj"/></r></p></e>
-    <e><p><l>neis<s n="adj"/></l><r>nice<s n="adj"/></r></p></e>
+    <e><p><l>neis<s n="adj"/></l><r>nice<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>nerthol<s n="adj"/></l><r>powerful<s n="adj"/></r></p></e>
     <e><p><l>newidiedig<s n="adj"/></l><r>changed<s n="adj"/></r></p></e>
     <e><p><l>newidiol<s n="adj"/></l><r>variable<s n="adj"/></r></p></e>
@@ -4920,12 +4921,12 @@
     <e><p><l>niferus<s n="adj"/></l><r>numerous<s n="adj"/></r></p></e>
     <e><p><l>niwclear<s n="adj"/></l><r>nuclear<s n="adj"/></r></p></e>
     <e><p><l>niweidiol<s n="adj"/></l><r>harmful<s n="adj"/></r></p></e>
-    <e><p><l>niwlaidd<s n="adj"/></l><r>fuzzy<s n="adj"/></r></p></e>
+    <e><p><l>niwlaidd<s n="adj"/></l><r>fuzzy<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>nodedig<s n="adj"/></l><r>distinctive<s n="adj"/></r></p></e>
     <e><p><l>nodweddiadol<s n="adj"/></l><r>characteristic<s n="adj"/></r></p></e>
     <e><p><l>noeth<s n="adj"/></l><r>naked<s n="adj"/></r></p></e>
     <e><p><l>normal<s n="adj"/></l><r>normal<s n="adj"/></r></p></e>
-    <e><p><l>od<s n="adj"/></l><r>odd<s n="adj"/></r></p></e>
+    <e><p><l>od<s n="adj"/></l><r>odd<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>oediedig<s n="adj"/></l><r>delayed<s n="adj"/></r></p></e>
     <e><p><l>oediedig<s n="adj"/></l><r>paused<s n="adj"/></r></p></e>
     <e><p><l>oedrannus<s n="adj"/></l><r>aged<s n="adj"/></r></p></e>
@@ -4982,9 +4983,9 @@
     <e><p><l>pesimistaidd<s n="adj"/></l><r>pessimistic<s n="adj"/></r></p></e>
     <e><p><l>petrus<s n="adj"/></l><r>tentative<s n="adj"/></r></p></e>
     <e><p><l>petryal<s n="adj"/></l><r>rectangular<s n="adj"/></r></p></e>
-    <e><p><l>pinc<s n="adj"/></l><r>pink<s n="adj"/></r></p></e>
-    <e><p><l>pitw<s n="adj"/></l><r>tiny<s n="adj"/></r></p></e>
-    <e><p><l>plaen<s n="adj"/></l><r>plain<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>pinc<s n="adj"/></l><r>pink<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>pitw<s n="adj"/></l><r>tiny<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>plaen<s n="adj"/></l><r>plain<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>planedig<s n="adj"/></l><r>embedded<s n="adj"/></r></p></e>
     <e><p><l>pleserus<s n="adj"/></l><r>pleasant<s n="adj"/></r></p></e>
     <e><p><l>pluog<s n="adj"/></l><r>feathered<s n="adj"/></r></p></e>
@@ -4997,10 +4998,10 @@
     <e><p><l>positif<s n="adj"/></l><r>positive<s n="adj"/></r></p></e>
     <e><p><l>preifat<s n="adj"/></l><r>private<s n="adj"/></r></p></e>
     <e><p><l>presennol<s n="adj"/></l><r>present<s n="adj"/></r></p></e>
-
+ 
     <!-- changed from 'principal' to 'first' ~fmt -->
     <e><p><l>prif<s n="adj"/></l><r>first<s n="adj"/></r></p></e>
-
+ 
     <e><p><l>priflythrennol<s n="adj"/></l><r>upper-case<s n="adj"/></r></p></e>
     <e><p><l>prifol<s n="adj"/></l><r>cardinal<s n="adj"/></r></p></e>
     <e><p><l>prin<s n="adj"/></l><r>scarce<s n="adj"/></r></p></e>
@@ -5016,12 +5017,12 @@
     <e><p><l>prydferth<s n="adj"/></l><r>beautiful<s n="adj"/></r></p></e>
     <e><p><l>prydlon<s n="adj"/></l><r>timely<s n="adj"/></r></p></e>
     <e><p><l>prynol<s n="adj"/></l><r>purchasing<s n="adj"/></r></p></e>
-    <e><p><l>prysur<s n="adj"/></l><r>busy<s n="adj"/></r></p></e>
+    <e><p><l>prysur<s n="adj"/></l><r>busy<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>pum<s n="adj"/></l><r>five<s n="adj"/></r></p></e>
     <e><p><l>pumed<s n="adj"/></l><r>fifth<s n="adj"/></r></p></e>
     <e><p><l>pum-mlynedd<s n="adj"/></l><r>five-year<s n="adj"/></r></p></e>
     <e><p><l>pump<s n="adj"/></l><r>five<s n="adj"/></r></p></e>
-    <e><p><l>pur<s n="adj"/></l><r>pure<s n="adj"/></r></p></e>
+    <e><p><l>pur<s n="adj"/></l><r>pure<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>pwdr<s n="adj"/></l><r>rotten<s n="adj"/></r></p></e>
     <e><p><l>pwerus<s n="adj"/></l><r>powerful<s n="adj"/></r></p></e>
     <e><p><l>pŵl<s n="adj"/></l><r>dim<s n="adj"/></r></p></e>
@@ -5068,14 +5069,14 @@
     <e><p><l>rhonc<s n="adj"/></l><r>out-and-out<s n="adj"/></r></p></e>
     <e><p><l>Rhufeinig<s n="adj"/></l><r>Roman<s n="adj"/></r></p></e>
     <e><p><l>rhugl<s n="adj"/></l><r>fluent<s n="adj"/></r></p></e>
-    <e><p><l>rhwydd<s n="adj"/></l><r>easy<s n="adj"/></r></p></e>
+    <e><p><l>rhwydd<s n="adj"/></l><r>easy<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>rhwygadwy<s n="adj"/></l><r>tearoff<s n="adj"/></r></p></e>
     <e><p><l>rhwym<s n="adj"/></l><r>obliged<s n="adj"/></r></p></e>
     <e><p><l>rhwystredig<s n="adj"/></l><r>frustrated<s n="adj"/></r></p></e>
     <e><p><l>rhy<s n="adj"/></l><r>too<s n="adj"/></r></p></e>
-    <e><p><l>rhydd<s n="adj"/></l><r>free<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>rhydd<s n="adj"/></l><r>free<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>rhyddfrydig<s n="adj"/></l><r>liberal<s n="adj"/></r></p></e>
-    <e><p><l>rhyfedd<s n="adj"/></l><r>strange<s n="adj"/></r></p></e>
+    <e><p><l>rhyfedd<s n="adj"/></l><r>strange<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>rhyfeddol<s n="adj"/></l><r>wonderful<s n="adj"/></r></p></e>
     <e><p><l>rhyng-broffesiynol<s n="adj"/></l><r>inter-professional<s n="adj"/></r></p></e>
     <e><p><l>rhyngbrosesol<s n="adj"/></l><r>interprocess<s n="adj"/></r></p></e>
@@ -5089,8 +5090,8 @@
     <e><p><l>Saesneg<s n="adj"/></l><r>English<s n="adj"/></r></p></e>
     <e><p><l>safonol<s n="adj"/></l><r>standard<s n="adj"/></r></p></e>
     <e><p><l>saith<s n="adj"/></l><r>seven<s n="adj"/></r></p></e>
-    <e><p><l>sâl<s n="adj"/></l><r>ill<s n="adj"/></r></p></e>
-    <e><p><l>sanctaidd<s n="adj"/></l><r>holy<s n="adj"/></r></p></e>
+    <e><p><l>sâl<s n="adj"/></l><r>ill<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>sanctaidd<s n="adj"/></l><r>holy<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>sawl<s n="adj"/></l><r>many<s n="adj"/></r></p></e>
     <e><p><l>sefydledig<s n="adj"/></l><r>established<s n="adj"/></r></p></e>
     <e><p><l>sefydliadol<s n="adj"/></l><r>institutional<s n="adj"/></r></p></e>
@@ -5108,22 +5109,22 @@
     <e><p><l>seneddol<s n="adj"/></l><r>parliamentary<s n="adj"/></r></p></e>
     <e><p><l>sengl<s n="adj"/></l><r>single<s n="adj"/></r></p></e>
     <e><p><l>sensitif<s n="adj"/></l><r>sensitive<s n="adj"/></r></p></e>
-    <e><p><l>serth<s n="adj"/></l><r>steep<s n="adj"/></r></p></e>
+    <e><p><l>serth<s n="adj"/></l><r>steep<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>sgleiniog<s n="adj"/></l><r>glossy<s n="adj"/></r></p></e>
     <e><p><l>Siapanaidd<s n="adj"/></l><r>Japanese<s n="adj"/></r></p></e>
     <e><p><l>siartredig<s n="adj"/></l><r>chartered<s n="adj"/></r></p></e>
-    <e><p><l>sicr<s n="adj"/></l><r>sure<s n="adj"/></r></p></e>
+    <e><p><l>sicr<s n="adj"/></l><r>sure<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>sicr<s n="adj"/></l><r>certain<s n="adj"/></r></p></e>
     <e><p><l>sifil<s n="adj"/></l><r>civil<s n="adj"/></r></p></e>
     <e><p><l>siomedig<s n="adj"/></l><r>disappointed<s n="adj"/></r></p></e>
     <e><p><l>sionc<s n="adj"/></l><r>nimble<s n="adj"/></r></p></e>
     <e><p><l>sirol<s n="adj"/></l><r>county<s n="adj"/></r></p></e>
-    <e><p><l>siwr<s n="adj"/></l><r>sure<s n="adj"/></r></p></e>
-    <e><p><l>siŵr<s n="adj"/></l><r>sure<s n="adj"/></r></p></e>
+    <e><p><l>siwr<s n="adj"/></l><r>sure<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>siŵr<s n="adj"/></l><r>sure<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>slafaidd<s n="adj"/></l><r>slavish<s n="adj"/></r></p></e>
     <e><p><l>smala<s n="adj"/></l><r>droll<s n="adj"/></r></p></e>
     <e><p><l>soffistigedig<s n="adj"/></l><r>sophisticated<s n="adj"/></r></p></e>
-    <e><p><l>solet<s n="adj"/></l><r>solid<s n="adj"/></r></p></e>
+    <e><p><l>solet<s n="adj"/></l><r>solid<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>sosialaidd<s n="adj"/></l><r>socialist<s n="adj"/></r></p></e>
     <e><p><l>stampiedig<s n="adj"/></l><r>stamped<s n="adj"/></r></p></e>
     <e><p><l>statig<s n="adj"/></l><r>static<s n="adj"/></r></p></e>
@@ -5133,8 +5134,8 @@
     <e><p><l>strwythurol<s n="adj"/></l><r>structural<s n="adj"/></r></p></e>
     <e><p><l>swyddogaethol<s n="adj"/></l><r>functional<s n="adj"/></r></p></e>
     <e><p><l>swyddogol<s n="adj"/></l><r>official<s n="adj"/></r></p></e>
-    <e><p><l>sych<s n="adj"/></l><r>dry<s n="adj"/></r></p></e>
-    <e><p><l>sychlyd<s n="adj"/></l><r>dry<s n="adj"/></r></p></e>
+    <e><p><l>sych<s n="adj"/></l><r>dry<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>sychlyd<s n="adj"/></l><r>dry<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>sydyn<s n="adj"/></l><r>sudden<s n="adj"/></r></p></e>
     <e><p><l>syfrdanol<s n="adj"/></l><r>stunning<s n="adj"/></r></p></e>
     <e><p><l>sylfaenol<s n="adj"/></l><r>fundamental<s n="adj"/></r></p></e>
@@ -5164,7 +5165,7 @@
     <e><p><l>tebygol<s n="adj"/></l><r>probable<s n="adj"/></r></p></e>
     <e><p><l>technegol<s n="adj"/></l><r>technical<s n="adj"/></r></p></e>
     <e><p><l>technolegol<s n="adj"/></l><r>technological<s n="adj"/></r></p></e>
-    <e><p><l>teg<s n="adj"/></l><r>fair<s n="adj"/></r></p></e>
+    <e><p><l>teg<s n="adj"/></l><r>fair<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>teithiol<s n="adj"/></l><r>itinerant<s n="adj"/></r></p></e>
     <e><p><l>tele-iechyd<s n="adj"/></l><r>tele-health<s n="adj"/></r></p></e>
     <e><p><l>terfynol<s n="adj"/></l><r>final<s n="adj"/></r></p></e>
@@ -5202,7 +5203,7 @@
     <e><p><l>trosfwaol<s n="adj"/></l><r>overarching<s n="adj"/></r></p></e>
     <e><p><l>truenus<s n="adj"/></l><r>wretched<s n="adj"/></r></p></e>
     <e><p><l>trugarog<s n="adj"/></l><r>merciful<s n="adj"/></r></p></e>
-    <e><p><l>trwchus<s n="adj"/></l><r>thick<s n="adj"/></r></p></e>
+    <e><p><l>trwchus<s n="adj"/></l><r>thick<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>trwsiadus<s n="adj"/></l><r>well-dressed<s n="adj"/></r></p></e>
     <e><p><l>trwyadl<s n="adj"/></l><r>thorough<s n="adj"/></r></p></e>
     <e><p><l>trwyddedig<s n="adj"/></l><r>licensed<s n="adj"/></r></p></e>
@@ -5214,7 +5215,7 @@
     <e><p><l>tryloyw<s n="adj"/></l><r>transparent<s n="adj"/></r></p></e>
     <e><p><l>trylwyr<s n="adj"/></l><r>thorough<s n="adj"/></r></p></e>
     <e><p><l>twristaidd<s n="adj"/></l><r>tourist<s n="adj"/></r></p></e>
-    <e><p><l>twt<s n="adj"/></l><r>neat<s n="adj"/></r></p></e>
+    <e><p><l>twt<s n="adj"/></l><r>neat<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>twyllodrus<s n="adj"/></l><r>deceitful<s n="adj"/></r></p></e>
     <e><p><l>tybiedig<s n="adj"/></l><r>putative<s n="adj"/></r></p></e>
     <e><p><l>tymhorol<s n="adj"/></l><r>temporal<s n="adj"/></r></p></e>
@@ -5238,7 +5239,7 @@
     <e><p><l>unfryd<s n="adj"/></l><r>unanimous<s n="adj"/></r></p></e>
     <e><p><l>unfrydol<s n="adj"/></l><r>unanimous<s n="adj"/></r></p></e>
     <e><p><l>uniaith<s n="adj"/></l><r>monoglot<s n="adj"/></r></p></e>
-    <e><p><l>unig<s n="adj"/></l><r>lonely<s n="adj"/></r></p></e>
+    <e><p><l>unig<s n="adj"/></l><r>lonely<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>unig<s n="adj"/></l><r>only<s n="adj"/></r></p></e>
     <e><p><l>unigol<s n="adj"/></l><r>individual<s n="adj"/></r></p></e>
     <e><p><l>unigol<s n="adj"/></l><r>singular<s n="adj"/></r></p></e>
@@ -5251,8 +5252,8 @@
     <e><p><l>unlled<s n="adj"/></l><r>monospaced<s n="adj"/></r></p></e>
     <e><p><l>unlliw<s n="adj"/></l><r>monochrome<s n="adj"/></r></p></e>
     <e><p><l>unol<s n="adj"/></l><r>united<s n="adj"/></r></p></e>
-
-
+ 
+ 
     <e><p><l>unswydd<s n="adj"/></l><r>specific<s n="adj"/></r></p></e>
     <e><p><l>urddasol<s n="adj"/></l><r>dignified<s n="adj"/></r></p></e>
     <e><p><l>uwch-<s n="adj"/></l><r>super-<s n="adj"/></r></p></e>
@@ -5286,10 +5287,10 @@
     <e><p><l>ymweledig<s n="adj"/></l><r>punished<s n="adj"/></r></p></e>
     <e><p><l>ymwybodol<s n="adj"/></l><r>conscious<s n="adj"/></r></p></e>
     <e><p><l>ymylol<s n="adj"/></l><r>marginal<s n="adj"/></r></p></e>
-
+ 
     <!-- check -->
 <!--    <e><p><l>yn<s n="adj"/></l><r>in<s n="adj"/></r></p></e> -->
-
+ 
     <e><p><l>ynghlwm<s n="adj"/></l><r>attached<s n="adj"/></r></p></e>
     <e><p><l>yn-y-car<s n="adj"/></l><r>in-car<s n="adj"/></r></p></e>
     <e><p><l>ysbeidiol<s n="adj"/></l><r>intermittent<s n="adj"/></r></p></e>
@@ -5302,66 +5303,66 @@
     <e><p><l>ystwyth<s n="adj"/></l><r>supple<s n="adj"/></r></p></e>
     <e><p><l>ystyrlon<s n="adj"/></l><r>meaningful<s n="adj"/></r></p></e>
     <e><p><l>ystyrlon<s n="adj"/></l><r>significant<s n="adj"/></r></p></e>
-    <e><p><l>agos<s n="adj"/></l><r>close<s n="adj"/></r></p></e>
+    <e><p><l>agos<s n="adj"/></l><r>close<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>aml<s n="adj"/></l><r>frequent<s n="adj"/></r></p></e>
     <e><p><l>amlwg<s n="adj"/></l><r>obvious<s n="adj"/></r></p></e>
     <e><p><l>anodd<s n="adj"/></l><r>difficult<s n="adj"/></r></p></e>
-    <e><p><l>araf<s n="adj"/></l><r>slow<s n="adj"/></r></p></e>
-    <e><p><l>bach<s n="adj"/></l><r>small<s n="adj"/></r></p></e>
+    <e><p><l>araf<s n="adj"/></l><r>slow<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>bach<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e> 
     <e r="RL"><p><l>bas<s n="adj"/></l><r>bass<s n="adj"/></r></p></e>
-    <e><p><l>bas<s n="adj"/></l><r>shallow<s n="adj"/></r></p></e>
-    <e><p><l>byr<s n="adj"/></l><r>short<s n="adj"/></r></p></e>
+    <e><p><l>bas<s n="adj"/></l><r>shallow<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>byr<s n="adj"/></l><r>short<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>call<s n="adj"/></l><r>sane<s n="adj"/></r></p></e>
-    <e><p><l>cryf<s n="adj"/></l><r>strong<s n="adj"/></r></p></e>
-    <e><p><l>cul<s n="adj"/></l><r>narrow<s n="adj"/></r></p></e>
-    <e><p><l>cyflym<s n="adj"/></l><r>fast<s n="adj"/></r></p></e>
+    <e><p><l>cryf<s n="adj"/></l><r>strong<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>cul<s n="adj"/></l><r>narrow<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>cyflym<s n="adj"/></l><r>fast<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>cynnar<s n="adj"/></l><r>early<s n="adj"/></r></p></e>
-    <e><p><l>cynnes<s n="adj"/></l><r>warm<s n="adj"/></r></p></e>
-    <e><p><l>da<s n="adj"/></l><r>good<s n="adj"/></r></p></e>
+    <e><p><l>cynnes<s n="adj"/></l><r>warm<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>da<s n="adj"/></l><r>good<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>diweddar<s n="adj"/></l><r>recent<s n="adj"/></r></p></e>
     <e><p><l>drud<s n="adj"/></l><r>expensive<s n="adj"/></r></p></e>
-    <e><p><l>drwg<s n="adj"/></l><r>bad<s n="adj"/></r></p></e>
-    <e><p><l>dwfn<s n="adj"/></l><r>deep<s n="adj"/></r></p></e>
+    <e><p><l>drwg<s n="adj"/></l><r>bad<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>dwfn<s n="adj"/></l><r>deep<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>dwys<s n="adj"/></l><r>intense<s n="adj"/></r></p></e>
     <e><p><l>eang<s n="adj"/></l><r>extensive<s n="adj"/></r></p></e>
     <e><p><l>enwog<s n="adj"/></l><r>famous<s n="adj"/></r></p></e>
-    <e><p><l>gwag<s n="adj"/></l><r>empty<s n="adj"/></r></p></e>
+    <e><p><l>gwag<s n="adj"/></l><r>empty<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>helaeth<s n="adj"/></l><r>ample<s n="adj"/></r></p></e>
-    <e><p><l>hen<s n="adj"/></l><r>old<s n="adj"/></r></p></e>
-    <e><p><l>hir<s n="adj"/></l><r>long<s n="adj"/></r></p></e>
+    <e><p><l>hen<s n="adj"/></l><r>old<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>hir<s n="adj"/></l><r>long<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>hwyr<s n="adj"/></l><r>late<s n="adj"/></r></p></e>
-    <e><p><l>iach<s n="adj"/></l><r>healthy<s n="adj"/></r></p></e>
-    <e><p><l>isel<s n="adj"/></l><r>low<s n="adj"/></r></p></e>
-    <e><p><l>llawn<s n="adj"/></l><r>full<s n="adj"/></r></p></e>
-    <e><p><l>llydan<s n="adj"/></l><r>wide<s n="adj"/></r></p></e>
-    <e><p><l>llydan<s n="adj"/></l><r>broad<s n="adj"/></r></p></e>
+    <e><p><l>iach<s n="adj"/></l><r>healthy<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>isel<s n="adj"/></l><r>low<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>llawn<s n="adj"/></l><r>full<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>llydan<s n="adj"/></l><r>wide<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>llydan<s n="adj"/></l><r>broad<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>manwl<s n="adj"/></l><r>detailed<s n="adj"/></r></p></e>
-    <e><p><l>mawr<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
-    <e><p><l>newydd<s n="adj"/></l><r>new<s n="adj"/></r></p></e>
-    <e><p><l>oer<s n="adj"/></l><r>cold<s n="adj"/></r></p></e>
-    <e><p><l>pell<s n="adj"/></l><r>far<s n="adj"/></r></p></e>
-    <e><p><l>poeth<s n="adj"/></l><r>hot<s n="adj"/></r></p></e>
+    <e><p><l>mawr<s n="adj"/></l><r>big<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>newydd<s n="adj"/></l><r>new<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>oer<s n="adj"/></l><r>cold<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>pell<s n="adj"/></l><r>far<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>poeth<s n="adj"/></l><r>hot<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>pwysig<s n="adj"/></l><r>important<s n="adj"/></r></p></e>
-    <e><p><l>rhad<s n="adj"/></l><r>cheap<s n="adj"/></r></p></e>
-    <e><p><l>syml<s n="adj"/></l><r>simple<s n="adj"/></r></p></e>
-    <e><p><l>tal<s n="adj"/></l><r>tall<s n="adj"/></r></p></e>
-    <e><p><l>tenau<s n="adj"/></l><r>thin<s n="adj"/></r></p></e>
-    <e><p><l>tew<s n="adj"/></l><r>fat<s n="adj"/></r></p></e>
-    <e><p><l>tlawd<s n="adj"/></l><r>poor<s n="adj"/></r></p></e>
-    <e><p><l>trwm<s n="adj"/></l><r>heavy<s n="adj"/></r></p></e>
-    <e><p><l>tywyll<s n="adj"/></l><r>dark<s n="adj"/></r></p></e>
-    <e><p><l>uchel<s n="adj"/></l><r>high<s n="adj"/></r></p></e>
-    <e><p><l>ysgafn<s n="adj"/></l><r>light<s n="adj"/></r></p></e>
-
+    <e><p><l>rhad<s n="adj"/></l><r>cheap<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>syml<s n="adj"/></l><r>simple<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>tal<s n="adj"/></l><r>tall<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>tenau<s n="adj"/></l><r>thin<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>tew<s n="adj"/></l><r>fat<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>tlawd<s n="adj"/></l><r>poor<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>trwm<s n="adj"/></l><r>heavy<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>tywyll<s n="adj"/></l><r>dark<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>uchel<s n="adj"/></l><r>high<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>ysgafn<s n="adj"/></l><r>light<s n="adj"/><s n="sint"/></r></p></e> 
+ 
     <!-- Verbs -->
-
+ 
     <e><p><l>plygu<s n="vblex"/></l><r>bend<s n="vblex"/></r></p></e>
     <e><p><l>eangu<s n="vblex"/></l><r>broaden<s n="vblex"/></r></p></e>
     <e><p><l>caboli<s n="vblex"/></l><r>burnish<s n="vblex"/></r></p></e>
     <e><p><l>galluogi<s n="vblex"/></l><r>empower<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>gorfodi<s n="vblex"/></l><r>force<s n="vblex"/></r></p></e>
-
-
+ 
+ 
     <e><p><l>aberthu<s n="vblex"/></l><r>sacrifice<s n="vblex"/></r></p></e>
     <e><p><l>absennu<s n="vblex"/></l><r>backbite<s n="vblex"/></r></p></e>
     <e><p><l>acennu<s n="vblex"/></l><r>accentuate<s n="vblex"/></r></p></e>
@@ -5763,10 +5764,10 @@
     <e><p><l>blysu<s n="vblex"/></l><r>crave<s n="vblex"/></r></p></e>
     <e><p><l>bochio<s n="vblex"/></l><r>gobble<s n="vblex"/></r></p></e>
     <e><p><l>bocsio<s n="vblex"/></l><r>box<s n="vblex"/></r></p></e>
-
+ 
     <e><p><l>bod<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
 <!--    <e><p><l>bod<s n="vblex"/></l><r>be<s n="vblex"/></r></p></e> -->
-
+ 
     <e><p><l>boddhau<s n="vblex"/></l><r>please<s n="vblex"/></r></p></e>
     <e><p><l>boddi<s n="vblex"/></l><r>drown<s n="vblex"/></r></p></e>
     <e><p><l>boddloni<s n="vblex"/></l><r>gratify<s n="vblex"/></r></p></e>
@@ -8708,13 +8709,13 @@
     <e><p><l>ystyrio<s n="vblex"/></l><r>consider<s n="vblex"/></r></p></e>
     <e><p><l>ysu<s n="vblex"/></l><r>crave<s n="vblex"/></r></p></e>
     <e><p><l>yswirio<s n="vblex"/></l><r>insure<s n="vblex"/></r></p></e>
-
-
+ 
+ 
      <!-- Multiword verbs -->
-
+ 
     <e><p><l>gwalcio<s n="vblex"/></l><r>turn<g><b/>up</g><s n="vblex"/></r></p></e>
     <e><p><l>gofalu<s n="vblex"/></l><r>take<g><b/>care</g><s n="vblex"/></r></p></e>
-
+ 
     <e><p><l>aberu<s n="vblex"/></l><r>flow into<s n="vblex"/></r></p></e>
     <e><p><l>adara<s n="vblex"/></l><r>catch birds<s n="vblex"/></r></p></e>
     <e><p><l>ailedrych<s n="vblex"/></l><r>look again<s n="vblex"/></r></p></e>
@@ -9071,7 +9072,7 @@
     <e><p><l>tolli<s n="vblex"/></l><r>charge a toll<s n="vblex"/></r></p></e>
     <e><p><l>topi<s n="vblex"/></l><r>block up<s n="vblex"/></r></p></e>
     <e><p><l>topio<s n="vblex"/></l><r>block up<s n="vblex"/></r></p></e>
-    <e><p><l>traeanu<s n="vblex"/></l><r>divide into thirds<s n="vblex"/></r></p></e>
+    <e><p><l>traeanu<s n="vblex"/></l><r>divide<g><b/>into<b/>thirds</g><s n="vblex"/></r></p></e>
     <e><p><l>trafriwio<s n="vblex"/></l><r>break into smithereens<s n="vblex"/></r></p></e>
     <e><p><l>trosiadu<s n="vblex"/></l><r>use a metaphor<s n="vblex"/></r></p></e>
     <e><p><l>trullio<s n="vblex"/></l><r>serve wine<s n="vblex"/></r></p></e>
@@ -9145,15 +9146,15 @@
     <e><p><l>ynfydu<s n="vblex"/></l><r>go mad<s n="vblex"/></r></p></e>
     <e><p><l>ysguborio<s n="vblex"/></l><r>store in a barn<s n="vblex"/></r></p></e>
     <e><p><l>ystyfnigo<s n="vblex"/></l><r>be stubborn<s n="vblex"/></r></p></e>
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
     <!-- Personal pronouns -->
-
+ 
     <!-- Subject -->
     <e>
       <p>
@@ -9209,7 +9210,7 @@
         <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
       </p>
     </e>
-
+ 
     <!-- Object -->
     <e>
       <p>
@@ -9259,28 +9260,28 @@
         <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
       </p>
     </e>
-
-
+ 
+ 
     <!-- Abbreviations -->
-
+ 
     <e><p><l>e.e.<s n="abbr"/></l><r>e.g.<s n="abbr"/></r></p></e>
-
+ 
     <!-- Proper names -->
       <!-- Organisations -->
-
+ 
     <e><p><l>Llywodraeth Cynulliad Cymru<s n="np"/></l><r>Welsh Assembly Government<s n="np"/></r></p></e>
     <e><p><l>Llywodraeth y Cynulliad<s n="np"/></l><r>Assembly Government<s n="np"/></r></p></e>
     <e><p><l>Cymdeithas yr Iaith Gymraeg<s n="np"/></l><r>Cymdeithas yr Iaith Gymraeg<s n="np"/></r></p></e>
     <e><p><l>Cymdeithas yr Iaith<s n="np"/></l><r>Cymdeithas yr Iaith<s n="np"/></r></p></e>
     <e><p><l>Cymdeithas<s n="np"/></l><r>Cymdeithas<s n="np"/></r></p></e>
-
-
+ 
+ 
       <!--  Anthroponyms -->
-
+ 
           <!-- Should probably add some Welsh ones here ~fmt -->      
-
+ 
     <e><p><l>Dafydd<s n="np"/><s n="ant"/></l><r>Dafydd<s n="np"/><s n="ant"/></r></p></e>
-
+ 
     <e><p><l>Aaron<s n="np"/><s n="ant"/></l><r>Aaron<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Abril<s n="np"/><s n="ant"/></l><r>Abril<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Adam<s n="np"/><s n="ant"/></l><r>Adam<s n="np"/><s n="ant"/></r></p></e>
@@ -9651,16 +9652,16 @@
     <e><p><l>Yedythe<s n="np"/><s n="ant"/></l><r>Yedythe<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Zacheus<s n="np"/><s n="ant"/></l><r>Zacheus<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Zaira<s n="np"/><s n="ant"/></l><r>Zaira<s n="np"/><s n="ant"/></r></p></e>
-
+ 
     <!--  Toponyms -->
-
+ 
     <e><p><l>Aberystwyth<s n="np"/><s n="top"/></l><r>Aberystwyth<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bangor<s n="np"/><s n="top"/></l><r>Bangor<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Blaenafon<s n="np"/><s n="top"/></l><r>Blaenafon<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caerdydd<s n="np"/><s n="top"/></l><r>Cardiff<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dolgellau<s n="np"/><s n="top"/></l><r>Dolgellau<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Merthyr Tudful<s n="np"/><s n="top"/></l><r>Merthyr Tydfil<s n="np"/><s n="top"/></r></p></e>
-
+ 
     <e><p><l>Abidjan<s n="np"/><s n="top"/></l><r>Abidjan<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ethiopia<s n="np"/><s n="top"/></l><r>Abyssinia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Afghanistan<s n="np"/><s n="top"/></l><r>Afghanistan<s n="np"/><s n="top"/></r></p></e>
@@ -9958,9 +9959,9 @@
     <e><p><l>Iwgoslafia<s n="np"/><s n="top"/></l><r>Yugoslavia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Zambia<s n="np"/><s n="top"/></l><r>Zambia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Zimbabwe<s n="np"/><s n="top"/></l><r>Zimbabwe<s n="np"/><s n="top"/></r></p></e>
-
-
-
+ 
+ 
+ 
     <!-- Punctuation etc. -->
     <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
@@ -9970,6 +9971,6 @@
     <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
     <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
     <e><re>[’'‘]</re><p><l><s n="apos"/></l><r><s n="apos"/></r></p></e>
-
+ 
   </section>
 </dictionary>

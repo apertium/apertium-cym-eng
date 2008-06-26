@@ -30,8 +30,10 @@
       <cat-item tags="vblex.imp.*"/>
       <cat-item tags="vblex.pii.*"/>
       <cat-item tags="vblex.pis.*"/>
-      <cat-item tags="vblex.fts.*"/>
+      <cat-item tags="vblex.fut.*"/>
       <cat-item tags="vblex.pres.*"/>
+      <cat-item tags="vblex.past.*"/>
+      <cat-item tags="vblex.plu.*"/>
       <cat-item tags="vblex.prs.*"/>
 
       <cat-item tags="vbser.imp.*"/>
@@ -48,7 +50,7 @@
       <cat-item tags="vbhaver.imp.*"/>
       <cat-item tags="vbhaver.pii.*"/>
       <cat-item tags="vbhaver.pis.*"/>
-      <cat-item tags="vbhaver.fts.*"/>
+      <cat-item tags="vbhaver.fut.*"/>
       <cat-item tags="vbhaver.pres.*"/>
       <cat-item tags="vbhaver.prs.*"/>
 
@@ -58,7 +60,7 @@
       <cat-item tags="vbmod.imp.*"/>
       <cat-item tags="vbmod.pii.*"/>
       <cat-item tags="vbmod.pis.*"/>
-      <cat-item tags="vbmod.fts.*"/>
+      <cat-item tags="vbmod.fut.*"/>
       <cat-item tags="vbmod.pres.*"/>
       <cat-item tags="vbmod.prs.*"/>
     </def-cat>
@@ -120,7 +122,6 @@
     </def-attr>
     <def-attr n="temps">
       <attr-item tags="past"/>
-      <attr-item tags="pres"/>
       <attr-item tags="prs"/>
       <attr-item tags="cni"/>
       <attr-item tags="pii"/>
@@ -128,6 +129,8 @@
       <attr-item tags="pres"/>
       <attr-item tags="imp"/>
       <attr-item tags="inf"/>
+      <attr-item tags="plu"/>
+      <attr-item tags="cns"/>
     </def-attr>
 
   </section-def-attrs>
@@ -153,6 +156,10 @@
                   <lit-tag v="vbser"/>
                 </equal>
                 <or>
+                  <equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="plu"/>
+                  </equal>
                   <equal>
                     <clip pos="1" side="sl" part="temps"/>
                     <lit-tag v="ifi"/>
@@ -392,7 +399,7 @@
                 <test>           
                   <equal>
                     <clip pos="1" side="sl" part="temps"/>
-                    <lit-tag v="fti"/>
+                    <lit-tag v="fut"/>
                   </equal>
                 </test>
                 <let>
@@ -486,6 +493,14 @@
               <when>
                 <test>
                   <or>
+                    <equal>
+                      <clip pos="1" side="sl" part="temps"/>
+                      <lit-tag v="plu"/>
+                    </equal>
+                    <equal>
+                      <clip pos="1" side="sl" part="temps"/>
+                      <lit-tag v="past"/>
+                    </equal>
                     <equal>
                       <clip pos="1" side="sl" part="temps"/>
                       <lit-tag v="ifi"/><!--digué -->

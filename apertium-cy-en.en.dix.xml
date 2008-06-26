@@ -28349,7 +28349,9 @@
     <e lm="line up"><i>lin</i><par n="liv/e__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
     <e lm="stir up"><i>stir</i><par n="occur__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
     <e lm="trace back"><i>trac</i><par n="liv/e__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>back</l><r><g><b/>back</g></r></p></e>
+    <e lm="divide into thirds"><i>divid</i><par n="liv/e__vblex"/><p><l><b/>into<b/>thirds</l><r><g><b/>into<b/>thirds</g></r></p></e>
     <e lm="set up"><i>set</i><par n="cut__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
+
     <e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
     <e lm="you're"><p><l>you're</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>be<s n="vbser"/><s n="pres"/></r></p></e>
     <e lm="she's"><p><l>she's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -30049,6 +30051,8 @@
     <e lm="spring"><i>spr</i><par n="r/ing__vblex"/></e>
     <e lm="spread"><i>spread</i><par n="read__vblex"/></e>
     <e lm="back"><i>back</i><par n="accept__vblex"/></e>
+    <e lm="hook"><i>hook</i><par n="accept__vblex"/></e>
+    <e lm="spoil"><i>spoil</i><par n="accept__vblex"/></e>
     <e lm="kick"><i>kick</i><par n="accept__vblex"/></e>
     <e lm="tip"><i>tip</i><par n="step__vblex"/></e>
     <e lm="wonder"><i>wonder</i><par n="accept__vblex"/></e>
@@ -31100,7 +31104,6 @@
     <e lm="agreements"><i>agreements</i><par n="house__n"/></e>
     <e lm="plus"><i>plus</i><par n="house__n"/></e>
     <e lm="minus"><i>minus</i><par n="house__n"/></e>
-    <e lm="thesaurus"><i>thesaurus</i><par n="house__n"/></e>
     <e lm="impetus"><i>impetus</i><par n="house__n"/></e>
     <e lm="fat"><i>fat</i><par n="house__n"/></e>
     <e lm="gnat"><i>gnat</i><par n="house__n"/></e>
@@ -31298,7 +31301,7 @@
 	<par n="house__n"/>
 	<p>
 	  <l><b/>about<b/>poetry</l>
-	  <r><g><b/>about<b/>poetry</l>
+	  <r><g><b/>about<b/>poetry</g></r>
 	</p>
     </e>
 
@@ -31307,7 +31310,7 @@
 	<par n="house__n"/>
 	<p>
 	  <l><b/>before<b/>yesterday</l>
-	  <r><g><b/>before<b/>yesterday</l>
+	  <r><g><b/>before<b/>yesterday</g></r>
 	</p>
     </e>
 
@@ -31316,7 +31319,7 @@
 	<par n="house__n"/>
 	<p>
 	  <l><b/>of<b/>contract</l>
-	  <r><g><b/>of<b/>contract</l>
+	  <r><g><b/>of<b/>contract</g></r>
 	</p>
     </e>
 
@@ -31325,7 +31328,7 @@
 	<par n="house__n"/>
 	<p>
 	  <l><b/>of<b/>furniture</l>
-	  <r><g><b/>of<b/>furniture</l>
+	  <r><g><b/>of<b/>furniture</g></r>
 	</p>
     </e>
 
@@ -31334,7 +31337,7 @@
 	<par n="house__n"/>
 	<p>
 	  <l><b/>of<b/>sand</l>
-	  <r><g><b/>of<b/>sand</l>
+	  <r><g><b/>of<b/>sand</g></r>
 	</p>
     </e>
 
@@ -31343,7 +31346,7 @@
 	<par n="house__n"/>
 	<p>
 	  <l><b/>of<b/>mind</l>
-	  <r><g><b/>of<b/>mind</l>
+	  <r><g><b/>of<b/>mind</g></r>
 	</p>
     </e>
 
