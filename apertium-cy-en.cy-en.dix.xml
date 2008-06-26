@@ -4103,14 +4103,14 @@
     <e><p><l>canfed<s n="adj"/></l><r>hundredth<s n="adj"/></r></p></e>
     <e><p><l>canfyddadwy<s n="adj"/></l><r>perceptible<s n="adj"/></r></p></e>
     <e><p><l>canfyddedig<s n="adj"/></l><r>perceived<s n="adj"/></r></p></e>
-    <e><p><l>caniataol<s n="adj"/></l><r>allowed<s n="adj"/></r></p></e>
-    <e><p><l>caniataol<s n="adj"/></l><r>allowable<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>caniataol<s n="adj"/></l><r>allowed<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>caniataol<s n="adj"/></l><r>allowable<s n="adj"/></r></p></e>
     <e><p><l>caniataol<s n="adj"/></l><r>permissive<s n="adj"/></r></p></e>
     <e><p><l>canlyniadol<s n="adj"/></l><r>resulting<s n="adj"/></r></p></e>
     <e><p><l>canlynol<s n="adj"/></l><r>following<s n="adj"/></r></p></e>
     <e r="RL"><p><l>canlynol<s n="adj"/></l><r>ensuing<s n="adj"/></r></p></e>
     <e><p><l>canoledig<s n="adj"/></l><r>centralised<s n="adj"/></r></p></e>
-    <e><p><l>canoledig<s n="adj"/></l><r>centred<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>canoledig<s n="adj"/></l><r>centred<s n="adj"/></r></p></e>
     <e><p><l>canolig<s n="adj"/></l><r>medium<s n="adj"/></r></p></e>
     <e><p><l>canoloesol<s n="adj"/></l><r>medieval<s n="adj"/></r></p></e>
     <e><p><l>canolog<s n="adj"/></l><r>central<s n="adj"/></r></p></e>
@@ -4147,7 +4147,7 @@
     <e><p><l>chwithig<s n="adj"/></l><r>awkward<s n="adj"/></r></p></e>
     <e><p><l>chwyrn<s n="adj"/></l><r>harsh<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>ciwbig<s n="adj"/></l><r>cubic<s n="adj"/></r></p></e>
-    <e><p><l>clasurol<s n="adj"/></l><r>classic<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>clasurol<s n="adj"/></l><r>classic<s n="adj"/></r></p></e>
     <e><p><l>clasurol<s n="adj"/></l><r>classical<s n="adj"/></r></p></e>
     <e><p><l>clinigol<s n="adj"/></l><r>clinical<s n="adj"/></r></p></e>
     <e><p><l>clir<s n="adj"/></l><r>clear<s n="adj"/><s n="sint"/></r></p></e> 
@@ -4162,7 +4162,7 @@
     <e><p><l>coch<s n="adj"/></l><r>red<s n="adj"/></r></p></e>
     <e><p><l>cofrestredig<s n="adj"/></l><r>registered<s n="adj"/></r></p></e>
     <e><p><l>coll<s n="adj"/></l><r>lost<s n="adj"/></r></p></e>
-    <e><p><l>coll<s n="adj"/></l><r>missing<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>coll<s n="adj"/></l><r>missing<s n="adj"/></r></p></e>
     <e><p><l>colledig<s n="adj"/></l><r>lost<s n="adj"/></r></p></e>
     <e><p><l>confensiynol<s n="adj"/></l><r>conventional<s n="adj"/></r></p></e>
     <e><p><l>corfforaethol<s n="adj"/></l><r>corporate<s n="adj"/></r></p></e>
@@ -4188,7 +4188,7 @@
     <e><p><l>croyw<s n="adj"/></l><r>fresh<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>crwm<s n="adj"/></l><r>curved<s n="adj"/></r></p></e>
     <e><p><l>crwn<s n="adj"/></l><r>round<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>cryn<s n="adj"/></l><r>somewhat<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>cryn<s n="adj"/></l><r>somewhat<s n="adj"/></r></p></e>
     <e><p><l>cryn<s n="adj"/></l><r>considerable<s n="adj"/></r></p></e>
     <e><p><l>crynodedig<s n="adj"/></l><r>concentrated<s n="adj"/></r></p></e>
     <e><p><l>crynoëdig<s n="adj"/></l><r>abridged<s n="adj"/></r></p></e>
@@ -4223,13 +4223,13 @@
     <e><p><l>cyfan<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
  
     <e><p><l>cyfannol<s n="adj"/></l><r>integrated<s n="adj"/></r></p></e>
-    <e><p><l>cyfansawdd<s n="adj"/></l><r>compound<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>cyfansawdd<s n="adj"/></l><r>compound<s n="adj"/></r></p></e>
     <e><p><l>cyfansawdd<s n="adj"/></l><r>composite<s n="adj"/></r></p></e>
     <e><p><l>cyfansoddiadol<s n="adj"/></l><r>constitutional<s n="adj"/></r></p></e>
     <e><p><l>cyfartal<s n="adj"/></l><r>equal<s n="adj"/></r></p></e>
     <e><p><l>cyfartalog<s n="adj"/></l><r>average<s n="adj"/></r></p></e>
     <e><p><l>cyfarwydd<s n="adj"/></l><r>familiar<s n="adj"/></r></p></e>
-    <e><p><l>cyfarwydd<s n="adj"/></l><r>skilled<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>cyfarwydd<s n="adj"/></l><r>skilled<s n="adj"/></r></p></e>
     <e><p><l>cyfatebol<s n="adj"/></l><r>corresponding<s n="adj"/></r></p></e>
     <e><p><l>cyfath<s n="adj"/></l><r>congruent<s n="adj"/></r></p></e>
     <e><p><l>cyfeillgar<s n="adj"/></l><r>friendly<s n="adj"/><s n="sint"/></r></p></e> 
@@ -4262,7 +4262,7 @@
     <e><p><l>cyfryw<s n="adj"/></l><r>like<s n="adj"/></r></p></e>
     <e><p><l>cyfun<s n="adj"/></l><r>merged<s n="adj"/></r></p></e>
     <e><p><l>cyfunol<s n="adj"/></l><r>combined<s n="adj"/></r></p></e>
-    <e><p><l>cyfunol<s n="adj"/></l><r>federated<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>cyfunol<s n="adj"/></l><r>federated<s n="adj"/></r></p></e>
     <e><p><l>cyfwerth<s n="adj"/></l><r>equivalent<s n="adj"/></r></p></e>
     <e><p><l>cyfyng<s n="adj"/></l><r>confined<s n="adj"/></r></p></e>
     <e><p><l>cyfyngedig<s n="adj"/></l><r>limited<s n="adj"/></r></p></e>
@@ -4271,7 +4271,7 @@
     <e><p><l>cyhoeddus<s n="adj"/></l><r>public<s n="adj"/></r></p></e>
     <e><p><l>cyhyd<s n="adj"/></l><r>as long<s n="adj"/></r></p></e>
     <e><p><l>cyhyrog<s n="adj"/></l><r>muscular<s n="adj"/></r></p></e>
-    <e><p><l>cylchol<s n="adj"/></l><r>recurring<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>cylchol<s n="adj"/></l><r>recurring<s n="adj"/></r></p></e>
     <e><p><l>cylchol<s n="adj"/></l><r>cyclic<s n="adj"/></r></p></e>
     <e><p><l>cylchredol<s n="adj"/></l><r>circulating<s n="adj"/></r></p></e>
     <e><p><l>cyllidebol<s n="adj"/></l><r>budgetary<s n="adj"/></r></p></e>
@@ -4283,7 +4283,7 @@
     <e><p><l>cymedrol<s n="adj"/></l><r>moderate<s n="adj"/></r></p></e>
     <e><p><l>cymedroledig<s n="adj"/></l><r>moderated<s n="adj"/></r></p></e>
     <e><p><l>cymeradwy<s n="adj"/></l><r>acceptable<s n="adj"/></r></p></e>
-    <e><p><l>cymesur<s n="adj"/></l><r>commensurate<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>cymesur<s n="adj"/></l><r>commensurate<s n="adj"/></r></p></e>
     <e><p><l>cymesur<s n="adj"/></l><r>symmetrical<s n="adj"/></r></p></e>
     <e><p><l>cymesurol<s n="adj"/></l><r>symmetrical<s n="adj"/></r></p></e>
     <e><p><l>cymharol<s n="adj"/></l><r>comparative<s n="adj"/></r></p></e>
@@ -4310,9 +4310,9 @@
     <e><p><l>cynhyrchiol<s n="adj"/></l><r>productive<s n="adj"/></r></p></e>
     <e><p><l>cynhyrfus<s n="adj"/></l><r>exciting<s n="adj"/></r></p></e>
     <e><p><l>cynifer<s n="adj"/></l><r>so many<s n="adj"/></r></p></e>
-    <e><p><l>cynorthwyol<s n="adj"/></l><r>assistive<s n="adj"/></r></p></e>
-    <e><p><l>cynorthwyol<s n="adj"/></l><r>helper<s n="adj"/></r></p></e>
-    <e><p><l>cynorthwyol<s n="adj"/></l><r>helpful<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>cynorthwyol<s n="adj"/></l><r>assistive<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>cynorthwyol<s n="adj"/></l><r>helper<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>cynorthwyol<s n="adj"/></l><r>helpful<s n="adj"/></r></p></e>
     <e><p><l>cynorthwyol<s n="adj"/></l><r>assistant<s n="adj"/></r></p></e>
     <e><p><l>cynradd<s n="adj"/></l><r>primary<s n="adj"/></r></p></e>
     <e><p><l>cyn-raddedig<s n="adj"/></l><r>pre-graded<s n="adj"/></r></p></e>
@@ -4325,19 +4325,19 @@
     <e><p><l>cyraeddadwy<s n="adj"/></l><r>achievable<s n="adj"/></r></p></e>
     <e><p><l>cyrchadwy<s n="adj"/></l><r>accessible<s n="adj"/></r></p></e>
     <e><p><l>cysefin<s n="adj"/></l><r>prime<s n="adj"/></r></p></e>
-    <e><p><l>cyson<s n="adj"/></l><r>even<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>cyson<s n="adj"/></l><r>even<s n="adj"/></r></p></e>
     <e><p><l>cyson<s n="adj"/></l><r>constant<s n="adj"/></r></p></e>
     <e><p><l>cystadleuol<s n="adj"/></l><r>competitive<s n="adj"/></r></p></e>
     <e><p><l>cystal<s n="adj"/></l><r>so good<s n="adj"/></r></p></e>
     <e><p><l>cysylltiedig<s n="adj"/></l><r>connected<s n="adj"/></r></p></e>
-    <e><p><l>cysylltiedig<s n="adj"/></l><r>linked<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>cysylltiedig<s n="adj"/></l><r>linked<s n="adj"/></r></p></e>
     <e><p><l>cysylltiol<s n="adj"/></l><r>connecting<s n="adj"/></r></p></e>
     <e><p><l>cytbwys<s n="adj"/></l><r>of equal weight<s n="adj"/></r></p></e>
     <e><p><l>cytûn<s n="adj"/></l><r>agreed<s n="adj"/></r></p></e>
     <e><p><l>cytundebol<s n="adj"/></l><r>agreed<s n="adj"/></r></p></e>
     <e><p><l>cytunedig<s n="adj"/></l><r>agreed<s n="adj"/></r></p></e>
     <e><p><l>cywasg<s n="adj"/></l><r>compressed<s n="adj"/></r></p></e>
-    <e><p><l>cywasgedig<s n="adj"/></l><r>condensed<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>cywasgedig<s n="adj"/></l><r>condensed<s n="adj"/></r></p></e>
     <e><p><l>cywasgedig<s n="adj"/></l><r>compressed<s n="adj"/></r></p></e>
     <e><p><l>cywerth<s n="adj"/></l><r>equivalent<s n="adj"/></r></p></e>
     <e><p><l>cywir<s n="adj"/></l><r>correct<s n="adj"/></r></p></e>
@@ -4364,7 +4364,7 @@
     <e><p><l>dau-ddimensiwn<s n="adj"/></l><r>two-dimensional<s n="adj"/></r></p></e>
     <e><p><l>dawnus<s n="adj"/></l><r>gifted<s n="adj"/></r></p></e>
     <e><p><l>dealladwy<s n="adj"/></l><r>understandable<s n="adj"/></r></p></e>
-    <e><p><l>deallus<s n="adj"/></l><r>smart<s n="adj"/><s n="sint"/></r></p></e> 
+    <e r="RL"><p><l>deallus<s n="adj"/></l><r>smart<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>deallus<s n="adj"/></l><r>intelligent<s n="adj"/></r></p></e>
     <e><p><l>deallusol<s n="adj"/></l><r>intellectual<s n="adj"/></r></p></e>
     <e><p><l>dechreuol<s n="adj"/></l><r>initial<s n="adj"/></r></p></e>
@@ -4411,7 +4411,7 @@
     <e><p><l>diarwydd<s n="adj"/></l><r>unsigned<s n="adj"/></r></p></e>
     <e><p><l>diatal<s n="adj"/></l><r>ceaseless<s n="adj"/></r></p></e>
     <e><p><l>diau<s n="adj"/></l><r>certain<s n="adj"/></r></p></e>
-    <e><p><l>diau<s n="adj"/></l><r>doubtless<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>diau<s n="adj"/></l><r>doubtless<s n="adj"/></r></p></e>
     <e><p><l>dibriod<s n="adj"/></l><r>unmarried<s n="adj"/></r></p></e>
     <e><p><l>dibrisiadwy<s n="adj"/></l><r>depreciable<s n="adj"/></r></p></e>
     <e><p><l>dibrofiad<s n="adj"/></l><r>inexperienced<s n="adj"/></r></p></e>
@@ -4452,7 +4452,7 @@
     <e><p><l>dilynedig<s n="adj"/></l><r>followed<s n="adj"/></r></p></e>
     <e><p><l>dilyniannol<s n="adj"/></l><r>sequential<s n="adj"/></r></p></e>
     <e><p><l>dilynol<s n="adj"/></l><r>following<s n="adj"/></r></p></e>
-    <e><p><l>dilynol<s n="adj"/></l><r>subsequent<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>dilynol<s n="adj"/></l><r>subsequent<s n="adj"/></r></p></e>
     <e><p><l>dilys<s n="adj"/></l><r>valid<s n="adj"/></r></p></e>
     <e><p><l>dinesig<s n="adj"/></l><r>civic<s n="adj"/></r></p></e>
     <e><p><l>dinistriol<s n="adj"/></l><r>destructive<s n="adj"/></r></p></e>
@@ -4496,7 +4496,7 @@
     <e><p><l>dwplecs<s n="adj"/></l><r>duplex<s n="adj"/></r></p></e>
     <e><p><l>dwy<s n="adj"/></l><r>two<s n="adj"/></r></p></e>
     <e><p><l>dwyieithog<s n="adj"/></l><r>bilingual<s n="adj"/></r></p></e>
-    <e><p><l>dwyreiniol<s n="adj"/></l><r>oriental<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>dwyreiniol<s n="adj"/></l><r>oriental<s n="adj"/></r></p></e>
     <e><p><l>dwyreiniol<s n="adj"/></l><r>eastern<s n="adj"/></r></p></e>
     <e><p><l>dwysgyfalafol<s n="adj"/></l><r>capital-intensive<s n="adj"/></r></p></e>
     <e><p><l>dwywaith-y-flwyddyn<s n="adj"/></l><r>twice-yearly<s n="adj"/></r></p></e>
@@ -4513,7 +4513,7 @@
     <e><p><l>dyfynedig<s n="adj"/></l><r>quoted<s n="adj"/></r></p></e>
     <e><p><l>dyledus<s n="adj"/></l><r>indebted<s n="adj"/></r></p></e>
     <e><p><l>dymunadwy<s n="adj"/></l><r>ideal<s n="adj"/></r></p></e>
-    <e><p><l>dymunol<s n="adj"/></l><r>desired<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>dymunol<s n="adj"/></l><r>desired<s n="adj"/></r></p></e>
     <e><p><l>dymunol<s n="adj"/></l><r>agreeable<s n="adj"/></r></p></e>
     <e><p><l>dynamig<s n="adj"/></l><r>dynamic<s n="adj"/></r></p></e>
     <e><p><l>dynodedig<s n="adj"/></l><r>designated<s n="adj"/></r></p></e>
@@ -4612,7 +4612,7 @@
     <e><p><l>ffyniannus<s n="adj"/></l><r>prosperous<s n="adj"/></r></p></e>
     <e><p><l>ffyrnig<s n="adj"/></l><r>fierce<s n="adj"/></r></p></e>
     <e><p><l>galarnadus<s n="adj"/></l><r>mournful<s n="adj"/></r></p></e>
-    <e><p><l>galluog<s n="adj"/></l><r>enabled<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>galluog<s n="adj"/></l><r>enabled<s n="adj"/></r></p></e>
     <e><p><l>galluog<s n="adj"/></l><r>able<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>galwedigaethol<s n="adj"/></l><r>vocational<s n="adj"/></r></p></e>
     <e><p><l>gama<s n="adj"/></l><r>gamma<s n="adj"/></r></p></e>
@@ -4638,7 +4638,7 @@
     <e><p><l>gorchestol<s n="adj"/></l><r>masterly<s n="adj"/></r></p></e>
     <e><p><l>gorchfygus<s n="adj"/></l><r>victorious<s n="adj"/></r></p></e>
     <e><p><l>gorffenedig<s n="adj"/></l><r>finished<s n="adj"/></r></p></e>
-    <e><p><l>gorfodol<s n="adj"/></l><r>mandatory<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>gorfodol<s n="adj"/></l><r>mandatory<s n="adj"/></r></p></e>
     <e><p><l>gorfodol<s n="adj"/></l><r>compulsory<s n="adj"/></r></p></e>
     <e><p><l>gorfoleddus<s n="adj"/></l><r>triumphant<s n="adj"/></r></p></e>
     <e><p><l>gorfynych<s n="adj"/></l><r>over-frequent<s n="adj"/></r></p></e>
@@ -4664,9 +4664,9 @@
     <e><p><l>gwahoddedig<s n="adj"/></l><r>invited<s n="adj"/></r></p></e>
     <e><p><l>gwallgof<s n="adj"/></l><r>mad<s n="adj"/></r></p></e>
     <e><p><l>gwallus<s n="adj"/></l><r>faulty<s n="adj"/></r></p></e>
-    <e><p><l>gwallus<s n="adj"/></l><r>bad<s n="adj"/><s n="sint"/></r></p></e> 
+    <e r="RL"><p><l>gwallus<s n="adj"/></l><r>bad<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>gwan<s n="adj"/></l><r>weak<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>gwan<s n="adj"/></l><r>pale<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>gwan<s n="adj"/></l><r>pale<s n="adj"/></r></p></e>
     <e><p><l>gwarchodedig<s n="adj"/></l><r>protected<s n="adj"/></r></p></e>
     <e><p><l>gwasgaredig<s n="adj"/></l><r>scattered<s n="adj"/></r></p></e>
     <e><p><l>gwastad<s n="adj"/></l><r>flat<s n="adj"/><s n="sint"/></r></p></e> 
@@ -4811,7 +4811,7 @@
     <e><p><l>lleol<s n="adj"/></l><r>local<s n="adj"/></r></p></e>
     <e><p><l>llesol<s n="adj"/></l><r>advantageous<s n="adj"/></r></p></e>
     <e><p><l>llethol<s n="adj"/></l><r>oppressive<s n="adj"/></r></p></e>
-    <e><p><l>lletraws<s n="adj"/></l><r>oblique<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>lletraws<s n="adj"/></l><r>oblique<s n="adj"/></r></p></e>
     <e><p><l>lletraws<s n="adj"/></l><r>diagonal<s n="adj"/></r></p></e>
     <e><p><l>lleuadol<s n="adj"/></l><r>lunar<s n="adj"/></r></p></e>
     <e><p><l>llewyrchus<s n="adj"/></l><r>prosperous<s n="adj"/></r></p></e>
@@ -4829,7 +4829,7 @@
     <e><p><l>lluosol<s n="adj"/></l><r>multiple<s n="adj"/></r></p></e>
     <e><p><l>llusgadwy<s n="adj"/></l><r>draggable<s n="adj"/></r></p></e>
     <e><p><l>llwgr<s n="adj"/></l><r>corrupt<s n="adj"/></r></p></e>
-    <e><p><l>llwgr<s n="adj"/></l><r>bad<s n="adj"/><s n="sint"/></r></p></e> 
+    <e r="RL"><p><l>llwgr<s n="adj"/></l><r>bad<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>llwyd<s n="adj"/></l><r>grey<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>llwyddiannus<s n="adj"/></l><r>successful<s n="adj"/></r></p></e>
     <e><p><l>llwydfelyn<s n="adj"/></l><r>beige<s n="adj"/></r></p></e>
@@ -4949,7 +4949,7 @@
     <e><p><l>paratoadol<s n="adj"/></l><r>preparatory<s n="adj"/></r></p></e>
     <e><p><l>parchedig<s n="adj"/></l><r>reverend<s n="adj"/></r></p></e>
     <e><p><l>parhaol<s n="adj"/></l><r>permanent<s n="adj"/></r></p></e>
-    <e><p><l>parhaol<s n="adj"/></l><r>persistent<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>parhaol<s n="adj"/></l><r>persistent<s n="adj"/></r></p></e>
     <e><p><l>parhaol<s n="adj"/></l><r>permanent<s n="adj"/></r></p></e>
     <e><p><l>parhaus<s n="adj"/></l><r>perpetual<s n="adj"/></r></p></e>
     <e><p><l>parod<s n="adj"/></l><r>ready<s n="adj"/></r></p></e>
@@ -5024,7 +5024,7 @@
     <e><p><l>pwdr<s n="adj"/></l><r>rotten<s n="adj"/></r></p></e>
     <e><p><l>pwerus<s n="adj"/></l><r>powerful<s n="adj"/></r></p></e>
     <e><p><l>pŵl<s n="adj"/></l><r>dim<s n="adj"/></r></p></e>
-    <e><p><l>pŵl<s n="adj"/></l><r>fading<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>pŵl<s n="adj"/></l><r>fading<s n="adj"/></r></p></e>
     <e><p><l>pwrpasol<s n="adj"/></l><r>suitable<s n="adj"/></r></p></e>
     <e><p><l>pybyr<s n="adj"/></l><r>ardent<s n="adj"/></r></p></e>
     <e><p><l>pyledig<s n="adj"/></l><r>faded<s n="adj"/></r></p></e>
@@ -5082,7 +5082,7 @@
     <e><p><l>rhyngweithiol<s n="adj"/></l><r>interactive<s n="adj"/></r></p></e>
     <e><p><l>rhyngwladol<s n="adj"/></l><r>international<s n="adj"/></r></p></e>
     <e><p><l>rhyw<s n="adj"/></l><r>some<s n="adj"/></r></p></e>
-    <e><p><l>rhyw<s n="adj"/></l><r>approximately<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>rhyw<s n="adj"/></l><r>approximately<s n="adj"/></r></p></e>
     <e><p><l>rhywiol<s n="adj"/></l><r>sexual<s n="adj"/></r></p></e>
     <e><p><l>Rwsiaidd<s n="adj"/></l><r>Russian<s n="adj"/></r></p></e>
     <e><p><l>Saesneg<s n="adj"/></l><r>English<s n="adj"/></r></p></e>
@@ -5160,7 +5160,7 @@
     <e><p><l>tawel<s n="adj"/></l><r>quiet<s n="adj"/></r></p></e>
     <e><p><l>tebyg<s n="adj"/></l><r>similar<s n="adj"/></r></p></e>
     <e><p><l>tebygol<s n="adj"/></l><r>likely<s n="adj"/></r></p></e>
-    <e><p><l>tebygol<s n="adj"/></l><r>probable<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>tebygol<s n="adj"/></l><r>probable<s n="adj"/></r></p></e>
     <e><p><l>technegol<s n="adj"/></l><r>technical<s n="adj"/></r></p></e>
     <e><p><l>technolegol<s n="adj"/></l><r>technological<s n="adj"/></r></p></e>
     <e><p><l>teg<s n="adj"/></l><r>fair<s n="adj"/><s n="sint"/></r></p></e> 
