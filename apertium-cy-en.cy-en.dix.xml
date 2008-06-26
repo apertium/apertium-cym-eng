@@ -4212,8 +4212,10 @@
     <e><p><l>cyf<s n="adj"/></l><r>ltd<s n="adj"/></r></p></e>
     <e><p><l>cyfaddas<s n="adj"/></l><r>suitable<s n="adj"/></r></p></e>
     <e><p><l>cyfagos<s n="adj"/></l><r>adjacent<s n="adj"/></r></p></e>
-    <e><p><l>cyfain<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
+
+    <e r="RL"><p><l>cyfain<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
     <e><p><l>cyfan<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
+
     <e><p><l>cyfannol<s n="adj"/></l><r>integrated<s n="adj"/></r></p></e>
     <e><p><l>cyfansawdd<s n="adj"/></l><r>compound<s n="adj"/></r></p></e>
     <e><p><l>cyfansawdd<s n="adj"/></l><r>composite<s n="adj"/></r></p></e>

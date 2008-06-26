@@ -34,6 +34,11 @@
       <attr-item tags="np.top"/>
       <attr-item tags="np.ant"/>
     </def-attr>
+    <def-attr n="a_adj">
+      <attr-item tags="adj"/>
+      <attr-item tags="adj.sint"/>
+    </def-attr>
+
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -380,6 +385,10 @@
               <b/>
               <lu>
                 <clip pos="2" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/>
               </lu>
             </out>
           </otherwise>
