@@ -4062,13 +4062,13 @@
     <e><p><l>booleaidd<s n="adj"/></l><r>Boolean<s n="adj"/></r></p></e>
     <e><p><l>braf<s n="adj"/></l><r>fine<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>bras<s n="adj"/></l><r>fat<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>bras<s n="adj"/></l><r>rough<s n="adj"/><s n="sint"/></r></p></e> 
+    <e r="RL"><p><l>bras<s n="adj"/></l><r>rough<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>bregus<s n="adj"/></l><r>brittle<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>breintiedig<s n="adj"/></l><r>privileged<s n="adj"/></r></p></e>
     <e><p><l>brenhinol<s n="adj"/></l><r>royal<s n="adj"/></r></p></e>
     <e><p><l>brodorol<s n="adj"/></l><r>indigenous<s n="adj"/></r></p></e>
     <e><p><l>brown<s n="adj"/></l><r>brown<s n="adj"/></r></p></e>
-    <e><p><l>brwd<s n="adj"/></l><r>hot<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>brwd<s n="adj"/><s n="sint"/></l><r>hot<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>brwdfrydig<s n="adj"/></l><r>enthusiastic<s n="adj"/></r></p></e>
     <e><p><l>buan<s n="adj"/></l><r>soon<s n="adj"/></r></p></e>
     <e><p><l>buddiol<s n="adj"/></l><r>beneficial<s n="adj"/></r></p></e>
@@ -4081,7 +4081,7 @@
     <e><p><l>byd-eang<s n="adj"/></l><r>worldwide<s n="adj"/></r></p></e>
     <e><p><l>bynnag<s n="adj"/></l><r>-ever<s n="adj"/></r></p></e>
     <e><p><l>byrhoedlog<s n="adj"/></l><r>short-lived<s n="adj"/></r></p></e>
-    <e><p><l>byrhoedlog<s n="adj"/></l><r>transient<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>byrhoedlog<s n="adj"/></l><r>transient<s n="adj"/></r></p></e>
     <e><p><l>byr-rybudd<s n="adj"/></l><r>short notice<s n="adj"/></r></p></e>
     <e><p><l>bywgraffyddol<s n="adj"/></l><r>biographical<s n="adj"/></r></p></e>
     <e><p><l>bywiog<s n="adj"/></l><r>lively<s n="adj"/></r></p></e>
@@ -4097,8 +4097,7 @@
     <e><p><l>caled<s n="adj"/></l><r>hard<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>called<s n="adj"/></l><r>(as) wise<s n="adj"/></r></p></e>
     <e><p><l>camarweiniol<s n="adj"/></l><r>misleading<s n="adj"/></r></p></e>
-    <e><p><l>camffurfiedig<s n="adj"/></l><r>malformatted<s n="adj"/></r></p></e>
-    <e><p><l>camffurfiedig<s n="adj"/></l><r>malformed<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>camffurfiedig<s n="adj"/></l><r>malformatted<s n="adj"/></r></p></e>
     <e><p><l>camffurfiedig<s n="adj"/></l><r>malformed<s n="adj"/></r></p></e>
     <e><p><l>camplawn<s n="adj"/></l><r>excellent<s n="adj"/></r></p></e>
     <e><p><l>canfed<s n="adj"/></l><r>hundredth<s n="adj"/></r></p></e>
@@ -4109,7 +4108,7 @@
     <e><p><l>caniataol<s n="adj"/></l><r>permissive<s n="adj"/></r></p></e>
     <e><p><l>canlyniadol<s n="adj"/></l><r>resulting<s n="adj"/></r></p></e>
     <e><p><l>canlynol<s n="adj"/></l><r>following<s n="adj"/></r></p></e>
-    <e><p><l>canlynol<s n="adj"/></l><r>ensuing<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>canlynol<s n="adj"/></l><r>ensuing<s n="adj"/></r></p></e>
     <e><p><l>canoledig<s n="adj"/></l><r>centralised<s n="adj"/></r></p></e>
     <e><p><l>canoledig<s n="adj"/></l><r>centred<s n="adj"/></r></p></e>
     <e><p><l>canolig<s n="adj"/></l><r>medium<s n="adj"/></r></p></e>
@@ -4120,8 +4119,7 @@
     <e><p><l>cardiag<s n="adj"/></l><r>cardiac<s n="adj"/></r></p></e>
     <e><p><l>cardiolegol<s n="adj"/></l><r>cardiac<s n="adj"/></r></p></e>
     <e><p><l>caredig<s n="adj"/></l><r>kind<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>cartesaidd<s n="adj"/></l><r>Cartesian<s n="adj"/></r></p></e>
-    <e><p><l>Cartesaidd<s n="adj"/></l><r>Cartesian<s n="adj"/></r></p></e>
+    <e><p><l>cartesaidd<s n="adj"/></l><r>cartesian<s n="adj"/></r></p></e>
     <e><p><l>cas<s n="adj"/></l><r>nasty<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>cefnogol<s n="adj"/></l><r>encouraging<s n="adj"/></r></p></e>
     <e><p><l>ceinciog<s n="adj"/></l><r>burled<s n="adj"/></r></p></e>
@@ -4145,7 +4143,7 @@
     <e><p><l>chwiliadwy<s n="adj"/></l><r>searchable<s n="adj"/></r></p></e>
     <e><p><l>chwim<s n="adj"/></l><r>nimble<s n="adj"/></r></p></e>
     <e><p><l>chwith<s n="adj"/></l><r>left<s n="adj"/></r></p></e>
-    <e><p><l>chwithig<s n="adj"/></l><r>clumsy<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>chwithig<s n="adj"/></l><r>clumsy<s n="adj"/></r></p></e>
     <e><p><l>chwithig<s n="adj"/></l><r>awkward<s n="adj"/></r></p></e>
     <e><p><l>chwyrn<s n="adj"/></l><r>harsh<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>ciwbig<s n="adj"/></l><r>cubic<s n="adj"/></r></p></e>
@@ -4221,7 +4219,7 @@
     <e><p><l>cyfaddas<s n="adj"/></l><r>suitable<s n="adj"/></r></p></e>
     <e><p><l>cyfagos<s n="adj"/></l><r>adjacent<s n="adj"/></r></p></e>
  
-    <e r="RL"><p><l>cyfain<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
+    <e><p><l>cyfain<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
     <e><p><l>cyfan<s n="adj"/></l><r>whole<s n="adj"/></r></p></e>
  
     <e><p><l>cyfannol<s n="adj"/></l><r>integrated<s n="adj"/></r></p></e>
@@ -4488,7 +4486,7 @@
     <e><p><l>diymatal<s n="adj"/></l><r>uninhibited<s n="adj"/></r></p></e>
     <e><p><l>diymddiriedol<s n="adj"/></l><r>untrusted<s n="adj"/></r></p></e>
     <e><p><l>doeth<s n="adj"/></l><r>wise<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>dofn<s n="adj"/></l><r>deep<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>dofn<s n="adj"/><s n="sint"/></l><r>deep<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>domestig<s n="adj"/></l><r>domestic<s n="adj"/></r></p></e>
     <e><p><l>dosranedig<s n="adj"/></l><r>parsed<s n="adj"/></r></p></e>
     <e><p><l>dramatig<s n="adj"/></l><r>dramatic<s n="adj"/></r></p></e>
@@ -4511,7 +4509,7 @@
     <e><p><l>dyddiedig<s n="adj"/></l><r>dated<s n="adj"/></r></p></e>
     <e><p><l>dyddiol<s n="adj"/></l><r>daily<s n="adj"/></r></p></e>
     <e><p><l>dyfeisgar<s n="adj"/></l><r>ingenious<s n="adj"/></r></p></e>
-    <e><p><l>dyfnion<s n="adj"/></l><r>deep<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>dyfnion<s n="adj"/><s n="sint"/></l><r>deep<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>dyfynedig<s n="adj"/></l><r>quoted<s n="adj"/></r></p></e>
     <e><p><l>dyledus<s n="adj"/></l><r>indebted<s n="adj"/></r></p></e>
     <e><p><l>dymunadwy<s n="adj"/></l><r>ideal<s n="adj"/></r></p></e>
@@ -4585,7 +4583,7 @@
     <e><p><l>Ewropeaidd<s n="adj"/></l><r>European<s n="adj"/></r></p></e>
     <e><p><l>fechan<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>fed<s n="adj"/></l><r>th<s n="adj"/></r></p></e>
-    <e><p><l>fer<s n="adj"/></l><r>short<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>fer<s n="adj"/></l><r>short<s n="adj"/></r></p></e> 
     <e><p><l>fertigol<s n="adj"/></l><r>vertical<s n="adj"/></r></p></e>
     <e><p><l>ffafriol<s n="adj"/></l><r>favourable<s n="adj"/></r></p></e>
     <e><p><l>ffeithiol<s n="adj"/></l><r>factual<s n="adj"/></r></p></e>
@@ -5310,47 +5308,47 @@
     <e><p><l>araf<s n="adj"/></l><r>slow<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>bach<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e> 
     <e r="RL"><p><l>bas<s n="adj"/></l><r>bass<s n="adj"/></r></p></e>
-    <e><p><l>bas<s n="adj"/></l><r>shallow<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>byr<s n="adj"/></l><r>short<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>bas<s n="adj"/></l><r>shallow<s n="adj"/></r></p></e> 
+    <e><p><l>byr<s n="adj"/></l><r>short<s n="adj"/></r></p></e> 
     <e><p><l>call<s n="adj"/></l><r>sane<s n="adj"/></r></p></e>
-    <e><p><l>cryf<s n="adj"/></l><r>strong<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>cul<s n="adj"/></l><r>narrow<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>cyflym<s n="adj"/></l><r>fast<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>cryf<s n="adj"/></l><r>strong<s n="adj"/></r></p></e> 
+    <e><p><l>cul<s n="adj"/></l><r>narrow<s n="adj"/></r></p></e> 
+    <e><p><l>cyflym<s n="adj"/></l><r>fast<s n="adj"/></r></p></e> 
     <e><p><l>cynnar<s n="adj"/></l><r>early<s n="adj"/></r></p></e>
-    <e><p><l>cynnes<s n="adj"/></l><r>warm<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>cynnes<s n="adj"/></l><r>warm<s n="adj"/></r></p></e> 
     <e><p><l>da<s n="adj"/></l><r>good<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>diweddar<s n="adj"/></l><r>recent<s n="adj"/></r></p></e>
-    <e><p><l>drud<s n="adj"/></l><r>expensive<s n="adj"/></r></p></e>
+    <e><p><l>diweddar<s n="adj"/><s n="sint"/></l><r>recent<s n="adj"/></r></p></e>
+    <e><p><l>drud<s n="adj"/><s n="sint"/></l><r>expensive<s n="adj"/></r></p></e>
     <e><p><l>drwg<s n="adj"/></l><r>bad<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>dwfn<s n="adj"/></l><r>deep<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>dwys<s n="adj"/></l><r>intense<s n="adj"/></r></p></e>
+    <e><p><l>dwfn<s n="adj"/><s n="sint"/></l><r>deep<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>dwys<s n="adj"/><s n="sint"/></l><r>intense<s n="adj"/></r></p></e>
     <e><p><l>eang<s n="adj"/></l><r>extensive<s n="adj"/></r></p></e>
     <e><p><l>enwog<s n="adj"/></l><r>famous<s n="adj"/></r></p></e>
-    <e><p><l>gwag<s n="adj"/></l><r>empty<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>gwag<s n="adj"/></l><r>empty<s n="adj"/></r></p></e> 
     <e><p><l>helaeth<s n="adj"/></l><r>ample<s n="adj"/></r></p></e>
-    <e><p><l>hen<s n="adj"/></l><r>old<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>hen<s n="adj"/><s n="sint"/></l><r>old<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>hir<s n="adj"/></l><r>long<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>hwyr<s n="adj"/></l><r>late<s n="adj"/></r></p></e>
     <e><p><l>iach<s n="adj"/></l><r>healthy<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>isel<s n="adj"/></l><r>low<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>llawn<s n="adj"/></l><r>full<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>llydan<s n="adj"/></l><r>wide<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>llydan<s n="adj"/></l><r>broad<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>manwl<s n="adj"/></l><r>detailed<s n="adj"/></r></p></e>
+    <e><p><l>llawn<s n="adj"/><s n="sint"/></l><r>full<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>llydan<s n="adj"/><s n="sint"/></l><r>wide<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>llydan<s n="adj"/><s n="sint"/></l><r>broad<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>manwl<s n="adj"/><s n="sint"/></l><r>detailed<s n="adj"/></r></p></e>
     <e><p><l>mawr<s n="adj"/></l><r>big<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>newydd<s n="adj"/></l><r>new<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>oer<s n="adj"/></l><r>cold<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>pell<s n="adj"/></l><r>far<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>poeth<s n="adj"/></l><r>hot<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>pwysig<s n="adj"/></l><r>important<s n="adj"/></r></p></e>
-    <e><p><l>rhad<s n="adj"/></l><r>cheap<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>newydd<s n="adj"/><s n="sint"/></l><r>new<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>oer<s n="adj"/><s n="sint"/></l><r>cold<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>pell<s n="adj"/><s n="sint"/></l><r>far<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>poeth<s n="adj"/><s n="sint"/></l><r>hot<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>pwysig<s n="adj"/><s n="sint"/></l><r>important<s n="adj"/></r></p></e>
+    <e><p><l>rhad<s n="adj"/><s n="sint"/></l><r>cheap<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>syml<s n="adj"/></l><r>simple<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>tal<s n="adj"/></l><r>tall<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>tenau<s n="adj"/></l><r>thin<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>tew<s n="adj"/></l><r>fat<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>tal<s n="adj"/><s n="sint"/></l><r>tall<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>tenau<s n="adj"/><s n="sint"/></l><r>thin<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>tew<s n="adj"/><s n="sint"/></l><r>fat<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>tlawd<s n="adj"/></l><r>poor<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>trwm<s n="adj"/></l><r>heavy<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>tywyll<s n="adj"/></l><r>dark<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>tywyll<s n="adj"/><s n="sint"/></l><r>dark<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>uchel<s n="adj"/></l><r>high<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>ysgafn<s n="adj"/></l><r>light<s n="adj"/><s n="sint"/></r></p></e> 
  

@@ -2936,7 +2936,7 @@
       </e>
     </pardef>
     <pardef n="achosiant__n">
-      <e>
+      <e r="LR">
         <p>
           <l/>
           <r><s n="n"/><s n="m"/><s n="sp"/></r>
@@ -8795,33 +8795,19 @@
       <e>
         <p>
           <l/>
-          
-            
-            
-            
-          <r><s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r><s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ach</l>
-          
-            
-            
-            
-            
-          <r><s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>af</l>
-          
-            
-            
-            
-            
-          <r><s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -8829,19 +8815,19 @@
       <e>
         <p>
           <l>g</l>
-          <r>g<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>g<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>cach</l>
-          <r>g<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>g<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>caf</l>
-          <r>g<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>g<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -8849,19 +8835,19 @@
       <e>
         <p>
           <l>d</l>
-          <r>d<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>d<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>tach</l>
-          <r>d<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>d<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>taf</l>
-          <r>d<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>d<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -8869,19 +8855,19 @@
       <e>
         <p>
           <l>ydan</l>
-          <r>ydan<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>ydan<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>etach</l>
-          <r>ydan<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>ydan<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>etaf</l>
-          <r>ydan<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>ydan<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -8889,19 +8875,19 @@
       <e>
         <p>
           <l>bach</l>
-          <r>bach<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>bach<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>llai</l>
-          <r>bach<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>bach<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>lleiaf</l>
-          <r>bach<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>bach<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -8909,19 +8895,19 @@
       <e>
         <p>
           <l>awr</l>
-          <r>awr<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>awr<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>wy</l>
-          <r>awr<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>awr<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>wyaf</l>
-          <r>awr<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>awr<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -8929,19 +8915,19 @@
       <e>
         <p>
           <l>wl</l>
-          <r>wl<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>wl<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ylach</l>
-          <r>wl<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>wl<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l/>
-          <r>wl<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>wl<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -8949,19 +8935,19 @@
       <e>
         <p>
           <l>el</l>
-          <r>el<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>el<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l/>
-          <r>el<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>el<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>af</l>
-          <r>el<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>el<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -8969,19 +8955,19 @@
       <e>
         <p>
           <l>en</l>
-          <r>en<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>en<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ŷn</l>
-          <r>en<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>en<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ynaf</l>
-          <r>en<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>en<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -8989,19 +8975,19 @@
       <e>
         <p>
           <l>fanc</l>
-          <r>fanc<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>fanc<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>au</l>
-          <r>fanc<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>fanc<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>euengaf</l>
-          <r>fanc<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>fanc<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -9009,19 +8995,19 @@
       <e>
         <p>
           <l>au</l>
-          <r>au<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>au<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>euach</l>
-          <r>au<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>au<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>euaf</l>
-          <r>au<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>au<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -9029,19 +9015,19 @@
       <e>
         <p>
           <l>wm</l>
-          <r>wm<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>wm<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ymach</l>
-          <r>wm<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>wm<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ymaf</l>
-          <r>wm<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>wm<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -9049,19 +9035,19 @@
       <e>
         <p>
           <l>chel</l>
-          <r>chel<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>chel<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>wch</l>
-          <r>chel<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>chel<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>af</l>
-          <r>chel<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>chel<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -9073,7 +9059,7 @@
             
             
             
-          <r><s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r><s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
@@ -9084,7 +9070,7 @@
             
             
             
-          <r><s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
@@ -9095,7 +9081,7 @@
             
             
             
-          <r><s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -9103,19 +9089,19 @@
       <e>
         <p>
           <l>nar</l>
-          <r>nar<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>nar<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>harach</l>
-          <r>nar<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>nar<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>haraf</l>
-          <r>nar<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>nar<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -9123,19 +9109,19 @@
       <e>
         <p>
           <l>drwg</l>
-          <r>drwg<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>drwg<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>gwaeth</l>
-          <r>drwg<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>drwg<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>gwaethaf</l>
-          <r>drwg<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>drwg<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -9143,19 +9129,19 @@
       <e>
         <p>
           <l>wfn</l>
-          <r>wfn<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>wfn<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>yfnach</l>
-          <r>wfn<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>wfn<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>yfnaf</l>
-          <r>wfn<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>wfn<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -9163,19 +9149,19 @@
       <e>
         <p>
           <l>awd</l>
-          <r>awd<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>awd<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>otach</l>
-          <r>awd<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>awd<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>otaf</l>
-          <r>awd<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>awd<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -9183,19 +9169,19 @@
       <e>
         <p>
           <l>ang</l>
-          <r>ang<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>ang<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>hangach</l>
-          <r>ang<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>ang<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l/>
-          <r>ang<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>ang<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -9203,19 +9189,19 @@
       <e>
         <p>
           <l>da</l>
-          <r>da<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>da<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>gwell</l>
-          <r>da<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>da<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>gorau</l>
-          <r>da<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>da<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -9223,19 +9209,19 @@
       <e>
         <p>
           <l>nes</l>
-          <r>nes<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>nes<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>hesach</l>
-          <r>nes<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>nes<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>hesaf</l>
-          <r>nes<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>nes<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -9243,19 +9229,19 @@
       <e>
         <p>
           <l>wg</l>
-          <r>wg<s n="adj"/><s n="sint"/><s n="sg"/></r>
+          <r>wg<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ycach</l>
-          <r>wg<s n="adj"/><s n="sint"/><s n="comp"/><s n="sg"/></r>
+          <r>wg<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ycaf</l>
-          <r>wg<s n="adj"/><s n="sint"/><s n="sup"/><s n="sg"/></r>
+          <r>wg<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
