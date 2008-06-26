@@ -26648,8 +26648,6 @@
     <e lm="cement"><i>cement</i><par n="house__n"/></e>
     <e lm="bluff"><i>bluff</i><par n="house__n"/></e>
     <e lm="cirrocumulus"><i>cirrocumulus</i><par n="access__n"/></e>
-    <e lm="cirrocumulus"><i>cirrocumulus</i><par n="access__n"/></e>
-    <e lm="cirrostratus"><i>cirrostratus</i><par n="access__n"/></e>
     <e lm="cirrostratus"><i>cirrostratus</i><par n="access__n"/></e>
     <e lm="clamp"><i>clamp</i><par n="house__n"/></e>
     <e lm="scab"><i>scab</i><par n="house__n"/></e>
@@ -28415,7 +28413,6 @@
 
     <e lm="squeeze"><i>squeez</i><par n="liv/e__vblex"/></e>
     <e lm="recognise"><i>recognis</i><par n="liv/e__vblex"/></e>
-    <e lm="summarise"><i>summarise</i><par n="liv/e__vblex"/></e>
     <e lm="gaze"><i>gaz</i><par n="liv/e__vblex"/></e>
     <e lm="seise"><i>seis</i><par n="liv/e__vblex"/></e>
     <e lm="realise"><i>realis</i><par n="liv/e__vblex"/></e>
@@ -29723,9 +29720,21 @@
     <e lm="approach"><i>approach</i><par n="approach__vblex"/></e>
     <e lm="acquire"><i>acquir</i><par n="liv/e__vblex"/></e>
     <e lm="feed"><i>fe</i><par n="ble/ed__vblex"/></e>
+    <e lm="bleed"><i>ble</i><par n="ble/ed__vblex"/></e>
     <e lm="insist"><i>insist</i><par n="accept__vblex"/></e>
     <e lm="reject"><i>reject</i><par n="accept__vblex"/></e>
+    <e lm="splash"><i>splash</i><par n="accept__vblex"/></e>
+    <e lm="cherish"><i>cherish</i><par n="accept__vblex"/></e>
     <e lm="contribute"><i>contribut</i><par n="liv/e__vblex"/></e>
+    <e lm="interface"><i>interfac</i><par n="liv/e__vblex"/></e>
+    <e lm="phrase"><i>phras</i><par n="liv/e__vblex"/></e>
+    <e lm="circularise"><i>circularis</i><par n="liv/e__vblex"/></e>
+    <e lm="summarise"><i>summaris</i><par n="liv/e__vblex"/></e>
+    <e lm="delineate"><i>delineat</i><par n="liv/e__vblex"/></e>
+    <e lm="substantiate"><i>substantiat</i><par n="liv/e__vblex"/></e>
+    <e lm="differentiate"><i>differentiat</i><par n="liv/e__vblex"/></e>
+    <e lm="terminate"><i>terminat</i><par n="liv/e__vblex"/></e>
+    <e lm="lactate"><i>lactat</i><par n="liv/e__vblex"/></e>
     <e lm="vary"><i>var</i><par n="appl/y__vblex"/></e>
     <e lm="impose"><i>impos</i><par n="liv/e__vblex"/></e>
     <e lm="warn"><i>warn</i><par n="accept__vblex"/></e>
@@ -29734,6 +29743,7 @@
     <e lm="stick"><i>st</i><par n="st/ick__vblex"/></e>
     <e lm="undertake"><i>undert</i><par n="t/ake__vblex"/></e>
     <e lm="attack"><i>attack</i><par n="accept__vblex"/></e>
+    <e lm="entomb"><i>entomb</i><par n="accept__vblex"/></e>
     <e lm="recommend"><i>recommend</i><par n="accept__vblex"/></e>
     <e lm="step"><i>step</i><par n="step__vblex"/></e>
     <e lm="contact"><i>contact</i><par n="accept__vblex"/></e>
@@ -29764,6 +29774,19 @@
     <e lm="assist"><i>assist</i><par n="accept__vblex"/></e>
     <e lm="suspect"><i>suspect</i><par n="accept__vblex"/></e>
     <e lm="specify"><i>specif</i><par n="appl/y__vblex"/></e>
+    <e lm="versify"><i>versif</i><par n="appl/y__vblex"/></e>
+    <e lm="testify"><i>testif</i><par n="appl/y__vblex"/></e>
+
+    <e lm="model"><i>model</i><par n="accept__vblex"/></e>
+    <e lm="rail"><i>rail</i><par n="accept__vblex"/></e>
+    <e lm="span"><i>span</i><par n="accept__vblex"/></e>
+    <e lm="worship"><i>worship</i><par n="accept__vblex"/></e>
+    <e lm="gulp"><i>gulp</i><par n="accept__vblex"/></e>
+    <e lm="chop"><i>chop</i><par n="accept__vblex"/></e>
+    <e lm="shelter"><i>shelter</i><par n="accept__vblex"/></e>
+    <e lm="sift"><i>sift</i><par n="accept__vblex"/></e>
+    <e lm="debit"><i>debit</i><par n="accept__vblex"/></e>
+
     <e lm="clean"><i>clean</i><par n="accept__vblex"/></e>
     <e lm="convert"><i>convert</i><par n="accept__vblex"/></e>
     <e lm="solve"><i>solv</i><par n="liv/e__vblex"/></e>
