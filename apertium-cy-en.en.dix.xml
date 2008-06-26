@@ -9018,6 +9018,7 @@
     <e lm="average"><i>average</i><par n="expensive__adj"/></e>
     <e lm="business"><i>business</i><par n="expensive__adj"/></e>
     <e lm="close"><i>close</i><par n="nice/__adj"/></e>
+    <e lm="sane"><i>sane</i><par n="nice/__adj"/></e>
     <e lm="college"><i>college</i><par n="expensive__adj"/></e>
     <e lm="commercial"><i>commercial</i><par n="expensive__adj"/></e>
     <e lm="daily"><i>daily</i><par n="expensive__adj"/></e>
@@ -9033,6 +9034,7 @@
     <e lm="his"><i>his</i><par n="mine__adj"/></e>
     <e lm="labour"><i>labour</i><par n="expensive__adj"/></e>
     <e lm="likely"><i>likel</i><par n="lovel/y__adj"/></e>
+    <e lm="early"><i>earl</i><par n="happ/y__adj"/></e>
     <e lm="major"><i>major</i><par n="expensive__adj"/></e>
     <e lm="mine"><i>mine</i><par n="mine__adj"/></e>
     <e lm="national"><i>national</i><par n="expensive__adj"/></e>
@@ -9060,6 +9062,7 @@
     <e lm="true"><i>true</i><par n="nice/__adj"/></e>
     <e lm="university"><i>university</i><par n="expensive__adj"/></e>
     <e lm="varied"><i>varied</i><par n="expensive__adj"/></e>
+    <e lm="short-lived"><i>short-lived</i><par n="expensive__adj"/></e>
     <e lm="assorted"><i>assorted</i><par n="expensive__adj"/></e>
     <e lm="amazed"><i>amazed</i><par n="expensive__adj"/></e>
     <e lm="agreed"><i>agreed</i><par n="expensive__adj"/></e>
@@ -30206,10 +30209,12 @@
     <e lm="capital-intensive"><i>capital-intensive</i><par n="expensive__adj"/></e>
     <e lm="captive"><i>captive</i><par n="expensive__adj"/></e>
     <e lm="career"><i>career</i><par n="expensive__adj"/></e>
-    <e lm="Cartesian"><i>Cartesian</i><par n="expensive__adj"/></e>
+    <e lm="cartesian"><i>cartesian</i><par n="expensive__adj"/></e>
     <e lm="cascading"><i>cascading</i><par n="expensive__adj"/></e>
     <e lm="ceaseless"><i>ceaseless</i><par n="expensive__adj"/></e>
     <e lm="centred"><i>centred</i><par n="expensive__adj"/></e>
+    <e lm="malformed"><i>malformed</i><par n="expensive__adj"/></e>
+    <e lm="millionth"><i>millionth</i><par n="expensive__adj"/></e>
     <e lm="certificated"><i>certificated</i><par n="expensive__adj"/></e>
     <e lm="circulating"><i>circulating</i><par n="expensive__adj"/></e>
     <e lm="classic"><i>classic</i><par n="expensive__adj"/></e>
@@ -31316,7 +31321,7 @@
 
     <e lm="breach of contract">
         <i>board</i>
-	<par n="house__n"/>
+	<par n="access__n"/>
 	<p>
 	  <l><b/>of<b/>contract</l>
 	  <r><g><b/>of<b/>contract</g></r>

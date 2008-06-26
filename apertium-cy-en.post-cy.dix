@@ -166,6 +166,15 @@
       <par n="alphabet"/>
     </e>
 
+    <e>
+      <p>
+        <l><a/>a<b/><a/>yr<b/></l>
+        <r>ac<b/><a/>yr<b/></r>
+      </p>
+      <par n="alphabet"/>
+    </e>
+
+
   </section>
 
   <section id="mutations" type="standard">

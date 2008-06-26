@@ -283,7 +283,6 @@
                   <clip pos="2" side="tl" part="lem"/>
                   <clip pos="2" side="tl" part="a_adj"/>
                   <clip pos="2" side="tl" part="deg"/>
-                  <clip pos="3" side="tl" part="nbr" link-to="3"/>
                 </lu>
                 <b/>
                 <lu>
@@ -332,7 +331,6 @@
                   <clip pos="2" side="tl" part="lem"/>
                   <clip pos="2" side="tl" part="a_adj"/>
                   <clip pos="2" side="tl" part="deg"/>
-                  <clip pos="3" side="tl" part="nbr" link-to="3"/>
                 </lu>
               </chunk>
             </out>

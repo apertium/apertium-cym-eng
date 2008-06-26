@@ -15,7 +15,6 @@
       <e><p><l>D</l><r>D</r></p></e>
       <e><p><l>F</l><r>F</r></p></e>
       <e><p><l>G</l><r>G</r></p></e>
-      <e><p><l>H</l><r>H</r></p></e>
       <e><p><l>L</l><r>L</r></p></e>
       <e><p><l>M</l><r>M</r></p></e>
       <e><p><l>N</l><r>N</r></p></e>
@@ -33,7 +32,6 @@
       <e><p><l>d</l><r>d</r></p></e>
       <e><p><l>f</l><r>f</r></p></e>
       <e><p><l>g</l><r>g</r></p></e>
-      <e><p><l>h</l><r>h</r></p></e>
       <e><p><l>l</l><r>l</r></p></e>
       <e><p><l>m</l><r>m</r></p></e>
       <e><p><l>n</l><r>n</r></p></e>
@@ -116,6 +114,10 @@
       <e><p><l>ò</l><r>ò</r></p></e>
       <e><p><l>ù</l><r>ù</r></p></e>
       <e><p><l>ẁ</l><r>ẁ</r></p></e>
+
+      <e><p><l>H</l><r>H</r></p></e>
+      <e><p><l>h</l><r>h</r></p></e>
+
     </pardef>
 
     <pardef n="alphabet">
