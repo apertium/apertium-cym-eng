@@ -18,6 +18,10 @@
     <e r="RL"><p><l>yna<s n="det"/><s n="dem"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>yna<s n="det"/><s n="dem"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
 
+
+    <e><p><l>hon<s n="adj"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
+    <e><p><l>unrhyw<s n="adj"/></l><r>any<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+
     <e><p><l>fy<s n="det"/><s n="pos"/></l><r>my<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>dy<s n="det"/><s n="pos"/></l><r>your<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>ei<s n="det"/><s n="pos"/></l><r>his<s n="det"/><s n="pos"/></r></p></e>
@@ -28,6 +32,9 @@
 
       <!-- CHECK THIS -->
     <e r="RL"><p><l>yr<s n="det"/><s n="def"/></l><r>this<s n="det"/><s n="dem"/></r></p></e>
+
+    <e><p><l>rhywun<s n="prn"/></l><r>someone<s n="prn"/></r></p></e>
+    <e><p><l>unrhywun<s n="prn"/></l><r>anyone<s n="prn"/></r></p></e>
 
     <!-- Prepositions -->
     
@@ -2329,7 +2336,7 @@
     <e><p><l>ymarferydd<s n="n"/><s n="m"/></l><r>practitioner<s n="n"/></r></p></e>
     <e><p><l>ymateb<s n="n"/><s n="m"/></l><r>response<s n="n"/></r></p></e>
     <e><p><l>ymatebydd<s n="n"/><s n="m"/></l><r>respondent<s n="n"/></r></p></e>
-    <e><p><l>ymchwil<s n="n"/><s n="m"/></l><r>research<s n="n"/></r></p></e>
+    <e><p><l>ymchwil<s n="n"/><s n="m"/></l><r>research<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>ymchwilydd<s n="n"/><s n="m"/></l><r>researcher<s n="n"/></r></p></e>
     <e><p><l>ymchwydd<s n="n"/><s n="m"/></l><r>surge<s n="n"/></r></p></e>
     <e><p><l>ymdrech<s n="n"/><s n="mf"/></l><r>effort<s n="n"/></r></p></e>
@@ -4739,7 +4746,8 @@
     <e><p><l>holl<s n="adj"/></l><r>all<s n="adj"/></r></p></e>
     <e><p><l>hollol<s n="adj"/></l><r>completely<s n="adj"/></r></p></e>
     <e><p><l>hollt<s n="adj"/></l><r>forked<s n="adj"/></r></p></e>
-    <e><p><l>hon<s n="adj"/></l><r>this<s n="adj"/></r></p></e>
+
+
     <e><p><l>honedig<s n="adj"/></l><r>alleged<s n="adj"/></r></p></e>
     <e><p><l>hoyw<s n="adj"/></l><r>gay<s n="adj"/></r></p></e>
     <e><p><l>hud<s n="adj"/></l><r>magic<s n="adj"/></r></p></e>
@@ -5243,7 +5251,8 @@
     <e><p><l>unlled<s n="adj"/></l><r>monospaced<s n="adj"/></r></p></e>
     <e><p><l>unlliw<s n="adj"/></l><r>monochrome<s n="adj"/></r></p></e>
     <e><p><l>unol<s n="adj"/></l><r>united<s n="adj"/></r></p></e>
-    <e><p><l>unrhyw<s n="adj"/></l><r>any<s n="adj"/></r></p></e>
+
+
     <e><p><l>unswydd<s n="adj"/></l><r>specific<s n="adj"/></r></p></e>
     <e><p><l>urddasol<s n="adj"/></l><r>dignified<s n="adj"/></r></p></e>
     <e><p><l>uwch-<s n="adj"/></l><r>super-<s n="adj"/></r></p></e>
@@ -5754,8 +5763,10 @@
     <e><p><l>blysu<s n="vblex"/></l><r>crave<s n="vblex"/></r></p></e>
     <e><p><l>bochio<s n="vblex"/></l><r>gobble<s n="vblex"/></r></p></e>
     <e><p><l>bocsio<s n="vblex"/></l><r>box<s n="vblex"/></r></p></e>
-    <e><p><l>bod<s n="vblex"/></l><r>be<s n="vbser"/></r></p></e>
+
+    <e><p><l>bod<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
 <!--    <e><p><l>bod<s n="vblex"/></l><r>be<s n="vblex"/></r></p></e> -->
+
     <e><p><l>boddhau<s n="vblex"/></l><r>please<s n="vblex"/></r></p></e>
     <e><p><l>boddi<s n="vblex"/></l><r>drown<s n="vblex"/></r></p></e>
     <e><p><l>boddloni<s n="vblex"/></l><r>gratify<s n="vblex"/></r></p></e>

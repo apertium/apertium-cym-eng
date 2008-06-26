@@ -5,6 +5,10 @@
     <def-cat n="SN">
       <cat-item tags="SN.*"/>
     </def-cat>
+    <def-cat n="SP">
+      <cat-item tags="SP"/>
+      <cat-item tags="SP.*"/>
+    </def-cat>
     <def-cat n="SV">
       <cat-item tags="SV"/>
       <cat-item tags="SV.*"/>
@@ -41,7 +45,6 @@
       </action>
     </rule>
 
-<!--
     <rule comment="REGLA: SV SN">
       <pattern>
         <pattern-item n="SV"/>
@@ -63,6 +66,37 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: SV SP SN">
+      <pattern>
+        <pattern-item n="SV"/>
+        <pattern-item n="SP"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
     <rule comment="REGLA: SV SN SN">
       <pattern>
@@ -92,7 +126,6 @@
         </out>
       </action>
     </rule>
--->
 
   </section-rules>
 </interchunk>
