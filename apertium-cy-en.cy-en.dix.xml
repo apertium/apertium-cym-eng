@@ -5308,7 +5308,7 @@
     <e><p><l>anodd<s n="adj"/></l><r>difficult<s n="adj"/></r></p></e>
     <e><p><l>araf<s n="adj"/></l><r>slow<s n="adj"/></r></p></e>
     <e><p><l>bach<s n="adj"/></l><r>small<s n="adj"/></r></p></e>
-    <e><p><l>bas<s n="adj"/></l><r>bass<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>bas<s n="adj"/></l><r>bass<s n="adj"/></r></p></e>
     <e><p><l>bas<s n="adj"/></l><r>shallow<s n="adj"/></r></p></e>
     <e><p><l>byr<s n="adj"/></l><r>short<s n="adj"/></r></p></e>
     <e><p><l>call<s n="adj"/></l><r>sane<s n="adj"/></r></p></e>

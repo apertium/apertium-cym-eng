@@ -69,10 +69,13 @@
     <sdef n="pii"     c="Pretério imperfecto de indicativo"/>
     <sdef n="fti"     c="Future indicative"/>
     <sdef n="cni"     c="Conditional"/>
+    <sdef n="cns"     c="Conditional subjunctive"/>
     <sdef n="prs"     c="Present subjunctive"/>
     <sdef n="pis"     c="Pretério imperfecto de subjunctivo"/>
     <sdef n="imp"     c="Imperative"/>
     <sdef n="plu"     c="Pluperfect"/>
+    <sdef n="fut"     c="Future"/>
+
     <sdef n="pos"     c="Possessive"/>
     <sdef n="gen"     c="Genitive"/>
     <sdef n="nom"     c="Nominative"/>
