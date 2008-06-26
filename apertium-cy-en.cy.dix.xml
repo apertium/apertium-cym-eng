@@ -55637,6 +55637,15 @@
       <par n="gyda__pr"/>
     </e>
 
+    <e lm="'n" r="LR">
+      <p>
+        <l>'n</l>
+        <r>yn</r>
+      </p>
+      <par n="yn__part"/>
+    </e>
+
+
     <e lm="i'r" r="LR">
       <p>
         <l>i'r</l>
