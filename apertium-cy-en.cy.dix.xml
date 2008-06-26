@@ -46943,6 +46943,16 @@
       </e>
     </pardef>
 
+    <pardef n="yn__part">
+      <e>
+        <p>
+          <l/>
+          <r><s n="part"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
   </pardefs>
 
   <section id="main" type="standard">
@@ -46950,7 +46960,9 @@
     <e lm="pronoms personals de subjecte"><i/><par n="prsubj__prn"/></e>
     <e lm="unrhywun"><i>unrhywun</i><par n="unrhywun__prn"/></e>
     <e lm="rhywun"><i>rhywun</i><par n="unrhywun__prn"/></e>
+ 
 
+    <e lm="yn"><i>yn</i><par n="yn__part"/></e> <!-- The 'yn' particle -->
     <e lm="ar"><i/><par n="/ar__pr"/></e>
     <e lm="am"><i/><par n="/am__pr"/></e>
     <e lm="dan"><i/><par n="/dan__pr"/></e>
