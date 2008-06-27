@@ -2328,6 +2328,18 @@
           <r>be<s n="vbser"/><s n="past"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l>were</l>
+          <r>be<s n="vbser"/><s n="past"/><s n="p2"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>were</l>
+          <r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sp"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>was</l>

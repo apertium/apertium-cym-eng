@@ -18,9 +18,9 @@
 
   <section-def-attrs>
     <def-attr n="a_frase">
-      <cat-item tags="SV"/>
-      <cat-item tags="SN"/>
-      <cat-item tags="SP"/>
+      <attr-item tags="SV"/>
+      <attr-item tags="SN"/>
+      <attr-item tags="SP"/>
     </def-attr>
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
@@ -98,12 +98,16 @@
       <choose>
         <when>
           <test>
-            <not>
-              <equal>
-                <clip pos="1" part="temps"/>
-                <lit-tag v="inf"/>
-              </equal>
-            </not>
+	      <or>
+                <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="inf"/>
+                </equal>
+                <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="imp"/>
+                </equal> 
+              </or>
           </test>
           <out>
             <chunk>
