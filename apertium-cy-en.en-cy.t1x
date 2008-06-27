@@ -5,7 +5,7 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <!--Falten els altres np (antroponims) que tenen gen i nbr, revisar regles.-->
-      <cat-item tags="np.loc"/>
+      <cat-item tags="np.top.*"/>
     </def-cat>
     <def-cat n="det">
       <cat-item tags="det.*"/>
@@ -139,6 +139,7 @@
       </let>
     </def-macro>
   </section-def-macros>
+
   <section-rules>
     <rule comment="REGLA: NOM">
       <pattern>
