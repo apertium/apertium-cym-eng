@@ -12,7 +12,7 @@
     </def-cat>
     <def-cat n="SV">
       <cat-item tags="SV"/>
-      <cat-item tags="SV.*"/>
+      <cat-item lemma="verbcj" tags="SV.*"/>
     </def-cat>
   </section-def-cats>
 

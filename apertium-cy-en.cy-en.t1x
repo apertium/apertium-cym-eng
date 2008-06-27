@@ -966,20 +966,16 @@
       </pattern>
       <action>
         <out>
-          <chunk namefrom="lema_SV" case="caseFirstWord">
+          <chunk name="verbinf" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="2" side="tl" part="a_verb"/></tag>
               <tag><lit-tag v="ger"/></tag>
-              <tag><clip pos="2" side="tl" part="pers"/></tag>
-              <tag><clip pos="2" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_verb"/>
               <clip pos="2" side="tl" part="temps" link-to="3"/>
-              <clip pos="2" side="tl" part="pers" link-to="4"/>
-              <clip pos="2" side="tl" part="num" link-to="5"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
