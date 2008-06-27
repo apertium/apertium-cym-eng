@@ -53,7 +53,6 @@
     <e><p><l>yn<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
     <e><p><l>o<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
     <e><p><l>rhwng<s n="pr"/></l><r>between<s n="pr"/></r></p></e>
-    <e><p><l>rhag<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
     <e><p><l>er<s n="pr"/></l><r>despite<s n="pr"/></r></p></e>
     <e r="LR"><p><l>gan<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
     <e><p><l>i<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
@@ -64,6 +63,8 @@
     <e><p><l>nesaf at<s n="pr"/></l><r>next to<s n="pr"/></r></p></e>
  
     <e r="LR"><p><l>oddi wrth<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>rhag<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
+    <e><p><l>o<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
     
     
     <!-- Uninflected prepositions -->
@@ -79,7 +80,7 @@
     <e r="LR"><p><l>mewn<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
     <e><p><l>wedi<s n="pr"/></l><r>after<s n="pr"/></r></p></e>
     <e><p><l>erbyn<s n="pr"/></l><r>by<s n="pr"/></r></p></e>
-    <e><p><l>heblaw<s n="pr"/></l><r>without<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>heblaw<s n="pr"/></l><r>without<s n="pr"/></r></p></e>
     <e><p><l>heibio<s n="pr"/></l><r>past<s n="pr"/></r></p></e>
     <e><p><l>tan<s n="pr"/></l><r>until<s n="pr"/></r></p></e>
     <e><p><l>ac eithrio<s n="pr"/></l><r>with the exception of<s n="pr"/></r></p></e>
@@ -103,7 +104,6 @@
     <e><p><l>yn lle<s n="pr"/></l><r>instead of<s n="pr"/></r></p></e>
     <e><p><l>yn ôl<s n="pr"/></l><r>according to<s n="pr"/></r></p></e> 
  
-    <e r="LR"><p><l>oddi wrth<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
  
     <e><p><l>ar ôl<s n="pr"/></l><r>after<s n="pr"/></r></p></e>
     <e><p><l>ynghyd â<s n="pr"/></l><r>together with<s n="pr"/></r></p></e>
@@ -1446,7 +1446,6 @@
     <e><p><l>syniad<s n="n"/><s n="m"/></l><r>idea<s n="n"/></r></p></e>
     <e><p><l>synthesis<s n="n"/><s n="m"/></l><r>synthesis<s n="n"/></r></p></e>
     <e><p><l>system<s n="n"/><s n="f"/></l><r>system<s n="n"/></r></p></e>
-    <e><p><l>tabl<s n="n"/><s n="m"/></l><r>table<s n="n"/></r></p></e>
     <e><p><l>tacteg<s n="n"/><s n="f"/></l><r>tactic<s n="n"/></r></p></e>
     <e><p><l>tad<s n="n"/><s n="m"/></l><r>father<s n="n"/></r></p></e>
     <e><p><l>tafarn<s n="n"/><s n="mf"/></l><r>tavern<s n="n"/></r></p></e>
@@ -3265,10 +3264,10 @@
     <e><p><l>prifswm<s n="n"/><s n="m"/></l><r>principal<s n="n"/></r></p></e>
     <e><p><l>swm<s n="n"/><s n="m"/></l><r>sum<s n="n"/></r></p></e>
     <e><p><l>uchafswm<s n="n"/><s n="m"/></l><r>maximum<s n="n"/></r></p></e>
+    <e r="LR"><p><l>tabl<s n="n"/><s n="m"/></l><r>table<s n="n"/></r></p></e>
     <e><p><l>bwrdd<s n="n"/><s n="m"/></l><r>table<s n="n"/></r></p></e>
     <e><p><l>bysellfwrdd<s n="n"/><s n="m"/></l><r>keyboard<s n="n"/></r></p></e>
     <e><p><l>cardfwrdd<s n="n"/><s n="m"/></l><r>cardboard<s n="n"/></r></p></e>
-    <e><p><l>clipfwrdd<s n="n"/><s n="m"/></l><r>clipboard<s n="n"/></r></p></e>
     <e><p><l>clipfwrdd<s n="n"/><s n="m"/></l><r>clipboard<s n="n"/></r></p></e>
     <e><p><l>cwrdd<s n="n"/><s n="m"/></l><r>meeting<s n="n"/></r></p></e>
     <e><p><l>gweithfwrdd<s n="n"/><s n="m"/></l><r>desktop<s n="n"/></r></p></e>
