@@ -50157,6 +50157,7 @@
     <e lm="cynhwysydd"><par n="initial-c"/><i>yn</i><par n="cyn/hwysydd__n"/></e>
     <e lm="twnnel"><par n="initial-t"/><i>wn</i><par n="twn/nel__n"/></e>
     <e lm="swigen"><i>swig</i><par n="swig/en__n"/></e>
+    <e lm="cwningen"><par n="initial-c"/><i>wning</i><par n="swig/en__n"/></e>
     <e lm="aderyn"><i>ad</i><par n="ad/eryn__n"/></e>
     <e lm="ffynhonnell"><i>ffyn</i><par n="ffyn/honnell__n"/></e>
     <e lm="perthynas"><par n="initial-p"/><i>erth</i><par n="perth/ynas__n"/></e>
@@ -51063,8 +51064,10 @@
     <e lm="eglwysig"><i>eglwysig</i><par n="caredig__adj"/></e>
     <e lm="egnïol"><i>egnïol</i><par n="caredig__adj"/></e>
     <e lm="ehangedig"><i>ehangedig</i><par n="caredig__adj"/></e>
+<!--
     <e lm="ei"><i>ei</i><par n="caredig__adj"/></e>
     <e lm="ei"><p><l>'i</l><r>ei</r></p><par n="caredig__adj"/></e>
+-->
     <e lm="eiconig"><i>eiconig</i><par n="caredig__adj"/></e>
     <e lm="eilaidd"><i>eilaidd</i><par n="caredig__adj"/></e>
     <e lm="eiledol"><i>eiledol</i><par n="caredig__adj"/></e>

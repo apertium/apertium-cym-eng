@@ -2316,10 +2316,28 @@
           <r>be<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l>were</l>
+          <r>be<s n="vbser"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>were</l>
+          <r>be<s n="vbser"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>was</l>
           <r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>were</l>
+          <r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
@@ -28340,6 +28358,14 @@
         <r><g><b/>able</g></r>
       </p>
     </e>
+    <e lm="hold an inquiry">
+      <i>h</i>
+      <par n="h/old__vblex"/>
+      <p>
+        <l><b/>an<b/>inquiry</l>
+        <r><g><b/>an<b/>inquiry</g></r>
+      </p>
+    </e>
     <e lm="bring down"><i>br</i><par n="br/ing__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>down</l><r><g><b/>down</g></r></p></e>
     <e lm="bring together"><i>br</i><par n="br/ing__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>together</l><r><g><b/>together</g></r></p></e>
     <e lm="check out"><i>check</i><par n="accept__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
@@ -28422,6 +28448,7 @@
 
     <e lm="squeeze"><i>squeez</i><par n="liv/e__vblex"/></e>
     <e lm="recognise"><i>recognis</i><par n="liv/e__vblex"/></e>
+    <e lm="sympathise"><i>sympathis</i><par n="liv/e__vblex"/></e>
     <e lm="gaze"><i>gaz</i><par n="liv/e__vblex"/></e>
     <e lm="seise"><i>seis</i><par n="liv/e__vblex"/></e>
     <e lm="realise"><i>realis</i><par n="liv/e__vblex"/></e>
@@ -28453,6 +28480,7 @@
     <e lm="answer"><i>answer</i><par n="accept__vblex"/></e>
     <e lm="appear"><i>appear</i><par n="accept__vblex"/></e>
     <e lm="apply"><i>appl</i><par n="appl/y__vblex"/></e>
+    <e lm="worry"><i>worr</i><par n="appl/y__vblex"/></e>
     <e lm="approve"><i>approv</i><par n="liv/e__vblex"/></e>
     <e lm="argue"><i>argu</i><par n="liv/e__vblex"/></e>
     <e lm="arrive"><i>arriv</i><par n="liv/e__vblex"/></e>

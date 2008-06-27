@@ -23,6 +23,12 @@
     <def-cat n="pr">
       <cat-item tags="pr"/>
     </def-cat>
+    <def-cat n="yn">
+      <cat-item lemma="yn" tags="*"/>
+    </def-cat>
+    <def-cat n="prnsubj">
+      <cat-item lemma="prpers" tags="prn.subj.*"/>
+    </def-cat>
     <def-cat n="verbcj">
       <cat-item tags="vblex.cni.*"/>
       <cat-item tags="vblex.fti.*"/>
@@ -102,6 +108,11 @@
       <attr-item tags="vbmod"/>
       <attr-item tags="vbaux"/>
       <attr-item tags="vbser"/>
+    </def-attr>
+    <def-attr n="a_prn">
+      <attr-item tags="prn.subj"/>
+      <attr-item tags="prn.obj"/>
+      <attr-item tags="prn.tn"/>
     </def-attr>
 
     <def-attr n="nbr">
@@ -195,7 +206,7 @@
                 </or>
                 <equal>
                   <clip pos="1" side="sl" part="nbr"/>
-                  <lit-tag v="sg"/>
+                  <lit-tag v="sg"/> 
                 </equal>
               </and>
             </test>
@@ -218,8 +229,8 @@
                 <clip pos="1" side="tl" part="a_verb"/>
                 <clip pos="1" side="tl" part="sep"/>
                 <clip pos="1" side="tl" part="temps"/>
-                <clip pos="1" side="tl" part="pers"/>
-                <clip pos="1" side="tl" part="nbr"/>
+                <clip pos="1" side="sl" part="pers" link-to="3"/>
+                <clip pos="1" side="sl" part="nbr" link-to="4"/> 
               </concat>
             </let>
           </when>
@@ -265,8 +276,8 @@
                 <clip pos="1" side="tl" part="a_verb"/>
                 <clip pos="1" side="tl" part="sep"/>
                 <clip pos="1" side="tl" part="temps"/>
-                <clip pos="1" side="tl" part="pers"/>
-                <clip pos="1" side="tl" part="nbr"/>
+                <clip pos="1" side="sl" part="pers" link-to="3"/>
+                <clip pos="1" side="sl" part="nbr" link-to="4"/>
               </concat>
             </let>
           </when>
@@ -311,8 +322,8 @@
                 <clip pos="1" side="tl" part="a_verb"/>
                 <clip pos="1" side="tl" part="sep"/>
                 <clip pos="1" side="tl" part="temps"/>
-                <clip pos="1" side="tl" part="pers"/>
-                <clip pos="1" side="tl" part="nbr"/> 
+                <clip pos="1" side="tl" part="pers" link-to="3"/>
+                <clip pos="1" side="tl" part="nbr" link-to="4"/> 
               </concat>
             </let>
 
@@ -358,9 +369,8 @@
                       <clip pos="1" side="tl" part="temps"/>
                   </concat>
                 </let>
-
-
               </when>
+
               <when>
                 <test> 
                   <and>
@@ -590,6 +600,33 @@
       </action>
     </rule>
 
+
+
+    <rule comment="REGLA: PRNSUBJ">
+      <pattern>
+        <pattern-item n="prnsubj"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="prnsubj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_prn"/>
+              <clip pos="1" side="tl" part="pers" link-to="2"/>
+              <clip pos="1" side="tl" part="gen" link-to="3"/>
+              <clip pos="1" side="tl" part="nbr" link-to="4"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: DET">
       <pattern>
         <pattern-item n="det"/>
@@ -621,18 +658,18 @@
           <chunk name="det_nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_det"/>
-              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="nbr" link-to="2"/>
             </lu>
 	    <b/>
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="a_nom"/>
-              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="nbr" link-to="2"/>
             </lu>
           </chunk>
         </out>
@@ -711,27 +748,22 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: CNJCOO DET"> 
+
+    <rule comment="REGLA: yn ADJ"> 
       <pattern>
-        <pattern-item n="cnjcoo"/>
-        <pattern-item n="det"/>
+        <pattern-item n="yn"/>
+        <pattern-item n="adj"/>
       </pattern>
       <action> 
         <out>
-          <chunk name="cnjcoo_det" case="caseFirstWord">
+          <chunk name="adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_cnj"/>
-            </lu>
-            <b/>
-            <lu>
               <clip pos="2" side="tl" part="lem"/>
-              <clip pos="2" side="tl" part="a_det"/>
-              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="deg"/>
             </lu>
           </chunk>
         </out>

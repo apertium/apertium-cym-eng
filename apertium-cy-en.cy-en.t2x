@@ -3,6 +3,7 @@
 <interchunk>
   <section-def-cats>
     <def-cat n="SN">
+      <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
     <def-cat n="SP">
@@ -16,11 +17,40 @@
   </section-def-cats>
 
   <section-def-attrs>
+    <def-attr n="a_frase">
+      <cat-item tags="SV"/>
+      <cat-item tags="SN"/>
+      <cat-item tags="SP"/>
+    </def-attr>
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+      <attr-item tags="vbmod"/>
+      <attr-item tags="vbaux"/>
+      <attr-item tags="vbser"/>
+    </def-attr>
+    <def-attr n="a_prn">
+      <attr-item tags="prn.subj"/>
+      <attr-item tags="prn.obj"/>
+      <attr-item tags="prn.tn"/>
+    </def-attr>
+
     <def-attr n="nbr">
+      <attr-item tags="sp"/>
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
-      <attr-item tags="sp"/>
       <attr-item tags="ND"/>
+    </def-attr>
+    <def-attr n="gen">
+      <attr-item tags="f"/>
+      <attr-item tags="m"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+    </def-attr>
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
     </def-attr>
     <def-attr n="temps">
       <attr-item tags="past"/>
@@ -33,6 +63,7 @@
       <attr-item tags="inf"/>
       <attr-item tags="plu"/>
       <attr-item tags="cns"/>
+      <attr-item tags="cni"/>
     </def-attr>
 
   </section-def-attrs>
@@ -77,7 +108,11 @@
           <out>
             <chunk>
               <clip pos="1" part="lem"/>
-              <clip pos="1" part="tags"/>
+	      <clip pos="1" part="a_frase"/>
+	      <clip pos="1" part="a_verb"/>
+	      <clip pos="1" part="temps"/>
+	      <clip pos="1" part="pers"/>
+  	      <clip pos="2" part="nbr"/>
               <clip pos="1" part="chcontent"/>
             </chunk>
             <b/>
@@ -98,7 +133,11 @@
             <b/>
             <chunk>
               <clip pos="1" part="lem"/>
-              <clip pos="1" part="tags"/>
+	      <clip pos="1" part="a_frase"/>
+	      <clip pos="1" part="a_verb"/>
+	      <clip pos="1" part="temps"/>
+	      <clip pos="1" part="pers"/>
+  	      <clip pos="2" part="nbr"/>
               <clip pos="1" part="chcontent"/>
             </chunk>
           </out>
@@ -123,7 +162,11 @@
           <b/>
           <chunk>
             <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
+	    <clip pos="1" part="a_frase"/>
+	    <clip pos="1" part="a_verb"/>
+	    <clip pos="1" part="temps"/>
+	    <clip pos="1" part="pers"/>
+	    <clip pos="2" part="nbr"/>
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b/>
@@ -154,7 +197,11 @@
           <b/>
           <chunk>
             <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
+	    <clip pos="1" part="a_frase"/>
+	    <clip pos="1" part="a_verb"/>
+	    <clip pos="1" part="temps"/>
+	    <clip pos="1" part="pers"/>
+	    <clip pos="2" part="nbr"/>
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b/>

@@ -3648,6 +3648,7 @@
     <e><p><l>cynhwysydd<s n="n"/><s n="m"/></l><r>container<s n="n"/></r></p></e>
     <e><p><l>twnnel<s n="n"/><s n="m"/></l><r>tunnel<s n="n"/></r></p></e>
     <e><p><l>swigen<s n="n"/><s n="f"/></l><r>bubble<s n="n"/></r></p></e>
+    <e><p><l>cwningen<s n="n"/><s n="f"/></l><r>rabbit<s n="n"/></r></p></e>
     <e><p><l>aderyn<s n="n"/><s n="m"/></l><r>bird<s n="n"/></r></p></e>
     <e><p><l>ffynhonnell<s n="n"/><s n="f"/></l><r>source<s n="n"/></r></p></e>
     <e><p><l>perthynas<s n="n"/><s n="f"/></l><r>relative<s n="n"/></r></p></e>
@@ -4534,8 +4535,6 @@
     <e><p><l>eglwysig<s n="adj"/></l><r>ecclesiastical<s n="adj"/></r></p></e>
     <e><p><l>egnïol<s n="adj"/></l><r>energetic<s n="adj"/></r></p></e>
     <e><p><l>ehangedig<s n="adj"/></l><r>expanded<s n="adj"/></r></p></e>
-    <e><p><l>ei<s n="adj"/></l><r>his<s n="adj"/></r></p></e>
-    <e><p><l>ei<s n="adj"/></l><r>her<s n="adj"/></r></p></e>
     <e><p><l>eiconig<s n="adj"/></l><r>iconig<s n="adj"/></r></p></e>
     <e><p><l>eilaidd<s n="adj"/></l><r>secondary<s n="adj"/></r></p></e>
     <e><p><l>eiledol<s n="adj"/></l><r>alternating<s n="adj"/></r></p></e>
@@ -8823,7 +8822,7 @@
     <e><p><l>crygleisio<s n="vblex"/></l><r>speak hoarsely<s n="vblex"/></r></p></e>
     <e><p><l>crygu<s n="vblex"/></l><r>become hoarse<s n="vblex"/></r></p></e>
     <e><p><l>crynhau<s n="vblex"/></l><r>become round<s n="vblex"/></r></p></e>
-    <e><p><l>cwestio<s n="vblex"/></l><r>hold an inquiry<s n="vblex"/></r></p></e>
+    <e><p><l>cwestio<s n="vblex"/></l><r>hold<g><b/>an<b/>inquiry</g><s n="vblex"/></r></p></e>
     <e><p><l>cyboli<s n="vblex"/></l><r>talk nonsense<s n="vblex"/></r></p></e>
     <e><p><l>cychio<s n="vblex"/></l><r>keep bees<s n="vblex"/></r></p></e>
     <e><p><l>cychu<s n="vblex"/></l><r>keep bees<s n="vblex"/></r></p></e>
