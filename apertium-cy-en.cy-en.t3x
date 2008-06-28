@@ -4,6 +4,8 @@
   <section-def-cats>
     <def-cat n="nom">
       <cat-item name="nom"/>
+    </def-cat>
+    <def-cat n="nom_adj">
       <cat-item name="nom_adj"/>
       <cat-item name="nom_adj_adj"/>
     </def-cat>
@@ -32,6 +34,7 @@
   </section-def-attrs>
   <section-def-vars>
     <def-var n="paraula"/>
+    <def-var n="pp"/>
   </section-def-vars>
   <section-rules>
     <rule comment="CHUNK: regla que no fa res">
@@ -52,7 +55,50 @@
     </rule>
     <rule comment="CHUNK:">
       <pattern>
-        <pattern-item n="nom"/>
+        <pattern-item n="nom_adj"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	  <test>
+	    <equal>
+	      <var n="pp"/>
+	      <lit v="true"/>
+	    </equal>
+	  </test>
+          <out>
+	    <lu>
+	      <lit v="a"/>
+	      <lit-tag v="det.ind.sg"/>
+	    </lu>
+	    <b/>
+            <lu>
+              <clip pos="1" part="whole"/>
+            </lu>
+	    <b pos="1"/>
+            <lu>
+              <clip pos="2" part="whole"/>
+            </lu>
+          </out>
+	  </when>
+	  <otherwise>
+          <out>
+            <lu>
+              <clip pos="1" part="whole"/>
+            </lu>
+	    <b/>
+            <lu>
+              <clip pos="2" part="whole"/>
+            </lu>
+          </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+    <!--ja anirem veient què s'hi posa, aquí-->
+    <rule comment="CHUNK: prep">
+      <pattern>
+        <pattern-item n="prep"/>
       </pattern>
       <action>
         <out>
@@ -60,9 +106,12 @@
             <clip pos="1" part="whole"/>
           </lu>
         </out>
+	<let>
+          <var n="pp"/>
+	  <lit v="true"/>
+	</let>
       </action>
     </rule>
-    <!--ja anirem veient què s'hi posa, aquí-->
 
   </section-rules>
 </postchunk>
