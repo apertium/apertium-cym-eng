@@ -1112,6 +1112,13 @@
       </e>
     </pardef>
     <pardef n="house__n">
+      <!-- this is broken -->
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="n"/><s n="sp"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l/>
