@@ -7,7 +7,6 @@
     </def-cat>
     <def-cat n="nom_adj">
       <cat-item name="nom_adj"/>
-      <cat-item name="nom_adj_adj"/>
     </def-cat>
     <def-cat n="det_nom">
       <cat-item name="det_nom"/>
@@ -53,6 +52,43 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="CHUNK:">
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	  <test>
+	    <equal>
+	      <var n="pp"/>
+	      <lit v="true"/>
+	    </equal>
+	  </test>
+          <out>
+	    <lu>
+	      <lit v="a"/>
+	      <lit-tag v="det.ind.sg"/>
+	    </lu>
+	    <b/>
+            <lu>
+              <clip pos="1" part="whole"/>
+            </lu>
+          </out>
+	  </when>
+	  <otherwise>
+          <out>
+            <lu>
+              <clip pos="1" part="whole"/>
+            </lu>
+          </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+
     <rule comment="CHUNK:">
       <pattern>
         <pattern-item n="nom_adj"/>
