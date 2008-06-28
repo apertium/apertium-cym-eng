@@ -7604,20 +7604,12 @@
       <e>
         <p>
           <l/>
-          
-            
-            
-            
           <r><s n="n"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>u</l>
-          
-            
-            
-            
           <r><s n="n"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
@@ -50066,6 +50058,7 @@
     <e lm="modiwl"><par n="initial-m"/><i>odi</i><par n="modi/wl__n"/></e>
     <e lm="pŵer"><par n="initial-p"/><i/><par n="p/ŵer__n"/></e>
     <e lm="agenda"><i>agenda</i><par n="agenda__n"/></e>
+    <e lm="Wicipedia"><i>Wicipedia</i><par n="agenda__n"/></e>
     <e lm="digonedd"><par n="initial-d"/><i>igon</i><par n="digon/edd__n"/></e>
     <e lm="ysgyfaint"><i>ysgyf</i><par n="ysgyf/aint__n"/></e>
     <e lm="ymatebwyr"><i>ymatebw</i><par n="ymatebw/yr__n"/></e>

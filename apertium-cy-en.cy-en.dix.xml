@@ -189,6 +189,7 @@
     <e><p><l>deddfeg<s n="n"/><s n="f"/></l><r>jurisprudence<s n="n"/></r></p></e><!-- jurisprudence - deddfeg [f.]-->
     <e><p><l>arafeiddiwch<s n="n"/><s n="m"/></l><r>deliberation<s n="n"/></r></p></e><!-- deliberation - arafeiddiwch [m.]-->
     <e><p><l>chwisgi<s n="n"/><s n="m"/></l><r>whisky<s n="n"/></r></p></e><!-- whisky - chwisgi [m.]-->
+    <e><p><l>Wicipedia<s n="n"/><s n="m"/></l><r>Wikipedia<s n="n"/></r></p></e>
     <e><p><l>treiddgarwch<s n="n"/><s n="m"/></l><r>penetration<s n="n"/></r></p></e><!-- penetration - treiddgarwch [m.]-->
     <e><p><l>rhyddhad<s n="n"/><s n="m"/></l><r>emancipation<s n="n"/></r></p></e><!-- emancipation - rhyddhad [m.]-->
     <e><p><l>anadliad<s n="n"/><s n="m"/></l><r>breathing<s n="n"/></r></p></e><!-- breathing - anadliad [m.]-->
@@ -8761,6 +8762,7 @@
  
     <e><p><l>gwalcio<s n="vblex"/></l><r>turn<g><b/>up</g><s n="vblex"/></r></p></e>
     <e><p><l>gofalu<s n="vblex"/></l><r>take<g><b/>care</g><s n="vblex"/></r></p></e>
+    <e><p><l>allgofnodi<s n="vblex"/></l><r>log<g><b/>out</g><s n="vblex"/></r></p></e>
  
     <e><p><l>aberu<s n="vblex"/></l><r>flow into<s n="vblex"/></r></p></e>
     <e><p><l>adara<s n="vblex"/></l><r>catch birds<s n="vblex"/></r></p></e>
@@ -8775,7 +8777,6 @@
     <e><p><l>ailwrando<s n="vblex"/></l><r>listen again<s n="vblex"/></r></p></e>
     <e><p><l>ailymrwymo<s n="vblex"/></l><r>recommit oneself<s n="vblex"/></r></p></e>
     <e><p><l>ailysgogi<s n="vblex"/></l><r>stir again<s n="vblex"/></r></p></e>
-    <e><p><l>allgofnodi<s n="vblex"/></l><r>log out<s n="vblex"/></r></p></e>
     <e><p><l>allolchi<s n="vblex"/></l><r>wash out<s n="vblex"/></r></p></e>
     <e><p><l>amhwyllo<s n="vblex"/></l><r>go mad<s n="vblex"/></r></p></e>
     <e><p><l>amlapio<s n="vblex"/></l><r>wrap around<s n="vblex"/></r></p></e>
