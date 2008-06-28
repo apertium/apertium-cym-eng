@@ -4680,7 +4680,10 @@
     <e><p><l>gweladwy<s n="adj"/></l><r>visible<s n="adj"/></r></p></e>
     <e><p><l>gweledig<s n="adj"/></l><r>visible<s n="adj"/></r></p></e>
     <e><p><l>gweledol<s n="adj"/></l><r>visual<s n="adj"/></r></p></e>
+
     <e><p><l>gwen<s n="adj"/></l><r>white<s n="adj"/><s n="sint"/></r></p></e> 
+    <e r="LR"><p><l>gwyn<s n="adj"/><s n="sint"/></l><r>white<s n="adj"/><s n="sint"/></r></p></e> 
+
     <e><p><l>gwerdd<s n="adj"/></l><r>green<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>gwerthadwy<s n="adj"/></l><r>saleable<s n="adj"/></r></p></e>
     <e><p><l>gwerthfawr<s n="adj"/></l><r>valuable<s n="adj"/></r></p></e>
