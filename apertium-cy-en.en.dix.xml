@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- -*- nxml -*- -->
 <dictionary>
   <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzáéíóúýÁÉÍÓÚÝ</alphabet>
@@ -15948,6 +15948,7 @@
     <e lm="killing"><i>killing</i><par n="house__n"/></e>
     <e lm="status"><i>status</i><par n="access__n"/></e>
     <e lm="box"><i>box</i><par n="bass__n"/></e>
+    <e lm="sandbox"><i>sandbox</i><par n="bass__n"/></e>
     <e lm="session"><i>session</i><par n="house__n"/></e>
     <e lm="salary"><i>salar</i><par n="bab/y__n"/></e>
     <e lm="environment"><i>environment</i><par n="house__n"/></e>
@@ -31312,7 +31313,7 @@
     <e lm="the morrow"><i>the<b/>morrow</i><par n="house__n"/></e>
     <e lm="syntax"><i>syntax</i><par n="house__n"/></e>
     <e lm="fix"><i>fix</i><par n="house__n"/></e>
-    <e lm="moneybox"><i>moneybox</i><par n="house__n"/></e>
+    <e lm="moneybox"><i>moneybox</i><par n="bass__n"/></e>
     <e lm="quiz"><i>quiz</i><par n="house__n"/></e>
     <e lm="interplay"><i>interpla</i><par n="bab/y__n"/></e>
     <e lm="May"><i>Ma</i><par n="bab/y__n"/></e>
