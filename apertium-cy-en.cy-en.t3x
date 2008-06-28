@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- -*- nxml -*- -->
 <postchunk>
   <section-def-cats>
@@ -50,95 +50,120 @@
             <clip pos="2" part="whole"/>
           </lu>
         </out>
+        <let>
+          <var n="pp"/>
+          <lit v="false"/>
+        </let>
       </action>
     </rule>
-
     <rule comment="CHUNK:">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
       <action>
-	<choose>
-	  <when>
-	  <test>
-	    <equal>
-	      <var n="pp"/>
-	      <lit v="true"/>
-	    </equal>
-	  </test>
-          <out>
-	    <lu>
-	      <lit v="a"/>
-	      <lit-tag v="det.ind.sg"/>
-	    </lu>
-	    <b/>
-            <lu>
-              <clip pos="1" part="whole"/>
-            </lu>
-          </out>
-	  </when>
-	  <otherwise>
-          <out>
-            <lu>
-              <clip pos="1" part="whole"/>
-            </lu>
-          </out>
-	  </otherwise>
-	</choose>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <var n="pp"/>
+                  <lit v="true"/>
+                </equal>
+                <not>
+                  <equal>
+                    <clip pos="1" part="nbr"/>
+                    <lit-tag v="pl"/>
+                  </equal>
+                </not>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <lit v="a"/>
+                <lit-tag v="det.ind.sg"/>
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="1" part="whole"/>
+              </lu>
+            </out>
+            <let>
+              <var n="pp"/>
+              <lit v="false"/>
+            </let>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" part="whole"/>
+              </lu>
+            </out>
+            <let>
+              <var n="pp"/>
+              <lit v="false"/>
+            </let>
+          </otherwise>
+        </choose>
       </action>
     </rule>
-
-
     <rule comment="CHUNK:">
       <pattern>
         <pattern-item n="nom_adj"/>
       </pattern>
       <action>
-	<choose>
-	  <when>
-	  <test>
-	    <and>
-	    <equal>
-	      <var n="pp"/>
-	      <lit v="true"/>
-	    </equal>
-	      <not>
-	        <equal>
-	          <clip pos="1" part="nbr"/>
-	          <lit v="pl"/>
-	        </equal>
-	      </not>
-	    </and>
-	  </test>
-          <out>
-	    <lu>
-	      <get-case-from pos="1">
-	        <lit v="a"/>
-        </get-case-from>
-	      <lit-tag v="det.ind.sg"/>
-	    </lu>
-	    <b/>
-            <lu>
-              <clip pos="1" part="whole"/>
-            </lu>
-	    <b pos="1"/>
-            <lu>
-              <clip pos="2" part="whole"/>
-            </lu>
-          </out>
-	  </when>
-	  <otherwise>
-          <out>
-            <lu>
-              <clip pos="1" part="whole"/>
-            </lu>
-	    <b/>
-            <lu>
-              <clip pos="2" part="whole"/>
-            </lu>
-          </out>
-	  </otherwise>
-	</choose>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <var n="pp"/>
+                  <lit v="true"/>
+                </equal>
+                <not>
+                  <equal>
+                    <clip pos="1" part="nbr"/>
+                    <lit-tag v="pl"/>
+                  </equal>
+                </not>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <lit v="a"/>
+                </get-case-from>
+                <lit-tag v="det.ind.sg"/>
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="1" part="whole"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" part="whole"/>
+              </lu>
+            </out>
+            <let>
+              <var n="pp"/>
+              <lit v="false"/>
+            </let>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="2" part="whole"/>
+              </lu>
+            </out>
+            <let>
+              <var n="pp"/>
+              <lit v="false"/>
+            </let>
+          </otherwise>
+        </choose>
       </action>
     </rule>
     <!--ja anirem veient què s'hi posa, aquí-->
@@ -152,12 +177,11 @@
             <clip pos="1" part="whole"/>
           </lu>
         </out>
-	<let>
+        <let>
           <var n="pp"/>
-	  <lit v="true"/>
-	</let>
+          <lit v="true"/>
+        </let>
       </action>
     </rule>
-
   </section-rules>
 </postchunk>
