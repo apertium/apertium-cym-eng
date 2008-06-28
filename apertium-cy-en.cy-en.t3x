@@ -97,11 +97,11 @@
 	<choose>
 	  <when>
 	  <test>
+	    <and>
 	    <equal>
 	      <var n="pp"/>
 	      <lit v="true"/>
 	    </equal>
-	    <and>
 	      <not>
 	        <equal>
 	          <clip pos="1" part="nbr"/>
