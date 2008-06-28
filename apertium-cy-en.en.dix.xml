@@ -30841,6 +30841,7 @@
     <e lm="golf"><i>golf</i><par n="house__n"/></e>
     <e lm="bag"><i>bag</i><par n="house__n"/></e>
     <e lm="tag"><i>tag</i><par n="house__n"/></e>
+    <!-- FIXME!!!!! I think these are uncountable -->
     <e lm="pricing"><i>pricing</i><par n="house__n"/></e>
     <e lm="heading"><i>heading</i><par n="house__n"/></e>
     <e lm="shading"><i>shading</i><par n="house__n"/></e>
@@ -31118,6 +31119,7 @@
     <e lm="chooser"><i>chooser</i><par n="house__n"/></e>
     <e lm="parser"><i>parser</i><par n="house__n"/></e>
     <e lm="web-browser"><i>web-browser</i><par n="house__n"/></e>
+    <e lm="Wikipedia"><i>Wikipedia</i><par n="house__n"/></e>
     <e lm="water"><i>water</i><par n="house__n"/></e>
     <e lm="greeter"><i>greeter</i><par n="house__n"/></e>
     <e lm="meter"><i>meter</i><par n="house__n"/></e>
