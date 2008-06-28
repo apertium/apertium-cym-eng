@@ -28378,6 +28378,61 @@
         <r><g><b/>an<b/>inquiry</g></r>
       </p>
     </e>
+    <e lm="tend to">
+      <i>tend</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>to</l>
+        <r><g><b/>to</g></r>
+      </p>
+    </e>
+    <e lm="grow heavy">
+      <i>gr</i>
+      <par n="bl/ow__vblex"/>
+      <p>
+        <l><b/>heavy</l>
+        <r><g><b/>heavy</g></r>
+      </p>
+    </e>
+    <e lm="serve wine">
+      <i>serv</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>wine</l>
+        <r><g><b/>wine</g></r>
+      </p>
+    </e>
+    <e lm="use a metaphor">
+      <i>us</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>a<b/>metaphor</l>
+        <r><g><b/>a<b/>metaphor</g></r>
+      </p>
+    </e>
+    <e lm="break into smithereens">
+      <i>br</i>
+      <par n="br/eak__vblex"/>
+      <p>
+        <l><b/>into<b/>smithereens</l>
+        <r><g><b/>into<b/>smithereens</g></r>
+      </p>
+    </e>
+    <e lm="muddle through">
+      <i>muddl</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>through</l>
+        <r><g><b/>through</g></r>
+      </p>
+    </e>
+
+
+
+
+
+
+
     <e lm="bring down"><i>br</i><par n="br/ing__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>down</l><r><g><b/>down</g></r></p></e>
     <e lm="bring together"><i>br</i><par n="br/ing__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>together</l><r><g><b/>together</g></r></p></e>
     <e lm="check out"><i>check</i><par n="accept__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
