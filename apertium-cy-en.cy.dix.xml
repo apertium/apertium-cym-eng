@@ -48448,6 +48448,9 @@
     <e lm="bioleg"><par n="initial-b"/><i>ioleg</i><par n="addysg__n"/></e>
     <e lm="cemeg"><par n="initial-c"/><i>emeg</i><par n="addysg__n"/></e>
     <e lm="ffiseg"><i>ffiseg</i><par n="addysg__n"/></e>
+    <e lm="mytholeg"><par n="initial-m"/><i>ytholeg</i><par n="addysg__n"/></e>
+    <e lm="anthropoleg"><i>anthropoleg</i><par n="addysg__n"/></e>
+    <e lm="archaeoleg"><i>archaeoleg</i><par n="addysg__n"/></e>
     <e lm="Siapan"><i>Siapan</i><par n="addysg__n"/></e>
     <e lm="Siapaneg"><i>Siapaneg</i><par n="addysg__n"/></e>
     <e lm="sosialaeth"><i>sosialaeth</i><par n="addysg__n"/></e>
@@ -50358,6 +50361,7 @@
     <e lm="arddangosedig"><i>arddangosedig</i><par n="caredig__adj"/></e>
     <e lm="arddangosol"><i>arddangosol</i><par n="caredig__adj"/></e>
     <e lm="ardderchog"><i>ardderchog</i><par n="caredig__adj"/></e>
+    <e lm="amlieithog"><i>amlieithog</i><par n="caredig__adj"/></e> <!-- check -->
     <e lm="ardystiedig"><i>ardystiedig</i><par n="caredig__adj"/></e>
     <e lm="arfaethedig"><i>arfaethedig</i><par n="caredig__adj"/></e>
     <e lm="arferadwy"><i>arferadwy</i><par n="caredig__adj"/></e>
