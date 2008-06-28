@@ -2892,7 +2892,17 @@
     </pardef>
 
     <!-- Proper nouns -->
-    <pardef n="Blaenafon__np">
+    <pardef n="Lloegr__np">
+      <e>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    
+    <pardef n="Blaenafon__np"> <!-- Fix and add genders -->
       <e>
         <p>
           <l/>
@@ -48577,8 +48587,6 @@
     <e lm="Indo-Ewropeg"><i>Indo-Ewropeg</i><par n="addysg__n"/></e>
     <e lm="isgyfeiriadur"><i>isgyfeiriadur</i><par n="addysg__n"/></e>
     <e lm="Iwerddon"><i>Iwerddon</i><par n="addysg__n"/></e>
-    <e lm="Lloegr"><par n="initial-Ll"/><i>oegr</i><par n="addysg__n"/></e>
-    <e lm="Llundain"><par n="initial-Ll"/><i>undain</i><par n="addysg__n"/></e>
     <e lm="lwc"><i>lwc</i><par n="addysg__n"/></e>
     <e lm="magneteg"><par n="initial-m"/><i>agneteg</i><par n="addysg__n"/></e>
     <e lm="mamolaeth"><par n="initial-m"/><i>amolaeth</i><par n="addysg__n"/></e>
@@ -55627,6 +55635,8 @@
     <e lm="Dolgellau"><par n="initial-D"/><i>olgellau</i><par n="Blaenafon__np"/></e>
     <e lm="Merthyr Tudful"><par n="initial-M"/><i>erthyr<b/>Tudful</i><par n="Blaenafon__np"/></e>
 
+    <e lm="Lloegr"><par n="initial-Ll"/><i>oegr</i><par n="Blaenafon__np"/></e>
+    <e lm="Llundain"><par n="initial-Ll"/><i>undain</i><par n="Blaenafon__np"/></e>
 
     <e lm="Aled"><i>Aled</i><par n="Aled__np"/></e>
   </section>

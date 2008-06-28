@@ -1946,9 +1946,7 @@
     <e><p><l>lleihad<s n="n"/><s n="m"/></l><r>decrease<s n="n"/></r></p></e>
     <e><p><l>llenyddoldeb<s n="n"/><s n="m"/></l><r>literariness<s n="n"/></r></p></e>
     <e><p><l>lliaws<s n="n"/><s n="m"/></l><r>host<s n="n"/></r></p></e>
-    <e><p><l>Lloegr<s n="n"/><s n="f"/></l><r>England<s n="n"/></r></p></e>
     <e><p><l>llond<s n="n"/><s n="m"/></l><r>fullness<s n="n"/></r></p></e>
-    <e><p><l>Llundain<s n="n"/><s n="f"/></l><r>London<s n="n"/></r></p></e>
     <e><p><l>llwch<s n="n"/><s n="m"/></l><r>dust<s n="n"/></r></p></e>
     <e><p><l>llyfrgellydd<s n="n"/><s n="m"/></l><r>librarian<s n="n"/></r></p></e>
     <e><p><l>llythrennedd<s n="n"/><s n="m"/></l><r>literacy<s n="n"/></r></p></e>
@@ -9652,6 +9650,9 @@
  
     <!--  Toponyms -->
  
+    <e><p><l>Lloegr<s n="np"/><s n="top"/></l><r>England<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llundain<s n="np"/><s n="top"/></l><r>London<s n="np"/><s n="top"/></r></p></e>
+
     <e><p><l>Aberystwyth<s n="np"/><s n="top"/></l><r>Aberystwyth<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bangor<s n="np"/><s n="top"/></l><r>Bangor<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Blaenafon<s n="np"/><s n="top"/></l><r>Blaenafon<s n="np"/><s n="top"/></r></p></e>
