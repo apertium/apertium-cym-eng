@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- -*- nxml -*- -->
 <postchunk>
   <section-def-cats>
@@ -101,10 +101,20 @@
 	      <var n="pp"/>
 	      <lit v="true"/>
 	    </equal>
+	    <and>
+	      <not>
+	        <equal>
+	          <clip pos="1" part="nbr"/>
+	          <lit v="pl"/>
+	        </equal>
+	      </not>
+	    </and>
 	  </test>
           <out>
 	    <lu>
-	      <lit v="a"/>
+	      <get-case-from pos="1">
+	        <lit v="a"/>
+        </get-case-from>
 	      <lit-tag v="det.ind.sg"/>
 	    </lu>
 	    <b/>
