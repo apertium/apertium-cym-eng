@@ -32461,6 +32461,175 @@
     <e lm="thumb"><i>thumb</i><par n="accept__vblex"/></e>
     <e lm="daub"><i>daub</i><par n="accept__vblex"/></e>
 
+    <e lm="become accustomed">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>accustomed</l>
+        <r><g><b/>accustomed</g></r>
+      </p>
+    </e>
+    <e lm="become bald">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>bald</l>
+        <r><g><b/>bald</g></r>
+      </p>
+    </e>
+    <e lm="become bitter">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>bitter</l>
+        <r><g><b/>bitter</g></r>
+      </p>
+    </e>
+    <e lm="become brittle">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>brittle</l>
+        <r><g><b/>brittle</g></r>
+      </p>
+    </e>
+    <e lm="become cruel">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>cruel</l>
+        <r><g><b/>cruel</g></r>
+      </p>
+    </e>
+    <e lm="become fat">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>fat</l>
+        <r><g><b/>fat</g></r>
+      </p>
+    </e>
+    <e lm="become fragile">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>fragile</l>
+        <r><g><b/>fragile</g></r>
+      </p>
+    </e>
+    <e lm="become gentle">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>gentle</l>
+        <r><g><b/>gentle</g></r>
+      </p>
+    </e>
+    <e lm="become hard">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>hard</l>
+        <r><g><b/>hard</g></r>
+      </p>
+    </e>
+    <e lm="become hoarse">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>hoarse</l>
+        <r><g><b/>hoarse</g></r>
+      </p>
+    </e>
+    <e lm="become ingrained">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>ingrained</l>
+        <r><g><b/>ingrained</g></r>
+      </p>
+    </e>
+    <e lm="become lukewarm">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>lukewarm</l>
+        <r><g><b/>lukewarm</g></r>
+      </p>
+    </e>
+    <e lm="become miserly">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>miserly</l>
+        <r><g><b/>miserly</g></r>
+      </p>
+    </e>
+    <e lm="become mouldy">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>mouldy</l>
+        <r><g><b/>mouldy</g></r>
+      </p>
+    </e>
+    <e lm="become obstinate">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>obstinate</l>
+        <r><g><b/>obstinate</g></r>
+      </p>
+    </e>
+    <e lm="become rough">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>rough</l>
+        <r><g><b/>rough</g></r>
+      </p>
+    </e>
+    <e lm="become round">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>round</l>
+        <r><g><b/>round</g></r>
+      </p>
+    </e>
+    <e lm="become scabby">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>scabby</l>
+        <r><g><b/>scabby</g></r>
+      </p>
+    </e>
+    <e lm="become serious">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>serious</l>
+        <r><g><b/>serious</g></r>
+      </p>
+    </e>
+    <e lm="become stiff">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>stiff</l>
+        <r><g><b/>stiff</g></r>
+      </p>
+    </e>
+    <e lm="become verdant">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>verdant</l>
+        <r><g><b/>verdant</g></r>
+      </p>
+    </e>
+
 
 
 
@@ -32518,6 +32687,7 @@
 	  <r><g><b/>of<b/>mind</g></r>
 	</p>
     </e>
+
 
     <e lm="head of cattle"><i>head<b/>of<b/>cattle</i><par n="house__n"/></e>
   </section>

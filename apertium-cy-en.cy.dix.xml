@@ -696,7 +696,7 @@
           <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>ef</l>
           <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
@@ -708,7 +708,7 @@
           <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>fo</l>
           <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
@@ -9700,7 +9700,7 @@
       </e>
       <e>
         <p>
-          <l/>
+          <l>a</l>
           <r>u<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
@@ -46962,6 +46962,15 @@
       </e>
     </pardef>
 
+    <pardef n="a__rel">
+      <e>
+        <p>
+          <l/>
+          <r><s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r>
+        </p>
+      </e>
+    </pardef>
+
 
   </pardefs>
 
@@ -46970,6 +46979,8 @@
     <e lm="pronoms personals de subjecte"><i/><par n="prsubj__prn"/></e>
     <e lm="unrhywun"><i>unrhywun</i><par n="unrhywun__prn"/></e>
     <e lm="rhywun"><i>rhywun</i><par n="unrhywun__prn"/></e>
+
+    <e lm="a"><i>a</i><par n="a__rel"/></e>
  
 
     <e lm="yn"><i>yn</i><par n="yn__part"/></e> <!-- The 'yn' particle -->
@@ -47083,6 +47094,7 @@
 
     <!-- Adverbs -->
     <e lm="yma"><i>yma</i><par n="yma__adv"/></e>
+    <e lm="wedyn"><i>wedyn</i><par n="yma__adv"/></e>
     <e lm="hefyd"><i>hefyd</i><par n="yma__adv"/></e>
     <e lm="rwan"><i>rwan</i><par n="yma__adv"/></e>
     <e lm="rŵan"><i>rwan</i><par n="yma__adv"/></e>
