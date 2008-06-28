@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet/>
   <!-- Symbol definitions -->
@@ -234,6 +234,8 @@
     <e><p><l>anghymhwyster<s n="n"/><s n="m"/></l><r>disqualification<s n="n"/></r></p></e><!-- disqualification - anghymhwyster [m.]-->
     <e><p><l>hiraeth<s n="n"/><s n="m"/></l><r>nostalgia<s n="n"/></r></p></e><!-- nostalgia - hiraeth [m.]-->
     <e><p><l>cemeg<s n="n"/><s n="f"/></l><r>chemistry<s n="n"/></r></p></e><!-- chemistry - cemeg [f.]-->
+    <e><p><l>bioleg<s n="n"/><s n="f"/></l><r>biology<s n="n"/></r></p></e>
+    <e><p><l>ffiseg<s n="n"/><s n="f"/></l><r>physics<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>annedwyddwch<s n="n"/><s n="m"/></l><r>unhappiness<s n="n"/></r></p></e><!-- unhappiness - annedwyddwch [m.]-->
     <e><p><l>syr<s n="n"/><s n="m"/></l><r>sir<s n="n"/></r></p></e><!-- sir - syr [m.]-->
     <e><p><l>rhyg<s n="n"/><s n="m"/></l><r>rye<s n="n"/></r></p></e><!-- rye - rhyg [m.]-->

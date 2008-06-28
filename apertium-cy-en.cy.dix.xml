@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
 <!-- The lowercase letters of the Welsh alphabet followed by letters with accents, followed by letters found in loan words -->
   <alphabet>ABCDEFGHILMNOPRSTUWYÂÊÎÔŴŶJKVXZabcdefghilmnoprstuwyâêîôŵŷáïjkvxzáéíóú</alphabet>
@@ -48445,6 +48445,9 @@
     <e lm="seiciatreg"><i>seiciatreg</i><par n="addysg__n"/></e>
     <e lm="seicolawdriniaeth"><i>seicolawdriniaeth</i><par n="addysg__n"/></e>
     <e lm="seicoleg"><i>seicoleg</i><par n="addysg__n"/></e>
+    <e lm="bioleg"><par n="initial-b"/><i>ioleg</i><par n="addysg__n"/></e>
+    <e lm="cemeg"><par n="initial-c"/><i>emeg</i><par n="addysg__n"/></e>
+    <e lm="ffiseg"><i>ffiseg</i><par n="addysg__n"/></e>
     <e lm="Siapan"><i>Siapan</i><par n="addysg__n"/></e>
     <e lm="Siapaneg"><i>Siapaneg</i><par n="addysg__n"/></e>
     <e lm="sosialaeth"><i>sosialaeth</i><par n="addysg__n"/></e>
