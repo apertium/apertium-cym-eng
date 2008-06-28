@@ -237,6 +237,9 @@
     <e><p><l>bioleg<s n="n"/><s n="f"/></l><r>biology<s n="n"/></r></p></e>
     <e><p><l>difyrwaith<s n="n"/><s n="m"/></l><r>hobby<s n="n"/></r></p></e>
     <e><p><l>ffiseg<s n="n"/><s n="f"/></l><r>physics<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>mytholeg<s n="n"/><s n="f"/></l><r>mythology<s n="n"/></r></p></e>
+    <e><p><l>anthropoleg<s n="n"/><s n="f"/></l><r>anthropology<s n="n"/></r></p></e>
+    <e><p><l>archaeoleg<s n="n"/><s n="f"/></l><r>archaeology<s n="n"/></r></p></e>
     <e><p><l>annedwyddwch<s n="n"/><s n="m"/></l><r>unhappiness<s n="n"/></r></p></e><!-- unhappiness - annedwyddwch [m.]-->
     <e><p><l>syr<s n="n"/><s n="m"/></l><r>sir<s n="n"/></r></p></e><!-- sir - syr [m.]-->
     <e><p><l>rhyg<s n="n"/><s n="m"/></l><r>rye<s n="n"/></r></p></e><!-- rye - rhyg [m.]-->
@@ -3866,6 +3869,7 @@
     <e><p><l>aml-ddefnydd<s n="adj"/></l><r>multi-use<s n="adj"/></r></p></e>
     <e><p><l>aml-ddisgyblaethol<s n="adj"/></l><r>multidisciplinary<s n="adj"/></r></p></e>
     <e><p><l>aml-ddiwylliannol<s n="adj"/></l><r>multicultural<s n="adj"/></r></p></e>
+    <e><p><l>amlieithog<s n="adj"/></l><r>multilingual<s n="adj"/></r></p></e> <!-- check -->
     <e><p><l>aml-iaith<s n="adj"/></l><r>multi-lingual<s n="adj"/></r></p></e>
     <e><p><l>amlran<s n="adj"/></l><r>multipart<s n="adj"/></r></p></e>
     <e><p><l>amlygedig<s n="adj"/></l><r>highlighted<s n="adj"/></r></p></e>
