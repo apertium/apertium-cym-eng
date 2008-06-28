@@ -8821,6 +8821,27 @@
         </p>
       </e>
     </pardef>
+    <pardef n="gwyn__adj"> <!-- This isn't a full paradigm, missing m/f forms. -->
+      <e>
+        <p>
+          <l/>
+          <r><s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nach</l>
+          <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>naf</l>
+          <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="enwo/g__adj">
       <e>
         <p>
@@ -51028,7 +51049,10 @@
     <e lm="gweladwy"><par n="initial-g"/><i>weladwy</i><par n="caredig__adj"/></e>
     <e lm="gweledig"><par n="initial-g"/><i>weledig</i><par n="caredig__adj"/></e>
     <e lm="gweledol"><par n="initial-g"/><i>weledol</i><par n="caredig__adj"/></e>
+
     <e lm="gwen"><par n="initial-g"/><i>wen</i><par n="caredig__adj"/></e>
+    <e lm="gwyn"><par n="initial-g"/><i>wyn</i><par n="gwyn__adj"/></e>
+
     <e lm="gwerdd"><par n="initial-g"/><i>werdd</i><par n="caredig__adj"/></e>
     <e lm="gwerthadwy"><par n="initial-g"/><i>werthadwy</i><par n="caredig__adj"/></e>
     <e lm="gwerthfawr"><par n="initial-g"/><i>werthfawr</i><par n="caredig__adj"/></e>

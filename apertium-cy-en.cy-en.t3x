@@ -63,28 +63,6 @@
       </action>
     </rule>
     <!--ja anirem veient què s'hi posa, aquí-->
-    <rule comment="CHUNK: pr nom">
-      <pattern>
-        <pattern-item n="prep"/>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" part="whole"/>
-          </lu>
-	  <b/>
-	  <lu>
-            <lit v="a"/>
-            <lit-tag v="det.ind.sg"/>
-	  </lu>
-	  <b pos="1"/>
-          <lu>
-            <clip pos="2" part="whole"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
 
   </section-rules>
 </postchunk>
