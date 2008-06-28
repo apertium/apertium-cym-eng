@@ -5306,7 +5306,7 @@
     <e><p><l>amlwg<s n="adj"/></l><r>obvious<s n="adj"/></r></p></e>
     <e><p><l>anodd<s n="adj"/></l><r>difficult<s n="adj"/></r></p></e>
     <e><p><l>araf<s n="adj"/></l><r>slow<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>bach<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>bach<s n="adj"/><s n="sint"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e> 
     <e r="RL"><p><l>bas<s n="adj"/></l><r>bass<s n="adj"/></r></p></e>
     <e><p><l>bas<s n="adj"/></l><r>shallow<s n="adj"/></r></p></e> 
     <e><p><l>byr<s n="adj"/></l><r>short<s n="adj"/></r></p></e> 
@@ -5327,7 +5327,7 @@
     <e><p><l>gwag<s n="adj"/></l><r>empty<s n="adj"/></r></p></e> 
     <e><p><l>helaeth<s n="adj"/></l><r>ample<s n="adj"/></r></p></e>
     <e><p><l>hen<s n="adj"/><s n="sint"/></l><r>old<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>hir<s n="adj"/></l><r>long<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>hir<s n="adj"/><s n="sint"/></l><r>long<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>hwyr<s n="adj"/></l><r>late<s n="adj"/></r></p></e>
     <e><p><l>iach<s n="adj"/></l><r>healthy<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>isel<s n="adj"/></l><r>low<s n="adj"/><s n="sint"/></r></p></e> 
@@ -5335,7 +5335,7 @@
     <e><p><l>llydan<s n="adj"/><s n="sint"/></l><r>wide<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>llydan<s n="adj"/><s n="sint"/></l><r>broad<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>manwl<s n="adj"/><s n="sint"/></l><r>detailed<s n="adj"/></r></p></e>
-    <e><p><l>mawr<s n="adj"/></l><r>big<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>mawr<s n="adj"/><s n="sint"/></l><r>big<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>newydd<s n="adj"/><s n="sint"/></l><r>new<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>oer<s n="adj"/><s n="sint"/></l><r>cold<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>pell<s n="adj"/><s n="sint"/></l><r>far<s n="adj"/><s n="sint"/></r></p></e> 
@@ -5349,7 +5349,7 @@
     <e><p><l>tlawd<s n="adj"/></l><r>poor<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>trwm<s n="adj"/></l><r>heavy<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>tywyll<s n="adj"/><s n="sint"/></l><r>dark<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>uchel<s n="adj"/></l><r>high<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>uchel<s n="adj"/><s n="sint"/></l><r>high<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>ysgafn<s n="adj"/></l><r>light<s n="adj"/><s n="sint"/></r></p></e> 
  
     <!-- Verbs -->

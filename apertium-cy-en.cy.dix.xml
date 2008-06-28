@@ -8881,11 +8881,12 @@
         </p>
       </e>
     </pardef>
-    <pardef n="bach__adj">
+    <pardef n="/bach__adj">
       <e>
+	<par n="initial-b"/>
         <p>
-          <l>bach</l>
-          <r>bach<s n="adj"/><s n="sint"/></r>
+          <l>ach</l>
+          <r>ach<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
@@ -27324,476 +27325,268 @@
         </p>
       </e>
     </pardef>
-    <pardef n="mynd__vblex">
+    <pardef n="/mynd__vblex">
       <e>
+	<par n="initial-m"/>
         <p>
-          <l/>
-          <r><s n="vblex"/><s n="inf"/></r>
+          <l>ynd</l>
+          <r>ynd<s n="vblex"/><s n="inf"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>dos</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aed</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>awn</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ewch</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aethant</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>eler</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="imp"/><s n="impers"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="imp"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>awn</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ait</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>âi</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aem</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aech</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aent</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>eid</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pii"/><s n="impers"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="pii"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>euthum</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aethost</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aeth</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aethom</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aethoch</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aethant</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aed</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="past"/><s n="impers"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="past"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aethpwyd</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="past"/><s n="impers"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="past"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aethwn</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="plu"/><s n="p1"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="plu"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aethit</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="plu"/><s n="p2"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="plu"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aethai</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="plu"/><s n="p3"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="plu"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aethem</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="plu"/><s n="p1"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="plu"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aethech</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="plu"/><s n="p2"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="plu"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aethent</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="plu"/><s n="p3"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="plu"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>aethid</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="plu"/><s n="impers"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="plu"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>af</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ei</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>â</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>awn</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ewch</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ânt</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>eir</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pres"/><s n="impers"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="pres"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>elwyf</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>elych</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>elo</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
+          <r>mynd<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>elom</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>eloch</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>elont</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>eler</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="prs"/><s n="impers"/><s n="pl"/></r>
+          <r>mynd<s n="vblex"/><s n="prs"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
+
     <pardef n="cyn/nal__vblex">
       <e>
         <p>
@@ -47014,8 +46807,8 @@
     <e lm="cyn"><par n="initial-c"/><i>yn</i><par n="gyda__pr"/></e>
     <e lm="fel"><i>fel</i><par n="gyda__pr"/></e>
     <e lm="ger"><i>ger</i><par n="gyda__pr"/></e>
-    <e lm="megis"><i>megis</i><par n="gyda__pr"/></e>
-    <e lm="mewn"><i>mewn</i><par n="gyda__pr"/></e>
+    <e lm="megis"><par n="initial-m"/><i>egis</i><par n="gyda__pr"/></e>
+    <e lm="mewn"><par n="initial-m"/><i>ewn</i><par n="gyda__pr"/></e>
     <e lm="wedi"><i>wedi</i><par n="gyda__pr"/></e>
     <e lm="erbyn"><i>erbyn</i><par n="gyda__pr"/></e>
     <e lm="heblaw"><i>heblaw</i><par n="gyda__pr"/></e>
@@ -49883,7 +49676,7 @@
     <e lm="pentwr"><par n="initial-p"/><i>ent</i><par n="c/wr__n"/></e>
     <e lm="twr"><par n="initial-t"/><par n="c/wr__n"/></e>
     <e lm="cyfaint"><par n="initial-c"/><i>yf</i><par n="cyf/aint__n"/></e>
-    <e lm="maint"><i>m</i><par n="cyf/aint__n"/></e>
+    <e lm="maint"><par n="initial-m"/><i></i><par n="cyf/aint__n"/></e>
     <e lm="haint"><i>h</i><par n="h/aint__n"/></e>
     <e lm="hawlfraint"><i>hawlfr</i><par n="h/aint__n"/></e>
     <e lm="braint"><par n="initial-b"/><i>r</i><par n="br/aint__n"/></e>
@@ -49915,7 +49708,7 @@
     <e lm="campws"><par n="initial-c"/><i>amp</i><par n="bon/ws__n"/></e>
     <e lm="ffocws"><i>ffoc</i><par n="bon/ws__n"/></e>
     <e lm="conglfaen"><par n="initial-c"/><i>onglf</i><par n="conglf/aen__n"/></e>
-    <e lm="maen"><i>m</i><par n="conglf/aen__n"/></e>
+    <e lm="maen"><par n="initial-m"/><i></i><par n="conglf/aen__n"/></e>
     <e lm="sylfaen"><i>sylf</i><par n="sylf/aen__n"/></e>
     <e lm="argyfwng"><i>argyf</i><par n="argyf/wng__n"/></e>
     <e lm="cyfrwng"><par n="initial-c"/><i>yfr</i><par n="argyf/wng__n"/></e>
@@ -50007,7 +49800,7 @@
     <e lm="traul"><i>tr</i><par n="tr/aul__n"/></e>
     <e lm="niwed"><i>niwe</i><par n="niwe/d__n"/></e>
     <e lm="paned"><par n="initial-p"/><i>ane</i><par n="niwe/d__n"/></e>
-    <e lm="maer"><i>m</i><par n="m/aer__n"/></e>
+    <e lm="maer"><par n="initial-m"/><i></i><par n="m/aer__n"/></e>
     <e lm="saer"><i>s</i><par n="m/aer__n"/></e>
     <e lm="glaw"><par n="initial-g"/><i>law</i><par n="glaw__n"/></e>
     <e lm="llif"><par n="initial-ll"/><i>if</i><par n="glaw__n"/></e>
@@ -50074,7 +49867,7 @@
     <e lm="cwrw"><par n="initial-c"/><i/><par n="c/wrw__n"/></e>
     <e lm="adfail"><i>adf</i><par n="adf/ail__n"/></e>
     <e lm="meinwe"><par n="initial-m"/><i>einwe</i><par n="meinwe__n"/></e>
-    <e lm="mwgwd"><i>m</i><par n="m/wgwd__n"/></e>
+    <e lm="mwgwd"><par n="initial-m"/><i></i><par n="m/wgwd__n"/></e>
     <e lm="cymhareb"><par n="initial-c"/><i>ym</i><par n="cym/hareb__n"/></e>
     <e lm="cymhares"><par n="initial-c"/><i>ym</i><par n="cym/hares__n"/></e>
     <e lm="losen"><i>los</i><par n="los/en__n"/></e>
@@ -50125,7 +49918,7 @@
     <e lm="gwar"><par n="initial-g"/><i>war</i><par n="gwar__n"/></e>
     <e lm="cwlwm"><par n="initial-c"/><i/><par n="c/wlwm__n"/></e>
     <e lm="siswrn"><i>sis</i><par n="sis/wrn__n"/></e>
-    <e lm="maes"><i>m</i><par n="m/aes__n"/></e>
+    <e lm="maes"><par n="initial-m"/><i></i><par n="m/aes__n"/></e>
     <e lm="tŵr"><par n="initial-t"/><par n="t/ŵr__n"/></e>
     <e lm="angau"><i>ang</i><par n="ang/au__n"/></e>
     <e lm="cytsain"><par n="initial-c"/><i>yts</i><par n="cyts/ain__n"/></e>
@@ -50171,7 +49964,7 @@
     <e lm="ffrwd"><i>ffr</i><par n="ffr/wd__n"/></e>
     <e lm="pennyn"><par n="initial-p"/><i>en</i><par n="pen/nyn__n"/></e>
     <e lm="synhwyrydd"><i>syn</i><par n="syn/hwyrydd__n"/></e>
-    <e lm="môr"><i>m</i><par n="m/ôr__n"/></e>
+    <e lm="môr"><par n="initial-m"/><i></i><par n="m/ôr__n"/></e>
     <e lm="cymharydd"><par n="initial-c"/><i>ym</i><par n="cym/harydd__n"/></e>
     <e lm="morgais"><par n="initial-m"/><i>org</i><par n="morg/ais__n"/></e>
     <e lm="gafr"><par n="initial-g"/><par n="g/afr__n"/></e>
@@ -50238,7 +50031,7 @@
     <e lm="cenhinen"><par n="initial-c"/><i>en</i><par n="cen/hinen__n"/></e>
     <e lm="angel"><i>ang</i><par n="ang/el__n"/></e>
     <e lm="bachgen"><i>b</i><par n="b/achgen__n"/></e>
-    <e lm="mab"><i>m</i><par n="m/ab__n"/></e>
+    <e lm="mab"><par n="initial-m"/><i></i><par n="m/ab__n"/></e>
     <e lm="cerdyn"><par n="initial-c"/><i/><par n="c/erdyn__n"/></e>
     <e lm="swp"><i>s</i><par n="s/wp__n"/></e>
     <e lm="modiwl"><par n="initial-m"/><i>odi</i><par n="modi/wl__n"/></e>
@@ -50290,7 +50083,7 @@
     <e lm="amlwg"><i>aml</i><par n="aml/wg__adj"/></e>
     <e lm="anodd"><i>anodd</i><par n="agos__adj"/></e>
     <e lm="araf"><i>araf</i><par n="agos__adj"/></e>
-    <e lm="bach"><i/><par n="bach__adj"/></e>
+    <e lm="bach"><i/><par n="/bach__adj"/></e>
     <e lm="bas"><par n="initial-b"/><i>as</i><par n="agos__adj"/></e>
     <e lm="bas"><par n="initial-b"/><i>as</i><par n="agos__adj"/></e>
     <e lm="byr"><par n="initial-b"/><i>yr</i><par n="byr__adj"/></e>
@@ -50320,7 +50113,7 @@
     <e lm="llydan"><i>ll</i><par n="ll/ydan__adj"/></e>
     <e lm="llydan"><i>ll</i><par n="ll/ydan__adj"/></e>
     <e lm="manwl"><par n="initial-m"/><i>an</i><par n="man/wl__adj"/></e>
-    <e lm="mawr"><i>m</i><par n="m/awr__adj"/></e>
+    <e lm="mawr"><par n="initial-m"/><i></i><par n="m/awr__adj"/></e>
     <e lm="newydd"><i>newydd</i><par n="agos__adj"/></e>
     <e lm="oer"><i>oer</i><par n="agos__adj"/></e>
     <e lm="pell"><par n="initial-p"/><i>ell</i><par n="agos__adj"/></e>
@@ -54461,7 +54254,9 @@
     <e lm="mygu"><par n="initial-m"/><i>yg</i><par n="myg/u__vblex"/></e>
     <e lm="mygydu"><par n="initial-m"/><i>ygyd</i><par n="aberth/u__vblex"/></e>
     <e lm="myllio"><par n="initial-m"/><i>ylli</i><par n="achlysur/o__vblex"/></e>
-    <e lm="mynd"><par n="initial-m"/><i>ynd</i><par n="mynd__vblex"/></e>
+
+    <e lm="mynd"><i/><par n="/mynd__vblex"/></e>
+
     <e lm="mynegeio"><par n="initial-m"/><i>ynegei</i><par n="achlysur/o__vblex"/></e>
     <e lm="mynegi"><par n="initial-m"/><i>yneg</i><par n="achos/i__vblex"/></e>
     <e lm="mynegrifo"><par n="initial-m"/><i>ynegrif</i><par n="achlysur/o__vblex"/></e>
@@ -55676,6 +55471,13 @@
       <p>
         <l>i'r</l>
         <r>yn<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="i'r" r="LR">
+      <p>
+        <l>i'r</l>
+        <r>i<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
       </p>
     </e>
 
