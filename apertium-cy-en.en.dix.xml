@@ -9048,6 +9048,7 @@
     <e lm="far-reaching"><i>far-reaching</i><par n="expensive__adj"/></e>
     <e lm="second"><i>second</i><par n="expensive__adj"/></e>
     <e lm="actual"><i>actual</i><par n="expensive__adj"/></e>
+    <e lm="alleged"><i>alleged</i><par n="expensive__adj"/></e>
     <e lm="key"><i>key</i><par n="expensive__adj"/></e>
     <e lm="striking"><i>striking</i><par n="expensive__adj"/></e>
     <e lm="irate"><i>irate</i><par n="expensive__adj"/></e>
@@ -27701,8 +27702,11 @@
     <e lm="London"><i>London</i><par n="Barcelona__np"/></e>
     <e lm="Blaenafon"><i>Blaenafon</i><par n="Barcelona__np"/></e>
     <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Barcelona__np"/></e>
+    <e lm="Haverfordwest"><i>Haverfordwest</i><par n="Barcelona__np"/></e>
     <e lm="Bangor"><i>Bangor</i><par n="Barcelona__np"/></e>
     <e lm="Cardiff"><i>Cardiff</i><par n="Barcelona__np"/></e>
+    <e lm="Pembrokeshire"><i>Pembrokeshire</i><par n="Barcelona__np"/></e>
+    <e lm="Carmarthenshire"><i>Carmarthenshire</i><par n="Barcelona__np"/></e>
     <e lm="Bloemfontein"><i>Bloemfontein</i><par n="Barcelona__np"/></e>
     <e lm="Lorraine"><i>Lorraine</i><par n="Barcelona__np"/></e>
     <e lm="Luanda"><i>Luanda</i><par n="Barcelona__np"/></e>
