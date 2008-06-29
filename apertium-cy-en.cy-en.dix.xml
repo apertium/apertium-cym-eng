@@ -158,6 +158,7 @@
     <e><p><l>rŵan<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
     <e><p><l>erioed<s n="adv"/></l><r>never<s n="adv"/></r></p></e>
     <e><p><l>ddim<s n="adv"/></l><r>not<s n="adv"/></r></p></e>
+    <e><p><l>am<b/>amser<b/>hir<s n="adv"/></l><r>for a long time<s n="adv"/></r></p></e>
  
  
     <!-- Nouns -->
@@ -6010,8 +6011,10 @@
     <e><p><l>cenglu<s n="vblex"/></l><r>wind<s n="vblex"/></r></p></e>
     <e><p><l>cenhadu<s n="vblex"/></l><r>proselytise<s n="vblex"/></r></p></e>
     <e><p><l>cenhedlu<s n="vblex"/></l><r>beget<s n="vblex"/></r></p></e>
-    <e><p><l>cerdded<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
     <e><p><l>cerddetan<s n="vblex"/></l><r>stroll<s n="vblex"/></r></p></e>
+
+    <e><p><l>cerdded<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
+
     <e><p><l>cerfio<s n="vblex"/></l><r>carve<s n="vblex"/></r></p></e>
     <e><p><l>cerflunio<s n="vblex"/></l><r>sculpt<s n="vblex"/></r></p></e>
     <e><p><l>cernodio<s n="vblex"/></l><r>cuff<s n="vblex"/></r></p></e>
@@ -6790,7 +6793,10 @@
     <e><p><l>duo<s n="vblex"/></l><r>blacken<s n="vblex"/></r></p></e>
     <e><p><l>dwbio<s n="vblex"/></l><r>dub<s n="vblex"/></r></p></e>
     <e><p><l>dwdlio<s n="vblex"/></l><r>dawdle<s n="vblex"/></r></p></e>
+
     <e><p><l>dweud<s n="vblex"/></l><r>say<s n="vblex"/></r></p></e>
+    <e><p><l>dweud<g><b/>wrth</g><s n="vblex"/></l><r>tell<s n="vblex"/></r></p></e>
+
     <e><p><l>dwmpian<s n="vblex"/></l><r>doze<s n="vblex"/></r></p></e>
     <e><p><l>dwrdio<s n="vblex"/></l><r>scold<s n="vblex"/></r></p></e>
     <e><p><l>dwyfoli<s n="vblex"/></l><r>deify<s n="vblex"/></r></p></e>
@@ -8139,7 +8145,10 @@
     <e><p><l>sianelu<s n="vblex"/></l><r>direct<s n="vblex"/></r></p></e>
     <e><p><l>siapio<s n="vblex"/></l><r>shape<s n="vblex"/></r></p></e>
     <e><p><l>siapo<s n="vblex"/></l><r>shape<s n="vblex"/></r></p></e>
+
     <e><p><l>siarad<s n="vblex"/></l><r>talk<s n="vblex"/></r></p></e>
+    <e><p><l>siarad<g><b/>am</g><s n="vblex"/></l><r>talk<g><b/>about</g><s n="vblex"/></r></p></e>
+
     <e><p><l>siario<s n="vblex"/></l><r>share<s n="vblex"/></r></p></e>
     <e><p><l>siarsio<s n="vblex"/></l><r>charge<s n="vblex"/></r></p></e>
     <e><p><l>siawnsio<s n="vblex"/></l><r>chance<s n="vblex"/></r></p></e>
@@ -8555,7 +8564,10 @@
     <e><p><l>ymbrofi<s n="vblex"/></l><r>compete<s n="vblex"/></r></p></e>
     <e><p><l>ymbwyllo<s n="vblex"/></l><r>meditate<s n="vblex"/></r></p></e>
     <e><p><l>ymchwarae<s n="vblex"/></l><r>loiter<s n="vblex"/></r></p></e>
+
     <e><p><l>ymchwilio<s n="vblex"/></l><r>investigate<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>ymchwilio<g><b/>i</g><s n="vblex"/></l><r>investigate<s n="vblex"/></r></p></e>
+
     <e><p><l>ymchwyddo<s n="vblex"/></l><r>swell<s n="vblex"/></r></p></e>
     <e><p><l>ymdaenu<s n="vblex"/></l><r>disseminate<s n="vblex"/></r></p></e>
     <e><p><l>ymdaeru<s n="vblex"/></l><r>quarrel<s n="vblex"/></r></p></e>

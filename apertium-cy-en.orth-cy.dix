@@ -218,6 +218,16 @@
       <par n="vowels"/>
     </e>
 
+    <!-- fe (fe, e) -->
+    <e>
+      <par n="consonants"/>
+      <p>
+        <l><a/>fe<b/></l>
+        <r>e<b/></r>
+      </p>
+      <par n="alphabet"/>
+    </e>
+
 
   </section>
 
