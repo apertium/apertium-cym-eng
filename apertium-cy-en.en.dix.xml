@@ -27385,6 +27385,7 @@
     <e lm="dispute"><i>dispute</i><par n="house__n"/></e>
     <e lm="earnings"><i>earnings</i><par n="personnel__n"/></e>
     <e lm="economics"><i>economics</i><par n="personnel__n"/></e>
+    <e lm="home economics"><i>home<b/>economics</i><par n="personnel__n"/></e>
     <e lm="effectiveness"><i>effectiveness</i><par n="house__n"/></e>
     <e lm="equity"><i>equit</i><par n="bab/y__n"/></e>
     <e lm="expenditure"><i>expenditure</i><par n="house__n"/></e>
