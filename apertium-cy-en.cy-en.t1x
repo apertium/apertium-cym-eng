@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+﻿<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
 
 <transfer default="chunk">
   <section-def-cats>
@@ -677,7 +677,7 @@
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_nom"/>
-              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="nbr" link-to="2"/>
             </lu>
           </chunk>
         </out>
@@ -725,7 +725,7 @@
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_det"/>
-              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="nbr" link-to="2"/>
             </lu>
           </chunk>
         </out>
@@ -781,7 +781,7 @@
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="a_nom"/>
-              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="nbr" link-to="2"/>
             </lu>
 	    <lu>
               <lit v="-"/>
@@ -790,7 +790,7 @@
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_nom"/>
-              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="nbr" link-to="2"/>
             </lu>
           </chunk>
         </out>
@@ -821,7 +821,7 @@
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_nom"/>
-              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="nbr" link-to="2"/>
             </lu>
           </chunk>
         </out>
@@ -928,7 +928,7 @@
                <lu>
                 <clip pos="2" side="tl" part="lem"/>
                 <clip pos="2" side="tl" part="a_nom"/>
-                <clip pos="2" side="tl" part="nbr"/>
+                <clip pos="2" side="tl" part="nbr" link-to="2"/>
                </lu>
             </chunk>
           </out>
@@ -958,7 +958,7 @@
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="a_nom"/>
-              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="nbr" link-to="2"/>
             </lu>
           </chunk>
         </out>
@@ -999,7 +999,7 @@
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_nom"/>
-              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="nbr" link-to="2"/>
             </lu>
           </chunk>
         </out>
