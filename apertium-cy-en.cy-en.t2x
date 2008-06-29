@@ -236,6 +236,59 @@
     </rule>
 
 
+    <rule comment="REGLA: SV SN SV_inf SN">
+      <pattern>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV_inf"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <get-case-from pos="1">
+              <clip pos="2" part="lem"/>
+            </get-case-from>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <get-case-from pos="2">
+              <clip pos="1" part="lem"/>
+            </get-case-from>
+            <clip pos="1" part="a_frase"/>
+	    <clip pos="1" part="a_verb"/>
+	    <clip pos="1" part="temps"/>
+	    <clip pos="1" part="pers"/>
+	    <clip pos="2" part="nbr"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+	  <chunk>
+            <lit v="to"/>
+	    <lit-tag v="SP"/>
+	    <lit v="{^to"/>
+	    <lit-tag v="pr"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
     <!-- 
         For Welsh pattern "bod + noun phrase + wedi + verb_inf"
