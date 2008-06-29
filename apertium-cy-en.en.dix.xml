@@ -31293,14 +31293,14 @@
     <e lm="quart"><i>quart</i><par n="house__n"/></e>
     <e lm="transport"><i>transport</i><par n="house__n"/></e>
     <e lm="east"><i>east</i><par n="house__n"/></e>
-    <e lm="north-east"><i>north-east</i><par n="house__n"/></e>
-    <e lm="south-east"><i>south-east</i><par n="house__n"/></e>
+    <e lm="north-east"><i>north-east</i><par n="east__n__unc"/></e>
+    <e lm="south-east"><i>south-east</i><par n="east__n__unc"/></e>
     <e lm="past"><i>past</i><par n="house__n"/></e>
     <e lm="midst"><i>midst</i><par n="house__n"/></e>
     <e lm="crest"><i>crest</i><par n="house__n"/></e>
     <e lm="west"><i>west</i><par n="house__n"/></e>
-    <e lm="north-west"><i>north-west</i><par n="house__n"/></e>
-    <e lm="south-west"><i>south-west</i><par n="house__n"/></e>
+    <e lm="north-west"><i>north-west</i><par n="east__n__unc"/></e>
+    <e lm="south-west"><i>south-west</i><par n="east__n__unc"/></e>
     <e lm="chiropodist"><i>chiropodist</i><par n="house__n"/></e>
     <e lm="drop-down list"><i>drop-down<b/>list</i><par n="house__n"/></e>
     <e lm="prosthetist"><i>prosthetist</i><par n="house__n"/></e>

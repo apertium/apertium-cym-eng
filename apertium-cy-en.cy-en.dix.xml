@@ -710,7 +710,7 @@
     <e><p><l>brwydr<s n="n"/><s n="f"/></l><r>battle<s n="n"/></r></p></e>
     <e><p><l>buddsoddiad<s n="n"/><s n="m"/></l><r>investment<s n="n"/></r></p></e>
     <e><p><l>buddugoliaeth<s n="n"/><s n="f"/></l><r>victory<s n="n"/></r></p></e>
-    <e><p><l>busnes<s n="n"/><s n="mf"/></l><r>business<s n="n"/></r></p></e>
+    <e><p><l>busnes<s n="n"/><s n="mf"/></l><r>business<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>bwletin<s n="n"/><s n="m"/></l><r>bulletin<s n="n"/></r></p></e>
     <e><p><l>bwriad<s n="n"/><s n="m"/></l><r>intention<s n="n"/></r></p></e>
     <e><p><l>bwrsariaeth<s n="n"/><s n="f"/></l><r>bursary<s n="n"/></r></p></e>
@@ -1172,7 +1172,7 @@
     <e><p><l>iawndaliad<s n="n"/><s n="m"/></l><r>compensation payment<s n="n"/></r></p></e>
     <e><p><l>icosahedron<s n="n"/><s n="m"/></l><r>icosahedron<s n="n"/></r></p></e>
     <e><p><l>Iddewes<s n="n"/><s n="f"/></l><r>Jewess<s n="n"/></r></p></e>
-    <e><p><l>iechyd<s n="n"/><s n="m"/></l><r>health<s n="n"/></r></p></e>
+    <e><p><l>iechyd<s n="n"/><s n="m"/></l><r>health<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>indemniad<s n="n"/><s n="m"/></l><r>indemnification<s n="n"/></r></p></e>
     <e><p><l>isafrif<s n="n"/><s n="m"/></l><r>minimum<s n="n"/></r></p></e>
     <e><p><l>is-banel<s n="n"/><s n="m"/></l><r>sub-panel<s n="n"/></r></p></e>
@@ -1362,7 +1362,7 @@
     <e><p><l>pwrpas<s n="n"/><s n="m"/></l><r>purpose<s n="n"/></r></p></e>
     <e><p><l>pwyllgor<s n="n"/><s n="m"/></l><r>committee<s n="n"/></r></p></e>
     <e><p><l>pwys<s n="n"/><s n="m"/></l><r>weight<s n="n"/></r></p></e>
-    <e><p><l>pwysedd<s n="n"/><s n="m"/></l><r>pressure<s n="n"/></r></p></e>
+    <e><p><l>pwysedd<s n="n"/><s n="m"/></l><r>pressure<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>pyramid<s n="n"/><s n="m"/></l><r>pyramid<s n="n"/></r></p></e>
     <e><p><l>pythefnos<s n="n"/><s n="mf"/></l><r>forthnight<s n="n"/></r></p></e>
     <e><p><l>radian<s n="n"/><s n="m"/></l><r>radian<s n="n"/></r></p></e>
@@ -1383,7 +1383,7 @@
     <e><p><l>rheng<s n="n"/><s n="f"/></l><r>rank<s n="n"/></r></p></e>
     <e><p><l>rhent<s n="n"/><s n="m"/></l><r>rent<s n="n"/></r></p></e>
     <e><p><l>rheol<s n="n"/><s n="f"/></l><r>rule<s n="n"/></r></p></e>
-    <e><p><l>rheolaeth<s n="n"/><s n="f"/></l><r>management<s n="n"/></r></p></e>
+    <e><p><l>rheolaeth<s n="n"/><s n="f"/></l><r>management<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>rheoliad<s n="n"/><s n="m"/></l><r>regulation<s n="n"/></r></p></e>
     <e><p><l>rhestr<s n="n"/><s n="f"/></l><r>list<s n="n"/></r></p></e>
     <e><p><l>rhestriad<s n="n"/><s n="m"/></l><r>listing<s n="n"/></r></p></e>
@@ -1496,7 +1496,7 @@
     <e><p><l>theatr<s n="n"/><s n="f"/></l><r>theatre<s n="n"/></r></p></e>
     <e><p><l>thermomedr<s n="n"/><s n="m"/></l><r>thermometre<s n="n"/></r></p></e>
     <e><p><l>tiriogaeth<s n="n"/><s n="f"/></l><r>territory<s n="n"/></r></p></e>
-    <e><p><l>tirwedd<s n="n"/><s n="f"/></l><r>relief<s n="n"/></r></p></e>
+    <e><p><l>tirwedd<s n="n"/><s n="f"/></l><r>relief<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>torcytundeb<s n="n"/><s n="m"/></l><r>breach<g><b/>of<b/>contract</g><s n="n"/></r></p></e>
     <e><p><l>toriad<s n="n"/><s n="m"/></l><r>cut<s n="n"/></r></p></e>
     <e><p><l>toriad<s n="n"/><s n="m"/></l><r>break<s n="n"/></r></p></e>
@@ -1595,7 +1595,7 @@
     <e><p><l>ystrydeb<s n="n"/><s n="m"/></l><r>cliché<s n="n"/></r></p></e>
     <e><p><l>ystyriaeth<s n="n"/><s n="f"/></l><r>consideration<s n="n"/></r></p></e>
     <e><p><l>cydol<s n="n"/><s n="mf"/></l><r>whole<s n="n"/></r></p></e>
-    <e><p><l>cymorth<s n="n"/><s n="m"/></l><r>help<s n="n"/></r></p></e>
+    <e><p><l>cymorth<s n="n"/><s n="m"/></l><r>help<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>cyseinedd<s n="n"/><s n="m"/></l><r>alliteration<s n="n"/></r></p></e>
     <e><p><l>distawrwydd<s n="n"/><s n="m"/></l><r>silence<s n="n"/></r></p></e>
     <e><p><l>galw<s n="n"/><s n="m"/></l><r>call<s n="n"/></r></p></e>
@@ -1607,13 +1607,13 @@
  
     <e><p><l>ieithyddiaeth<s n="n"/><s n="f"/></l><r>linguistics<s n="n"/></r></p></e>
  
-    <e><p><l>addysg<s n="n"/><s n="f"/></l><r>education<s n="n"/></r></p></e>
+    <e><p><l>addysg<s n="n"/><s n="f"/></l><r>education<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>adeiladwaith<s n="n"/><s n="m"/></l><r>structure<s n="n"/></r></p></e>
     <e><p><l>adloniant<s n="n"/><s n="m"/></l><r>entertainment<s n="n"/></r></p></e>
     <e><p><l>adnabyddiaeth<s n="n"/><s n="f"/></l><r>recognition<s n="n"/></r></p></e>
     <e><p><l>aeddfedrwydd<s n="n"/><s n="m"/></l><r>maturity<s n="n"/></r></p></e>
     <e><p><l>aelodaeth<s n="n"/><s n="f"/></l><r>membership<s n="n"/></r></p></e>
-    <e><p><l>aer<s n="n"/><s n="m"/></l><r>air<s n="n"/></r></p></e>
+    <e><p><l>aer<s n="n"/><s n="m"/></l><r>air<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>afreidrwydd<s n="n"/><s n="m"/></l><r>redundancy<s n="n"/></r></p></e>
     <e><p><l>ailhyfforddiant<s n="n"/><s n="m"/></l><r>retraining<s n="n"/></r></p></e>
     <e><p><l>alcohol<s n="n"/><s n="m"/></l><r>alcohol<s n="n"/></r></p></e>
@@ -1658,8 +1658,8 @@
     <e><p><l>anwybodaeth<s n="n"/><s n="f"/></l><r>ignorance<s n="n"/></r></p></e>
     <e><p><l>arbenigedd<s n="n"/><s n="m"/></l><r>expertise<s n="n"/></r></p></e>
     <e><p><l>argaeledd<s n="n"/><s n="m"/></l><r>availability<s n="n"/></r></p></e>
-    <e><p><l>arian<s n="n"/><s n="m"/></l><r>money<s n="n"/></r></p></e>
-    <e><p><l>Ariannin<s n="n"/><s n="f"/></l><r>Argentina<s n="n"/></r></p></e>
+    <e><p><l>arian<s n="n"/><s n="m"/></l><r>money<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>Ariannin<s n="n"/><s n="f"/></l><r>Argentina<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>arithmetig<s n="n"/><s n="m"/></l><r>arithmetic<s n="n"/></r></p></e>
     <e><p><l>arlliw<s n="n"/><s n="m"/></l><r>shade<s n="n"/></r></p></e>
     <e><p><l>arloesedd<s n="n"/><s n="m"/></l><r>innovation<s n="n"/></r></p></e>
@@ -1727,7 +1727,7 @@
     <e><p><l>caws<s n="n"/><s n="m"/></l><r>cheese<s n="n"/></r></p></e>
     <e><p><l>cefnogaeth<s n="n"/><s n="f"/></l><r>support<s n="n"/></r></p></e>
     <e><p><l>cenhadaeth<s n="n"/><s n="f"/></l><r>mission<s n="n"/></r></p></e>
-    <e><p><l>cerddoriaeth<s n="n"/><s n="f"/></l><r>music<s n="n"/></r></p></e>
+    <e><p><l>cerddoriaeth<s n="n"/><s n="f"/></l><r>music<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>chwedloniaeth<s n="n"/><s n="f"/></l><r>mythology<s n="n"/></r></p></e>
     <e><p><l>Chwefror<s n="n"/><s n="m"/></l><r>February<s n="n"/></r></p></e>
     <e><p><l>chweil<s n="n"/><s n="m"/></l><r>while<s n="n"/></r></p></e>
@@ -1756,7 +1756,7 @@
     <e><p><l>cydymffurfiaeth<s n="n"/><s n="f"/></l><r>conformity<s n="n"/></r></p></e>
     <e><p><l>cyfalaf<s n="n"/><s n="m"/></l><r>capital<s n="n"/></r></p></e>
     <e><p><l>cyfanwaith<s n="n"/><s n="m"/></l><r>oeuvre<s n="n"/></r></p></e>
-    <e><p><l>cyfarpar<s n="n"/><s n="m"/></l><r>equipment<s n="n"/></r></p></e>
+    <e><p><l>cyfarpar<s n="n"/><s n="m"/></l><r>equipment<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>cyfarwyddiaeth<s n="n"/><s n="f"/></l><r>guidance<s n="n"/></r></p></e>
     <e><p><l>cyfathrebiaeth<s n="n"/><s n="f"/></l><r>communications<s n="n"/></r></p></e>
     <e><p><l>cyfeillgarwch<s n="n"/><s n="m"/></l><r>friendliness<s n="n"/></r></p></e>
@@ -1794,13 +1794,13 @@
     <e><p><l>daearyddiaeth<s n="n"/><s n="f"/></l><r>geography<s n="n"/></r></p></e>
     <e><p><l>darllenadwyaeth<s n="n"/><s n="f"/></l><r>readability<s n="n"/></r></p></e>
     <e><p><l>data<s n="n"/><s n="m"/></l><r>data<s n="n"/></r></p></e>
-    <e><p><l>de<s n="n"/><s n="m"/></l><r>south<s n="n"/></r></p></e>
+    <e><p><l>de<s n="n"/><s n="m"/></l><r>south<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>de<s n="n"/><s n="m"/></l><r>right<s n="n"/></r></p></e>
-    <e><p><l>de-ddwyrain<s n="n"/><s n="m"/></l><r>south-east<s n="n"/></r></p></e>
+    <e><p><l>de-ddwyrain<s n="n"/><s n="m"/></l><r>south-east<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>deintyddiaeth<s n="n"/><s n="f"/></l><r>dentistry<s n="n"/></r></p></e>
     <e><p><l>democratiaeth<s n="n"/><s n="f"/></l><r>democracy<s n="n"/></r></p></e>
     <e><p><l>deoniaeth<s n="n"/><s n="f"/></l><r>deanery<s n="n"/></r></p></e>
-    <e><p><l>de-orllewin<s n="n"/><s n="m"/></l><r>south-west<s n="n"/></r></p></e>
+    <e><p><l>de-orllewin<s n="n"/><s n="m"/></l><r>south-west<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>deuocsid<s n="n"/><s n="m"/></l><r>dioxide<s n="n"/></r></p></e>
     <e><p><l>diabetes<s n="n"/><s n="m"/></l><r>diabetes<s n="n"/></r></p></e>
     <e><p><l>diagnosis<s n="n"/><s n="m"/></l><r>diagnosis<s n="n"/></r></p></e>
@@ -1814,7 +1814,7 @@
     <e><p><l>dinasyddiaeth<s n="n"/><s n="f"/></l><r>citizenship<s n="n"/></r></p></e>
     <e><p><l>dioddef<s n="n"/><s n="m"/></l><r>suffering<s n="n"/></r></p></e>
     <e><p><l>dioddefaint<s n="n"/><s n="m"/></l><r>suffering<s n="n"/></r></p></e>
-    <e><p><l>diogelwch<s n="n"/><s n="m"/></l><r>safety<s n="n"/></r></p></e>
+    <e><p><l>diogelwch<s n="n"/><s n="m"/></l><r>safety<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>diogelwch<s n="n"/><s n="m"/></l><r>safeguard<s n="n"/></r></p></e>
     <e><p><l>dirlawnder<s n="n"/><s n="m"/></l><r>saturation<s n="n"/></r></p></e>
     <e><p><l>disgleirdeb<s n="n"/><s n="m"/></l><r>brightness<s n="n"/></r></p></e>
@@ -1828,7 +1828,7 @@
     <e><p><l>drygioni<s n="n"/><s n="m"/></l><r>wrongdoing<s n="n"/></r></p></e>
     <e><p><l>dryswch<s n="n"/><s n="m"/></l><r>confusion<s n="n"/></r></p></e>
     <e><p><l>dwyieithrwydd<s n="n"/><s n="m"/></l><r>bilingualism<s n="n"/></r></p></e>
-    <e><p><l>dwyrain<s n="n"/><s n="m"/></l><r>east<s n="n"/></r></p></e>
+    <e><p><l>dwyrain<s n="n"/><s n="m"/></l><r>east<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>dyfeisgarwch<s n="n"/><s n="m"/></l><r>ingenuity<s n="n"/></r></p></e>
     <e><p><l>dyfodol<s n="n"/><s n="m"/></l><r>future<s n="n"/></r></p></e>
     <e><p><l>dysg<s n="n"/><s n="mf"/></l><r>learning<s n="n"/></r></p></e>
@@ -1879,9 +1879,9 @@
     <e><p><l>gloywder<s n="n"/><s n="m"/></l><r>brightness<s n="n"/></r></p></e>
     <e><p><l>gofal<s n="n"/><s n="m"/></l><r>care<s n="n"/></r></p></e>
     <e><p><l>gofod<s n="n"/><s n="m"/></l><r>space<s n="n"/></r></p></e>
-    <e><p><l>gogledd<s n="n"/><s n="m"/></l><r>north<s n="n"/></r></p></e>
-    <e><p><l>gogledd-ddwyrain<s n="n"/><s n="m"/></l><r>north-east<s n="n"/></r></p></e>
-    <e><p><l>gogledd-orllewin<s n="n"/><s n="m"/></l><r>north-west<s n="n"/></r></p></e>
+    <e><p><l>gogledd<s n="n"/><s n="m"/></l><r>north<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>gogledd-ddwyrain<s n="n"/><s n="m"/></l><r>north-east<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>gogledd-orllewin<s n="n"/><s n="m"/></l><r>north-west<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>gohebiaeth<s n="n"/><s n="f"/></l><r>correspondence<s n="n"/></r></p></e>
     <e><p><l>goleuni<s n="n"/><s n="m"/></l><r>light<s n="n"/></r></p></e>
     <e><p><l>golff<s n="n"/><s n="m"/></l><r>golf<s n="n"/></r></p></e>
@@ -1891,7 +1891,7 @@
     <e><p><l>gorffennol<s n="n"/><s n="m"/></l><r>past<s n="n"/></r></p></e>
     <e><p><l>gorffwylledd<s n="n"/><s n="m"/></l><r>insanity<s n="n"/></r></p></e>
     <e><p><l>goriwaered<s n="n"/><s n="m"/></l><r>descent<s n="n"/></r></p></e>
-    <e><p><l>gorllewin<s n="n"/><s n="m"/></l><r>west<s n="n"/></r></p></e>
+    <e><p><l>gorllewin<s n="n"/><s n="m"/></l><r>west<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>gormodiaith<s n="n"/><s n="f"/></l><r>hyperbole<s n="n"/></r></p></e>
     <e><p><l>graffeg<s n="n"/><s n="f"/></l><r>graphics<s n="n"/></r></p></e>
     <e><p><l>gramadeg<s n="n"/><s n="mf"/></l><r>grammar<s n="n"/></r></p></e>
@@ -1919,7 +1919,7 @@
     <e><p><l>hanfodion<s n="n"/><s n="m"/></l><r>essentials<s n="n"/></r></p></e>
     <e><p><l>hap-ddewis<s n="n"/><s n="m"/></l><r>random choice<s n="n"/></r></p></e>
     <e><p><l>heddlu<s n="n"/><s n="m"/></l><r>police<s n="n"/></r></p></e>
-    <e><p><l>heddwch<s n="n"/><s n="m"/></l><r>peace<s n="n"/></r></p></e>
+    <e><p><l>heddwch<s n="n"/><s n="m"/></l><r>peace<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>helaethrwydd<s n="n"/><s n="m"/></l><r>abundance<s n="n"/></r></p></e>
     <e><p><l>helaethrwydd<s n="n"/><s n="mf"/></l><r>extent<s n="n"/></r></p></e>
     <e><p><l>heulwen<s n="n"/><s n="f"/></l><r>sunshine<s n="n"/></r></p></e>
@@ -1927,7 +1927,7 @@
     <e><p><l>hirdymor<s n="n"/><s n="m"/></l><r>long-term<s n="n"/></r></p></e>
     <e><p><l>hunanbarch<s n="n"/><s n="m"/></l><r>self-respect<s n="n"/></r></p></e>
     <e><p><l>hunanladdiad<s n="n"/><s n="m"/></l><r>suicide<s n="n"/></r></p></e>
-    <e><p><l>hwyl<s n="n"/><s n="f"/></l><r>fun<s n="n"/></r></p></e>
+    <e><p><l>hwyl<s n="n"/><s n="f"/></l><r>fun<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>hyblygrwydd<s n="n"/><s n="m"/></l><r>flexibility<s n="n"/></r></p></e>
     <e><p><l>Hydref<s n="n"/><s n="m"/></l><r>October<s n="n"/></r></p></e>
     <e><p><l>hyfforddiant<s n="n"/><s n="m"/></l><r>training<s n="n"/></r></p></e>
@@ -2031,7 +2031,7 @@
     <e><p><l>popeth<s n="n"/><s n="m"/></l><r>everything<s n="n"/></r></p></e>
     <e><p><l>posibilrwydd<s n="n"/><s n="m"/></l><r>possibility<s n="n"/></r></p></e>
     <e><p><l>post<s n="n"/><s n="m"/></l><r>post<s n="n"/></r></p></e>
-    <e><p><l>potensial<s n="n"/><s n="m"/></l><r>potential<s n="n"/></r></p></e>
+    <e><p><l>potensial<s n="n"/><s n="m"/></l><r>potential<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>preifatrwydd<s n="n"/><s n="m"/></l><r>privacy<s n="n"/></r></p></e>
     <e><p><l>prentisiaeth<s n="n"/><s n="f"/></l><r>apprenticeship<s n="n"/></r></p></e>
     <e><p><l>pres<s n="n"/><s n="m"/></l><r>money<s n="n"/></r></p></e>
@@ -2101,7 +2101,7 @@
     <e><p><l>thesawrus<s n="n"/><s n="m"/></l><r>thesaurus<s n="n"/></r></p></e>
     <e><p><l>tirlenwi<s n="n"/><s n="m"/></l><r>landfill<s n="n"/></r></p></e>
     <e><p><l>trachywiredd<s n="n"/><s n="m"/></l><r>precision<s n="n"/></r></p></e>
-    <e><p><l>traffig<s n="n"/><s n="m"/></l><r>traffic<s n="n"/></r></p></e>
+    <e><p><l>traffig<s n="n"/><s n="m"/></l><r>traffic<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>trafnidiaeth<s n="n"/><s n="f"/></l><r>traffic<s n="n"/></r></p></e>
     <e><p><l>trannoeth<s n="n"/><s n="m"/></l><r>the morrow<s n="n"/></r></p></e>
     <e><p><l>traw<s n="n"/><s n="m"/></l><r>pitch<s n="n"/></r></p></e>
@@ -2138,7 +2138,7 @@
     <e><p><l>amffinydd<s n="n"/><s n="m"/></l><r>delimiter<s n="n"/></r></p></e>
     <e><p><l>amgodydd<s n="n"/><s n="m"/></l><r>encoder<s n="n"/></r></p></e>
     <e><p><l>amlblecsydd<s n="n"/><s n="m"/></l><r>multiplexer<s n="n"/></r></p></e>
-    <e><p><l>amserydd<s n="n"/><s n="m"/></l><r>timer<s n="n"/></r></p></e>
+    <e><p><l>amserydd<s n="n"/><s n="m"/></l><r>timer<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>anrheg<s n="n"/><s n="f"/></l><r>present<s n="n"/></r></p></e>
     <e><p><l>apelydd<s n="n"/><s n="m"/></l><r>appellant<s n="n"/></r></p></e>
     <e><p><l>archeb<s n="n"/><s n="f"/></l><r>order<s n="n"/></r></p></e>
@@ -2837,7 +2837,7 @@
     <e><p><l>achlysur<s n="n"/><s n="m"/></l><r>occasion<s n="n"/></r></p></e>
     <e><p><l>afiechyd<s n="n"/><s n="m"/></l><r>illness<s n="n"/></r></p></e>
     <e><p><l>amcangyfrif<s n="n"/><s n="m"/></l><r>estimate<s n="n"/></r></p></e>
-    <e><p><l>arwystl<s n="n"/><s n="m"/></l><r>security<s n="n"/></r></p></e>
+    <e><p><l>arwystl<s n="n"/><s n="m"/></l><r>security<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>awdur<s n="n"/><s n="m"/></l><r>author<s n="n"/></r></p></e>
     <e><p><l>awel<s n="n"/><s n="f"/></l><r>breeze<s n="n"/></r></p></e>
     <e><p><l>cariad<s n="n"/><s n="mf"/></l><r>love<s n="n"/></r></p></e>
@@ -2953,7 +2953,7 @@
     <e><p><l>trefniant<s n="n"/><s n="m"/></l><r>arrangement<s n="n"/></r></p></e>
     <e><p><l>trosiant<s n="n"/><s n="m"/></l><r>turnover<s n="n"/></r></p></e>
     <e><p><l>tyfiant<s n="n"/><s n="m"/></l><r>growth<s n="n"/></r></p></e>
-    <e><p><l>yswiriant<s n="n"/><s n="m"/></l><r>insurance<s n="n"/></r></p></e>
+    <e><p><l>yswiriant<s n="n"/><s n="m"/></l><r>insurance<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>apeliwr<s n="n"/><s n="m"/></l><r>appellant<s n="n"/></r></p></e>
     <e><p><l>archwiliwr<s n="n"/><s n="m"/></l><r>auditor<s n="n"/></r></p></e>
     <e><p><l>bipiwr<s n="n"/><s n="m"/></l><r>bleeper<s n="n"/></r></p></e>
@@ -3755,7 +3755,7 @@
     <e><p><l>ciplun<s n="n"/><s n="m"/></l><r>snapshot<s n="n"/></r></p></e>
     <e><p><l>iâ<s n="n"/><s n="m"/></l><r>ice<s n="n"/></r></p></e>
     <e><p><l>dyddiaduron<s n="n"/><s n="m"/></l><r>diaries<s n="n"/></r></p></e>
-    <e><p><l>dŵr<s n="n"/><s n="m"/></l><r>water<s n="n"/></r></p></e>
+    <e><p><l>dŵr<s n="n"/><s n="m"/></l><r>water<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>cwpwrdd<s n="n"/><s n="m"/></l><r>cupboard<s n="n"/></r></p></e>
     <e><p><l>sôn<s n="n"/><s n="m"/></l><r>rumour<s n="n"/></r></p></e>
     <e><p><l>llaw<s n="n"/><s n="f"/></l><r>hand<s n="n"/></r></p></e>
