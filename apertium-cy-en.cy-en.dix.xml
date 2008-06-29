@@ -197,7 +197,7 @@
     <e><p><l>rhyddhad<s n="n"/><s n="m"/></l><r>emancipation<s n="n"/></r></p></e><!-- emancipation - rhyddhad [m.]-->
     <e><p><l>anadliad<s n="n"/><s n="m"/></l><r>breathing<s n="n"/></r></p></e><!-- breathing - anadliad [m.]-->
     <e><p><l>gwêr<s n="n"/><s n="m"/></l><r>tallow<s n="n"/></r></p></e><!-- tallow - gwêr [m.]-->
-    <e><p><l>poblogrwydd<s n="n"/><s n="m"/></l><r>popularity<s n="n"><s n="unc"/></s></r></p></e><!-- popularity - poblogrwydd [m.]-->
+    <e><p><l>poblogrwydd<s n="n"/><s n="m"/></l><r>popularity<s n="n"/><s n="unc"/></r></p></e><!-- popularity - poblogrwydd [m.]-->
     <e><p><l>ifori<s n="n"/><s n="m"/></l><r>ivory<s n="n"/></r></p></e><!-- ivory - ifori [m.]-->
     <e><p><l>geneteg<s n="n"/><s n="f"/></l><r>genetics<s n="n"/></r></p></e><!-- genetics - geneteg [f.]-->
     <e><p><l>distylliad<s n="n"/><s n="m"/></l><r>distillation<s n="n"/></r></p></e><!-- distillation - distylliad [m.]-->
@@ -576,7 +576,7 @@
     <e><p><l>adferiad<s n="n"/><s n="m"/></l><r>restoration<s n="n"/></r></p></e>
     <e><p><l>adfywiad<s n="n"/><s n="m"/></l><r>goruchwyliwr<s n="n"/></r></p></e>
     <e><p><l>adlewyrchiad<s n="n"/><s n="m"/></l><r>reflection<s n="n"/></r></p></e>
-    <e><p><l>adnabyddiad<s n="n"/><s n="m"/></l><r>recognition<s n="n"><s n="unc"/></s></r></p></e>
+    <e><p><l>adnabyddiad<s n="n"/><s n="m"/></l><r>recognition<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>adnewyddiad<s n="n"/><s n="m"/></l><r>renewal<s n="n"/></r></p></e>
     <e><p><l>adnodd<s n="n"/><s n="m"/></l><r>resource<s n="n"/></r></p></e>
     <e><p><l>adolygiad<s n="n"/><s n="m"/></l><r>review<s n="n"/></r></p></e>
@@ -673,7 +673,7 @@
     <e><p><l>asiantaeth<s n="n"/><s n="f"/></l><r>agency<s n="n"/></r></p></e>
     <e><p><l>asid<s n="n"/><s n="m"/></l><r>acid<s n="n"/></r></p></e>
     <e><p><l>astudiaeth<s n="n"/><s n="f"/></l><r>study<s n="n"/></r></p></e>
-    <e><p><l>ataliad<s n="n"/><s n="m"/></l><r>prevention<s n="n"><s n="unc"/></s></r></p></e>
+    <e><p><l>ataliad<s n="n"/><s n="m"/></l><r>prevention<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>atalnod<s n="n"/><s n="m"/></l><r>comma<s n="n"/></r></p></e>
     <e><p><l>atgyweiriad<s n="n"/><s n="m"/></l><r>repair<s n="n"/></r></p></e>
     <e><p><l>athrawes<s n="n"/><s n="f"/></l><r>teacher<s n="n"/></r></p></e>
@@ -1198,7 +1198,7 @@
     <e><p><l>lled<s n="n"/><s n="m"/></l><r>breadth<s n="n"/></r></p></e>
     <e><p><l>lledr<s n="n"/><s n="m"/></l><r>leather<s n="n"/></r></p></e>
     <e><p><l>lleiafrif<s n="n"/><s n="m"/></l><r>minority<s n="n"/></r></p></e>
-    <e><p><l>llenyddiaeth<s n="n"/><s n="f"/></l><r>literature<s n="n"><s n="unc"/></s></r></p></e>
+    <e><p><l>llenyddiaeth<s n="n"/><s n="f"/></l><r>literature<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>lleoliad<s n="n"/><s n="m"/></l><r>location<s n="n"/></r></p></e>
     <e><p><l>lleolnod<s n="n"/><s n="m"/></l><r>caret<s n="n"/></r></p></e>
     <e><p><l>llethr<s n="n"/><s n="f"/></l><r>slope<s n="n"/></r></p></e>
@@ -1717,7 +1717,7 @@
     <e><p><l>cadwraeth<s n="n"/><s n="f"/></l><r>conservation<s n="n"/></r></p></e>
     <e><p><l>caledwedd<s n="n"/><s n="m"/></l><r>hardware<s n="n"/></r></p></e>
     <e><p><l>callineb<s n="n"/><s n="m"/></l><r>sanity<s n="n"/></r></p></e>
-    <e><p><l>caniatâd<s n="n"/><s n="m"/></l><r>permission<s n="n"><s n="unc"/></s></r></p></e>
+    <e><p><l>caniatâd<s n="n"/><s n="m"/></l><r>permission<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>canradd<s n="n"/><s n="f"/></l><r>centigrade<s n="n"/></r></p></e>
     <e><p><l>canwaith<s n="n"/><s n="f"/></l><r>a hundred times<s n="n"/></r></p></e>
     <e><p><l>capasiti<s n="n"/><s n="m"/></l><r>capacity<s n="n"/></r></p></e>
@@ -1727,7 +1727,7 @@
     <e><p><l>caws<s n="n"/><s n="m"/></l><r>cheese<s n="n"/></r></p></e>
     <e><p><l>cefnogaeth<s n="n"/><s n="f"/></l><r>support<s n="n"/></r></p></e>
     <e><p><l>cenhadaeth<s n="n"/><s n="f"/></l><r>mission<s n="n"/></r></p></e>
-    <e><p><l>cerddoriaeth<s n="n"/><s n="f"/></l><r>music<s n="n"/><s n="unc"></s></r></p></e>
+    <e><p><l>cerddoriaeth<s n="n"/><s n="f"/></l><r>music<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>chwedloniaeth<s n="n"/><s n="f"/></l><r>mythology<s n="n"/></r></p></e>
     <e><p><l>Chwefror<s n="n"/><s n="m"/></l><r>February<s n="n"/></r></p></e>
     <e><p><l>chweil<s n="n"/><s n="m"/></l><r>while<s n="n"/></r></p></e>
@@ -1772,7 +1772,7 @@
     <e><p><l>cyfrifiadureg<s n="n"/><s n="f"/></l><r>computing<s n="n"/></r></p></e>
     <e><p><l>cyfrinachedd<s n="n"/><s n="m"/></l><r>confidentiality<s n="n"/></r></p></e>
     <e><p><l>cyhoedd<s n="n"/><s n="m"/></l><r>public<s n="n"/></r></p></e>
-    <e><p><l>cyhoeddusrwydd<s n="n"/><s n="m"/></l><r>publicity<s n="n"><s n="unc"/></s></r></p></e>
+    <e><p><l>cyhoeddusrwydd<s n="n"/><s n="m"/></l><r>publicity<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>cylchwedd<s n="n"/><s n="mf"></s></l><r>groupware<s n="n"/></r></p></e>
     <e><p><l>cymdeithaseg<s n="n"/><s n="f"/></l><r>sociology<s n="n"/></r></p></e>
     <e><p><l>cymeradwyaeth<s n="n"/><s n="f"/></l><r>approval<s n="n"/></r></p></e>
@@ -1964,7 +1964,7 @@
     <e><p><l>llwch<s n="n"/><s n="m"/></l><r>dust<s n="n"/></r></p></e>
     <e><p><l>llyfrgellydd<s n="n"/><s n="m"/></l><r>librarian<s n="n"/></r></p></e>
     <e><p><l>llythrennedd<s n="n"/><s n="m"/></l><r>literacy<s n="n"/></r></p></e>
-    <e><p><l>lwc<s n="n"/><s n="f"/></l><r>luck<s n="n"><s n="unc"/></s></r></p></e>
+    <e><p><l>lwc<s n="n"/><s n="f"/></l><r>luck<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>magneteg<s n="n"/><s n="f"/></l><r>magnetism<s n="n"/></r></p></e>
     <e><p><l>Mai<s n="n"/><s n="m"/></l><r>May<s n="n"/></r></p></e>
     <e><p><l>maintioli<s n="n"/><s n="m"/></l><r>stature<s n="n"/></r></p></e>
@@ -1984,7 +1984,7 @@
     <e><p><l>Mehefin<s n="n"/><s n="m"/></l><r>June<s n="n"/></r></p></e>
     <e><p><l>meil<s n="n"/><s n="mf"></s></l><r>msec<s n="n"/></r></p></e>
     <e><p><l>melwlith<s n="n"/><s n="m"/></l><r>honeydew<s n="n"/></r></p></e>
-    <e><p><l>menyn<s n="n"/><s n="m"/></l><r>butter<s n="n"><s n="unc"/></s></r></p></e>
+    <e><p><l>menyn<s n="n"/><s n="m"/></l><r>butter<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>Mercher<s n="n"/><s n="f"/></l><r>Mercury<s n="n"/></r></p></e>
     <e><p><l>metadata<s n="n"/><s n="m"/></l><r>metadata<s n="n"/></r></p></e>
     <e><p><l>metagwybodaeth<s n="n"/><s n="f"/></l><r>metainfo<s n="n"/></r></p></e>
