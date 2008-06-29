@@ -157,7 +157,9 @@
               </lu>
               <b/>
               <lu>
-                <clip pos="2" part="whole"/>
+                <get-case-from pos="1">
+                  <clip pos="2" part="whole"/>
+                </get-case-from>
               </lu>
             </out>
             <let>
