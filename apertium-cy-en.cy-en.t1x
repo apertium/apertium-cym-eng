@@ -159,6 +159,7 @@
     <def-var n="temps_chunk"/>
     <def-var n="lema_SV"/>
     <def-var n="verbfinal"/>
+    <def-var n="adjectiu1"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -576,6 +577,81 @@
           </otherwise>
         </choose>
     </def-macro>
+
+    <def-macro n="adjectiu" npar="1">
+      <let>
+        <var n="adjectiu1"/>
+        <lit v=""/>
+      </let>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="1" side="sl" part="a_adj"/> 
+                  <lit-tag v="adj.sint"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="sl" part="deg"/> 
+                  <lit-tag v="comp"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="a_adj"/> 
+                  <lit-tag v="adj"/>
+                </equal>
+              </and>
+            </test>
+            <let>
+              <var n="adjectiu1"/>
+                <concat>
+                  <lit v="mawr"/>
+                  <lit-tag v="adj.sint.comp"/>
+                  <lit v="$ ^"/>
+                  <clip pos="1" side="tl" part="lem"/> 
+                  <clip pos="1" side="tl" part="a_adj"/>
+                </concat>
+            </let>
+          </when>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="1" side="sl" part="a_adj"/> 
+                  <lit-tag v="adj.sint"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="sl" part="deg"/> 
+                  <lit-tag v="sup"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="a_adj"/> 
+                  <lit-tag v="adj"/>
+                </equal>
+              </and>
+            </test>
+            <let>
+              <var n="adjectiu1"/>
+                <concat>
+                  <lit v="mawr"/>
+                  <lit-tag v="adj.sint.sup"/>
+                  <lit v="$ ^"/>
+                  <clip pos="1" side="tl" part="lem"/> 
+                  <clip pos="1" side="tl" part="a_adj"/>
+                </concat>
+            </let>
+          </when>
+
+          <otherwise>
+            <let>
+              <var n="adjectiu1"/>
+                <concat>
+                  <clip pos="1" side="tl" part="whole"/> 
+                </concat>
+            </let>
+          </otherwise>
+        </choose>
+     </def-macro> 
+
   </section-def-macros>
 
   <section-rules>
@@ -890,7 +966,7 @@
       </action>
     </rule>
 
-
+<!--
     <rule comment="REGLA: CNJCOO DET NOM"> 
       <pattern>
         <pattern-item n="cnjcoo"/>
@@ -928,7 +1004,7 @@
         </let>
       </action>
     </rule>
-
+-->
 
 
   <!-- Sintagmas verbales -->
