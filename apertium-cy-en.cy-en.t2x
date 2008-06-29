@@ -28,6 +28,9 @@
     <def-cat n="SP_am">
       <cat-item lemma="am" tags="SP"/>
     </def-cat>
+    <def-cat n="SP_ar">
+      <cat-item lemma="ar" tags="SP"/>
+    </def-cat>
 
   </section-def-cats>
 
@@ -90,6 +93,57 @@
   </section-def-vars>
 
   <section-def-macros>
+    <def-macro n="conj_verb_ser1" npar="1">
+      <choose>
+        <when>
+          <test>
+  	  <and>
+  	    <equal>
+  	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	    <not>
+	      <equal>
+	        <clip pos="1" part="lem"/>
+	        <lit v="prnsubj"/>
+	      </equal>
+	    </not>
+	  </and>
+	</test>
+        <let>
+          <var n="verbfinal"/>
+              <lit-tag v="vbser.past.p3.sg"/>
+        </let>
+      </when>	
+
+        <when>
+          <test>
+  	  <and>
+  	    <equal>
+  	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	      <equal>
+	        <clip pos="1" part="lem"/>
+	        <lit v="prnsubj"/>
+	      </equal>
+	  </and>
+	</test>
+        <let>
+          <var n="verbfinal"/>
+              <lit-tag v="vbser.past.p3.sg"/>
+        </let>
+      </when>	
+
+      <otherwise>
+        <let>
+          <var n="verbfinal"/>
+              <lit-tag v="vbser.past"/>
+        </let>
+      </otherwise>
+      </choose>
+    </def-macro>
+
     <def-macro n="conj_verb_haver1" npar="1">
       <choose>
         <when>
@@ -416,6 +470,63 @@
         </out>
       </action>
     </rule>
+
+    <!-- 
+        For Welsh pattern "bod + noun phrase + ar + verb_inf"
+        output English "that + noun phrase + was about to + verb_inf"
+    -->
+    <rule comment="REGLA: SV_ser SN SP_ar SV_inf">
+      <pattern>
+        <pattern-item n="SV_ser"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SP_ar"/>
+        <pattern-item n="SV_inf"/>
+      </pattern>
+      <action>
+        <call-macro n="conj_verb_ser1">
+          <with-param pos="2"/> 
+        </call-macro> 
+        <out>
+	  <chunk>
+	    <lit v="cnjsub"/>
+	    <lit v="{^"/>
+              <lit v="that"/>
+	      <lit-tag v="cnjsub"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+	  <b/>
+          <chunk>
+	    <lit v="vbser"/>
+	    <lit-tag v="SV.vbser"/>
+	    <lit v="{^"/>
+              <lit v="be"/>
+	      <var n="verbfinal"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+	  <chunk>
+            <lit v="about to"/>
+	    <lit-tag v="SP"/>
+	    <lit v="{^about to"/>
+	    <lit-tag v="pr"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+	  <chunk>
+	    <clip pos="4" part="lem"/>
+	    <lit-tag v="SV.vblex.inf"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
   </section-rules>
 </interchunk>
