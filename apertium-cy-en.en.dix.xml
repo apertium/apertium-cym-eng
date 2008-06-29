@@ -32639,7 +32639,287 @@
         <r><g><b/>verdant</g></r>
       </p>
     </e>
+    <e lm="be advantageous">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>advantageous</l>
+        <r><g><b/>advantageous</g></r>
+      </p>
+    </e>
+    <e lm="be an author">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>an<b/>author</l>
+        <r><g><b/>an<b/>author</g></r>
+      </p>
+    </e>
+    <e lm="be compatible">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>compatible</l>
+        <r><g><b/>compatible</g></r>
+      </p>
+    </e>
+    <e lm="be contemporaneous with">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>contemporaneous<b/>with</l>
+        <r><g><b/>contemporaneous<b/>with</g></r>
+      </p>
+    </e>
+    <e lm="be contemporary">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>contemporary</l>
+        <r><g><b/>contemporary</g></r>
+      </p>
+    </e>
+    <e lm="be dejected">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>dejected</l>
+        <r><g><b/>dejected</g></r>
+      </p>
+    </e>
+    <e lm="be fed up with">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>fed<b/>up<b/>with</l>
+        <r><g><b/>fed<b/>up<b/>with</g></r>
+      </p>
+    </e>
+    <e lm="be hypocritical">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>hypocritical</l>
+        <r><g><b/>hypocritical</g></r>
+      </p>
+    </e>
+    <e lm="be indignant">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>indignant</l>
+        <r><g><b/>indignant</g></r>
+      </p>
+    </e>
+    <e lm="be in heat">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>in<b/>heat</l>
+        <r><g><b/>in<b/>heat</g></r>
+      </p>
+    </e>
+    <e lm="be jubilant">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>jubilant</l>
+        <r><g><b/>jubilant</g></r>
+      </p>
+    </e>
+    <e lm="be motionless">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>motionless</l>
+        <r><g><b/>motionless</g></r>
+      </p>
+    </e>
+    <e lm="be overprotective">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>overprotective</l>
+        <r><g><b/>overprotective</g></r>
+      </p>
+    </e>
+    <e lm="be ravenously hungry">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>ravenously<b/>hungry</l>
+        <r><g><b/>ravenously<b/>hungry</g></r>
+      </p>
+    </e>
+    <e lm="be tepid">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>tepid</l>
+        <r><g><b/>tepid</g></r>
+      </p>
+    </e>
+    <e lm="be thrifty">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>thrifty</l>
+        <r><g><b/>thrifty</g></r>
+      </p>
+    </e>
+    <e lm="be too dependent">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>too<b/>dependent</l>
+        <r><g><b/>too<b/>dependent</g></r>
+      </p>
+    </e>
+    <e lm="be well-versed in literature">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>well-versed<b/>in<b/>literature</l>
+        <r><g><b/>well-versed<b/>in<b/>literature</g></r>
+      </p>
+    </e>
 
+    <e lm="make weather-proof">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>weather-proof</l>
+        <r><g><b/>weather-proof</g></r>
+      </p>
+    </e>
+    <e lm="make unpleasant">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>unpleasant</l>
+        <r><g><b/>unpleasant</g></r>
+      </p>
+    </e>
+    <e lm="make a speech">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>a<b/>speech</l>
+        <r><g><b/>a<b/>speech</g></r>
+      </p>
+    </e>
+    <e lm="make meal">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>meal</l>
+        <r><g><b/>meal</g></r>
+      </p>
+    </e>
+    <e lm="make crumbs">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>crumbs</l>
+        <r><g><b/>crumbs</g></r>
+      </p>
+    </e>
+    <e lm="make a united effort">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>a<b/>united<b/>effort</l>
+        <r><g><b/>a<b/>united<b/>effort</g></r>
+      </p>
+    </e>
+    <e lm="make a pact">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>a<b/>pact</l>
+        <r><g><b/>a<b/>pact</g></r>
+      </p>
+    </e>
+    <e lm="make amends">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>amends</l>
+        <r><g><b/>amends</g></r>
+      </p>
+    </e>
+    <e lm="make amends">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>amends</l>
+        <r><g><b/>amends</g></r>
+      </p>
+    </e>
+    <e lm="make concrete">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>concrete</l>
+        <r><g><b/>concrete</g></r>
+      </p>
+    </e>
+    <e lm="make effective">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>effective</l>
+        <r><g><b/>effective</g></r>
+      </p>
+    </e>
+    <e lm="make famous">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>famous</l>
+        <r><g><b/>famous</g></r>
+      </p>
+    </e>
+    <e lm="make suitable">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>suitable</l>
+        <r><g><b/>suitable</g></r>
+      </p>
+    </e>
+    <e lm="make war">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>war</l>
+        <r><g><b/>war</g></r>
+      </p>
+    </e>
+    <e lm="make ready">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>ready</l>
+        <r><g><b/>ready</g></r>
+      </p>
+    </e>
+    <e lm="make oneself at home">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>oneself<b/>at<b/>home</l>
+        <r><g><b/>oneself<b/>at<b/>home</g></r>
+      </p>
+    </e>
+    <e lm="make progress">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>progress</l>
+        <r><g><b/>progress</g></r>
+      </p>
+    </e>
 
 
 

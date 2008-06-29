@@ -732,13 +732,13 @@
           <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>chwi</l>
           <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>hwy</l>
           <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
@@ -46811,6 +46811,7 @@
     <e lm="nesaf at"><i>nesaf<b/></i><par n="/at__pr"/></e>
     <e lm="oddi wrth"><i>oddi<b/></i><par n="/wrth__pr"/></e>
     <e lm="gyda"><i>gyda</i><par n="gyda__pr"/></e>
+    <e lm="i mewn i"><i>i<b/>mewn<b/>i</i><par n="gyda__pr"/></e>
 
     <e lm="â"><i/><par n="/â__pr"/></e>
 
@@ -46874,6 +46875,7 @@
     <e lm="ynglŷn â"><i>ynglŷn<b/>â</i><par n="gyda__pr"/></e>
     <e lm="ynghanol"><i>ynghanol</i><par n="gyda__pr"/></e>
     <e lm="ymhen"><i>ymhen</i><par n="gyda__pr"/></e>
+    <e lm="i"><i>i</i><par n="gyda__pr"/></e>
 
 
     <e lm="a"><i/><par n="/a__cnjcoo"/></e>
@@ -49117,6 +49119,7 @@
     <e lm="oren"><i>oren</i><par n="ban__n"/></e>
     <e lm="tudalen"><par n="initial-t"/><i>udalen</i><par n="ban__n"/></e>
     <e lm="arglwydd"><i>arglwydd</i><par n="arglwydd__n"/></e>
+    <e lm="carped"><par n="initial-c"/><i>arped</i><par n="arglwydd__n"/></e>
     <e lm="border"><par n="initial-b"/><i>order</i><par n="arglwydd__n"/></e>
     <e lm="bwrdeistref"><par n="initial-b"/><i>wrdeistref</i><par n="arglwydd__n"/></e>
     <e lm="byffer"><par n="initial-b"/><i>yffer</i><par n="arglwydd__n"/></e>
@@ -53567,7 +53570,18 @@
     <e lm="goferu"><par n="initial-g"/><i>ofer</i><par n="aberth/u__vblex"/></e>
     <e lm="goferwi"><par n="initial-g"/><i>oferw</i><par n="arsylw/i__vblex"/></e>
     <e lm="gofidio"><par n="initial-g"/><i>ofidi</i><par n="achlysur/o__vblex"/></e>
+
     <e lm="gofyn"><par n="initial-g"/><i>ofyn</i><par n="amddiffyn__vblex"/></e>
+    <e lm="gofyn am">
+      <par n="initial-g"/>
+      <i>ofyn</i>
+      <par n="amddiffyn__vblex"/>
+      <p>
+        <l><b/>am</l>
+	<r><g><b/>am</g></r>
+      </p>
+    </e>
+
     <e lm="goganu"><par n="initial-g"/><i>ogan</i><par n="aberth/u__vblex"/></e>
     <e lm="goglais"><par n="initial-g"/><i>ogl</i><par n="gogl/ais__vblex"/></e>
     <e lm="gogleisio"><par n="initial-g"/><i>ogleisi</i><par n="achlysur/o__vblex"/></e>
