@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- -*- nxml -*- -->
 <postchunk>
   <section-def-cats>
@@ -151,7 +151,9 @@
           <otherwise>
             <out>
               <lu>
-                <clip pos="1" part="whole"/>
+                <get-case-from pos="2">
+                  <clip pos="1" part="whole"/>
+                </get-case-from>
               </lu>
               <b/>
               <lu>
