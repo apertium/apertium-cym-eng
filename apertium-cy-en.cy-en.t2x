@@ -28,9 +28,6 @@
     <def-cat n="SP_am">
       <cat-item lemma="am" tags="SP"/>
     </def-cat>
-    <def-cat n="SN_sp">
-      <cat-item tags="SN.sp"/>
-    </def-cat>
 
   </section-def-cats>
 
