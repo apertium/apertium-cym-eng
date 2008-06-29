@@ -16,6 +16,12 @@
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
     </def-cat>
+    <def-cat n="verbger">
+      <cat-item tags="vblex.ger"/>
+    </def-cat>
+    <def-cat n="instead_of">
+      <cat-item lemma="instead of" tags="pr"/>
+    </def-cat>
     <def-cat n="verb">
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbmod.*"/>
@@ -47,13 +53,6 @@
       <attr-item tags="np.loc"/>
       <attr-item tags="np.ant"/>
     </def-attr>
-    <def-attr n="temps">
-      <attr-item tags="pres"/>
-      <attr-item tags="past"/>
-      <attr-item tags="impv"/>
-      <attr-item tags="sjnc"/>
-      <attr-item tags="inf"/>
-    </def-attr>
     <def-attr n="pers">
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
@@ -75,6 +74,20 @@
       <attr-item tags="mf"/>
       <attr-item tags="nt"/>
     </def-attr>
+    <def-attr n="temps">
+      <attr-item tags="past"/>
+      <attr-item tags="prs"/>
+      <attr-item tags="cni"/>
+      <attr-item tags="pii"/>
+      <attr-item tags="fut"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="inf"/>
+      <attr-item tags="plu"/>
+      <attr-item tags="cns"/>
+      <attr-item tags="ger"/>
+    </def-attr>
+
   </section-def-attrs>
 
   <section-def-vars>
@@ -501,6 +514,36 @@
         </let>
       </action>
     </rule>
+
+    <rule comment="REGLA: instead of VERB ger">
+      <pattern>
+        <pattern-item n="instead_of"/>
+        <pattern-item n="verbger"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="verbinf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+              <tag><lit-tag v="inf"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps" link-to="3"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b/>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: PRSUBJ VBLEX">
       <pattern>

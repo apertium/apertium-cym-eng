@@ -26,6 +26,9 @@
     <def-cat n="yn">
       <cat-item lemma="yn" tags="*"/>
     </def-cat>
+    <def-cat n="yn_lle">
+      <cat-item lemma="yn lle" tags="*"/>
+    </def-cat>
     <def-cat n="prnsubj">
       <cat-item lemma="prpers" tags="prn.subj.*"/>
     </def-cat>
@@ -1085,6 +1088,36 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: yn lle VERB inf">
+      <pattern>
+        <pattern-item n="yn_lle"/>
+        <pattern-item n="verbinf"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="verbinf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+              <tag><lit-tag v="ger"/></tag>
+            </tags>
+	    <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	    <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps" link-to="3"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b/>
+        </out>
+      </action>
+    </rule>
+
 
 
     <rule comment="REGLA: PR">
