@@ -702,30 +702,56 @@
           <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
-      <e>
-        <p>
-          <l>fe</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
+
+      <!-- Northern forms -->
       <e r="LR">
         <p>
           <l>fo</l>
           <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
+<!-- Commenting out until the tagger improves
+      <e r="LR">
+        <p>
+          <l>o</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+-->
+      <e r="LR">
+        <p>
+          <l>e</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fe</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+
+      <e r="RL">
+        <p>
+          <l><a/>fe</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+
       <e>
         <p>
           <l>hi</l>
           <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
+
       <e>
         <p>
           <l>ni</l>
           <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
+
       <e>
         <p>
           <l>chi</l>
@@ -738,6 +764,7 @@
           <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
+
       <e r="LR">
         <p>
           <l>hwy</l>
@@ -46908,6 +46935,7 @@
     <e lm="rŵan"><i>rwan</i><par n="yma__adv"/></e>
     <e lm="erioed"><i>erioed</i><par n="yma__adv"/></e>
     <e lm="ddim"><i>ddim</i><par n="yma__adv"/></e>
+    <e lm="am amser hir"><i>am<b/>amser<b/>hir</i><par n="yma__adv"/></e>
 
 
     <e lm="hofrenfad"><i>hofrenfad</i><par n="adeilad__n"/></e>
@@ -52382,7 +52410,9 @@
     <e lm="cenhadu"><par n="initial-c"/><i>enhad</i><par n="cenh/adu__vblex"/></e>
     <e lm="cenhedlu"><par n="initial-c"/><i>enhedl</i><par n="ailgenhedl/u__vblex"/></e>
     <e lm="cennu"><par n="initial-c"/><i>enn</i><par n="absenn/u__vblex"/></e>
+
     <e lm="cerdded"><par n="initial-c"/><i>erdd</i><par n="ailystyri/ed__vblex"/></e>
+
     <e lm="cerddetan"><par n="initial-c"/><i>erddetan</i><par n="achub__vblex"/></e>
     <e lm="cerfio"><par n="initial-c"/><i>erfi</i><par n="achlysur/o__vblex"/></e>
     <e lm="cerflunio"><par n="initial-c"/><i>erfluni</i><par n="achlysur/o__vblex"/></e>
@@ -53294,7 +53324,10 @@
     <e lm="duo"><par n="initial-d"/><i>u</i><par n="achlysur/o__vblex"/></e>
     <e lm="dwbio"><par n="initial-d"/><i>wbi</i><par n="achlysur/o__vblex"/></e>
     <e lm="dwdlio"><par n="initial-d"/><i>wdli</i><par n="achlysur/o__vblex"/></e>
+
     <e lm="dweud"><par n="initial-d"/><i/><par n="aildd/weud__vblex"/></e>
+    <e lm="dweud wrth"><par n="initial-d"/><i/><par n="aildd/weud__vblex"/><p><l><b/>wrth</l><r><g><b/>wrth</g></r></p></e>
+
     <e lm="dwmpian"><par n="initial-d"/><i>wmpi</i><par n="begi/an__vblex"/></e>
     <e lm="dwrdio"><par n="initial-d"/><i>wrdi</i><par n="achlysur/o__vblex"/></e>
     <e lm="dwyfoli"><par n="initial-d"/><i>wyfol</i><par n="achos/i__vblex"/></e>
@@ -54794,7 +54827,10 @@
     <e lm="sianelu"><i>sianel</i><par n="aberth/u__vblex"/></e>
     <e lm="siapio"><i>siapi</i><par n="achlysur/o__vblex"/></e>
     <e lm="siapo"><i>siap</i><par n="achlysur/o__vblex"/></e>
+
     <e lm="siarad"><i>siarad</i><par n="achub__vblex"/></e>
+    <e lm="siarad am"><i>siarad</i><par n="achub__vblex"/><p><l><b/>am</l><r><g><b/>am</g></r></p></e>
+
     <e lm="siario"><i>siari</i><par n="achlysur/o__vblex"/></e>
     <e lm="siarsio"><i>siar</i><par n="siar/sio__vblex"/></e>
     <e lm="siawnsio"><i>siawnsi</i><par n="achlysur/o__vblex"/></e>
@@ -55246,7 +55282,10 @@
     <e lm="ymbrofi"><i>ymbrof</i><par n="achos/i__vblex"/></e>
     <e lm="ymbwyllo"><i>ymbwyll</i><par n="achlysur/o__vblex"/></e>
     <e lm="ymchwarae"><i>ymchwarae</i><par n="achub__vblex"/></e>
+
     <e lm="ymchwilio"><i>ymchwili</i><par n="achlysur/o__vblex"/></e>
+    <e lm="ymchwilio"><i>ymchwili</i><par n="achlysur/o__vblex"/><p><l><b/>i</l><r><g><b/>i</g></r></p></e>
+
     <e lm="ymchwyddo"><i>ymchwydd</i><par n="achlysur/o__vblex"/></e>
     <e lm="ymdaclo"><i>ymdacl</i><par n="achlysur/o__vblex"/></e>
     <e lm="ymdaclu"><i>ymdacl</i><par n="aberth/u__vblex"/></e>

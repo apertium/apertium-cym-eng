@@ -28783,7 +28783,10 @@
     <e lm="supply"><i>suppl</i><par n="appl/y__vblex"/></e>
     <e lm="suppose"><i>suppos</i><par n="liv/e__vblex"/></e>
     <e lm="take"><i>t</i><par n="t/ake__vblex"/></e>
+
     <e lm="talk"><i>talk</i><par n="accept__vblex"/></e>
+    <e lm="talk about"><i>talk</i><par n="accept__vblex"/><p><l><b/>about</l><r><g><b/>about</g></r></p></e>
+
     <e lm="tell"><i>t</i><par n="s/ell__vblex"/></e>
     <e lm="tend"><i>tend</i><par n="accept__vblex"/></e>
     <e lm="test"><i>test</i><par n="accept__vblex"/></e>

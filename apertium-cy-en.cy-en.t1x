@@ -31,6 +31,7 @@
     </def-cat>
     <def-cat n="verbinf">
       <cat-item tags="vblex.inf"/>
+      <cat-item tags="vbser.inf"/>
     </def-cat>
     <def-cat n="verbcj">
       <cat-item tags="vblex.cni.*"/>
@@ -158,6 +159,7 @@
     <def-var n="nombre"/>
     <def-var n="temps_chunk"/>
     <def-var n="lema_SV"/>
+    <def-var n="lema_SP"/>
     <def-var n="verbfinal"/>
     <def-var n="adjectiu1"/>
   </section-def-vars>
@@ -966,46 +968,6 @@
       </action>
     </rule>
 
-<!--
-    <rule comment="REGLA: CNJCOO DET NOM"> 
-      <pattern>
-        <pattern-item n="cnjcoo"/>
-        <pattern-item n="det"/>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action> 
-        <out>
-          <chunk name="cnjcoo_det_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_cnj"/>
-            </lu>
-            <b/>
-            <lu>
-              <clip pos="2" side="tl" part="lem"/>
-              <clip pos="2" side="tl" part="a_det"/>
-              <clip pos="2" side="tl" part="nbr"/>
-            </lu>
-            <b/>
-            <lu>
-              <clip pos="3" side="tl" part="lem"/>
-              <clip pos="3" side="tl" part="a_nom"/>
-              <clip pos="3" side="tl" part="nbr"/>
-            </lu>
-          </chunk>
-        </out>
-        <let>
-          <var n="caseFirstWord"/>
-          <lit v="aa"/>
-        </let>
-      </action>
-    </rule>
--->
-
 
   <!-- Sintagmas verbales -->
 
@@ -1034,6 +996,31 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: VERB inf">
+      <pattern>
+        <pattern-item n="verbinf"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="verbinf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><lit-tag v="inf"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
     <rule comment="REGLA: yn VERB inf">
       <pattern>
@@ -1067,8 +1054,12 @@
         <pattern-item n="pr"/>
       </pattern>
       <action>
+      <let>
+        <var n="lema_SP"/>
+	<clip pos="1" side="sl" part="lem"/>
+      </let>
         <out>
-          <chunk name="pr" case="caseFirstWord">
+          <chunk namefrom="lema_SP" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SP"/></tag>
             </tags>
