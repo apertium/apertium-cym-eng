@@ -9141,6 +9141,27 @@
         </p>
       </e>
     </pardef>
+    <pardef n="neis__adj">
+      <e>
+        <p>
+          <l/>
+          <r><s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iach</l>
+          <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iaf</l>
+          <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="gwyn__adj"> <!-- This isn't a full paradigm, missing m/f forms. -->
       <e>
         <p>
@@ -51629,7 +51650,7 @@
     <e lm="negyddol"><i>negyddol</i><par n="caredig__adj"/></e>
     <e lm="neilltuedig"><i>neilltuedig</i><par n="caredig__adj"/></e>
     <e lm="neilltuol"><i>neilltuol</i><par n="caredig__adj"/></e>
-    <e lm="neis"><i>neis</i><par n="caredig__adj"/></e>
+    <e lm="neis"><i>neis</i><par n="neis__adj"/></e>
     <e lm="nerthol"><i>nerthol</i><par n="caredig__adj"/></e>
     <e lm="newidiedig"><i>newidiedig</i><par n="caredig__adj"/></e>
     <e lm="newidiol"><i>newidiol</i><par n="caredig__adj"/></e>
