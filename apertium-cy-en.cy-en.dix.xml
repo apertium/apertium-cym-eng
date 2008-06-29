@@ -4081,7 +4081,7 @@
     <e><p><l>bonheddig<s n="adj"/></l><r>gentlemanly<s n="adj"/></r></p></e>
     <e><p><l>booleaidd<s n="adj"/></l><r>Boolean<s n="adj"/></r></p></e>
     <e><p><l>braf<s n="adj"/></l><r>fine<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>bras<s n="adj"/></l><r>fat<s n="adj"/><s n="sint"/></r></p></e> 
+    <e r="LR"><p><l>bras<s n="adj"/></l><r>fat<s n="adj"/><s n="sint"/></r></p></e> 
     <e r="RL"><p><l>bras<s n="adj"/></l><r>rough<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>bregus<s n="adj"/></l><r>brittle<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>breintiedig<s n="adj"/></l><r>privileged<s n="adj"/></r></p></e>
@@ -4093,7 +4093,7 @@
     <e><p><l>buan<s n="adj"/></l><r>soon<s n="adj"/></r></p></e>
     <e><p><l>buddiol<s n="adj"/></l><r>beneficial<s n="adj"/></r></p></e>
     <e><p><l>budr<s n="adj"/></l><r>dirty<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>budron<s n="adj"/></l><r>dirty<s n="adj"/><s n="sint"/></r></p></e> 
+    <e r="LR"><p><l>budron<s n="adj"/></l><r>dirty<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>bwriadol<s n="adj"/></l><r>intentional<s n="adj"/></r></p></e>
     <e><p><l>bychain<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>bychan<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e> 
@@ -4934,7 +4934,7 @@
     <e><p><l>negyddol<s n="adj"/></l><r>negative<s n="adj"/></r></p></e>
     <e><p><l>neilltuedig<s n="adj"/></l><r>reserved<s n="adj"/></r></p></e>
     <e><p><l>neilltuol<s n="adj"/></l><r>particular<s n="adj"/></r></p></e>
-    <e><p><l>neis<s n="adj"/></l><r>nice<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>neis<s n="adj"/><s n="sint"/></l><r>nice<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>nerthol<s n="adj"/></l><r>powerful<s n="adj"/></r></p></e>
     <e><p><l>newidiedig<s n="adj"/></l><r>changed<s n="adj"/></r></p></e>
     <e><p><l>newidiol<s n="adj"/></l><r>variable<s n="adj"/></r></p></e>
