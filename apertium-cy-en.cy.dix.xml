@@ -55763,6 +55763,13 @@
       <par n="yn__part"/>
     </e>
 
+    <e lm="sy'n" r="LR">
+      <p>
+        <l>sy'n</l>
+        <r>bod<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>yn<s n="part"/></r>
+      </p>
+    </e>
+
 
     <e lm="i'r" r="LR">
       <p>
