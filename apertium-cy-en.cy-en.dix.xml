@@ -238,13 +238,13 @@
     <e><p><l>chwerthin<s n="n"/><s n="m"/></l><r>laughter<s n="n"/></r></p></e><!-- laughter - chwerthin [m.]-->
     <e><p><l>anghymhwyster<s n="n"/><s n="m"/></l><r>disqualification<s n="n"/></r></p></e><!-- disqualification - anghymhwyster [m.]-->
     <e><p><l>hiraeth<s n="n"/><s n="m"/></l><r>nostalgia<s n="n"/></r></p></e><!-- nostalgia - hiraeth [m.]-->
-    <e><p><l>cemeg<s n="n"/><s n="f"/></l><r>chemistry<s n="n"/></r></p></e><!-- chemistry - cemeg [f.]-->
-    <e><p><l>bioleg<s n="n"/><s n="f"/></l><r>biology<s n="n"/></r></p></e>
+    <e><p><l>cemeg<s n="n"/><s n="f"/></l><r>chemistry<s n="n"/><s n="unc"/></r></p></e><!-- chemistry - cemeg [f.]-->
+    <e><p><l>bioleg<s n="n"/><s n="f"/></l><r>biology<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>difyrwaith<s n="n"/><s n="m"/></l><r>hobby<s n="n"/></r></p></e>
     <e><p><l>ffiseg<s n="n"/><s n="f"/></l><r>physics<s n="n"/><s n="unc"/></r></p></e>
-    <e><p><l>mytholeg<s n="n"/><s n="f"/></l><r>mythology<s n="n"/></r></p></e>
-    <e><p><l>anthropoleg<s n="n"/><s n="f"/></l><r>anthropology<s n="n"/></r></p></e>
-    <e><p><l>archaeoleg<s n="n"/><s n="f"/></l><r>archaeology<s n="n"/></r></p></e>
+    <e><p><l>mytholeg<s n="n"/><s n="f"/></l><r>mythology<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>anthropoleg<s n="n"/><s n="f"/></l><r>anthropology<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>archaeoleg<s n="n"/><s n="f"/></l><r>archaeology<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>annedwyddwch<s n="n"/><s n="m"/></l><r>unhappiness<s n="n"/></r></p></e><!-- unhappiness - annedwyddwch [m.]-->
     <e><p><l>syr<s n="n"/><s n="m"/></l><r>sir<s n="n"/></r></p></e><!-- sir - syr [m.]-->
     <e><p><l>rhyg<s n="n"/><s n="m"/></l><r>rye<s n="n"/></r></p></e><!-- rye - rhyg [m.]-->
@@ -2018,7 +2018,7 @@
     <e><p><l>pensaernïaeth<s n="n"/><s n="f"/></l><r>architecture<s n="n"/></r></p></e>
     <e><p><l>pentre<s n="n"/><s n="m"/></l><r>village<s n="n"/></r></p></e>
     <e><p><l>perchnogaeth<s n="n"/><s n="f"/></l><r>ownership<s n="n"/></r></p></e>
-    <e><p><l>personél<s n="n"/><s n="m"/></l><r>personnel<s n="n"/></r></p></e>
+    <e><p><l>personél<s n="n"/><s n="m"/></l><r>personnel<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>perthnasedd<s n="n"/><s n="m"/></l><r>relevance<s n="n"/></r></p></e>
     <e><p><l>petrol<s n="n"/><s n="m"/></l><r>petrol<s n="n"/></r></p></e>
     <e><p><l>plastig<s n="n"/><s n="m"/></l><r>plastic<s n="n"/><s n="unc"/></r></p></e>
@@ -2027,8 +2027,8 @@
     <e><p><l>plith<s n="n"/><s n="m"/></l><r>midst<s n="n"/></r></p></e>
     <e><p><l>plwm<s n="n"/><s n="m"/></l><r>lead<s n="n"/></r></p></e>
     <e><p><l>plws<s n="n"/><s n="m"/></l><r>plus<s n="n"/></r></p></e>
-    <e><p><l>pobl<s n="n"/><s n="f"/></l><r>people<s n="n"/></r></p></e>
-    <e><p><l>pobol<s n="n"/><s n="f"/></l><r>people<s n="n"/></r></p></e>
+    <e><p><l>pobl<s n="n"/><s n="f"/></l><r>people<s n="n"/><s n="pl"/></r></p></e>
+    <e><p><l>pobol<s n="n"/><s n="f"/></l><r>people<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>pop<s n="n"/><s n="m"/></l><r>pop<s n="n"/></r></p></e>
     <e><p><l>popeth<s n="n"/><s n="m"/></l><r>everything<s n="n"/></r></p></e>
     <e><p><l>posibilrwydd<s n="n"/><s n="m"/></l><r>possibility<s n="n"/></r></p></e>
@@ -2127,7 +2127,7 @@
     <e><p><l>ymyrraeth<s n="n"/><s n="f"/></l><r>interruption<s n="n"/></r></p></e>
     <e><p><l>ysgolheictod<s n="n"/><s n="m"/></l><r>scholarship<s n="n"/></r></p></e>
     <e><p><l>ysgŵd<s n="n"/><s n="m"/></l><r>shove<s n="n"/></r></p></e>
-    <e><p><l>ystadegaeth<s n="n"/><s n="f"/></l><r>statistics<s n="n"/></r></p></e>
+    <e><p><l>ystadegaeth<s n="n"/><s n="f"/></l><r>statistics<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>academydd<s n="n"/><s n="m"/></l><r>academic<s n="n"/></r></p></e>
     <e><p><l>acen<s n="n"/><s n="f"/></l><r>accent<s n="n"/></r></p></e>
     <e><p><l>achos<s n="n"/><s n="m"/></l><r>cause<s n="n"/></r></p></e>
