@@ -9953,7 +9953,10 @@
     <e><p><l>Samoa<s n="np"/><s n="top"/></l><r>Samoa<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>San Marino<s n="np"/><s n="top"/></l><r>San Marino<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Saudi Arabia<s n="np"/><s n="top"/></l><r>Saudi Arabia<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Yr Alban<s n="np"/><s n="top"/></l><r>Scotland<s n="np"/><s n="top"/></r></p></e>
+
+    <!-- Check if 'Yr' should always be capitalised -->
+    <e><p><l>yr Alban<s n="np"/><s n="top"/></l><r>Scotland<s n="np"/><s n="top"/></r></p></e>
+
     <e><p><l>Sénégal<s n="np"/><s n="top"/></l><r>Senegal<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Serbia<s n="np"/><s n="top"/></l><r>Serbia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Seychelles<s n="np"/><s n="top"/></l><r>Seychelles<s n="np"/><s n="top"/></r></p></e>
