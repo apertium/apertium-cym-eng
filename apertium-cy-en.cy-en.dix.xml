@@ -5318,7 +5318,7 @@
     <e><p><l>agos<s n="adj"/></l><r>close<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>aml<s n="adj"/></l><r>frequent<s n="adj"/></r></p></e>
     <e><p><l>amlwg<s n="adj"/></l><r>obvious<s n="adj"/></r></p></e>
-    <e><p><l>anodd<s n="adj"/></l><r>difficult<s n="adj"/></r></p></e>
+    <e><p><l>anodd<s n="adj"/><s n="sint"/></l><r>difficult<s n="adj"/></r></p></e>
     <e><p><l>araf<s n="adj"/></l><r>slow<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>bach<s n="adj"/><s n="sint"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e> 
     <e r="RL"><p><l>bas<s n="adj"/></l><r>bass<s n="adj"/></r></p></e>
@@ -5994,7 +5994,11 @@
     <e><p><l>cegu<s n="vblex"/></l><r>gulp<s n="vblex"/></r></p></e>
     <e><p><l>ceibio<s n="vblex"/></l><r>hack<s n="vblex"/></r></p></e>
     <e><p><l>ceintach<s n="vblex"/></l><r>grumble<s n="vblex"/></r></p></e>
+<!--
     <e><p><l>ceisio<s n="vblex"/></l><r>seek<s n="vblex"/></r></p></e>
+-->
+    <e><p><l>ceisio<s n="vblex"/></l><r>try<s n="vblex"/></r></p></e>
+
     <e><p><l>celcio<s n="vblex"/></l><r>conceal<s n="vblex"/></r></p></e>
     <e><p><l>celcu<s n="vblex"/></l><r>conceal<s n="vblex"/></r></p></e>
     <e><p><l>celffeinio<s n="vblex"/></l><r>wither<s n="vblex"/></r></p></e>
