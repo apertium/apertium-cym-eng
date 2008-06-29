@@ -85,7 +85,41 @@
   <section-def-vars>
     <def-var n="nombre"/>
     <def-var n="genere"/>
+    <def-var n="verbfinal"/>
   </section-def-vars>
+
+  <section-def-macros>
+    <def-macro n="conj_verb_haver1" npar="1">
+      <choose>
+        <when>
+          <test>
+  	  <and>
+  	    <equal>
+  	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	    <not>
+	      <equal>
+	        <clip pos="1" part="lem"/>
+	        <lit v="prnsubj"/>
+	      </equal>
+	    </not>
+	  </and>
+	</test>
+        <let>
+          <var n="verbfinal"/>
+              <lit-tag v="vbhaver.pres.p3.sg"/>
+        </let>
+      </when>	
+      <otherwise>
+        <let>
+          <var n="verbfinal"/>
+              <lit-tag v="vbhaver.pres"/>
+        </let>
+      </otherwise>
+      </choose>
+    </def-macro>
+  </section-def-macros>
 
   <section-rules>
     <rule comment="REGLA: SN">
@@ -164,6 +198,45 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: SV SN SN">
+      <pattern>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <get-case-from pos="1">
+              <clip pos="2" part="lem"/>
+            </get-case-from>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <get-case-from pos="2">
+              <clip pos="1" part="lem"/>
+            </get-case-from>
+            <clip pos="1" part="a_frase"/>
+	    <clip pos="1" part="a_verb"/>
+	    <clip pos="1" part="temps"/>
+	    <clip pos="1" part="pers"/>
+	    <clip pos="2" part="nbr"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
     <!-- 
         For Welsh pattern "bod + noun phrase + wedi + verb_inf"
         output English "that + noun phrase + has/have + verb_past_participle"
@@ -176,6 +249,9 @@
         <pattern-item n="SV_inf"/>
       </pattern>
       <action>
+        <call-macro n="conj_verb_haver1">
+          <with-param pos="2"/> 
+        </call-macro> 
         <out>
 	  <chunk>
 	    <lit v="cnjsub"/>
@@ -192,11 +268,10 @@
           </chunk>
 	  <b/>
           <chunk>
-	    <lit v="vbhaver"/>
-	    <lit-tag v="SV.vbhaver"/>
-	    <lit v="{^"/>
-              <lit v="have"/>
-              <lit-tag v="vbhaver.pres"/>
+            <lit v="vbhaver"/>
+            <lit-tag v="SV.vbhaver"/>
+            <lit v="{^have"/>
+              <var n="verbfinal"/>
 	    <lit v="$}"/>
 	  </chunk>
 	  <b/>
@@ -249,46 +324,6 @@
 	    <clip pos="4" part="lem"/>
 	    <lit-tag v="SV.vblex.inf"/>
             <clip pos="4" part="chcontent"/>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
-
-
-    <rule comment="REGLA: SV SN SN">
-      <pattern>
-        <pattern-item n="SV"/>
-        <pattern-item n="SN"/>
-        <pattern-item n="SN"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk>
-            <get-case-from pos="1">
-              <clip pos="2" part="lem"/>
-            </get-case-from>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
-          </chunk>
-          <b/>
-          <chunk>
-            <get-case-from pos="2">
-              <clip pos="1" part="lem"/>
-            </get-case-from>
-            <clip pos="1" part="a_frase"/>
-	    <clip pos="1" part="a_verb"/>
-	    <clip pos="1" part="temps"/>
-	    <clip pos="1" part="pers"/>
-	    <clip pos="2" part="nbr"/>
-            <clip pos="1" part="chcontent"/>
-          </chunk>
-          <b/>
-          <chunk>
-            <clip pos="3" part="lem"/>
-            <clip pos="3" part="tags"/>
-            <clip pos="3" part="chcontent"/>
           </chunk>
         </out>
       </action>
