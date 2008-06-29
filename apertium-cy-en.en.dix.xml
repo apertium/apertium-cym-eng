@@ -15972,6 +15972,7 @@
     <e lm="handle"><i>handle</i><par n="house__n"/></e>
     <e lm="wine"><i>wine</i><par n="house__n"/></e>
     <e lm="science"><i>science</i><par n="house__n"/></e>
+    <e lm="library science"><i>library<b/>science</i><par n="house__n"/></e>
     <e lm="plus"><i>plus</i><par n="access__n"/></e>
     <e lm="sport"><i>sport</i><par n="house__n"/></e>
     <e lm="east"><i>east</i><par n="east__n__unc"/></e>
