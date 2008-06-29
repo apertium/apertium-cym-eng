@@ -111,6 +111,26 @@
               <lit-tag v="vbhaver.pres.p3.sg"/>
         </let>
       </when>	
+
+        <when>
+          <test>
+  	  <and>
+  	    <equal>
+  	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	      <equal>
+	        <clip pos="1" part="lem"/>
+	        <lit v="prnsubj"/>
+	      </equal>
+	  </and>
+	</test>
+        <let>
+          <var n="verbfinal"/>
+              <lit-tag v="vbhaver.pres.p3.sg"/>
+        </let>
+      </when>	
+
       <otherwise>
         <let>
           <var n="verbfinal"/>
