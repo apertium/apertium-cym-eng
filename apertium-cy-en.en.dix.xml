@@ -15155,6 +15155,7 @@
     <e lm="most of"><i>most<b/>of</i><par n="enough__det"/></e>
     <e lm="all"><i>all</i><par n="all__predet"/></e>
     <e lm="about"><i>about</i><par n="at__pr"/></e>
+    <e lm="about to"><i>about<b/>to</i><par n="at__pr"/></e>
     <e lm="rather than"><i>rather<b/>than</i><par n="at__pr"/></e>
     <e lm="more than"><i>more<b/>than</i><par n="at__pr"/></e>
     <e lm="less than"><i>less<b/>than</i><par n="at__pr"/></e>
