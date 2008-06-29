@@ -1016,11 +1016,10 @@
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
+	  <b/>
         </out>
       </action>
     </rule>
-
-
 
     <rule comment="REGLA: yn VERB inf">
       <pattern>
@@ -1042,11 +1041,10 @@
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
+          <b/>
         </out>
       </action>
     </rule>
-
-
 
 
     <rule comment="REGLA: PR">
