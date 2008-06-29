@@ -9893,12 +9893,14 @@
           <r>u<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
+<!-- Commenting out until tagger improves
       <e>
         <p>
           <l>ed</l>
           <r>u<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
+-->
       <e>
         <p>
           <l>wn</l>
@@ -55858,6 +55860,7 @@
     <e lm="Sir Gaerfyrddin"><i>Sir<b/>Gaerfyrddin</i><par n="Blaenafon__np"/></e>
     <e lm="Powys"><par n="initial-P"/><i>owys</i><par n="Blaenafon__np"/></e>
     <e lm="Dyfed"><par n="initial-D"/><i>yfed</i><par n="Blaenafon__np"/></e>
+    <e lm="Dyfed-Powys"><par n="initial-D"/><i>yfed-Powys</i><par n="Blaenafon__np"/></e>
     <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Blaenafon__np"/></e>
     <e lm="Hwlffordd"><i>Hwlffordd</i><par n="Blaenafon__np"/></e>
     <e lm="Bangor"><par n="initial-B"/><i>angor</i><par n="Blaenafon__np"/></e>
