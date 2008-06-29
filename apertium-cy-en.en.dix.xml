@@ -34539,6 +34539,15 @@
         <r><g><b/>together</g></r>
       </p>
     </e>
+    <e lm="lust after">
+      <i>lust</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>after</l>
+        <r><g><b/>after</g></r>
+      </p>
+    </e>
+
     <e lm="worship idols">
       <i>worship</i>
       <par n="accept__vblex"/>
