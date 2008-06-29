@@ -47167,7 +47167,7 @@
     <e lm="â"><i/><par n="/â__pr"/></e>
 
     <e lm="efo"><i>efo</i><par n="gyda__pr"/></e>
-    <e lm="tua"><i>tua</i><par n="gyda__pr"/></e>
+    <e lm="tua"><par n="initial-t"/><i>ua</i><par n="gyda__pr"/></e>
     <e lm="hyd"><i>hyd</i><par n="gyda__pr"/></e>
     <e lm="cyn"><par n="initial-c"/><i>yn</i><par n="gyda__pr"/></e>
     <e lm="fel"><i>fel</i><par n="gyda__pr"/></e>
@@ -47178,7 +47178,7 @@
     <e lm="erbyn"><i>erbyn</i><par n="gyda__pr"/></e>
     <e lm="heblaw"><i>heblaw</i><par n="gyda__pr"/></e>
     <e lm="heibio"><i>heibio</i><par n="gyda__pr"/></e>
-    <e lm="tan"><i>tan</i><par n="gyda__pr"/></e>
+    <e lm="tan"><par n="initial-t"/><i>an</i><par n="gyda__pr"/></e>
     <e lm="ac eithrio"><i>ac_eithrio</i><par n="gyda__pr"/></e>
     <e lm="eithr"><i>eithr</i><par n="gyda__pr"/></e>
     <e lm="gogyfer â"><i>gogyfer<b/>â</i><par n="gyda__pr"/></e>
@@ -47963,7 +47963,7 @@
     <e lm="term"><par n="initial-t"/><i>erm</i><par n="aberth__n"/></e>
     <e lm="testun"><par n="initial-t"/><i>estun</i><par n="aberth__n"/></e>
     <e lm="tetrahedron"><par n="initial-t"/><i>etrahedron</i><par n="aberth__n"/></e>
-    <e lm="thermomedr"><i>thermomedr</i><par n="aberth__n"/></e>
+    <e lm="thermomedr"><par n="initial-t"/><i>hermomedr</i><par n="aberth__n"/></e>
     <e lm="torcytundeb"><par n="initial-t"/><i>orcytundeb</i><par n="aberth__n"/></e>
     <e lm="toriad"><par n="initial-t"/><i>oriad</i><par n="aberth__n"/></e>
     <e lm="toriad"><par n="initial-t"/><i>oriad</i><par n="aberth__n"/></e>
@@ -48239,7 +48239,7 @@
     <e lm="technoleg"><par n="initial-t"/><i>echnoleg</i><par n="actores__n"/></e>
     <e lm="tenantiaeth"><par n="initial-t"/><i>enantiaeth</i><par n="actores__n"/></e>
     <e lm="terfynell"><par n="initial-t"/><i>erfynell</i><par n="actores__n"/></e>
-    <e lm="theatr"><i>theatr</i><par n="actores__n"/></e>
+    <e lm="theatr"><par n="initial-t"/><i>heatr</i><par n="actores__n"/></e>
     <e lm="tiriogaeth"><par n="initial-t"/><i>iriogaeth</i><par n="actores__n"/></e>
     <e lm="tirwedd"><par n="initial-t"/><i>irwedd</i><par n="actores__n"/></e>
     <e lm="torth"><par n="initial-t"/><i>orth</i><par n="actores__n"/></e>
@@ -48309,7 +48309,7 @@
     <e lm="cyseinedd"><par n="initial-c"/><i>yseinedd</i><par n="achosiant__n"/></e>
     <e lm="distawrwydd"><par n="initial-d"/><i>istawrwydd</i><par n="achosiant__n"/></e>
     <e lm="galw"><par n="initial-g"/><i>alw</i><par n="achosiant__n"/></e>
-    <e lm="tu"><i>tu</i><par n="achosiant__n"/></e>
+    <e lm="tu"><par n="initial-t"/><i>u</i><par n="achosiant__n"/></e>
     <e lm="achosiant"><i>achosiant</i><par n="achosiant__n"/></e>
     <e lm="achubiad"><i>achubiad</i><par n="achosiant__n"/></e>
     <e lm="adborth"><i>adborth</i><par n="achosiant__n"/></e>
@@ -48656,13 +48656,13 @@
     <e lm="taldra"><par n="initial-t"/><i>aldra</i><par n="achosiant__n"/></e>
     <e lm="tancer"><par n="initial-t"/><i>ancer</i><par n="achosiant__n"/></e>
     <e lm="tawelwch"><par n="initial-t"/><i>awelwch</i><par n="achosiant__n"/></e>
-    <e lm="te"><i>te</i><par n="achosiant__n"/></e>
+    <e lm="te"><par n="initial-t"/><i>e</i><par n="achosiant__n"/></e>
     <e lm="tebygrwydd"><par n="initial-t"/><i>ebygrwydd</i><par n="achosiant__n"/></e>
     <e lm="tegeirian"><par n="initial-t"/><i>egeirian</i><par n="achosiant__n"/></e>
     <e lm="teleffoni"><par n="initial-t"/><i>eleffoni</i><par n="achosiant__n"/></e>
     <e lm="telewerthu"><par n="initial-t"/><i>elewerthu</i><par n="achosiant__n"/></e>
     <e lm="teyrngarwch"><par n="initial-t"/><i>eyrngarwch</i><par n="achosiant__n"/></e>
-    <e lm="thesawrus"><i>thesawrus</i><par n="achosiant__n"/></e>
+    <e lm="thesawrus"><par n="initial-t"/><i>hesawrus</i><par n="achosiant__n"/></e>
     <e lm="tirlenwi"><par n="initial-t"/><i>irlenwi</i><par n="achosiant__n"/></e>
     <e lm="trachywiredd"><par n="initial-t"/><i>rachywiredd</i><par n="achosiant__n"/></e>
     <e lm="traffig"><par n="initial-t"/><i>raffig</i><par n="achosiant__n"/></e>
@@ -49012,7 +49012,7 @@
     <e lm="tablydd"><par n="initial-t"/><i>ablydd</i><par n="academydd__n"/></e>
     <e lm="tanwydd"><par n="initial-t"/><i>anwydd</i><par n="academydd__n"/></e>
     <e lm="tardd"><par n="initial-t"/><i>ardd</i><par n="academydd__n"/></e>
-    <e lm="therapydd"><i>therapydd</i><par n="academydd__n"/></e>
+    <e lm="therapydd"><par n="initial-t"/><i>herapydd</i><par n="academydd__n"/></e>
     <e lm="trafod"><par n="initial-t"/><i>rafod</i><par n="academydd__n"/></e>
     <e lm="trefnlennydd"><par n="initial-t"/><i>refnlennydd</i><par n="academydd__n"/></e>
     <e lm="trefnydd"><par n="initial-t"/><i>refnydd</i><par n="academydd__n"/></e>
@@ -49815,11 +49815,11 @@
     <e lm="llungopi"><par n="initial-ll"/><i>ungop</i><par n="academ/i__n"/></e>
     <e lm="monopoli"><par n="initial-m"/><i>onopol</i><par n="academ/i__n"/></e>
     <e lm="polisi"><par n="initial-p"/><i>olis</i><par n="academ/i__n"/></e>
-    <e lm="therapi"><i>therap</i><par n="academ/i__n"/></e>
+    <e lm="therapi"><par n="initial-t"/><i>herap</i><par n="academ/i__n"/></e>
     <e lm="ffansi"><i>ffans</i><par n="ffans/i__n"/></e>
     <e lm="ffantasi"><i>ffantas</i><par n="ffans/i__n"/></e>
     <e lm="seremoni"><i>seremon</i><par n="ffans/i__n"/></e>
-    <e lm="theori"><i>theor</i><par n="ffans/i__n"/></e>
+    <e lm="theori"><par n="initial-t"/><i>heor</i><par n="ffans/i__n"/></e>
     <e lm="economi"><i>econom</i><par n="econom/i__n"/></e>
     <e lm="artist"><i>artist</i><par n="artist__n"/></e>
     <e lm="capten"><par n="initial-c"/><i>apten</i><par n="artist__n"/></e>
@@ -49943,7 +49943,7 @@
     <e lm="fformiwla"><i>fformiwl</i><par n="dram/a__n"/></e>
     <e lm="sgema"><i>sgem</i><par n="dram/a__n"/></e>
     <e lm="sinema"><i>sinem</i><par n="dram/a__n"/></e>
-    <e lm="thema"><i>them</i><par n="dram/a__n"/></e>
+    <e lm="thema"><par n="initial-t"/><i>hem</i><par n="dram/a__n"/></e>
     <e lm="beirniad"><par n="initial-b"/><i>eirnia</i><par n="beirnia/d__n"/></e>
     <e lm="budd-ddeiliad"><par n="initial-b"/><i>udd-ddeilia</i><par n="beirnia/d__n"/></e>
     <e lm="deiliad"><par n="initial-d"/><i>eilia</i><par n="beirnia/d__n"/></e>
@@ -49965,7 +49965,7 @@
     <e lm="adlais"><i>adl</i><par n="adl/ais__n"/></e>
     <e lm="llais"><i>ll</i><par n="adl/ais__n"/></e>
     <e lm="pwyslais"><par n="initial-p"/><i>wysl</i><par n="adl/ais__n"/></e>
-    <e lm="trais"><i>tr</i><par n="adl/ais__n"/></e>
+    <e lm="trais"><par n="initial-t"/><i>r</i><par n="adl/ais__n"/></e>
     <e lm="dyfais"><par n="initial-d"/><i>yf</i><par n="dyf/ais__n"/></e>
     <e lm="gwrthbleidlais"><par n="initial-g"/><i>wrthbleidl</i><par n="dyf/ais__n"/></e>
     <e lm="pleidlais"><par n="initial-p"/><i>leidl</i><par n="dyf/ais__n"/></e>
@@ -50038,7 +50038,7 @@
     <e lm="locws"><i>loc</i><par n="dr/ws__n"/></e>
     <e lm="radiws"><i>radi</i><par n="dr/ws__n"/></e>
     <e lm="statws"><i>stat</i><par n="dr/ws__n"/></e>
-    <e lm="thesawrws"><i>thesawr</i><par n="dr/ws__n"/></e>
+    <e lm="thesawrws"><par n="initial-t"/><i>hesawr</i><par n="dr/ws__n"/></e>
     <e lm="warws"><i>war</i><par n="dr/ws__n"/></e>
     <e lm="annibynnwr"><i>annibyn</i><par n="annibyn/nwr__n"/></e>
     <e lm="cyfrannwr"><par n="initial-c"/><i>yfran</i><par n="annibyn/nwr__n"/></e>
@@ -50185,7 +50185,7 @@
     <e lm="sêl"><i>s</i><par n="s/êl__n"/></e>
     <e lm="apêl"><i>ap</i><par n="ap/êl__n"/></e>
     <e lm="haul"><i>h</i><par n="h/aul__n"/></e>
-    <e lm="traul"><i>tr</i><par n="tr/aul__n"/></e>
+    <e lm="traul"><par n="initial-t"/><i>r</i><par n="tr/aul__n"/></e>
     <e lm="niwed"><i>niwe</i><par n="niwe/d__n"/></e>
     <e lm="paned"><par n="initial-p"/><i>ane</i><par n="niwe/d__n"/></e>
     <e lm="maer"><par n="initial-m"/><i></i><par n="m/aer__n"/></e>
@@ -50248,11 +50248,11 @@
     <e lm="pwnc"><par n="initial-p"/><i/><par n="p/wnc__n"/></e>
     <e lm="taten"><par n="initial-t"/><i>at</i><par n="tat/en__n"/></e>
     <e lm="pabell"><par n="initial-p"/><i/><par n="p/abell__n"/></e>
-    <e lm="trên"><i>tr</i><par n="tr/ên__n"/></e>
+    <e lm="trên"><par n="initial-t"/><i>r</i><par n="tr/ên__n"/></e>
     <e lm="dechrau"><par n="initial-d"/><i>echr</i><par n="dechr/au__n"/></e>
     <e lm="difrïwr"><par n="initial-d"/><i>ifr</i><par n="difr/ïwr__n"/></e>
     <e lm="cangen"><par n="initial-c"/><i>ang</i><par n="cang/en__n"/></e>
-    <e lm="to"><i>to</i><par n="to__n"/></e>
+    <e lm="to"><par n="initial-t"/><i>o</i><par n="to__n"/></e>
     <e lm="cwrw"><par n="initial-c"/><i/><par n="c/wrw__n"/></e>
     <e lm="adfail"><i>adf</i><par n="adf/ail__n"/></e>
     <e lm="meinwe"><par n="initial-m"/><i>einwe</i><par n="meinwe__n"/></e>
@@ -50299,7 +50299,7 @@
     <e lm="cwch"><par n="initial-c"/><i/><par n="c/wch__n"/></e>
     <e lm="anghenrhaid"><i>ang</i><par n="ang/henrhaid__n"/></e>
     <e lm="pwrs"><par n="initial-p"/><i/><par n="p/wrs__n"/></e>
-    <e lm="troed"><i>tr</i><par n="tr/oed__n"/></e>
+    <e lm="troed"><par n="initial-t"/><i>r</i><par n="tr/oed__n"/></e>
     <e lm="relái"><i>rel</i><par n="rel/ái__n"/></e>
     <e lm="pennawd"><par n="initial-p"/><i>en</i><par n="pen/nawd__n"/></e>
     <e lm="carreg"><par n="initial-c"/><i/><par n="c/arreg__n"/></e>
@@ -50400,7 +50400,7 @@
     <e lm="bwthyn"><par n="initial-b"/><i>wthyn</i><par n="bwthyn__n"/></e>
     <e lm="chwyldro"><par n="initial-c"/><i>hw</i><par n="chw/yldro__n"/></e>
     <e lm="casét"><par n="initial-c"/><i>as</i><par n="cas/ét__n"/></e>
-    <e lm="traed"><i>tr</i><par n="tr/aed__n"/></e>
+    <e lm="traed"><par n="initial-t"/><i>r</i><par n="tr/aed__n"/></e>
     <e lm="meddwl"><par n="initial-m"/><i>edd</i><par n="medd/wl__n"/></e>
     <e lm="babi"><par n="initial-b"/><i>ab</i><par n="bab/i__n"/></e>
     <e lm="cyfaill"><par n="initial-c"/><i>yf</i><par n="cyf/aill__n"/></e>
@@ -50412,7 +50412,7 @@
     <e lm="amheuaeth"><i>amheu</i><par n="amheu/aeth__n"/></e>
     <e lm="grŵp"><par n="initial-g"/><i>r</i><par n="gr/ŵp__n"/></e>
     <e lm="pennaeth"><par n="initial-p"/><i>en</i><par n="pen/naeth__n"/></e>
-    <e lm="trwch"><i>tr</i><par n="tr/wch__n"/></e>
+    <e lm="trwch"><par n="initial-t"/><i>r</i><par n="tr/wch__n"/></e>
     <e lm="cwmwl"><par n="initial-c"/><i/><par n="c/wmwl__n"/></e>
     <e lm="sffêr"><i>sff</i><par n="sff/êr__n"/></e>
     <e lm="bricsen"><par n="initial-b"/><i>ric</i><par n="bric/sen__n"/></e>
@@ -50516,8 +50516,8 @@
     <e lm="tal"><par n="initial-t"/><i>al</i><par n="agos__adj"/></e>
     <e lm="tenau"><par n="initial-t"/><i>en</i><par n="ten/au__adj"/></e>
     <e lm="tew"><par n="initial-t"/><i>ew</i><par n="agos__adj"/></e>
-    <e lm="tlawd"><i>tl</i><par n="tl/awd__adj"/></e>
-    <e lm="trwm"><i>tr</i><par n="tr/wm__adj"/></e>
+    <e lm="tlawd"><par n="initial-t"/><i>l</i><par n="tl/awd__adj"/></e>
+    <e lm="trwm"><par n="initial-t"/><i>r</i><par n="tr/wm__adj"/></e>
     <e lm="tywyll"><par n="initial-t"/><i>ywyll</i><par n="agos__adj"/></e>
     <e lm="uchel"><i>u</i><par n="u/chel__adj"/></e>
     <e lm="ysgafn"><i>ysgafn</i><par n="agos__adj"/></e>
@@ -51906,8 +51906,8 @@
     <e lm="terfynol"><par n="initial-t"/><i>erfynol</i><par n="caredig__adj"/></e>
     <e lm="testunol"><par n="initial-t"/><i>estunol</i><par n="caredig__adj"/></e>
     <e lm="teuluol"><par n="initial-t"/><i>euluol</i><par n="caredig__adj"/></e>
-    <e lm="therapiwtig"><i>therapiwtig</i><par n="caredig__adj"/></e>
-    <e lm="thermodynamig"><i>thermodynamig</i><par n="caredig__adj"/></e>
+    <e lm="therapiwtig"><par n="initial-t"/><i>herapiwtig</i><par n="caredig__adj"/></e>
+    <e lm="thermodynamig"><par n="initial-t"/><i>hermodynamig</i><par n="caredig__adj"/></e>
     <e lm="tlws"><par n="initial-t"/><i>lws</i><par n="caredig__adj"/></e>
     <e lm="toredig"><par n="initial-t"/><i>oredig</i><par n="caredig__adj"/></e>
     <e lm="torfol"><par n="initial-t"/><i>orfol</i><par n="caredig__adj"/></e>
