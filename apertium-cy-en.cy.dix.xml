@@ -48383,6 +48383,14 @@
     <e lm="dogfennaeth"><par n="initial-d"/><i>ogfennaeth</i><par n="addysg__n"/></e>
     <e lm="echnos"><i>echnos</i><par n="addysg__n"/></e>
     <e lm="economeg"><i>economeg</i><par n="addysg__n"/></e>
+    <e lm="economeg y cartref">
+      <i>economeg</i>
+      <p>
+        <l><b/>y<b/>cartref</l>
+        <r><g><b/>y<b/>cartref</g></r>
+      </p>
+      <par n="addysg__n"/>
+    </e>
     <e lm="e-fasnach"><i>e-fasnach</i><par n="addysg__n"/></e>
     <e lm="eiriolaeth"><i>eiriolaeth</i><par n="addysg__n"/></e>
     <e lm="ffenest"><i>ffenest</i><par n="addysg__n"/></e>

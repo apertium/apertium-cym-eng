@@ -1836,7 +1836,8 @@
     <e><p><l>Ebrill<s n="n"/><s n="m"/></l><r>April<s n="n"/></r></p></e>
     <e><p><l>echdoe<s n="n"/><s n="m"/></l><r>day before yesterday<s n="n"/></r></p></e>
     <e><p><l>echnos<s n="n"/><s n="f"/></l><r>night before last<s n="n"/></r></p></e>
-    <e><p><l>economeg<s n="n"/><s n="f"/></l><r>economics<s n="n"/></r></p></e>
+    <e><p><l>economeg<s n="n"/><s n="f"/></l><r>economics<s n="n"/><s n="pl"/></r></p></e>
+    <e><p><l>economeg<g><b/>y<b/>cartref</g><s n="n"/><s n="f"/></l><r>home economics<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>e-ddysgu<s n="n"/><s n="m"/></l><r>e-learning<s n="n"/></r></p></e>
     <e><p><l>e-fasnach<s n="n"/><s n="f"/></l><r>e-commerce<s n="n"/></r></p></e>
  
