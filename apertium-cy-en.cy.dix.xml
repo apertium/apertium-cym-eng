@@ -3154,6 +3154,22 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="ysb/ïwr__n">
+      <e>
+        <p>
+          <l>ïwr</l>
+          <r>ïwr<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>wyr</l>
+          <r>ïwr<s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="apel/iwr__n">
       <e>
         <p>
@@ -49331,7 +49347,10 @@
     <e lm="tyfiant"><par n="initial-t"/><i>yfian</i><par n="ardrefnian/t__n"/></e>
     <e lm="yswiriant"><i>yswirian</i><par n="ardrefnian/t__n"/></e>
     <e lm="punt"><par n="initial-p"/><i>un</i><par n="pun/t__n"/></e>
+
     <e lm="apeliwr"><i>apel</i><par n="apel/iwr__n"/></e>
+    <e lm="ysbïwr"><i>ysb</i><par n="ysb/ïwr__n"/></e>
+
     <e lm="archwiliwr"><i>archwil</i><par n="apel/iwr__n"/></e>
     <e lm="bipiwr"><par n="initial-b"/><i>ip</i><par n="apel/iwr__n"/></e>
     <e lm="cariwr"><par n="initial-c"/><i>ar</i><par n="apel/iwr__n"/></e>
@@ -55514,6 +55533,8 @@
     <e lm="yswirio"><i>yswiri</i><par n="achlysur/o__vblex"/></e>
 
     <e lm="e.e."><i>e.e.</i><par n="e.e.__abbr"/></e>
+
+    <e lm="Plaid Genedlaethol yr Alban"><par n="initial-P"/><i>laid<b/>Genedlaethol<b/>yr<b/>Alban</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
     <e lm="Llywodraeth y Cynulliad"><par n="initial-Ll"/><i>ywodraeth<b/>y<b/>Cynulliad</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas"><par n="initial-C"/><i>ymdeithas</i><par n="Cymdeithas_yr_Iaith__np"/></e>

@@ -12,7 +12,8 @@
       <cat-item name="det_nom"/>
     </def-cat>
     <def-cat n="prep">
-      <cat-item name="pr"/>
+      <cat-item name="gyda"/>
+      <cat-item name="â"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
