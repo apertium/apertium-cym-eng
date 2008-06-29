@@ -32927,6 +32927,1642 @@
       </p>
     </e>
 
+    <e lm="accuse falsely">
+      <i>accus</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>falsely</l>
+        <r><g><b/>falsely</g></r>
+      </p>
+    </e>
+    <e lm="act stubbornly">
+      <i>act</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>stubbornly</l>
+        <r><g><b/>stubbornly</g></r>
+      </p>
+    </e>
+    <e lm="adorn oneself">
+      <i>adorn</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="ally oneself">
+      <i>all</i>
+      <par n="appl/y__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="arrange jointly">
+      <i>arrang</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="associate oneself">
+      <i>associat</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="associate with">
+      <i>associat</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>with</l>
+        <r><g><b/>with</g></r>
+      </p>
+    </e>
+    <e lm="attend conferences">
+      <i>attend</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>conferences</l>
+        <r><g><b/>conferences</g></r>
+      </p>
+    </e>
+    <e lm="bank up">
+      <i>bank</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>up</l>
+        <r><g><b/>up</g></r>
+      </p>
+    </e>
+    <e lm="bear fruit">
+      <i>b</i>
+      <par n="b/ear__vblex"/>
+      <p>
+        <l><b/>fruit</l>
+        <r><g><b/>fruit</g></r>
+      </p>
+    </e>
+    <e lm="behave arrrogantly">
+      <i>behav</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>arrrogantly</l>
+        <r><g><b/>arrrogantly</g></r>
+      </p>
+    </e>
+    <e lm="behave coyly">
+      <i>behav</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>coyly</l>
+        <r><g><b/>coyly</g></r>
+      </p>
+    </e>
+    <e lm="behave wantonly">
+      <i>behav</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>wantonly</l>
+        <r><g><b/>wantonly</g></r>
+      </p>
+    </e>
+    <e lm="believe wrongly">
+      <i>believ</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>wrongly</l>
+        <r><g><b/>wrongly</g></r>
+      </p>
+    </e>
+    <e lm="belong to">
+      <i>belong</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>to</l>
+        <r><g><b/>to</g></r>
+      </p>
+    </e>
+    <e lm="belong to">
+      <i>belong</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>to</l>
+        <r><g><b/>to</g></r>
+      </p>
+    </e>
+    <e lm="block up">
+      <i>block</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>up</l>
+        <r><g><b/>up</g></r>
+      </p>
+    </e>
+    <e lm="borrow jointly">
+      <i>borrow</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="breed maggots">
+      <i>bre</i>
+      <par n="ble/ed__vblex"/>
+      <p>
+        <l><b/>maggots</l>
+        <r><g><b/>maggots</g></r>
+      </p>
+    </e>
+    <e lm="breed worms">
+      <i>bre</i>
+      <par n="ble/ed__vblex"/>
+      <p>
+        <l><b/>worms</l>
+        <r><g><b/>worms</g></r>
+      </p>
+    </e>
+    <e lm="brew up">
+      <i>brew</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>up</l>
+        <r><g><b/>up</g></r>
+      </p>
+    </e>
+    <e lm="burn incense">
+      <i>burn</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>incense</l>
+        <r><g><b/>incense</g></r>
+      </p>
+    </e>
+    <e lm="clean thoroughly">
+      <i>clean</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>thoroughly</l>
+        <r><g><b/>thoroughly</g></r>
+      </p>
+    </e>
+    <e lm="clear land">
+      <i>clear</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>land</l>
+        <r><g><b/>land</g></r>
+      </p>
+    </e>
+    <e lm="climb mountains">
+      <i>climb</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>mountains</l>
+        <r><g><b/>mountains</g></r>
+      </p>
+    </e>
+    <e lm="clip hedge">
+      <i>clip</i>
+      <par n="step__vblex"/>
+      <p>
+        <l><b/>hedge</l>
+        <r><g><b/>hedge</g></r>
+      </p>
+    </e>
+    <e lm="commission jointly">
+      <i>commission</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="commit oneself">
+      <i>commit</i>
+      <par n="admit__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="commit oneself">
+      <i>commit</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="commit perjury">
+      <i>commit</i>
+      <par n="admit__vblex"/>
+      <p>
+        <l><b/>perjury</l>
+        <r><g><b/>perjury</g></r>
+      </p>
+    </e>
+    <e lm="commit perjury">
+      <i>commit</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>perjury</l>
+        <r><g><b/>perjury</g></r>
+      </p>
+    </e>
+    <e lm="compose englynion">
+      <i>compos</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>englynion</l>
+        <r><g><b/>englynion</g></r>
+      </p>
+    </e>
+    <e lm="compose lyrics">
+      <i>compos</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>lyrics</l>
+        <r><g><b/>lyrics</g></r>
+      </p>
+    </e>
+    <e lm="compose verse">
+      <i>compos</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>verse</l>
+        <r><g><b/>verse</g></r>
+      </p>
+    </e>
+    <e lm="conceal oneself">
+      <i>conceal</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="conceal partially">
+      <i>conceal</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>partially</l>
+        <r><g><b/>partially</g></r>
+      </p>
+    </e>
+    <e lm="conduct oneself">
+      <i>conduct</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="construct timberwork">
+      <i>construct</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>timberwork</l>
+        <r><g><b/>timberwork</g></r>
+      </p>
+    </e>
+    <e lm="consult together">
+      <i>consult</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>together</l>
+        <r><g><b/>together</g></r>
+      </p>
+    </e>
+    <e lm="contemplate deeply">
+      <i>contemplat</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>deeply</l>
+        <r><g><b/>deeply</g></r>
+      </p>
+    </e>
+    <e lm="cope with">
+      <i>cop</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>with</l>
+        <r><g><b/>with</g></r>
+      </p>
+    </e>
+    <e lm="correspond to">
+      <i>correspond</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>to</l>
+        <r><g><b/>to</g></r>
+      </p>
+    </e>
+    <e lm="create commotion">
+      <i>creat</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>commotion</l>
+        <r><g><b/>commotion</g></r>
+      </p>
+    </e>
+    <e lm="cross oneself">
+      <i>cross</i>
+      <par n="approach__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="cut down">
+      <i>cut</i>
+      <par n="cut__vblex"/>
+      <p>
+        <l><b/>down</l>
+        <r><g><b/>down</g></r>
+      </p>
+    </e>
+    <e lm="dart about">
+      <i>dart</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>about</l>
+        <r><g><b/>about</g></r>
+      </p>
+    </e>
+    <e lm="decide together">
+      <i>decid</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>together</l>
+        <r><g><b/>together</g></r>
+      </p>
+    </e>
+    <e lm="defile oneself">
+      <i>defil</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="defile oneself">
+      <i>defil</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="deny oneself">
+      <i>den</i>
+      <par n="appl/y__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="derive from">
+      <i>deriv</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>from</l>
+        <r><g><b/>from</g></r>
+      </p>
+    </e>
+    <e lm="describe oneself">
+      <i>describ</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="design beforehand">
+      <i>design</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>beforehand</l>
+        <r><g><b/>beforehand</g></r>
+      </p>
+    </e>
+    <e lm="devote oneself">
+      <i>devot</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="divide equally">
+      <i>divid</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>equally</l>
+        <r><g><b/>equally</g></r>
+      </p>
+    </e>
+    <e lm="do pushups">
+      <i>d</i>
+      <par n="d/o__vblex"/>
+      <p>
+        <l><b/>pushups</l>
+        <r><g><b/>pushups</g></r>
+      </p>
+    </e>
+    <e lm="draw close">
+      <i>dr</i>
+      <par n="dr/aw__vblex"/>
+      <p>
+        <l><b/>close</l>
+        <r><g><b/>close</g></r>
+      </p>
+    </e>
+    <e lm="eat">
+      <par n="/eat__vblex"/>
+      <p>
+        <l><b/>supper</l>
+        <r><g><b/>supper</g></r>
+      </p>
+    </e>
+    <e lm="edit jointly">
+      <i>edit</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="encourage oneself">
+      <i>encourag</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="enlarge upon">
+      <i>enlarg</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>upon</l>
+        <r><g><b/>upon</g></r>
+      </p>
+    </e>
+    <e lm="enrich oneself">
+      <i>enrich</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="establish jointly">
+      <i>establish</i>
+      <par n="approach__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="exalt oneself">
+      <i>exalt</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="excuse oneself">
+      <i>excus</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="fall again">
+      <i>f</i>
+      <par n="f/all__vblex"/>
+      <p>
+        <l><b/>again</l>
+        <r><g><b/>again</g></r>
+      </p>
+    </e>
+    <e lm="fall silent">
+      <i>f</i>
+      <par n="f/all__vblex"/>
+      <p>
+        <l><b/>silent</l>
+        <r><g><b/>silent</g></r>
+      </p>
+    </e>
+    <e lm="familiarise oneself">
+      <i>familiaris</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="feed on">
+      <i>fe</i>
+      <par n="ble/ed__vblex"/>
+      <p>
+        <l><b/>on</l>
+        <r><g><b/>on</g></r>
+      </p>
+    </e>
+    <e lm="feel remorse">
+      <i>fe</i>
+      <par n="fe/el__vblex"/>
+      <p>
+        <l><b/>remorse</l>
+        <r><g><b/>remorse</g></r>
+      </p>
+    </e>
+    <e lm="fill up">
+      <i>fill</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>up</l>
+        <r><g><b/>up</g></r>
+      </p>
+    </e>
+    <e lm="finance jointly">
+      <i>financ</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="flag up">
+      <i>flag</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>up</l>
+        <r><g><b/>up</g></r>
+      </p>
+    </e>
+    <e lm="flash lightning">
+      <i>flash</i>
+      <par n="approach__vblex"/>
+      <p>
+        <l><b/>lightning</l>
+        <r><g><b/>lightning</g></r>
+      </p>
+    </e>
+    <e lm="flow into">
+      <i>fl</i>
+      <par n="bl/ow__vblex"/>
+      <p>
+        <l><b/>into</l>
+        <r><g><b/>into</g></r>
+      </p>
+    </e>
+    <e lm="flow into">
+      <i>flow</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>into</l>
+        <r><g><b/>into</g></r>
+      </p>
+    </e>
+    <e lm="flow together">
+      <i>fl</i>
+      <par n="bl/ow__vblex"/>
+      <p>
+        <l><b/>together</l>
+        <r><g><b/>together</g></r>
+      </p>
+    </e>
+    <e lm="flow together">
+      <i>flow</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>together</l>
+        <r><g><b/>together</g></r>
+      </p>
+    </e>
+    <e lm="form letters">
+      <i>form</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>letters</l>
+        <r><g><b/>letters</g></r>
+      </p>
+    </e>
+    <e lm="gather bilberries">
+      <i>gather</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>bilberries</l>
+        <r><g><b/>bilberries</g></r>
+      </p>
+    </e>
+    <e lm="gather fuel">
+      <i>gather</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>fuel</l>
+        <r><g><b/>fuel</g></r>
+      </p>
+    </e>
+    <e lm="gather nuts">
+      <i>gather</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>nuts</l>
+        <r><g><b/>nuts</g></r>
+      </p>
+    </e>
+    <e lm="gather reeds">
+      <i>gather</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>reeds</l>
+        <r><g><b/>reeds</g></r>
+      </p>
+    </e>
+    <e lm="gather rushes">
+      <i>gather</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>rushes</l>
+        <r><g><b/>rushes</g></r>
+      </p>
+    </e>
+    <e lm="gather together">
+      <i>gather</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>together</l>
+        <r><g><b/>together</g></r>
+      </p>
+    </e>
+    <e lm="gather wool">
+      <i>gather</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>wool</l>
+        <r><g><b/>wool</g></r>
+      </p>
+    </e>
+    <e lm="give birth">
+      <i>g</i>
+      <par n="g/ive__vblex"/>
+      <p>
+        <l><b/>birth</l>
+        <r><g><b/>birth</g></r>
+      </p>
+    </e>
+    <e lm="give freely">
+      <i>g</i>
+      <par n="g/ive__vblex"/>
+      <p>
+        <l><b/>freely</l>
+        <r><g><b/>freely</g></r>
+      </p>
+    </e>
+    <e lm="give refuge">
+      <i>g</i>
+      <par n="g/ive__vblex"/>
+      <p>
+        <l><b/>refuge</l>
+        <r><g><b/>refuge</g></r>
+      </p>
+    </e>
+    <e lm="go">
+      <par n="/go__vblex"/>
+      <p>
+        <l><b/>awry</l>
+        <r><g><b/>awry</g></r>
+      </p>
+    </e>
+    <e lm="go">
+      <par n="/go__vblex"/>
+      <p>
+        <l><b/>mad</l>
+        <r><g><b/>mad</g></r>
+      </p>
+    </e>
+    <e lm="go">
+      <par n="/go__vblex"/>
+      <p>
+        <l><b/>offside</l>
+        <r><g><b/>offside</g></r>
+      </p>
+    </e>
+    <e lm="grow cold">
+      <i>gr</i>
+      <par n="bl/ow__vblex"/>
+      <p>
+        <l><b/>cold</l>
+        <r><g><b/>cold</g></r>
+      </p>
+    </e>
+    <e lm="grow fierce">
+      <i>gr</i>
+      <par n="bl/ow__vblex"/>
+      <p>
+        <l><b/>fierce</l>
+        <r><g><b/>fierce</g></r>
+      </p>
+    </e>
+    <e lm="grow heavy">
+      <i>gr</i>
+      <par n="bl/ow__vblex"/>
+      <p>
+        <l><b/>heavy</l>
+        <r><g><b/>heavy</g></r>
+      </p>
+    </e>
+    <e lm="grow scaly">
+      <i>gr</i>
+      <par n="bl/ow__vblex"/>
+      <p>
+        <l><b/>scaly</l>
+        <r><g><b/>scaly</g></r>
+      </p>
+    </e>
+    <e lm="grow tired">
+      <i>gr</i>
+      <par n="bl/ow__vblex"/>
+      <p>
+        <l><b/>tired</l>
+        <r><g><b/>tired</g></r>
+      </p>
+    </e>
+    <e lm="grow togther">
+      <i>gr</i>
+      <par n="bl/ow__vblex"/>
+      <p>
+        <l><b/>togther</l>
+        <r><g><b/>togther</g></r>
+      </p>
+    </e>
+    <e lm="hang oneself">
+      <i>h</i>
+      <par n="h/ang__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="have diarrhoea">
+      <i>ha</i>
+      <par n="ha/ve__vblex"/>
+      <p>
+        <l><b/>diarrhoea</l>
+        <r><g><b/>diarrhoea</g></r>
+      </p>
+    </e>
+    <e lm="heap together">
+      <i>heap</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>together</l>
+        <r><g><b/>together</g></r>
+      </p>
+    </e>
+    <e lm="hobble along">
+      <i>hobbl</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>along</l>
+        <r><g><b/>along</g></r>
+      </p>
+    </e>
+    <e lm="identify with">
+      <i>identif</i>
+      <par n="appl/y__vblex"/>
+      <p>
+        <l><b/>with</l>
+        <r><g><b/>with</g></r>
+      </p>
+    </e>
+    <e lm="inform on">
+      <i>inform</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>on</l>
+        <r><g><b/>on</g></r>
+      </p>
+    </e>
+    <e lm="judge competent">
+      <i>judg</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>competent</l>
+        <r><g><b/>competent</g></r>
+      </p>
+    </e>
+    <e lm="judge jointly">
+      <i>judg</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="keep bees">
+      <i>ke</i>
+      <par n="ke/ep__vblex"/>
+      <p>
+        <l><b/>bees</l>
+        <r><g><b/>bees</g></r>
+      </p>
+    </e>
+    <e lm="keep silent">
+      <i>ke</i>
+      <par n="ke/ep__vblex"/>
+      <p>
+        <l><b/>silent</l>
+        <r><g><b/>silent</g></r>
+      </p>
+    </e>
+    <e lm="keep watch">
+      <i>ke</i>
+      <par n="ke/ep__vblex"/>
+      <p>
+        <l><b/>watch</l>
+        <r><g><b/>watch</g></r>
+      </p>
+    </e>
+    <e lm="key in">
+      <i>key</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>in</l>
+        <r><g><b/>in</g></r>
+      </p>
+    </e>
+    <e lm="lead about">
+      <i>le</i>
+      <par n="le/ad__vblex"/>
+      <p>
+        <l><b/>about</l>
+        <r><g><b/>about</g></r>
+      </p>
+    </e>
+    <e lm="lead jointly">
+      <i>le</i>
+      <par n="le/ad__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="lie down">
+      <i>lie</i>
+      <par n="d/ie__vblex"/>
+      <p>
+        <l><b/>down</l>
+        <r><g><b/>down</g></r>
+      </p>
+    </e>
+    <e lm="lie down">
+      <i>li</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>down</l>
+        <r><g><b/>down</g></r>
+      </p>
+    </e>
+    <e lm="link arms">
+      <i>link</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>arms</l>
+        <r><g><b/>arms</g></r>
+      </p>
+    </e>
+    <e lm="listen again">
+      <i>listen</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>again</l>
+        <r><g><b/>again</g></r>
+      </p>
+    </e>
+    <e lm="listen carefully">
+      <i>listen</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>carefully</l>
+        <r><g><b/>carefully</g></r>
+      </p>
+    </e>
+    <e lm="listen hard">
+      <i>listen</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>hard</l>
+        <r><g><b/>hard</g></r>
+      </p>
+    </e>
+    <e lm="live dissolutely">
+      <i>liv</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>dissolutely</l>
+        <r><g><b/>dissolutely</g></r>
+      </p>
+    </e>
+    <e lm="live together">
+      <i>liv</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>together</l>
+        <r><g><b/>together</g></r>
+      </p>
+    </e>
+    <e lm="lodge together">
+      <i>lodg</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>together</l>
+        <r><g><b/>together</g></r>
+      </p>
+    </e>
+    <e lm="look again">
+      <i>look</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>again</l>
+        <r><g><b/>again</g></r>
+      </p>
+    </e>
+    <e lm="look again">
+      <i>look</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>again</l>
+        <r><g><b/>again</g></r>
+      </p>
+    </e>
+    <e lm="lose heart">
+      <i>lo</i>
+      <par n="lo/se__vblex"/>
+      <p>
+        <l><b/>heart</l>
+        <r><g><b/>heart</g></r>
+      </p>
+    </e>
+    <e lm="lose oneself">
+      <i>lo</i>
+      <par n="lo/se__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="manure land">
+      <i>manur</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>land</l>
+        <r><g><b/>land</g></r>
+      </p>
+    </e>
+    <e lm="manure land">
+      <i>manur</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>land</l>
+        <r><g><b/>land</g></r>
+      </p>
+    </e>
+    <e lm="monitor jointly">
+      <i>monitor</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="nod off">
+      <i>nod</i>
+      <par n="bed__vblex"/>
+      <p>
+        <l><b/>off</l>
+        <r><g><b/>off</g></r>
+      </p>
+    </e>
+    <e lm="participate in">
+      <i>participat</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>in</l>
+        <r><g><b/>in</g></r>
+      </p>
+    </e>
+    <e lm="pay homage">
+      <i>pa</i>
+      <par n="pa/y__vblex"/>
+      <p>
+        <l><b/>homage</l>
+        <r><g><b/>homage</g></r>
+      </p>
+    </e>
+    <e lm="pile up">
+      <i>pil</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>up</l>
+        <r><g><b/>up</g></r>
+      </p>
+    </e>
+    <e lm="pile up">
+      <i>pil</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>up</l>
+        <r><g><b/>up</g></r>
+      </p>
+    </e>
+    <e lm="plan together">
+      <i>plan</i>
+      <par n="plan__vblex"/>
+      <p>
+        <l><b/>together</l>
+        <r><g><b/>together</g></r>
+      </p>
+    </e>
+    <e lm="play pipes">
+      <i>play</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>pipes</l>
+        <r><g><b/>pipes</g></r>
+      </p>
+    </e>
+    <e lm="pluck feathers">
+      <i>pluck</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>feathers</l>
+        <r><g><b/>feathers</g></r>
+      </p>
+    </e>
+    <e lm="practise idolatry">
+      <i>practis</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>idolatry</l>
+        <r><g><b/>idolatry</g></r>
+      </p>
+    </e>
+    <e lm="prepare oneself">
+      <i>prepar</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="pull through">
+      <i>pull</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>through</l>
+        <r><g><b/>through</g></r>
+      </p>
+    </e>
+    <e lm="purchase jointly">
+      <i>purchas</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="raise jointly">
+      <i>rais</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="recite together">
+      <i>recit</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>together</l>
+        <r><g><b/>together</g></r>
+      </p>
+    </e>
+    <e lm="reconcile again">
+      <i>reconcil</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>again</l>
+        <r><g><b/>again</g></r>
+      </p>
+    </e>
+    <e lm="reconcile again">
+      <i>reconcil</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>again</l>
+        <r><g><b/>again</g></r>
+      </p>
+    </e>
+    <e lm="recover health">
+      <i>recover</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>health</l>
+        <r><g><b/>health</g></r>
+      </p>
+    </e>
+    <e lm="register oneself">
+      <i>register</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="rejoice jointly">
+      <i>rejoic</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="rejoice jointly">
+      <i>rejoic</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="remove entirely">
+      <i>remov</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>entirely</l>
+        <r><g><b/>entirely</g></r>
+      </p>
+    </e>
+    <e lm="remove stones">
+      <i>remov</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>stones</l>
+        <r><g><b/>stones</g></r>
+      </p>
+    </e>
+    <e lm="rhyme with">
+      <i>rhym</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>with</l>
+        <r><g><b/>with</g></r>
+      </p>
+    </e>
+    <e lm="round up">
+      <i>round</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>up</l>
+        <r><g><b/>up</g></r>
+      </p>
+    </e>
+    <e lm="sell books">
+      <i>s</i>
+      <par n="s/ell__vblex"/>
+      <p>
+        <l><b/>books</l>
+        <r><g><b/>books</g></r>
+      </p>
+    </e>
+    <e lm="serve wine">
+      <i>serv</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>wine</l>
+        <r><g><b/>wine</g></r>
+      </p>
+    </e>
+    <e lm="set on">
+      <i>set</i>
+      <par n="cut__vblex"/>
+      <p>
+        <l><b/>on</l>
+        <r><g><b/>on</g></r>
+      </p>
+    </e>
+    <e lm="sing together">
+      <i>s</i>
+      <par n="r/ing__vblex"/>
+      <p>
+        <l><b/>together</l>
+        <r><g><b/>together</g></r>
+      </p>
+    </e>
+    <e lm="sink oneself">
+      <i>s</i>
+      <par n="st/ink__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="sit jointly">
+      <i>s</i>
+      <par n="s/it__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="sleep again">
+      <i>sle</i>
+      <par n="ke/ep__vblex"/>
+      <p>
+        <l><b/>again</l>
+        <r><g><b/>again</g></r>
+      </p>
+    </e>
+    <e lm="smile sardonically">
+      <i>smil</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>sardonically</l>
+        <r><g><b/>sardonically</g></r>
+      </p>
+    </e>
+    <e lm="speak figuratively">
+      <i>sp</i>
+      <par n="br/eak__vblex"/>
+      <p>
+        <l><b/>figuratively</l>
+        <r><g><b/>figuratively</g></r>
+      </p>
+    </e>
+    <e lm="speak hoarsely">
+      <i>sp</i>
+      <par n="br/eak__vblex"/>
+      <p>
+        <l><b/>hoarsely</l>
+        <r><g><b/>hoarsely</g></r>
+      </p>
+    </e>
+    <e lm="speak indistinctly">
+      <i>sp</i>
+      <par n="br/eak__vblex"/>
+      <p>
+        <l><b/>indistinctly</l>
+        <r><g><b/>indistinctly</g></r>
+      </p>
+    </e>
+    <e lm="speak rhetorically">
+      <i>sp</i>
+      <par n="br/eak__vblex"/>
+      <p>
+        <l><b/>rhetorically</l>
+        <r><g><b/>rhetorically</g></r>
+      </p>
+    </e>
+    <e lm="spin yarn">
+      <i>sp</i>
+      <par n="sp/in__vblex"/>
+      <p>
+        <l><b/>yarn</l>
+        <r><g><b/>yarn</g></r>
+      </p>
+    </e>
+    <e lm="split up">
+      <i>split</i>
+      <par n="cut__vblex"/>
+      <p>
+        <l><b/>up</l>
+        <r><g><b/>up</g></r>
+      </p>
+    </e>
+    <e lm="spread out">
+      <i>spread</i>
+      <par n="read__vblex"/>
+      <p>
+        <l><b/>out</l>
+        <r><g><b/>out</g></r>
+      </p>
+    </e>
+    <e lm="stand again">
+      <i>st</i>
+      <par n="st/and__vblex"/>
+      <p>
+        <l><b/>again</l>
+        <r><g><b/>again</g></r>
+      </p>
+    </e>
+    <e lm="stir again">
+      <i>stir</i>
+      <par n="occur__vblex"/>
+      <p>
+        <l><b/>again</l>
+        <r><g><b/>again</g></r>
+      </p>
+    </e>
+    <e lm="store again">
+      <i>stor</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>again</l>
+        <r><g><b/>again</g></r>
+      </p>
+    </e>
+    <e lm="suffer together">
+      <i>suffer</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>together</l>
+        <r><g><b/>together</g></r>
+      </p>
+    </e>
+    <e lm="support jointly">
+      <i>support</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="swear falsely">
+      <i>sw</i>
+      <par n="sw/ear__vblex"/>
+      <p>
+        <l><b/>falsely</l>
+        <r><g><b/>falsely</g></r>
+      </p>
+    </e>
+    <e lm="sweep away">
+      <i>swe</i>
+      <par n="ke/ep__vblex"/>
+      <p>
+        <l><b/>away</l>
+        <r><g><b/>away</g></r>
+      </p>
+    </e>
+    <e lm="take heed">
+      <i>t</i>
+      <par n="t/ake__vblex"/>
+      <p>
+        <l><b/>heed</l>
+        <r><g><b/>heed</g></r>
+      </p>
+    </e>
+    <e lm="take pains">
+      <i>t</i>
+      <par n="t/ake__vblex"/>
+      <p>
+        <l><b/>pains</l>
+        <r><g><b/>pains</g></r>
+      </p>
+    </e>
+    <e lm="take precautions">
+      <i>t</i>
+      <par n="t/ake__vblex"/>
+      <p>
+        <l><b/>precautions</l>
+        <r><g><b/>precautions</g></r>
+      </p>
+    </e>
+    <e lm="take precedence">
+      <i>t</i>
+      <par n="t/ake__vblex"/>
+      <p>
+        <l><b/>precedence</l>
+        <r><g><b/>precedence</g></r>
+      </p>
+    </e>
+    <e lm="take revenge">
+      <i>t</i>
+      <par n="t/ake__vblex"/>
+      <p>
+        <l><b/>revenge</l>
+        <r><g><b/>revenge</g></r>
+      </p>
+    </e>
+    <e lm="talk nonsense">
+      <i>talk</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>nonsense</l>
+        <r><g><b/>nonsense</g></r>
+      </p>
+    </e>
+    <e lm="talk rubbish">
+      <i>talk</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>rubbish</l>
+        <r><g><b/>rubbish</g></r>
+      </p>
+    </e>
+    <e lm="tell tales">
+      <i>t</i>
+      <par n="s/ell__vblex"/>
+      <p>
+        <l><b/>tales</l>
+        <r><g><b/>tales</g></r>
+      </p>
+    </e>
+    <e lm="tend to">
+      <i>tend</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>to</l>
+        <r><g><b/>to</g></r>
+      </p>
+    </e>
+    <e lm="think logically">
+      <i>th</i>
+      <par n="th/ink__vblex"/>
+      <p>
+        <l><b/>logically</l>
+        <r><g><b/>logically</g></r>
+      </p>
+    </e>
+    <e lm="thrash about">
+      <i>thrash</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>about</l>
+        <r><g><b/>about</g></r>
+      </p>
+    </e>
+    <e lm="tidy oneself">
+      <i>tid</i>
+      <par n="appl/y__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="trample on">
+      <i>trampl</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>on</l>
+        <r><g><b/>on</g></r>
+      </p>
+    </e>
+    <e lm="transform supernaturally">
+      <i>transform</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>supernaturally</l>
+        <r><g><b/>supernaturally</g></r>
+      </p>
+    </e>
+    <e lm="travel together">
+      <i>travel</i>
+      <par n="control__vblex"/>
+      <p>
+        <l><b/>together</l>
+        <r><g><b/>together</g></r>
+      </p>
+    </e>
+    <e lm="trip up">
+      <i>trip</i>
+      <par n="step__vblex"/>
+      <p>
+        <l><b/>up</l>
+        <r><g><b/>up</g></r>
+      </p>
+    </e>
+    <e lm="turn green">
+      <i>turn</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>green</l>
+        <r><g><b/>green</g></r>
+      </p>
+    </e>
+    <e lm="turn pale">
+      <i>turn</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>pale</l>
+        <r><g><b/>pale</g></r>
+      </p>
+    </e>
+    <e lm="turn sour">
+      <i>turn</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>sour</l>
+        <r><g><b/>sour</g></r>
+      </p>
+    </e>
+    <e lm="use bellows">
+      <i>us</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>bellows</l>
+        <r><g><b/>bellows</g></r>
+      </p>
+    </e>
+    <e lm="walk briskly">
+      <i>walk</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>briskly</l>
+        <r><g><b/>briskly</g></r>
+      </p>
+    </e>
+    <e lm="warn again">
+      <i>warn</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>again</l>
+        <r><g><b/>again</g></r>
+      </p>
+    </e>
+    <e lm="wash oneself">
+      <i>wash</i>
+      <par n="approach__vblex"/>
+      <p>
+        <l><b/>oneself</l>
+        <r><g><b/>oneself</g></r>
+      </p>
+    </e>
+    <e lm="wash out">
+      <i>wash</i>
+      <par n="approach__vblex"/>
+      <p>
+        <l><b/>out</l>
+        <r><g><b/>out</g></r>
+      </p>
+    </e>
+    <e lm="waste away">
+      <i>wast</i>
+      <par n="liv/e__vblex"/>
+      <p>
+        <l><b/>away</l>
+        <r><g><b/>away</g></r>
+      </p>
+    </e>
+    <e lm="wish to">
+      <i>wish</i>
+      <par n="approach__vblex"/>
+      <p>
+        <l><b/>to</l>
+        <r><g><b/>to</g></r>
+      </p>
+    </e>
+    <e lm="work jointly">
+      <i>work</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>jointly</l>
+        <r><g><b/>jointly</g></r>
+      </p>
+    </e>
+    <e lm="work together">
+      <i>work</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>together</l>
+        <r><g><b/>together</g></r>
+      </p>
+    </e>
+    <e lm="worship idols">
+      <i>worship</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>idols</l>
+        <r><g><b/>idols</g></r>
+      </p>
+    </e>
+    <e lm="wrap around">
+      <i>wrap</i>
+      <par n="step__vblex"/>
+      <p>
+        <l><b/>around</l>
+        <r><g><b/>around</g></r>
+      </p>
+    </e>
+    <e lm="write poetry">
+      <i>wr</i>
+      <par n="wr/ite__vblex"/>
+      <p>
+        <l><b/>poetry</l>
+        <r><g><b/>poetry</g></r>
+      </p>
+    </e>
 
 
 
