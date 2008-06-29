@@ -41,7 +41,7 @@
     </pardef>
     <pardef n="separa">
       <e>
-        <re>[.\?;:!]</re>
+        <re>[.\?;:!·]</re>
         <p>
           <l/>
           <r><s n="sent"/></r>
