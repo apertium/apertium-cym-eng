@@ -55839,6 +55839,14 @@
       <par n="yna__det"/>
     </e>
 
+    <e lm="e'n" r="LR">
+      <p>
+        <l>e'n</l>
+	<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>yn<s n="pr"/></r>
+      </p>
+    </e>
+
+
   </section>
 
   <section id="final" type="inconditional">
