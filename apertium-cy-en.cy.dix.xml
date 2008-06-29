@@ -48289,7 +48289,6 @@
     <e lm="parch"><par n="initial-p"/><i>arch</i><par n="achosiant__n"/></e>
     <e lm="parhad"><par n="initial-p"/><i>arhad</i><par n="achosiant__n"/></e>
     <e lm="parodrwydd"><par n="initial-p"/><i>arodrwydd</i><par n="achosiant__n"/></e>
-    <e lm="Pedr"><par n="initial-P"/><i>edr</i><par n="achosiant__n"/></e>
     <e lm="peirianneg"><par n="initial-p"/><i>eirianneg</i><par n="achosiant__n"/></e>
     <e lm="pellter"><par n="initial-p"/><i>ellter</i><par n="achosiant__n"/></e>
     <e lm="pentre"><par n="initial-p"/><i>entre</i><par n="achosiant__n"/></e>
@@ -55554,6 +55553,196 @@
     <e lm="Llundain"><par n="initial-Ll"/><i>undain</i><par n="Blaenafon__np"/></e>
 
     <e lm="Aled"><i>Aled</i><par n="Aled__np"/></e>
+
+    <e lm="Mark"><i>Mark</i><par n="Aled__np"/></e>
+    <e lm="Aaron"><i>Aaron</i><par n="Aled__np"/></e>
+    <e lm="Adam"><i>Adam</i><par n="Aled__np"/></e>
+    <e lm="Adrià"><i>Adrià</i><par n="Aled__np"/></e>
+    <e lm="Aitor"><i>Aitor</i><par n="Aled__np"/></e>
+    <e lm="Alan"><i>Alan</i><par n="Aled__np"/></e>
+    <e lm="Albert"><i>Albert</i><par n="Aled__np"/></e>
+    <e lm="Alexander"><i>Alexander</i><par n="Aled__np"/></e>
+    <e lm="Alex"><i>Alex</i><par n="Aled__np"/></e>
+    <e lm="Aled"><i>Aled</i><par n="Aled__np"/></e>
+    <e lm="Àlex"><i>Àlex</i><par n="Aled__np"/></e>
+    <e lm="Andreu"><i>Andreu</i><par n="Aled__np"/></e>
+    <e lm="Andrew"><i>Andrew</i><par n="Aled__np"/></e>
+    <e lm="Àngel"><i>Àngel</i><par n="Aled__np"/></e>
+    <e lm="Anthony"><i>Anthony</i><par n="Aled__np"/></e>
+    <e lm="Antoni"><i>Antoni</i><par n="Aled__np"/></e>
+    <e lm="Antony"><i>Antony</i><par n="Aled__np"/></e>
+    <e lm="Arnald"><i>Arnald</i><par n="Aled__np"/></e>
+    <e lm="Arnold"><i>Arnold</i><par n="Aled__np"/></e>
+    <e lm="Arthur"><i>Arthur</i><par n="Aled__np"/></e>
+    <e lm="Baldwin"><i>Baldwin</i><par n="Aled__np"/></e>
+    <e lm="(Barnard)"><i>(Barnard)</i><par n="Aled__np"/></e>
+    <e lm="Bartholomew"><i>Bartholomew</i><par n="Aled__np"/></e>
+    <e lm="Bartomeu"><i>Bartomeu</i><par n="Aled__np"/></e>
+    <e lm="Batholomew"><i>Batholomew</i><par n="Aled__np"/></e>
+    <e lm="Benedict"><i>Benedict</i><par n="Aled__np"/></e>
+    <e lm="Bernard"><i>Bernard</i><par n="Aled__np"/></e>
+    <e lm="Bernat"><i>Bernat</i><par n="Aled__np"/></e>
+    <e lm="Biel"><i>Biel</i><par n="Aled__np"/></e>
+    <e lm="Borja"><i>Borja</i><par n="Aled__np"/></e>
+    <e lm="Bryan"><i>Bryan</i><par n="Aled__np"/></e>
+    <e lm="Carles"><i>Carles</i><par n="Aled__np"/></e>
+    <e lm="Charles"><i>Charles</i><par n="Aled__np"/></e>
+    <e lm="Christopher"><i>Christopher</i><par n="Aled__np"/></e>
+    <e lm="Christpher"><i>Christpher</i><par n="Aled__np"/></e>
+    <e lm="Cristian"><i>Cristian</i><par n="Aled__np"/></e>
+    <e lm="Cyriac"><i>Cyriac</i><par n="Aled__np"/></e>
+    <e lm="Daniel"><i>Daniel</i><par n="Aled__np"/></e>
+    <e lm="David"><i>David</i><par n="Aled__np"/></e>
+    <e lm="Diego"><i>Diego</i><par n="Aled__np"/></e>
+    <e lm="Drew"><i>Drew</i><par n="Aled__np"/></e>
+    <e lm="Edmond"><i>Edmond</i><par n="Aled__np"/></e>
+    <e lm="Edmund"><i>Edmund</i><par n="Aled__np"/></e>
+    <e lm="Eduard"><i>Eduard</i><par n="Aled__np"/></e>
+    <e lm="Edward"><i>Edward</i><par n="Aled__np"/></e>
+    <e lm="Enric"><i>Enric</i><par n="Aled__np"/></e>
+    <e lm="Erasmus"><i>Erasmus</i><par n="Aled__np"/></e>
+    <e lm="Eric"><i>Eric</i><par n="Aled__np"/></e>
+    <e lm="Esmour"><i>Esmour</i><par n="Aled__np"/></e>
+    <e lm="Esperaunce"><i>Esperaunce</i><par n="Aled__np"/></e>
+    <e lm="Ethelbert"><i>Ethelbert</i><par n="Aled__np"/></e>
+    <e lm="Ethelred"><i>Ethelred</i><par n="Aled__np"/></e>
+    <e lm="Eustace"><i>Eustace</i><par n="Aled__np"/></e>
+    <e lm="Fernando"><i>Fernando</i><par n="Aled__np"/></e>
+    <e lm="Folke"><i>Folke</i><par n="Aled__np"/></e>
+    <e lm="Francesc"><i>Francesc</i><par n="Aled__np"/></e>
+    <e lm="Francesc Xavier"><i>Francesc Xavier</i><par n="Aled__np"/></e>
+    <e lm="Francis"><i>Francis</i><par n="Aled__np"/></e>
+    <e lm="Gabriel"><i>Gabriel</i><par n="Aled__np"/></e>
+    <e lm="Gauwyn"><i>Gauwyn</i><par n="Aled__np"/></e>
+    <e lm="Geerardt"><i>Geerardt</i><par n="Aled__np"/></e>
+    <e lm="Geoffrey"><i>Geoffrey</i><par n="Aled__np"/></e>
+    <e lm="George"><i>George</i><par n="Aled__np"/></e>
+    <e lm="Gerard"><i>Gerard</i><par n="Aled__np"/></e>
+    <e lm="Gilbert"><i>Gilbert</i><par n="Aled__np"/></e>
+    <e lm="Giles"><i>Giles</i><par n="Aled__np"/></e>
+    <e lm="Godfrey"><i>Godfrey</i><par n="Aled__np"/></e>
+    <e lm="Griffin"><i>Griffin</i><par n="Aled__np"/></e>
+    <e lm="Guillem"><i>Guillem</i><par n="Aled__np"/></e>
+    <e lm="Guy"><i>Guy</i><par n="Aled__np"/></e>
+    <e lm="Gyles"><i>Gyles</i><par n="Aled__np"/></e>
+    <e lm="Harry"><i>Harry</i><par n="Aled__np"/></e>
+    <e lm="Héctor"><i>Héctor</i><par n="Aled__np"/></e>
+    <e lm="Henry"><i>Henry</i><par n="Aled__np"/></e>
+    <e lm="Hercules"><i>Hercules</i><par n="Aled__np"/></e>
+    <e lm="Hewrey"><i>Hewrey</i><par n="Aled__np"/></e>
+    <e lm="Hugh"><i>Hugh</i><par n="Aled__np"/></e>
+    <e lm="Hugo"><i>Hugo</i><par n="Aled__np"/></e>
+    <e lm="Humphrey"><i>Humphrey</i><par n="Aled__np"/></e>
+    <e lm="Ignaci"><i>Ignaci</i><par n="Aled__np"/></e>
+    <e lm="Íker"><i>Íker</i><par n="Aled__np"/></e>
+    <e lm="Ingham"><i>Ingham</i><par n="Aled__np"/></e>
+    <e lm="Isaac"><i>Isaac</i><par n="Aled__np"/></e>
+    <e lm="Ismael"><i>Ismael</i><par n="Aled__np"/></e>
+    <e lm="Ivan"><i>Ivan</i><par n="Aled__np"/></e>
+    <e lm="Ivo"><i>Ivo</i><par n="Aled__np"/></e>
+    <e lm="Izan"><i>Izan</i><par n="Aled__np"/></e>
+    <e lm="Jakys"><i>Jakys</i><par n="Aled__np"/></e>
+    <e lm="James"><i>James</i><par n="Aled__np"/></e>
+    <e lm="Jaume"><i>Jaume</i><par n="Aled__np"/></e>
+    <e lm="Jeffrey"><i>Jeffrey</i><par n="Aled__np"/></e>
+    <e lm="Jenlyns"><i>Jenlyns</i><par n="Aled__np"/></e>
+    <e lm="Jesús"><i>Jesús</i><par n="Aled__np"/></e>
+    <e lm="Joan Antoni"><i>Joan Antoni</i><par n="Aled__np"/></e>
+    <e lm="Joan"><i>Joan</i><par n="Aled__np"/></e>
+    <e lm="Joan Josep"><i>Joan Josep</i><par n="Aled__np"/></e>
+    <e lm="Joan Manel"><i>Joan Manel</i><par n="Aled__np"/></e>
+    <e lm="Joel"><i>Joel</i><par n="Aled__np"/></e>
+    <e lm="John"><i>John</i><par n="Aled__np"/></e>
+    <e lm="Jon"><i>Jon</i><par n="Aled__np"/></e>
+    <e lm="Jordi"><i>Jordi</i><par n="Aled__np"/></e>
+    <e lm="Jorge"><i>Jorge</i><par n="Aled__np"/></e>
+    <e lm="Josep Antoni"><i>Josep Antoni</i><par n="Aled__np"/></e>
+    <e lm="Josep"><i>Josep</i><par n="Aled__np"/></e>
+    <e lm="Juli"><i>Juli</i><par n="Aled__np"/></e>
+    <e lm="Laurence"><i>Laurence</i><par n="Aled__np"/></e>
+    <e lm="Lawrence"><i>Lawrence</i><par n="Aled__np"/></e>
+    <e lm="Leonard"><i>Leonard</i><par n="Aled__np"/></e>
+    <e lm="Lewis"><i>Lewis</i><par n="Aled__np"/></e>
+    <e lm="Llorenç"><i>Llorenç</i><par n="Aled__np"/></e>
+    <e lm="Lluc"><i>Lluc</i><par n="Aled__np"/></e>
+    <e lm="Lluís"><i>Lluís</i><par n="Aled__np"/></e>
+    <e lm="Lucas"><i>Lucas</i><par n="Aled__np"/></e>
+    <e lm="Luke"><i>Luke</i><par n="Aled__np"/></e>
+    <e lm="Manel"><i>Manel</i><par n="Aled__np"/></e>
+    <e lm="Marc"><i>Marc</i><par n="Aled__np"/></e>
+    <e lm="Mario"><i>Mario</i><par n="Aled__np"/></e>
+    <e lm="Martí"><i>Martí</i><par n="Aled__np"/></e>
+    <e lm="Martin"><i>Martin</i><par n="Aled__np"/></e>
+    <e lm="Mathye"><i>Mathye</i><par n="Aled__np"/></e>
+    <e lm="Matthew"><i>Matthew</i><par n="Aled__np"/></e>
+    <e lm="Maurice"><i>Maurice</i><par n="Aled__np"/></e>
+    <e lm="Michael"><i>Michael</i><par n="Aled__np"/></e>
+    <e lm="Miquel Àngel"><i>Miquel Àngel</i><par n="Aled__np"/></e>
+    <e lm="Miquel"><i>Miquel</i><par n="Aled__np"/></e>
+    <e lm="Morys"><i>Morys</i><par n="Aled__np"/></e>
+    <e lm="Nathaniel"><i>Nathaniel</i><par n="Aled__np"/></e>
+    <e lm="Nicholas"><i>Nicholas</i><par n="Aled__np"/></e>
+    <e lm="Nichole"><i>Nichole</i><par n="Aled__np"/></e>
+    <e lm="Nichol"><i>Nichol</i><par n="Aled__np"/></e>
+    <e lm="Nicolas"><i>Nicolas</i><par n="Aled__np"/></e>
+    <e lm="Nicolau"><i>Nicolau</i><par n="Aled__np"/></e>
+    <e lm="Olever"><i>Olever</i><par n="Aled__np"/></e>
+    <e lm="Oliver"><i>Oliver</i><par n="Aled__np"/></e>
+    <e lm="Olyver"><i>Olyver</i><par n="Aled__np"/></e>
+    <e lm="Òscar"><i>Òscar</i><par n="Aled__np"/></e>
+    <e lm="Pau"><par n="initial-p"/><i>au</i><par n="Aled__np"/></e>
+    <e lm="Pere"><par n="initial-p"/><i>ere</i><par n="Aled__np"/></e>
+    <e lm="Pers"><par n="initial-p"/><i>ers</i><par n="Aled__np"/></e>
+    <e lm="Peter"><par n="initial-p"/><i>eter</i><par n="Aled__np"/></e>
+    <e lm="Philip"><par n="initial-p"/><i>hilip</i><par n="Aled__np"/></e>
+    <e lm="Philippe"><par n="initial-p"/><i>hilippe</i><par n="Aled__np"/></e>
+    <e lm="Piers"><par n="initial-p"/><i>iers</i><par n="Aled__np"/></e>
+    <e lm="Powle"><par n="initial-p"/><i>owle</i><par n="Aled__np"/></e>
+    <e lm="Rafel"><i>Rafel</i><par n="Aled__np"/></e>
+    <e lm="Raffe"><i>Raffe</i><par n="Aled__np"/></e>
+    <e lm="Raff"><i>Raff</i><par n="Aled__np"/></e>
+    <e lm="Ralf"><i>Ralf</i><par n="Aled__np"/></e>
+    <e lm="Ralph"><i>Ralph</i><par n="Aled__np"/></e>
+    <e lm="Ramon"><i>Ramon</i><par n="Aled__np"/></e>
+    <e lm="Rauffe"><i>Rauffe</i><par n="Aled__np"/></e>
+    <e lm="Rauff"><i>Rauff</i><par n="Aled__np"/></e>
+    <e lm="Rauf"><i>Rauf</i><par n="Aled__np"/></e>
+    <e lm="Raulin"><i>Raulin</i><par n="Aled__np"/></e>
+    <e lm="Raúl"><i>Raúl</i><par n="Aled__np"/></e>
+    <e lm="Reginald"><i>Reginald</i><par n="Aled__np"/></e>
+    <e lm="Reynard"><i>Reynard</i><par n="Aled__np"/></e>
+    <e lm="Reynold"><i>Reynold</i><par n="Aled__np"/></e>
+    <e lm="Richard"><i>Richard</i><par n="Aled__np"/></e>
+    <e lm="Robert"><i>Robert</i><par n="Aled__np"/></e>
+    <e lm="Roberto"><i>Roberto</i><par n="Aled__np"/></e>
+    <e lm="Roger"><i>Roger</i><par n="Aled__np"/></e>
+    <e lm="Rowland"><i>Rowland</i><par n="Aled__np"/></e>
+    <e lm="Ruben"><i>Ruben</i><par n="Aled__np"/></e>
+    <e lm="Salvador"><i>Salvador</i><par n="Aled__np"/></e>
+    <e lm="Samuel"><i>Samuel</i><par n="Aled__np"/></e>
+    <e lm="Santiago"><i>Santiago</i><par n="Aled__np"/></e>
+    <e lm="Sebastià"><i>Sebastià</i><par n="Aled__np"/></e>
+    <e lm="Sergi"><i>Sergi</i><par n="Aled__np"/></e>
+    <e lm="Simon"><i>Simon</i><par n="Aled__np"/></e>
+    <e lm="Stehen"><i>Stehen</i><par n="Aled__np"/></e>
+    <e lm="Stephen"><i>Stephen</i><par n="Aled__np"/></e>
+    <e lm="Steven"><i>Steven</i><par n="Aled__np"/></e>
+    <e lm="Symond"><i>Symond</i><par n="Aled__np"/></e>
+    <e lm="Thames"><i>Thames</i><par n="Aled__np"/></e>
+    <e lm="Thomas"><i>Thomas</i><par n="Aled__np"/></e>
+    <e lm="Tomas"><i>Tomas</i><par n="Aled__np"/></e>
+    <e lm="Tomàs"><i>Tomàs</i><par n="Aled__np"/></e>
+    <e lm="Valentine"><i>Valentine</i><par n="Aled__np"/></e>
+    <e lm="Víctor"><i>Víctor</i><par n="Aled__np"/></e>
+    <e lm="Vyncent"><i>Vyncent</i><par n="Aled__np"/></e>
+    <e lm="Walter"><i>Walter</i><par n="Aled__np"/></e>
+    <e lm="Warin"><i>Warin</i><par n="Aled__np"/></e>
+    <e lm="Wilham"><i>Wilham</i><par n="Aled__np"/></e>
+    <e lm="William"><i>William</i><par n="Aled__np"/></e>
+    <e lm="Xavier"><i>Xavier</i><par n="Aled__np"/></e>
+    <e lm="Zacheus"><i>Zacheus</i><par n="Aled__np"/></e>
+    <e lm="Pedr"><par n="initial-P"/><i>edr</i><par n="Aled__np"/></e>
+
   </section>
 
   <section id="apostrophes" type="postblank">

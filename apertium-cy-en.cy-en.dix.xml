@@ -203,7 +203,7 @@
     <e><p><l>distylliad<s n="n"/><s n="m"/></l><r>distillation<s n="n"/></r></p></e><!-- distillation - distylliad [m.]-->
     <e><p><l>gwrogaeth<s n="n"/><s n="f"/></l><r>homage<s n="n"/></r></p></e><!-- homage - gwrogaeth (gwarogaeth) [f.]-->
     <e><p><l>hiwmaniaeth<s n="n"/><s n="f"/></l><r>humanism<s n="n"/></r></p></e><!-- humanism - hiwmaniaeth [f.]-->
-    <e><p><l>arian<s n="n"/><s n="m"/></l><r>silver<s n="n"/></r></p></e><!-- silver - arian [m.]-->
+    <e r="RL"><p><l>arian<s n="n"/><s n="m"/></l><r>silver<s n="n"/></r></p></e><!-- silver - arian [m.]-->
     <e><p><l>ocsid<s n="n"/><s n="m"/></l><r>oxide<s n="n"/></r></p></e><!-- oxide - ocsid [m.?]-->
     <e><p><l>cynddaredd<s n="n"/><s n="f"/></l><r>rabies<s n="n"/></r></p></e><!-- rabies - cynddaredd [f.]-->
     <e><p><l>llwfrdra<s n="n"/><s n="m"/></l><r>cowardice<s n="n"/></r></p></e><!-- cowardice - llwfrdra [m.]-->
@@ -2009,7 +2009,6 @@
     <e><p><l>parch<s n="n"/><s n="m"/></l><r>respect<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>parhad<s n="n"/><s n="m"/></l><r>continuation<s n="n"/></r></p></e>
     <e><p><l>parodrwydd<s n="n"/><s n="m"/></l><r>readiness<s n="n"/></r></p></e>
-    <e><p><l>Pedr<s n="n"/><s n="m"/></l><r>Peter<s n="n"/></r></p></e>
     <e><p><l>peirianneg<s n="n"/><s n="m"/></l><r>engineering<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>pêl-droed<s n="n"/><s n="f"/></l><r>football<s n="n"/></r></p></e>
     <e><p><l>pellter<s n="n"/><s n="m"/></l><r>distance<s n="n"/></r></p></e>
@@ -9309,6 +9308,7 @@
     <e><p><l>Cymdeithas yr Iaith Gymraeg<s n="np"/></l><r>Cymdeithas yr Iaith Gymraeg<s n="np"/></r></p></e>
     <e><p><l>Cymdeithas yr Iaith<s n="np"/></l><r>Cymdeithas yr Iaith<s n="np"/></r></p></e>
     <e><p><l>Cymdeithas<s n="np"/></l><r>Cymdeithas<s n="np"/></r></p></e>
+    <e><p><l>Plaid Genedlaethol yr Alban<s n="np"/></l><r>Scottish National Party<s n="np"/></r></p></e>
  
  
       <!--  Anthroponyms -->
@@ -9687,6 +9687,8 @@
     <e><p><l>Yedythe<s n="np"/><s n="ant"/></l><r>Yedythe<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Zacheus<s n="np"/><s n="ant"/></l><r>Zacheus<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Zaira<s n="np"/><s n="ant"/></l><r>Zaira<s n="np"/><s n="ant"/></r></p></e>
+    <e r="LR"><p><l>Pedr<s n="np"/><s n="ant"/></l><r>Peter<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Peter<s n="np"/><s n="ant"/></l><r>Peter<s n="np"/><s n="ant"/></r></p></e>
  
     <!--  Toponyms -->
  
