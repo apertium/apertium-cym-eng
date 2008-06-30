@@ -6,6 +6,10 @@
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
+    <def-cat n="NUM">
+      <cat-item lemma="num" tags="SN"/>
+      <cat-item lemma="num" tags="SN.*"/>
+    </def-cat>
     <def-cat n="SP">
       <cat-item tags="SP"/>
       <cat-item tags="SP.*"/>
@@ -22,6 +26,7 @@
     <def-cat n="SV_inf">
       <cat-item tags="SV.vblex.inf"/>
     </def-cat>
+
     <def-cat n="SP_wedi">
       <cat-item lemma="wedi" tags="SP"/>
     </def-cat>
@@ -30,6 +35,9 @@
     </def-cat>
     <def-cat n="SP_ar">
       <cat-item lemma="ar" tags="SP"/>
+    </def-cat>
+    <def-cat n="SP_o">
+      <cat-item lemma="o" tags="SP"/>
     </def-cat>
 
   </section-def-cats>
@@ -312,6 +320,31 @@
 	    <clip pos="1" part="temps"/>
 	    <clip pos="1" part="pers"/>
 	    <clip pos="2" part="nbr"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: NUM SP_o SN">
+      <pattern>
+        <pattern-item n="NUM"/>
+        <pattern-item n="SP_o"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <get-case-from pos="1">
+              <clip pos="1" part="lem"/>
+            </get-case-from>
+            <clip pos="1" part="tags"/>
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b/>

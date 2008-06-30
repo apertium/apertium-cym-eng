@@ -49369,6 +49369,20 @@
     <e lm="llys"><par n="initial-ll"/><i>ys</i><par n="aber__n"/></e>
     <e lm="metel"><par n="initial-m"/><i>etel</i><par n="aber__n"/></e>
     <e lm="mis"><par n="initial-m"/><i>is</i><par n="aber__n"/></e>
+
+    <e lm="mis Ionawr"><par n="initial-m"/><i>is</i><par n="aber__n"/><p><l><b/>Ionawr</l><r><g><b/>Ionawr</g></r></p></e>
+    <e lm="mis Chwefror"><par n="initial-m"/><i>is</i><par n="aber__n"/><p><l><b/>Chwefror</l><r><g><b/>Chwefror</g></r></p></e>
+    <e lm="mis Mawrth"><par n="initial-m"/><i>is</i><par n="aber__n"/><p><l><b/>Mawrth</l><r><g><b/>Mawrth</g></r></p></e>
+    <e lm="mis Ebrill"><par n="initial-m"/><i>is</i><par n="aber__n"/><p><l><b/>Ebrill</l><r><g><b/>Ebrill</g></r></p></e>
+    <e lm="mis Mai"><par n="initial-m"/><i>is</i><par n="aber__n"/><p><l><b/>Mai</l><r><g><b/>Mai</g></r></p></e>
+    <e lm="mis Mehefin"><par n="initial-m"/><i>is</i><par n="aber__n"/><p><l><b/>Mehefin</l><r><g><b/>Mehefin</g></r></p></e>
+    <e lm="mis Gorffennaf"><par n="initial-m"/><i>is</i><par n="aber__n"/><p><l><b/>Gorffennaf</l><r><g><b/>Gorffennaf</g></r></p></e>
+    <e lm="mis Awst"><par n="initial-m"/><i>is</i><par n="aber__n"/><p><l><b/>Awst</l><r><g><b/>Awst</g></r></p></e>
+    <e lm="mis Medi"><par n="initial-m"/><i>is</i><par n="aber__n"/><p><l><b/>Medi</l><r><g><b/>Medi</g></r></p></e>
+    <e lm="mis Hydref"><par n="initial-m"/><i>is</i><par n="aber__n"/><p><l><b/>Hydref</l><r><g><b/>Hydref</g></r></p></e>
+    <e lm="mis Tachwedd"><par n="initial-m"/><i>is</i><par n="aber__n"/><p><l><b/>Tachwedd</l><r><g><b/>Tachwedd</g></r></p></e>
+    <e lm="mis Rhagfyr"><par n="initial-m"/><i>is</i><par n="aber__n"/><p><l><b/>Rhagfyr</l><r><g><b/>Rhagfyr</g></r></p></e>
+
     <e lm="mynydd"><par n="initial-m"/><i>ynydd</i><par n="aber__n"/></e>
     <e lm="nerth"><i>nerth</i><par n="aber__n"/></e>
     <e lm="nifer"><i>nifer</i><par n="aber__n"/></e>
