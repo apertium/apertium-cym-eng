@@ -55848,35 +55848,50 @@
 
     <e lm="e.e."><i>e.e.</i><par n="e.e.__abbr"/></e>
 
-    <e lm="Plaid Genedlaethol yr Alban"><par n="initial-P"/><i>laid<b/>Genedlaethol<b/>yr<b/>Alban</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="dydd Gwener"><par n="initial-d"/><i>ydd</i><par n="amlap__n"/><p><l><b/>Gwener</l><r><g><b/>Gwener</g></r></p></e>
+    <e lm="dydd Llun"><par n="initial-d"/><i>ydd</i><par n="amlap__n"/><p><l><b/>Llun</l><r><g><b/>Llun</g></r></p></e>
+    <e lm="dydd Mercher"><par n="initial-d"/><i>ydd</i><par n="amlap__n"/><p><l><b/>Mercher</l><r><g><b/>Mercher</g></r></p></e>
+    <e lm="dydd Mawrth"><par n="initial-d"/><i>ydd</i><par n="amlap__n"/><p><l><b/>Mawrth</l><r><g><b/>Mawrth</g></r></p></e>
+    <e lm="dydd Sadwrn"><par n="initial-d"/><i>ydd</i><par n="amlap__n"/><p><l><b/>Sadwrn</l><r><g><b/>Sadwrn</g></r></p></e>
+
+
 
     <e lm="Llywodraeth y Cynulliad"><par n="initial-Ll"/><i>ywodraeth<b/>y<b/>Cynulliad</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas"><par n="initial-C"/><i>ymdeithas</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas yr Iaith"><par n="initial-C"/><i>ymdeithas<b/>yr<b/>Iaith</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas yr Iaith Gymraeg"><par n="initial-C"/><i>ymdeithas<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
+    <e lm="Plaid Genedlaethol yr Alban"><par n="initial-P"/><i>laid<b/>Genedlaethol<b/>yr<b/>Alban</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Plaid Cymru"><par n="initial-P"/><i>laid<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Plaid Lafur"><par n="initial-P"/><i>laid<b/>Lafur</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+
 
     <e lm="Sir Benfro"><i>Sir<b/>Benfro</i><par n="Blaenafon__np"/></e>
     <e lm="Sir Gaerfyrddin"><i>Sir<b/>Gaerfyrddin</i><par n="Blaenafon__np"/></e>
     <e lm="Powys"><par n="initial-P"/><i>owys</i><par n="Blaenafon__np"/></e>
-    <e lm="Doc Penfro"><par n="initial-D"/><i>oc<b/>Penfro</i><par n="Blaenafon__np"/></e>
     <e lm="Dyfed"><par n="initial-D"/><i>yfed</i><par n="Blaenafon__np"/></e>
     <e lm="Dyfed-Powys"><par n="initial-D"/><i>yfed-Powys</i><par n="Blaenafon__np"/></e>
+
+
     <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Blaenafon__np"/></e>
     <e lm="Hwlffordd"><i>Hwlffordd</i><par n="Blaenafon__np"/></e>
     <e lm="Bangor"><par n="initial-B"/><i>angor</i><par n="Blaenafon__np"/></e>
     <e lm="Blaenafon"><par n="initial-B"/><i>laenafon</i><par n="Blaenafon__np"/></e>
     <e lm="Caerdydd"><par n="initial-C"/><i>aerdydd</i><par n="Blaenafon__np"/></e>
-    <e lm="Cymru"><par n="initial-C"/><i>ymru</i><par n="Blaenafon__np"/></e>
+    <e lm="Caerfyrddin"><par n="initial-C"/><i>aerfyrddin</i><par n="Blaenafon__np"/></e>
+    <e lm="Doc Penfro"><par n="initial-D"/><i>oc<b/>Penfro</i><par n="Blaenafon__np"/></e>
     <e lm="Dolgellau"><par n="initial-D"/><i>olgellau</i><par n="Blaenafon__np"/></e>
+    <e lm="Llundain"><par n="initial-Ll"/><i>undain</i><par n="Blaenafon__np"/></e>
     <e lm="Merthyr Tudful"><par n="initial-M"/><i>erthyr<b/>Tudful</i><par n="Blaenafon__np"/></e>
 
+
+    <e lm="Cymru"><par n="initial-C"/><i>ymru</i><par n="Blaenafon__np"/></e>
+    <e lm="Slofenia"><i>Slofenia</i><par n="Blaenafon__np"/></e>
     <e lm="Lloegr"><par n="initial-Ll"/><i>oegr</i><par n="Blaenafon__np"/></e>
     <e lm="yr Alban"><i>yr<b/>Alban</i><par n="Blaenafon__np"/></e>
-    <e lm="Llundain"><par n="initial-Ll"/><i>undain</i><par n="Blaenafon__np"/></e>
+
 
     <e lm="Aled"><i>Aled</i><par n="Aled__np"/></e>
-
     <e lm="Mark"><i>Mark</i><par n="Aled__np"/></e>
     <e lm="Aaron"><i>Aaron</i><par n="Aled__np"/></e>
     <e lm="Adam"><i>Adam</i><par n="Aled__np"/></e>
@@ -55898,7 +55913,6 @@
     <e lm="Arnold"><i>Arnold</i><par n="Aled__np"/></e>
     <e lm="Arthur"><i>Arthur</i><par n="Aled__np"/></e>
     <e lm="Baldwin"><i>Baldwin</i><par n="Aled__np"/></e>
-    <e lm="(Barnard)"><i>(Barnard)</i><par n="Aled__np"/></e>
     <e lm="Bartholomew"><i>Bartholomew</i><par n="Aled__np"/></e>
     <e lm="Bartomeu"><i>Bartomeu</i><par n="Aled__np"/></e>
     <e lm="Batholomew"><i>Batholomew</i><par n="Aled__np"/></e>
