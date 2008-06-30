@@ -29672,7 +29672,7 @@
       <e>
         <p>
           <l>i</l>
-          <r>i<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
+          <r>eiddi<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -29714,7 +29714,7 @@
       <e>
         <p>
           <l>ych</l>
-          <r>i<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r>
+          <r>eiddi<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -47272,6 +47272,7 @@
 
     <!-- Adverbs -->
     <e lm="yma"><i>yma</i><par n="yma__adv"/></e>
+    <e lm="isod"><i>isod</i><par n="yma__adv"/></e>
     <e lm="wedyn"><i>wedyn</i><par n="yma__adv"/></e>
     <e lm="hefyd"><i>hefyd</i><par n="yma__adv"/></e>
     <e lm="rwan"><i>rwan</i><par n="yma__adv"/></e>
@@ -49619,6 +49620,7 @@
     <e lm="ymyl"><i>ymyl</i><par n="awel__n"/></e>
     <e lm="cariad"><par n="initial-c"/><i>ariad</i><par n="cariad__n"/></e>
     <e lm="batri"><par n="initial-b"/><i>atri</i><par n="batri__n"/></e>
+    <e lm="pyrfyrt"><par n="initial-p"/><i>yrfyrt</i><par n="batri__n"/></e>
     <e lm="brand"><par n="initial-b"/><i>rand</i><par n="batri__n"/></e>
     <e lm="byngalo"><par n="initial-b"/><i>yngalo</i><par n="batri__n"/></e>
     <e lm="caffi"><par n="initial-c"/><i>affi</i><par n="batri__n"/></e>
@@ -55907,8 +55909,10 @@
 
 
     <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Blaenafon__np"/></e>
+    <e lm="Abertawe"><i>Abertawe</i><par n="Blaenafon__np"/></e>
     <e lm="Hwlffordd"><i>Hwlffordd</i><par n="Blaenafon__np"/></e>
     <e lm="Bangor"><par n="initial-B"/><i>angor</i><par n="Blaenafon__np"/></e>
+    <e lm="Pontypridd"><par n="initial-P"/><i>ontypridd</i><par n="Blaenafon__np"/></e>
     <e lm="Blaenafon"><par n="initial-B"/><i>laenafon</i><par n="Blaenafon__np"/></e>
     <e lm="Caerdydd"><par n="initial-C"/><i>aerdydd</i><par n="Blaenafon__np"/></e>
     <e lm="Caerfyrddin"><par n="initial-C"/><i>aerfyrddin</i><par n="Blaenafon__np"/></e>

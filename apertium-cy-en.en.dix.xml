@@ -19762,6 +19762,7 @@
     <e lm="debit"><i>debit</i><par n="house__n"/></e>
     <e lm="crewman"><i>crewm</i><par n="m/an__n"/></e>
     <e lm="coronation"><i>coronation</i><par n="house__n"/></e>
+    <e lm="coroner"><i>coroner</i><par n="house__n"/></e>
     <e lm="copier"><i>copier</i><par n="house__n"/></e>
     <e lm="clover"><i>clover</i><par n="house__n__unc"/></e>
     <e lm="botanist"><i>botanist</i><par n="house__n"/></e>
@@ -19984,6 +19985,7 @@
     <e lm="pheasant"><i>pheasant</i><par n="house__n"/></e>
     <e lm="petrochemical"><i>petrochemical</i><par n="house__n"/></e>
     <e lm="perversion"><i>perversion</i><par n="house__n"/></e>
+    <e lm="pervert"><i>pervert</i><par n="house__n"/></e>
     <e lm="parquet"><i>parquet</i><par n="house__n"/></e>
     <e lm="panther"><i>panther</i><par n="house__n"/></e>
     <e lm="originator"><i>originator</i><par n="house__n"/></e>
@@ -27733,8 +27735,10 @@
     <e lm="London"><i>London</i><par n="Barcelona__np"/></e>
     <e lm="Blaenafon"><i>Blaenafon</i><par n="Barcelona__np"/></e>
     <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Barcelona__np"/></e>
+    <e lm="Swansea"><i>Swansea</i><par n="Barcelona__np"/></e>
     <e lm="Carmarthen"><i>Carmarthen</i><par n="Barcelona__np"/></e>
     <e lm="Pembroke Dock"><i>Pembroke<b/>Dock</i><par n="Barcelona__np"/></e>
+    <e lm="Pontypridd"><i>Pontypridd</i><par n="Barcelona__np"/></e>
     <e lm="Powys"><i>Powys</i><par n="Barcelona__np"/></e>
     <e lm="Dyfed"><i>Dyfed</i><par n="Barcelona__np"/></e>
     <e lm="Dyfed-Powys"><i>Dyfed-Powys</i><par n="Barcelona__np"/></e>
