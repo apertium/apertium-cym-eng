@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <tagger name="welsh">
   <tagset>
     <!-- Closed categories -->
@@ -215,4 +215,7 @@
 
   </enforce-rules>
 
+  <preferences>
+    <prefer tags="cnjcoo"/>
+  </preferences>
 </tagger>
