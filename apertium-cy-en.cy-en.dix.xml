@@ -176,6 +176,7 @@
     <e><p><l>llysywen<s n="n"/><s n="f"/></l><r>eel<s n="n"/></r></p></e>
     <e><p><l>hofrenfad<s n="n"/><s n="mf"/></l><r>hovercraft<s n="n"/></r></p></e>
     <e><p><l>carped<s n="n"/><s n="m"/></l><r>carpet<s n="n"/></r></p></e>
+    <e><p><l>fechnïaeth<s n="n"/><s n="f"/></l><r>bail<s n="n"/></r></p></e>
  
     <e><p><l>gormodiaith<s n="n"/><s n="f"/></l><r>exaggeration<s n="n"/></r></p></e><!-- exaggeration - gormodiaith [f.]-->
     <e><p><l>ymollyngdod<s n="n"/><s n="m"/></l><r>relaxation<s n="n"/></r></p></e><!-- relaxation - ymollyngdod [m.]-->
@@ -9721,6 +9722,10 @@
 
     <e><p><l>Sir Gaerfyrddin<s n="np"/><s n="top"/></l><r>Carmarthenshire<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Sir Benfro<s n="np"/><s n="top"/></l><r>Pembrokeshire<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ceredigion<s n="np"/><s n="top"/></l><r>Ceredigion<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Powys<s n="np"/><s n="top"/></l><r>Powys<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Dyfed<s n="np"/><s n="top"/></l><r>Dyfed<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Dyfed-Powys<s n="np"/><s n="top"/></l><r>Dyfed-Powys<s n="np"/><s n="top"/></r></p></e>
 
     <e><p><l>Aberystwyth<s n="np"/><s n="top"/></l><r>Aberystwyth<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Abercynon<s n="np"/><s n="top"/></l><r>Abercynon<s n="np"/><s n="top"/></r></p></e>
@@ -9734,9 +9739,6 @@
     <e><p><l>Dolgellau<s n="np"/><s n="top"/></l><r>Dolgellau<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llundain<s n="np"/><s n="top"/></l><r>London<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Pontypridd<s n="np"/><s n="top"/></l><r>Pontypridd<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Powys<s n="np"/><s n="top"/></l><r>Powys<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Dyfed<s n="np"/><s n="top"/></l><r>Dyfed<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Dyfed-Powys<s n="np"/><s n="top"/></l><r>Dyfed-Powys<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Merthyr Tudful<s n="np"/><s n="top"/></l><r>Merthyr Tydfil<s n="np"/><s n="top"/></r></p></e>
 
       <!-- Need genders -->

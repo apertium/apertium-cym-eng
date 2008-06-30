@@ -49530,6 +49530,7 @@
     <e lm="noson"><i>noson</i><par n="addysg__n"/></e>
     <e lm="pêl-droed"><par n="initial-p"/><i>êl-droed</i><par n="addysg__n"/></e>
     <e lm="pensaernïaeth"><par n="initial-p"/><i>ensaernïaeth</i><par n="addysg__n"/></e>
+    <e lm="fechnïaeth"><i>fechnïaeth</i><par n="addysg__n"/></e>
     <e lm="perchnogaeth"><par n="initial-p"/><i>erchnogaeth</i><par n="addysg__n"/></e>
     <e lm="pobl"><par n="initial-p"/><i>obl</i><par n="addysg__n"/></e>
     <e lm="pobol"><par n="initial-p"/><i>obol</i><par n="addysg__n"/></e>
@@ -56635,6 +56636,7 @@
     <e lm="Sir Gaerfyrddin"><i>Sir<b/>Gaerfyrddin</i><par n="Blaenafon__np"/></e>
     <e lm="Powys"><par n="initial-P"/><i>owys</i><par n="Blaenafon__np"/></e>
     <e lm="Dyfed"><par n="initial-D"/><i>yfed</i><par n="Blaenafon__np"/></e>
+    <e lm="Ceredigion"><par n="initial-C"/><i>eredigion</i><par n="Blaenafon__np"/></e>
     <e lm="Dyfed-Powys"><par n="initial-D"/><i>yfed-Powys</i><par n="Blaenafon__np"/></e>
 
 
