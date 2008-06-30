@@ -5896,6 +5896,12 @@
           <r><s n="vblex"/><s n="pres"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sp"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>s</l>
@@ -8749,6 +8755,12 @@
       </e>
     </pardef>
     <pardef n="house__n__unc">
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="n"/><s n="unc"/><s n="sp"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l/>
