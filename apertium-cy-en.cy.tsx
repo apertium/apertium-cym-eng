@@ -76,6 +76,7 @@
     </def-label>
 
     <def-label name="ADJ">
+      <tags-item tags="adj"/>
       <tags-item tags="adj.*"/>
     </def-label>
 
@@ -150,20 +151,19 @@
     </label-sequence>
   </forbid>
 
-  <enforce>
-    <label-sequence>
-      <label-item label="VERBP3"/>
-      <label-item label="PRNSUBJP3"/>
-    </label-sequence>
-    <label-sequence>
-      <label-item label="IPR"/>
-      <label-item label="VLEXINF"/>
-    </label-sequence>
-    <label-sequence>
-      <label-item label="IPR"/>
-      <label-item label="VSERINF"/>
-    </label-sequence>
-  </enforce>
+  <enforce-rules>
+    <enforce-after label="VERBP3">
+      <label-set>
+        <label-item label="PRNSUBJP3"/>
+      </label-set>
+    </enforce-after>
+    <enforce-after label="IPR">
+      <label-set>
+        <label-item label="VLEXINF"/>
+        <label-item label="VSERINF"/>
+      </label-set>
+    </enforce-after>
+  </enforce-rules>
 
   <preferences>
    <prefer tags="vblex.pii.p3.sg"/>
