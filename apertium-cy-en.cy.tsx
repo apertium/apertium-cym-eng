@@ -130,6 +130,10 @@
       <tags-item tags="vblex.imp.*"/>
     </def-label>
 
+    <def-label name="VLEXPRS">
+      <tags-item tags="vblex.prs.*"/>
+    </def-label>
+
   </tagset>
 
   <forbid>
@@ -157,6 +161,28 @@
       <label-item label="YRDET"/>
       <label-item label="NOMMF"/>
     </label-sequence>
+    <label-sequence>
+      <label-item label="PRNSUBJ"/>
+      <label-item label="NOMF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PRNSUBJ"/>
+      <label-item label="NOMM"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PRNSUBJ"/>
+      <label-item label="NOMMF"/>
+    </label-sequence>
+
+    <!-- Ad-hoc shittery -->
+    <label-sequence>
+      <label-item label="YNPR"/>
+      <label-item label="VLEXPRS"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="YNPART"/>
+      <label-item label="VLEXPRS"/>
+    </label-sequence>
   </forbid>
 
   <enforce-rules>
@@ -169,19 +195,24 @@
       <label-set>
         <label-item label="VLEXINF"/>
         <label-item label="VSERINF"/>
+        <label-item label="NOMF"/>
+        <label-item label="NOMM"/>
+        <label-item label="NOMMF"/>
       </label-set>
     </enforce-after>
-  </enforce-rules>
+    <enforce-after label="OPR">
+      <label-set>
+        <label-item label="NOMF"/>
+        <label-item label="NOMM"/>
+        <label-item label="NOMMF"/>
+      </label-set>
+    </enforce-after>
+    <enforce-after label="YNPR">
+      <label-set>
+        <label-item label="VLEXINF"/>
+      </label-set>
+    </enforce-after>
 
-  <preferences>
-   <prefer tags="vblex.pii.p3.sg"/>
-   <prefer tags="vbser.pii.p3.sg"/>
-   <prefer tags="vblex.prs.p3.sg"/>
-   <prefer tags="vbser.prs.p3.sg"/>
-   <prefer tags="vblex.cni.p3.sg"/>
-   <prefer tags="vbser.cni.p3.sg"/>
-   <prefer tags="vblex.pis.p3.sg"/>
-   <prefer tags="vbser.pis.p3.sg"/>
-  </preferences>
+  </enforce-rules>
 
 </tagger>
