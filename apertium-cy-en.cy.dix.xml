@@ -629,6 +629,14 @@
       </e>
     </pardef>
 
+    <pardef n="llawer_o__det">
+      <e>
+        <p>
+          <l/>
+          <r><s n="det"/><s n="qnt"/><s n="sp"/></r>
+        </p>
+      </e>
+    </pardef>
 
     <pardef n="/yr__det">
       <e r="LR">
@@ -47253,6 +47261,7 @@
     <e lm="eich"><i>eich</i><par n="fy__det"/></e>
     <e lm="eu"><i>eu</i><par n="fy__det"/></e>
 
+    <e lm="llawer o"><i>llawer<b/>o</i><par n="llawer_o__det"/></e>
 
     <!-- Adverbs -->
     <e lm="yma"><i>yma</i><par n="yma__adv"/></e>
