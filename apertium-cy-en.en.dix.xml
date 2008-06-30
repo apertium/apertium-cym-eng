@@ -28563,6 +28563,7 @@
     <e lm="live"><i>liv</i><par n="liv/e__vblex"/></e>
     <e lm="have"><i>ha</i><par n="ha/ve__vblex"/></e>
     <e lm="accept"><i>accept</i><par n="accept__vblex"/></e>
+    <e lm="experiment"><i>experiment</i><par n="accept__vblex"/></e>
     <e lm="handcuff"><i>handcuff</i><par n="accept__vblex"/></e>
     <e lm="behead"><i>behead</i><par n="accept__vblex"/></e>
     <e lm="gain"><i>gain</i><par n="accept__vblex"/></e>
