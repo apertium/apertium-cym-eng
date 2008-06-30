@@ -113,6 +113,10 @@
       <tags-item tags="vblex.inf"/>
     </def-label>
 
+    <def-label name="VSERINF">
+      <tags-item tags="vbser.inf"/>
+    </def-label>
+
     <def-label name="VLEXIMP">
       <tags-item tags="vblex.imp.*"/>
     </def-label>
@@ -150,6 +154,14 @@
     <label-sequence>
       <label-item label="VERBP3"/>
       <label-item label="PRNSUBJP3"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="IPR"/>
+      <label-item label="VLEXINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="IPR"/>
+      <label-item label="VSERINF"/>
     </label-sequence>
   </enforce>
 
