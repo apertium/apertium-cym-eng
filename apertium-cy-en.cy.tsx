@@ -29,6 +29,10 @@
       <tags-item tags="prn.*"/>
     </def-label>
 
+    <def-label name="YRDET" closed="true">
+      <tags-item lemma="yr" tags="det.def.*"/>
+    </def-label>
+
     <def-label name="DET" closed="true">
       <tags-item tags="det.dem.*"/>
       <tags-item tags="det.ind.*"/>
@@ -127,6 +131,18 @@
     <label-sequence>
       <label-item label="PRNSUBJ"/>
       <label-item label="VLEXINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="YRDET"/>
+      <label-item label="NOMF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="YRDET"/>
+      <label-item label="NOMM"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="YRDET"/>
+      <label-item label="NOMMF"/>
     </label-sequence>
   </forbid>
 
