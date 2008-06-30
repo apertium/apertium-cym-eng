@@ -1076,8 +1076,53 @@
         <pattern-item n="adj"/>
       </pattern>
       <action> 
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+	        <clip pos="2" side="sl" part="lem"/>
+		<lit v="llawer"/>
+	      </equal>
+	    </test>
+	    <let>
+              <clip pos="2" side="tl" part="whole"/>
+	      <concat>
+	        <lit v="much"/>
+		<lit-tag v="det.qnt.sg"/>
+              </concat>
+	    </let>
+
         <out>
-          <chunk name="nom_adj_adj" case="caseFirstWord">
+          <chunk name="det_adj_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="a_adj"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="nbr" link-to="2"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+	  </when>
+
+	<otherwise>
+        <out>
+          <chunk name="adj_adj_nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
@@ -1103,6 +1148,8 @@
           <var n="caseFirstWord"/>
           <lit v="aa"/>
         </let>
+          </otherwise>
+        </choose>
       </action>
     </rule>
 
