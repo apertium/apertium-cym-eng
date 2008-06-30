@@ -56849,6 +56849,23 @@
       </p>
     </e>
 
+    <e lm="gyda'i" r="LR">
+      <p>
+        <l>gyda'i</l>
+        <r>gyda<s n="pr"/><j/>i<s n="pr"/></r>
+      </p>
+    </e>
+
+    <e lm="a'i" r="LR">
+      <p>
+        <l>a'i</l>
+        <r>a<s n="cnjcoo"/><j/>i<s n="pr"/></r>
+      </p>
+    </e>
+
+
+
+
 
     <e lm="i'r" r="LR">
       <p>
@@ -56942,6 +56959,14 @@
 	<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
       </p>
     </e>
+
+    <e lm="chi'n" r="LR">
+      <p>
+        <l>chi'n</l>
+	<r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
+      </p>
+    </e>
+
 
 
   </section>

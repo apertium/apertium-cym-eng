@@ -8392,12 +8392,26 @@
           <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
+
+      <e r="RL">
+        <p>
+          <l>you</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>you</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>you</l>
           <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r>
         </p>
       </e>
+
       <e>
         <p>
           <l>he</l>
