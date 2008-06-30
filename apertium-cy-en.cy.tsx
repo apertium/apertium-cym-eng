@@ -39,6 +39,7 @@
       <tags-item tags="det.def.*"/>
       <tags-item tags="det.pos.*"/>
       <tags-item tags="det.itg.*"/>
+      <tags-item tags="det.qnt.*"/>
     </def-label>
 
     <def-label name="RELAN" closed="true">
