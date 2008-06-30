@@ -2650,6 +2650,12 @@
           <r>e<s n="vblex"/><s n="pres"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l>e</l>
+          <r>e<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>es</l>
@@ -28373,6 +28379,7 @@
     <e lm="Zacheus"><i>Zacheus</i><par n="Mark__np"/></e>
     <e lm="Zaira"><i>Zaira</i><par n="Mary__np"/></e>
     <e lm="one"><i>one</i><par n="one__num"/></e>
+    <e lm="one"><i>one</i><par n="expensive__adj"/></e>
     <e lm="a hundred"><i>a<b/>hundred</i><par n="million__num"/></e>
     <e lm="a thousand"><i>a<b/>thousand</i><par n="million__num"/></e>
     <e lm="a million"><i>a<b/>million</i><par n="million__num"/></e>
