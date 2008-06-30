@@ -47147,8 +47147,8 @@
 
     <e lm="a"><i>a</i><par n="a__rel"/></e>
  
-
-    <e lm="yn"><i>yn</i><par n="yn__part"/></e> <!-- The 'yn' particle -->
+<!--
+    <e lm="yn"><i>yn</i><par n="yn__part"/></e> --><!-- The 'yn' particle -->
     <e lm="ar"><i/><par n="/ar__pr"/></e>
     <e lm="am"><i/><par n="/am__pr"/></e>
     <e lm="dan"><i/><par n="/dan__pr"/></e>
@@ -56211,6 +56211,12 @@
       </p>
     </e>
 
+    <e lm="nhw'n" r="LR">
+      <p>
+        <l>nhw'n</l>
+	<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
+      </p>
+    </e>
 
 
   </section>
