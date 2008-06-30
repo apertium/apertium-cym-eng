@@ -16,6 +16,6 @@ for LINE in $LIST; do
 #	echo $LINE;
 	SL=`echo $LINE | cut -f2 -d')' | sed 's/<i>//g' | sed 's/<\/i>//g' | cut -f2 -d'*' | sed 's/→/@/g' | cut -f1 -d'@' | sed 's/(note:/@/g' | sed 's/_/ /g'`;
 
-	echo -e $mode"\t"$SL"\t"`echo $SL | apertium -d . $mode`;
+	echo -e $mode"\t"$SL"\n\t "`echo $SL | apertium -d . $mode`"\n";
 
 done
