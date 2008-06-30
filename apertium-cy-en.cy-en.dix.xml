@@ -154,6 +154,7 @@
     <!-- Adverbs -->
  
     <e><p><l>yma<s n="adv"/></l><r>here<s n="adv"/></r></p></e>
+    <e><p><l>isod<s n="adv"/></l><r>below<s n="adv"/></r></p></e>
     <e><p><l>hyd yn oed<s n="adv"/></l><r>even<s n="adv"/></r></p></e>
     <e><p><l>wrth gwrs<s n="adv"/></l><r>of course<s n="adv"/></r></p></e>
     <e><p><l>wedyn<s n="adv"/></l><r>here<s n="adv"/></r></p></e>
@@ -2889,6 +2890,7 @@
     <e><p><l>ynad<s n="n"/><s n="m"/></l><r>magistrate<s n="n"/></r></p></e>
     <e><p><l>ystyr<s n="n"/><s n="m"/></l><r>meaning<s n="n"/></r></p></e>
     <e><p><l>batri<s n="n"/><s n="m"/></l><r>battery<s n="n"/></r></p></e>
+    <e><p><l>pyrfyrt<s n="n"/><s n="m"/></l><r>pervert<s n="n"/></r></p></e>
     <e><p><l>brand<s n="n"/><s n="m"/></l><r>brand<s n="n"/></r></p></e>
     <e><p><l>byngalo<s n="n"/><s n="m"/></l><r>bungalow<s n="n"/></r></p></e>
     <e><p><l>caffi<s n="n"/><s n="m"/></l><r>café<s n="n"/></r></p></e>
@@ -2897,7 +2899,7 @@
     <e><p><l>coffi<s n="n"/><s n="m"/></l><r>coffee<s n="n"/></r></p></e>
     <e><p><l>cola<s n="n"/><s n="m"/></l><r>cola<s n="n"/></r></p></e>
     <e><p><l>comin<s n="n"/><s n="m"/></l><r>common<s n="n"/></r></p></e>
-    <e><p><l>crwner<s n="n"/><s n="m"/></l><r>crooner<s n="n"/></r></p></e>
+    <e><p><l>crwner<s n="n"/><s n="m"/></l><r>coroner<s n="n"/></r></p></e>
     <e><p><l>cwango<s n="n"/><s n="m"/></l><r>quango<s n="n"/></r></p></e>
     <e><p><l>cwci<s n="n"/><s n="m"/></l><r>cookie<s n="n"/></r></p></e>
     <e><p><l>deiet<s n="n"/><s n="m"/></l><r>diet<s n="n"/></r></p></e>
@@ -9715,6 +9717,7 @@
     <e><p><l>Sir Benfro<s n="np"/><s n="top"/></l><r>Pembrokeshire<s n="np"/><s n="top"/></r></p></e>
 
     <e><p><l>Aberystwyth<s n="np"/><s n="top"/></l><r>Aberystwyth<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Abertawe<s n="np"/><s n="top"/></l><r>Swansea<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Doc Penfro<s n="np"/><s n="top"/></l><r>Pembroke Dock<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Hwlffordd<s n="np"/><s n="top"/></l><r>Haverfordwest<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bangor<s n="np"/><s n="top"/></l><r>Bangor<s n="np"/><s n="top"/></r></p></e>
@@ -9722,6 +9725,7 @@
     <e><p><l>Caerdydd<s n="np"/><s n="top"/></l><r>Cardiff<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caerfyrddin<s n="np"/><s n="top"/></l><r>Carmarthen<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dolgellau<s n="np"/><s n="top"/></l><r>Dolgellau<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Pontypridd<s n="np"/><s n="top"/></l><r>Pontypridd<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Powys<s n="np"/><s n="top"/></l><r>Powys<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dyfed<s n="np"/><s n="top"/></l><r>Dyfed<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dyfed-Powys<s n="np"/><s n="top"/></l><r>Dyfed-Powys<s n="np"/><s n="top"/></r></p></e>
