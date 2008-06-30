@@ -112,6 +112,7 @@
       <attr-item tags="det.def"/>
       <attr-item tags="det.pos"/>
       <attr-item tags="det.dem"/>
+      <attr-item tags="det.qnt"/>
     </def-attr>
     <def-attr n="a_num">
       <attr-item tags="num"/>
