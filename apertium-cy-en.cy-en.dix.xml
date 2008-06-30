@@ -496,16 +496,16 @@
     <e><p><l>arwybod<s n="n"/><s n="m"/></l><r>awareness<s n="n"/></r></p></e>
     <e><p><l>atebolrwydd<s n="n"/><s n="m"/></l><r>liability<s n="n"/></r></p></e>
     <e><p><l>adferiad<s n="n"/><s n="m"/></l><r>recovery<s n="n"/></r></p></e>
-    <e><p><l>Dydd Gwener<s n="n"/><s n="m"/></l><r>Friday<s n="n"/></r></p></e>
-    <e><p><l>Dydd Llun<s n="n"/><s n="m"/></l><r>Monday<s n="n"/></r></p></e>
+    <e><p><l>dydd<g><b/>Gwener</g><s n="n"/><s n="m"/></l><r>Friday<s n="n"/></r></p></e>
+    <e><p><l>dydd<g><b/>Llun</g><s n="n"/><s n="m"/></l><r>Monday<s n="n"/></r></p></e>
     <e><p><l>ymreolaeth<s n="n"/><s n="f"/></l><r>autonomy<s n="n"/></r></p></e>
     <e><p><l>syndod<s n="n"/><s n="m"/></l><r>surprise<s n="n"/></r></p></e>
-    <e><p><l>Dydd Mercher<s n="n"/><s n="m"/></l><r>Wednesday<s n="n"/></r></p></e>
+    <e><p><l>dydd<g><b/>Mercher</g><s n="n"/><s n="m"/></l><r>Wednesday<s n="n"/></r></p></e>
     <e><p><l>cymod<s n="n"/><s n="GD"/></l><r>reconciliation<s n="n"/></r></p></e>
     <e><p><l>llwyth<b></b>llong<s n="n"/><s n="GD"/></l><r>freight<s n="n"/></r></p></e>
     <e><p><l>awyrborth<s n="n"/><s n="m"/></l><r>airport<s n="n"/></r></p></e>
     <e><p><l>cloadur<s n="n"/><s n="m"/></l><r>closure<s n="n"/></r></p></e>
-    <e><p><l>Dydd Mawrth<s n="n"/><s n="m"/></l><r>Tuesday<s n="n"/></r></p></e>
+    <e><p><l>dydd<g><b/>Mawrth</g><s n="n"/><s n="m"/></l><r>Tuesday<s n="n"/></r></p></e>
     <e><p><l>diolchgarwch<s n="n"/><s n="m"/></l><r>gratitude<s n="n"/></r></p></e>
     <e><p><l>optimistiaeth<s n="n"/><s n="f"/></l><r>optimism<s n="n"/></r></p></e>
     <e><p><l>trawsgyweiriad<s n="n"/><s n="m"/></l><r>transposition<s n="n"/></r></p></e>
@@ -527,7 +527,7 @@
     <e><p><l>achubiad<s n="n"/><s n="m"/></l><r>rescue<s n="n"/></r></p></e>
     <e><p><l>feirws<s n="n"/><s n="m"/></l><r>virus<s n="n"/></r></p></e>
     <e><p><l>arian bygwth<s n="n"/><s n="GD"/></l><r>blackmail<s n="n"/></r></p></e>
-    <e><p><l>Dydd Sadwrn<s n="n"/><s n="m"/></l><r>Saturday<s n="n"/></r></p></e>
+    <e><p><l>dydd<g><b/>Sadwrn</g><s n="n"/><s n="m"/></l><r>Saturday<s n="n"/></r></p></e>
     <e><p><l>cyfalafiaeth<s n="n"/><s n="f"/></l><r>capitalism<s n="n"/></r></p></e>
     <e><p><l>marwoldeb<s n="n"/><s n="m"/></l><r>mortality<s n="n"/></r></p></e>
     <e><p><l>edmygedd<s n="n"/><s n="m"/></l><r>admiration<s n="n"/></r></p></e>
@@ -4803,7 +4803,7 @@
     <e><p><l>ideolegol<s n="adj"/></l><r>ideological<s n="adj"/></r></p></e>
     <e><p><l>ieithyddol<s n="adj"/></l><r>linguistic<s n="adj"/></r></p></e>
  
-    <e><p><l>ifanc<s n="adj"/></l><r>young<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>ifanc<s n="adj"/><s n="sint"/></l><r>young<s n="adj"/><s n="sint"/></r></p></e> 
     <e r="LR"><p><l>ieuainc<s n="adj"/></l><r>young<s n="adj"/><s n="sint"/></r></p></e> 
     <e r="LR"><p><l>ieuanc<s n="adj"/></l><r>young<s n="adj"/><s n="sint"/></r></p></e> 
  
@@ -9319,6 +9319,8 @@
     <e><p><l>Cymdeithas yr Iaith<s n="np"/></l><r>Cymdeithas yr Iaith<s n="np"/></r></p></e>
     <e><p><l>Cymdeithas<s n="np"/></l><r>Cymdeithas<s n="np"/></r></p></e>
     <e><p><l>Plaid Genedlaethol yr Alban<s n="np"/></l><r>Scottish National Party<s n="np"/></r></p></e>
+    <e><p><l>Plaid Cymru<s n="np"/></l><r>Plaid Cymru<s n="np"/></r></p></e>
+    <e><p><l>Plaid Lafur<s n="np"/></l><r>Labour Party<s n="np"/></r></p></e>
  
  
       <!--  Anthroponyms -->
@@ -9714,6 +9716,7 @@
     <e><p><l>Bangor<s n="np"/><s n="top"/></l><r>Bangor<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Blaenafon<s n="np"/><s n="top"/></l><r>Blaenafon<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caerdydd<s n="np"/><s n="top"/></l><r>Cardiff<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Caerfyrddin<s n="np"/><s n="top"/></l><r>Carmarthen<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dolgellau<s n="np"/><s n="top"/></l><r>Dolgellau<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Powys<s n="np"/><s n="top"/></l><r>Powys<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dyfed<s n="np"/><s n="top"/></l><r>Dyfed<s n="np"/><s n="top"/></r></p></e>
