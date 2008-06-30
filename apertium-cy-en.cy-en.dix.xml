@@ -153,6 +153,8 @@
     <!-- Adverbs -->
  
     <e><p><l>yma<s n="adv"/></l><r>here<s n="adv"/></r></p></e>
+    <e><p><l>hyd yn oed<s n="adv"/></l><r>even<s n="adv"/></r></p></e>
+    <e><p><l>wrth gwrs<s n="adv"/></l><r>of course<s n="adv"/></r></p></e>
     <e><p><l>wedyn<s n="adv"/></l><r>here<s n="adv"/></r></p></e>
     <e><p><l>hefyd<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
     <e><p><l>rwan<s n="adv"/></l><r>now<s n="adv"/></r></p></e>    <!-- this form is probably incorrect -->
@@ -3676,6 +3678,7 @@
     <e><p><l>clawdd<s n="n"/><s n="m"/></l><r>hedge<s n="n"/></r></p></e>
     <e><p><l>neidr<s n="n"/><s n="f"/></l><r>snake<s n="n"/></r></p></e>
     <e><p><l>tŷ<s n="n"/><s n="m"/></l><r>house<s n="n"/></r></p></e>
+    <e><p><l>tŷ<g><b/>bach</g><s n="n"/><s n="m"/></l><r>toilet<s n="n"/></r></p></e>
     <e><p><l>bygwth<s n="n"/><s n="m"/></l><r>threat<s n="n"/></r></p></e>
     <e><p><l>angen<s n="n"/><s n="m"/></l><r>need<s n="n"/></r></p></e>
     <e><p><l>ceidwad<s n="n"/><s n="m"/></l><r>saviour<s n="n"/></r></p></e>

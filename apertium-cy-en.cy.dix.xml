@@ -47265,6 +47265,8 @@
     <e lm="am amser hir"><i>am<b/>amser<b/>hir</i><par n="yma__adv"/></e>
     <e lm="croeso i"><i>croeso<b/>i</i><par n="yma__adv"/></e>
     <e lm="croeso cynnes i"><i>croeso<b/>cynnes<b/>i</i><par n="yma__adv"/></e>
+    <e lm="wrth gwrs"><i>wrth<b/>gwrs</i><par n="yma__adv"/></e>
+    <e lm="hyd yn oed"><i>hyd<b/>yn<b/>oed</i><par n="yma__adv"/></e>
 
     <e lm="hofrenfad"><i>hofrenfad</i><par n="adeilad__n"/></e>
     <e lm="llysywen"><par n="initial-ll"/><i>ysywen</i><par n="llysywen__n"/></e>
@@ -50372,6 +50374,7 @@
     <e lm="clawdd"><par n="initial-c"/><i>l</i><par n="cl/awdd__n"/></e>
     <e lm="neidr"><i>n</i><par n="n/eidr__n"/></e>
     <e lm="tŷ"><par n="initial-t"/><par n="t/ŷ__n"/></e>
+    <e lm="tŷ bach"><par n="initial-t"/><par n="t/ŷ__n"/><p><l><b/>bach</l><r><g><b/>bach</g></r></p></e>
     <e lm="bygwth"><par n="initial-b"/><i>yg</i><par n="byg/wth__n"/></e>
     <e lm="angen"><i>ang</i><par n="ang/en__n"/></e>
     <e lm="ceidwad"><par n="initial-c"/><i>eidwad</i><par n="ceidwad__n"/></e>
