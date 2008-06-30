@@ -53726,7 +53726,9 @@
     <e lm="croesgyfeirio"><par n="initial-c"/><i>roesgyfeiri</i><par n="achlysur/o__vblex"/></e>
     <e lm="croeshoelio"><par n="initial-c"/><i>roeshoeli</i><par n="achlysur/o__vblex"/></e>
     <e lm="croesholi"><par n="initial-c"/><i>roeshol</i><par n="achos/i__vblex"/></e>
-    <e lm="croesi"><par n="initial-c"/><i>roes</i><par n="achub__vblex"/></e>
+
+    <e lm="croesi"><par n="initial-c"/><i>roes</i><par n="achos/i__vblex"/></e> <!-- check this-->
+
     <e lm="croestorri"><par n="initial-c"/><i>roestorr</i><par n="blaendorr/i__vblex"/></e>
     <e lm="croestynnu"><par n="initial-c"/><i>roestynn</i><par n="absenn/u__vblex"/></e>
     <e lm="crogi"><par n="initial-c"/><i>rog</i><par n="achos/i__vblex"/></e>
