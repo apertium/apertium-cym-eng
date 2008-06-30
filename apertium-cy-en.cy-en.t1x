@@ -782,13 +782,14 @@
         <out>
           <chunk name="det" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="SD"/></tag>
+              <tag><clip pos="1" side="tl" part="a_det"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_det"/>
-              <clip pos="1" side="tl" part="nbr" link-to="2"/>
+              <clip pos="1" side="tl" part="nbr" link-to="4"/>
             </lu>
           </chunk>
         </out>
