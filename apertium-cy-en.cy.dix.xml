@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
 <!-- The lowercase letters of the Welsh alphabet followed by letters with accents, followed by letters found in loan words -->
-  <alphabet>ABCDEFGHILMNOPRSTUWYÂÊÎÔŴŶJKVXZabcdefghilmnoprstuwyâêîôŵŷáïjkvxzáéíóú</alphabet>
+  <alphabet>ABCDEFGHILMNOPRSTUWYÂÊÎÔŴŶJKVXZÁÉÍÓÚabcdefghilmnoprstuwyâêîôŵŷáïjkvxzáéíóú</alphabet>
   <!-- Symbol definitions -->
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-cy-en.symbols.xml"/>
   <!-- Paradigm definitions -->
@@ -3293,6 +3293,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="actores__n">
       <e>
         <p>
@@ -3307,6 +3308,24 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="i/ard__n">
+      <e>
+        <p>
+          <l>ard</l>
+          <r>ard<s n="n"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>erdydd</l>
+          <r>ard<s n="n"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+
     <pardef n="academydd__n">
       <e>
         <p>
@@ -48755,6 +48774,10 @@
     <e lm="adfywiad"><i>adfywiad</i><par n="aberth__n"/></e>
     <e lm="modrwy"><par n="initial-m"/><i>odrwy</i><par n="actores__n"/></e>
     <e lm="actores"><i>actores</i><par n="actores__n"/></e>
+
+    <e lm="iard"><i>i</i><par n="i/ard__n"/></e>
+    <e lm="iard chwarae"><i>i</i><par n="i/ard__n"/><p><l><b/>chwarae</l><r><g><b/>chwarae</g></r></p></e>
+
     <e lm="adalwad"><i>adalwad</i><par n="actores__n"/></e>
     <e lm="adduned"><i>adduned</i><par n="actores__n"/></e>
     <e lm="adeg"><i>adeg</i><par n="actores__n"/></e>
@@ -49491,7 +49514,6 @@
     <e lm="Iddewiaeth"><i>Iddewiaeth</i><par n="addysg__n"/></e>
     <e lm="Indo-Ewropeg"><i>Indo-Ewropeg</i><par n="addysg__n"/></e>
     <e lm="isgyfeiriadur"><i>isgyfeiriadur</i><par n="addysg__n"/></e>
-    <e lm="Iwerddon"><i>Iwerddon</i><par n="addysg__n"/></e>
     <e lm="lwc"><i>lwc</i><par n="addysg__n"/></e>
     <e lm="magneteg"><par n="initial-m"/><i>agneteg</i><par n="addysg__n"/></e>
     <e lm="mamolaeth"><par n="initial-m"/><i>amolaeth</i><par n="addysg__n"/></e>
@@ -51243,7 +51265,11 @@
     <e lm="llawn"><par n="initial-ll"/><i>awn</i><par n="agos__adj"/></e>
     <e lm="llydan"><i>ll</i><par n="ll/ydan__adj"/></e>
     <e lm="llydan"><i>ll</i><par n="ll/ydan__adj"/></e>
+
+<!--
     <e lm="manwl"><par n="initial-m"/><i>an</i><par n="man/wl__adj"/></e>
+-->
+
     <e lm="mawr"><par n="initial-m"/><i></i><par n="m/awr__adj"/></e>
     <e lm="newydd"><i>newydd</i><par n="agos__adj"/></e>
     <e lm="oer"><i>oer</i><par n="agos__adj"/></e>
@@ -56628,8 +56654,10 @@
 
 
     <e lm="Cymru"><par n="initial-C"/><i>ymru</i><par n="Blaenafon__np"/></e>
+    <e lm="Iwerddon"><i>Iwerddon</i><par n="Lloegr__np"/></e>
     <e lm="Slofenia"><i>Slofenia</i><par n="Blaenafon__np"/></e>
-    <e lm="Lloegr"><par n="initial-Ll"/><i>oegr</i><par n="Blaenafon__np"/></e>
+    <e lm="Ewrop"><i>Ewrop</i><par n="Blaenafon__np"/></e>
+    <e lm="Lloegr"><par n="initial-Ll"/><i>oegr</i><par n="Lloegr__np"/></e>
     <e lm="yr Alban"><i>yr<b/>Alban</i><par n="Blaenafon__np"/></e>
 
 
@@ -56874,10 +56902,10 @@
       </p>
     </e>
 
-    <e lm="i'r" r="LR">
+    <e lm="i'w" r="LR">
       <p>
         <l>i'r</l>
-        <r>i<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+        <r>i<s n="pr"/><j/>ei<s n="det"/><s n="pos"/><s n="sp"/></r>
       </p>
     </e>
 
@@ -56906,6 +56934,13 @@
       <p>
         <l>o'r</l>
         <r>o<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="o'u" r="LR">
+      <p>
+        <l>o'u</l>
+        <r>o<s n="pr"/><j/>ei<s n="det"/><s n="pos"/><s n="sp"/></r>
       </p>
     </e>
 

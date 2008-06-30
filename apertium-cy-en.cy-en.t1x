@@ -898,6 +898,39 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: ADJ NOM">
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action> 
+        <out>
+          <chunk name="adj_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_adj"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="nbr" link-to="2"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
+
+
     <rule comment="REGLA: NOM ADJ">
       <pattern>
         <pattern-item n="nom"/>

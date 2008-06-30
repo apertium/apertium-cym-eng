@@ -1958,7 +1958,6 @@
     <e><p><l>isadeiledd<s n="n"/><s n="m"/></l><r>infrastructure<s n="n"/></r></p></e>
     <e><p><l>isgyfeiriadur<s n="n"/><s n="f"/></l><r>subdirectory<s n="n"/></r></p></e>
     <e><p><l>isio<s n="n"/><s n="m"/></l><r>want<s n="n"/></r></p></e>
-    <e><p><l>Iwerddon<s n="n"/><s n="f"/></l><r>Ireland<s n="n"/></r></p></e>
     <e><p><l>jargon<s n="n"/><s n="m"/></l><r>jargon<s n="n"/></r></p></e>
     <e><p><l>lafant<s n="n"/><s n="m"/></l><r>lavender<s n="n"/></r></p></e>
     <e><p><l>llanast<s n="n"/><s n="m"/></l><r>mess<s n="n"/></r></p></e>
@@ -3790,6 +3789,8 @@
     <e><p><l>cread<s n="n"/><s n="m"/></l><r>creation<s n="n"/></r></p></e>
     <e><p><l>creadigaeth<s n="n"/><s n="f"/></l><r>creation<s n="n"/></r></p></e>
     <e><p><l>giard<s n="n"/><s n="m"/></l><r>guard<s n="n"/></r></p></e>
+    <e><p><l>iard<s n="n"/><s n="f"/></l><r>yard<s n="n"/></r></p></e>
+    <e><p><l>iard<g><b/>chwarae</g><s n="n"/><s n="f"/></l><r>playground<s n="n"/></r></p></e>
     <e><p><l>anffafriaeth<s n="n"/><s n="f"/></l><r>discrimination<s n="n"/></r></p></e>
     <e><p><l>cydgordiad<s n="n"/><s n="m"/></l><r>co-ordination<s n="n"/></r></p></e>
     <e><p><l>mewnfudiad<s n="n"/><s n="m"/></l><r>immigration<s n="n"/></r></p></e>
@@ -9715,8 +9716,8 @@
  
     <!--  Toponyms -->
  
-    <e><p><l>Lloegr<s n="np"/><s n="top"/></l><r>England<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Llundain<s n="np"/><s n="top"/></l><r>London<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Lloegr<s n="np"/><s n="top"/><s n="f"/></l><r>England<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Iwerddon<s n="np"/><s n="top"/><s n="f"/></l><r>Ireland<s n="np"/><s n="top"/></r></p></e>
 
     <e><p><l>Sir Gaerfyrddin<s n="np"/><s n="top"/></l><r>Carmarthenshire<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Sir Benfro<s n="np"/><s n="top"/></l><r>Pembrokeshire<s n="np"/><s n="top"/></r></p></e>
@@ -9731,11 +9732,14 @@
     <e><p><l>Caerdydd<s n="np"/><s n="top"/></l><r>Cardiff<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caerfyrddin<s n="np"/><s n="top"/></l><r>Carmarthen<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dolgellau<s n="np"/><s n="top"/></l><r>Dolgellau<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llundain<s n="np"/><s n="top"/></l><r>London<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Pontypridd<s n="np"/><s n="top"/></l><r>Pontypridd<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Powys<s n="np"/><s n="top"/></l><r>Powys<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dyfed<s n="np"/><s n="top"/></l><r>Dyfed<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dyfed-Powys<s n="np"/><s n="top"/></l><r>Dyfed-Powys<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Merthyr Tudful<s n="np"/><s n="top"/></l><r>Merthyr Tydfil<s n="np"/><s n="top"/></r></p></e>
+
+      <!-- Need genders -->
  
     <e><p><l>Abidjan<s n="np"/><s n="top"/></l><r>Abidjan<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ethiopia<s n="np"/><s n="top"/></l><r>Abyssinia<s n="np"/><s n="top"/></r></p></e>
@@ -9835,6 +9839,7 @@
     <e><p><l>Estonia<s n="np"/><s n="top"/></l><r>Estonia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ethiopia<s n="np"/><s n="top"/></l><r>Ethiopia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Undeb Ewropeaidd<s n="np"/><s n="top"/></l><r>European Union<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ewrop<s n="np"/><s n="top"/></l><r>Europe<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Extremadura<s n="np"/><s n="top"/></l><r>Extremadura<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ynysoedd y Falklands<s n="np"/><s n="top"/></l><r>Falkland Islands<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Fiji<s n="np"/><s n="top"/></l><r>Fiji<s n="np"/><s n="top"/></r></p></e>
