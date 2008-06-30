@@ -28,3 +28,4 @@
 /cy-en.prob -text svneol=unset#unset
 /en-cy.prob -text svneol=unset#unset
 /modes.xml -text
+/regression-tests.sh -text
