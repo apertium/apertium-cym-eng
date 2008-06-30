@@ -2312,6 +2312,13 @@
           <r>be<s n="vbser"/><s n="pres"/></r>
         </p>
       </e>
+      <!-- This is horrific -->
+      <e>
+        <p>
+          <l>are</l>
+          <r>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sp"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>am</l>
@@ -13168,6 +13175,7 @@
     <e lm="for the sake of appearances"><i>for<b/>the<b/>sake<b/>of<b/>appearances</i><par n="maybe__adv"/></e>
     <e lm="for the sake of decency"><i>for<b/>the<b/>sake<b/>of<b/>decency</i><par n="maybe__adv"/></e>
     <e lm="for the sake of order"><i>for<b/>the<b/>sake<b/>of<b/>order</i><par n="maybe__adv"/></e>
+    <e lm="for the sake of"><i>for<b/>the<b/>sake<b/>of</i><par n="at__pr"/></e>
     <e lm="for the second time around"><i>for<b/>the<b/>second<b/>time<b/>around</i><par n="maybe__adv"/></e>
     <e lm="for the second time round"><i>for<b/>the<b/>second<b/>time<b/>round</i><par n="maybe__adv"/></e>
     <e lm="for the second time"><i>for<b/>the<b/>second<b/>time</i><par n="maybe__adv"/></e>
