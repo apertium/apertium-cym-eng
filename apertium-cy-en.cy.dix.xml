@@ -9576,9 +9576,10 @@
     </pardef>
     <pardef n="da__adj">
       <e>
+	<par n="initial-d"/>
         <p>
-          <l>da</l>
-          <r>da<s n="adj"/><s n="sint"/></r>
+          <l>a</l>
+          <r>a<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
@@ -56610,6 +56611,7 @@
 
 
     <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Blaenafon__np"/></e>
+    <e lm="Abercynon"><i>Abercynon</i><par n="Blaenafon__np"/></e>
     <e lm="Abertawe"><i>Abertawe</i><par n="Blaenafon__np"/></e>
     <e lm="Hwlffordd"><i>Hwlffordd</i><par n="Blaenafon__np"/></e>
     <e lm="Bangor"><par n="initial-B"/><i>angor</i><par n="Blaenafon__np"/></e>
