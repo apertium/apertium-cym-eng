@@ -64,6 +64,14 @@
       <tags-item tags="pr"/>
     </def-label>
 
+    <def-label name="GUIO" closed="true">
+      <tags-item tags="guio"/>
+    </def-label>
+    <def-label name="APOS" closed="true">
+      <tags-item tags="apos"/>
+    </def-label>
+
+
     <!-- Open categories -->
     <def-label name="NOMF">
       <tags-item tags="n.f.*"/>
