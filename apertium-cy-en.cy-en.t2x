@@ -6,6 +6,14 @@
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
+    <def-cat n="SD">
+      <cat-item tags="SD"/>
+      <cat-item tags="SD.*"/>
+    </def-cat>
+    <def-cat n="SD_pos">
+      <cat-item tags="SD.det.pos.*"/>
+    </def-cat>
+
     <def-cat n="MON">
       <cat-item lemma="mon" tags="SN"/>
       <cat-item lemma="mon" tags="SN.*"/>
@@ -14,10 +22,15 @@
       <cat-item lemma="num" tags="SN"/>
       <cat-item lemma="num" tags="SN.*"/>
     </def-cat>
+
+    <def-cat n="PRNSUBJ">
+      <cat-item lemma="prnsubj" tags="SN.*"/>
+    </def-cat>
     <def-cat n="SP">
       <cat-item tags="SP"/>
       <cat-item tags="SP.*"/>
     </def-cat>
+
     <def-cat n="SV">
       <cat-item tags="SV"/>
       <cat-item lemma="verbcj" tags="SV.*"/>
@@ -30,6 +43,9 @@
 
     <def-cat n="SV_ser">
       <cat-item tags="SV.vbser.*"/>
+    </def-cat>
+    <def-cat n="SV_ser_inf">
+      <cat-item tags="SV.vbser.inf"/>
     </def-cat>
     <def-cat n="SV_inf">
       <cat-item tags="SV.vblex.inf"/>
@@ -701,6 +717,54 @@
 	    <clip pos="4" part="lem"/>
 	    <lit-tag v="SV.vblex.inf"/>
             <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+     <!-- 
+         For Welsh pattern "[pr.poss] + VBSER.inf_mutated + [pr.subj] + wedi + verb"
+         output English "that + pr.subj + has + verb.pp"
+      -->
+    <rule comment="REGLA: SD_pos SV_ser_inf PRNSUBJ SP_wedi SV_inf">
+      <pattern>
+        <pattern-item n="SD_pos"/>
+        <pattern-item n="SV_ser_inf"/>
+        <pattern-item n="PRNSUBJ"/>
+        <pattern-item n="SP_wedi"/>
+        <pattern-item n="SV_inf"/>
+      </pattern>
+      <action>
+        <call-macro n="conj_verb_haver1">
+          <with-param pos="2"/> 
+        </call-macro> 
+        <out>
+          <chunk>
+            <lit v="cnjsub"/>
+            <lit v="{^"/>
+              <lit v="that"/>
+              <lit-tag v="cnjsub"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <lit v="vbhaver"/>
+            <lit-tag v="SV.vbhaver"/>
+            <lit v="{^have"/>
+              <var n="verbfinal"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <lit-tag v="SV.vblex.pp"/>
+            <clip pos="5" part="chcontent"/>
           </chunk>
         </out>
       </action>
