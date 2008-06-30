@@ -173,6 +173,14 @@
       <label-item label="PRNSUBJ"/>
       <label-item label="NOMMF"/>
     </label-sequence>
+    <label-sequence>
+      <label-item label="PRNSUBJ"/>
+      <label-item label="VLEXINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PRNSUBJ"/>
+      <label-item label="VSERINF"/>
+    </label-sequence>
 
     <!-- Ad-hoc shittery -->
     <label-sequence>
