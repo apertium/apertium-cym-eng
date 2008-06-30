@@ -6,6 +6,10 @@
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
+    <def-cat n="MON">
+      <cat-item lemma="mon" tags="SN"/>
+      <cat-item lemma="mon" tags="SN.*"/>
+    </def-cat>
     <def-cat n="NUM">
       <cat-item lemma="num" tags="SN"/>
       <cat-item lemma="num" tags="SN.*"/>
@@ -325,6 +329,37 @@
 	    <clip pos="1" part="pers"/>
 	    <clip pos="2" part="nbr"/>
             <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: mon SP_o SN">
+      <pattern>
+        <pattern-item n="MON"/>
+        <pattern-item n="SP_o"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <get-case-from pos="1">
+              <clip pos="1" part="lem"/>
+            </get-case-from>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
           </chunk>
           <b/>
           <chunk>
