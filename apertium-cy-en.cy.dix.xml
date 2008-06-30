@@ -718,14 +718,13 @@
           <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
-<!-- Commenting out until the tagger improves
+<!-- Commenting out until the tagger improves -->
       <e r="LR">
         <p>
           <l>o</l>
           <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
--->
       <e r="LR">
         <p>
           <l>e</l>
@@ -9901,14 +9900,13 @@
           <r>u<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
-<!-- Commenting out until tagger improves
+<!-- Commenting out until tagger improves -->
       <e>
         <p>
           <l>ed</l>
           <r>u<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
--->
       <e>
         <p>
           <l>wn</l>
