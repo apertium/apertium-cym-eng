@@ -20,6 +20,10 @@
       <cat-item lemma="aux_verb" tags="SV.*"/>
     </def-cat>
 
+    <def-cat n="REL">
+      <cat-item tags="REL"/>
+    </def-cat>
+
     <def-cat n="SV_ser">
       <cat-item tags="SV.vbser.*"/>
     </def-cat>
@@ -352,6 +356,50 @@
             <clip pos="3" part="lem"/>
             <clip pos="3" part="tags"/>
             <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN REL SV SN">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="REL"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <get-case-from pos="1">
+              <clip pos="1" part="lem"/>
+            </get-case-from>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <get-case-from pos="2">
+              <clip pos="3" part="lem"/>
+            </get-case-from>
+            <clip pos="3" part="a_frase"/>
+	    <clip pos="3" part="a_verb"/>
+	    <clip pos="3" part="temps"/>
+	    <clip pos="3" part="pers"/>
+	    <clip pos="1" part="nbr"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
           </chunk>
         </out>
       </action>
