@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
   <sdefs>
     <sdef n="n"       c="Noun"/>
     <sdef n="m"       c="Masculine"/>
@@ -110,4 +110,6 @@
 
     <sdef n="ND"/>
     <sdef n="GD"/>
+    
+    <sdef n="mon"/>
   </sdefs>

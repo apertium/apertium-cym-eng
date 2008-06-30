@@ -39,6 +39,15 @@
         </p>
       </e>
     </pardef>
+    <pardef n="currency">
+      <e>
+        <re>[£$€][0-9]+([.,][0-9]+)?</re>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="mon"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="separa">
       <e>
         <re>[.\?;:!·]</re>
@@ -56227,6 +56236,9 @@
     </e>
     <e>
       <par n="numeros"/>
+    </e>
+    <e>
+      <par n="currency"/>
     </e>
     <e>
       <par n="coma"/>
