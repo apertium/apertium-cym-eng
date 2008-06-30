@@ -2313,10 +2313,16 @@
         </p>
       </e>
       <!-- This is horrific -->
-      <e>
+      <e r="RL">
         <p>
           <l>are</l>
           <r>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>are</l>
+          <r>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
