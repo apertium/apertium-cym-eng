@@ -5344,7 +5344,7 @@
     <e><p><l>cyflym<s n="adj"/></l><r>fast<s n="adj"/></r></p></e> 
     <e><p><l>cynnar<s n="adj"/></l><r>early<s n="adj"/></r></p></e>
     <e><p><l>cynnes<s n="adj"/></l><r>warm<s n="adj"/></r></p></e> 
-    <e><p><l>da<s n="adj"/></l><r>good<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>da<s n="adj"/><s n="sint"/></l><r>good<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>diweddar<s n="adj"/><s n="sint"/></l><r>recent<s n="adj"/></r></p></e>
     <e><p><l>drud<s n="adj"/><s n="sint"/></l><r>expensive<s n="adj"/></r></p></e>
     <e><p><l>drwg<s n="adj"/></l><r>bad<s n="adj"/><s n="sint"/></r></p></e> 
