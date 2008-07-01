@@ -362,7 +362,7 @@
             </chunk>
             <b/>
             <chunk>
-              <get-case-from pos="1">
+              <get-case-from pos="2">
                 <clip pos="1" part="lem"/>
               </get-case-from>
               <clip pos="1" part="a_frase"/>
