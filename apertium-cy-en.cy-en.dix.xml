@@ -3583,7 +3583,11 @@
     <e><p><l>cymhelliad<s n="n"/><s n="m"/></l><r>incentive<s n="n"/></r></p></e>
     <e><p><l>oen<s n="n"/><s n="m"/></l><r>lamb<s n="n"/></r></p></e>
     <e><p><l>hanner<s n="n"/><s n="m"/></l><r>half<s n="n"/></r></p></e>
+<!--
     <e><p><l>cwm<s n="n"/><s n="m"/></l><r>cirque<s n="n"/></r></p></e>
+-->
+    <e><p><l>cwm<s n="n"/><s n="m"/></l><r>valley<s n="n"/></r></p></e>
+
     <e><p><l>cymydog<s n="n"/><s n="m"/></l><r>neighbour<s n="n"/></r></p></e>
     <e><p><l>blwyddyn<s n="n"/><s n="f"/></l><r>year<s n="n"/></r></p></e>
     <e><p><l>croen<s n="n"/><s n="m"/></l><r>skin<s n="n"/></r></p></e>
@@ -9363,6 +9367,7 @@
     <e><p><l>Alexandra<s n="np"/><s n="ant"/></l><r>Alexandra<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alex<s n="np"/><s n="ant"/></l><r>Alex<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Aled<s n="np"/><s n="ant"/></l><r>Aled<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Mark<s n="np"/><s n="ant"/></l><r>Mark<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Àlex<s n="np"/><s n="ant"/></l><r>Àlex<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alianore-<s n="np"/><s n="ant"/></l><r>Alianore-<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alice<s n="np"/><s n="ant"/></l><r>Alice<s n="np"/><s n="ant"/></r></p></e>
@@ -9645,6 +9650,7 @@
     <e><p><l>Powle<s n="np"/><s n="ant"/></l><r>Powle<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Prudence<s n="np"/><s n="ant"/></l><r>Prudence<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Rafel<s n="np"/><s n="ant"/></l><r>Rafel<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Romeo<s n="np"/><s n="ant"/></l><r>Romeo<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Raffe<s n="np"/><s n="ant"/></l><r>Raffe<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Raff<s n="np"/><s n="ant"/></l><r>Raff<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Ralf<s n="np"/><s n="ant"/></l><r>Ralf<s n="np"/><s n="ant"/></r></p></e>
@@ -9742,6 +9748,9 @@
     <e><p><l>Caerfyrddin<s n="np"/><s n="top"/></l><r>Carmarthen<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dolgellau<s n="np"/><s n="top"/></l><r>Dolgellau<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llundain<s n="np"/><s n="top"/></l><r>London<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanelli<s n="np"/><s n="top"/></l><r>Llanelli<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Tregŵyr<s n="np"/><s n="top"/></l><r>Tregŵyr<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Wrecsam<s n="np"/><s n="top"/></l><r>Wrexham<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Pontypridd<s n="np"/><s n="top"/></l><r>Pontypridd<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Merthyr Tudful<s n="np"/><s n="top"/></l><r>Merthyr Tydfil<s n="np"/><s n="top"/></r></p></e>
 
