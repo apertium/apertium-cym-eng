@@ -27769,6 +27769,8 @@
     <e lm="Lisbon"><i>Lisbon</i><par n="Barcelona__np"/></e>
     <e lm="Lithuania"><i>Lithuania</i><par n="Barcelona__np"/></e>
     <e lm="London"><i>London</i><par n="Barcelona__np"/></e>
+    <e lm="Llanelli"><i>Llanelli</i><par n="Barcelona__np"/></e>
+    <e lm="Tregŵyr"><i>Tregŵyr</i><par n="Barcelona__np"/></e>
     <e lm="Blaenafon"><i>Blaenafon</i><par n="Barcelona__np"/></e>
     <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Barcelona__np"/></e>
     <e lm="Ceredigion"><i>Ceredigion</i><par n="Barcelona__np"/></e>
@@ -28323,6 +28325,7 @@
     <e lm="Powle"><i>Powle</i><par n="Mark__np"/></e>
     <e lm="Prudence"><i>Prudence</i><par n="Mary__np"/></e>
     <e lm="Rafel"><i>Rafel</i><par n="Mark__np"/></e>
+    <e lm="Romeo"><i>Romeo</i><par n="Mark__np"/></e>
     <e lm="Raffe"><i>Raffe</i><par n="Mark__np"/></e>
     <e lm="Raff"><i>Raff</i><par n="Mark__np"/></e>
     <e lm="Ralf"><i>Ralf</i><par n="Mark__np"/></e>
@@ -31071,7 +31074,6 @@
     <e lm="login"><i>login</i><par n="house__n"/></e>
     <e lm="moccasin"><i>moccasin</i><par n="house__n"/></e>
     <e lm="carbon"><i>carbon</i><par n="house__n"/></e>
-    <e lm="London"><i>London</i><par n="house__n"/></e>
     <e lm="jargon"><i>jargon</i><par n="house__n"/></e>
     <e lm="central region"><i>central<b/>region</i><par n="house__n"/></e>
     <e lm="invasion"><i>invasion</i><par n="house__n"/></e>

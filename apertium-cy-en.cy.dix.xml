@@ -56654,6 +56654,9 @@
     <e lm="Doc Penfro"><par n="initial-D"/><i>oc<b/>Penfro</i><par n="Blaenafon__np"/></e>
     <e lm="Dolgellau"><par n="initial-D"/><i>olgellau</i><par n="Blaenafon__np"/></e>
     <e lm="Llundain"><par n="initial-Ll"/><i>undain</i><par n="Blaenafon__np"/></e>
+    <e lm="Llanelli"><par n="initial-Ll"/><i>anelli</i><par n="Blaenafon__np"/></e>
+    <e lm="Tregŵyr"><par n="initial-T"/><i>regŵyr</i><par n="Blaenafon__np"/></e>
+    <e lm="Wrecsam"><i>Wrecsam</i><par n="Blaenafon__np"/></e>
     <e lm="Merthyr Tudful"><par n="initial-M"/><i>erthyr<b/>Tudful</i><par n="Blaenafon__np"/></e>
 
 
@@ -56810,6 +56813,7 @@
     <e lm="Piers"><par n="initial-p"/><i>iers</i><par n="Aled__np"/></e>
     <e lm="Powle"><par n="initial-p"/><i>owle</i><par n="Aled__np"/></e>
     <e lm="Rafel"><i>Rafel</i><par n="Aled__np"/></e>
+    <e lm="Romeo"><i>Romeo</i><par n="Aled__np"/></e>
     <e lm="Raffe"><i>Raffe</i><par n="Aled__np"/></e>
     <e lm="Raff"><i>Raff</i><par n="Aled__np"/></e>
     <e lm="Ralf"><i>Ralf</i><par n="Aled__np"/></e>
@@ -56993,6 +56997,13 @@
       <p>
         <l>yna'n</l>
         <r>yna<s n="det"/><s n="dem"/><s n="sp"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="ni'n" r="LR">
+      <p>
+        <l>nhw'n</l>
+	<r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
       </p>
     </e>
 
