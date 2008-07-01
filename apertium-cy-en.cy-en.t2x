@@ -663,8 +663,11 @@
           </chunk>
           <b/>
           <chunk>
-            <lit v="to"/>
-            <lit-tag v="pr"/>
+            <lit v="pr"/>
+            <lit v="{^"/>
+              <lit v="to"/>
+              <lit-tag v="pr"/>
+            <lit v="$}"/>
           </chunk>
           <b/>
           <chunk>
