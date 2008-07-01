@@ -56895,7 +56895,14 @@
     <e lm="a'i" r="LR">
       <p>
         <l>a'i</l>
-        <r>a<s n="cnjcoo"/><j/>i<s n="pr"/></r>
+        <r>a<s n="cnjcoo"/><j/>ei<s n="det"/><s n="pos"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="a'u" r="LR">
+      <p>
+        <l>a'u</l>
+        <r>a<s n="cnjcoo"/><j/>eu<s n="det"/><s n="pos"/><s n="sp"/></r>
       </p>
     </e>
 
@@ -56952,7 +56959,7 @@
     <e lm="o'u" r="LR">
       <p>
         <l>o'u</l>
-        <r>o<s n="pr"/><j/>ei<s n="det"/><s n="pos"/><s n="sp"/></r>
+        <r>o<s n="pr"/><j/>eu<s n="det"/><s n="pos"/><s n="sp"/></r>
       </p>
     </e>
 
