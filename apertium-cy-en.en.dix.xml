@@ -28876,6 +28876,7 @@
     <e lm="talk about"><i>talk</i><par n="accept__vblex"/><p><l><b/>about</l><r><g><b/>about</g></r></p></e>
 
     <e lm="tell"><i>t</i><par n="s/ell__vblex"/></e>
+    <e lm="tell the truth"><i>t</i><par n="s/ell__vblex"/><p><l><b/>the<b/>truth</l><r><g><b/>the<b/>truth</g></r></p></e>
     <e lm="tend"><i>tend</i><par n="accept__vblex"/></e>
     <e lm="test"><i>test</i><par n="accept__vblex"/></e>
     <e lm="think"><i>th</i><par n="th/ink__vblex"/></e>

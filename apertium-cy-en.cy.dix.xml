@@ -54427,6 +54427,7 @@
 
     <e lm="dweud"><par n="initial-d"/><i/><par n="aildd/weud__vblex"/></e>
     <e lm="dweud wrth"><par n="initial-d"/><i/><par n="aildd/weud__vblex"/><p><l><b/>wrth</l><r><g><b/>wrth</g></r></p></e>
+    <e lm="dweud y gwir"><par n="initial-d"/><i/><par n="aildd/weud__vblex"/><p><l><b/>y<b/>gwir</l><r><g><b/>y<b/>gwir</g></r></p></e>
 
     <e lm="dwmpian"><par n="initial-d"/><i>wmpi</i><par n="begi/an__vblex"/></e>
     <e lm="dwrdio"><par n="initial-d"/><i>wrdi</i><par n="achlysur/o__vblex"/></e>
