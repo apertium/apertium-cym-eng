@@ -11,6 +11,9 @@
     <def-label name="OPR" closed="true">
       <tags-item lemma="o" tags="pr"/>
     </def-label>
+    <def-label name="RHWNGPR" closed="true">
+      <tags-item lemma="rhwng" tags="pr"/>
+    </def-label>
 
     <def-label name="YNPART" closed="true">
       <tags-item lemma="yn" tags="part"/>
@@ -135,6 +138,21 @@
       <tags-item tags="vblex.prs.*"/>
     </def-label>
 
+    <def-mult name="NUMCNJNUM" closed="true">
+      <sequence>
+        <label-item label="NUM"/>
+        <tags-item lemma="a" tags="cnjcoo"/>
+        <label-item label="NUM"/>
+      </sequence>
+    </def-mult>
+    <def-mult name="TOPCNJTOP" closed="true">
+      <sequence>
+        <label-item label="TOPONIM"/>
+        <tags-item lemma="a" tags="cnjcoo"/>
+        <label-item label="TOPONIM"/>
+      </sequence>
+    </def-mult>
+
   </tagset>
 
   <forbid>
@@ -219,6 +237,13 @@
     <enforce-after label="YNPR">
       <label-set>
         <label-item label="VLEXINF"/>
+        <label-item label="TOPCNJTOP"/>
+      </label-set>
+    </enforce-after>
+    <enforce-after label="RHWNGPR">
+      <label-set>
+        <label-item label="NUMCNJNUM"/>
+        <label-item label="TOPCNJTOP"/>
       </label-set>
     </enforce-after>
 
