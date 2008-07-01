@@ -48577,7 +48577,10 @@
     <e lm="olrheiniad"><i>olrheiniad</i><par n="aberth__n"/></e>
     <e lm="palas"><par n="initial-p"/><i>alas</i><par n="aberth__n"/></e>
     <e lm="paled"><par n="initial-p"/><i>aled</i><par n="aberth__n"/></e>
+
     <e lm="papur"><par n="initial-p"/><i>apur</i><par n="aberth__n"/></e>
+    <e lm="papur newydd"><par n="initial-p"/><i>apur</i><par n="aberth__n"/><p><l><b/>newydd</l><r><g><b/>newydd</g></r></p></e>
+
     <e lm="paragraff"><par n="initial-p"/><i>aragraff</i><par n="aberth__n"/></e>
     <e lm="paralelogram"><par n="initial-p"/><i>aralelogram</i><par n="aberth__n"/></e>
     <e lm="paramedr"><par n="initial-p"/><i>aramedr</i><par n="aberth__n"/></e>
@@ -56650,7 +56653,7 @@
     <e lm="Pontypridd"><par n="initial-P"/><i>ontypridd</i><par n="Blaenafon__np"/></e>
     <e lm="Blaenafon"><par n="initial-B"/><i>laenafon</i><par n="Blaenafon__np"/></e>
     <e lm="Caerdydd"><par n="initial-C"/><i>aerdydd</i><par n="Blaenafon__np"/></e>
-    <e lm="Cwmbrân"><par n="initial-C"/><i>wnbrân</i><par n="Blaenafon__np"/></e>
+    <e lm="Cwmbrân"><par n="initial-C"/><i>wmbrân</i><par n="Blaenafon__np"/></e>
     <e lm="Caerfyrddin"><par n="initial-C"/><i>aerfyrddin</i><par n="Blaenafon__np"/></e>
     <e lm="Doc Penfro"><par n="initial-D"/><i>oc<b/>Penfro</i><par n="Blaenafon__np"/></e>
     <e lm="Dolgellau"><par n="initial-D"/><i>olgellau</i><par n="Blaenafon__np"/></e>
