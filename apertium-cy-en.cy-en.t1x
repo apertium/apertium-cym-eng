@@ -44,6 +44,9 @@
     <def-cat n="prnsubj">
       <cat-item lemma="prpers" tags="prn.subj.*"/>
     </def-cat>
+    <def-cat n="prnobj">
+      <cat-item lemma="prpers" tags="prn.obj.*"/>
+    </def-cat>
     <def-cat n="verbser">
       <cat-item tags="vbser.pres.*"/>
     </def-cat>
@@ -773,6 +776,33 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: PRNOBJ">
+      <pattern>
+        <pattern-item n="prnobj"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="prnobj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_prn"/>
+              <clip pos="1" side="tl" part="pers" link-to="2"/>
+              <clip pos="1" side="tl" part="gen" link-to="3"/>
+              <clip pos="1" side="tl" part="nbr" link-to="4"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
     <rule comment="REGLA: DET">
       <pattern>

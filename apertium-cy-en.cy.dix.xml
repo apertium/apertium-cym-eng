@@ -48005,6 +48005,7 @@
     <e lm="croeso cynnes i"><i>croeso<b/>cynnes<b/>i</i><par n="yma__adv"/></e>
     <e lm="wrth gwrs"><i>wrth<b/>gwrs</i><par n="yma__adv"/></e>
     <e lm="hyd yn oed"><i>hyd<b/>yn<b/>oed</i><par n="yma__adv"/></e>
+    <e lm="llynedd"><i>llynedd</i><par n="yma__adv"/></e>
 
     <e lm="hofrenfad"><i>hofrenfad</i><par n="adeilad__n"/></e>
     <e lm="llysywen"><par n="initial-ll"/><i>ysywen</i><par n="llysywen__n"/></e>
@@ -56893,8 +56894,12 @@
       </p>
     </e>
 
-
-
+    <e lm="o'n" r="LR">
+      <p>
+        <l>o'n</l>
+        <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>yn<s n="pr"/></r>
+      </p>
+    </e>
 
 
     <e lm="i'r" r="LR">
@@ -56974,6 +56979,20 @@
         <r>yma</r>
       </p>
       <par n="yna__det"/>
+    </e>
+
+    <e lm="yma'n" r="LR">
+      <p>
+        <l>yma'n</l>
+        <r>yma<s n="det"/><s n="dem"/><s n="sp"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="yna'n" r="LR">
+      <p>
+        <l>yna'n</l>
+        <r>yna<s n="det"/><s n="dem"/><s n="sp"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
     </e>
 
     <e lm="e'n" r="LR">
