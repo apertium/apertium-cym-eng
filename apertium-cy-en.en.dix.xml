@@ -13793,6 +13793,7 @@
     <e lm="last but by no means least"><i>last<b/>but<b/>by<b/>no<b/>means<b/>least</i><par n="maybe__adv"/></e>
     <e lm="last but not least"><i>last<b/>but<b/>not<b/>least</i><par n="maybe__adv"/></e>
     <e lm="last night"><i>last<b/>night</i><par n="maybe__adv"/></e>
+    <e lm="last year"><i>last<b/>year</i><par n="maybe__adv"/></e>
     <e lm="late at night"><i>late<b/>at<b/>night</i><par n="maybe__adv"/></e>
     <e lm="late in the afternoon"><i>late<b/>in<b/>the<b/>afternoon</i><par n="maybe__adv"/></e>
     <e lm="late in the morning"><i>late<b/>in<b/>the<b/>morning</i><par n="maybe__adv"/></e>
@@ -15163,7 +15164,9 @@
     <e lm="its"><i>its</i><par n="her__det"/></e>
     <e lm="my"><i>my</i><par n="her__det"/></e>
     <e lm="no"><i>no</i><par n="another__det"/></e>
-    <e lm="other"><i>other</i><par n="other__det"/></e>
+
+    <e lm="other"><i>other</i><par n="expensive__adj"/></e> <!-- fix this -->
+
     <e lm="the other"><i>the<b/>other</i><par n="other__det"/></e>
     <e lm="our"><i>our</i><par n="her__det"/></e>
     <e lm="several"><i>several</i><par n="several__det"/></e>
@@ -28636,7 +28639,7 @@
     <e lm="liberate"><i>liberat</i><par n="liv/e__vblex"/></e>
     <e lm="affect"><i>affect</i><par n="accept__vblex"/></e>
     <e lm="affirm"><i>affirm</i><par n="accept__vblex"/></e>
-    <e lm="agree"><i>agre</i><par n="liv/e__vblex"/></e>
+    <e lm="agree"><i>agre</i><par n="agree__vblex"/></e>
     <e lm="allow"><i>allow</i><par n="accept__vblex"/></e>
     <e lm="announce"><i>announc</i><par n="liv/e__vblex"/></e>
     <e lm="answer"><i>answer</i><par n="accept__vblex"/></e>
