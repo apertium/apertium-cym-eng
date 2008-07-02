@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
 <!-- The lowercase letters of the Welsh alphabet followed by letters with accents, followed by letters found in loan words -->
-  <alphabet>ABCDEFGHILMNOPRSTUWYÂÊÎÔŴŶJKVXZÁÉÍÓÚabcdefghilmnoprstuwyâêîôŵŷáïjkvxzáéíóú</alphabet>
+  <alphabet>ABCDEFGHILMNOPRSTUWYÂÊÎÔŴŶJKVXZÁÉÍÓÚÄËÏÖÜabcdefghilmnoprstuwyâêîôŵŷáïjkvxzáéíóúäëïöü</alphabet>
   <!-- Symbol definitions -->
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-cy-en.symbols.xml"/>
   <!-- Paradigm definitions -->
@@ -3218,6 +3218,37 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="/na__cnjcoo">
+      <e r="LR">
+        <p>
+          <l>na</l>
+          <r>na<s n="cnjcoo"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>nac</l>
+          <r>na<s n="cnjcoo"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>na</l>
+          <r>na<s n="cnjcoo"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="oherwydd__cnjsub">
+      <e>
+        <p>
+          <l/>
+          <r><s n="cnjsub"/></r>
+        </p>
+      </e>
+    </pardef>
+
 
     <!-- Proper nouns -->
     <pardef n="Lloegr__np">
@@ -47972,7 +48003,31 @@
     <e lm="a"><i/><par n="/a__cnjcoo"/></e>
     <e lm="ond"><i>ond</i><par n="ond__cnjcoo"/></e>
     <e lm="neu"><i>neu</i><par n="ond__cnjcoo"/></e>
+    <e lm="namyn"><i>namyn</i><par n="ond__cnjcoo"/></e>
+    <e lm="eithr"><i>eithr</i><par n="ond__cnjcoo"/></e>
+    <e lm="ys"><i>ys</i><par n="ond__cnjcoo"/></e>
+    <e lm="na"><i/><par n="/na__cnjcoo"/></e>
 
+    <e lm="am"><i>am</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="gan"><i>gan</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="oblegid"><i>oblegid</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="oherwydd"><i>oherwydd</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="o achos"><i>o<b/>achos</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="er"><i>er</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="rhag ofn"><i>rhag<b/>ofn</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="rhag"><i>rhag</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="wrth"><i>wrth</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="erbyn"><i>erbyn</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="fel"><i>fel</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="megis"><i>megis</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="er mwyn"><i>er<b/>mwyn</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="hyd"><i>hyd</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="cyn"><i>cyn</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="gyda"><i>gyda</i><par n="oherwydd__cnjsub"/></e>
+
+    <e lm="ar ôl"><i>ar<b/>ôl</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="nes"><i>nes</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="wedi"><i>wedi</i><par n="oherwydd__cnjsub"/></e>
 
 
     <!-- Determiners -->
@@ -56636,6 +56691,7 @@
     <e lm="Cymdeithas"><par n="initial-C"/><i>ymdeithas</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas yr Iaith"><par n="initial-C"/><i>ymdeithas<b/>yr<b/>Iaith</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas yr Iaith Gymraeg"><par n="initial-C"/><i>ymdeithas<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Bwrdd yr Iaith Gymraeg"><par n="initial-B"/><i>wrdd<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
     <e lm="Plaid Genedlaethol yr Alban"><par n="initial-P"/><i>laid<b/>Genedlaethol<b/>yr<b/>Alban</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Plaid Cymru"><par n="initial-P"/><i>laid<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
@@ -57024,7 +57080,7 @@
 
     <e lm="ni'n" r="LR">
       <p>
-        <l>nhw'n</l>
+        <l>ni'n</l>
 	<r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
       </p>
     </e>
