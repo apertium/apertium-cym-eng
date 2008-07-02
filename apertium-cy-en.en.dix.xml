@@ -28738,6 +28738,7 @@
     <e lm="fulfil"><i>fulfil</i><par n="control__vblex"/></e>
     <e lm="gather"><i>gather</i><par n="accept__vblex"/></e>
     <e lm="get"><i>g</i><par n="g/et__vblex"/></e>
+    <e lm="get frosty"><i>g</i><par n="g/et__vblex"/><p><l><b/>frosty</l><r><g><b/>frosty</g></r></p></e>
     <e lm="give"><i>g</i><par n="g/ive__vblex"/></e>
     <e lm="go"><par n="/go__vblex"/></e>
     <e lm="govern"><i>govern</i><par n="accept__vblex"/></e>
@@ -32457,10 +32458,10 @@
     <e lm="preordain"><i>preordain</i><par n="accept__vblex"/></e>
     <e lm="bargain"><i>bargain</i><par n="accept__vblex"/></e>
     <e lm="stain"><i>stain</i><par n="accept__vblex"/></e>
-    <e lm="skin"><i>skin</i><par n="accept__vblex"/></e>
+    <e lm="skin"><i>skin</i><par n="plan__vblex"/></e>
     <e lm="ruin"><i>ruin</i><par n="accept__vblex"/></e>
-    <e lm="twin"><i>twin</i><par n="accept__vblex"/></e>
-    <e lm="damn"><i>damn</i><par n="accept__vblex"/></e>
+    <e lm="twin"><i>twin</i><par n="plan__vblex"/></e>
+    <e lm="damn"><i>damn</i><par n="plan__vblex"/></e>
     <e lm="pardon"><i>pardon</i><par n="accept__vblex"/></e>
     <e lm="decommission"><i>decommission</i><par n="accept__vblex"/></e>
     <e lm="ration"><i>ration</i><par n="accept__vblex"/></e>
