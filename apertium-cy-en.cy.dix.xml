@@ -39,6 +39,15 @@
         </p>
       </e>
     </pardef>
+    <pardef n="ordinals">
+      <e>
+        <re>[0-9]+([.,][0-9]+)?eg</re>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="ord"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="currency">
       <e>
         <re>[£$€][0-9]+([.,][0-9]+)?</re>
