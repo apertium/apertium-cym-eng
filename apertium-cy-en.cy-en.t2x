@@ -66,6 +66,27 @@
     <def-cat n="SP_o">
       <cat-item lemma="o" tags="SP"/>
     </def-cat>
+    <def-cat n="SP_i">
+      <cat-item lemma="i" tags="SP"/>
+    </def-cat>
+    <def-cat n="SP_cyn">
+      <cat-item lemma="cyn" tags="SP"/>
+    </def-cat>
+    <def-cat n="SP_ar_ôl">
+      <cat-item lemma="ar ôl" tags="SP"/>
+    </def-cat>
+    <def-cat n="SP_nes">
+      <cat-item lemma="nes" tags="SP"/>
+    </def-cat>
+    <def-cat n="SP_erbyn">
+      <cat-item lemma="erbyn" tags="SP"/>
+    </def-cat>
+    <def-cat n="SP_wrth">
+      <cat-item lemma="wrth" tags="SP"/>
+    </def-cat>
+    <def-cat n="SP_rhag_ofn">
+      <cat-item lemma="rhag ofn" tags="SP"/>
+    </def-cat>
 
   </section-def-cats>
 
@@ -124,10 +145,34 @@
   <section-def-vars>
     <def-var n="nombre"/>
     <def-var n="genere"/>
+    <def-var n="tense" v="&lt;pres&gt;"/>
     <def-var n="verbfinal"/>
   </section-def-vars>
 
   <section-def-macros>
+    <def-macro n="when_are_we1" npar="1">
+	<choose>
+	  <when>
+	    <test>
+	      <equal caseless="yes">
+	        <clip pos="1" part="lem"/>
+		<lit v="verbcj"/>
+              </equal>
+            </test>
+	    <let>
+	      <var n="tense"/>
+	      <clip pos="1" part="temps"/>
+	    </let>
+	  </when>
+	  <otherwise>
+            <let>
+              <var n="tense"/>
+	      <lit-tag v="pres"/>
+	    </let>
+	  </otherwise>
+	</choose>
+    </def-macro>
+
     <def-macro n="conj_verb_ser_pres1" npar="1">
       <choose>
         <when>
@@ -319,6 +364,9 @@
         <pattern-item n="SN"/>
       </pattern>
       <action>
+      <call-macro n="when_are_we1">
+        <with-param pos="1"/>
+      </call-macro>
       <choose>
         <when>
           <test>
@@ -385,6 +433,9 @@
         <pattern-item n="SN"/>
       </pattern>
       <action>
+      <call-macro n="when_are_we1">
+        <with-param pos="1"/>
+      </call-macro>
         <out>
           <chunk>
             <get-case-from pos="1">
@@ -524,6 +575,9 @@
         <pattern-item n="SN"/>
       </pattern>
       <action>
+      <call-macro n="when_are_we1">
+        <with-param pos="1"/>
+      </call-macro>
         <out>
           <chunk>
             <get-case-from pos="1">
@@ -980,7 +1034,91 @@
       </action>
     </rule>
 
+    <!-- 
+      For Welsh pattern "wedi + {"i" + NP, "i".conj + [pr.subj]} + SM_verb.infin"
+      output English "after + {NP, pr.subj) + verb.present/verb.past
+      -->
+    <rule comment="REGLA: SP_wedi SP_i SN SV_inf">
+      <pattern>
+        <pattern-item n="SP_wedi"/>
+        <pattern-item n="SP_i"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV_inf"/>
+      </pattern>
+      <action>
+        <!--
+        <call-macro n="conj_verb_ser_pres1">
+          <with-param pos="3"/> 
+        </call-macro> 
+        -->
+        <out>
+          <chunk>
+            <lit v="cnjsub"/>
+            <lit v="{^"/>
+              <lit v="after"/>
+              <lit-tag v="cnjsub"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+	    <clip pos="4" part="a_frase"/>
+	    <clip pos="4" part="a_verb"/>
+	    <var n="tense"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
+    <!-- 
+      For Welsh pattern "wrth + {"i" + NP, "i".conj + [pr.subj]} + SM_verb.infin"
+      output English "as + {NP, pr.subj) + verb.present/verb.past
+      -->
+    <rule comment="REGLA: SP_wrth SP_i SN SV_inf">
+      <pattern>
+        <pattern-item n="SP_wrth"/>
+        <pattern-item n="SP_i"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV_inf"/>
+      </pattern>
+      <action>
+        <!--
+        <call-macro n="conj_verb_ser_pres1">
+          <with-param pos="3"/> 
+        </call-macro> 
+        -->
+        <out>
+          <chunk>
+            <lit v="cnjsub"/>
+            <lit v="{^"/>
+              <lit v="as"/>
+              <lit-tag v="cnjsub"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+	    <clip pos="4" part="a_frase"/>
+	    <clip pos="4" part="a_verb"/>
+	    <var n="tense"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 
   </section-rules>

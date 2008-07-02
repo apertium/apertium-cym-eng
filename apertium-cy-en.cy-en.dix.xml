@@ -6335,7 +6335,6 @@
     <e><p><l>cybyddu<s n="vblex"/></l><r>covet<s n="vblex"/></r></p></e>
     <e><p><l>cychwyn<s n="vblex"/></l><r>start<s n="vblex"/></r></p></e>
     <e><p><l>cycyllu<s n="vblex"/></l><r>hood<s n="vblex"/></r></p></e>
-    <e><p><l>cydaddoli<s n="vblex"/></l><r>co-worship<s n="vblex"/></r></p></e>
     <e><p><l>cydaddysgu<s n="vblex"/></l><r>co-educate<s n="vblex"/></r></p></e>
     <e><p><l>cydariannu<s n="vblex"/></l><r>co-finance<s n="vblex"/></r></p></e>
     <e><p><l>cydateb<s n="vblex"/></l><r>correspond<s n="vblex"/></r></p></e>
@@ -8832,7 +8831,6 @@
     <e><p><l>bustachu<s n="vblex"/></l><r>blunder<g><b/>about</g><s n="vblex"/></r></p></e>
     <e><p><l>bysellu<s n="vblex"/></l><r>key<g><b/>in</g><s n="vblex"/></r></p></e>
     <e><p><l>camatal<s n="vblex"/></l><r>withhold<g><b/>unjustly</g><s n="vblex"/></r></p></e>
-    <e><p><l>camdaflu<s n="vblex"/></l><r>foul<g><b/>throw</g><s n="vblex"/></r></p></e>
     <e><p><l>camdyngu<s n="vblex"/></l><r>swear<g><b/>falsely</g><s n="vblex"/></r></p></e>
     <e><p><l>camdystiolaethu<s n="vblex"/></l><r>commit<g><b/>perjury</g><s n="vblex"/></r></p></e>
     <e><p><l>camfesur<s n="vblex"/></l><r>estimate<g><b/>wrongly</g><s n="vblex"/></r></p></e>
@@ -8843,7 +8841,6 @@
     <e><p><l>carcu<s n="vblex"/></l><r>take<g><b/>heed</g><s n="vblex"/></r></p></e>
     <e><p><l>carthu<s n="vblex"/></l><r>muck<g><b/>out</g><s n="vblex"/></r></p></e>
     <e><p><l>cawna<s n="vblex"/></l><r>gather<g><b/>reeds</g><s n="vblex"/></r></p></e>
-    <e><p><l>cedenu<s n="vblex"/></l><r>nap<g><b/>cloth</g><s n="vblex"/></r></p></e>
     <e><p><l>ceincio<s n="vblex"/></l><r>spread<g><b/>out</g><s n="vblex"/></r></p></e>
     <e><p><l>cennu<s n="vblex"/></l><r>grow<g><b/>scaly</g><s n="vblex"/></r></p></e>
     <e><p><l>chwantu<s n="vblex"/></l><r>lust<g><b/>after</g><s n="vblex"/></r></p></e>
@@ -8985,7 +8982,6 @@
     <e><p><l>pibyddio<s n="vblex"/></l><r>play<g><b/>pipes</g><s n="vblex"/></r></p></e>
     <e><p><l>pilcota<s n="vblex"/></l><r>catch<g><b/>minnows</g><s n="vblex"/></r></p></e>
     <e><p><l>pluo<s n="vblex"/></l><r>pluck<g><b/>feathers</g><s n="vblex"/></r></p></e>
-    <e><p><l>priddio<s n="vblex"/></l><r>earth<g><b/>up</g><s n="vblex"/></r></p></e>
     <e><p><l>pryfedu<s n="vblex"/></l><r>breed<g><b/>worms</g><s n="vblex"/></r></p></e>
     <e><p><l>rhadroddi<s n="vblex"/></l><r>give<g><b/>freely</g><s n="vblex"/></r></p></e>
     <e><p><l>rhaglunio<s n="vblex"/></l><r>design<g><b/>beforehand</g><s n="vblex"/></r></p></e>
@@ -9117,10 +9113,12 @@
     <e><p><l>llesu<s n="vblex"/></l><r>be<g><b/>advantageous</g><s n="vblex"/></r></p></e>
     <e><p><l>llwgu<s n="vblex"/></l><r>be<g><b/>ravenously<b/>hungry</g><s n="vblex"/></r></p></e>
 
-    <e r="LR"><p><l>medru<s n="vblex"/></l><r>be<g><b/>able<b/>to</g><s n="vbmod"/></r></p></e>
+    <e r="LR"><p><l>medru<s n="vblex"/></l><r>be<b/>able<b/>to<s n="vbmod"/></r></p></e>
+
     <!--
     <e><p><l>gallu<s n="vblex"/></l><r>be<g><b/>able<b/>to</g><s n="vbmod"/></r></p></e>
      -->
+
     <e><p><l>gallu<s n="vblex"/></l><r>be<b/>able<b/>to<s n="vbmod"/></r></p></e>
 
     <e><p><l>mwyglo<s n="vblex"/></l><r>be<g><b/>tepid</g><s n="vblex"/></r></p></e>
@@ -9230,7 +9228,6 @@
     <e><p><l>noswylio<s n="vblex"/></l><r>rest<g><b/>at<b/>night</g><s n="vblex"/></r></p></e>
     <e><p><l>pererindota<s n="vblex"/></l><r>go<g><b/>on<b/>a<b/>pilgrimage</g><s n="vblex"/></r></p></e>
     <e><p><l>pererinio<s n="vblex"/></l><r>go<g><b/>on<b/>a<b/>pilgrimage</g><s n="vblex"/></r></p></e>
-    <e><p><l>pladuro<s n="vblex"/></l><r>mow<g><b/>with<b/>a<b/>scythe</g><s n="vblex"/></r></p></e>
     <e><p><l>plwyfo<s n="vblex"/></l><r>settle<g><b/>in<b/>a<b/>parish</g><s n="vblex"/></r></p></e>
     <e><p><l>porthmona<s n="vblex"/></l><r>deal<g><b/>in<b/>cattle</g><s n="vblex"/></r></p></e>
     <e><p><l>rhagddarbodi<s n="vblex"/></l><r>prepare<g><b/>in<b/>advance</g><s n="vblex"/></r></p></e>
