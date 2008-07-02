@@ -15093,6 +15093,7 @@
     <e lm="than"><i>than</i><par n="and__cnjcoo"/></e>
 
     <e lm="that"><i>that</i><par n="that__cnjsub"/></e>
+    <e lm="by the time that"><i>by<b/>the<b/>time<b/>that</i><par n="that__cnjsub"/></e>
     <e lm="after"><i>after</i><par n="that__cnjsub"/></e>
     <e lm="before"><i>before</i><par n="that__cnjsub"/></e>
     <e lm="as"><i>as</i><par n="that__cnjsub"/></e>
@@ -28071,6 +28072,7 @@
     <e lm="Non-Aligned Movement"><i>Non-Aligned<b/>Movement</i><par n="Barcelona__np"/></e>
     <e lm="Aaron"><i>Aaron</i><par n="Mark__np"/></e>
     <e lm="Abril"><i>Abril</i><par n="Mary__np"/></e>
+    <e lm="Elin"><i>Elin</i><par n="Mary__np"/></e>
     <e lm="Adam"><i>Adam</i><par n="Mark__np"/></e>
     <e lm="Adrià"><i>Adrià</i><par n="Mark__np"/></e>
     <e lm="Adriana "><i>Adriana </i><par n="Mary__np"/></e>
@@ -29489,6 +29491,7 @@
     <e lm="satiate"><i>satiat</i> <par n="liv/e__vblex"/></e>
     <e lm="greet"><i>greet</i> <par n="accept__vblex"/></e>
     <e lm="second"><i>second</i> <par n="accept__vblex"/></e>
+    <e lm="respond"><i>respond</i> <par n="accept__vblex"/></e>
     <e lm="seduce"><i>seduc</i> <par n="liv/e__vblex"/></e>
     <e lm="saw"><i>saw</i> <par n="accept__vblex"/></e>
     <e lm="sign"><i>sign</i> <par n="accept__vblex"/></e>
