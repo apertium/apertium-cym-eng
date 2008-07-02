@@ -154,6 +154,7 @@
     <!-- Adverbs -->
  
     <e><p><l>yma<s n="adv"/></l><r>here<s n="adv"/></r></p></e>
+    <e><p><l>nawr<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
     <e><p><l>isod<s n="adv"/></l><r>below<s n="adv"/></r></p></e>
     <e><p><l>hyd yn oed<s n="adv"/></l><r>even<s n="adv"/></r></p></e>
     <e><p><l>wrth gwrs<s n="adv"/></l><r>of course<s n="adv"/></r></p></e>
@@ -2337,6 +2338,7 @@
     <e><p><l>sosialydd<s n="n"/><s n="m"/></l><r>socialist<s n="n"/></r></p></e>
     <e><p><l>sudd<s n="n"/><s n="m"/></l><r>juice<s n="n"/></r></p></e>
     <e><p><l>swnydd<s n="n"/><s n="m"/></l><r>pager<s n="n"/></r></p></e>
+    <e><p><l>swn<s n="n"/><s n="m"/></l><r>sound<s n="n"/></r></p></e>
     <e><p><l>swyddog<s n="n"/><s n="m"/></l><r>officer<s n="n"/></r></p></e>
     <e><p><l>tablydd<s n="n"/><s n="m"/></l><r>tabulator<s n="n"/></r></p></e>
     <e><p><l>tanwydd<s n="n"/><s n="m"/></l><r>fuel<s n="n"/></r></p></e>
@@ -2376,6 +2378,8 @@
     <e><p><l>ystod<s n="n"/><s n="f"/></l><r>span<s n="n"/></r></p></e>
     <e><p><l>amlap<s n="n"/><s n="m"/></l><r>wrap-around<s n="n"/></r></p></e>
     <e><p><l>amlin<s n="n"/><s n="f"/></l><r>contour<s n="n"/></r></p></e>
+    <e><p><l>brest<s n="n"/><s n="f"/></l><r>chest<s n="n"/></r></p></e>
+    <e r="RL"><p><l>brest<s n="n"/><s n="f"/></l><r>breast<s n="n"/></r></p></e>
     <e><p><l>antur<s n="n"/><s n="m"/></l><r>adventure<s n="n"/></r></p></e>
     <e><p><l>arddull<s n="n"/><s n="f"/></l><r>style<s n="n"/></r></p></e>
     <e><p><l>arlliw<s n="n"/><s n="m"/></l><r>tint<s n="n"/></r></p></e>
@@ -3323,7 +3327,7 @@
     <e><p><l>lliain<s n="n"/><s n="m"/></l><r>linen<s n="n"/></r></p></e>
     <e><p><l>llys-nain<s n="n"/><s n="f"/></l><r>step-grandmother<s n="n"/></r></p></e>
     <e><p><l>nain<s n="n"/><s n="f"/></l><r>grandmother<s n="n"/></r></p></e>
-    <e><p><l>sain<s n="n"/><s n="f"/></l><r>sound<s n="n"/></r></p></e>
+    <e r="RL"><p><l>sain<s n="n"/><s n="f"/></l><r>sound<s n="n"/></r></p></e>
     <e><p><l>pysgodyn<s n="n"/><s n="m"/></l><r>fish<s n="n"/></r></p></e>
     <e><p><l>blewyn<s n="n"/><s n="m"/></l><r>hair<s n="n"/></r></p></e>
     <e><p><l>cnewyllyn<s n="n"/><s n="m"/></l><r>kernel<s n="n"/></r></p></e>
@@ -3341,7 +3345,7 @@
     <e><p><l>tôn<s n="n"/><s n="f"/></l><r>tone<s n="n"/></r></p></e>
     <e><p><l>anaf<s n="n"/><s n="m"/></l><r>wound<s n="n"/></r></p></e>
     <e><p><l>awgrym<s n="n"/><s n="m"/></l><r>hint<s n="n"/></r></p></e>
-    <e><p><l>budd-dal<s n="n"/><s n="m"/></l><r>social security payment<s n="n"/></r></p></e>
+    <e><p><l>budd-dal<s n="n"/><s n="m"/></l><r>social<b/>security<b/>payment<s n="n"/></r></p></e>
     <e><p><l>diolch<s n="n"/><s n="m"/></l><r>thanks<s n="n"/></r></p></e>
     <e><p><l>dosbarth<s n="n"/><s n="m"/></l><r>class<s n="n"/></r></p></e>
     <e><p><l>dychryn<s n="n"/><s n="m"/></l><r>fright<s n="n"/></r></p></e>
@@ -9370,6 +9374,7 @@
     <e><p><l>Alexandra<s n="np"/><s n="ant"/></l><r>Alexandra<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alex<s n="np"/><s n="ant"/></l><r>Alex<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Aled<s n="np"/><s n="ant"/></l><r>Aled<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Amber<s n="np"/><s n="ant"/></l><r>Amber<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Mark<s n="np"/><s n="ant"/></l><r>Mark<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Àlex<s n="np"/><s n="ant"/></l><r>Àlex<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alianore-<s n="np"/><s n="ant"/></l><r>Alianore-<s n="np"/><s n="ant"/></r></p></e>
@@ -9457,6 +9462,7 @@
     <e><p><l>Douce<s n="np"/><s n="ant"/></l><r>Douce<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Drew<s n="np"/><s n="ant"/></l><r>Drew<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Edith<s n="np"/><s n="ant"/></l><r>Edith<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Elin<s n="np"/><s n="ant"/></l><r>Elin<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Edmond<s n="np"/><s n="ant"/></l><r>Edmond<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Edmund<s n="np"/><s n="ant"/></l><r>Edmund<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Eduard<s n="np"/><s n="ant"/></l><r>Eduard<s n="np"/><s n="ant"/></r></p></e>
@@ -9738,6 +9744,7 @@
     <e><p><l>Ceredigion<s n="np"/><s n="top"/></l><r>Ceredigion<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Powys<s n="np"/><s n="top"/></l><r>Powys<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dyfed<s n="np"/><s n="top"/></l><r>Dyfed<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Gwent<s n="np"/><s n="top"/></l><r>Gwent<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dyfed-Powys<s n="np"/><s n="top"/></l><r>Dyfed-Powys<s n="np"/><s n="top"/></r></p></e>
 
     <e><p><l>Aberystwyth<s n="np"/><s n="top"/></l><r>Aberystwyth<s n="np"/><s n="top"/></r></p></e>
@@ -9748,6 +9755,7 @@
     <e><p><l>Bangor<s n="np"/><s n="top"/></l><r>Bangor<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Blaenafon<s n="np"/><s n="top"/></l><r>Blaenafon<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caerdydd<s n="np"/><s n="top"/></l><r>Cardiff<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Casnewydd<s n="np"/><s n="top"/></l><r>Newport<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Cwmbrân<s n="np"/><s n="top"/></l><r>Cwmbrân<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caerfyrddin<s n="np"/><s n="top"/></l><r>Carmarthen<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dolgellau<s n="np"/><s n="top"/></l><r>Dolgellau<s n="np"/><s n="top"/></r></p></e>

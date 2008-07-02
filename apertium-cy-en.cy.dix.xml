@@ -3258,6 +3258,15 @@
     </pardef>
 
 
+    <pardef n="Elin__np">
+      <e>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <!-- Nouns -->
     <pardef n="aberth__n">
       <e>
@@ -3620,20 +3629,12 @@
       <e>
         <p>
           <l/>
-          
-            
-            
-            
           <r><s n="n"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>iaid</l>
-          
-            
-            
-            
           <r><s n="n"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
@@ -47993,6 +47994,7 @@
 
     <!-- Adverbs -->
     <e lm="yma"><i>yma</i><par n="yma__adv"/></e>
+    <e lm="nawr"><i>nawr</i><par n="yma__adv"/></e>
     <e lm="isod"><i>isod</i><par n="yma__adv"/></e>
     <e lm="wedyn"><i>wedyn</i><par n="yma__adv"/></e>
     <e lm="hefyd"><i>hefyd</i><par n="yma__adv"/></e>
@@ -49936,6 +49938,7 @@
     <e lm="uchafbwynt"><i>uchafbwynt</i><par n="amlap__n"/></e>
     <e lm="uchafbwynt"><i>uchafbwynt</i><par n="amlap__n"/></e>
     <e lm="amlin"><i>amlin</i><par n="amlin__n"/></e>
+    <e lm="brest"><par n="initial-b"/><i>rest</i><par n="amlin__n"/></e>
     <e lm="arddull"><i>arddull</i><par n="amlin__n"/></e>
     <e lm="cist"><par n="initial-c"/><i>ist</i><par n="amlin__n"/></e>
     <e lm="clem"><par n="initial-c"/><i>lem</i><par n="amlin__n"/></e>
@@ -50505,6 +50508,7 @@
     <e lm="sgil-effaith"><i>sgil-eff</i><par n="ar/aith__n"/></e>
     <e lm="taith"><par n="initial-t"/><par n="ar/aith__n"/></e>
     <e lm="biliwn"><par n="initial-b"/><i>ili</i><par n="bili/wn__n"/></e>
+    <e lm="swn"><i>s</i><par n="bili/wn__n"/></e>
     <e lm="comisiwn"><par n="initial-c"/><i>omisi</i><par n="bili/wn__n"/></e>
     <e lm="confensiwn"><par n="initial-c"/><i>onfensi</i><par n="bili/wn__n"/></e>
     <e lm="cwestiwn"><par n="initial-c"/><i>westi</i><par n="bili/wn__n"/></e>
@@ -56641,6 +56645,7 @@
     <e lm="Sir Benfro"><i>Sir<b/>Benfro</i><par n="Blaenafon__np"/></e>
     <e lm="Sir Gaerfyrddin"><i>Sir<b/>Gaerfyrddin</i><par n="Blaenafon__np"/></e>
     <e lm="Powys"><par n="initial-P"/><i>owys</i><par n="Blaenafon__np"/></e>
+    <e lm="Gwent"><par n="initial-G"/><i>went</i><par n="Blaenafon__np"/></e>
     <e lm="Dyfed"><par n="initial-D"/><i>yfed</i><par n="Blaenafon__np"/></e>
     <e lm="Ceredigion"><par n="initial-C"/><i>eredigion</i><par n="Blaenafon__np"/></e>
     <e lm="Dyfed-Powys"><par n="initial-D"/><i>yfed-Powys</i><par n="Blaenafon__np"/></e>
@@ -56654,6 +56659,7 @@
     <e lm="Pontypridd"><par n="initial-P"/><i>ontypridd</i><par n="Blaenafon__np"/></e>
     <e lm="Blaenafon"><par n="initial-B"/><i>laenafon</i><par n="Blaenafon__np"/></e>
     <e lm="Caerdydd"><par n="initial-C"/><i>aerdydd</i><par n="Blaenafon__np"/></e>
+    <e lm="Casnewydd"><par n="initial-C"/><i>asnewydd</i><par n="Blaenafon__np"/></e>
     <e lm="Cwmbrân"><par n="initial-C"/><i>wmbrân</i><par n="Blaenafon__np"/></e>
     <e lm="Caerfyrddin"><par n="initial-C"/><i>aerfyrddin</i><par n="Blaenafon__np"/></e>
     <e lm="Doc Penfro"><par n="initial-D"/><i>oc<b/>Penfro</i><par n="Blaenafon__np"/></e>
@@ -56863,6 +56869,10 @@
     <e lm="Zacheus"><i>Zacheus</i><par n="Aled__np"/></e>
     <e lm="Pedr"><par n="initial-P"/><i>edr</i><par n="Aled__np"/></e>
 
+    <e lm="Elin"><i>Elin</i><par n="Elin__np"/></e>
+    <e lm="Bethan"><par n="initial-B"/><i>ethan</i><par n="Elin__np"/></e>
+    <e lm="Amber"><i>Amber</i><par n="Elin__np"/></e>
+
   </section>
 
   <section id="apostrophes" type="postblank">
@@ -56922,7 +56932,7 @@
     <e lm="i'r" r="LR">
       <p>
         <l>i'r</l>
-        <r>yn<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+        <r>i<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
       </p>
     </e>
 
