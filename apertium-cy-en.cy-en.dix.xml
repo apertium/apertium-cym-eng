@@ -150,6 +150,33 @@
     <e><p><l>a<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
     <e><p><l>ond<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
     <e><p><l>neu<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
+    <e r="RL"><p><l>namyn<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
+    <e><p><l>eithr<s n="cnjcoo"/></l><r>except<s n="cnjcoo"/></r></p></e>
+    <e><p><l>na<s n="cnjcoo"/></l><r>na<s n="cnjcoo"/></r></p></e>
+    <e><p><l>â<s n="cnjcoo"/></l><r>as<s n="cnjcoo"/></r></p></e>
+    <e r="RL"><p><l>na<s n="cnjcoo"/></l><r>than<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>am<s n="cnjsub"/></l><r>because<s n="cnjsub"/></r></p></e>
+    <e><p><l>gan<s n="cnjsub"/></l><r>since<s n="cnjsub"/></r></p></e>
+    <e><p><l>oblegid<s n="cnjsub"/></l><r>because<s n="cnjsub"/></r></p></e>
+    <e><p><l>o<b/>achos<s n="cnjsub"/></l><r>because<s n="cnjsub"/></r></p></e>
+    <e><p><l>er<s n="cnjsub"/></l><r>although<s n="cnjsub"/></r></p></e>
+    <e><p><l>ers<s n="cnjsub"/></l><r>since<s n="cnjsub"/></r></p></e>
+    <e><p><l>rhag<s n="cnjsub"/></l><r>lest<s n="cnjsub"/></r></p></e>
+    <e><p><l>wrth<s n="cnjsub"/></l><r>while<s n="cnjsub"/></r></p></e>
+    <e><p><l>erbyn<s n="cnjsub"/></l><r>by<b/>the<b/>time<s n="cnjsub"/></r></p></e>
+    <e><p><l>fel<s n="cnjsub"/></l><r>so<b/>that<s n="cnjsub"/></r></p></e>
+    <e><p><l>megis<s n="cnjsub"/></l><r>just<b/>as<s n="cnjsub"/></r></p></e>
+    <e><p><l>er<b/>mwyn<s n="cnjsub"/></l><r>for<b/>the<b/>sake<b/>of<s n="cnjsub"/></r></p></e>
+    <e><p><l>hyd<s n="cnjsub"/></l><r>as<b/>far<b/>as<s n="cnjsub"/></r></p></e>
+    <e><p><l>cyn<s n="cnjsub"/></l><r>before<s n="cnjsub"/></r></p></e>
+    <e><p><l>ar ôl<s n="cnjsub"/></l><r>after<s n="cnjsub"/></r></p></e>
+    <e><p><l>wedi<s n="cnjsub"/></l><r>after<s n="cnjsub"/></r></p></e>
+    <e><p><l>gyda<s n="cnjsub"/></l><r>as<b/>soon<b/>as<s n="cnjsub"/></r></p></e>
+    <e><p><l>oherwydd<s n="cnjsub"/></l><r>because<s n="cnjsub"/></r></p></e>
+    <e><p><l>rhag<b/>ofn<s n="cnjsub"/></l><r>lest<s n="cnjsub"/></r></p></e>
+
+
  
     <!-- Adverbs -->
  
@@ -1893,7 +1920,7 @@
     <e><p><l>garddwriaeth<s n="n"/><s n="f"/></l><r>horticulture<s n="n"/></r></p></e>
     <e><p><l>glasoed<s n="n"/><s n="m"/></l><r>youth<s n="n"/></r></p></e>
     <e><p><l>gloywder<s n="n"/><s n="m"/></l><r>brightness<s n="n"/></r></p></e>
-    <e><p><l>gofal<s n="n"/><s n="m"/></l><r>care<s n="n"/></r></p></e>
+    <e><p><l>gofal<s n="n"/><s n="m"/></l><r>care<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>gofod<s n="n"/><s n="m"/></l><r>space<s n="n"/></r></p></e>
     <e><p><l>gogledd<s n="n"/><s n="m"/></l><r>north<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>gogledd-ddwyrain<s n="n"/><s n="m"/></l><r>north-east<s n="n"/><s n="unc"/></r></p></e>
@@ -9346,6 +9373,7 @@
     <e><p><l>Cymdeithas yr Iaith Gymraeg<s n="np"/></l><r>Cymdeithas yr Iaith Gymraeg<s n="np"/></r></p></e>
     <e><p><l>Cymdeithas yr Iaith<s n="np"/></l><r>Cymdeithas yr Iaith<s n="np"/></r></p></e>
     <e><p><l>Cymdeithas<s n="np"/></l><r>Cymdeithas<s n="np"/></r></p></e>
+    <e><p><l>Bwrdd yr Iaith Gymraeg<s n="np"/></l><r>Welsh Language Board<s n="np"/></r></p></e>
     <e><p><l>Plaid Genedlaethol yr Alban<s n="np"/></l><r>Scottish National Party<s n="np"/></r></p></e>
     <e><p><l>Plaid Cymru<s n="np"/></l><r>Plaid Cymru<s n="np"/></r></p></e>
     <e><p><l>Plaid Lafur<s n="np"/></l><r>Labour Party<s n="np"/></r></p></e>

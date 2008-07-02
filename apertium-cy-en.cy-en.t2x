@@ -574,9 +574,9 @@
         For Welsh pattern "bod + noun phrase + wedi + verb_inf"
         output English "that + noun phrase + has/have + verb_past_participle"
     -->
-    <rule comment="REGLA: SV_ser SN SP_wedi SV_inf">
+    <rule comment="REGLA: SV_ser_inf SN SP_wedi SV_inf">
       <pattern>
-        <pattern-item n="SV_ser"/>
+        <pattern-item n="SV_ser_inf"/>
         <pattern-item n="SN"/>
         <pattern-item n="SP_wedi"/>
         <pattern-item n="SV_inf"/>
@@ -621,9 +621,9 @@
         For Welsh pattern "bod + noun phrase + wedi + verb_inf + verb_inf"
         output English "that + noun phrase + has/have + verb_past_participle + to + vb.inf"
     -->
-    <rule comment="REGLA: SV_ser SN SP_wedi SV_inf">
+    <rule comment="REGLA: SV_ser_inf SN SP_wedi SV_inf">
       <pattern>
-        <pattern-item n="SV_ser"/>
+        <pattern-item n="SV_ser_inf"/>
         <pattern-item n="SN"/>
         <pattern-item n="SP_wedi"/>
         <pattern-item n="SV_inf"/>
@@ -683,9 +683,9 @@
         For Welsh pattern "bod + noun phrase + am + verb_inf"
         output English "that + noun phrase + will + verb_inf"
     -->
-    <rule comment="REGLA: SV_ser SN SP_am SV_inf">
+    <rule comment="REGLA: SV_ser_inf SN SP_am SV_inf">
       <pattern>
-        <pattern-item n="SV_ser"/>
+        <pattern-item n="SV_ser_inf"/>
         <pattern-item n="SN"/>
         <pattern-item n="SP_am"/>
         <pattern-item n="SV_inf"/>
@@ -728,9 +728,9 @@
         For Welsh pattern "bod + noun phrase + ar + verb_inf"
         output English "that + noun phrase + was about to + verb_inf"
     -->
-    <rule comment="REGLA: SV_ser SN SP_ar SV_inf">
+    <rule comment="REGLA: SV_ser_inf SN SP_ar SV_inf">
       <pattern>
-        <pattern-item n="SV_ser"/>
+        <pattern-item n="SV_ser_inf"/>
         <pattern-item n="SN"/>
         <pattern-item n="SP_ar"/>
         <pattern-item n="SV_inf"/>

@@ -9105,6 +9105,7 @@
     <e lm="the most"><p><l>the<b/>most</l><r>the<s n="det"/><s n="def"/><s n="sp"/><j/>most<s n="preadv"/></r></p></e>
     <e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
     <e lm="including"><i>including</i><par n="expensive__adj"/></e>
+    <e lm="confident"><i>confident</i><par n="expensive__adj"/></e>
     <e lm="th"><i>th</i><par n="expensive__adj"/></e> <!-- This is as in 19th -->
     <e lm="far-reaching"><i>far-reaching</i><par n="expensive__adj"/></e>
     <e lm="second"><i>second</i><par n="expensive__adj"/></e>
@@ -16291,6 +16292,7 @@
     <e lm="kick"><i>kick</i><par n="house__n"/></e>
     <e lm="alcohol"><i>alcohol</i><par n="house__n"/></e>
     <e lm="solution"><i>solution</i><par n="house__n"/></e>
+    <e lm="prosecution"><i>prosecution</i><par n="house__n"/></e>
     <e lm="fuel"><i>fuel</i><par n="house__n"/></e>
     <e lm="sweet"><i>sweet</i><par n="house__n"/></e>
     <e lm="leg"><i>leg</i><par n="house__n"/></e>
