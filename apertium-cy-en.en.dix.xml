@@ -15094,6 +15094,7 @@
 
     <e lm="that"><i>that</i><par n="that__cnjsub"/></e>
     <e lm="after"><i>after</i><par n="that__cnjsub"/></e>
+    <e lm="before"><i>before</i><par n="that__cnjsub"/></e>
     <e lm="as"><i>as</i><par n="that__cnjsub"/></e>
 
     <e lm="though"><i>though</i><par n="after__cnjadv"/></e>
