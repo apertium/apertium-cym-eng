@@ -47920,6 +47920,7 @@
     <e lm="a"><i>a</i><par n="a__rel"/></e>
  
     <!-- <e lm="yn"><i>yn</i><par n="yn__part"/></e>  -->
+
     <e lm="ar"><i/><par n="/ar__pr"/></e>
     <e lm="am"><i/><par n="/am__pr"/></e>
     <e lm="dan"><i/><par n="/dan__pr"/></e>
@@ -48190,7 +48191,7 @@
     <e lm="barcud"><par n="initial-b"/><i>arcud</i><par n="aberth__n"/></e>
     <e lm="bath"><par n="initial-b"/><i>ath</i><par n="aberth__n"/></e>
     <e lm="bedd"><par n="initial-b"/><i>edd</i><par n="aberth__n"/></e>
-    <e lm="Beibl"><i>Beibl</i><par n="aberth__n"/></e>
+    <e lm="Beibl"><par n="initial-B"/><i>eibl</i><par n="aberth__n"/></e>
     <e lm="benthyciad"><par n="initial-b"/><i>enthyciad</i><par n="aberth__n"/></e>
     <e lm="berfenw"><par n="initial-b"/><i>erfenw</i><par n="aberth__n"/></e>
     <e lm="blaen"><par n="initial-b"/><i>laen</i><par n="aberth__n"/></e>
@@ -49188,9 +49189,9 @@
     <e lm="balchder"><par n="initial-b"/><i>alchder</i><par n="achosiant__n"/></e>
     <e lm="banc"><par n="initial-b"/><i>anc</i><par n="achosiant__n"/></e>
     <e lm="bara"><par n="initial-b"/><i>ara</i><par n="achosiant__n"/></e>
-    <e lm="Barddas"><i>Barddas</i><par n="achosiant__n"/></e>
+    <e lm="Barddas"><par n="initial-B"/><i>arddas</i><par n="achosiant__n"/></e>
     <e lm="baw"><par n="initial-b"/><i>aw</i><par n="achosiant__n"/></e>
-    <e lm="Beibl"><i>Beibl</i><par n="achosiant__n"/></e>
+    <e lm="Beibl"><par n="initial-B"/><i>eibl</i><par n="achosiant__n"/></e>
     <e lm="beichiogrwydd"><par n="initial-b"/><i>eichiogrwydd</i><par n="achosiant__n"/></e>
     <e lm="blaendal"><par n="initial-b"/><i>laendal</i><par n="achosiant__n"/></e>
     <e lm="blaengaredd"><par n="initial-b"/><i>laengaredd</i><par n="achosiant__n"/></e>
@@ -56766,22 +56767,23 @@
     <e lm="Arnald"><i>Arnald</i><par n="Aled__np"/></e>
     <e lm="Arnold"><i>Arnold</i><par n="Aled__np"/></e>
     <e lm="Arthur"><i>Arthur</i><par n="Aled__np"/></e>
-    <e lm="Baldwin"><i>Baldwin</i><par n="Aled__np"/></e>
-    <e lm="Bartholomew"><i>Bartholomew</i><par n="Aled__np"/></e>
-    <e lm="Bartomeu"><i>Bartomeu</i><par n="Aled__np"/></e>
-    <e lm="Batholomew"><i>Batholomew</i><par n="Aled__np"/></e>
-    <e lm="Benedict"><i>Benedict</i><par n="Aled__np"/></e>
-    <e lm="Bernard"><i>Bernard</i><par n="Aled__np"/></e>
-    <e lm="Bernat"><i>Bernat</i><par n="Aled__np"/></e>
-    <e lm="Biel"><i>Biel</i><par n="Aled__np"/></e>
-    <e lm="Borja"><i>Borja</i><par n="Aled__np"/></e>
-    <e lm="Bryan"><i>Bryan</i><par n="Aled__np"/></e>
-    <e lm="Carles"><i>Carles</i><par n="Aled__np"/></e>
-    <e lm="Charles"><i>Charles</i><par n="Aled__np"/></e>
-    <e lm="Christopher"><i>Christopher</i><par n="Aled__np"/></e>
-    <e lm="Christpher"><i>Christpher</i><par n="Aled__np"/></e>
-    <e lm="Cristian"><i>Cristian</i><par n="Aled__np"/></e>
-    <e lm="Cyriac"><i>Cyriac</i><par n="Aled__np"/></e>
+    <e lm="Baldwin"><par n="initial-B"/><i>aldwin</i><par n="Aled__np"/></e>
+    <e lm="Bartholomew"><par n="initial-B"/><i>artholomew</i><par n="Aled__np"/></e>
+    <e lm="Bartomeu"><par n="initial-B"/><i>artomeu</i><par n="Aled__np"/></e>
+    <e lm="Batholomew"><par n="initial-B"/><i>atholomew</i><par n="Aled__np"/></e>
+    <e lm="Benedict"><par n="initial-B"/><i>enedict</i><par n="Aled__np"/></e>
+    <e lm="Bernard"><par n="initial-B"/><i>ernard</i><par n="Aled__np"/></e>
+    <e lm="Bernat"><par n="initial-B"/><i>ernat</i><par n="Aled__np"/></e>
+    <e lm="Biel"><par n="initial-B"/><i>iel</i><par n="Aled__np"/></e>
+    <e lm="Borja"><par n="initial-B"/><i>orja</i><par n="Aled__np"/></e>
+    <e lm="Bryan"><par n="initial-B"/><i>ryan</i><par n="Aled__np"/></e>
+    <e lm="Cwchwlin"><par n="initial-C"/><i>wchwlin</i><par n="Aled__np"/></e>
+    <e lm="Carles"><par n="initial-C"/><i>arles</i><par n="Aled__np"/></e>
+    <e lm="Charles"><par n="initial-C"/><i>harles</i><par n="Aled__np"/></e>
+    <e lm="Christopher"><par n="initial-C"/><i>hristopher</i><par n="Aled__np"/></e>
+    <e lm="Christpher"><par n="initial-C"/><i>hristpher</i><par n="Aled__np"/></e>
+    <e lm="Cristian"><par n="initial-C"/><i>ristian</i><par n="Aled__np"/></e>
+    <e lm="Cyriac"><par n="initial-C"/><i>yriac</i><par n="Aled__np"/></e>
     <e lm="Daniel"><i>Daniel</i><par n="Aled__np"/></e>
     <e lm="David"><i>David</i><par n="Aled__np"/></e>
     <e lm="Diego"><i>Diego</i><par n="Aled__np"/></e>
@@ -56950,7 +56952,7 @@
       </p>
       <par n="gyda__pr"/>
     </e>
-
+<!--
     <e lm="'n" r="LR">
       <p>
         <l>'n</l>
@@ -56958,7 +56960,7 @@
       </p>
       <par n="yn__part"/>
     </e>
-
+-->
     <e lm="sy'n" r="LR">
       <p>
         <l>sy'n</l>
