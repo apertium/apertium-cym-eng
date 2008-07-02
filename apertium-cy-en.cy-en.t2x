@@ -69,6 +69,7 @@
     <def-cat n="SP_i">
       <cat-item lemma="i" tags="SP"/>
     </def-cat>
+
     <def-cat n="SP_cyn">
       <cat-item lemma="cyn" tags="SP"/>
     </def-cat>
@@ -1119,6 +1120,50 @@
         </out>
       </action>
     </rule>
+
+    <!-- 
+      For Welsh pattern "cyn + {"i" + NP, "i".conj + [pr.subj]} + SM_verb.infin"
+      output English "before + {NP, pr.subj) + verb.present/verb.past
+      -->
+    <rule comment="REGLA: SP_cyn SP_i SN SV_inf">
+      <pattern>
+        <pattern-item n="SP_cyn"/>
+        <pattern-item n="SP_i"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV_inf"/>
+      </pattern>
+      <action>
+        <!--
+        <call-macro n="conj_verb_ser_pres1">
+          <with-param pos="3"/> 
+        </call-macro> 
+        -->
+        <out>
+          <chunk>
+            <lit v="cnjsub"/>
+            <lit v="{^"/>
+              <lit v="before"/>
+              <lit-tag v="cnjsub"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+	    <clip pos="4" part="a_frase"/>
+	    <clip pos="4" part="a_verb"/>
+	    <var n="tense"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
 
   </section-rules>
