@@ -16114,6 +16114,9 @@
     <e lm="vehicle"><i>vehicle</i><par n="house__n"/></e>
     <e lm="repair"><i>repair</i><par n="house__n"/></e>
     <e lm="article"><i>article</i><par n="house__n"/></e>
+
+    <e lm="article"><i>article</i><par n="house__n"/><p><l><b/>of<b/>merchandise</l><r><g><b/>of<b/>merchandise</g></r></p></e>
+
     <e lm="trading"><i>trading</i><par n="east__n__unc"/></e>
     <e lm="song"><i>song</i><par n="house__n"/></e>
     <e lm="surprise"><i>surprise</i><par n="house__n"/></e>
@@ -27846,6 +27849,7 @@
     <e lm="Haverfordwest"><i>Haverfordwest</i><par n="Barcelona__np"/></e>
     <e lm="Bangor"><i>Bangor</i><par n="Barcelona__np"/></e>
     <e lm="Cardiff"><i>Cardiff</i><par n="Barcelona__np"/></e>
+    <e lm="Cork"><i>Cork</i><par n="Barcelona__np"/></e>
     <e lm="Cwmbrân"><i>Cwmbrân</i><par n="Barcelona__np"/></e>
     <e lm="Pembrokeshire"><i>Pembrokeshire</i><par n="Barcelona__np"/></e>
     <e lm="Carmarthenshire"><i>Carmarthenshire</i><par n="Barcelona__np"/></e>
@@ -28717,11 +28721,11 @@
     <e lm="advertise"><i>advertis</i><par n="liv/e__vblex"/></e>
 
     <e lm="advocate"><i>advocat</i><par n="liv/e__vblex"/></e>
-    <e lm="deliberate"><i>deliberate</i><par n="liv/e__vblex"/></e>
-    <e lm="deliberate"><i>deliberate</i><par n="liv/e__vblex"/><p><l><b/>jointly</l><r><g><b/>jointly</g></r></p></e>
+    <e lm="deliberate"><i>deliberat</i><par n="liv/e__vblex"/></e>
+    <e lm="deliberate"><i>deliberat</i><par n="liv/e__vblex"/><p><l><b/>jointly</l><r><g><b/>jointly</g></r></p></e>
 
-    <e lm="estimate"><i>estimate</i><par n="liv/e__vblex"/></e>
-    <e lm="estimate"><i>estimate</i><par n="liv/e__vblex"/><p><l><b/>wrongly</l><r><g><b/>wrongly</g></r></p></e>
+    <e lm="estimate"><i>estimat</i><par n="liv/e__vblex"/></e>
+    <e lm="estimate"><i>estimat</i><par n="liv/e__vblex"/><p><l><b/>wrongly</l><r><g><b/>wrongly</g></r></p></e>
 
     <e lm="liberate"><i>liberat</i><par n="liv/e__vblex"/></e>
     <e lm="affect"><i>affect</i><par n="accept__vblex"/></e>
@@ -28849,7 +28853,7 @@
     <e lm="improve"><i>improv</i><par n="liv/e__vblex"/></e>
     <e lm="include"><i>includ</i><par n="liv/e__vblex"/></e>
 
-    <e lm="spruce up"><i>spruce</i><par n="liv/e__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
+    <e lm="spruce up"><i>spruc</i><par n="liv/e__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
 
     <e lm="increase"><i>increas</i><par n="liv/e__vblex"/></e>
     <e lm="indicate"><i>indicat</i><par n="liv/e__vblex"/></e>

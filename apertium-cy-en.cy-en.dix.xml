@@ -1070,6 +1070,9 @@
     <e><p><l>erledigaeth<s n="n"/><s n="f"/></l><r>persecution<s n="n"/></r></p></e>
     <e><p><l>erlyniad<s n="n"/><s n="m"/></l><r>prosecution<s n="n"/></r></p></e>
     <e><p><l>erthygl<s n="n"/><s n="f"/></l><r>article<s n="n"/></r></p></e>
+    
+    <e><p><l>nwydd<s n="n"/><s n="m"/></l><r>article<g><b/>of<b/>merchandise</g><s n="n"/></r></p></e>
+
     <e><p><l>erw<s n="n"/><s n="f"/></l><r>acre<s n="n"/></r></p></e>
     <e><p><l>esboniad<s n="n"/><s n="m"/></l><r>explanation<s n="n"/></r></p></e>
     <e><p><l>esemptiad<s n="n"/><s n="m"/></l><r>exemption<s n="n"/></r></p></e>
@@ -1327,7 +1330,6 @@
     <e><p><l>nonagon<s n="n"/><s n="m"/></l><r>nonagon<s n="n"/></r></p></e>
     <e><p><l>norm<s n="n"/><s n="m"/></l><r>norm<s n="n"/></r></p></e>
     <e><p><l>nos<s n="n"/><s n="f"/></l><r>night<s n="n"/></r></p></e>
-    <e><p><l>nwydd<s n="n"/><s n="m"/></l><r>article<g><b/>of<b/>merchandise</g><s n="n"/></r></p></e>
     <e><p><l>ochr<s n="n"/><s n="f"/></l><r>side<s n="n"/></r></p></e>
     <e><p><l>octagon<s n="n"/><s n="m"/></l><r>octagon<s n="n"/></r></p></e>
     <e><p><l>octahedron<s n="n"/><s n="m"/></l><r>octahedron<s n="n"/></r></p></e>
@@ -9781,6 +9783,7 @@
     <e><p><l>Bangor<s n="np"/><s n="top"/></l><r>Bangor<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Blaenafon<s n="np"/><s n="top"/></l><r>Blaenafon<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caerdydd<s n="np"/><s n="top"/></l><r>Cardiff<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Corc<s n="np"/><s n="top"/></l><r>Cork<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Casnewydd<s n="np"/><s n="top"/></l><r>Newport<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Cwmbrân<s n="np"/><s n="top"/></l><r>Cwmbrân<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caerfyrddin<s n="np"/><s n="top"/></l><r>Carmarthen<s n="np"/><s n="top"/></r></p></e>
