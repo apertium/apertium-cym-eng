@@ -1424,6 +1424,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="adjectiu">
+          <with-param pos="3"/>
+        </call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -1450,9 +1453,10 @@
               <clip pos="2" side="tl" part="whole"/>
             </lu>
             <b pos="1"/>
-            <lu>
+            <lu> 
+	      <var n="adjectiu1"/> <!--
               <clip pos="3" side="tl" part="lem"/>
-              <clip pos="3" side="tl" part="a_adj"/>
+              <clip pos="3" side="tl" part="a_adj"/> -->
             </lu>
             <b/>
             <lu>
