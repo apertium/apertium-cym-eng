@@ -9,6 +9,7 @@ LIST CC = cnjcoo;
 LIST CS = cnjsub;
 LIST Interj = ij;
 LIST Pr = pr;
+LIST PrnSubj = (prn subj);
 
 LIST Def = def;
 LIST Ind = ind;
@@ -21,3 +22,4 @@ SECTION
 
 SELECT Prep_i IF (1 VblexInf);
 
+REMOVE PrnSubj IF (-1 VblexInf);
