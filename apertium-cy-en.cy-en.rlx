@@ -10,6 +10,7 @@ LIST CS = cnjsub;
 LIST Interj = ij;
 LIST Pr = pr;
 LIST PrnSubj = (prn subj);
+LIST P2Pl = (p2 pl);
 
 LIST Def = def;
 LIST Ind = ind;
@@ -18,6 +19,9 @@ LIST VblexInf = (vblex inf);
 
 LIST Prep_i = ("i" pr);
 
+SET PrnSubjP2Pl = PrnSubj + P2Pl;
+SET VbP2Pl = V + P2Pl;
+
 SECTION
 
 SELECT Prep_i IF (1 VblexInf);
@@ -25,3 +29,5 @@ SELECT Prep_i IF (1 VblexInf);
 REMOVE PrnSubj IF (-1 VblexInf);
 
 REMOVE N IF (-1 V) (0 N) (0 PrnSubj) (1 Pr);
+
+SELECT PrnSubjP2Pl IF (0 N) (0 PrnSubj) (-1 VbP2Pl);
