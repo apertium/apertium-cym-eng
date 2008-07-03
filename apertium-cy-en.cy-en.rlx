@@ -11,6 +11,7 @@ LIST Interj = ij;
 LIST Pr = pr;
 LIST PrnSubj = (prn subj);
 LIST P2Pl = (p2 pl);
+LIST DetDef = (det def);
 
 LIST Def = def;
 LIST Ind = ind;
@@ -31,3 +32,5 @@ REMOVE PrnSubj IF (-1 VblexInf);
 REMOVE N IF (-1 V) (0 N) (0 PrnSubj) (1 Pr);
 
 SELECT PrnSubjP2Pl IF (0 N) (0 PrnSubj) (-1 VbP2Pl);
+
+REMOVE V IF (0 V) (0 N) (-1 DetDef) (-2 Pr);
