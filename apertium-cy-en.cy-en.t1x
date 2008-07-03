@@ -22,15 +22,15 @@
       <cat-item tags="adj.*"/>
       <cat-item tags="adj.pos.*"/>
     </def-cat>
-    <def-cat n="det_def">
-      <cat-item tags="det.def.*"/>
-    </def-cat>
     <def-cat n="det">
       <cat-item tags="det"/>
       <cat-item tags="det.*"/>
     </def-cat>
     <def-cat n="cnjcoo">
       <cat-item tags="cnjcoo"/>
+    </def-cat>
+    <def-cat n="comma">
+      <cat-item tags="cm"/>
     </def-cat>
     <def-cat n="pr">
       <cat-item tags="pr"/>
@@ -874,6 +874,28 @@
     </rule>
 
 
+    <rule comment="REGLA: CNJCOO">
+      <pattern>
+        <pattern-item n="cnjcoo"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="cnjcoo" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="CC"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
     <rule comment="REGLA: DET">
       <pattern>
@@ -935,10 +957,10 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: NOM DET_def NOM">
+    <rule comment="REGLA: NOM DET NOM">
       <pattern>
         <pattern-item n="nom"/>
-        <pattern-item n="det_def"/>
+        <pattern-item n="det"/>
         <pattern-item n="nom"/>
       </pattern>
       <action> 
@@ -952,9 +974,8 @@
               <tag><clip pos="2" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
-              <clip pos="2" side="tl" part="lem"/>
-              <clip pos="2" side="tl" part="a_det"/>
-              <clip pos="2" side="tl" part="nbr" link-to="2"/>
+              <lit v="the"/>
+              <lit-tag v="det.def.sp"/>
             </lu>
 	    <b/>
             <lu>
@@ -1251,6 +1272,55 @@
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="a_adj"/>
               <clip pos="2" side="tl" part="deg"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
+
+
+    <rule comment="REGLA: DET NOM comma NOM">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="comma"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action> 
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="det_nom_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+            <b pos="2"/>
+	    <lu>
+              <clip pos="3" side="tl" part="whole"/>
+	    </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lem"/>
+              <clip pos="4" side="tl" part="a_nom"/>
+              <clip pos="4" side="tl" part="nbr"/>
             </lu>
           </chunk>
         </out>
