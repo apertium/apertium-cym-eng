@@ -5,8 +5,8 @@
     <def-cat n="nom">
       <cat-item name="nom"/>
     </def-cat>
-    <def-cat n="nom_adj">
-      <cat-item name="nom_adj"/>
+    <def-cat n="adj_nom">
+      <cat-item name="adj_nom"/>
     </def-cat>
     <def-cat n="det_adj_nom">
       <cat-item name="det_adj_nom"/>
@@ -16,6 +16,8 @@
     </def-cat>
     <def-cat n="prep">
       <cat-item name="gyda"/>
+      <cat-item name="am"/>
+      <cat-item name="ar"/>
       <cat-item name="â"/>
     </def-cat>
   </section-def-cats>
@@ -119,7 +121,7 @@
 
     <rule comment="CHUNK:">
       <pattern>
-        <pattern-item n="nom_adj"/>
+        <pattern-item n="adj_nom"/>
       </pattern>
       <action>
         <choose>
