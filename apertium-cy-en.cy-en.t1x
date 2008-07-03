@@ -117,8 +117,6 @@
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
       <attr-item tags="adj.sint"/>
-      <attr-item tags="adj.sint.comp"/>
-      <attr-item tags="adj.sint.sup"/>
       <attr-item tags="adj.pos"/>
     </def-attr>
     <def-attr n="a_det">
@@ -158,6 +156,10 @@
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="ND"/>
+    </def-attr>
+    <def-attr n="deg">
+      <attr-item tags="sup"/>
+      <attr-item tags="comp"/>
     </def-attr>
     <def-attr n="gen">
       <attr-item tags="f"/>
@@ -629,23 +631,23 @@
                   <lit-tag v="adj.sint"/>
                 </equal>
                 <equal>
-                  <clip pos="1" side="sl" part="deg"/> 
-                  <lit-tag v="comp"/>
-                </equal>
-                <equal>
                   <clip pos="1" side="tl" part="a_adj"/> 
                   <lit-tag v="adj"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="sl" part="deg"/> 
+                  <lit-tag v="comp"/>
                 </equal>
               </and>
             </test>
             <let>
               <var n="adjectiu1"/>
                 <concat>
-                  <lit v="mawr"/>
-                  <lit-tag v="adj.sint.comp"/>
+                  <lit v="more"/>
+                  <lit-tag v="adv"/>
                   <lit v="$ ^"/>
                   <clip pos="1" side="tl" part="lem"/> 
-                  <clip pos="1" side="tl" part="a_adj"/>
+		  <lit-tag v="adj"/>
                 </concat>
             </let>
           </when>
@@ -657,23 +659,23 @@
                   <lit-tag v="adj.sint"/>
                 </equal>
                 <equal>
-                  <clip pos="1" side="sl" part="deg"/> 
-                  <lit-tag v="sup"/>
-                </equal>
-                <equal>
                   <clip pos="1" side="tl" part="a_adj"/> 
                   <lit-tag v="adj"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="sl" part="deg"/> 
+                  <lit-tag v="sup"/>
                 </equal>
               </and>
             </test>
             <let>
               <var n="adjectiu1"/>
                 <concat>
-                  <lit v="mawr"/>
-                  <lit-tag v="adj.sint.sup"/>
+                  <lit v="most"/>
+                  <lit-tag v="adv"/>
                   <lit v="$ ^"/>
                   <clip pos="1" side="tl" part="lem"/> 
-                  <clip pos="1" side="tl" part="a_adj"/>
+		  <lit-tag v="adj"/>
                 </concat>
             </let>
           </when>
@@ -688,6 +690,7 @@
           </otherwise>
         </choose>
       </def-macro> 
+
       <def-macro n="firstWord" npar="1">
         <choose>
           <when>
@@ -1114,6 +1117,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="adjectiu">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <chunk name="adj_nom" case="caseFirstWord">
             <tags>
@@ -1121,8 +1127,9 @@
               <tag><clip pos="2" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
+	      <var n="adjectiu1"/> <!--
               <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_adj"/>
+              <clip pos="1" side="tl" part="a_adj"/> -->
             </lu>
             <b pos="1"/>
             <lu>
@@ -1150,15 +1157,19 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="adjectiu">
+          <with-param pos="2"/>
+        </call-macro>
         <out>
-          <chunk name="nom_adj" case="caseFirstWord">
+          <chunk name="adj_nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
+	      <var n="adjectiu1"/> <!--
               <clip pos="2" side="tl" part="lem"/>
-              <clip pos="2" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="a_adj"/> -->
             </lu>
             <b pos="1"/>
             <lu>
