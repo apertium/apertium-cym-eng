@@ -58,7 +58,7 @@
     </def-cat>
     <def-cat n="verbinf">
       <cat-item tags="vblex.inf"/>
-      <cat-item tags="vbser.inf"/>
+      <cat-item tags="vbser.inf"/> 
     </def-cat>
     <def-cat n="verbcj">
       <cat-item tags="vblex.cni.*"/>

@@ -23,3 +23,5 @@ SECTION
 SELECT Prep_i IF (1 VblexInf);
 
 REMOVE PrnSubj IF (-1 VblexInf);
+
+REMOVE N IF (-1 V) (0 N) (0 PrnSubj) (1 Pr);
