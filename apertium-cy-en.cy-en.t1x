@@ -1197,6 +1197,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="adjectiu">
+          <with-param pos="3"/>
+        </call-macro>
         <out>
           <chunk name="nom_nom_adj" case="caseFirstWord">
             <tags>
@@ -1204,8 +1207,9 @@
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
+	      <var n="adjectiu1"/> <!--
               <clip pos="3" side="tl" part="lem"/>
-              <clip pos="3" side="tl" part="a_adj"/>
+              <clip pos="3" side="tl" part="a_adj"/> -->
             </lu>
             <b pos="1"/>
             <lu>
@@ -1268,6 +1272,9 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="adjectiu">
+          <with-param pos="3"/>
+        </call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -1314,8 +1321,9 @@
             </lu>
             <b pos="1"/>
             <lu>
+	      <var n="adjectiu1"/> <!--
               <clip pos="3" side="tl" part="lem"/>
-              <clip pos="3" side="tl" part="a_adj"/>
+              <clip pos="3" side="tl" part="a_adj"/> -->
             </lu>
             <b pos="2"/>
             <lu>
