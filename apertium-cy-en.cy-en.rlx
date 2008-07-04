@@ -1,6 +1,6 @@
 DELIMITERS = "<.>" "<!>" "<?>";
 
-LIST N = n;
+LIST NC = n;
 LIST NP = (np top) (np ant) (np cog);
 LIST V = vblex vbser;
 LIST Adv = adv;
@@ -12,6 +12,10 @@ LIST Pr = pr;
 LIST PrnSubj = (prn subj);
 LIST P2Pl = (p2 pl);
 LIST DetDef = (det def);
+LIST Adj = (adj sint) (adj);
+LIST MF = mf;
+LIST M = m;
+LIST F = f;
 
 LIST Def = def;
 LIST Ind = ind;
@@ -20,8 +24,12 @@ LIST VblexInf = (vblex inf);
 
 LIST Prep_i = ("i" pr);
 
+LIST MSoftC = ("<g.*>"r "c.*"r);
+LIST MAspC = ("<ch.*>"r "c.*"r);
+
 SET PrnSubjP2Pl = PrnSubj + P2Pl;
 SET VbP2Pl = V + P2Pl;
+SET N = NP + NC;
 
 SECTION
 
@@ -34,3 +42,9 @@ REMOVE N IF (-1 V) (0 N) (0 PrnSubj) (1 Pr);
 SELECT PrnSubjP2Pl IF (0 N) (0 PrnSubj) (-1 VbP2Pl);
 
 REMOVE V IF (0 V) (0 N) (-1 DetDef) (-2 Pr);
+
+REMOVE PrnSubj IF (1 NP) (-1 Adj);
+
+SUBSTITUTE (MF) (M) DetDef (1 (N MSoftC));
+
+SUBSTITUTE (MF) (F) DetDef (1 (N MAspC));

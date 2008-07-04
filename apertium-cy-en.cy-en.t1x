@@ -53,6 +53,9 @@
     <def-cat n="prnobj">
       <cat-item lemma="prpers" tags="prn.obj.*"/>
     </def-cat>
+    <def-cat n="verbcael">
+      <cat-item lemma="cael" tags="vblex.inf"/>
+    </def-cat>
     <def-cat n="verbser">
       <cat-item tags="vbser.pres.*"/>
     </def-cat>
@@ -1578,6 +1581,34 @@
       </action>
     </rule>
 
+
+
+    <rule comment="REGLA: VERB cael inf">
+      <pattern>
+        <pattern-item n="verbcael"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="verbcael" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><lit-tag v="inf"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+	  <b/>
+        </out>
+      </action>
+    </rule>
 
 
     <rule comment="REGLA: VERB inf">

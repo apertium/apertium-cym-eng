@@ -56748,6 +56748,7 @@
     <e lm="Llundain"><par n="initial-Ll"/><i>undain</i><par n="Blaenafon__np"/></e>
     <e lm="Llanelli"><par n="initial-Ll"/><i>anelli</i><par n="Blaenafon__np"/></e>
     <e lm="Tregŵyr"><par n="initial-T"/><i>regŵyr</i><par n="Blaenafon__np"/></e>
+    <e lm="Ynys Môn"><i>Ynys<b/>Môn</i><par n="Blaenafon__np"/></e>
     <e lm="Wrecsam"><i>Wrecsam</i><par n="Blaenafon__np"/></e>
     <e lm="Merthyr Tudful"><par n="initial-M"/><i>erthyr<b/>Tudful</i><par n="Blaenafon__np"/></e>
 
@@ -57057,7 +57058,14 @@
     <e lm="â'i" r="LR">
       <p>
         <l>â'i</l>
-        <r>â<s n="pr"/><j/>ei<s n="det"/><s n="pos"/><s n="sp"/></r>
+        <r>â<s n="pr"/><j/>ei<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="â'i" r="LR">
+      <p>
+        <l>â'i</l>
+        <r>â<s n="pr"/><j/>ei<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
 
