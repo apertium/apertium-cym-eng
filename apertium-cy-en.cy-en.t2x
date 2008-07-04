@@ -51,6 +51,10 @@
     <def-cat n="SV_ser_inf">
       <cat-item tags="SV.vbser.inf"/>
     </def-cat>
+    <def-cat n="SV_cael_inf">
+      <cat-item lemma="verbcael" tags="SV.vblex.inf"/>
+    </def-cat>
+
     <def-cat n="SV_inf">
       <cat-item tags="SV.vblex.inf"/>
     </def-cat>
@@ -728,8 +732,6 @@
       </action>
     </rule>
 
-
-
     <!-- 
         For Welsh pattern "bod + noun phrase + wedi + verb_inf"
         output English "that + noun phrase + has/have + verb_past_participle"
@@ -1139,6 +1141,73 @@
         </out>
       </action>
     </rule>
+
+    <!-- 
+      For Welsh pattern "[pr.poss] + VBSER.inf_mutated + [pr.subj] + verb.ger"
+      output English "that + pr.subj + is + verb + -ing"
+      -->
+    <rule comment="REGLA: SD_pos SV_ser_inf PRNSUBJ SV_cael_inf SN SP">
+      <pattern>
+        <pattern-item n="SD_pos"/>
+        <pattern-item n="SV_ser_inf"/>
+        <pattern-item n="PRNSUBJ"/>
+        <pattern-item n="SV_cael_inf"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SP"/>
+      </pattern>
+      <action>
+        <call-macro n="conj_verb_ser_pres1">
+          <with-param pos="3"/> 
+        </call-macro> 
+        <out>
+          <chunk>
+            <lit v="cnjsub"/>
+            <lit v="{^"/>
+              <lit v="that"/>
+              <lit-tag v="cnjsub"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+	    <lit v="vbser"/>
+	    <lit-tag v="SV.vbser"/>
+	    <lit v="{^"/>
+              <lit v="be"/>
+	      <var n="verbfinal"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+          <chunk>
+	    <lit v="vbhaver"/>
+	    <lit-tag v="SV.vbhaver"/>
+	    <lit v="{^"/>
+              <lit v="have"/>
+	      <lit v="vbhaver.ger"/>
+	    <lit v="$}"/>
+          </chunk>
+	  <b/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+	  <b/>
+          <chunk>
+            <clip pos="6" part="lem"/>
+            <clip pos="6" part="tags"/>
+            <clip pos="6" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
     <!-- 
       For Welsh pattern "wedi + {"i" + NP, "i".conj + [pr.subj]} + SM_verb.infin"
