@@ -1,29 +1,37 @@
-DELIMITERS = "<.>" "<!>" "<?>";
+DELIMITERS = "<.>" "<!>" "<?>"; # end-of-sentence markers
 
-LIST NC = n;
-LIST NP = (np top) (np ant) (np cog);
-LIST V = vblex vbser;
-LIST Adv = adv;
-LIST Num = num;
-LIST CC = cnjcoo;
-LIST CS = cnjsub;
-LIST Interj = ij;
-LIST Pr = pr;
-LIST PrnSubj = (prn subj);
-LIST P2Pl = (p2 pl);
-LIST DetDef = (det def);
-LIST Adj = (adj sint) (adj);
-LIST MF = mf;
-LIST M = m;
-LIST F = f;
+# give Apertium tags a mnemonic to be used in the rules
 
-LIST Def = def;
-LIST Ind = ind;
+LIST NC = n; 				# common nouns
+LIST NP = (np top) (np ant) (np cog); 	# proper nouns (toponyms, anthroponyms, cognomens)
+LIST V = vblex vbser;		 	# lexical verbs and "to be"
+LIST Adv = adv; 			# adverb
+LIST Num = num;				# numeral
+LIST CC = cnjcoo; 			# co-ordinate conjunction
+LIST CS = cnjsub;			# subordinate conjunction
+LIST Interj = ij;			# interjection
+LIST Pr = pr;				# preposition
+LIST PrnSubj = (prn subj);		# subject pronoun
 
-LIST VblexInf = (vblex inf);
+LIST P2Pl = (p2 pl);			# second person plural
 
-LIST Prep_i = ("i" pr);
+LIST DetDef = (det def);		# definite determiner (article)
+LIST DetPos = (det pos);		# possessive determiner
 
+LIST Adj = (adj sint) (adj); 		# all adjectives (synthetic + non-synthetic)
+
+LIST MF = mf;				# masculine/feminine
+LIST M = m;				# masculine
+LIST F = f;				# feminine
+
+LIST Def = def; 			# definite
+
+LIST VblexInf = (vblex inf); 		# verb in the infinitive
+
+LIST Prep_i = ("i" pr);			# the preposition "i" (to)
+
+# mutation for individual letters
+# surface form regex, base form regex
 LIST MSoftC = ("<g.*>"r "c.*"r);
 LIST MAspC = ("<ch.*>"r "c.*"r);
 
@@ -33,18 +41,31 @@ SET N = NP + NC;
 
 SECTION
 
+# choose the preposition "i" if it is followed by an infinitive
+# aeth i gael y pres
 SELECT Prep_i IF (1 VblexInf);
 
+# delete a subject pronoun if preceded by an infinitive
+# i'w weld fo
 REMOVE PrnSubj IF (-1 VblexInf);
 
+# delete a noun from a {noun, pronoun} cohort if preceded by an infinitive and followed by a preposition
+# i'w weld fo yn y dref
 REMOVE N IF (-1 V) (0 N) (0 PrnSubj) (1 Pr);
 
+# choose a 2p.pl pronoun if it is preceded by a 2p.pl verb
+# rydych chi yn mynd
 SELECT PrnSubjP2Pl IF (0 N) (0 PrnSubj) (-1 VbP2Pl);
 
+# delete a verb from a {verb, noun} cohort if preceded by "preposition + the"
+# yn y golchi
 REMOVE V IF (0 V) (0 N) (-1 DetDef) (-2 Pr);
 
+# delete a subject pronoun if preceded by an adjective and followed by a proper noun
+# ??
 REMOVE PrnSubj IF (1 NP) (-1 Adj);
 
-SUBSTITUTE (MF) (M) DetDef (1 (N MSoftC));
+SUBSTITUTE (MF) (M) DetPos (1 (N MSoftC));
 
-SUBSTITUTE (MF) (F) DetDef (1 (N MAspC));
+SUBSTITUTE (MF) (F) DetPos (1 (N MAspC));
+
