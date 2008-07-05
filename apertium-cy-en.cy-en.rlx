@@ -2,7 +2,7 @@ DELIMITERS = "<.>" "<!>" "<?>"; # end-of-sentence markers
 
 # give Apertium tags a mnemonic to be used in the rules
 
-LIST NC = n; 				# common nouns
+LIST NC = (n); 				# common nouns
 LIST NP = (np top) (np ant) (np cog); 	# proper nouns (toponyms, anthroponyms, cognomens)
 LIST V = vblex vbser;		 	# lexical verbs and "to be"
 LIST Adv = adv; 			# adverb
@@ -14,6 +14,7 @@ LIST Pr = pr;				# preposition
 LIST PrnSubj = (prn subj);		# subject pronoun
 
 LIST P2Pl = (p2 pl);			# second person plural
+LIST P3Sg = (p3 sg);
 
 LIST DetDef = (det def);		# definite determiner (article)
 LIST DetPos = (det pos);		# possessive determiner
@@ -35,9 +36,10 @@ LIST Prep_i = ("i" pr);			# the preposition "i" (to)
 LIST MSoftC = ("<g.*>"r "c.*"r) (N);
 LIST MAspC = ("<ch.*>"r "c.*"r) (N);
 
+SET N = NP + NC;
+SET PrnSubjP3Sg = PrnSubj + P3Sg;
 SET PrnSubjP2Pl = PrnSubj + P2Pl;
 SET VbP2Pl = V + P2Pl;
-SET N = NP + NC;
 
 SECTION
 
@@ -68,4 +70,11 @@ REMOVE PrnSubj IF (1 NP) (-1 Adj);
 SUBSTITUTE (mf) (m) DetPos (1 MSoftC);
 
 SUBSTITUTE (mf) (f) DetPos (1 MAspC);
+
+# ymwelwyr o tramor 
+REMOVE PrnSubj IF (0 Pr) 
+		  (0 PrnSubjP3Sg) 
+		  ((-1 NC) OR (-1 NP) OR (-1 VblexInf))
+		  ((1 NC) OR (1 NP) OR (1 Adj));
+
 
