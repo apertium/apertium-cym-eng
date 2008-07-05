@@ -26,7 +26,9 @@
  
     <e><p><l>fy<s n="det"/><s n="pos"/></l><r>my<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>dy<s n="det"/><s n="pos"/></l><r>your<s n="det"/><s n="pos"/></r></p></e>
-    <e><p><l>ei<s n="det"/><s n="pos"/></l><r>his<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>ei<s n="det"/><s n="pos"/></l><r>its<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>ei<s n="det"/><s n="pos"/><s n="f"/></l><r>her<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>ei<s n="det"/><s n="pos"/><s n="m"/></l><r>his<s n="det"/><s n="pos"/></r></p></e>
  
     <e><p><l>ein<s n="det"/><s n="pos"/></l><r>our<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>eich<s n="det"/><s n="pos"/></l><r>your<s n="det"/><s n="pos"/></r></p></e>
