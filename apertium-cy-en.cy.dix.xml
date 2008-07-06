@@ -9368,7 +9368,14 @@
           <r>awr<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>wya</l>
+          <r>awr<s n="adj"/><s n="sint"/><s n="sup"/></r>
+        </p>
+      </e>
     </pardef>
+
     <pardef n="man/wl__adj">
       <e>
         <p>
@@ -56766,6 +56773,7 @@
 
 
     <e lm="Aled"><i>Aled</i><par n="Aled__np"/></e>
+    <e lm="Arwel"><i>Arwel</i><par n="Aled__np"/></e>
     <e lm="Mark"><i>Mark</i><par n="Aled__np"/></e>
     <e lm="Aaron"><i>Aaron</i><par n="Aled__np"/></e>
     <e lm="Adam"><i>Adam</i><par n="Aled__np"/></e>
@@ -57058,8 +57066,6 @@
         <r>drwy<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
       </p>
     </e>
-
-
 
     <e lm="a'r" r="LR">
       <p>

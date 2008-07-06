@@ -75,7 +75,13 @@ SUBSTITUTE (mf) (m) DetPos (1 MSoftC);
 SUBSTITUTE (mf) (f) DetPos (1 MAspC);
 
 # ymwelwyr o tramor 
+# un o hen
+# ôl i 1880
 REMOVE PrnSubj IF (0 Pr) 
-		  (0 PrnSubjP3Sg) 
-		  ((-1 NC) OR (-1 NP) OR (-1 VblexInf))
-		  ((1 NC) OR (1 NP) OR (1 Adj));
+		  (0 PrnSubj) 
+		  ((-1 NC) OR (-1 NP) OR (-1 VblexInf) OR (-1 Adj) or (-1 Num))
+		  ((1 NC) OR (1 NP) OR (1 Adj) OR (1 Num));
+
+
+
+REMOVE V IF (-1 DetDef);

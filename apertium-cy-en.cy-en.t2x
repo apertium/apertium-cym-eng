@@ -773,7 +773,85 @@
 
 
     <!-- 
-        For Welsh pattern "bod + noun phrase + wedi + verb_inf"
+        For Welsh pattern "bod[tiempo] + noun phrase + am + verb_inf"
+        output English "noun phrase + be[tiempo] going to + verb_inf"
+    -->
+    <rule comment="REGLA: SV_ser SN SP_am SV_inf">
+      <pattern>
+        <pattern-item n="SV_ser"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SP_am"/>
+        <pattern-item n="SV_inf"/>
+      </pattern>
+      <action>
+	<choose> 
+	  <when>
+	    <test>
+	      <or>
+	        <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="past"/>
+                </equal>
+	        <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="pii"/>
+                </equal>
+	      </or>
+            </test>
+            <call-macro n="conj_verb_ser_past1">
+               <with-param pos="2"/> 
+            </call-macro> 
+          </when>
+          <otherwise>
+            <call-macro n="conj_verb_ser_pres1">
+               <with-param pos="2"/> 
+            </call-macro> 
+          </otherwise>
+        </choose>
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+	  <b/>
+          <chunk>
+            <lit v="vbser"/>
+            <lit-tag v="SV.vbser"/>
+            <lit v="{^be"/>
+              <var n="verbfinal"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+          <chunk>
+            <lit v="vblex"/>
+            <lit-tag v="SV.vblex"/>
+            <lit v="{^go"/>
+            <lit-tag v="vblex.ger"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+	  <chunk>
+            <lit v="pr"/>
+	    <lit-tag v="SP"/>
+	    <lit v="{^"/>
+	    <lit v="to"/>
+	    <lit-tag v="pr"/>
+	    <lit v="$}"/>
+          </chunk>
+	  <b/>
+	  <chunk>
+	    <clip pos="4" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
+
+    <!-- 
+        For Welsh pattern "bod(inf) + noun phrase + wedi + verb_inf"
         output English "that + noun phrase + has/have + verb_past_participle"
     -->
     <rule comment="REGLA: SV_ser_inf SN SP_wedi SV_inf">
