@@ -38,7 +38,6 @@ LIST MSoftC = ("<g.*>"r "c.*"r) (N);
 LIST MAspC = ("<ch.*>"r "c.*"r) (N);
 LIST MNasC = ("<n.*>"r "d.*"r) (N);
 
-SET N = NP + NC;
 SET PrnSubjP3Sg = PrnSubj + P3Sg;
 SET PrnSubjP2Pl = PrnSubj + P2Pl;
 SET VbP2Pl = V + P2Pl;
@@ -55,15 +54,15 @@ REMOVE PrnSubj IF (-1 VblexInf);
 
 # delete a noun from a {noun, pronoun} cohort if preceded by an infinitive and followed by a preposition
 # i'w weld fo yn y dref
-REMOVE N IF (-1 V) (0 N) (0 PrnSubj) (1 Pr);
+REMOVE NC IF (-1 V) (0 NC) (0 PrnSubj) (1 Pr);
 
 # choose a 2p.pl pronoun if it is preceded by a 2p.pl verb
 # rydych chi yn mynd
-SELECT PrnSubjP2Pl IF (0 N) (0 PrnSubj) (-1 VbP2Pl);
+SELECT PrnSubjP2Pl IF (0 NC) (0 PrnSubj) (-1 VbP2Pl);
 
 # delete a verb from a {verb, noun} cohort if preceded by "preposition + the"
 # yn y golchi
-REMOVE V IF (0 V) (0 N) (-1 DetDef) (-2 Pr);
+REMOVE V IF (0 V) (0 NC) (-1 DetDef) (-2 Pr);
 
 # delete a subject pronoun if preceded by an adjective and followed by a proper noun
 # ??

@@ -154,6 +154,12 @@
   <section id="main" type="standard">
 	  <e>
 		  <p>
+			  <l><a/>a<b/>other</l>
+			  <r>another</r>
+		  </p>
+	  </e>
+	  <e>
+		  <p>
 			  <l><a/>a<b/></l>
 			  <r>an<b/></r>
 		  </p>
