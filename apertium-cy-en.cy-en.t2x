@@ -734,6 +734,46 @@
 
     <!-- 
         For Welsh pattern "bod + noun phrase + wedi + verb_inf"
+        output English "noun phrase + has/have + verb_past_participle"
+    -->
+    <rule comment="REGLA: SV_ser SN SP_wedi SV_inf">
+      <pattern>
+        <pattern-item n="SV_ser"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SP_wedi"/>
+        <pattern-item n="SV_inf"/>
+      </pattern>
+      <action>
+        <call-macro n="conj_verb_haver1">
+          <with-param pos="2"/> 
+        </call-macro> 
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+	  <b/>
+          <chunk>
+            <lit v="vbhaver"/>
+            <lit-tag v="SV.vbhaver"/>
+            <lit v="{^have"/>
+              <var n="verbfinal"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+	  <chunk>
+	    <clip pos="4" part="lem"/>
+	    <lit-tag v="SV.vblex.pp"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <!-- 
+        For Welsh pattern "bod + noun phrase + wedi + verb_inf"
         output English "that + noun phrase + has/have + verb_past_participle"
     -->
     <rule comment="REGLA: SV_ser_inf SN SP_wedi SV_inf">

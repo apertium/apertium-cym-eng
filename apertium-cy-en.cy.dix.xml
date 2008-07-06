@@ -48600,6 +48600,7 @@
     <e lm="llwyth"><par n="initial-ll"/><i>wyth</i><par n="aberth__n"/></e>
     <e lm="llyfr"><par n="initial-ll"/><i>yfr</i><par n="aberth__n"/></e>
     <e lm="llyfrgellyddiaeth"><par n="initial-ll"/><i>yfrgellyddiaeth</i><par n="actores__n"/></e>
+    <e lm="fflam"><i>fflam</i><par n="actores__n"/></e>
     <e lm="llygredd"><par n="initial-ll"/><i>ygredd</i><par n="aberth__n"/></e>
     <e lm="llymder"><par n="initial-ll"/><i>ymder</i><par n="aberth__n"/></e>
     <e lm="llythrenw"><par n="initial-ll"/><i>ythrenw</i><par n="aberth__n"/></e>
@@ -49017,6 +49018,7 @@
     <e lm="neuadd"><i>neuadd</i><par n="actores__n"/></e>
     <e lm="nofel"><i>nofel</i><par n="actores__n"/></e>
     <e lm="nos"><i>nos</i><par n="actores__n"/></e>
+    <e lm="dos"><par n="initial-d"/><i>os</i><par n="dos__n"/></e>
     <e lm="ochr"><i>ochr</i><par n="actores__n"/></e>
     <e lm="odl"><i>odl</i><par n="actores__n"/></e>
     <e lm="ogof"><i>ogof</i><par n="actores__n"/></e>
@@ -50721,7 +50723,6 @@
     <e lm="practis"><par n="initial-p"/><i>ractis</i><par n="ambiwlans__n"/></e>
     <e lm="sbeis"><i>sbeis</i><par n="ambiwlans__n"/></e>
     <e lm="swits"><i>swits</i><par n="ambiwlans__n"/></e>
-    <e lm="dos"><par n="initial-d"/><i>os</i><par n="dos__n"/></e>
     <e lm="ffens"><i>ffens</i><par n="dos__n"/></e>
     <e lm="owns"><i>owns</i><par n="dos__n"/></e>
     <e lm="siawns"><i>siawns</i><par n="dos__n"/></e>
@@ -51281,6 +51282,7 @@
     <e lm="digonedd"><par n="initial-d"/><i>igon</i><par n="digon/edd__n"/></e>
     <e lm="ysgyfaint"><i>ysgyf</i><par n="ysgyf/aint__n"/></e>
     <e lm="ymatebwyr"><i>ymatebw</i><par n="ymatebw/yr__n"/></e>
+    <e lm="diffoddwr"><par n="initial-d"/><i>iffoddw</i><par n="addasw/r__n"/></e>
     <e lm="syntheseisydd"><i>synthesei</i><par n="synthesei/sydd__n"/></e>
     <e lm="cyfiawnhad"><par n="initial-c"/><i>yfiawn</i><par n="cyfiawn/had__n"/></e>
     <e lm="cynghoryn"><par n="initial-c"/><i>yng</i><par n="cyng/horyn__n"/></e>
@@ -56757,6 +56759,7 @@
     <e lm="Cymru"><par n="initial-C"/><i>ymru</i><par n="Blaenafon__np"/></e>
     <e lm="Iwerddon"><i>Iwerddon</i><par n="Lloegr__np"/></e>
     <e lm="Slofenia"><i>Slofenia</i><par n="Blaenafon__np"/></e>
+    <e lm="Sbaen"><i>Sbaen</i><par n="Blaenafon__np"/></e>
     <e lm="Ewrop"><i>Ewrop</i><par n="Blaenafon__np"/></e>
     <e lm="Lloegr"><par n="initial-Ll"/><i>oegr</i><par n="Lloegr__np"/></e>
     <e lm="yr Alban"><i>yr<b/>Alban</i><par n="Blaenafon__np"/></e>
@@ -57048,6 +57051,15 @@
         <r>gyda<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
       </p>
     </e>
+
+    <e lm="drwy'r" r="LR">
+      <p>
+        <l>drwy'r</l>
+        <r>drwy<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+    </e>
+
+
 
     <e lm="a'r" r="LR">
       <p>
