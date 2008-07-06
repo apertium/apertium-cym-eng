@@ -28,6 +28,7 @@ LIST F = f;				# feminine
 LIST Def = def; 			# definite
 
 LIST VblexInf = (vblex inf); 		# verb in the infinitive
+LIST VblexPrs = (vblex prs); 		# verb in the present subjunctive
 
 LIST Prep_i = ("i" pr);			# the preposition "i" (to)
 
@@ -85,3 +86,7 @@ REMOVE PrnSubj IF (0 Pr)
 
 
 REMOVE V IF (-1 DetDef);
+
+# See 1.3.36 -- we currently just drop subjunctives
+
+REMOVE VblexPrs IF (0 V); 
