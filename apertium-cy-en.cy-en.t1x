@@ -26,6 +26,10 @@
       <cat-item tags="det"/>
       <cat-item tags="det.*"/>
     </def-cat>
+
+    <def-cat n="detpos">
+      <cat-item tags="det.pos.*"/>
+    </def-cat>
     <def-cat n="cnjcoo">
       <cat-item tags="cnjcoo"/>
     </def-cat>
@@ -205,6 +209,7 @@
     <def-var n="lema_SV"/>
     <def-var n="lema_SP"/>
     <def-var n="verbfinal"/>
+    <def-var n="prnfinal"/>
     <def-var n="adjectiu1"/>
     <def-var n="EOS" v="true"/>
   </section-def-vars>
@@ -624,6 +629,71 @@
           </otherwise>
         </choose>
     </def-macro>
+
+    <def-macro n="prnobj_from_detpos1" npar="1">
+      <let>
+        <var n="prnfinal"/>
+        <lit v=""/>
+      </let>
+        <choose>
+          <when>
+            <test>
+                <equal>
+                  <clip pos="1" side="sl" part="lem"/> 
+                  <lit v="fy"/>
+                </equal>
+            </test>
+            <let>
+              <var n="prnfinal"/>
+                <concat>
+                  <lit v="prpers"/>
+                  <lit-tag v="prn.obj.p1.mf.sg"/>
+                </concat>
+            </let>
+          </when>
+          <when>
+            <test>
+                <equal>
+                  <clip pos="1" side="sl" part="lem"/> 
+                  <lit v="dy"/>
+                </equal>
+            </test>
+            <let>
+              <var n="prnfinal"/>
+                <concat>
+                  <lit v="prpers"/>
+                  <lit-tag v="prn.obj.p2.mf.sg"/>
+                </concat>
+            </let>
+          </when>
+          <when>
+            <test>
+                <equal>
+                  <clip pos="1" side="sl" part="lem"/> 
+                  <lit v="ei"/>
+                </equal>
+            </test>
+            <let>
+              <var n="prnfinal"/>
+                <concat>
+                  <lit v="prpers"/>
+                  <lit-tag v="prn.obj.p3.nt.sg"/>
+                </concat>
+            </let>
+          </when>
+
+          <otherwise>
+            <let>
+              <var n="prnfinal"/>
+                <concat>
+                  <clip pos="1" side="tl" part="whole"/> 
+                </concat>
+            </let>
+          </otherwise>
+        </choose>
+      </def-macro> 
+
+
 
     <def-macro n="adjectiu" npar="1">
       <let>
@@ -1708,6 +1778,44 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: yn DET pos VERB inf">
+      <pattern>
+        <pattern-item n="yn"/>
+        <pattern-item n="detpos"/>
+        <pattern-item n="verbinf"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="prnobj_from_detpos1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="verb_prnobj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+              <tag><lit-tag v="ger"/></tag>
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="temps" link-to="3"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+	    <b/>
+            <lu>
+	      <var n="prnfinal"/> 
+            </lu>
+          </chunk>
+          <b/>
+        </out>
+      </action>
+    </rule>
+
+
 
     <rule comment="REGLA: yn lle VERB inf">
       <pattern>

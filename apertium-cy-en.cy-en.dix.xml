@@ -612,7 +612,7 @@
     <e><p><l>adduned<s n="n"/><s n="f"/></l><r>resolution<s n="n"/></r></p></e>
     <e><p><l>addurn<s n="n"/><s n="m"/></l><r>ornament<s n="n"/></r></p></e>
     <e><p><l>addurniad<s n="n"/><s n="m"/></l><r>decoration<s n="n"/></r></p></e>
-    <e><p><l>adeg<s n="n"/><s n="f"/></l><r>time<s n="n"/></r></p></e>
+    <e><p><l>adeg<s n="n"/><s n="f"/></l><r>time<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>adeilad<s n="n"/><s n="mf"/></l><r>building<s n="n"/></r></p></e>
     <e><p><l>adeiladaeth<s n="n"/><s n="f"/></l><r>construction<s n="n"/></r></p></e>
     <e><p><l>adeiladiad<s n="n"/><s n="m"/></l><r>build<s n="n"/></r></p></e>
@@ -657,7 +657,7 @@
     <e><p><l>amrediad<s n="n"/><s n="m"/></l><r>range<s n="n"/></r></p></e>
     <e><p><l>amrywiad<s n="n"/><s n="m"/></l><r>variation<s n="n"/></r></p></e>
     <e><p><l>amrywiaeth<s n="n"/><s n="f"/></l><r>variety<s n="n"/></r></p></e>
-    <e><p><l>amser<s n="n"/><s n="m"/></l><r>time<s n="n"/></r></p></e>
+    <e><p><l>amser<s n="n"/><s n="m"/></l><r>time<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>amseriad<s n="n"/><s n="m"/></l><r>timing<s n="n"/></r></p></e>
     <e><p><l>amsernod<s n="n"/><s n="m"/></l><r>timestamp<s n="n"/></r></p></e>
     <e><p><l>anabledd<s n="n"/><s n="m"/></l><r>disability<s n="n"/></r></p></e>
@@ -9352,7 +9352,7 @@
     </e>
     <e>
       <p>
-        <l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></l>
+        <l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="sg"/></l>
         <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
       </p>
     </e>
@@ -9688,6 +9688,7 @@
     <e><p><l>Òscar<s n="np"/><s n="ant"/></l><r>Òscar<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Patrícia<s n="np"/><s n="ant"/></l><r>Patrícia<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Paula<s n="np"/><s n="ant"/></l><r>Paula<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Paul<s n="np"/><s n="ant"/></l><r>Paul<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Pere<s n="np"/><s n="ant"/></l><r>Pere<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Philippa<s n="np"/><s n="ant"/></l><r>Philippa<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Philippe<s n="np"/><s n="ant"/></l><r>Philippe<s n="np"/><s n="ant"/></r></p></e>
