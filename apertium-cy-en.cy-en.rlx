@@ -35,6 +35,7 @@ LIST Prep_i = ("i" pr);			# the preposition "i" (to)
 # surface form regex, base form regex
 LIST MSoftC = ("<g.*>"r "c.*"r) (N);
 LIST MAspC = ("<ch.*>"r "c.*"r) (N);
+LIST MNasC = ("<n.*>"r "d.*"r) (N);
 
 SET N = NP + NC;
 SET PrnSubjP3Sg = PrnSubj + P3Sg;
@@ -67,8 +68,10 @@ REMOVE V IF (0 V) (0 N) (-1 DetDef) (-2 Pr);
 # ??
 REMOVE PrnSubj IF (1 NP) (-1 Adj);
 
+# mark a possessive determiner as being masculine if followed by soft mutation
 SUBSTITUTE (mf) (m) DetPos (1 MSoftC);
 
+# and feminine if followed by aspirate mutation.
 SUBSTITUTE (mf) (f) DetPos (1 MAspC);
 
 # ymwelwyr o tramor 
@@ -76,5 +79,3 @@ REMOVE PrnSubj IF (0 Pr)
 		  (0 PrnSubjP3Sg) 
 		  ((-1 NC) OR (-1 NP) OR (-1 VblexInf))
 		  ((1 NC) OR (1 NP) OR (1 Adj));
-
-
