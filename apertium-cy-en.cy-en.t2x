@@ -297,7 +297,59 @@
       </choose>
     </def-macro>
 
-    <def-macro n="conj_verb_haver1" npar="1">
+    <def-macro n="conj_verb_haver_past1" npar="1">
+      <choose>
+        <when>
+          <test>
+  	  <and>
+  	    <equal>
+  	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	    <not>
+	      <equal>
+	        <clip pos="1" part="lem"/>
+	        <lit v="prnsubj"/>
+	      </equal>
+	    </not>
+	  </and>
+	</test>
+        <let>
+          <var n="verbfinal"/>
+              <lit-tag v="vbhaver.past.p3.sg"/>
+        </let>
+      </when>	
+
+        <when>
+          <test>
+  	  <and>
+  	    <equal>
+  	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	      <equal>
+	        <clip pos="1" part="lem"/>
+	        <lit v="prnsubj"/>
+	      </equal>
+	  </and>
+	</test>
+        <let>
+          <var n="verbfinal"/>
+              <lit-tag v="vbhaver.past.p3.sg"/>
+        </let>
+      </when>	
+
+      <otherwise>
+        <let>
+          <var n="verbfinal"/>
+              <lit-tag v="vbhaver.past"/>
+        </let>
+      </otherwise>
+      </choose>
+    </def-macro>
+
+
+    <def-macro n="conj_verb_haver_pres1" npar="1">
       <choose>
         <when>
           <test>
@@ -851,9 +903,30 @@
         <pattern-item n="SV_inf"/>
       </pattern>
       <action>
-        <call-macro n="conj_verb_haver1">
-          <with-param pos="2"/> 
-        </call-macro> 
+	<choose> 
+	  <when>
+	    <test>
+	      <or>
+	        <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="past"/>
+                </equal>
+	        <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="pii"/>
+                </equal>
+	      </or>
+            </test>
+            <call-macro n="conj_verb_haver_past1">
+               <with-param pos="2"/> 
+            </call-macro> 
+          </when>
+          <otherwise>
+            <call-macro n="conj_verb_haver_pres1">
+               <with-param pos="2"/> 
+            </call-macro> 
+          </otherwise>
+        </choose>
         <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -969,7 +1042,7 @@
         <pattern-item n="SV_inf"/>
       </pattern>
       <action>
-        <call-macro n="conj_verb_haver1">
+        <call-macro n="conj_verb_haver_pres1">
           <with-param pos="2"/> 
         </call-macro> 
         <out>
@@ -1017,7 +1090,7 @@
         <pattern-item n="SV_inf"/>
       </pattern>
       <action>
-        <call-macro n="conj_verb_haver1">
+        <call-macro n="conj_verb_haver_pres1">
           <with-param pos="2"/> 
         </call-macro> 
         <out>
@@ -1180,7 +1253,7 @@
         <pattern-item n="SV_inf"/>
       </pattern>
       <action>
-        <call-macro n="conj_verb_haver1">
+        <call-macro n="conj_verb_haver_pres1">
           <with-param pos="2"/> 
         </call-macro> 
         <out>
