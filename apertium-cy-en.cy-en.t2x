@@ -46,11 +46,22 @@
     </def-cat>
 
     <def-cat n="SV_ser">
-      <cat-item tags="SV.vbser.*"/>
+      <!-- <cat-item tags="SV.vbser.*"/> -->
+      <cat-item tags="SV.vbser.cni.*"/>
+      <cat-item tags="SV.vbser.cns.*"/>
+      <cat-item tags="SV.vbser.fut.*"/>
+      <cat-item tags="SV.vbser.imp.*"/>
+      <cat-item tags="SV.vbser.past.*"/>
+      <cat-item tags="SV.vbser.pii.*"/>
+      <cat-item tags="SV.vbser.plu.*"/>
+      <cat-item tags="SV.vbser.pres.*"/>
+      <cat-item tags="SV.vbser.prs.*"/>
     </def-cat>
+
     <def-cat n="SV_ser_inf">
       <cat-item tags="SV.vbser.inf"/>
     </def-cat>
+
     <def-cat n="SV_cael_inf">
       <cat-item lemma="verbcael" tags="SV.vblex.inf"/>
     </def-cat>
@@ -58,6 +69,7 @@
     <def-cat n="SV_inf">
       <cat-item tags="SV.vblex.inf"/>
     </def-cat>
+
     <def-cat n="SV_ger">
       <cat-item tags="SV.vblex.ger"/>
     </def-cat>
@@ -435,6 +447,101 @@
 	</choose>
       </action>
     </rule>
+<!--
+    <rule comment="REGLA: SV SN SP SN">
+      <pattern>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SP"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+      <call-macro n="when_are_we1">
+        <with-param pos="1"/>
+      </call-macro>
+      <choose>
+        <when>
+          <test>
+              <or>
+                <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="inf"/>
+                </equal>
+                <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="imp"/>
+                </equal> 
+              </or>
+          </test>
+          <out>
+            <chunk>
+              <clip pos="1" part="lem"/>
+              <clip pos="1" part="a_frase"/>
+              <clip pos="1" part="a_verb"/>
+              <clip pos="1" part="temps"/>
+              <clip pos="1" part="pers"/>
+              <clip pos="2" part="nbr"/>
+              <clip pos="1" part="chcontent"/>
+            </chunk>
+            <b/>
+            <chunk>
+              <clip pos="2" part="lem"/>
+              <clip pos="2" part="tags"/>
+              <clip pos="2" part="chcontent"/>
+            </chunk>
+            <b/>
+            <chunk>
+              <clip pos="3" part="lem"/>
+              <clip pos="3" part="tags"/>
+              <clip pos="3" part="chcontent"/>
+            </chunk>
+            <b/>
+            <chunk>
+              <clip pos="4" part="lem"/>
+              <clip pos="4" part="tags"/>
+              <clip pos="4" part="chcontent"/>
+            </chunk>
+          </out>
+        </when>
+        <otherwise>
+          <out>
+            <chunk>
+              <get-case-from pos="1">
+                <clip pos="2" part="lem"/>
+              </get-case-from>
+              <clip pos="2" part="tags"/>
+              <clip pos="2" part="chcontent"/>
+            </chunk>
+            <b/>
+            <chunk>
+              <clip pos="3" part="lem"/>
+              <clip pos="3" part="tags"/>
+              <clip pos="3" part="chcontent"/>
+            </chunk>
+            <b/>
+            <chunk>
+              <clip pos="4" part="lem"/>
+              <clip pos="4" part="tags"/>
+              <clip pos="4" part="chcontent"/>
+            </chunk>
+            <b/>
+            <chunk>
+              <get-case-from pos="2">
+                <clip pos="1" part="lem"/>
+              </get-case-from>
+              <clip pos="1" part="a_frase"/>
+              <clip pos="1" part="a_verb"/>
+              <clip pos="1" part="temps"/>
+              <clip pos="1" part="pers"/>
+              <clip pos="2" part="nbr"/>
+              <clip pos="1" part="chcontent"/>
+            </chunk>
+          </out>
+        </otherwise>
+	</choose>
+      </action>
+    </rule>
+-->
 
 
     <rule comment="REGLA: SV SN CC SN">

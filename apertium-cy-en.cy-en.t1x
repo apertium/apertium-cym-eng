@@ -70,7 +70,9 @@
     </def-cat>
     <def-cat n="verbinf">
       <cat-item tags="vblex.inf"/>
-      <cat-item tags="vbser.inf"/> 
+    </def-cat>
+    <def-cat n="verbserinf">
+      <cat-item tags="vbser.inf"/>  
     </def-cat>
     <def-cat n="verbcj">
       <cat-item tags="vblex.cni.*"/>
@@ -88,7 +90,7 @@
       <cat-item tags="vbser.cni.*"/>
       <cat-item tags="vbser.fut.*"/>
       <cat-item tags="vbser.imp.*"/>
-      <cat-item tags="vbser.inf.*"/>
+<!--      <cat-item tags="vbser.inf.*"/> -->
       <cat-item tags="vbser.past.*"/>
       <cat-item tags="vbser.pii.*"/>
       <cat-item tags="vbser.plu.*"/>
@@ -209,7 +211,7 @@
     <def-var n="lema_SV"/>
     <def-var n="lema_SP"/>
     <def-var n="verbfinal"/>
-    <def-var n="prnfinal"/>
+    <def-var n="prntags"/>
     <def-var n="adjectiu1"/>
     <def-var n="EOS" v="true"/>
   </section-def-vars>
@@ -632,7 +634,7 @@
 
     <def-macro n="prnobj_from_detpos1" npar="1">
       <let>
-        <var n="prnfinal"/>
+        <var n="prntags"/>
         <lit v=""/>
       </let>
         <choose>
@@ -643,13 +645,10 @@
                   <lit v="fy"/>
                 </equal>
             </test>
-            <let>
-              <var n="prnfinal"/>
-                <concat>
-                  <lit v="prpers"/>
-                  <lit-tag v="prn.obj.p1.mf.sg"/>
-                </concat>
-            </let>
+	    <let>
+              <var n="prntags"/>
+	      <lit-tag v="prn.obj.p1.mf.sg"/>
+	    </let>
           </when>
           <when>
             <test>
@@ -659,11 +658,8 @@
                 </equal>
             </test>
             <let>
-              <var n="prnfinal"/>
-                <concat>
-                  <lit v="prpers"/>
-                  <lit-tag v="prn.obj.p2.mf.sg"/>
-                </concat>
+              <var n="prntags"/>
+              <lit-tag v="prn.obj.p2.mf.sg"/>
             </let>
           </when>
           <when>
@@ -674,20 +670,50 @@
                 </equal>
             </test>
             <let>
-              <var n="prnfinal"/>
-                <concat>
-                  <lit v="prpers"/>
-                  <lit-tag v="prn.obj.p3.nt.sg"/>
-                </concat>
+              <var n="prntags"/>
+              <lit-tag v="prn.obj.p3.nt.sg"/>
             </let>
           </when>
-
+          <when>
+            <test>
+                <equal>
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="ein"/>
+                </equal>
+            </test>
+            <let>
+              <var n="prntags"/>
+              <lit-tag v="prn.obj.p1.mf.pl"/>
+            </let>
+          </when>
+          <when>
+            <test>
+                <equal>
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="eich"/>
+                </equal>
+            </test>
+            <let>
+              <var n="prntags"/>
+              <lit-tag v="prn.obj.p2.mf.pl"/>
+            </let>
+          </when>
+          <when>
+            <test>
+                <equal>
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="eu"/>
+                </equal>
+            </test>
+            <let>
+              <var n="prntags"/>
+              <lit-tag v="prn.obj.p3.mf.pl"/>
+            </let>
+          </when>
           <otherwise>
             <let>
-              <var n="prnfinal"/>
-                <concat>
-                  <clip pos="1" side="tl" part="whole"/> 
-                </concat>
+              <var n="prntags"/>
+	      <lit v=""/>
             </let>
           </otherwise>
         </choose>
@@ -1724,6 +1750,34 @@
     </rule>
 
 
+    <rule comment="REGLA: VERB ser inf">
+      <pattern>
+        <pattern-item n="verbserinf"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="verbinf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><lit-tag v="inf"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+	  <b/>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: VERB inf">
       <pattern>
         <pattern-item n="verbinf"/>
@@ -1779,6 +1833,48 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: DET pos VERB inf">
+      <pattern>
+        <pattern-item n="detpos"/>
+        <pattern-item n="verbinf"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="prnobj_from_detpos1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="verbinf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+              <tag><lit-tag v="inf"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps" link-to="3"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+	  </chunk>
+	    <b/>
+	  <chunk name="prnobj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="prntags"/></tag>
+            </tags>
+            <lu>
+	      <lit v="prpers"/>
+	      <var n="prntags"/>
+            </lu>
+          </chunk>
+          <b/>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: yn DET pos VERB inf">
       <pattern>
         <pattern-item n="yn"/>
@@ -1793,7 +1889,7 @@
           <with-param pos="2"/>
         </call-macro>
         <out>
-          <chunk name="verb_prnobj" case="caseFirstWord">
+          <chunk name="verbger" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="3" side="tl" part="a_verb"/></tag>
@@ -1805,9 +1901,16 @@
               <clip pos="3" side="tl" part="temps" link-to="3"/>
               <clip pos="3" side="tl" part="lemq"/>
             </lu>
+	  </chunk>
 	    <b/>
+	  <chunk name="prnobj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="prntags"/></tag>
+            </tags>
             <lu>
-	      <var n="prnfinal"/> 
+	      <lit v="prpers"/>
+	      <var n="prntags"/>
             </lu>
           </chunk>
           <b/>

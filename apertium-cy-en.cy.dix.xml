@@ -3277,13 +3277,12 @@
         </p>
       </e>
     </pardef>
-
     
     <pardef n="Blaenafon__np"> <!-- Fix and add genders -->
       <e>
         <p>
           <l/>
-          <r><s n="np"/><s n="top"/><s n="sg"/></r>
+          <r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -48051,6 +48050,7 @@
     <e lm="hyd"><i>hyd</i><par n="oherwydd__cnjsub"/></e>
     <e lm="cyn"><i>cyn</i><par n="oherwydd__cnjsub"/></e>
     <e lm="gyda"><i>gyda</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="ers"><i>ers</i><par n="oherwydd__cnjsub"/></e>
 
     <e lm="ar ôl"><i>ar<b/>ôl</i><par n="oherwydd__cnjsub"/></e>
     <e lm="nes"><i>nes</i><par n="oherwydd__cnjsub"/></e>
@@ -48072,12 +48072,15 @@
     <e lm="eich"><i>eich</i><par n="fy__det"/></e>
     <e lm="eu"><i>eu</i><par n="fy__det"/></e>
 
+    <e lm="hwn"><i>hwn</i><par n="yna__det"/></e>
+
     <e lm="llawer o"><i>llawer<b/>o</i><par n="llawer_o__det"/></e>
 
     <!-- Adverbs -->
     <e lm="iawn"><i>iawn</i><par n="iawn__preadv"/></e>
 
     <e lm="yma"><i>yma</i><par n="yma__adv"/></e>
+    <e lm="dros nos"><i>dros<b/>nos</i><par n="yma__adv"/></e>
     <e lm="allan"><i>allan</i><par n="yma__adv"/></e>
     <e lm="nawr"><i>nawr</i><par n="yma__adv"/></e>
     <e lm="isod"><i>isod</i><par n="yma__adv"/></e>
@@ -49534,7 +49537,6 @@
     <e lm="annibyniaeth"><i>annibyniaeth</i><par n="addysg__n"/></e>
     <e lm="anweithred"><i>anweithred</i><par n="addysg__n"/></e>
     <e lm="anwybodaeth"><i>anwybodaeth</i><par n="addysg__n"/></e>
-    <e lm="Ariannin"><i>Ariannin</i><par n="addysg__n"/></e>
     <e lm="astroleg"><i>astroleg</i><par n="addysg__n"/></e>
     <e lm="athroniaeth"><i>athroniaeth</i><par n="addysg__n"/></e>
     <e lm="atwrneiaeth"><i>atwrneiaeth</i><par n="addysg__n"/></e>
@@ -51179,6 +51181,11 @@
     <e lm="cynhyrchydd"><par n="initial-c"/><i>yn</i><par n="cyn/hyrchydd__n"/></e>
     <e lm="merch"><par n="initial-m"/><i>erch</i><par n="merch__n"/></e>
     <e lm="cloch"><par n="initial-c"/><i>l</i><par n="cl/och__n"/></e>
+
+    <!--
+    <e lm="cloch y drws"><par n="initial-c"/><i>l</i><par n="cl/och__n"/><p><l><b/>y<b/>drws</l><r><g><b/>y<b/>drws</g></r></p></e>
+    -->
+
     <e lm="tymheredd"><par n="initial-t"/><i>ym</i><par n="tym/heredd__n"/></e>
     <e lm="cylchgronau"><par n="initial-c"/><i>ylchgr</i><par n="cylchgr/onau__n"/></e>
     <e lm="lleuen"><i>ll</i><par n="ll/euen__n"/></e>
@@ -51330,6 +51337,7 @@
     <e lm="oergell"><i>oergell</i><par n="archfarchnad__n"/></e>
 
     <e lm="i gyd"><i>i<b/>gyd</i><par n="caredig__adj"/></e>
+    <e lm="amatur"><i>amatur</i><par n="caredig__adj"/></e>
 
     <e lm="agos"><i>agos</i><par n="agos__adj"/></e>
     <e lm="aml"><i>aml</i><par n="agos__adj"/></e>
@@ -51434,9 +51442,9 @@
     <e lm="amddifad"><i>amddifad</i><par n="caredig__adj"/></e>
     <e lm="amddiffynnol"><i>amddiffynnol</i><par n="caredig__adj"/></e>
     <e lm="Americanaidd"><i>Americanaidd</i><par n="caredig__adj"/></e>
+    <e lm="Fictorianaidd"><i>Fictorianaidd</i><par n="caredig__adj"/></e>
     <e lm="amffiniedig"><i>amffiniedig</i><par n="caredig__adj"/></e>
     <e lm="amgaeedig"><i>amgaeedig</i><par n="caredig__adj"/></e>
-    <e lm="amgaeëdig"><i>amgaeëdig</i><par n="caredig__adj"/></e>
     <e lm="amgaeëdig"><i>amgaeëdig</i><par n="caredig__adj"/></e>
     <e lm="amgen"><i>amgen</i><par n="caredig__adj"/></e>
     <e lm="amgodiedig"><i>amgodiedig</i><par n="caredig__adj"/></e>
@@ -52168,7 +52176,7 @@
     <e lm="enwol"><i>enwol</i><par n="caredig__adj"/></e>
     <e lm="epidemiolegol"><i>epidemiolegol</i><par n="caredig__adj"/></e>
     <e lm="erchyll"><i>erchyll</i><par n="caredig__adj"/></e>
-    <e lm="ers"><i>ers</i><par n="caredig__adj"/></e>
+<!--    <e lm="ers"><i>ers</i><par n="caredig__adj"/></e> -->
     <e lm="esboniadol"><i>esboniadol</i><par n="caredig__adj"/></e>
     <e lm="esbonyddol"><i>esbonyddol</i><par n="caredig__adj"/></e>
     <e lm="esgynnol"><i>esgynnol</i><par n="caredig__adj"/></e>
@@ -52362,7 +52370,6 @@
     <e lm="hunanfoddhaus"><i>hunanfoddhaus</i><par n="caredig__adj"/></e>
     <e lm="hunangyflogedig"><i>hunangyflogedig</i><par n="caredig__adj"/></e>
     <e lm="hunangynhaliol"><i>hunangynhaliol</i><par n="caredig__adj"/></e>
-    <e lm="hwn"><i>hwn</i><par n="caredig__adj"/></e>
     <e lm="hwylus"><i>hwylus</i><par n="caredig__adj"/></e>
     <e lm="hwyred"><i>hwyred</i><par n="caredig__adj"/></e>
     <e lm="hy"><i>hy</i><par n="caredig__adj"/></e>
@@ -56719,6 +56726,7 @@
     <e lm="dydd Mercher"><par n="initial-d"/><i>ydd</i><par n="amlap__n"/><p><l><b/>Mercher</l><r><g><b/>Mercher</g></r></p></e>
     <e lm="dydd Mawrth"><par n="initial-d"/><i>ydd</i><par n="amlap__n"/><p><l><b/>Mawrth</l><r><g><b/>Mawrth</g></r></p></e>
     <e lm="dydd Sadwrn"><par n="initial-d"/><i>ydd</i><par n="amlap__n"/><p><l><b/>Sadwrn</l><r><g><b/>Sadwrn</g></r></p></e>
+    <e lm="dydd Sul"><par n="initial-d"/><i>ydd</i><par n="amlap__n"/><p><l><b/>Sul</l><r><g><b/>Sul</g></r></p></e>
 
 
 
@@ -56770,6 +56778,7 @@
     <e lm="Sbaen"><i>Sbaen</i><par n="Blaenafon__np"/></e>
     <e lm="Ewrop"><i>Ewrop</i><par n="Blaenafon__np"/></e>
     <e lm="Lloegr"><par n="initial-Ll"/><i>oegr</i><par n="Lloegr__np"/></e>
+    <e lm="Ariannin"><i>Ariannin</i><par n="Blaenafon__np"/></e>
     <e lm="yr Alban"><i>yr<b/>Alban</i><par n="Blaenafon__np"/></e>
 
 

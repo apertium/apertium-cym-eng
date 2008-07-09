@@ -2600,6 +2600,18 @@
           <r><s n="vblex"/><s n="pres"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sp"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>s</l>
@@ -3774,6 +3786,12 @@
       </e>
     </pardef>
     <pardef n="t/ake__vblex">
+      <e r="RL">
+        <p>
+          <l>ake</l>
+          <r>ake<s n="vblex"/><s n="imp"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>ake</l>
@@ -5476,6 +5494,18 @@
         <p>
           <l>ell</l>
           <r>ell<s n="vblex"/><s n="pres"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>ell</l>
+          <r>ell<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>ell</l>
+          <r>ell<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sp"/></r>
         </p>
       </e>
       <e>
@@ -12626,7 +12656,10 @@
     <e lm="either"><i>either</i><par n="maybe__adv"/></e>
     <e lm="else"><i>else</i><par n="maybe__adv"/></e>
     <e lm="enough"><i>enough</i><par n="maybe__adv"/></e>
+
     <e lm="especially"><i>especially</i><par n="maybe__adv"/></e>
+    <e lm="especially"><i>especially</i><par n="expensive__adj"/></e>
+
     <e lm="even"><i>even</i><par n="maybe__adv"/></e>
     <e lm="even less"><i>even<b/>less</i><par n="maybe__adv"/></e>
     <e lm="even more"><i>even<b/>more</i><par n="maybe__adv"/></e>
@@ -12700,7 +12733,7 @@
     <e lm="left"><i>left</i><par n="maybe__adv"/></e>
     <e lm="second"><i>second</i><par n="maybe__adv"/></e>
     <e lm="simply"><i>simply</i><par n="maybe__adv"/></e>
-    <e lm="since"><i>since</i><par n="maybe__adv"/></e>
+    <e lm="since"><i>since</i><par n="that__cnjsub"/></e>
     <e lm="some"><i>some</i><par n="maybe__adv"/></e>
     <e lm="sometime"><i>sometime</i><par n="maybe__adv"/></e>
     <e lm="sometimes"><i>sometimes</i><par n="maybe__adv"/></e>
@@ -15073,7 +15106,8 @@
 
     <e lm="as if"><i>as<b/>if</i><par n="after__cnjadv"/></e>
     <e lm="as well as"><i>as<b/>well<b/>as</i><par n="and__cnjcoo"/></e>
-    <e lm="because"><i>because</i><par n="after__cnjadv"/></e>
+    <e lm="because"><i>because</i><par n="that__cnjsub"/></e>
+
     <e lm="given that"><i>given<b/>that</i><par n="after__cnjadv"/></e>
     <e lm="before"><i>before</i><par n="after__cnjadv"/></e>
     <e lm="both"><i>both</i><par n="and__cnjcoo"/></e>
@@ -16229,6 +16263,7 @@
     <e lm="consumer"><i>consumer</i><par n="house__n"/></e>
     <e lm="wish"><i>wish</i><par n="access__n"/></e>
     <e lm="festival"><i>festival</i><par n="house__n"/></e>
+    <e lm="Eisteddfod"><i>Eisteddfod</i><par n="house__n"/></e>
     <e lm="commitment"><i>commitment</i><par n="house__n"/></e>
     <e lm="taste"><i>taste</i><par n="house__n"/></e>
     <e lm="percentage"><i>percentage</i><par n="house__n"/></e>
@@ -16738,6 +16773,7 @@
     <e lm="nurse"><i>nurse</i><par n="house__n"/></e>
     <e lm="civilian"><i>civilian</i><par n="house__n"/></e>
     <e lm="civilian"><i>civilian</i><par n="expensive__adj"/></e>
+    <e lm="rear"><i>rear</i><par n="expensive__adj"/></e>
     <e lm="element"><i>element</i><par n="house__n"/></e>
     <e lm="sky"><i>sk</i><par n="bab/y__n"/></e>
     <e lm="relative"><i>relative</i><par n="house__n"/></e>
@@ -17601,6 +17637,7 @@
     <e lm="cardboard"><i>cardboard</i><par n="house__n"/></e>
     <e lm="bow"><i>bow</i><par n="house__n"/></e>
     <e lm="bell"><i>bell</i><par n="house__n"/></e>
+    <e lm="doorbell"><i>doorbell</i><par n="house__n"/></e>
     <e lm="measuring"><i>measuring</i><par n="house__n"/></e>
     <e lm="hatred"><i>hatred</i><par n="house__n"/></e>
     <e lm="formation"><i>formation</i><par n="house__n"/></e>
@@ -17620,6 +17657,7 @@
     <e lm="loser"><i>loser</i><par n="house__n"/></e>
     <e lm="epic"><i>epic</i><par n="house__n"/></e>
     <e lm="epic"><i>epic</i><par n="expensive__adj"/></e>
+    <e lm="amateur"><i>amateur</i><par n="expensive__adj"/></e>
     <e lm="paramilitary"><i>paramilitary</i><par n="expensive__adj"/></e>
     <e lm="sexuality"><i>sexualit</i><par n="bab/y__n"/></e>
     <e lm="honey"><i>honey</i><par n="house__n"/></e>
@@ -27848,6 +27886,7 @@
     <e lm="Pembroke Dock"><i>Pembroke<b/>Dock</i><par n="Barcelona__np"/></e>
     <e lm="Pontypridd"><i>Pontypridd</i><par n="Barcelona__np"/></e>
     <e lm="Powys"><i>Powys</i><par n="Barcelona__np"/></e>
+    <e lm="Gwent"><i>Gwent</i><par n="Barcelona__np"/></e>
     <e lm="Dyfed"><i>Dyfed</i><par n="Barcelona__np"/></e>
     <e lm="Dyfed-Powys"><i>Dyfed-Powys</i><par n="Barcelona__np"/></e>
     <e lm="Haverfordwest"><i>Haverfordwest</i><par n="Barcelona__np"/></e>
