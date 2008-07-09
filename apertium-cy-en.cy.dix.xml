@@ -633,7 +633,7 @@
       <e>
         <p>
           <l/>
-          <r><s n="det"/><s n="pos"/><s n="sp"/></r>
+          <r><s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -48539,7 +48539,7 @@
     <e lm="gwrthrych"><par n="initial-g"/><i>wrthrych</i><par n="aberth__n"/></e>
     <e lm="gwrthwyneb"><par n="initial-g"/><i>wrthwyneb</i><par n="aberth__n"/></e>
     <e lm="gwrthwynebiad"><par n="initial-g"/><i>wrthwynebiad</i><par n="aberth__n"/></e>
-    <e lm="gwyneb"><par n="initial-g"/><i>wyneb</i><par n="aberth__n"/></e>
+<!--    <e lm="gwyneb"><par n="initial-g"/><i>wyneb</i><par n="aberth__n"/></e> -->
     <e lm="gwyriad"><par n="initial-g"/><i>wyriad</i><par n="aberth__n"/></e>
     <e lm="gyd-benodiad"><par n="initial-g"/><i>yd-benodiad</i><par n="aberth__n"/></e>
     <e lm="haf"><i>haf</i><par n="aberth__n"/></e>
