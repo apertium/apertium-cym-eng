@@ -1188,7 +1188,7 @@
     <e><p><l>gwyddor<s n="n"/><s n="f"/></l><r>alphabet<s n="n"/></r></p></e>
     <e><p><l>gwyddor<s n="n"/><s n="f"/></l><r>science<s n="n"/></r></p></e>
     <e><p><l>gwydr<s n="n"/><s n="m"/></l><r>glass<s n="n"/></r></p></e>
-    <e><p><l>gwyneb<s n="n"/><s n="m"/></l><r>face<s n="n"/></r></p></e>
+<!--    <e><p><l>gwyneb<s n="n"/><s n="m"/></l><r>face<s n="n"/></r></p></e> -->
     <e><p><l>gwyriad<s n="n"/><s n="m"/></l><r>deviation<s n="n"/></r></p></e>
     <e><p><l>gyd-benodiad<s n="n"/><s n="m"/></l><r>joint appointment<s n="n"/></r></p></e>
     <e><p><l>haen<s n="n"/><s n="f"/></l><r>layer<s n="n"/></r></p></e>
@@ -9408,6 +9408,8 @@
  
     <e><p><l>Dafydd<s n="np"/><s n="ant"/></l><r>Dafydd<s n="np"/><s n="ant"/></r></p></e>
  
+    <e><p><l>Cwchwlin<s n="np"/><s n="ant"/></l><r>Cúchulainn<s n="np"/><s n="ant"/></r></p></e>
+
     <e><p><l>Aaron<s n="np"/><s n="ant"/></l><r>Aaron<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Abril<s n="np"/><s n="ant"/></l><r>Abril<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Adam<s n="np"/><s n="ant"/></l><r>Adam<s n="np"/><s n="ant"/></r></p></e>
