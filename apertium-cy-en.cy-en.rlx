@@ -34,9 +34,9 @@ LIST Prep_i = ("i" pr);			# the preposition "i" (to)
 
 # mutation for individual letters
 # surface form regex, base form regex
-LIST MSoftC = ("<g.*>"r "c.*"r) (N);
-LIST MAspC = ("<ch.*>"r "c.*"r) (N);
-LIST MNasC = ("<n.*>"r "d.*"r) (N);
+LIST MSoftC = ("<g.*>"r "c.*"r) ("<d.*>"r "t.*"r);
+LIST MAspC = ("<ch.*>"r "c.*"r) ;
+LIST MNasC = ("<n.*>"r "d.*"r) ;
 
 SET PrnSubjP3Sg = PrnSubj + P3Sg;
 SET PrnSubjP2Pl = PrnSubj + P2Pl;
@@ -89,3 +89,7 @@ REMOVE V IF (-1 DetDef);
 # See 1.3.36 -- we currently just drop subjunctives
 
 REMOVE VblexPrs IF (0 V); 
+
+# pobl y de
+REMOVE ("<d.*>"r "t.*"r) IF (-1 DetDef);
+
