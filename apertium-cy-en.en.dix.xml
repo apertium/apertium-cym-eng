@@ -15811,6 +15811,7 @@
     <e lm="opening"><i>opening</i><par n="house__n"/></e>
     <e lm="station"><i>station</i><par n="house__n"/></e>
     <e lm="committee"><i>committee</i><par n="house__n"/></e>
+    <e lm="cross-party committee"><i>cross-party<b/>committee</i><par n="house__n"/></e>
     <e lm="joint committee"><i>joint<b/>committee</i><par n="house__n"/></e>
     <e lm="hospital"><i>hospital</i><par n="house__n"/></e>
     <e lm="light"><i>light</i><par n="house__n"/></e>
@@ -28964,6 +28965,7 @@
     <e lm="plan"><i>plan</i><par n="plan__vblex"/></e>
     <e lm="play"><i>play</i><par n="accept__vblex"/></e>
     <e lm="practice"><i>practic</i><par n="liv/e__vblex"/></e>
+    <e lm="notice"><i>notic</i><par n="liv/e__vblex"/></e>
     <e lm="prepare"><i>prepar</i><par n="liv/e__vblex"/></e>
     <e lm="present"><i>present</i><par n="accept__vblex"/></e>
     <e lm="prevent"><i>prevent</i><par n="accept__vblex"/></e>
@@ -35376,6 +35378,33 @@
       </p>
     </e>
  
+<e lm="take"><i>t</i><par n="t/ake__vblex"/><p><l><b/>advantage<b/>of</l><r><g><b/>advantage<b/>of</g></r></p></e>
+<e lm="aim"><i>aim</i><par n="accept__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
+<e lm="send"><i>sen</i><par n="ben/d__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
+<e lm="send"><i>sen</i><par n="ben/d__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
+<e lm="get rid of"><i>g</i><par n="g/et__vblex"/><p><l><b/>rid<b/>of</l><r><g><b/>rid<b/>of</g></r></p></e>
+<e lm="search"><i>search</i> <par n="approach__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
+<e lm="refer"><i>refer</i><par n="accept__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
+<e lm="contribute"><i>contribut</i><par n="liv/e__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
+<e lm="look"><i>look</i><par n="accept__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
+<e lm="look"><i>look</i><par n="accept__vblex"/><p><l><b/>forward<b/>to</l><r><g><b/>forward<b/>to</g></r></p></e>
+<e lm="take"><i>t</i><par n="t/ake__vblex"/><p><l><b/>care<b/>of</l><r><g><b/>care<b/>of</g></r></p></e>
+<e lm="ask"><i>ask</i><par n="accept__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
+<e lm="take"><i>t</i><par n="t/ake__vblex"/><p><l><b/>advantage<b/>of</l><r><g><b/>advantage<b/>of</g></r></p></e>
+<e lm="think"><i>th</i><par n="th/ink__vblex"/><p><l><b/>about</l><r><g><b/>about</g></r></p></e>
+<e lm="prepare for"><i>prepar</i><par n="liv/e__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
+<e lm="vote for"><i>vot</i><par n="liv/e__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
+<e lm="preach about"><i>preach</i><par n="approach__vblex"/><p><l><b/>about</l><r><g><b/>about</g></r></p></e>
+<e lm="talk about"><i>talk</i><par n="accept__vblex"/><p><l><b/>about</l><r><g><b/>about</g></r></p></e>
+<e lm="talk to"><i>talk</i><par n="accept__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
+<e lm="talk about"><i>talk</i><par n="accept__vblex"/><p><l><b/>about</l><r><g><b/>about</g></r></p></e>
+<e lm="take notice"><i>t</i><par n="t/ake__vblex"/><p><l><b/>notice</l><r><g><b/>notice</g></r></p></e>
+<e lm="be surprised at"><i/><par n="/be__vblex"/><p><l><b/>surprised<b/>at</l><r><g><b/>surprised<b/>at</g></r></p></e>
+<e lm="add to"><i>add</i><par n="accept__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
+<e lm="resemble"><i>resembl</i><par n="liv/e__vblex"/><p><l><b/>resemble</l><r><g><b/>resemble</g></r></p></e>
+<e lm="strive for"><i>striv</i><par n="liv/e__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
+<e lm="write to"><i>wr</i><par n="wr/ite__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
+
  
  
     <e lm="magazine about poetry">

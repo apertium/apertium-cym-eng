@@ -1424,6 +1424,8 @@
     <e><p><l>prynhawn<s n="n"/><s n="m"/></l><r>afternoon<s n="n"/></r></p></e>
     <e><p><l>pwrpas<s n="n"/><s n="m"/></l><r>purpose<s n="n"/></r></p></e>
     <e><p><l>pwyllgor<s n="n"/><s n="m"/></l><r>committee<s n="n"/></r></p></e>
+    <e><p><l>pwyllgor<g><b/>trawsbleidiol</g><s n="n"/><s n="m"/></l><r>cross-party<b/>committee<s n="n"/></r></p></e>
+
     <e><p><l>pwys<s n="n"/><s n="m"/></l><r>weight<s n="n"/></r></p></e>
     <e><p><l>pwysedd<s n="n"/><s n="m"/></l><r>pressure<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>pyramid<s n="n"/><s n="m"/></l><r>pyramid<s n="n"/></r></p></e>
@@ -8823,6 +8825,47 @@
  
  
      <!-- Multiword verbs -->
+
+    <e><p><l>achub<g><b/>ar</g><s n="vblex"/></l><r>take<g><b/>advantage<b/>of</g><s n="vblex"/></r></p></e>
+    <e><p><l>anelu<g><b/>at</g><s n="vblex"/></l><r>aim<g><b/>at</g><s n="vblex"/></r></p></e>
+    <e><p><l>anfon<g><b/>am</g><s n="vblex"/></l><r>send<g><b/>for</g><s n="vblex"/></r></p></e>
+    <e><p><l>anfon<g><b/>at</g><s n="vblex"/></l><r>send<g><b/>to</g><s n="vblex"/></r></p></e>
+    <e><p><l>cael<g><b/>gwared<b/>ar</g><s n="vblex"/></l><r>get<g><b/>rid<b/>of</g><s n="vblex"/></r></p></e>
+    <e><p><l>cael<g><b/>hyd<b/>i</g><s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
+    <e><p><l>chwilio<g><b/>am</g><s n="vblex"/></l><r>search<g><b/>for</g><s n="vblex"/></r></p></e>
+    <e><p><l>cwrdd<g><b/>â</g><s n="vblex"/></l><r>meet<s n="vblex"/></r></p></e>
+    <e><p><l>cyfeirio<g><b/>at</g><s n="vblex"/></l><r>refer<g><b/>to</g><s n="vblex"/></r></p></e>
+    <e><p><l>cyfrannu<g><b/>at</g><s n="vblex"/></l><r>contribute<g><b/>to</g><s n="vblex"/></r></p></e>
+    <e><p><l>dod<g><b/>â</g><s n="vblex"/></l><r>bring<s n="vblex"/></r></p></e>
+    <e><p><l>dod<g><b/>o<b/>hyd<b/>i</g><s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
+    <e><p><l>dweud<g><b/>wrth</g><s n="vblex"/></l><r>tell<s n="vblex"/></r></p></e>
+    <e><p><l>edrych<g><b/>ar</g><s n="vblex"/></l><r>look<g><b/>at</g><s n="vblex"/></r></p></e>
+    <e><p><l>edrych<g><b/>ymlaen<b/>at</g><s n="vblex"/></l><r>look<g><b/>forward<b/>to</g><s n="vblex"/></r></p></e>
+    <e><p><l>ennill<g><b/>ar</g><s n="vblex"/></l><r>defeat<s n="vblex"/></r></p></e>
+    <e><p><l>gofalu<g><b/>am</g><s n="vblex"/></l><r>take<g><b/>care<b/>of</g><s n="vblex"/></r></p></e>
+    <e><p><l>gofyn<g><b/>am</g><s n="vblex"/></l><r>ask<g><b/>for</g><s n="vblex"/></r></p></e>
+    <e><p><l>gwarchod<g><b/>dros</g><s n="vblex"/></l><r>protect<s n="vblex"/></r></p></e>
+    <e><p><l>lladd<g><b/>ar</g><s n="vblex"/></l><r>criticise<s n="vblex"/></r></p></e>
+    <e><p><l>manteisio<g><b/>ar</g><s n="vblex"/></l><r>take<g><b/>advantage<b/>of</g><s n="vblex"/></r></p></e>
+    <e><p><l>marchogaeth<g><b/>ar</g><s n="vblex"/></l><r>ride<s n="vblex"/></r></p></e>
+    <e><p><l>meddu<g><b/>ar</g><s n="vblex"/></l><r>own<s n="vblex"/></r></p></e>
+    <e><p><l>meddwl<g><b/>am</g><s n="vblex"/></l><r>think<g><b/>about</g><s n="vblex"/></r></p></e>
+    <e><p><l>mynd<g><b/>â</g><s n="vblex"/></l><r>take<s n="vblex"/></r></p></e>
+    <e><p><l>paratoi<g><b/>at</g><s n="vblex"/></l><r>prepare<g><b/>for</g><s n="vblex"/></r></p></e>
+    <e><p><l>peidio<g><b/>â</g><s n="vblex"/></l><r>stop<s n="vblex"/></r></p></e>
+    <e><p><l>pleidleisio<g><b/>dros</g><s n="vblex"/></l><r>vote<g><b/>for</g><s n="vblex"/></r></p></e>
+    <e><p><l>pregethu<g><b/>am</g><s n="vblex"/></l><r>preach<g><b/>about</g><s n="vblex"/></r></p></e>
+    <e><p><l>siarad<g><b/>am</g><s n="vblex"/></l><r>talk<g><b/>about</g><s n="vblex"/></r></p></e>
+    <e><p><l>siarad<g><b/>â</g><s n="vblex"/></l><r>talk<g><b/>to</g><s n="vblex"/></r></p></e>
+    <e><p><l>sôn<g><b/>am</g><s n="vblex"/></l><r>talk<g><b/>about</g><s n="vblex"/></r></p></e>
+    <e><p><l>sylwi<g><b/>ar</g><s n="vblex"/></l><r>notice<s n="vblex"/></r></p></e>
+    <e><p><l>synnu<g><b/>at</g><s n="vblex"/></l><r>be<g><b/>surprised<b/>at</g><s n="vblex"/></r></p></e>
+    <e><p><l>ychwanegu<g><b/>at</g><s n="vblex"/></l><r>add<g><b/>to</g><s n="vblex"/></r></p></e>
+    <e><p><l>ymdebygu<g><b/>i</g><s n="vblex"/></l><r>resemble<s n="vblex"/></r></p></e>
+    <e><p><l>ymdrechu<g><b/>dros</g><s n="vblex"/></l><r>strive<g><b/>for</g><s n="vblex"/></r></p></e>
+    <e><p><l>ymweld<g><b/>â</g><s n="vblex"/></l><r>visit<s n="vblex"/></r></p></e>
+    <e><p><l>ysgrifennu<g><b/>at</g><s n="vblex"/></l><r>write<g><b/>to</g><s n="vblex"/></r></p></e>
+
 
     <e><p><l>aberu<s n="vblex"/></l><r>flow<g><b/>into</g><s n="vblex"/></r></p></e>
     <e><p><l>adara<s n="vblex"/></l><r>catch<g><b/>birds</g><s n="vblex"/></r></p></e>
