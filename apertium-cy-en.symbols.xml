@@ -50,6 +50,8 @@
     <sdef n="acr"     c="Acronym"/>
     <sdef n="top"     c="Toponym"/>
     <sdef n="ant"     c="Antroponym"/>
+    <sdef n="cog"     c="Cognomen"/>
+
     <sdef n="al"      c="Other / Otros"/>
     <sdef n="np"      c="Proper noun"/>
     <sdef n="adv"     c="Adverb"/>

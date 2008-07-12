@@ -189,6 +189,8 @@
     <e><p><l>oherwydd<s n="cnjsub"/></l><r>because<s n="cnjsub"/></r></p></e>
     <e><p><l>rhag<b/>ofn<s n="cnjsub"/></l><r>lest<s n="cnjsub"/></r></p></e>
 
+    <e><p><l>pan<s n="cnjsub"/></l><r>when<s n="cnjsub"/></r></p></e>
+
 
  
     <!-- Adverbs -->
@@ -5430,6 +5432,7 @@
     <e><p><l>hir<s n="adj"/><s n="sint"/></l><r>long<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>hwyr<s n="adj"/></l><r>late<s n="adj"/></r></p></e>
     <e><p><l>amatur<s n="adj"/></l><r>amateur<s n="adj"/></r></p></e>
+    <e><p><l>ffederal<s n="adj"/></l><r>federal<s n="adj"/></r></p></e>
     <e><p><l>iach<s n="adj"/></l><r>healthy<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>isel<s n="adj"/></l><r>low<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>llawn<s n="adj"/><s n="sint"/></l><r>full<s n="adj"/><s n="sint"/></r></p></e> 
@@ -9467,9 +9470,20 @@
     <e><p><l>Alba<s n="np"/><s n="ant"/></l><r>Alba<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Albert<s n="np"/><s n="ant"/></l><r>Albert<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alexander<s n="np"/><s n="ant"/></l><r>Alexander<s n="np"/><s n="ant"/></r></p></e>
+
+    <e><p><l>Alun<s n="np"/><s n="ant"/></l><r> Alun<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Bethan<s n="np"/><s n="ant"/></l><r> Bethan<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Enric<s n="np"/><s n="ant"/></l><r> Enric<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Owain<s n="np"/><s n="ant"/></l><r> Owain<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Rhodri<s n="np"/><s n="ant"/></l><r> Rhodri<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Siôn<s n="np"/><s n="ant"/></l><r> Siôn<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Talfan<s n="np"/><s n="ant"/></l><r> Talfan<s n="np"/><s n="ant"/></r></p></e>
+
     <e><p><l>Alexandra<s n="np"/><s n="ant"/></l><r>Alexandra<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alex<s n="np"/><s n="ant"/></l><r>Alex<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Aled<s n="np"/><s n="ant"/></l><r>Aled<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Geraint<s n="np"/><s n="ant"/></l><r>Geraint<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Margaret<s n="np"/><s n="ant"/></l><r>Margaret<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Amber<s n="np"/><s n="ant"/></l><r>Amber<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Mark<s n="np"/><s n="ant"/></l><r>Mark<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Àlex<s n="np"/><s n="ant"/></l><r>Àlex<s n="np"/><s n="ant"/></r></p></e>
@@ -9831,6 +9845,30 @@
     <e><p><l>Zaira<s n="np"/><s n="ant"/></l><r>Zaira<s n="np"/><s n="ant"/></r></p></e>
     <e r="LR"><p><l>Pedr<s n="np"/><s n="ant"/></l><r>Peter<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Peter<s n="np"/><s n="ant"/></l><r>Peter<s n="np"/><s n="ant"/></r></p></e>
+
+
+      <!-- Cognomens -->
+
+    <e><p><l>O'Leary<s n="np"/><s n="cog"/></l><r>O'Leary<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>O'Regan<s n="np"/><s n="cog"/></l><r>O'Regan<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Ifans<s n="np"/><s n="cog"/></l><r>Ifans<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Evans<s n="np"/><s n="cog"/></l><r>Evans<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Thomas<s n="np"/><s n="cog"/></l><r>Thomas<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Roberts<s n="np"/><s n="cog"/></l><r>Roberts<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Williams<s n="np"/><s n="cog"/></l><r>Williams<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Hughes<s n="np"/><s n="cog"/></l><r>Hughes<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Lewis<s n="np"/><s n="cog"/></l><r>Lewis<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Morgan<s n="np"/><s n="cog"/></l><r>Morgan<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Griffiths<s n="np"/><s n="cog"/></l><r>Griffiths<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Cyfanswm<s n="np"/><s n="cog"/></l><r>Cyfanswm<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Davies<s n="np"/><s n="cog"/></l><r>Davies<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Jones<s n="np"/><s n="cog"/></l><r>Jones<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Llwyd<s n="np"/><s n="cog"/></l><r>Llwyd<s n="np"/><s n="cog"/></r></p></e>
+
+    <e><p><l>Edwards<s n="np"/><s n="cog"/></l><r>Edwards<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Glyndŵr<s n="np"/><s n="cog"/></l><r>Glyndŵr<s n="np"/><s n="cog"/></r></p></e>
+
+
  
     <!--  Toponyms -->
  
