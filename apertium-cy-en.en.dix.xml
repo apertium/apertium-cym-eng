@@ -15142,7 +15142,9 @@
     <e lm="though"><i>though</i><par n="after__cnjadv"/></e>
     <e lm="unless"><i>unless</i><par n="after__cnjadv"/></e>
     <e lm="until"><i>until</i><par n="after__cnjadv"/></e>
-    <e lm="when"><i>when</i><par n="after__cnjadv"/></e>
+
+    <e lm="when"><i>when</i><par n="that__cnjsub"/></e>
+
     <e lm="whether"><i>whether</i><par n="after__cnjadv"/></e>
     <e lm="while"><i>while</i><par n="after__cnjadv"/></e>
     <e lm="yet"><i>yet</i><par n="after__cnjadv"/></e>
@@ -27884,6 +27886,7 @@
     <e lm="Llanelli"><i>Llanelli</i><par n="Barcelona__np"/></e>
     <e lm="Tregŵyr"><i>Tregŵyr</i><par n="Barcelona__np"/></e>
     <e lm="Blaenafon"><i>Blaenafon</i><par n="Barcelona__np"/></e>
+    <e lm="Wrexham"><i>Wrexham</i><par n="Barcelona__np"/></e>
     <e lm="Anglesey"><i>Anglesey</i><par n="Barcelona__np"/></e>
     <e lm="Newport"><i>Newport</i><par n="Barcelona__np"/></e>
     <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Barcelona__np"/></e>
@@ -28145,6 +28148,7 @@
     <e lm="Alexandra"><i>Alexandra</i><par n="Mary__np"/></e>
     <e lm="Alex"><i>Alex</i><par n="Mark__np"/></e>
     <e lm="Aled"><i>Aled</i><par n="Mark__np"/></e>
+    <e lm="Ifan"><i>Ifan</i><par n="Mark__np"/></e>
     <e lm="Àlex"><i>Àlex</i><par n="Mark__np"/></e>
     <e lm="Alianore-"><i>Alianore-</i><par n="Mary__np"/></e>
     <e lm="Alice"><i>Alice</i><par n="Mary__np"/></e>
