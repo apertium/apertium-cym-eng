@@ -10883,19 +10883,19 @@
       <e>
         <p>
           <l>asom</l>
-          <r>nu<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+          <r>u<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>asoch</l>
-          <r>nu<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+          <r>u<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>asant</l>
-          <r>nu<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
+          <r>u<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
@@ -10907,43 +10907,43 @@
       <e>
         <p>
           <l>aswn</l>
-          <r>nu<s n="vblex"/><s n="plu"/><s n="p1"/><s n="sg"/></r>
+          <r>u<s n="vblex"/><s n="plu"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>asit</l>
-          <r>nu<s n="vblex"/><s n="plu"/><s n="p2"/><s n="sg"/></r>
+          <r>u<s n="vblex"/><s n="plu"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>asai</l>
-          <r>nu<s n="vblex"/><s n="plu"/><s n="p3"/><s n="sg"/></r>
+          <r>u<s n="vblex"/><s n="plu"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>asem</l>
-          <r>nu<s n="vblex"/><s n="plu"/><s n="p1"/><s n="pl"/></r>
+          <r>u<s n="vblex"/><s n="plu"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>asech</l>
-          <r>nu<s n="vblex"/><s n="plu"/><s n="p2"/><s n="pl"/></r>
+          <r>u<s n="vblex"/><s n="plu"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>asent</l>
-          <r>nu<s n="vblex"/><s n="plu"/><s n="p3"/><s n="pl"/></r>
+          <r>u<s n="vblex"/><s n="plu"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>asid</l>
-          <r>nu<s n="vblex"/><s n="plu"/><s n="impers"/><s n="pl"/></r>
+          <r>u<s n="vblex"/><s n="plu"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
       <e>
@@ -56916,6 +56916,7 @@
     <e lm="Havard"><i>Havard</i><par n="Ifans__np"/></e>
 
     <e lm="Aled"><i>Aled</i><par n="Aled__np"/></e>
+    <e lm="Ifor"><i>Ifor</i><par n="Aled__np"/></e>
     <e lm="Dai"><par n="initial-D"/><i>ai</i><par n="Aled__np"/></e>
     <e lm="Alun"><i>Alun</i><par n="Aled__np"/></e>
     <e lm="Rhodri"><i>Rhodri</i><par n="Aled__np"/></e>
@@ -57119,6 +57120,7 @@
     <e lm="Pedr"><par n="initial-P"/><i>edr</i><par n="Aled__np"/></e>
 
     <e lm="Elin"><i>Elin</i><par n="Elin__np"/></e>
+    <e lm="Myfanwy"><i>Myfanwy</i><par n="Elin__np"/></e>
     <e lm="Susan"><i>Susan</i><par n="Elin__np"/></e>
     <e lm="Kate"><i>Kate</i><par n="Elin__np"/></e>
     <e lm="Edwina"><i>Edwina</i><par n="Elin__np"/></e>

@@ -9234,6 +9234,7 @@
     <e lm="the most"><p><l>the<b/>most</l><r>the<s n="det"/><s n="def"/><s n="sp"/><j/>most<s n="preadv"/></r></p></e>
     <e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
     <e lm="including"><i>including</i><par n="expensive__adj"/></e>
+    <e lm="awesome"><i>awesome</i><par n="expensive__adj"/></e>
     <e lm="based"><i>based</i><par n="expensive__adj"/></e>
     <e lm="confident"><i>confident</i><par n="expensive__adj"/></e>
     <e lm="th"><i>th</i><par n="expensive__adj"/></e> <!-- This is as in 19th -->
@@ -29051,7 +29052,7 @@
     <e lm="record"><i>record</i><par n="accept__vblex"/></e>
     <e lm="recover"><i>recover</i><par n="accept__vblex"/></e>
     <e lm="reduce"><i>reduc</i><par n="liv/e__vblex"/></e>
-    <e lm="refer"><i>refer</i><par n="accept__vblex"/></e>
+    <e lm="refer"><i>refer</i><par n="occur__vblex"/></e>
     <e lm="reflect"><i>reflect</i><par n="accept__vblex"/></e>
     <e lm="relate"><i>relat</i><par n="liv/e__vblex"/></e>
     <e lm="remain"><i>remain</i><par n="accept__vblex"/></e>
@@ -30414,7 +30415,7 @@
     <e lm="mark"><i>mark</i><par n="accept__vblex"/></e>
     <e lm="ear mark"><i>ear<b/>mark</i><par n="accept__vblex"/></e>
     <!--
-<e lm="take care"><i>t</i><par n="t/ake__vblex"/><p><l><b/>care</l><r><g><b/>care</g></r></p></e> -->
+    <e lm="take care"><i>t</i><par n="t/ake__vblex"/><p><l><b/>care</l><r><g><b/>care</g></r></p></e> -->
     <e lm="aim"><i>aim</i><par n="accept__vblex"/></e>
     <e lm="appoint"><i>appoint</i><par n="accept__vblex"/></e>
     <e lm="clear"><i>clear</i><par n="accept__vblex"/></e>
@@ -31767,7 +31768,7 @@
     <e lm="recede"><i>reced</i><par n="liv/e__vblex"/></e>
     <e lm="impede"><i>imped</i><par n="liv/e__vblex"/></e>
     <e lm="hang-glide"><i>hang-glid</i><par n="liv/e__vblex"/></e>
-    <e lm="ride"><i>rid</i><par n="liv/e__vblex"/></e>
+    <e lm="ride"><i>r</i><par n="ab/ide__vblex"/></e>
     <e lm="stride"><i>strid</i><par n="liv/e__vblex"/></e>
     <e lm="reside"><i>resid</i><par n="liv/e__vblex"/></e>
     <e lm="preside"><i>presid</i><par n="liv/e__vblex"/></e>
@@ -32009,7 +32010,6 @@
     <e lm="recede"><i>reced</i><par n="liv/e__vblex"/></e>
     <e lm="impede"><i>imped</i><par n="liv/e__vblex"/></e>
     <e lm="hang-glide"><i>hang-glid</i><par n="liv/e__vblex"/></e>
-    <e lm="ride"><i>rid</i><par n="liv/e__vblex"/></e>
     <e lm="stride"><i>strid</i><par n="liv/e__vblex"/></e>
     <e lm="reside"><i>resid</i><par n="liv/e__vblex"/></e>
     <e lm="preside"><i>presid</i><par n="liv/e__vblex"/></e>
@@ -35445,32 +35445,32 @@
       </p>
     </e>
  
-<e lm="take"><i>t</i><par n="t/ake__vblex"/><p><l><b/>advantage<b/>of</l><r><g><b/>advantage<b/>of</g></r></p></e>
-<e lm="aim"><i>aim</i><par n="accept__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
-<e lm="send"><i>sen</i><par n="ben/d__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
-<e lm="send"><i>sen</i><par n="ben/d__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
-<e lm="get rid of"><i>g</i><par n="g/et__vblex"/><p><l><b/>rid<b/>of</l><r><g><b/>rid<b/>of</g></r></p></e>
-<e lm="search"><i>search</i> <par n="approach__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
-<e lm="refer"><i>refer</i><par n="accept__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
-<e lm="contribute"><i>contribut</i><par n="liv/e__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
-<e lm="look"><i>look</i><par n="accept__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
-<e lm="look"><i>look</i><par n="accept__vblex"/><p><l><b/>forward<b/>to</l><r><g><b/>forward<b/>to</g></r></p></e>
-<e lm="take"><i>t</i><par n="t/ake__vblex"/><p><l><b/>care<b/>of</l><r><g><b/>care<b/>of</g></r></p></e>
-<e lm="ask"><i>ask</i><par n="accept__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
-<e lm="take"><i>t</i><par n="t/ake__vblex"/><p><l><b/>advantage<b/>of</l><r><g><b/>advantage<b/>of</g></r></p></e>
-<e lm="think"><i>th</i><par n="th/ink__vblex"/><p><l><b/>about</l><r><g><b/>about</g></r></p></e>
-<e lm="prepare for"><i>prepar</i><par n="liv/e__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
-<e lm="vote for"><i>vot</i><par n="liv/e__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
-<e lm="preach about"><i>preach</i><par n="approach__vblex"/><p><l><b/>about</l><r><g><b/>about</g></r></p></e>
-<e lm="talk about"><i>talk</i><par n="accept__vblex"/><p><l><b/>about</l><r><g><b/>about</g></r></p></e>
-<e lm="talk to"><i>talk</i><par n="accept__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
-<e lm="talk about"><i>talk</i><par n="accept__vblex"/><p><l><b/>about</l><r><g><b/>about</g></r></p></e>
-<e lm="take notice"><i>t</i><par n="t/ake__vblex"/><p><l><b/>notice</l><r><g><b/>notice</g></r></p></e>
-<e lm="be surprised at"><i/><par n="/be__vblex"/><p><l><b/>surprised<b/>at</l><r><g><b/>surprised<b/>at</g></r></p></e>
-<e lm="add to"><i>add</i><par n="accept__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
-<e lm="resemble"><i>resembl</i><par n="liv/e__vblex"/><p><l><b/>resemble</l><r><g><b/>resemble</g></r></p></e>
-<e lm="strive for"><i>striv</i><par n="liv/e__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
-<e lm="write to"><i>wr</i><par n="wr/ite__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
+    <e lm="take"><i>t</i><par n="t/ake__vblex"/><p><l><b/>advantage<b/>of</l><r><g><b/>advantage<b/>of</g></r></p></e>
+    <e lm="aim"><i>aim</i><par n="accept__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
+    <e lm="send"><i>sen</i><par n="ben/d__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
+    <e lm="send"><i>sen</i><par n="ben/d__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
+    <e lm="get rid of"><i>g</i><par n="g/et__vblex"/><p><l><b/>rid<b/>of</l><r><g><b/>rid<b/>of</g></r></p></e>
+    <e lm="search"><i>search</i> <par n="approach__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
+    <e lm="refer"><i>refer</i><par n="occur__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
+    <e lm="contribute"><i>contribut</i><par n="liv/e__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
+    <e lm="look"><i>look</i><par n="accept__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
+    <e lm="look"><i>look</i><par n="accept__vblex"/><p><l><b/>forward<b/>to</l><r><g><b/>forward<b/>to</g></r></p></e>
+    <e lm="take"><i>t</i><par n="t/ake__vblex"/><p><l><b/>care<b/>of</l><r><g><b/>care<b/>of</g></r></p></e>
+    <e lm="ask"><i>ask</i><par n="accept__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
+    <e lm="take"><i>t</i><par n="t/ake__vblex"/><p><l><b/>advantage<b/>of</l><r><g><b/>advantage<b/>of</g></r></p></e>
+    <e lm="think"><i>th</i><par n="th/ink__vblex"/><p><l><b/>about</l><r><g><b/>about</g></r></p></e>
+    <e lm="prepare for"><i>prepar</i><par n="liv/e__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
+    <e lm="vote for"><i>vot</i><par n="liv/e__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
+    <e lm="preach about"><i>preach</i><par n="approach__vblex"/><p><l><b/>about</l><r><g><b/>about</g></r></p></e>
+    <e lm="talk about"><i>talk</i><par n="accept__vblex"/><p><l><b/>about</l><r><g><b/>about</g></r></p></e>
+    <e lm="talk to"><i>talk</i><par n="accept__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
+    <e lm="talk about"><i>talk</i><par n="accept__vblex"/><p><l><b/>about</l><r><g><b/>about</g></r></p></e>
+    <e lm="take notice"><i>t</i><par n="t/ake__vblex"/><p><l><b/>notice</l><r><g><b/>notice</g></r></p></e>
+    <e lm="be surprised at"><i/><par n="/be__vblex"/><p><l><b/>surprised<b/>at</l><r><g><b/>surprised<b/>at</g></r></p></e>
+    <e lm="add to"><i>add</i><par n="accept__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
+    <e lm="resemble"><i>resembl</i><par n="liv/e__vblex"/><p><l><b/>resemble</l><r><g><b/>resemble</g></r></p></e>
+    <e lm="strive for"><i>striv</i><par n="liv/e__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
+    <e lm="write to"><i>wr</i><par n="wr/ite__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
 
  
  
