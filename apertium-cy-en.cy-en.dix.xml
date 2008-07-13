@@ -9473,6 +9473,11 @@
  
     <e><p><l>Cwchwlin<s n="np"/><s n="ant"/></l><r>Cúchulainn<s n="np"/><s n="ant"/></r></p></e>
 
+    <e><p><l>Darren<s n="np"/><s n="ant"/></l><r>Darren<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Myfanwy<s n="np"/><s n="ant"/></l><r>Myfanwy<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Rhys<s n="np"/><s n="ant"/></l><r>Rhys<s n="np"/><s n="ant"/></r></p></e>
+
+
     <e><p><l>Aaron<s n="np"/><s n="ant"/></l><r>Aaron<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Abril<s n="np"/><s n="ant"/></l><r>Abril<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Adam<s n="np"/><s n="ant"/></l><r>Adam<s n="np"/><s n="ant"/></r></p></e>
@@ -9868,6 +9873,7 @@
 
       <!-- Cognomens -->
 
+    <e><p><l>Hart<s n="np"/><s n="cog"/></l><r>Hart<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>O'Leary<s n="np"/><s n="cog"/></l><r>O'Leary<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>O'Regan<s n="np"/><s n="cog"/></l><r>O'Regan<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Ifans<s n="np"/><s n="cog"/></l><r>Ifans<s n="np"/><s n="cog"/></r></p></e>
@@ -9902,6 +9908,7 @@
     <e><p><l>Powys<s n="np"/><s n="top"/><s n="f"/></l><r>Powys<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dyfed<s n="np"/><s n="top"/><s n="f"/></l><r>Dyfed<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Gwent<s n="np"/><s n="top"/><s n="f"/></l><r>Gwent<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Gwynedd<s n="np"/><s n="top"/></l><r>Gwynedd<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dyfed-Powys<s n="np"/><s n="top"/><s n="f"/></l><r>Dyfed-Powys<s n="np"/><s n="top"/></r></p></e>
 
     <e><p><l>Aberystwyth<s n="np"/><s n="top"/><s n="f"/></l><r>Aberystwyth<s n="np"/><s n="top"/></r></p></e>
