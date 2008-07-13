@@ -160,6 +160,7 @@
     <def-attr n="a_prn">
       <attr-item tags="prn.subj"/>
       <attr-item tags="prn.obj"/>
+      <attr-item tags="prn.itg"/>
       <attr-item tags="prn.tn"/>
     </def-attr>
     <def-attr n="a_rel">

@@ -122,6 +122,22 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="/other__adj">
+      <e>
+        <p>
+          <l>another</l>
+          <r>other<s n="adj"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>other</l>
+          <r>other<s n="adj"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="long/__adj">
       <e>
         <p>
@@ -996,7 +1012,7 @@
       <e>
         <p>
           <l/>
-          <r><s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></r>
+          <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -1180,6 +1196,13 @@
         <p>
           <l>ys</l>
           <r>y<s n="n"/><s n="pl"/></r>
+        </p>
+      </e>
+      <!-- ugh -->
+      <e r="RL">
+        <p>
+          <l>y</l>
+          <r>y<s n="n"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -1384,6 +1407,12 @@
         <p>
           <l>s</l>
           <r><s n="n"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="n"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -1934,6 +1963,17 @@
         </p>
       </e>
     </pardef>
+
+
+    <pardef n="Ifans__np">
+      <e>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="one__num">
       <e>
         <p>
@@ -9194,6 +9234,7 @@
     <e lm="the most"><p><l>the<b/>most</l><r>the<s n="det"/><s n="def"/><s n="sp"/><j/>most<s n="preadv"/></r></p></e>
     <e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
     <e lm="including"><i>including</i><par n="expensive__adj"/></e>
+    <e lm="based"><i>based</i><par n="expensive__adj"/></e>
     <e lm="confident"><i>confident</i><par n="expensive__adj"/></e>
     <e lm="th"><i>th</i><par n="expensive__adj"/></e> <!-- This is as in 19th -->
     <e lm="far-reaching"><i>far-reaching</i><par n="expensive__adj"/></e>
@@ -12805,6 +12846,15 @@
     <e lm="ad-lib"><i>ad-lib</i><par n="maybe__adv"/></e>
     <e lm="advisedly"><i>advisedly</i><par n="maybe__adv"/></e>
     <e lm="after all"><i>after<b/>all</i><par n="maybe__adv"/></e>
+
+    <e lm="on sale"><i>on<b/>sale</i><par n="maybe__adv"/></e>
+    <e lm="after all"><i>after<b/>all</i><par n="maybe__adv"/></e>
+    <e lm="by now"><i>by<b/>now</i><par n="maybe__adv"/></e>
+    <e lm="come what may"><i>come<b/>what<b/>may</i><par n="maybe__adv"/></e>
+    <e lm="as needed"><i>as<b/>needed</i><par n="maybe__adv"/></e>
+    <e lm="back to"><i>back<b/>to</i><par n="maybe__adv"/></e>
+    <e lm="remaining to"><i>remaining<b/>to</i><par n="maybe__adv"/></e>
+
     <e lm="after dark"><i>after<b/>dark</i><par n="maybe__adv"/></e>
     <e lm="after due consideration"><i>after<b/>due<b/>consideration</i><par n="maybe__adv"/></e>
     <e lm="after hours"><i>after<b/>hours</i><par n="maybe__adv"/></e>
@@ -15124,7 +15174,10 @@
     <e lm="for"><i>for</i><par n="after__cnjadv"/></e>
     <e lm="therefore"><i>therefore</i><par n="after__cnjadv"/></e>
     <e lm="for instance"><i>for<b/>instance</i><par n="after__cnjadv"/></e>
-    <e lm="if"><i>if</i><par n="after__cnjadv"/></e>
+
+    <e lm="if"><i>if</i><par n="that__cnjsub"/></e>
+
+
     <e lm="neither"><i>neither</i><par n="and__cnjcoo"/></e>
     <e lm="nor"><i>nor</i><par n="and__cnjcoo"/></e>
     <e lm="once"><i>once</i><par n="after__cnjadv"/></e>
@@ -15226,6 +15279,7 @@
     <e lm="in order that"><i>in<b/>order<b/>that</i><par n="after__cnjadv"/></e>
     <e lm="apart from the fact that"><i>apart<b/>from<b/>the<b/>fact<b/>that</i><par n="after__cnjadv"/></e>
     <e lm="on which"><i>on<b/>which</i><par n="at__pr"/></e>
+    <e lm="inside"><i>inside</i><par n="at__pr"/></e>
     <e lm="with reference to"><i>with<b/>reference<b/>to</i><par n="at__pr"/></e>
     <e lm="in relation to"><i>in<b/>relation<b/>to</i><par n="at__pr"/></e>
     <e lm="concerning"><i>concerning</i><par n="at__pr"/></e>
@@ -15269,7 +15323,7 @@
     <e lm="my"><i>my</i><par n="her__det"/></e>
     <e lm="no"><i>no</i><par n="another__det"/></e>
  
-    <e lm="other"><i>other</i><par n="expensive__adj"/></e> <!-- fix this -->
+    <e lm="other"><i/><par n="/other__adj"/></e> <!-- fix this -->
  
     <e lm="the other"><i>the<b/>other</i><par n="other__det"/></e>
     <e lm="our"><i>our</i><par n="her__det"/></e>
@@ -27668,7 +27722,14 @@
     <e lm="walking"><i>walking</i><par n="house__n"/></e>
     <e lm="website"><i>website</i><par n="house__n"/></e>
     <e lm="whisper"><i>whisper</i><par n="house__n"/></e>
+
+    <e lm="Ifans"><i>Ifans</i><par n="Ifans__np"/></e>
+    <e lm="Havard"><i>Havard</i><par n="Ifans__np"/></e>
+    <e lm="Williams"><i>Williams</i><par n="Ifans__np"/></e>
+    <e lm="Edwards"><i>Edwards</i><par n="Ifans__np"/></e>
+
     <e lm="Mark"><i>Mark</i><par n="Mark__np"/></e>
+
     <e lm="Cúchulainn"><i>Cúchulainn</i><par n="Mark__np"/></e>
     <e lm="Abidjan"><i>Abidjan</i><par n="Barcelona__np"/></e>
     <e lm="Abyssinia"><i>Abyssinia</i><par n="Barcelona__np"/></e>
@@ -28149,6 +28210,7 @@
     <e lm="Alexandra"><i>Alexandra</i><par n="Mary__np"/></e>
     <e lm="Alex"><i>Alex</i><par n="Mark__np"/></e>
     <e lm="Aled"><i>Aled</i><par n="Mark__np"/></e>
+    <e lm="Dai"><i>Dai</i><par n="Mark__np"/></e>
     <e lm="Ifan"><i>Ifan</i><par n="Mark__np"/></e>
     <e lm="Àlex"><i>Àlex</i><par n="Mark__np"/></e>
     <e lm="Alianore-"><i>Alianore-</i><par n="Mary__np"/></e>

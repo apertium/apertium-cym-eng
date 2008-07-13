@@ -51,6 +51,8 @@
     <e><p><l>rhywun<s n="prn"/></l><r>someone<s n="prn"/></r></p></e>
     <e><p><l>unrhywun<s n="prn"/></l><r>anyone<s n="prn"/></r></p></e>
 
+    <e><p><l>pa<s n="prn"/></l><r>which<s n="prn"/></r></p></e>
+
     <e><p><l>a<s n="rel"/></l><r>that<s n="rel"/></r></p></e>
  
     <!-- Prepositions -->
@@ -170,6 +172,7 @@
     <e r="RL"><p><l>na<s n="cnjcoo"/></l><r>than<s n="cnjcoo"/></r></p></e>
 
     <e><p><l>am<s n="cnjsub"/></l><r>because<s n="cnjsub"/></r></p></e>
+    <e><p><l>os<s n="cnjsub"/></l><r>if<s n="cnjsub"/></r></p></e>
     <e><p><l>gan<s n="cnjsub"/></l><r>since<s n="cnjsub"/></r></p></e>
     <e><p><l>oblegid<s n="cnjsub"/></l><r>because<s n="cnjsub"/></r></p></e>
     <e><p><l>o<b/>achos<s n="cnjsub"/></l><r>because<s n="cnjsub"/></r></p></e>
@@ -214,6 +217,15 @@
     <e><p><l>am<b/>amser<b/>hir<s n="adv"/></l><r>for a long time<s n="adv"/></r></p></e>
     <e><p><l>croeso<b/>i<s n="adv"/></l><r>welcome<b/>to<s n="adv"/></r></p></e>
     <e><p><l>croeso<b/>cynnes<b/>i<s n="adv"/></l><r>warm<b/>welcome<b/>to<s n="adv"/></r></p></e>
+
+    <e><p><l>ar<b/>werth<s n="adv"/></l><r>on<b/>sale<s n="adv"/></r></p></e>
+    <e><p><l>ar<b/>ôl<b/>y<b/>cwbl<s n="adv"/></l><r>after<b/>all<s n="adv"/></r></p></e>
+    <e><p><l>erbyn<b/>hyn<s n="adv"/></l><r>by<b/>now<s n="adv"/></r></p></e>
+    <e><p><l>doed<b/>a<b/>ddelo<s n="adv"/></l><r>come<b/>what<b/>may<s n="adv"/></r></p></e>
+    <e><p><l>pan<b/>fo<b/>angen<s n="adv"/></l><r>as<b/>needed<s n="adv"/></r></p></e>
+    <e><p><l>yn<b/>ôl<b/>i<s n="adv"/></l><r>back<b/>to<s n="adv"/></r></p></e>
+    <e><p><l>yn<b/>weddill<b/>i<s n="adv"/></l><r>remaining<b/>to<s n="adv"/></r></p></e>
+
     <e><p><l>wrth<b/>gwrs<s n="adv"/></l><r>of<b/>course<s n="adv"/></r></p></e>
     <e><p><l>ar<b/>hyn<b/>o<b/>bryd<s n="adv"/></l><r>at<b/>the<b/>moment<s n="adv"/></r></p></e>
     <e><p><l>fel<b/>ag<b/>y<b/>mae<s n="adv"/></l><r>like<b/>it<b/>is<s n="adv"/></r></p></e>
@@ -3557,6 +3569,7 @@
     <e><p><l>braich<s n="n"/><s n="f"/></l><r>arm<s n="n"/></r></p></e>
     <e><p><l>ffon<s n="n"/><s n="f"/></l><r>stick<s n="n"/></r></p></e>
     <e><p><l>ffon<s n="n"/><s n="f"/></l><r>staff<s n="n"/></r></p></e>
+    <e><p><l>staff<s n="n"/><s n="m"/></l><r>staff<s n="n"/></r></p></e>
     <e><p><l>ombwdsmon<s n="n"/><s n="m"/></l><r>ombudsman<s n="n"/></r></p></e>
     <e><p><l>apêl<s n="n"/><s n="mf"/></l><r>appeal<s n="n"/></r></p></e>
     <e><p><l>sêl<s n="n"/><s n="f"/></l><r>seal<s n="n"/></r></p></e>
@@ -4077,7 +4090,8 @@
     <e><p><l>anymddiheurol<s n="adj"/></l><r>unapologetic<s n="adj"/></r></p></e>
     <e><p><l>araf-ei-symud<s n="adj"/></l><r>slow-moving<s n="adj"/></r></p></e>
 
-    <e><p><l>arall<s n="adj"/></l><r>other<s n="adj"/></r></p></e>
+    <e><p><l>arall<s n="adj"/><s n="sg"/></l><r>other<s n="adj"/><s n="sg"/></r></p></e>
+    <e><p><l>arall<s n="adj"/><s n="pl"/></l><r>other<s n="adj"/><s n="pl"/></r></p></e>
 
     <e><p><l>arbenigol<s n="adj"/></l><r>specialist<s n="adj"/></r></p></e>
     <e><p><l>arbennig<s n="adj"/></l><r>special<s n="adj"/></r></p></e>
@@ -5437,7 +5451,7 @@
     <e><p><l>amatur<s n="adj"/></l><r>amateur<s n="adj"/></r></p></e>
     <e><p><l>ffederal<s n="adj"/></l><r>federal<s n="adj"/></r></p></e>
     <e><p><l>iach<s n="adj"/></l><r>healthy<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>isel<s n="adj"/></l><r>low<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>isel<s n="adj"/><s n="sint"/></l><r>low<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>llawn<s n="adj"/><s n="sint"/></l><r>full<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>llydan<s n="adj"/><s n="sint"/></l><r>wide<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>llydan<s n="adj"/><s n="sint"/></l><r>broad<s n="adj"/><s n="sint"/></r></p></e> 
@@ -9474,13 +9488,15 @@
     <e><p><l>Albert<s n="np"/><s n="ant"/></l><r>Albert<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alexander<s n="np"/><s n="ant"/></l><r>Alexander<s n="np"/><s n="ant"/></r></p></e>
 
-    <e><p><l>Alun<s n="np"/><s n="ant"/></l><r> Alun<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>Bethan<s n="np"/><s n="ant"/></l><r> Bethan<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>Enric<s n="np"/><s n="ant"/></l><r> Enric<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>Owain<s n="np"/><s n="ant"/></l><r> Owain<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>Rhodri<s n="np"/><s n="ant"/></l><r> Rhodri<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>Siôn<s n="np"/><s n="ant"/></l><r> Siôn<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>Talfan<s n="np"/><s n="ant"/></l><r> Talfan<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Alun<s n="np"/><s n="ant"/></l><r>Alun<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Bethan<s n="np"/><s n="ant"/></l><r>Bethan<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Enric<s n="np"/><s n="ant"/></l><r>Enric<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Owain<s n="np"/><s n="ant"/></l><r>Owain<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Rhodri<s n="np"/><s n="ant"/></l><r>Rhodri<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Siôn<s n="np"/><s n="ant"/></l><r>Siôn<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Talfan<s n="np"/><s n="ant"/></l><r>Talfan<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Dai<s n="np"/><s n="ant"/></l><r>Dai<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Edwina<s n="np"/><s n="ant"/></l><r>Edwina<s n="np"/><s n="ant"/></r></p></e>
 
     <e><p><l>Alexandra<s n="np"/><s n="ant"/></l><r>Alexandra<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alex<s n="np"/><s n="ant"/></l><r>Alex<s n="np"/><s n="ant"/></r></p></e>
@@ -9867,6 +9883,7 @@
     <e><p><l>Davies<s n="np"/><s n="cog"/></l><r>Davies<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Jones<s n="np"/><s n="cog"/></l><r>Jones<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Llwyd<s n="np"/><s n="cog"/></l><r>Llwyd<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Havard<s n="np"/><s n="cog"/></l><r>Havard<s n="np"/><s n="cog"/></r></p></e>
 
     <e><p><l>Edwards<s n="np"/><s n="cog"/></l><r>Edwards<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Glyndŵr<s n="np"/><s n="cog"/></l><r>Glyndŵr<s n="np"/><s n="cog"/></r></p></e>
