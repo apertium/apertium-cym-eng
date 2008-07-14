@@ -8960,6 +8960,12 @@
           <r><s n="n"/><s n="unc"/><s n="sg"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="n"/><s n="unc"/><s n="sp"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="cut__vblex__sep">
       <e>
