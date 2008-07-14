@@ -38,6 +38,13 @@
           <r><s n="num"/></r>
         </p>
       </e>
+      <e>
+        <re>[0-9]+([.,][0-9]+)?au</re>
+        <p>
+          <l/>
+          <r><s n="num"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="ordinals">
       <e>
@@ -57006,6 +57013,7 @@
     <e lm="Hercules"><i>Hercules</i><par n="Aled__np"/></e>
     <e lm="Hewrey"><i>Hewrey</i><par n="Aled__np"/></e>
     <e lm="Hugh"><i>Hugh</i><par n="Aled__np"/></e>
+    <e lm="Huw"><i>Huw</i><par n="Aled__np"/></e>
     <e lm="Hugo"><i>Hugo</i><par n="Aled__np"/></e>
     <e lm="Humphrey"><i>Humphrey</i><par n="Aled__np"/></e>
     <e lm="Ignaci"><i>Ignaci</i><par n="Aled__np"/></e>

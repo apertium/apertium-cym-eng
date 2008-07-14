@@ -1761,6 +1761,7 @@
     <e><p><l>aur<s n="n"/><s n="m"/></l><r>gold<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>awdurdodaeth<s n="n"/><s n="f"/></l><r>authoritarianism<s n="n"/></r></p></e>
     <e><p><l>mis<g><b/>Awst</g><s n="n"/><s n="m"/></l><r>August<s n="n"/></r></p></e>
+    <e r="LR"><p><l>Awst<s n="n"/><s n="m"/></l><r>August<s n="n"/></r></p></e>
     <e><p><l>awtistiaeth<s n="n"/><s n="f"/></l><r>autism<s n="n"/></r></p></e>
     <e><p><l>awtomatiaeth<s n="n"/><s n="f"/></l><r>automation<s n="n"/></r></p></e>
     <e><p><l>awydd<s n="n"/><s n="m"/></l><r>desire<s n="n"/></r></p></e>
@@ -1814,6 +1815,7 @@
     <e><p><l>cerddoriaeth<s n="n"/><s n="f"/></l><r>music<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>chwedloniaeth<s n="n"/><s n="f"/></l><r>mythology<s n="n"/></r></p></e>
     <e><p><l>mis<g><b/>Chwefror</g><s n="n"/><s n="m"/></l><r>February<s n="n"/></r></p></e>
+    <e r="LR"><p><l>Chwefror<s n="n"/><s n="m"/></l><r>February<s n="n"/></r></p></e>
     <e><p><l>chweil<s n="n"/><s n="m"/></l><r>while<s n="n"/></r></p></e>
     <e><p><l>chwyddiant<s n="n"/><s n="m"/></l><r>inflation<s n="n"/></r></p></e>
     <e><p><l>clod<s n="n"/><s n="mf"/></l><r>renown<s n="n"/></r></p></e>
@@ -1919,6 +1921,7 @@
     <e><p><l>e-asesu<s n="n"/><s n="m"/></l><r>e-assessment<s n="n"/></r></p></e>
     <e><p><l>ebostach<s n="n"/><s n="m"/></l><r>spam<s n="n"/></r></p></e>
     <e><p><l>mis<g><b/>Ebrill</g><s n="n"/><s n="m"/></l><r>April<s n="n"/></r></p></e>
+    <e r="LR"><p><l>Ebrill<s n="n"/><s n="m"/></l><r>April<s n="n"/></r></p></e>
     <e><p><l>echdoe<s n="n"/><s n="m"/></l><r>day before yesterday<s n="n"/></r></p></e>
     <e><p><l>echnos<s n="n"/><s n="f"/></l><r>night before last<s n="n"/></r></p></e>
     <e><p><l>economeg<s n="n"/><s n="f"/></l><r>economics<s n="n"/><s n="pl"/></r></p></e>
@@ -1972,6 +1975,7 @@
     <e><p><l>gorchwyl<s n="n"/><s n="m"/></l><r>task<s n="n"/></r></p></e>
     <e><p><l>gordewdra<s n="n"/><s n="m"/></l><r>obesity<s n="n"/></r></p></e>
     <e><p><l>mis<g><b/>Gorffennaf</g><s n="n"/><s n="m"/></l><r>July<s n="n"/></r></p></e>
+    <e r="LR"><p><l>Gorffennaf<s n="n"/><s n="m"/></l><r>July<s n="n"/></r></p></e>
     <e><p><l>gorffennol<s n="n"/><s n="m"/></l><r>past<s n="n"/></r></p></e>
     <e><p><l>gorffwylledd<s n="n"/><s n="m"/></l><r>insanity<s n="n"/></r></p></e>
     <e><p><l>goriwaered<s n="n"/><s n="m"/></l><r>descent<s n="n"/></r></p></e>
@@ -2014,6 +2018,7 @@
     <e><p><l>hwyl<s n="n"/><s n="f"/></l><r>fun<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>hyblygrwydd<s n="n"/><s n="m"/></l><r>flexibility<s n="n"/></r></p></e>
     <e><p><l>mis<g><b/>Hydref</g><s n="n"/><s n="m"/></l><r>October<s n="n"/></r></p></e>
+    <e r="LR"><p><l>Hydref<s n="n"/><s n="m"/></l><r>October<s n="n"/></r></p></e>
     <e><p><l>hyfforddiant<s n="n"/><s n="m"/></l><r>training<s n="n"/></r></p></e>
     <e><p><l>hyfrydwch<s n="n"/><s n="m"/></l><r>delight<s n="n"/></r></p></e>
     <e><p><l>hyfywedd<s n="n"/><s n="m"/></l><r>viability<s n="n"/></r></p></e>
@@ -2029,6 +2034,7 @@
     <e><p><l>indemniad<s n="n"/><s n="m"/></l><r>indemnity<s n="n"/></r></p></e>
     <e><p><l>Indo-Ewropeg<s n="n"/><s n="f"/></l><r>Indo-European<s n="n"/></r></p></e>
     <e><p><l>mis<g><b/>Ionawr</g><s n="n"/><s n="m"/></l><r>January<s n="n"/></r></p></e>
+    <e r="LR"><p><l>Ionawr<s n="n"/><s n="m"/></l><r>January<s n="n"/></r></p></e>
     <e><p><l>isadeiledd<s n="n"/><s n="m"/></l><r>infrastructure<s n="n"/></r></p></e>
     <e><p><l>isgyfeiriadur<s n="n"/><s n="f"/></l><r>subdirectory<s n="n"/></r></p></e>
     <e><p><l>isio<s n="n"/><s n="m"/></l><r>want<s n="n"/></r></p></e>
@@ -2050,6 +2056,7 @@
     <e><p><l>lwc<s n="n"/><s n="f"/></l><r>luck<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>magneteg<s n="n"/><s n="f"/></l><r>magnetism<s n="n"/></r></p></e>
     <e><p><l>mis<g><b/>Mai</g><s n="n"/><s n="m"/></l><r>May<s n="n"/></r></p></e>
+    <e r="LR"><p><l>Mai<s n="n"/><s n="m"/></l><r>May<s n="n"/></r></p></e>
     <e><p><l>maintioli<s n="n"/><s n="m"/></l><r>stature<s n="n"/></r></p></e>
     <e><p><l>mamolaeth<s n="n"/><s n="f"/></l><r>maternity<s n="n"/></r></p></e>
     <e><p><l>manylder<s n="n"/><s n="m"/></l><r>detail<s n="n"/></r></p></e>
@@ -2059,12 +2066,15 @@
     <e><p><l>masnachfraint<s n="n"/><s n="f"/></l><r>franchise<s n="n"/></r></p></e>
     <e><p><l>mathemateg<s n="n"/><s n="m"/></l><r>mathematics<s n="n"/></r></p></e>
     <e><p><l>mis<g><b/>Mawrth</g><s n="n"/><s n="m"/></l><r>March<s n="n"/></r></p></e>
+    <e r="LR"><p><l>Mawrth<s n="n"/><s n="m"/></l><r>March<s n="n"/></r></p></e>
     <e><p><l>Mawrth<s n="n"/><s n="m"/></l><r>Mars<s n="n"/></r></p></e>
     <e><p><l>meddalwedd<s n="n"/><s n="mf"/></l><r>software<s n="n"/></r></p></e>
     <e><p><l>meddygaeth<s n="n"/><s n="f"/></l><r>medicine<s n="n"/></r></p></e>
     <e><p><l>meddylfryd<s n="n"/><s n="m"/></l><r>state<g><b/>of<b/>mind</g><s n="n"/></r></p></e>
     <e><p><l>mis<g><b/>Medi</g><s n="n"/><s n="m"/></l><r>September<s n="n"/></r></p></e>
+    <e r="LR"><p><l>Medi<s n="n"/><s n="m"/></l><r>September<s n="n"/></r></p></e>
     <e><p><l>mis<g><b/>Mehefin</g><s n="n"/><s n="m"/></l><r>June<s n="n"/></r></p></e>
+    <e r="LR"><p><l>Mehefin<s n="n"/><s n="m"/></l><r>June<s n="n"/></r></p></e>
     <e><p><l>meil<s n="n"/><s n="mf"/></l><r>msec<s n="n"/></r></p></e>
     <e><p><l>melwlith<s n="n"/><s n="m"/></l><r>honeydew<s n="n"/></r></p></e>
     <e><p><l>menyn<s n="n"/><s n="m"/></l><r>butter<s n="n"/><s n="unc"/></r></p></e>
@@ -2128,6 +2138,7 @@
     <e><p><l>realiti<s n="n"/><s n="f"/></l><r>reality<s n="n"/></r></p></e>
     <e><p><l>refeniw<s n="n"/><s n="m"/></l><r>revenue<s n="n"/></r></p></e>
     <e><p><l>mis<g><b/>Rhagfyr</g><s n="n"/><s n="m"/></l><r>December<s n="n"/></r></p></e>
+    <e r="LR"><p><l>Rhagfyr<s n="n"/><s n="m"/></l><r>December<s n="n"/></r></p></e>
     <e><p><l>rhagoriaeth<s n="n"/><s n="f"/></l><r>excellence<s n="n"/></r></p></e>
     <e><p><l>rheidrwydd<s n="n"/><s n="m"/></l><r>necessity<s n="n"/></r></p></e>
     <e><p><l>rhesymeg<s n="n"/><s n="f"/></l><r>logic<s n="n"/></r></p></e>
@@ -2166,6 +2177,7 @@
     <e><p><l>synergedd<s n="n"/><s n="m"/></l><r>synergy<s n="n"/></r></p></e>
     <e><p><l>syrffed<s n="n"/><s n="m"/></l><r>surfeit<s n="n"/></r></p></e>
     <e><p><l>mis<g><b/>Tachwedd</g><s n="n"/><s n="m"/></l><r>November<s n="n"/></r></p></e>
+    <e r="LR"><p><l>Tachwedd<s n="n"/><s n="m"/></l><r>November<s n="n"/></r></p></e>
     <e><p><l>tadolaeth<s n="n"/><s n="f"/></l><r>fatherhood<s n="n"/></r></p></e>
     <e><p><l>tâl<s n="n"/><s n="m"/></l><r>payment<s n="n"/></r></p></e>
     <e><p><l>taldra<s n="n"/><s n="m"/></l><r>tallness<s n="n"/></r></p></e>
@@ -10251,6 +10263,7 @@
     <e><re>([0-9]+[.,][0-9]+)?2</re><p><l>eg<s n="num"/><s n="ord"/></l><r>nd<s n="num"/><s n="ord"/></r></p></e>
     <e><re>([0-9]+[.,][0-9]+)?3</re><p><l>eg<s n="num"/><s n="ord"/></l><r>rd<s n="num"/><s n="ord"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l>eg<s n="num"/><s n="ord"/></l><r>th<s n="num"/><s n="ord"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)?au</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>[¿¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>

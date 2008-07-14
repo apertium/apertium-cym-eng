@@ -402,6 +402,7 @@
   </section-def-macros>
 
   <section-rules>
+
     <rule comment="REGLA: SN">
       <pattern>
         <pattern-item n="SN"/>
@@ -421,6 +422,21 @@
             </let>
           </when>
         </choose>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SV">
+      <pattern>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
         <out>
           <chunk>
             <clip pos="1" part="lem"/>
