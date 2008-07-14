@@ -48898,6 +48898,7 @@
     <e lm="tywydd"><par n="initial-t"/><i>ywydd</i><par n="aberth__n"/></e>
     <e lm="uchafrif"><i>uchafrif</i><par n="aberth__n"/></e>
     <e lm="undeb"><i>undeb</i><par n="aberth__n"/></e>
+    <e lm="cymundeb"><par n="initial-c"/><i>ymundeb</i><par n="aberth__n"/></e>
     <e lm="undod"><i>undod</i><par n="aberth__n"/></e>
     <e lm="urddas"><i>urddas</i><par n="aberth__n"/></e>
     <e lm="uwchraddiad"><i>uwchraddiad</i><par n="aberth__n"/></e>
@@ -51460,6 +51461,7 @@
     <e lm="absennol"><i>absennol</i><par n="caredig__adj"/></e>
     <e lm="absoliwt"><i>absoliwt</i><par n="caredig__adj"/></e>
     <e lm="academaidd"><i>academaidd</i><par n="caredig__adj"/></e>
+    <e lm="Anglicanaidd"><i>Anglicanaidd</i><par n="caredig__adj"/></e>
     <e lm="achlysurol"><i>achlysurol</i><par n="caredig__adj"/></e>
     <e lm="achrededig"><i>achrededig</i><par n="caredig__adj"/></e>
     <e lm="aciwt"><i>aciwt</i><par n="caredig__adj"/></e>

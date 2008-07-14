@@ -10115,6 +10115,7 @@
     <e lm="bilateral"><i>bilateral</i><par n="expensive__adj"/></e>
     <e lm="dyadic"><i>dyadic</i><par n="expensive__adj"/></e>
     <e lm="expensive"><i>expensive</i><par n="expensive__adj"/></e>
+    <e lm="gay"><i>gay</i><par n="expensive__adj"/></e>
     <e lm="guerilla"><i>guerilla</i><par n="expensive__adj"/></e>
     <e lm="occupying"><i>occupying</i><par n="expensive__adj"/></e>
     <e lm="cathartic"><i>cathartic</i><par n="expensive__adj"/></e>
@@ -15955,6 +15956,7 @@
     <e lm="watch"><i>watch</i><par n="access__n"/></e>
     <e lm="bus"><i>bus</i><par n="bus__n"/></e>
     <e lm="union"><i>union</i><par n="house__n"/></e>
+    <e lm="communion"><i>communion</i><par n="house__n"/></e>
     <e lm="trade union"><i>trade<b/>union</i><par n="house__n"/></e>
     <e lm="investment"><i>investment</i><par n="house__n"/></e>
     <e lm="choice"><i>choice</i><par n="house__n"/></e>
