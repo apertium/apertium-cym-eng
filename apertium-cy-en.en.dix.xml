@@ -27775,8 +27775,10 @@
     <e lm="Havard"><i>Havard</i><par n="Ifans__np"/></e>
     <e lm="Williams"><i>Williams</i><par n="Ifans__np"/></e>
     <e lm="Edwards"><i>Edwards</i><par n="Ifans__np"/></e>
+    <e lm="Morgan"><i>Morgan</i><par n="Ifans__np"/></e>
 
     <e lm="Mark"><i>Mark</i><par n="Mark__np"/></e>
+    <e lm="Rhodri"><i>Rhodri</i><par n="Mark__np"/></e>
 
     <e lm="Cúchulainn"><i>Cúchulainn</i><par n="Mark__np"/></e>
     <e lm="Abidjan"><i>Abidjan</i><par n="Barcelona__np"/></e>
@@ -28124,6 +28126,8 @@
     <e lm="Rhodesia"><i>Rhodesia</i><par n="Barcelona__np"/></e>
     <e lm="Romania"><i>Romania</i><par n="Barcelona__np"/></e>
     <e lm="Rome"><i>Rome</i><par n="Barcelona__np"/></e>
+    <e lm="Rhondda"><i>Rhondda</i><par n="Barcelona__np"/></e>
+    <e lm="Rydaman"><i>Rydaman</i><par n="Barcelona__np"/></e>
     <e lm="Russia"><i>Russia</i><par n="Barcelona__np"/></e>
     <e lm="Sahara"><i>Sahara</i><par n="Barcelona__np"/></e>
     <e lm="Saigon"><i>Saigon</i><par n="Barcelona__np"/></e>
