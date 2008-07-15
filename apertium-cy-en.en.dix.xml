@@ -16543,6 +16543,7 @@
     <e lm="complaint"><i>complaint</i><par n="house__n"/></e>
     <e lm="sleep"><i>sleep</i><par n="house__n__unc"/></e>
     <e lm="witness"><i>witness</i><par n="access__n"/></e>
+    <e lm="eye-witness"><i>eye-witness</i><par n="access__n"/></e>
     <e lm="flying"><i>flying</i><par n="house__n"/></e>
     <e lm="beer"><i>beer</i><par n="house__n"/></e>
     <e lm="pilot"><i>pilot</i><par n="house__n"/></e>
@@ -27988,6 +27989,7 @@
     <e lm="London"><i>London</i><par n="Barcelona__np"/></e>
     <e lm="Llanelli"><i>Llanelli</i><par n="Barcelona__np"/></e>
     <e lm="Tregŵyr"><i>Tregŵyr</i><par n="Barcelona__np"/></e>
+    <e lm="Lansdowne"><i>Lansdowne</i><par n="Barcelona__np"/></e>
     <e lm="Blaenafon"><i>Blaenafon</i><par n="Barcelona__np"/></e>
     <e lm="Wrexham"><i>Wrexham</i><par n="Barcelona__np"/></e>
     <e lm="Anglesey"><i>Anglesey</i><par n="Barcelona__np"/></e>
