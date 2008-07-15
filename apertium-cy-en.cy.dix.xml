@@ -50196,7 +50196,10 @@
     <e lm="trynewid"><par n="initial-t"/><i>rynewid</i><par n="academydd__n"/></e>
     <e lm="trywydd"><par n="initial-t"/><i>rywydd</i><par n="academydd__n"/></e>
     <e lm="trywydd"><par n="initial-t"/><i>rywydd</i><par n="academydd__n"/></e>
+
     <e lm="tyst"><par n="initial-t"/><i>yst</i><par n="academydd__n"/></e>
+    <e lm="llygad-dyst"><i>llygad-dyst</i><par n="academydd__n"/></e>
+
     <e lm="tywysog"><par n="initial-t"/><i>ywysog</i><par n="academydd__n"/></e>
     <e lm="uchelseinydd"><i>uchelseinydd</i><par n="academydd__n"/></e>
     <e lm="ymadrodd"><i>ymadrodd</i><par n="academydd__n"/></e>
