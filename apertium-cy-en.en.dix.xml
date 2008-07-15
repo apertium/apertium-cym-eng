@@ -17366,7 +17366,10 @@
     <e lm="anxiety"><i>anxiet</i><par n="bab/y__n__unc"/></e>
     <e lm="shower"><i>shower</i><par n="house__n"/></e>
     <e lm="grace"><i>grace</i><par n="house__n"/></e>
+
     <e lm="institute"><i>institute</i><par n="house__n"/></e>
+    <e lm="institute of education"><i>institute</i><par n="house__n"/><p><l><b/>of<b/>education</l><r><g><b/>of<b/>education</g></r></p></e>
+
     <e lm="hook"><i>hook</i><par n="house__n"/></e>
     <e lm="export"><i>export</i><par n="house__n"/></e>
     <e lm="rebel"><i>rebel</i><par n="house__n"/></e>
