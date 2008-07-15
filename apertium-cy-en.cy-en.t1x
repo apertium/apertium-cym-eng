@@ -873,6 +873,7 @@
                 </let>
               </when>
               <when>
+		<test>
                 <or>
                   <equal>
                     <clip pos="1" side="sl" part="a_nom"/>
@@ -887,6 +888,7 @@
                     <lit-tag v="np.cog"/>
                   </equal>
                 </or>
+		</test>
                 <let>
                   <var n="caseFirstWord"/>
                   <lit v="Aa"/>
