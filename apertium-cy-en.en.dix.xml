@@ -12533,6 +12533,7 @@
     <e lm="contradictory"><i>contradictory</i><par n="expensive__adj"/></e>
     <e lm="compound"><i>compound</i><par n="expensive__adj"/></e>
     <e lm="common"><i>common</i><par n="expensive__adj"/></e>
+    <e lm="uncommon"><i>uncommon</i><par n="expensive__adj"/></e>
     <e lm="compound"><i>compound</i><par n="expensive__adj"/></e>
     <e lm="complete"><i>complete</i><par n="expensive__adj"/></e>
     <e lm="placed"><i>placed</i><par n="expensive__adj"/></e>
