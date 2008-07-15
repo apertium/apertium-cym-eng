@@ -285,6 +285,35 @@
         </p>
       </e>
     </pardef>
+
+    <!-- For gorau/orau/etc. -->
+    <pardef n="initial-g_null">
+      <e r="LR">
+        <p>
+          <l>g</l>
+          <r/>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ng</l>
+          <r/>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l/>
+          <r/>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>g</l>
+          <r/>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="initial-m">
       <e r="LR">
         <p>
@@ -5196,20 +5225,12 @@
       <e>
         <p>
           <l/>
-          
-            
-            
-            
           <r><s n="n"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>noedd</l>
-          
-            
-            
-            
           <r><s n="n"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
@@ -9714,14 +9735,16 @@
         </p>
       </e>
       <e>
+	<par n="initial-g_null"/>
         <p>
-          <l>gwell</l>
+          <l>well</l>
           <r>da<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
+        <par n="initial-g_null"/>
         <p>
-          <l>gorau</l>
+          <l>orau</l>
           <r>da<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
@@ -47989,6 +48012,7 @@
     <e lm="rhywun"><i>rhywun</i><par n="unrhywun__prn"/></e>
 
     <e lm="pa"><i>pa</i><par n="pa__prn"/></e>
+    <e lm="beth"><i>beth</i><par n="pa__prn"/></e>
 
 <!--
     <e lm="a"><i>a</i><par n="a__rel"/></e>
@@ -50801,7 +50825,10 @@
     <e lm="derbyniwr"><par n="initial-d"/><i>erbyn</i><par n="apel/iwr__n"/></e>
     <e lm="dyluniwr"><par n="initial-d"/><i>ylun</i><par n="apel/iwr__n"/></e>
     <e lm="goruchwyliwr"><par n="initial-g"/><i>oruchwyl</i><par n="apel/iwr__n"/></e>
+
     <e lm="gweithiwr"><par n="initial-g"/><i>weith</i><par n="apel/iwr__n"/></e>
+    <e lm="gweithiwr mudol"><par n="initial-g"/><i>weith</i><par n="apel/iwr__n"/><p><l><b/>mudol</l><r><g><b/>mudol</g></r></p></e>
+
     <e lm="gwyliwr"><par n="initial-g"/><i>wyl</i><par n="apel/iwr__n"/></e>
     <e lm="hawliwr"><i>hawl</i><par n="apel/iwr__n"/></e>
     <e lm="mapiwr"><par n="initial-m"/><i>ap</i><par n="apel/iwr__n"/></e>
@@ -53016,6 +53043,7 @@
     <e lm="symbolaidd"><i>symbolaidd</i><par n="caredig__adj"/></e>
     <e lm="symudadwy"><i>symudadwy</i><par n="caredig__adj"/></e>
     <e lm="symudol"><i>symudol</i><par n="caredig__adj"/></e>
+    <e lm="mudol"><i>mudol</i><par n="caredig__adj"/></e>
     <e lm="syn"><i>syn</i><par n="caredig__adj"/></e>
     <e lm="synhwyrol"><i>synhwyrol</i><par n="caredig__adj"/></e>
     <e lm="syntheseiddio"><i>syntheseiddio</i><par n="caredig__adj"/></e>

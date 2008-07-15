@@ -16397,6 +16397,7 @@
     <e lm="stadium"><i>stadium</i><par n="house__n"/></e>
     <e lm="conflict"><i>conflict</i><par n="house__n"/></e>
     <e lm="worker"><i>worker</i><par n="house__n"/></e>
+    <e lm="migrant worker"><i>migrant<b/>worker</i><par n="house__n"/></e>
     <e lm="initial"><i>initial</i><par n="house__n"/></e>
     <e lm="advice"><i>advice</i><par n="house__n__unc"/></e>
     <e lm="plate"><i>plate</i><par n="house__n"/></e>
@@ -16863,6 +16864,7 @@
     <e lm="nurse"><i>nurse</i><par n="house__n"/></e>
     <e lm="civilian"><i>civilian</i><par n="house__n"/></e>
     <e lm="civilian"><i>civilian</i><par n="expensive__adj"/></e>
+    <e lm="moving"><i>moving</i><par n="expensive__adj"/></e>
     <e lm="rear"><i>rear</i><par n="expensive__adj"/></e>
     <e lm="element"><i>element</i><par n="house__n"/></e>
     <e lm="sky"><i>sk</i><par n="bab/y__n"/></e>
@@ -32417,6 +32419,7 @@
     <e lm="devour"><i>devour</i><par n="accept__vblex"/></e>
     <e lm="martyr"><i>martyr</i><par n="accept__vblex"/></e>
     <e lm="amass"><i>amass</i><par n="approach__vblex"/></e>
+    <e lm="assess"><i>assess</i><par n="approach__vblex"/></e>
     <e lm="trespass"><i>trespass</i><par n="approach__vblex"/></e>
     <e lm="harass"><i>harass</i><par n="approach__vblex"/></e>
 
