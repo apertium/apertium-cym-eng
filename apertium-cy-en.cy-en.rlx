@@ -69,6 +69,9 @@ REMOVE V IF (0 V) (0 NC) (-1 DetDef) (-2 Pr);
 # ??
 REMOVE PrnSubj IF (1 NP) (-1 Adj);
 
+# mewn i un system
+REMOVE PrnSubj IF (1 Num) (-1 Pr);
+
 # mark a possessive determiner as being masculine if followed by soft mutation
 SUBSTITUTE (mf) (m) DetPos (1 MSoftC);
 
