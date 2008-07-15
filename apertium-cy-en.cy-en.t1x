@@ -76,6 +76,7 @@
     </def-cat>
     <def-cat n="verbcj">
       <cat-item tags="vblex.cni.*"/>
+      <cat-item tags="vblex.cns.*"/>
       <cat-item tags="vblex.fti.*"/>
       <cat-item tags="vblex.ifi.*"/>
       <cat-item tags="vblex.imp.*"/>
@@ -88,6 +89,7 @@
       <cat-item tags="vblex.prs.*"/>
 
       <cat-item tags="vbser.cni.*"/>
+      <cat-item tags="vbser.cns.*"/>
       <cat-item tags="vbser.fut.*"/>
       <cat-item tags="vbser.imp.*"/>
 <!--      <cat-item tags="vbser.inf.*"/> -->
@@ -98,6 +100,7 @@
       <cat-item tags="vbser.prs.*"/>
 
       <cat-item tags="vbhaver.cni.*"/>
+      <cat-item tags="vbhaver.cns.*"/>
       <cat-item tags="vbhaver.fti.*"/>
       <cat-item tags="vbhaver.ifi.*"/>
       <cat-item tags="vbhaver.imp.*"/>
@@ -108,6 +111,7 @@
       <cat-item tags="vbhaver.prs.*"/>
 
       <cat-item tags="vbmod.cni.*"/>
+      <cat-item tags="vbmod.cns.*"/>
       <cat-item tags="vbmod.fti.*"/>
       <cat-item tags="vbmod.ifi.*"/>
       <cat-item tags="vbmod.imp.*"/>
@@ -462,6 +466,39 @@
                     <clip pos="1" side="tl" part="a_verb"/>
                     <clip pos="1" side="tl" part="sep"/>
                     <clip pos="1" side="tl" part="temps"/>
+                  </concat>
+                </let>
+              </when>
+
+              <when>
+                <test> 
+                    <equal>
+                      <clip pos="1" side="sl" part="temps"/>
+                      <lit-tag v="cns"/>
+                    </equal>
+                </test>
+                <let>
+                  <var n="temps_chunk"/>
+                  <clip pos="1" side="sl" part="temps"/>
+                </let>
+                <let>
+                  <clip pos="1" side="tl" part="temps"/>                     
+                  <lit-tag v="inf"/>
+                </let>
+                <let>
+                  <var n="lema_SV"/>
+                  <lit v="aux_verb"/>
+                </let>
+                <let>
+                  <var n="verbfinal"/>
+                  <concat>
+                      <lit v="might"/>
+                      <lit-tag v="vaux.inf"/>
+                      <lit v="$ ^"/>
+                      <clip pos="1" side="tl" part="lemh"/>
+                      <clip pos="1" side="tl" part="a_verb"/>
+                      <clip pos="1" side="tl" part="sep"/> 
+                      <clip pos="1" side="tl" part="temps"/>
                   </concat>
                 </let>
               </when>

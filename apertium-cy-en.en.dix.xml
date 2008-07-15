@@ -30,6 +30,15 @@
         </p>
       </e>
     </pardef>
+    <pardef n="acronimos">
+      <e>
+        <re>[A-Z][A-Z]+([A-Z])?</re>
+        <p>
+          <l/>
+          <r><s n="n"/><s n="acr"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="numeros">
       <e>
         <re>[0-9]+([.,][0-9]+)?</re>
@@ -124,9 +133,17 @@
     </pardef>
 
     <pardef n="/other__adj">
+      <!--
       <e>
         <p>
           <l>another</l>
+          <r>other<s n="adj"/><s n="sg"/></r>
+        </p>
+      </e>
+      -->
+      <e r="RL">
+        <p>
+          <l>other</l>
           <r>other<s n="adj"/><s n="sg"/></r>
         </p>
       </e>
@@ -35717,6 +35734,9 @@
   <section id="final" type="inconditional">
     <e>
       <par n="separa"/>
+    </e>
+    <e>
+      <par n="acronimos"/>
     </e>
     <e>
       <par n="numeros"/>
