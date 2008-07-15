@@ -9159,6 +9159,12 @@
           <r>y<s n="n"/><s n="unc"/><s n="pl"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l>y</l>
+          <r>y<s n="n"/><s n="unc"/><s n="sp"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="archipelago__n__unc">
       <e>
@@ -15898,6 +15904,7 @@
     <e lm="drive"><i>drive</i><par n="house__n"/></e>
     <e lm="opening"><i>opening</i><par n="house__n"/></e>
     <e lm="station"><i>station</i><par n="house__n"/></e>
+    <e lm="sub-station"><i>sub-station</i><par n="house__n"/></e>
     <e lm="committee"><i>committee</i><par n="house__n"/></e>
     <e lm="cross-party committee"><i>cross-party<b/>committee</i><par n="house__n"/></e>
     <e lm="joint committee"><i>joint<b/>committee</i><par n="house__n"/></e>

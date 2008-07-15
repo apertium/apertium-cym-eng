@@ -50581,7 +50581,10 @@
     <e lm="deintyddfa"><par n="initial-d"/><i>eintyddfa</i><par n="archfarchnad__n"/></e>
     <e lm="dinas"><par n="initial-d"/><i>inas</i><par n="archfarchnad__n"/></e>
     <e lm="geirfa"><par n="initial-g"/><i>eirfa</i><par n="archfarchnad__n"/></e>
+
     <e lm="gorsaf"><par n="initial-g"/><i>orsaf</i><par n="archfarchnad__n"/></e>
+    <e lm="is-orsaf"><i>is-orsaf</i><par n="archfarchnad__n"/></e>
+
     <e lm="gwe"><par n="initial-g"/><i>we</i><par n="archfarchnad__n"/></e>
     <e lm="gweithred"><par n="initial-g"/><i>weithred</i><par n="archfarchnad__n"/></e>
     <e lm="gwerin"><par n="initial-g"/><i>werin</i><par n="archfarchnad__n"/></e>
