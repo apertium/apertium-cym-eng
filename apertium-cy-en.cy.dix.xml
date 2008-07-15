@@ -715,7 +715,7 @@
       <e>
         <p>
           <l/>
-          <r><s n="det"/><s n="qnt"/><s n="sp"/></r>
+          <r><s n="det"/><s n="qnt"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -48179,6 +48179,7 @@
     <e lm="hwn"><i>hwn</i><par n="yna__det"/></e>
 
     <e lm="llawer o"><i>llawer<b/>o</i><par n="llawer_o__det"/></e>
+    <e lm="ychydig"><i>ychydig</i><par n="llawer_o__det"/></e>
 
     <!-- Adverbs -->
     <e lm="iawn"><i>iawn</i><par n="iawn__preadv"/></e>
@@ -50198,7 +50199,6 @@
     <e lm="tyst"><par n="initial-t"/><i>yst</i><par n="academydd__n"/></e>
     <e lm="tywysog"><par n="initial-t"/><i>ywysog</i><par n="academydd__n"/></e>
     <e lm="uchelseinydd"><i>uchelseinydd</i><par n="academydd__n"/></e>
-    <e lm="ychydig"><i>ychydig</i><par n="academydd__n"/></e>
     <e lm="ymadrodd"><i>ymadrodd</i><par n="academydd__n"/></e>
     <e lm="ymadrodd"><i>ymadrodd</i><par n="academydd__n"/></e>
     <e lm="ymarferydd"><i>ymarferydd</i><par n="academydd__n"/></e>
