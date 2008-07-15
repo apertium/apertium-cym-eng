@@ -2967,7 +2967,10 @@
     <e><p><l>gallu<s n="n"/><s n="m"/></l><r>capability<s n="n"/></r></p></e>
     <e><p><l>gallu<s n="n"/><s n="m"/></l><r>capacity<s n="n"/></r></p></e>
     <e><p><l>geirfa<s n="n"/><s n="f"/></l><r>vocabulary<s n="n"/></r></p></e>
+
     <e><p><l>gorsaf<s n="n"/><s n="f"/></l><r>station<s n="n"/></r></p></e>
+    <e><p><l>is-orsaf<s n="n"/><s n="f"/></l><r>sub-station<s n="n"/></r></p></e>
+
     <e><p><l>grym<s n="n"/><s n="m"/></l><r>strength<s n="n"/></r></p></e>
     <e><p><l>gwagle<s n="n"/><s n="m"/></l><r>vacuum<s n="n"/></r></p></e>
     <e><p><l>gwe<s n="n"/><s n="f"/></l><r>web<s n="n"/></r></p></e>
