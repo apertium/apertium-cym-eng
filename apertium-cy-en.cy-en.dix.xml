@@ -32,6 +32,8 @@
     <e><p><l>hwn<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
  
     <e><p><l>llawer<b/>o<s n="det"/><s n="qnt"/></l><r>a<b/>lot<b/>of<s n="det"/><s n="qnt"/></r></p></e>
+
+    <e><p><l>ychydig<s n="det"/><s n="qnt"/></l><r>a few<s n="det"/><s n="qnt"/></r></p></e>
  
     <e><p><l>hon<s n="adj"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
     <e><p><l>unrhyw<s n="adj"/></l><r>any<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
@@ -2652,7 +2654,6 @@
     <e><p><l>tyst<s n="n"/><s n="m"/></l><r>witness<s n="n"/></r></p></e>
     <e><p><l>tywysog<s n="n"/><s n="m"/></l><r>prince<s n="n"/></r></p></e>
     <e><p><l>uchelseinydd<s n="n"/><s n="m"/></l><r>loudspeaker<s n="n"/></r></p></e>
-    <e><p><l>ychydig<s n="n"/><s n="m"/></l><r>a little<s n="n"/></r></p></e>
     <e><p><l>ymadrodd<s n="n"/><s n="m"/></l><r>phrase<s n="n"/></r></p></e>
     <e><p><l>ymadrodd<s n="n"/><s n="m"/></l><r>expression<s n="n"/></r></p></e>
     <e><p><l>ymarfer<s n="n"/><s n="f"/></l><r>exercise<s n="n"/></r></p></e>
@@ -5252,7 +5253,7 @@
     <e><p><l>munudol<s n="adj"/></l><r>by the minute<s n="adj"/></r></p></e>
     <e><p><l>mwys<s n="adj"/></l><r>ambiguous<s n="adj"/></r></p></e>
     <e><p><l>mympwyol<s n="adj"/></l><r>arbitrary<s n="adj"/></r></p></e>
-    <e><p><l>mynych<s n="adj"/></l><r>frequent<s n="adj"/></r></p></e>
+    <e><p><l>mynych<s n="adj"/><s n="sint"/></l><r>frequent<s n="adj"/></r></p></e>
     <e><p><l>naill<s n="adj"/></l><r>either<s n="adj"/></r></p></e>
     <e><p><l>naturiol<s n="adj"/></l><r>natural<s n="adj"/></r></p></e>
 
@@ -5652,7 +5653,7 @@
     <e><p><l>ystyrlon<s n="adj"/></l><r>meaningful<s n="adj"/></r></p></e>
     <e><p><l>ystyrlon<s n="adj"/></l><r>significant<s n="adj"/></r></p></e>
     <e><p><l>agos<s n="adj"/></l><r>close<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>aml<s n="adj"/></l><r>frequent<s n="adj"/></r></p></e>
+    <e><p><l>aml<s n="adj"/><s n="sint"/></l><r>frequent<s n="adj"/></r></p></e>
     <e><p><l>amlwg<s n="adj"/><s n="sint"/></l><r>obvious<s n="adj"/></r></p></e>
     <e><p><l>anodd<s n="adj"/><s n="sint"/></l><r>difficult<s n="adj"/></r></p></e>
     <e><p><l>araf<s n="adj"/></l><r>slow<s n="adj"/><s n="sint"/></r></p></e> 
