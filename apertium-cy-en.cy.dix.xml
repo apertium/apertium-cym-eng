@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
 <!-- The lowercase letters of the Welsh alphabet followed by letters with accents, followed by letters found in loan words -->
-  <alphabet>ABCDEFGHILMNOPRSTUWYÂÊÎÔŴŶJKVXZÁÉÍÓÚÄËÏÖÜabcdefghilmnoprstuwyâêîôŵŷáïjkvxzáéíóúäëïöü</alphabet>
+  <alphabet>ABCDEFGHILMNOPRSTUWYÂÊÎÔŴŶJKVXZÁÉÍÓÚÄËÏÖÜQabcdefghilmnoprstuwyâêîôŵŷáïjkvxzáéíóúäëïöüq</alphabet>
   <!-- Symbol definitions -->
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-cy-en.symbols.xml"/>
   <!-- Paradigm definitions -->
@@ -27,6 +27,15 @@
         <p>
           <l>'</l>
           <r>'<s n="apos"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="acronimos">
+      <e>
+        <re>[A-Z][A-Z]+([A-Z])?</re>
+        <p>
+          <l/>
+          <r><s n="n"/><s n="acr"/></r>
         </p>
       </e>
     </pardef>
@@ -52319,6 +52328,7 @@
     <e lm="dilynol"><par n="initial-d"/><i>ilynol</i><par n="caredig__adj"/></e>
     <e lm="dilys"><par n="initial-d"/><i>ilys</i><par n="caredig__adj"/></e>
     <e lm="dinesig"><par n="initial-d"/><i>inesig</i><par n="caredig__adj"/></e>
+    <e lm="fforensig"><i>fforensig</i><par n="caredig__adj"/></e>
     <e lm="dinistriol"><par n="initial-d"/><i>inistriol</i><par n="caredig__adj"/></e>
     <e lm="diog"><par n="initial-d"/><i>iog</i><par n="caredig__adj"/></e>
     <e lm="diogel"><par n="initial-d"/><i>iogel</i><par n="caredig__adj"/></e>
@@ -57052,9 +57062,13 @@
     <e lm="Dyfed"><par n="initial-D"/><i>yfed</i><par n="Blaenafon__np"/></e>
     <e lm="Ceredigion"><par n="initial-C"/><i>eredigion</i><par n="Blaenafon__np"/></e>
     <e lm="Dyfed-Powys"><par n="initial-D"/><i>yfed-Powys</i><par n="Blaenafon__np"/></e>
+    <e lm="Rhondda"><par n="initial-Rh"/><i>ondda</i><par n="Blaenafon__np"/></e>
 
 
     <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Blaenafon__np"/></e>
+    <e lm="Trowbridge"><par n="initial-T"/><i>rowbridge</i><par n="Blaenafon__np"/></e>
+    <e lm="Treganna"><par n="initial-T"/><i>reganna</i><par n="Blaenafon__np"/></e>
+    <e lm="Lansdowne"><i>Lansdowne</i><par n="Blaenafon__np"/></e>
     <e lm="Abercynon"><i>Abercynon</i><par n="Blaenafon__np"/></e>
     <e lm="Abertawe"><i>Abertawe</i><par n="Blaenafon__np"/></e>
     <e lm="Hwlffordd"><i>Hwlffordd</i><par n="Blaenafon__np"/></e>
@@ -57069,10 +57083,18 @@
     <e lm="Doc Penfro"><par n="initial-D"/><i>oc<b/>Penfro</i><par n="Blaenafon__np"/></e>
     <e lm="Dolgellau"><par n="initial-D"/><i>olgellau</i><par n="Blaenafon__np"/></e>
     <e lm="Llundain"><par n="initial-Ll"/><i>undain</i><par n="Blaenafon__np"/></e>
+    <e lm="Llanberis"><par n="initial-Ll"/><i>anberis</i><par n="Blaenafon__np"/></e>
     <e lm="Llanelli"><par n="initial-Ll"/><i>anelli</i><par n="Blaenafon__np"/></e>
     <e lm="Tregŵyr"><par n="initial-T"/><i>regŵyr</i><par n="Blaenafon__np"/></e>
     <e lm="Ynys Môn"><i>Ynys<b/>Môn</i><par n="Blaenafon__np"/></e>
     <e lm="Wrecsam"><i>Wrecsam</i><par n="Blaenafon__np"/></e>
+    <e lm="Rydaman"><i>Rydaman</i><par n="Blaenafon__np"/></e>
+    <e lm="Birmingham"><par n="initial-B"/><i>irmingham</i><par n="Blaenafon__np"/></e>
+    <e lm="Bryste"><par n="initial-B"/><i>ryste</i><par n="Blaenafon__np"/></e>
+    <e lm="Manceinion"><par n="initial-M"/><i>anceinion</i><par n="Blaenafon__np"/></e>
+    <e lm="Lerpwl"><i>Lerpwl</i><par n="Blaenafon__np"/></e>
+    <e lm="Glasgow"><par n="initial-G"/><i>lasgow</i><par n="Blaenafon__np"/></e>
+    <e lm="Pantyffynnon"><par n="initial-P"/><i>antyffynnon</i><par n="Blaenafon__np"/></e>
     <e lm="Merthyr Tudful"><par n="initial-M"/><i>erthyr<b/>Tudful</i><par n="Blaenafon__np"/></e>
 
 
@@ -57326,6 +57348,13 @@
 
   <section id="apostrophes" type="postblank">
 
+    <e lm="'r" r="LR">
+      <p>
+        <l>'r</l>
+        <r>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+    </e>
+
     <e lm="'n" r="LR">
       <p>
         <l>'n</l>
@@ -57435,6 +57464,13 @@
       </p>
     </e>
 
+    <e lm="trwy'r" r="LR">
+      <p>
+        <l>trwy'r</l>
+        <r>trwy<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+    </e>
+
     <e lm="a'r" r="LR">
       <p>
         <l>a'r</l>
@@ -57484,12 +57520,6 @@
       </p>
     </e>
 
-    <e lm="'r" r="LR">
-      <p>
-        <l>'r</l>
-        <r>yr<s n="det"/><s n="def"/><s n="sp"/></r>
-      </p>
-    </e>
 
     <e lm="'na" r="LR">
       <p>
@@ -57566,6 +57596,9 @@
     </e>
     <e>
       <par n="numeros"/>
+    </e>
+    <e>
+      <par n="acronimos"/>
     </e>
     <e>
       <par n="currency"/>

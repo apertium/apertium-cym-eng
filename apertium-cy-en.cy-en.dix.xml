@@ -7,6 +7,7 @@
  
   <!-- Main dictionary section -->
   <section id="main" type="standard">
+
     <!-- Determiners -->
  
     <e><p><l>yr<s n="det"/></l><r>the<s n="det"/></r></p></e>
@@ -212,6 +213,7 @@
     <e><p><l>rwan<s n="adv"/></l><r>now<s n="adv"/></r></p></e>    <!-- this form is probably incorrect -->
     <e><p><l>rŵan<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
     <e><p><l>erioed<s n="adv"/></l><r>never<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>erioed<s n="adv"/></l><r>ever<s n="adv"/></r></p></e>
     <e><p><l>ddim<s n="adv"/></l><r>not<s n="adv"/></r></p></e>
     <e><p><l>llynedd<s n="adv"/></l><r>last year<s n="adv"/></r></p></e>
     <e><p><l>am<b/>amser<b/>hir<s n="adv"/></l><r>for a long time<s n="adv"/></r></p></e>
@@ -273,7 +275,6 @@
     <e><p><l>eisoes<s n="adv"/></l><r>already<s n="adv"/></r></p></e>
     <e><p><l>eitha'<b/>debyg<s n="adv"/></l><r>most<b/>likely<s n="adv"/></r></p></e>
     <e><p><l>eleni<s n="adv"/></l><r>this<b/>year<s n="adv"/></r></p></e>
-    <e><p><l>erioed<s n="adv"/></l><r>ever<s n="adv"/></r></p></e>
     <e><p><l>eto<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
     <e><p><l>fel<b/>arall<s n="adv"/></l><r>alternatively<s n="adv"/></r></p></e>
     <e><p><l>fel<b/>arfer<s n="adv"/></l><r>as<b/>usual<s n="adv"/></r></p></e>
@@ -2604,6 +2605,7 @@
     <e><p><l>sudd<s n="n"/><s n="m"/></l><r>juice<s n="n"/></r></p></e>
     <e><p><l>swnydd<s n="n"/><s n="m"/></l><r>pager<s n="n"/></r></p></e>
     <e><p><l>swn<s n="n"/><s n="m"/></l><r>sound<s n="n"/></r></p></e>
+    <e r="LR"><p><l>sain<s n="n"/><s n="f"/></l><r>sound<s n="n"/></r></p></e>
     <e><p><l>swyddog<s n="n"/><s n="m"/></l><r>officer<s n="n"/></r></p></e>
     <e><p><l>tablydd<s n="n"/><s n="m"/></l><r>tabulator<s n="n"/></r></p></e>
     <e><p><l>tanwydd<s n="n"/><s n="m"/></l><r>fuel<s n="n"/></r></p></e>
@@ -3594,7 +3596,6 @@
     <e><p><l>lliain<s n="n"/><s n="m"/></l><r>linen<s n="n"/></r></p></e>
     <e><p><l>llys-nain<s n="n"/><s n="f"/></l><r>step-grandmother<s n="n"/></r></p></e>
     <e><p><l>nain<s n="n"/><s n="f"/></l><r>grandmother<s n="n"/></r></p></e>
-    <e r="RL"><p><l>sain<s n="n"/><s n="f"/></l><r>sound<s n="n"/></r></p></e>
     <e><p><l>pysgodyn<s n="n"/><s n="m"/></l><r>fish<s n="n"/></r></p></e>
     <e><p><l>blewyn<s n="n"/><s n="m"/></l><r>hair<s n="n"/></r></p></e>
     <e><p><l>cnewyllyn<s n="n"/><s n="m"/></l><r>kernel<s n="n"/></r></p></e>
@@ -4093,6 +4094,7 @@
  
     <!-- Adjectives -->
     <e><p><l>absennol<s n="adj"/></l><r>absent<s n="adj"/></r></p></e>
+    <e><p><l>fforensig<s n="adj"/></l><r>forensic<s n="adj"/></r></p></e>
     <e><p><l>absoliwt<s n="adj"/></l><r>absolute<s n="adj"/></r></p></e>
     <e><p><l>academaidd<s n="adj"/></l><r>academic<s n="adj"/></r></p></e>
     <e><p><l>Anglicanaidd<s n="adj"/></l><r>Anglican<s n="adj"/></r></p></e>
@@ -9668,6 +9670,7 @@
           <!-- Should probably add some Welsh ones here ~fmt -->      
  
     <e><p><l>Dafydd<s n="np"/><s n="ant"/></l><r>Dafydd<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Huw<s n="np"/><s n="ant"/></l><r>Huw<s n="np"/><s n="ant"/></r></p></e>
  
     <e><p><l>Cwchwlin<s n="np"/><s n="ant"/></l><r>Cúchulainn<s n="np"/><s n="ant"/></r></p></e>
 
@@ -10067,6 +10070,8 @@
     <e><p><l>Zaira<s n="np"/><s n="ant"/></l><r>Zaira<s n="np"/><s n="ant"/></r></p></e>
     <e r="LR"><p><l>Pedr<s n="np"/><s n="ant"/></l><r>Peter<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Peter<s n="np"/><s n="ant"/></l><r>Peter<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ifan<s n="np"/><s n="ant"/></l><r>Ifan<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ifor<s n="np"/><s n="ant"/></l><r>Ifor<s n="np"/><s n="ant"/></r></p></e>
 
 
       <!-- Cognomens -->
@@ -10124,11 +10129,27 @@
     <e><p><l>Dolgellau<s n="np"/><s n="top"/><s n="f"/></l><r>Dolgellau<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llundain<s n="np"/><s n="top"/><s n="f"/></l><r>London<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llanelli<s n="np"/><s n="top"/><s n="f"/></l><r>Llanelli<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llangollen<s n="np"/><s n="top"/><s n="f"/></l><r>Llangollen<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Tregŵyr<s n="np"/><s n="top"/><s n="f"/></l><r>Tregŵyr<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Wrecsam<s n="np"/><s n="top"/><s n="f"/></l><r>Wrexham<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ynys Môn<s n="np"/><s n="top"/><s n="f"/></l><r>Anglesey<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Pontypridd<s n="np"/><s n="top"/><s n="f"/></l><r>Pontypridd<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Merthyr Tudful<s n="np"/><s n="top"/><s n="f"/></l><r>Merthyr Tydfil<s n="np"/><s n="top"/></r></p></e>
+
+
+    <e><p><l>Bryste<s n="np"/><s n="top"/><s n="f"/></l><r>Bristol<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Lansdowne<s n="np"/><s n="top"/><s n="f"/></l><r>Lansdowne<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Lerpwl<s n="np"/><s n="top"/><s n="f"/></l><r>Liverpool<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanberis<s n="np"/><s n="top"/><s n="f"/></l><r>Llanberis<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Pantyffynnon<s n="np"/><s n="top"/><s n="f"/></l><r>Pantyffynnon<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Rhondda<s n="np"/><s n="top"/><s n="f"/></l><r>Rhondda<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Rydaman<s n="np"/><s n="top"/><s n="f"/></l><r>Rydaman<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Trowbridge<s n="np"/><s n="top"/><s n="f"/></l><r>Trowbridge<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Birmingham<s n="np"/><s n="top"/><s n="f"/></l><r>Birmingham<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Manceinion<s n="np"/><s n="top"/><s n="f"/></l><r>Manchester<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Glasgow<s n="np"/><s n="top"/><s n="f"/></l><r>Glasgow<s n="np"/><s n="top"/></r></p></e>
+
+
 
       <!-- Need genders -->
  
@@ -10454,6 +10475,9 @@
     <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
     <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
     <e><re>[’'‘]</re><p><l><s n="apos"/></l><r><s n="apos"/></r></p></e>
+
+    <e><re>[A-Z][A-Z]+([A-Z])?</re><p><l><s n="n"/><s n="acr"/></l><r><s n="n"/><s n="acr"/></r></p></e>
+
  
   </section>
 </dictionary>
