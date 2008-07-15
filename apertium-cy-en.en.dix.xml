@@ -1332,6 +1332,12 @@
       </e>
     </pardef>
     <pardef n="politics__n">
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="n"/><s n="sp"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l/>
@@ -27989,6 +27995,7 @@
     <e lm="London"><i>London</i><par n="Barcelona__np"/></e>
     <e lm="Llanelli"><i>Llanelli</i><par n="Barcelona__np"/></e>
     <e lm="Tregŵyr"><i>Tregŵyr</i><par n="Barcelona__np"/></e>
+    <e lm="Treganna"><i>Treganna</i><par n="Barcelona__np"/></e>
     <e lm="Lansdowne"><i>Lansdowne</i><par n="Barcelona__np"/></e>
     <e lm="Blaenafon"><i>Blaenafon</i><par n="Barcelona__np"/></e>
     <e lm="Wrexham"><i>Wrexham</i><par n="Barcelona__np"/></e>
