@@ -55,6 +55,25 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="un__num">
+      <e>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="tri__num">
+      <e>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="ordinals">
       <e>
         <re>[0-9]+([.,][0-9]+)?eg</re>
@@ -48377,6 +48396,28 @@
     <!-- CHECK -->
 
 
+    <e lm="un"><i>un</i><par n="un__num"/></e>
+    <e lm="dau"><par n="initial-d"/><i>au</i><par n="tri__num"/></e>
+    <e lm="dwy"><par n="initial-d"/><i>wy</i><par n="tri__num"/></e>
+
+    <e lm="tair"><par n="initial-t"/><i>air</i><par n="tri__num"/></e>
+    <e lm="tri"><par n="initial-t"/><i>ri</i><par n="tri__num"/></e>
+
+    <e lm="pedwar"><par n="initial-p"/><i>edwar</i><par n="tri__num"/></e>
+    <e lm="pedair"><par n="initial-p"/><i>edair</i><par n="tri__num"/></e>
+
+    <e lm="pum"><par n="initial-p"/><i>um</i><par n="tri__num"/></e>
+    <e lm="pump"><par n="initial-p"/><i>ump</i><par n="tri__num"/></e>
+
+    <e lm="chwe"><par n="initial-c"/><i>hwe</i><par n="tri__num"/></e>
+    <e lm="chwech"><par n="initial-c"/><i>hwech</i><par n="tri__num"/></e>
+
+    <e lm="saith"><i>saith</i><par n="tri__num"/></e>
+    <e lm="wyth"><i>wyth</i><par n="tri__num"/></e>
+    <e lm="naw"><i>naw</i><par n="tri__num"/></e>
+    <e lm="deg"><par n="initial-d"/><i>eg</i><par n="tri__num"/></e>
+
+
 
     <e lm="hofrenfad"><i>hofrenfad</i><par n="adeilad__n"/></e>
     <e lm="llysywen"><par n="initial-ll"/><i>ysywen</i><par n="llysywen__n"/></e>
@@ -48682,6 +48723,7 @@
     <e lm="decimetr"><par n="initial-d"/><i>ecimetr</i><par n="aberth__n"/></e>
     <e lm="defnyddenw"><par n="initial-d"/><i>efnyddenw</i><par n="aberth__n"/></e>
     <e lm="defnyddioldeb"><par n="initial-d"/><i>efnyddioldeb</i><par n="aberth__n"/></e>
+
     <e lm="deg"><par n="initial-d"/><i>eg</i><par n="aberth__n"/></e>
     <e lm="degawd"><par n="initial-d"/><i>egawd</i><par n="aberth__n"/></e>
     <e lm="dehongliad"><par n="initial-d"/><i>ehongliad</i><par n="aberth__n"/></e>
@@ -52039,8 +52081,8 @@
     <e lm="cerddorol"><par n="initial-c"/><i>erddorol</i><par n="caredig__adj"/></e>
     <e lm="ceugrwm"><par n="initial-c"/><i>eugrwm</i><par n="caredig__adj"/></e>
     <e lm="chwarterol"><par n="initial-c"/><i>hwarterol</i><par n="caredig__adj"/></e>
-    <e lm="chwe"><par n="initial-c"/><i>hwe</i><par n="caredig__adj"/></e>
-    <e lm="chwech"><par n="initial-c"/><i>hwech</i><par n="caredig__adj"/></e>
+
+
     <e lm="chweched"><par n="initial-c"/><i>hweched</i><par n="caredig__adj"/></e>
     <e lm="chwerthinllyd"><par n="initial-c"/><i>hwerthinllyd</i><par n="caredig__adj"/></e>
     <e lm="chwerw"><par n="initial-c"/><i>hwerw</i><par n="caredig__adj"/></e>
@@ -52260,7 +52302,6 @@
     <e lm="datganoledig"><par n="initial-d"/><i>atganoledig</i><par n="caredig__adj"/></e>
     <e lm="datgysylltiedig"><par n="initial-d"/><i>atgysylltiedig</i><par n="caredig__adj"/></e>
     <e lm="datgysylltiol"><par n="initial-d"/><i>atgysylltiol</i><par n="caredig__adj"/></e>
-    <e lm="dau"><par n="initial-d"/><i>au</i><par n="caredig__adj"/></e>
     <e lm="dau-ddimensiwn"><par n="initial-d"/><i>au-ddimensiwn</i><par n="caredig__adj"/></e>
     <e lm="dawnus"><par n="initial-d"/><i>awnus</i><par n="caredig__adj"/></e>
     <e lm="dealladwy"><par n="initial-d"/><i>ealladwy</i><par n="caredig__adj"/></e>
@@ -52271,7 +52312,8 @@
     <e lm="deddfwriaethol"><par n="initial-d"/><i>eddfwriaethol</i><par n="caredig__adj"/></e>
     <e lm="defnyddiadwy"><par n="initial-d"/><i>efnyddiadwy</i><par n="caredig__adj"/></e>
     <e lm="defnyddiol"><par n="initial-d"/><i>efnyddiol</i><par n="caredig__adj"/></e>
-    <e lm="deg"><par n="initial-d"/><i>eg</i><par n="caredig__adj"/></e>
+
+
     <e lm="degfed"><par n="initial-d"/><i>egfed</i><par n="caredig__adj"/></e>
     <e lm="degol"><par n="initial-d"/><i>egol</i><par n="caredig__adj"/></e>
     <e lm="degol"><par n="initial-d"/><i>egol</i><par n="caredig__adj"/></e>
@@ -52395,7 +52437,6 @@
     <e lm="drysedig"><par n="initial-d"/><i>rysedig</i><par n="caredig__adj"/></e>
     <e lm="dwbl"><par n="initial-d"/><i>wbl</i><par n="caredig__adj"/></e>
     <e lm="dwplecs"><par n="initial-d"/><i>wplecs</i><par n="caredig__adj"/></e>
-    <e lm="dwy"><par n="initial-d"/><i>wy</i><par n="caredig__adj"/></e>
     <e lm="dwyieithog"><par n="initial-d"/><i>wyieithog</i><par n="caredig__adj"/></e>
     <e lm="dwyreiniol"><par n="initial-d"/><i>wyreiniol</i><par n="caredig__adj"/></e>
     <e lm="dwyreiniol"><par n="initial-d"/><i>wyreiniol</i><par n="caredig__adj"/></e>
@@ -52808,7 +52849,8 @@
     <e lm="mynych"><par n="initial-m"/><i>ynych</i><par n="caredig__adj"/></e>
     <e lm="naill"><i>naill</i><par n="caredig__adj"/></e>
     <e lm="naturiol"><i>naturiol</i><par n="caredig__adj"/></e>
-    <e lm="naw"><i>naw</i><par n="caredig__adj"/></e>
+
+
     <e lm="nawfed"><i>nawfed</i><par n="caredig__adj"/></e>
     <e lm="negatif"><i>negatif</i><par n="caredig__adj"/></e>
     <e lm="negyddol"><i>negyddol</i><par n="caredig__adj"/></e>
@@ -52858,8 +52900,6 @@
     <e lm="parhaus"><par n="initial-p"/><i>arhaus</i><par n="caredig__adj"/></e>
     <e lm="parod"><par n="initial-p"/><i>arod</i><par n="caredig__adj"/></e>
     <e lm="partneriaethol"><par n="initial-p"/><i>artneriaethol</i><par n="caredig__adj"/></e>
-    <e lm="pedair"><par n="initial-p"/><i>edair</i><par n="caredig__adj"/></e>
-    <e lm="pedwar"><par n="initial-p"/><i>edwar</i><par n="caredig__adj"/></e>
     <e lm="pedwaredd"><par n="initial-p"/><i>edwaredd</i><par n="caredig__adj"/></e>
     <e lm="pedwerydd"><par n="initial-p"/><i>edwerydd</i><par n="caredig__adj"/></e>
     <e lm="pegynol"><par n="initial-p"/><i>egynol</i><par n="caredig__adj"/></e>
@@ -52917,10 +52957,9 @@
     <e lm="prydlon"><par n="initial-p"/><i>rydlon</i><par n="caredig__adj"/></e>
     <e lm="prynol"><par n="initial-p"/><i>rynol</i><par n="caredig__adj"/></e>
     <e lm="prysur"><par n="initial-p"/><i>rysur</i><par n="caredig__adj"/></e>
-    <e lm="pum"><par n="initial-p"/><i>um</i><par n="caredig__adj"/></e>
     <e lm="pumed"><par n="initial-p"/><i>umed</i><par n="caredig__adj"/></e>
     <e lm="pum-mlynedd"><par n="initial-p"/><i>um-mlynedd</i><par n="caredig__adj"/></e>
-    <e lm="pump"><par n="initial-p"/><i>ump</i><par n="caredig__adj"/></e>
+
     <e lm="pur"><par n="initial-p"/><i>ur</i><par n="caredig__adj"/></e>
     <e lm="pwdr"><par n="initial-p"/><i>wdr</i><par n="caredig__adj"/></e>
     <e lm="pwerus"><par n="initial-p"/><i>werus</i><par n="caredig__adj"/></e>
@@ -52988,7 +53027,8 @@
     <e lm="Rwsiaidd"><i>Rwsiaidd</i><par n="caredig__adj"/></e>
     <e lm="Saesneg"><i>Saesneg</i><par n="caredig__adj"/></e>
     <e lm="safonol"><i>safonol</i><par n="caredig__adj"/></e>
-    <e lm="saith"><i>saith</i><par n="caredig__adj"/></e>
+
+
     <e lm="sâl"><i>sâl</i><par n="caredig__adj"/></e>
     <e lm="sanctaidd"><i>sanctaidd</i><par n="caredig__adj"/></e>
     <e lm="sawl"><i>sawl</i><par n="caredig__adj"/></e>
@@ -53053,7 +53093,6 @@
     <e lm="syth"><i>syth</i><par n="caredig__adj"/></e>
     <e lm="tactegol"><par n="initial-t"/><i>actegol</i><par n="caredig__adj"/></e>
     <e lm="taer"><par n="initial-t"/><i>aer</i><par n="caredig__adj"/></e>
-    <e lm="tair"><par n="initial-t"/><i>air</i><par n="caredig__adj"/></e>
     <e lm="talentog"><par n="initial-t"/><i>alentog</i><par n="caredig__adj"/></e>
     <e lm="talfyredig"><par n="initial-t"/><i>alfyredig</i><par n="caredig__adj"/></e>
     <e lm="tameidiog"><par n="initial-t"/><i>ameidiog</i><par n="caredig__adj"/></e>
@@ -53089,7 +53128,6 @@
     <e lm="trefnol"><par n="initial-t"/><i>refnol</i><par n="caredig__adj"/></e>
     <e lm="trefol"><par n="initial-t"/><i>refol</i><par n="caredig__adj"/></e>
     <e lm="trethadwy"><par n="initial-t"/><i>rethadwy</i><par n="caredig__adj"/></e>
-    <e lm="tri"><par n="initial-t"/><i>ri</i><par n="caredig__adj"/></e>
     <e lm="tri-dimensiwn"><par n="initial-t"/><i>ri-dimensiwn</i><par n="caredig__adj"/></e>
     <e lm="trigain"><par n="initial-t"/><i>rigain</i><par n="caredig__adj"/></e>
     <e lm="trigeinfed"><par n="initial-t"/><i>rigeinfed</i><par n="caredig__adj"/></e>
@@ -53128,7 +53166,6 @@
     <e lm="uchelgeisiol"><i>uchelgeisiol</i><par n="caredig__adj"/></e>
     <e lm="ugain"><i>ugain</i><par n="caredig__adj"/></e>
     <e lm="ugeinfed"><i>ugeinfed</i><par n="caredig__adj"/></e>
-    <e lm="un"><i>un</i><par n="caredig__adj"/></e>
     <e lm="unaidd"><i>unaidd</i><par n="caredig__adj"/></e>
     <e lm="unamserol"><i>unamserol</i><par n="caredig__adj"/></e>
     <e lm="unedig"><i>unedig</i><par n="caredig__adj"/></e>
@@ -53159,7 +53196,8 @@
     <e lm="uwchdechnoleg"><i>uwchdechnoleg</i><par n="caredig__adj"/></e>
     <e lm="uwchradd"><i>uwchradd</i><par n="caredig__adj"/></e>
     <e lm="wrth-ddatganoli"><i>wrth-ddatganoli</i><par n="caredig__adj"/></e>
-    <e lm="wyth"><i>wyth</i><par n="caredig__adj"/></e>
+
+
     <e lm="wythfed"><i>wythfed</i><par n="caredig__adj"/></e>
     <e lm="wythnosol"><i>wythnosol</i><par n="caredig__adj"/></e>
     <e lm="wythol"><i>wythol</i><par n="caredig__adj"/></e>

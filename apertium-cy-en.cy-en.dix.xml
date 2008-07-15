@@ -161,6 +161,31 @@
     <!-- Generic multiword prepositions -->
  
     <e><p><l>yn unol â<s n="pr"/></l><r>in accordance with<s n="pr"/></r></p></e>
+
+    <!-- Numbers -->
+
+    <e><p><l>un<s n="num"/></l><r>one<s n="num"/></r></p></e>
+
+    <e><p><l>dau<s n="num"/></l><r>two<s n="num"/></r></p></e>
+    <e><p><l>dwy<s n="num"/></l><r>two<s n="num"/></r></p></e>
+
+    <e><p><l>tri<s n="num"/></l><r>three<s n="num"/></r></p></e>
+    <e><p><l>tair<s n="num"/></l><r>three<s n="num"/></r></p></e>
+
+    <e><p><l>pedair<s n="num"/></l><r>four<s n="num"/></r></p></e>
+    <e><p><l>pedwar<s n="num"/></l><r>four<s n="num"/></r></p></e>
+
+    <e><p><l>pum<s n="num"/></l><r>five<s n="num"/></r></p></e>
+    <e><p><l>pump<s n="num"/></l><r>five<s n="num"/></r></p></e>
+
+    <e><p><l>chwe<s n="num"/></l><r>six<s n="num"/></r></p></e>
+    <e><p><l>chwech<s n="num"/></l><r>six<s n="num"/></r></p></e>
+
+    <e><p><l>saith<s n="num"/></l><r>seven<s n="num"/></r></p></e>
+    <e><p><l>wyth<s n="num"/></l><r>eight<s n="num"/></r></p></e>
+    <e><p><l>naw<s n="num"/></l><r>nine<s n="num"/></r></p></e>
+    <e><p><l>deg<s n="num"/></l><r>ten<s n="num"/></r></p></e>
+
     
     <!-- Conjunctions -->
  
@@ -1203,6 +1228,7 @@
     <e><p><l>dedfryd<s n="n"/><s n="f"/></l><r>verdict<s n="n"/></r></p></e>
     <e><p><l>defnyddenw<s n="n"/><s n="m"/></l><r>username<s n="n"/></r></p></e>
     <e><p><l>defnyddioldeb<s n="n"/><s n="m"/></l><r>utility<s n="n"/></r></p></e>
+
     <e><p><l>deg<s n="n"/><s n="m"/></l><r>ten<s n="n"/></r></p></e>
     <e><p><l>degawd<s n="n"/><s n="m"/></l><r>decade<s n="n"/></r></p></e>
     <e><p><l>dehongliad<s n="n"/><s n="m"/></l><r>interpretation<s n="n"/></r></p></e>
@@ -4455,8 +4481,7 @@
     <e><p><l>cerddorol<s n="adj"/></l><r>musical<s n="adj"/></r></p></e>
     <e><p><l>ceugrwm<s n="adj"/></l><r>concave<s n="adj"/></r></p></e>
     <e><p><l>chwarterol<s n="adj"/></l><r>quarterly<s n="adj"/></r></p></e>
-    <e><p><l>chwe<s n="adj"/></l><r>six<s n="adj"/></r></p></e>
-    <e><p><l>chwech<s n="adj"/></l><r>six<s n="adj"/></r></p></e>
+
     <e><p><l>chweched<s n="adj"/></l><r>sixth<s n="adj"/></r></p></e>
     <e><p><l>chwerthinllyd<s n="adj"/></l><r>laughable<s n="adj"/></r></p></e>
     <e><p><l>chwerw<s n="adj"/></l><r>bitter<s n="adj"/></r></p></e>
@@ -4612,8 +4637,10 @@
     <e><p><l>cymharol<s n="adj"/></l><r>comparative<s n="adj"/></r></p></e>
     <e><p><l>cymhleth<s n="adj"/></l><r>complex<s n="adj"/></r></p></e>
     <e><p><l>cymhlyg<s n="adj"/></l><r>complex<s n="adj"/></r></p></e>
+
     <e><p><l>Cymraeg<s n="adj"/></l><r>Welsh<s n="adj"/></r></p></e>
     <e><p><l>Cymreig<s n="adj"/></l><r>Welsh<s n="adj"/></r></p></e>
+
     <e><p><l>Cymru-Gyfan<s n="adj"/></l><r>All-Wales<s n="adj"/></r></p></e>
     <e><p><l>cymunedol<s n="adj"/></l><r>community<s n="adj"/></r></p></e>
     <e><p><l>cymwys<s n="adj"/></l><r>fit<s n="adj"/><s n="sint"/></r></p></e> 
@@ -4683,7 +4710,6 @@
     <e><p><l>datganoledig<s n="adj"/></l><r>decentralised<s n="adj"/></r></p></e>
     <e><p><l>datgysylltiedig<s n="adj"/></l><r>detached<s n="adj"/></r></p></e>
     <e><p><l>datgysylltiol<s n="adj"/></l><r>detachable<s n="adj"/></r></p></e>
-    <e><p><l>dau<s n="adj"/></l><r>two<s n="adj"/></r></p></e>
     <e><p><l>dau-ddimensiwn<s n="adj"/></l><r>two-dimensional<s n="adj"/></r></p></e>
     <e><p><l>dawnus<s n="adj"/></l><r>gifted<s n="adj"/></r></p></e>
     <e><p><l>dealladwy<s n="adj"/></l><r>understandable<s n="adj"/></r></p></e>
@@ -4694,7 +4720,9 @@
     <e><p><l>deddfwriaethol<s n="adj"/></l><r>legislative<s n="adj"/></r></p></e>
     <e><p><l>defnyddiadwy<s n="adj"/></l><r>useable<s n="adj"/></r></p></e>
     <e><p><l>defnyddiol<s n="adj"/></l><r>useful<s n="adj"/></r></p></e>
-    <e><p><l>deg<s n="adj"/></l><r>ten<s n="adj"/></r></p></e>
+
+
+
     <e><p><l>degfed<s n="adj"/></l><r>tenth<s n="adj"/></r></p></e>
     <e><p><l>degol<s n="adj"/></l><r>decimal<s n="adj"/></r></p></e>
     <e><p><l>degol<s n="adj"/></l><r>decimal<s n="adj"/></r></p></e>
@@ -4817,7 +4845,6 @@
     <e><p><l>drysedig<s n="adj"/></l><r>obfuscated<s n="adj"/></r></p></e>
     <e><p><l>dwbl<s n="adj"/></l><r>double<s n="adj"/></r></p></e>
     <e><p><l>dwplecs<s n="adj"/></l><r>duplex<s n="adj"/></r></p></e>
-    <e><p><l>dwy<s n="adj"/></l><r>two<s n="adj"/></r></p></e>
     <e><p><l>dwyieithog<s n="adj"/></l><r>bilingual<s n="adj"/></r></p></e>
     <e r="RL"><p><l>dwyreiniol<s n="adj"/></l><r>oriental<s n="adj"/></r></p></e>
     <e><p><l>dwyreiniol<s n="adj"/></l><r>eastern<s n="adj"/></r></p></e>
@@ -5227,7 +5254,7 @@
     <e><p><l>mynych<s n="adj"/></l><r>frequent<s n="adj"/></r></p></e>
     <e><p><l>naill<s n="adj"/></l><r>either<s n="adj"/></r></p></e>
     <e><p><l>naturiol<s n="adj"/></l><r>natural<s n="adj"/></r></p></e>
-    <e><p><l>naw<s n="adj"/></l><r>nine<s n="adj"/></r></p></e>
+
     <e><p><l>nawfed<s n="adj"/></l><r>ninth<s n="adj"/></r></p></e>
     <e><p><l>negatif<s n="adj"/></l><r>negative<s n="adj"/></r></p></e>
     <e><p><l>negyddol<s n="adj"/></l><r>negative<s n="adj"/></r></p></e>
@@ -5277,8 +5304,8 @@
     <e><p><l>parhaus<s n="adj"/></l><r>perpetual<s n="adj"/></r></p></e>
     <e><p><l>parod<s n="adj"/></l><r>ready<s n="adj"/></r></p></e>
     <e><p><l>partneriaethol<s n="adj"/></l><r>partnership<s n="adj"/></r></p></e>
-    <e><p><l>pedair<s n="adj"/></l><r>four<s n="adj"/></r></p></e>
-    <e><p><l>pedwar<s n="adj"/></l><r>four<s n="adj"/></r></p></e>
+
+
     <e><p><l>pedwaredd<s n="adj"/></l><r>fourth<s n="adj"/></r></p></e>
     <e><p><l>pedwerydd<s n="adj"/></l><r>fourth<s n="adj"/></r></p></e>
     <e><p><l>pegynol<s n="adj"/></l><r>polar<s n="adj"/></r></p></e>
@@ -5339,10 +5366,10 @@
     <e><p><l>prydlon<s n="adj"/></l><r>timely<s n="adj"/></r></p></e>
     <e><p><l>prynol<s n="adj"/></l><r>purchasing<s n="adj"/></r></p></e>
     <e><p><l>prysur<s n="adj"/></l><r>busy<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>pum<s n="adj"/></l><r>five<s n="adj"/></r></p></e>
+
+
     <e><p><l>pumed<s n="adj"/></l><r>fifth<s n="adj"/></r></p></e>
     <e><p><l>pum-mlynedd<s n="adj"/></l><r>five-year<s n="adj"/></r></p></e>
-    <e><p><l>pump<s n="adj"/></l><r>five<s n="adj"/></r></p></e>
     <e><p><l>pur<s n="adj"/></l><r>pure<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>pwdr<s n="adj"/></l><r>rotten<s n="adj"/></r></p></e>
     <e><p><l>pwerus<s n="adj"/></l><r>powerful<s n="adj"/></r></p></e>
@@ -5410,7 +5437,7 @@
     <e><p><l>Rwsiaidd<s n="adj"/></l><r>Russian<s n="adj"/></r></p></e>
     <e><p><l>Saesneg<s n="adj"/></l><r>English<s n="adj"/></r></p></e>
     <e><p><l>safonol<s n="adj"/></l><r>standard<s n="adj"/></r></p></e>
-    <e><p><l>saith<s n="adj"/></l><r>seven<s n="adj"/></r></p></e>
+
     <e><p><l>sâl<s n="adj"/></l><r>ill<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>sanctaidd<s n="adj"/></l><r>holy<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>sawl<s n="adj"/></l><r>many<s n="adj"/></r></p></e>
@@ -5475,7 +5502,6 @@
     <e><p><l>syth<s n="adj"/></l><r>straight<s n="adj"/></r></p></e>
     <e><p><l>tactegol<s n="adj"/></l><r>tactical<s n="adj"/></r></p></e>
     <e><p><l>taer<s n="adj"/></l><r>urgent<s n="adj"/></r></p></e>
-    <e><p><l>tair<s n="adj"/></l><r>three<s n="adj"/></r></p></e>
     <e><p><l>talentog<s n="adj"/></l><r>talented<s n="adj"/></r></p></e>
     <e><p><l>talfyredig<s n="adj"/></l><r>abbreviated<s n="adj"/></r></p></e>
     <e><p><l>tameidiog<s n="adj"/></l><r>fragmented<s n="adj"/></r></p></e>
@@ -5550,7 +5576,6 @@
     <e><p><l>uchelgeisiol<s n="adj"/></l><r>ambitious<s n="adj"/></r></p></e>
     <e><p><l>ugain<s n="adj"/></l><r>twenty<s n="adj"/></r></p></e>
     <e><p><l>ugeinfed<s n="adj"/></l><r>twentieth<s n="adj"/></r></p></e>
-    <e><p><l>un<s n="adj"/></l><r>one<s n="adj"/></r></p></e>
     <e><p><l>unaidd<s n="adj"/></l><r>unary<s n="adj"/></r></p></e>
     <e><p><l>unamserol<s n="adj"/></l><r>isochronous<s n="adj"/></r></p></e>
     <e><p><l>unedig<s n="adj"/></l><r>unified<s n="adj"/></r></p></e>
@@ -5582,7 +5607,7 @@
     <e><p><l>uwchdechnoleg<s n="adj"/></l><r>hi-tech<s n="adj"/></r></p></e>
     <e><p><l>uwchradd<s n="adj"/></l><r>superior<s n="adj"/></r></p></e>
     <e><p><l>wrth-ddatganoli<s n="adj"/></l><r>anti-decentralisation<s n="adj"/></r></p></e>
-    <e><p><l>wyth<s n="adj"/></l><r>eight<s n="adj"/></r></p></e>
+
     <e><p><l>wythfed<s n="adj"/></l><r>eighth<s n="adj"/></r></p></e>
     <e><p><l>wythnosol<s n="adj"/></l><r>weekly<s n="adj"/></r></p></e>
     <e><p><l>wythol<s n="adj"/></l><r>octal<s n="adj"/></r></p></e>

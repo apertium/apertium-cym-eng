@@ -2000,6 +2000,12 @@
       </e>
     </pardef>
     <pardef n="two__num">
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="num"/><s n="pl"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l/>
