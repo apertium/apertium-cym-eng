@@ -53,6 +53,7 @@
     <e><p><l>unrhywun<s n="prn"/></l><r>anyone<s n="prn"/></r></p></e>
 
     <e><p><l>pa<s n="prn"/></l><r>which<s n="prn"/></r></p></e>
+    <e><p><l>beth<s n="prn"/></l><r>what<s n="prn"/></r></p></e>
 
     <e><p><l>a<s n="rel"/></l><r>that<s n="rel"/></r></p></e>
  
@@ -3259,7 +3260,10 @@
     <e><p><l>derbyniwr<s n="n"/><s n="m"/></l><r>receiver<s n="n"/></r></p></e>
     <e><p><l>dyluniwr<s n="n"/><s n="m"/></l><r>designer<s n="n"/></r></p></e>
     <e><p><l>goruchwyliwr<s n="n"/><s n="m"/></l><r>supervisor<s n="n"/></r></p></e>
+
     <e><p><l>gweithiwr<s n="n"/><s n="m"/></l><r>worker<s n="n"/></r></p></e>
+    <e><p><l>gweithiwr<g><b/>mudol</g><s n="n"/><s n="m"/></l><r>migrant<b/>worker<s n="n"/></r></p></e>
+
     <e><p><l>gwyliwr<s n="n"/><s n="m"/></l><r>spectator<s n="n"/></r></p></e>
     <e><p><l>hawliwr<s n="n"/><s n="m"/></l><r>claimant<s n="n"/></r></p></e>
     <e><p><l>mapiwr<s n="n"/><s n="m"/></l><r>mapper<s n="n"/></r></p></e>
@@ -5461,6 +5465,7 @@
     <e><p><l>symbolaidd<s n="adj"/></l><r>symbolic<s n="adj"/></r></p></e>
     <e><p><l>symudadwy<s n="adj"/></l><r>removable<s n="adj"/></r></p></e>
     <e><p><l>symudol<s n="adj"/></l><r>mobile<s n="adj"/></r></p></e>
+    <e><p><l>mudol<s n="adj"/></l><r>moving<s n="adj"/></r></p></e>
     <e><p><l>syn<s n="adj"/></l><r>amazed<s n="adj"/></r></p></e>
     <e><p><l>synhwyrol<s n="adj"/></l><r>sensible<s n="adj"/></r></p></e>
     <e><p><l>syntheseiddio<s n="adj"/></l><r>synthesise<s n="adj"/></r></p></e>
@@ -10131,6 +10136,7 @@
     <e><p><l>Llanelli<s n="np"/><s n="top"/><s n="f"/></l><r>Llanelli<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llangollen<s n="np"/><s n="top"/><s n="f"/></l><r>Llangollen<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Tregŵyr<s n="np"/><s n="top"/><s n="f"/></l><r>Tregŵyr<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Treganna<s n="np"/><s n="top"/><s n="f"/></l><r>Treganna<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Wrecsam<s n="np"/><s n="top"/><s n="f"/></l><r>Wrexham<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ynys Môn<s n="np"/><s n="top"/><s n="f"/></l><r>Anglesey<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Pontypridd<s n="np"/><s n="top"/><s n="f"/></l><r>Pontypridd<s n="np"/><s n="top"/></r></p></e>
