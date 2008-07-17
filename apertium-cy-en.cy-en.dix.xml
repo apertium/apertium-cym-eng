@@ -5602,7 +5602,7 @@
     <e><p><l>unfryd<s n="adj"/></l><r>unanimous<s n="adj"/></r></p></e>
     <e><p><l>unfrydol<s n="adj"/></l><r>unanimous<s n="adj"/></r></p></e>
     <e><p><l>uniaith<s n="adj"/></l><r>monoglot<s n="adj"/></r></p></e>
-    <e><p><l>unig<s n="adj"/></l><r>lonely<s n="adj"/><s n="sint"/></r></p></e> 
+    <e r="RL"><p><l>unig<s n="adj"/></l><r>lonely<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>unig<s n="adj"/></l><r>only<s n="adj"/></r></p></e>
     <e><p><l>unigol<s n="adj"/></l><r>individual<s n="adj"/></r></p></e>
     <e><p><l>unigol<s n="adj"/></l><r>singular<s n="adj"/></r></p></e>
