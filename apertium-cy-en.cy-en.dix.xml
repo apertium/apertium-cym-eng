@@ -52,9 +52,11 @@
     <e r="RL"><p><l>yr<s n="det"/><s n="def"/></l><r>this<s n="det"/><s n="dem"/></r></p></e>
  
     <e><p><l>rhywun<s n="prn"/></l><r>someone<s n="prn"/></r></p></e>
+    <e><p><l>pawb<s n="prn"/></l><r>everyone<s n="prn"/></r></p></e>
     <e><p><l>unrhywun<s n="prn"/></l><r>anyone<s n="prn"/></r></p></e>
 
     <e><p><l>pa<s n="prn"/></l><r>which<s n="prn"/></r></p></e>
+    <e><p><l>pwy<s n="prn"/></l><r>who<s n="prn"/></r></p></e>
     <e><p><l>beth<s n="prn"/></l><r>what<s n="prn"/></r></p></e>
 
     <e><p><l>a<s n="rel"/></l><r>that<s n="rel"/></r></p></e>
@@ -134,6 +136,7 @@
     <e><p><l>gyferbyn â<s n="pr"/></l><r>opposite<s n="pr"/></r></p></e>
     <e><p><l>am ben<s n="pr"/></l><r>concerning<s n="pr"/></r></p></e>
     <e><p><l>ar ben<s n="pr"/></l><r>on top of<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>eg ar ben<s n="pr"/></l><r>on top of<s n="pr"/></r></p></e>
     <e><p><l>ar gyfyl<s n="pr"/></l><r>near<s n="pr"/></r></p></e>
     <e><p><l>ar fedr<s n="pr"/></l><r>on the point of<s n="pr"/></r></p></e>
     <e><p><l>ar ochr<s n="pr"/></l><r>on the side of<s n="pr"/></r></p></e>
@@ -2437,8 +2440,12 @@
     <e><p><l>ysgŵd<s n="n"/><s n="m"/></l><r>shove<s n="n"/></r></p></e>
     <e><p><l>ystadegaeth<s n="n"/><s n="f"/></l><r>statistics<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>academydd<s n="n"/><s n="m"/></l><r>academic<s n="n"/></r></p></e>
+    <e><p><l>canghellor<s n="n"/><s n="m"/></l><r>chancellor<s n="n"/></r></p></e>
     <e><p><l>acen<s n="n"/><s n="f"/></l><r>accent<s n="n"/></r></p></e>
-    <e><p><l>achos<s n="n"/><s n="m"/></l><r>cause<s n="n"/></r></p></e>
+
+    <e r="RL"><p><l>achos<s n="n"/><s n="m"/></l><r>cause<s n="n"/></r></p></e>
+    <e><p><l>achos<s n="n"/><s n="m"/></l><r>case<s n="n"/></r></p></e>
+
     <e><p><l>actor<s n="n"/><s n="m"/></l><r>actor<s n="n"/></r></p></e>
     <e><p><l>addasydd<s n="n"/><s n="m"/></l><r>adapter<s n="n"/></r></p></e>
     <e><p><l>addasydd<s n="n"/><s n="m"/></l><r>modifier<s n="n"/></r></p></e>
@@ -4954,7 +4961,7 @@
     <e><p><l>fformig<s n="adj"/></l><r>formic<s n="adj"/></r></p></e>
     <e><p><l>ffracsiynol<s n="adj"/></l><r>fractional<s n="adj"/></r></p></e>
     <e><p><l>ffres<s n="adj"/></l><r>fresh<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>ffug<s n="adj"/></l><r>pretend<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>ffug<s n="adj"/></l><r>pretend<s n="adj"/></r></p></e>
     <e><p><l>ffug<s n="adj"/></l><r>false<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>ffurfdroadol<s n="adj"/></l><r>inflectional<s n="adj"/></r></p></e>
     <e><p><l>ffurfdroëdig<s n="adj"/></l><r>inflected<s n="adj"/></r></p></e>
@@ -5682,7 +5689,7 @@
     <e><p><l>eang<s n="adj"/><s n="sint"/></l><r>extensive<s n="adj"/></r></p></e>
     <e><p><l>enwog<s n="adj"/></l><r>famous<s n="adj"/></r></p></e>
     <e><p><l>gwag<s n="adj"/></l><r>empty<s n="adj"/></r></p></e> 
-    <e><p><l>helaeth<s n="adj"/></l><r>ample<s n="adj"/></r></p></e>
+    <e><p><l>helaeth<s n="adj"/><s n="sint"/></l><r>ample<s n="adj"/></r></p></e>
     <e><p><l>hen<s n="adj"/><s n="sint"/></l><r>old<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>hir<s n="adj"/><s n="sint"/></l><r>long<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>hwyr<s n="adj"/></l><r>late<s n="adj"/></r></p></e>
@@ -10163,6 +10170,7 @@
     <e><p><l>Corc<s n="np"/><s n="top"/><s n="f"/></l><r>Cork<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Casnewydd<s n="np"/><s n="top"/><s n="f"/></l><r>Newport<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Cwmbrân<s n="np"/><s n="top"/><s n="f"/></l><r>Cwmbrân<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Cwm Taf<s n="np"/><s n="top"/><s n="f"/></l><r>Cwm Taf<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caerfyrddin<s n="np"/><s n="top"/><s n="f"/></l><r>Carmarthen<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dolgellau<s n="np"/><s n="top"/><s n="f"/></l><r>Dolgellau<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llundain<s n="np"/><s n="top"/><s n="f"/></l><r>London<s n="np"/><s n="top"/></r></p></e>

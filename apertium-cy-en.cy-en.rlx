@@ -35,7 +35,7 @@ LIST Prep_i = ("i" pr);			# the preposition "i" (to)
 
 # mutation for individual letters
 # surface form regex, base form regex
-LIST MSoftC = ("<g.*>"r "c.*"r) ("<d.*>"r "t.*"r);
+LIST MSoftC = ("<g.*>"r "c.*"r) ("<d.*>"r "t.*"r) ("<f.*>"r "b.*"r);
 LIST MAspC = ("<ch.*>"r "c.*"r) ;
 LIST MNasC = ("<n.*>"r "d.*"r) ("<m.*>"r "b.*"r);
 
@@ -98,8 +98,22 @@ REMOVE VblexPrs IF (0 V);
 REMOVE Imp IF (0 (vbser)); 
 
 # pobl y de
-REMOVE ("<d.*>"r "t.*"r) IF (-1 DetDef);
+REMOVE MSoftC IF (-1 DetDef);
 
 # Mae'r modd y mae gweithwyr mudol
-REMOVE ("<m.*>"r "b.*"r) IF (-1 DetDef);
+# nad oedd modd
+# Dim modd ei
+REMOVE MNasC IF ((-1 DetDef) OR (-1 V) OR (-1 (n m)));
 
+#aeth fo
+SELECT PrnSubj IF (0 PrnSubj) (0 (vbser prs)) (-1 (vblex past));
+
+#cyfarfod nos
+REMOVE MNasC IF (0 (n f)) (-1 (n m));
+
+#o ryw fath
+REMOVE MSoftC IF (0 (n m)) (-1 NC);
+
+#Edwina Hart
+
+SELECT (np ant) IF (1 (np cog));
