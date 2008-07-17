@@ -27806,9 +27806,11 @@
     <e lm="whisper"><i>whisper</i><par n="house__n"/></e>
 
     <e lm="Ifans"><i>Ifans</i><par n="Ifans__np"/></e>
+    <e lm="Haf"><i>Haf</i><par n="Ifans__np"/></e>
     <e lm="Havard"><i>Havard</i><par n="Ifans__np"/></e>
     <e lm="Williams"><i>Williams</i><par n="Ifans__np"/></e>
     <e lm="Edwards"><i>Edwards</i><par n="Ifans__np"/></e>
+    <e lm="Mills"><i>Mills</i><par n="Ifans__np"/></e>
     <e lm="Morgan"><i>Morgan</i><par n="Ifans__np"/></e>
     <e lm="Davies"><i>Davies</i><par n="Ifans__np"/></e>
     <e lm="Evans"><i>Evans</i><par n="Ifans__np"/></e>
@@ -27841,6 +27843,7 @@
     <e lm="Owain"><i>Owain</i><par n="Mark__np"/></e>
     <e lm="Rhys"><i>Rhys</i><par n="Mark__np"/></e>
     <e lm="Siôn"><i>Siôn</i><par n="Mary__np"/></e>
+    <e lm="Sioned"><i>Sioned</i><par n="Mary__np"/></e>
     <e lm="Talfan"><i>Talfan</i><par n="Mark__np"/></e>
 
 
@@ -28517,6 +28520,7 @@
     <e lm="Jakys"><i>Jakys</i><par n="Mark__np"/></e>
     <e lm="James"><i>James</i><par n="Mark__np"/></e>
     <e lm="Jane"><i>Jane</i><par n="Mary__np"/></e>
+    <e lm="Janet"><i>Janet</i><par n="Mary__np"/></e>
     <e lm="Jan"><i>Jan</i><par n="Mary__np"/></e>
     <e lm="Jaume"><i>Jaume</i><par n="Mark__np"/></e>
     <e lm="Jeanne"><i>Jeanne</i><par n="Mary__np"/></e>
