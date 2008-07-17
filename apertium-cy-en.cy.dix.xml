@@ -35,7 +35,7 @@
         <re>[A-Z][A-Z]+([A-Z])?</re>
         <p>
           <l/>
-          <r><s n="n"/><s n="acr"/></r>
+          <r><s n="n"/><s n="acr"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -693,6 +693,36 @@
       </e>
     </pardef>
 
+    <pardef n="S__yr">
+      <e>
+        <p>
+          <l>'r</l>
+          <r><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r/>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="S__yn">
+      <e>
+        <p>
+          <l>'n</l>
+          <r><j/>yn<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r/>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="fy__det">
       <e>
         <p>
@@ -769,6 +799,7 @@
         </p>
       </e>
     </pardef>
+
 
     <pardef n="pa__prn">
       <e>
@@ -3141,6 +3172,8 @@
           <l>i</l>
           <r>i<s n="pr"/></r>
         </p>
+        <par n="S__yr"/>
+        <par n="S__yn"/>
       </e>
       <e>
         <p>
@@ -3276,6 +3309,8 @@
           <l/>
           <r><s n="pr"/></r>
         </p>
+        <par n="S__yr"/>
+        <par n="S__yn"/>
       </e>
     </pardef>
 
@@ -12111,8 +12146,6 @@
       <e>
         <p>
           <l/>
-          
-            
           <r><s n="vblex"/><s n="inf"/></r>
         </p>
       </e>
@@ -48029,9 +48062,11 @@
     <e lm="pronoms personals de subjecte"><i/><par n="prsubj__prn"/></e>
     <e lm="unrhywun"><i>unrhywun</i><par n="unrhywun__prn"/></e>
     <e lm="rhywun"><i>rhywun</i><par n="unrhywun__prn"/></e>
+    <e lm="pawb"><par n="initial-p"/><i>awb</i><par n="unrhywun__prn"/></e>
 
     <e lm="pa"><i>pa</i><par n="pa__prn"/></e>
     <e lm="beth"><i>beth</i><par n="pa__prn"/></e>
+    <e lm="pwy"><i>pwy</i><par n="pa__prn"/></e>
 
 <!--
     <e lm="a"><i>a</i><par n="a__rel"/></e>
@@ -48099,6 +48134,7 @@
     <e lm="gyferbyn â"><i>gyferbyn<b/>â</i><par n="gyda__pr"/></e>
     <e lm="am ben"><i>am<b/>ben</i><par n="gyda__pr"/></e>
     <e lm="ar ben"><i>ar<b/>ben</i><par n="gyda__pr"/></e>
+    <e lm="eg ar ben"><i>eg<b/>ar<b/>ben</i><par n="gyda__pr"/></e>
     <e lm="ar gyfyl"><i>ar<b/>gyfyl</i><par n="gyda__pr"/></e>
     <e lm="ar fedr"><i>ar<b/>fedr</i><par n="gyda__pr"/></e>
     <e lm="ar ochr"><i>ar<b/>ochr</i><par n="gyda__pr"/></e>
@@ -48123,7 +48159,6 @@
     <e lm="ynglŷn â"><i>ynglŷn<b/>â</i><par n="gyda__pr"/></e>
     <e lm="ynghanol"><i>ynghanol</i><par n="gyda__pr"/></e>
     <e lm="ymhen"><i>ymhen</i><par n="gyda__pr"/></e>
-    <e lm="i"><i>i</i><par n="gyda__pr"/></e>
     <e lm="yn lle"><i>yn<b/>lle</i><par n="gyda__pr"/></e>
 
 
@@ -48302,8 +48337,10 @@
     <e lm="lembyd"><i>lembyd</i><par n="yma__adv"/></e>
     <e lm="llynedd"><i>llynedd</i><par n="yma__adv"/></e>
     <e lm="masnachol-ei-sail"><i>masnachol-ei-sail</i><par n="yma__adv"/></e>
+
     <e lm="mi"><i>mi</i><par n="yma__adv"/></e>
     <e lm="mo"><i>mo</i><par n="yma__adv"/></e>
+
     <e lm="mor"><i>mor</i><par n="yma__adv"/></e>
     <e lm="mwyach"><i>mwyach</i><par n="yma__adv"/></e>
     <e lm="mwy na thebyg"><i>mwy<b/>na<b/>thebyg</i><par n="yma__adv"/></e>
@@ -50010,6 +50047,7 @@
     <e lm="meddalwedd"><par n="initial-m"/><i>eddalwedd</i><par n="awyrgylch__n"/></e>
     <e lm="meil"><par n="initial-m"/><i>eil</i><par n="awyrgylch__n"/></e>
     <e lm="dyn"><par n="initial-d"/><i>yn</i><par n="academydd__n"/></e>
+    <e lm="canghellor"><par n="initial-c"/><i>anghellor</i><par n="academydd__n"/></e>
     <e lm="gormod"><par n="initial-g"/><i>ormod</i><par n="academydd__n"/></e>
     <e lm="plotydd"><par n="initial-p"/><i>lotydd</i><par n="academydd__n"/></e>
     <e lm="academydd"><i>academydd</i><par n="academydd__n"/></e>
@@ -53249,6 +53287,19 @@
     <e lm="ystyrlon"><i>ystyrlon</i><par n="caredig__adj"/></e>
     <e lm="ystyrlon"><i>ystyrlon</i><par n="caredig__adj"/></e>
 
+    <!-- Verbs -->
+
+    <!-- Check this -->
+    <e lm="sydd" r="LR">
+      <p>
+        <l>sydd</l>
+        <r>a<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/><j/>bod<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e lm="bod"><i/><par n="/bod__vbser"/></e>
+
+
 
     <!-- Multiword verbs -->
 
@@ -53736,9 +53787,6 @@
     <e lm="blysu"><par n="initial-b"/><i>lys</i><par n="aberth/u__vblex"/></e>
     <e lm="bochio"><par n="initial-b"/><i>ochi</i><par n="achlysur/o__vblex"/></e>
     <e lm="bocsio"><par n="initial-b"/><i>ocsi</i><par n="achlysur/o__vblex"/></e>
-
-    <e lm="bod"><i/><par n="/bod__vbser"/></e>
-
     <e lm="boddhau"><par n="initial-b"/><i>oddh</i><par n="adfywh/au__vblex"/></e>
     <e lm="boddi"><par n="initial-b"/><i>odd</i><par n="achos/i__vblex"/></e>
     <e lm="boddloni"><par n="initial-b"/><i>oddlon</i><par n="achos/i__vblex"/></e>
@@ -56197,7 +56245,12 @@
     <e lm="pwtio"><par n="initial-p"/><i>wti</i><par n="achlysur/o__vblex"/></e>
     <e lm="pwyllo"><par n="initial-p"/><i>wyll</i><par n="achlysur/o__vblex"/></e>
     <e lm="pwyntio"><par n="initial-p"/><i>wynti</i><par n="achlysur/o__vblex"/></e>
+
+    <!--
     <e lm="pwyo"><par n="initial-p"/><i>wy</i><par n="aildderbyn__vblex"/></e>
+    -->
+    <e lm="pwyo"><par n="initial-p"/><i>wy</i><par n="achlysur/o__vblex"/></e>
+
     <e lm="pwysleisio"><par n="initial-p"/><i>wysleis</i><par n="clyt/io__vblex"/></e>
     <e lm="pwyso"><par n="initial-p"/><i>wys</i><par n="achlysur/o__vblex"/></e>
     <e lm="pwytho"><par n="initial-p"/><i>wyth</i><par n="achlysur/o__vblex"/></e>
@@ -57151,6 +57204,7 @@
     <e lm="Caerdydd"><par n="initial-C"/><i>aerdydd</i><par n="Blaenafon__np"/></e>
     <e lm="Casnewydd"><par n="initial-C"/><i>asnewydd</i><par n="Blaenafon__np"/></e>
     <e lm="Cwmbrân"><par n="initial-C"/><i>wmbrân</i><par n="Blaenafon__np"/></e>
+    <e lm="Cwm Taf"><par n="initial-C"/><i>wm<b/>Taf</i><par n="Blaenafon__np"/></e>
     <e lm="Caerfyrddin"><par n="initial-C"/><i>aerfyrddin</i><par n="Blaenafon__np"/></e>
     <e lm="Corc"><par n="initial-C"/><i>orc</i><par n="Blaenafon__np"/></e>
     <e lm="Doc Penfro"><par n="initial-D"/><i>oc<b/>Penfro</i><par n="Blaenafon__np"/></e>
@@ -57493,21 +57547,6 @@
       </p>
     </e>
 
-
-    <e lm="i'n" r="LR">
-      <p>
-        <l>i'n</l>
-        <r>i<s n="pr"/><j/>yn<s n="pr"/></r>
-      </p>
-    </e>
-
-
-    <e lm="i'r" r="LR">
-      <p>
-        <l>i'r</l>
-        <r>i<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
-      </p>
-    </e>
 
     <e lm="i mewn i'r" r="LR">
       <p>

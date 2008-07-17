@@ -35,7 +35,21 @@
         <re>[A-Z][A-Z]+([A-Z])?</re>
         <p>
           <l/>
-          <r><s n="n"/><s n="acr"/></r>
+          <r><s n="n"/><s n="acr"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <re>[A-Z][A-Z]+([A-Z])?</re>
+        <p>
+          <l/>
+          <r><s n="n"/><s n="acr"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <re>[A-Z][A-Z]+([A-Z])?</re>
+        <p>
+          <l/>
+          <r><s n="n"/><s n="acr"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -9287,6 +9301,7 @@
     <e lm="the most"><p><l>the<b/>most</l><r>the<s n="det"/><s n="def"/><s n="sp"/><j/>most<s n="preadv"/></r></p></e>
     <e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
     <e lm="including"><i>including</i><par n="expensive__adj"/></e>
+    <e lm="ample"><i>ample</i><par n="expensive__adj"/></e>
     <e lm="awesome"><i>awesome</i><par n="expensive__adj"/></e>
     <e lm="based"><i>based</i><par n="expensive__adj"/></e>
     <e lm="confident"><i>confident</i><par n="expensive__adj"/></e>
@@ -9515,6 +9530,7 @@
     <e lm="typical"><i>typical</i><par n="expensive__adj"/></e>
     <e lm="traditionalistic"><i>traditionalistic</i><par n="expensive__adj"/></e>
     <e lm="correct"><i>correct</i><par n="expensive__adj"/></e>
+    <e lm="incorrect"><i>incorrect</i><par n="expensive__adj"/></e>
     <e lm="exterior"><i>exterior</i><par n="expensive__adj"/></e>
     <e lm="vivid"><i>vivid</i><par n="expensive__adj"/></e>
     <e lm="calculable"><i>calculable</i><par n="expensive__adj"/></e>
@@ -12597,6 +12613,7 @@
     <e lm="fashionable"><i>fashionable</i><par n="expensive__adj"/></e>
     <e lm="foolish"><i>foolish</i><par n="expensive__adj"/></e>
     <e lm="fortunate"><i>fortunate</i><par n="expensive__adj"/></e>
+    <e lm="unfortunate"><i>unfortunate</i><par n="expensive__adj"/></e>
     <e lm="fucking"><i>fucking</i><par n="expensive__adj"/></e>
     <e lm="furious"><i>furious</i><par n="expensive__adj"/></e>
     <e lm="gentle"><i>gentle</i><par n="nice/__adj"/></e>
@@ -15336,6 +15353,8 @@
     <e lm="apart from the fact that"><i>apart<b/>from<b/>the<b/>fact<b/>that</i><par n="after__cnjadv"/></e>
     <e lm="on which"><i>on<b/>which</i><par n="at__pr"/></e>
     <e lm="inside"><i>inside</i><par n="at__pr"/></e>
+    <e lm="past"><i>past</i><par n="at__pr"/></e>
+
     <e lm="with reference to"><i>with<b/>reference<b/>to</i><par n="at__pr"/></e>
     <e lm="in relation to"><i>in<b/>relation<b/>to</i><par n="at__pr"/></e>
     <e lm="concerning"><i>concerning</i><par n="at__pr"/></e>
@@ -17318,7 +17337,6 @@
     <e lm="bidding"><i>bidding</i><par n="house__n"/></e>
     <e lm="vegetable"><i>vegetable</i><par n="house__n"/></e>
     <e lm="march"><i>march</i><par n="access__n"/></e>
-    <e r="LR"><i>March</i><par n="access__n"/></e>
     <e lm="shame"><i>shame</i><par n="house__n"/></e>
     <e lm="anchor"><i>anchor</i><par n="house__n"/></e>
     <e lm="aim"><i>aim</i><par n="house__n"/></e>
@@ -27792,11 +27810,54 @@
     <e lm="Williams"><i>Williams</i><par n="Ifans__np"/></e>
     <e lm="Edwards"><i>Edwards</i><par n="Ifans__np"/></e>
     <e lm="Morgan"><i>Morgan</i><par n="Ifans__np"/></e>
+    <e lm="Davies"><i>Davies</i><par n="Ifans__np"/></e>
+    <e lm="Evans"><i>Evans</i><par n="Ifans__np"/></e>
+    <e lm="Glyndŵr"><i>Glyndŵr</i><par n="Ifans__np"/></e>
+    <e lm="Hart"><i>Hart</i><par n="Ifans__np"/></e>
+    <e lm="Hughes"><i>Hughes</i><par n="Ifans__np"/></e>
+    <e lm="Jones"><i>Jones</i><par n="Ifans__np"/></e>
+    <e lm="Llwyd"><i>Llwyd</i><par n="Ifans__np"/></e>
+    <e lm="O'Leary"><i>O'Leary</i><par n="Ifans__np"/></e>
+    <e lm="O'Regan"><i>O'Regan</i><par n="Ifans__np"/></e>
+    <e lm="Roberts"><i>Roberts</i><par n="Ifans__np"/></e>
+
 
     <e lm="Mark"><i>Mark</i><par n="Mark__np"/></e>
     <e lm="Rhodri"><i>Rhodri</i><par n="Mark__np"/></e>
 
+    <e lm="Alun"><i>Alun</i><par n="Mark__np"/></e>
+    <e lm="Amber"><i>Amber</i><par n="Mary__np"/></e>
+    <e lm="Arwel"><i>Arwel</i><par n="Mark__np"/></e>
+    <e lm="Barnard"><i>Barnard</i><par n="Mark__np"/></e>
+    <e lm="Bethan"><i>Bethan</i><par n="Mary__np"/></e>
+    <e lm="Dafydd"><i>Dafydd</i><par n="Mark__np"/></e>
+    <e lm="Darren"><i>Darren</i><par n="Mark__np"/></e>
+    <e lm="Edwina"><i>Edwina</i><par n="Mary__np"/></e>
+    <e lm="Geraint"><i>Geraint</i><par n="Mark__np"/></e>
+    <e lm="Griffiths"><i>Griffiths</i><par n="Mark__np"/></e>
+    <e lm="Huw"><i>Huw</i><par n="Mark__np"/></e>
+    <e lm="Ifor"><i>Ifor</i><par n="Mark__np"/></e>
+    <e lm="Myfanwy"><i>Myfanwy</i><par n="Mary__np"/></e>
+    <e lm="Owain"><i>Owain</i><par n="Mark__np"/></e>
+    <e lm="Rhys"><i>Rhys</i><par n="Mark__np"/></e>
+    <e lm="Siôn"><i>Siôn</i><par n="Mary__np"/></e>
+    <e lm="Talfan"><i>Talfan</i><par n="Mark__np"/></e>
+
+
     <e lm="Cúchulainn"><i>Cúchulainn</i><par n="Mark__np"/></e>
+
+    <e lm="Birmingham"><i>Birmingham</i><par n="Barcelona__np"/></e>
+    <e lm="Bristol"><i>Bristol</i><par n="Barcelona__np"/></e>
+    <e lm="Cyfanswm"><i>Cyfanswm</i><par n="Barcelona__np"/></e>
+    <e lm="Glasgow"><i>Glasgow</i><par n="Barcelona__np"/></e>
+    <e lm="Gwynedd"><i>Gwynedd</i><par n="Barcelona__np"/></e>
+    <e lm="Liverpool"><i>Liverpool</i><par n="Barcelona__np"/></e>
+    <e lm="Llanberis"><i>Llanberis</i><par n="Barcelona__np"/></e>
+    <e lm="Llangollen"><i>Llangollen</i><par n="Barcelona__np"/></e>
+    <e lm="Manchester"><i>Manchester</i><par n="Barcelona__np"/></e>
+    <e lm="Pantyffynnon"><i>Pantyffynnon</i><par n="Barcelona__np"/></e>
+    <e lm="Trowbridge"><i>Trowbridge</i><par n="Barcelona__np"/></e>
+
     <e lm="Abidjan"><i>Abidjan</i><par n="Barcelona__np"/></e>
     <e lm="Abyssinia"><i>Abyssinia</i><par n="Barcelona__np"/></e>
     <e lm="Aden"><i>Aden</i><par n="Barcelona__np"/></e>
@@ -28036,6 +28097,7 @@
     <e lm="Cardiff"><i>Cardiff</i><par n="Barcelona__np"/></e>
     <e lm="Cork"><i>Cork</i><par n="Barcelona__np"/></e>
     <e lm="Cwmbrân"><i>Cwmbrân</i><par n="Barcelona__np"/></e>
+    <e lm="Cwm Taf"><i>Cwm<b/>Taf</i><par n="Barcelona__np"/></e>
     <e lm="Pembrokeshire"><i>Pembrokeshire</i><par n="Barcelona__np"/></e>
     <e lm="Carmarthenshire"><i>Carmarthenshire</i><par n="Barcelona__np"/></e>
     <e lm="Bloemfontein"><i>Bloemfontein</i><par n="Barcelona__np"/></e>
@@ -28879,6 +28941,7 @@
     <e lm="lie"><i>lie</i><par n="d/ie__vblex"/></e>
     <e lm="institute"><i>institut</i><par n="liv/e__vblex"/></e>
     <e lm="live"><i>liv</i><par n="liv/e__vblex"/></e>
+    <e lm="challenge"><i>challeng</i><par n="liv/e__vblex"/></e>
     <e lm="have"><i>ha</i><par n="ha/ve__vblex"/></e>
     <e lm="accept"><i>accept</i><par n="accept__vblex"/></e>
 
@@ -31283,7 +31346,7 @@
     <e lm="accounting"><i>accounting</i><par n="house__n"/></e>
     <e lm="setting"><i>setting</i><par n="house__n"/></e>
     <e lm="catalog"><i>catalog</i><par n="house__n"/></e>
-    <e lm="March"><i>March</i><par n="access__n"/></e>
+<!--    <e lm="March"><i>March</i><par n="access__n"/></e> -->
     <e lm="snatch"><i>snatch</i><par n="house__n"/></e>
     <e lm="pitch"><i>pitch</i><par n="house__n"/></e>
     <e lm="notch"><i>notch</i><par n="house__n"/></e>
