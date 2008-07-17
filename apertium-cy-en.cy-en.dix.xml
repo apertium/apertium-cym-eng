@@ -785,6 +785,7 @@
     <e><p><l>ymreolaeth<s n="n"/><s n="f"/></l><r>autonomy<s n="n"/></r></p></e>
     <e><p><l>syndod<s n="n"/><s n="m"/></l><r>surprise<s n="n"/></r></p></e>
     <e><p><l>dydd<g><b/>Mercher</g><s n="n"/><s n="m"/></l><r>Wednesday<s n="n"/></r></p></e>
+    <e><p><l>dydd<g><b/>Iau</g><s n="n"/><s n="m"/></l><r>Thursday<s n="n"/></r></p></e>
     <e><p><l>cymod<s n="n"/><s n="GD"/></l><r>reconciliation<s n="n"/></r></p></e>
     <e><p><l>llwyth<b/>llong<s n="n"/><s n="GD"/></l><r>freight<s n="n"/></r></p></e>
     <e><p><l>awyrborth<s n="n"/><s n="m"/></l><r>airport<s n="n"/></r></p></e>
@@ -9745,6 +9746,7 @@
     <e><p><l>Owain<s n="np"/><s n="ant"/></l><r>Owain<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Rhodri<s n="np"/><s n="ant"/></l><r>Rhodri<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Siôn<s n="np"/><s n="ant"/></l><r>Siôn<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Sioned<s n="np"/><s n="ant"/></l><r>Sioned<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Talfan<s n="np"/><s n="ant"/></l><r>Talfan<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Dai<s n="np"/><s n="ant"/></l><r>Dai<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Edwina<s n="np"/><s n="ant"/></l><r>Edwina<s n="np"/><s n="ant"/></r></p></e>
@@ -9923,6 +9925,7 @@
     <e><p><l>Jakys<s n="np"/><s n="ant"/></l><r>Jakys<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>James<s n="np"/><s n="ant"/></l><r>James<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Jane<s n="np"/><s n="ant"/></l><r>Jane<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Janet<s n="np"/><s n="ant"/></l><r>Janet<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Jaume<s n="np"/><s n="ant"/></l><r>Jaume<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Jeanne<s n="np"/><s n="ant"/></l><r>Jeanne<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Jeffrey<s n="np"/><s n="ant"/></l><r>Jeffrey<s n="np"/><s n="ant"/></r></p></e>
@@ -10138,8 +10141,10 @@
     <e><p><l>Jones<s n="np"/><s n="cog"/></l><r>Jones<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Llwyd<s n="np"/><s n="cog"/></l><r>Llwyd<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Havard<s n="np"/><s n="cog"/></l><r>Havard<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Haf<s n="np"/><s n="cog"/></l><r>Haf<s n="np"/><s n="cog"/></r></p></e>
 
     <e><p><l>Edwards<s n="np"/><s n="cog"/></l><r>Edwards<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Mills<s n="np"/><s n="cog"/></l><r>Mills<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Glyndŵr<s n="np"/><s n="cog"/></l><r>Glyndŵr<s n="np"/><s n="cog"/></r></p></e>
 
 

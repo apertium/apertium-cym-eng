@@ -115,5 +115,7 @@ REMOVE MNasC IF (0 (n f)) (-1 (n m));
 REMOVE MSoftC IF (0 (n m)) (-1 NC);
 
 #Edwina Hart
-
 SELECT (np ant) IF (1 (np cog));
+
+#Sioned Haf o Gymdeithas yr Iaith
+REMOVE PrnSubj IF (-1 (np)) (0 Pr) (0 PrnSubj) (1 (np));
