@@ -34,6 +34,10 @@
       <cat-item tags="det.*"/>
     </def-cat>
 
+    <def-cat n="yr">
+      <cat-item lemma="yr" tags="det.def.sp"/>
+    </def-cat>
+
     <def-cat n="detpos">
       <cat-item tags="det.pos.*"/>
     </def-cat>
@@ -1700,7 +1704,7 @@
     <rule comment="REGLA: NUM yn NOM">
       <pattern>
         <pattern-item n="num"/>
-        <pattern-item n="yn"/>
+        <pattern-item n="yr"/>
         <pattern-item n="nom"/>
       </pattern>
       <action> 
