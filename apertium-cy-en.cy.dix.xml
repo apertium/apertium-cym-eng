@@ -789,6 +789,18 @@
       </e>
     </pardef>
 
+    <pardef n="ble__adv">
+      <e>
+        <p>
+          <l/>
+          <r><s n="adv"/><s n="itg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+
+
     <!-- Pronouns -->
 
     <pardef n="unrhywun__prn">
@@ -48219,6 +48231,8 @@
     <!-- Adverbs -->
     <e lm="iawn"><i>iawn</i><par n="iawn__preadv"/></e>
 
+    <e lm="ble"><i>ble</i><par n="ble__adv"/></e>
+
     <e lm="yma"><i>yma</i><par n="yma__adv"/></e>
     <e lm="dros nos"><i>dros<b/>nos</i><par n="yma__adv"/></e>
     <e lm="allan"><i>allan</i><par n="yma__adv"/></e>
@@ -57255,6 +57269,7 @@
     <e lm="Davies"><par n="initial-D"/><i>avies</i><par n="Ifans__np"/></e>
     <e lm="Jones"><i>Jones</i><par n="Ifans__np"/></e>
     <e lm="Llwyd"><i>Llwyd</i><par n="Ifans__np"/></e>
+    <e lm="Lloyd"><i>Lloyd</i><par n="Ifans__np"/></e>
     <e lm="Hart"><i>Hart</i><par n="Ifans__np"/></e>
     <e lm="Havard"><i>Havard</i><par n="Ifans__np"/></e>
 
@@ -57906,6 +57921,12 @@
       </p>
     </e>
 
+    <e lm="neu'r">
+      <p>
+        <l>neu'r</l>
+        <r>neu<s n="cnjcoo"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+    </e>
 
 
   </section>

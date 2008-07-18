@@ -59,6 +59,8 @@
     <e><p><l>pwy<s n="prn"/></l><r>who<s n="prn"/></r></p></e>
     <e><p><l>beth<s n="prn"/></l><r>what<s n="prn"/></r></p></e>
 
+    <e><p><l>ble<s n="adv"/><s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
+
     <e><p><l>a<s n="rel"/></l><r>that<s n="rel"/></r></p></e>
  
     <!-- Prepositions -->
@@ -9774,7 +9776,7 @@
     <e><p><l>Annabel<s n="np"/><s n="ant"/></l><r>Annabel<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Anna Maria<s n="np"/><s n="ant"/></l><r>Anna Maria<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Anna<s n="np"/><s n="ant"/></l><r>Anna<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>Anne<s n="np"/><s n="ant"/></l><r>Anne<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ann<s n="np"/><s n="ant"/></l><r>Ann<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Anthony<s n="np"/><s n="ant"/></l><r>Anthony<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Antònia<s n="np"/><s n="ant"/></l><r>Antònia<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Antoni<s n="np"/><s n="ant"/></l><r>Antoni<s n="np"/><s n="ant"/></r></p></e>
@@ -10140,6 +10142,7 @@
     <e><p><l>Davies<s n="np"/><s n="cog"/></l><r>Davies<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Jones<s n="np"/><s n="cog"/></l><r>Jones<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Llwyd<s n="np"/><s n="cog"/></l><r>Llwyd<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Lloyd<s n="np"/><s n="cog"/></l><r>Lloyd<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Havard<s n="np"/><s n="cog"/></l><r>Havard<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Haf<s n="np"/><s n="cog"/></l><r>Haf<s n="np"/><s n="cog"/></r></p></e>
 
