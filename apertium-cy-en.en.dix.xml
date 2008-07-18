@@ -15695,6 +15695,7 @@
     <e lm="lead"><i>lead</i><par n="house__n"/></e>
     <e lm="top"><i>top</i><par n="house__n"/></e>
     <e lm="house"><i>house</i><par n="house__n"/></e>
+    <e lm="ward"><i>ward</i><par n="house__n"/></e>
     <e lm="sob"><i>sob</i><par n="house__n"/></e>
     <e lm="township"><i>township</i><par n="house__n"/></e>
     <e lm="township area"><i>township<b/>area</i><par n="house__n"/></e>
@@ -27819,6 +27820,7 @@
     <e lm="Hughes"><i>Hughes</i><par n="Ifans__np"/></e>
     <e lm="Jones"><i>Jones</i><par n="Ifans__np"/></e>
     <e lm="Llwyd"><i>Llwyd</i><par n="Ifans__np"/></e>
+    <e lm="Lloyd"><i>Lloyd</i><par n="Ifans__np"/></e>
     <e lm="O'Leary"><i>O'Leary</i><par n="Ifans__np"/></e>
     <e lm="O'Regan"><i>O'Regan</i><par n="Ifans__np"/></e>
     <e lm="Roberts"><i>Roberts</i><par n="Ifans__np"/></e>
@@ -29749,6 +29751,7 @@
     <e lm="retain"><i>retain</i> <par n="accept__vblex"/></e>
     <e lm="withdraw"><i>withdr</i> <par n="dr/aw__vblex"/></e>
     <e lm="assemble"><i>assembl</i> <par n="liv/e__vblex"/></e>
+    <e lm="reassemble"><i>reassembl</i> <par n="liv/e__vblex"/></e>
     <e lm="steal"><i>st</i> <par n="st/eal__vblex"/></e>
     <e lm="shake"><i>sh</i> <par n="t/ake__vblex"/></e>
     <e lm="satiate"><i>satiat</i> <par n="liv/e__vblex"/></e>
@@ -31179,7 +31182,7 @@
     <e lm="workspace"><i>workspace</i><par n="house__n"/></e>
     <e lm="ice"><i>ice</i><par n="house__n"/></e>
     <e lm="post office"><i>post<b/>office</i><par n="house__n"/></e>
-    <e lm="police"><i>police</i><par n="house__n"/></e>
+<!--    <e lm="police"><i>police</i><par n="house__n"/></e> -->
     <e lm="random choice"><i>random<b/>choice</i><par n="house__n"/></e>
     <e lm="novice"><i>novice</i><par n="house__n"/></e>
     <e lm="significance"><i>significance</i><par n="house__n"/></e>
