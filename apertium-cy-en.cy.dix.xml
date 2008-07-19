@@ -48234,6 +48234,7 @@
     <e lm="ble"><i>ble</i><par n="ble__adv"/></e>
 
     <e lm="yma"><i>yma</i><par n="yma__adv"/></e>
+    <e lm="efallai"><i>efallai</i><par n="yma__adv"/></e>
     <e lm="dros nos"><i>dros<b/>nos</i><par n="yma__adv"/></e>
     <e lm="allan"><i>allan</i><par n="yma__adv"/></e>
     <e lm="nawr"><i>nawr</i><par n="yma__adv"/></e>
@@ -48479,6 +48480,7 @@
     <e lm="gwydr"><par n="initial-g"/><i>wydr</i><par n="aberth__n"/></e>
     <e lm="wy"><i>wy</i><par n="aberth__n"/></e>
     <e lm="caledwedd"><par n="initial-c"/><i>aledwedd</i><par n="achosiant__n"/></e>
+    <e lm="cabinet"><par n="initial-c"/><i>abinet</i><par n="achosiant__n"/></e>
     <e lm="staff"><i>staff</i><par n="achosiant__n"/></e>
     <e lm="tramor"><par n="initial-t"/><i>ramor</i><par n="achosiant__n"/></e>
     <e lm="rwbel"><i>rwbel</i><par n="achosiant__n"/></e>
@@ -57179,6 +57181,15 @@
     <e lm="dydd Mawrth"><par n="initial-d"/><i>ydd</i><par n="amlap__n"/><p><l><b/>Mawrth</l><r><g><b/>Mawrth</g></r></p></e>
     <e lm="dydd Sadwrn"><par n="initial-d"/><i>ydd</i><par n="amlap__n"/><p><l><b/>Sadwrn</l><r><g><b/>Sadwrn</g></r></p></e>
     <e lm="dydd Sul"><par n="initial-d"/><i>ydd</i><par n="amlap__n"/><p><l><b/>Sul</l><r><g><b/>Sul</g></r></p></e>
+
+    <e lm="nos Wener"><i>nos</i><par n="actores__n"/><p><l><b/>Wener</l><r><g><b/>Wener</g></r></p></e>
+    <e lm="nos Lun"><i>nos</i><par n="actores__n"/><p><l><b/>Lun</l><r><g><b/>Lun</g></r></p></e>
+    <e lm="nos Fercher"><i>nos</i><par n="actores__n"/><p><l><b/>Fercher</l><r><g><b/>Fercher</g></r></p></e>
+    <e lm="nos Iau"><i>nos</i><par n="actores__n"/><p><l><b/>Iau</l><r><g><b/>Iau</g></r></p></e>
+    <e lm="nos Fawrth"><i>nos</i><par n="actores__n"/><p><l><b/>Fawrth</l><r><g><b/>Fawrth</g></r></p></e>
+    <e lm="nos Sadwrn"><i>nos</i><par n="actores__n"/><p><l><b/>Sadwrn</l><r><g><b/>Sadwrn</g></r></p></e>
+    <e lm="nos Sul"><i>nos</i><par n="actores__n"/><p><l><b/>Sul</l><r><g><b/>Sul</g></r></p></e>
+
 
 
 

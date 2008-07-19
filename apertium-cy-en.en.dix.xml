@@ -15656,6 +15656,15 @@
     <e lm="community"><i>communit</i><par n="bab/y__n"/></e>
     <e lm="need"><i>need</i><par n="house__n"/></e>
     <e lm="night"><i>night</i><par n="house__n"/></e>
+
+    <e lm="Friday night"><i>Friday<b/>night</i><par n="house__n"/></e>
+    <e lm="Monday night"><i>Monday<b/>night</i><par n="house__n"/></e>
+    <e lm="Wednesday night"><i>Wednesday<b/>night</i><par n="house__n"/></e>
+    <e lm="Thursday night"><i>Thursday<b/>night</i><par n="house__n"/></e>
+    <e lm="Tuesday night"><i>Tuesday<b/>night</i><par n="house__n"/></e>
+    <e lm="Saturday night"><i>Saturday<b/>night</i><par n="house__n"/></e>
+    <e lm="Sunday night"><i>Sunday<b/>night</i><par n="house__n"/></e>
+
     <e lm="set"><i>set</i><par n="house__n"/></e>
     <e lm="run"><i>run</i><par n="house__n"/></e>
     <e lm="use"><i>use</i><par n="house__n"/></e>

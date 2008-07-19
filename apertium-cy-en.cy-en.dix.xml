@@ -235,6 +235,7 @@
     <e><p><l>iawn<s n="preadv"/></l><r>very<s n="preadv"/></r></p></e>
 
     <e><p><l>yma<s n="adv"/></l><r>here<s n="adv"/></r></p></e>
+    <e><p><l>efallai<s n="adv"/></l><r>perhaps<s n="adv"/></r></p></e>
     <e><p><l>dros<b/>nos<s n="adv"/></l><r>overnight<s n="adv"/></r></p></e>
     <e><p><l>allan<s n="adv"/></l><r>out<s n="adv"/></r></p></e>
     <e><p><l>nawr<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
@@ -1585,6 +1586,16 @@
     <e><p><l>nonagon<s n="n"/><s n="m"/></l><r>nonagon<s n="n"/></r></p></e>
     <e><p><l>norm<s n="n"/><s n="m"/></l><r>norm<s n="n"/></r></p></e>
     <e><p><l>nos<s n="n"/><s n="f"/></l><r>night<s n="n"/></r></p></e>
+
+    <e><p><l>nos<g><b/>Wener</g><s n="n"/><s n="f"/></l><r>Friday<b/>night<s n="n"/></r></p></e>
+    <e><p><l>nos<g><b/>Lun</g><s n="n"/><s n="f"/></l><r>Monday<b/>night<s n="n"/></r></p></e>
+    <e><p><l>nos<g><b/>Fercher</g><s n="n"/><s n="f"/></l><r>Wednesday<b/>night<s n="n"/></r></p></e>
+    <e><p><l>nos<g><b/>Iau</g><s n="n"/><s n="f"/></l><r>Thursday<b/>night<s n="n"/></r></p></e>
+    <e><p><l>nos<g><b/>Fawrth</g><s n="n"/><s n="f"/></l><r>Tuesday<b/>night<s n="n"/></r></p></e>
+    <e><p><l>nos<g><b/>Sadwrn</g><s n="n"/><s n="f"/></l><r>Saturday<b/>night<s n="n"/></r></p></e>
+    <e><p><l>nos<g><b/>Sul</g><s n="n"/><s n="f"/></l><r>Sunday<b/>night<s n="n"/></r></p></e>
+
+
     <e><p><l>ochr<s n="n"/><s n="f"/></l><r>side<s n="n"/></r></p></e>
     <e><p><l>octagon<s n="n"/><s n="m"/></l><r>octagon<s n="n"/></r></p></e>
     <e><p><l>octahedron<s n="n"/><s n="m"/></l><r>octahedron<s n="n"/></r></p></e>
@@ -2228,6 +2239,7 @@
     <e><p><l>hanfodion<s n="n"/><s n="m"/></l><r>essentials<s n="n"/></r></p></e>
     <e><p><l>hap-ddewis<s n="n"/><s n="m"/></l><r>random choice<s n="n"/></r></p></e>
     <e><p><l>heddlu<s n="n"/><s n="m"/></l><r>police<s n="n"/></r></p></e>
+    <e><p><l>cabinet<s n="n"/><s n="m"/></l><r>cabinet<s n="n"/></r></p></e>
     <e><p><l>heddwch<s n="n"/><s n="m"/></l><r>peace<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>helaethrwydd<s n="n"/><s n="m"/></l><r>abundance<s n="n"/></r></p></e>
     <e><p><l>helaethrwydd<s n="n"/><s n="mf"/></l><r>extent<s n="n"/></r></p></e>
@@ -9747,6 +9759,7 @@
     <e><p><l>Enric<s n="np"/><s n="ant"/></l><r>Enric<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Owain<s n="np"/><s n="ant"/></l><r>Owain<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Rhodri<s n="np"/><s n="ant"/></l><r>Rhodri<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Wyn<s n="np"/><s n="ant"/></l><r>Wyn<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Siôn<s n="np"/><s n="ant"/></l><r>Siôn<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Sioned<s n="np"/><s n="ant"/></l><r>Sioned<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Talfan<s n="np"/><s n="ant"/></l><r>Talfan<s n="np"/><s n="ant"/></r></p></e>
