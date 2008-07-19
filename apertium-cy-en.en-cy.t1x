@@ -7,10 +7,6 @@
       <!--Falten els altres np (antroponims) que tenen gen i nbr, revisar regles.-->
       <cat-item tags="np.top.*"/>
     </def-cat>
-    <def-cat n="num">
-      <cat-item tags="num"/>
-      <cat-item tags="num.*"/>
-    </def-cat>
     <def-cat n="det">
       <cat-item tags="det.*"/>
     </def-cat>
@@ -518,6 +514,7 @@
         </let>
       </action>
     </rule>
+
 
     <rule comment="REGLA: instead of VERB ger">
       <pattern>
