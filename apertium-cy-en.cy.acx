@@ -5,7 +5,4 @@
     <equiv-char value="&#x2019;"/>
     <equiv-char value="&#x2BC;"/>
   </char>
-  <char value="&#183;">
-    <equiv-char value="."/>
-  </char>
 </analysis-chars>
