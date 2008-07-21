@@ -812,6 +812,15 @@
       </e>
     </pardef>
 
+    <pardef n="hyn__prn">
+      <e>
+        <p>
+          <l/>
+          <r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
 
     <pardef n="pa__prn">
       <e>
@@ -48076,9 +48085,11 @@
     <e lm="rhywun"><i>rhywun</i><par n="unrhywun__prn"/></e>
     <e lm="pawb"><par n="initial-p"/><i>awb</i><par n="unrhywun__prn"/></e>
 
-    <e lm="pa"><i>pa</i><par n="pa__prn"/></e>
-    <e lm="beth"><i>beth</i><par n="pa__prn"/></e>
-    <e lm="pwy"><i>pwy</i><par n="pa__prn"/></e>
+    <e lm="pa"><par n="initial-p"/><i>a</i><par n="pa__prn"/></e>
+    <e lm="beth"><par n="initial-b"/><i>eth</i><par n="pa__prn"/></e>
+    <e lm="pwy"><par n="initial-p"/><i>wy</i><par n="pa__prn"/></e>
+
+    <e lm="hyn"><i>hyn</i><par n="hyn__prn"/></e>
 
 <!--
     <e lm="a"><i>a</i><par n="a__rel"/></e>
@@ -48488,7 +48499,10 @@
     <e lm="newyddion"><i>newyddion</i><par n="achosiant__n"/></e>
     <e lm="acer"><i>acer</i><par n="acer__n"/></e>
     <e lm="twyn"><par n="initial-t"/><i>wyn</i><par n="arglwydd__n"/></e>
+
     <e lm="mochyn"><par n="initial-m"/><i>och</i><par n="blew/yn__n"/></e>
+    <e lm="mochyn daear"><par n="initial-m"/><i>och</i><par n="blew/yn__n"/><p><l><b/>daear</l><r><g><b/>daear</g></r></p></e>
+
     <e lm="oen"><i>oen</i><par n="oen__n"/></e>
     <e lm="cam"><par n="initial-c"/><i>am</i><par n="aberth__n"/></e>
     <e lm="cysur"><par n="initial-c"/><i>ysur</i><par n="aberth__n"/></e>
@@ -55606,7 +55620,10 @@
     <e lm="holwyddori"><i>holwyddor</i><par n="achos/i__vblex"/></e>
     <e lm="honcio"><i>honci</i><par n="achlysur/o__vblex"/></e>
     <e lm="hongian"><i>hongi</i><par n="begi/an__vblex"/></e>
-    <e lm="honni"><i>honn</i><par n="cr/onni__vblex"/></e>
+
+    <!-- was <i>honni<...  -->
+    <e lm="honni"><i>h</i><par n="cr/onni__vblex"/></e>
+
     <e lm="hoywi"><i>hoyw</i><par n="arsylw/i__vblex"/></e>
     <e lm="hualu"><i>hual</i><par n="aberth/u__vblex"/></e>
     <e lm="huddo"><i>hudd</i><par n="achlysur/o__vblex"/></e>
@@ -57245,6 +57262,7 @@
     <e lm="Llundain"><par n="initial-Ll"/><i>undain</i><par n="Blaenafon__np"/></e>
     <e lm="Llanberis"><par n="initial-Ll"/><i>anberis</i><par n="Blaenafon__np"/></e>
     <e lm="Llanelli"><par n="initial-Ll"/><i>anelli</i><par n="Blaenafon__np"/></e>
+    <e lm="Lanelwedd"><i>Lanelwedd</i><par n="Blaenafon__np"/></e>
     <e lm="Tregŵyr"><par n="initial-T"/><i>regŵyr</i><par n="Blaenafon__np"/></e>
     <e lm="Ynys Môn"><i>Ynys<b/>Môn</i><par n="Blaenafon__np"/></e>
     <e lm="Wrecsam"><i>Wrecsam</i><par n="Blaenafon__np"/></e>
