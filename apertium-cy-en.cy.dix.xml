@@ -48122,6 +48122,7 @@
     <e lm="erbyn"><i>erbyn</i><par n="gyda__pr"/></e>
     <e lm="heblaw"><i>heblaw</i><par n="gyda__pr"/></e>
     <e lm="heibio"><i>heibio</i><par n="gyda__pr"/></e>
+    <e lm="oddi"><i>oddi</i><par n="gyda__pr"/></e>
     <e lm="tan"><par n="initial-t"/><i>an</i><par n="gyda__pr"/></e>
     <e lm="ac eithrio"><i>ac_eithrio</i><par n="gyda__pr"/></e>
     <e lm="eithr"><i>eithr</i><par n="gyda__pr"/></e>
@@ -48991,6 +48992,7 @@
     <e lm="llyfr"><par n="initial-ll"/><i>yfr</i><par n="aberth__n"/></e>
     <e lm="llyfrgellyddiaeth"><par n="initial-ll"/><i>yfrgellyddiaeth</i><par n="actores__n"/></e>
     <e lm="fflam"><i>fflam</i><par n="actores__n"/></e>
+    <e lm="coron"><par n="initial-c"/><i>oron</i><par n="actores__n"/></e>
     <e lm="llygredd"><par n="initial-ll"/><i>ygredd</i><par n="aberth__n"/></e>
     <e lm="llymder"><par n="initial-ll"/><i>ymder</i><par n="aberth__n"/></e>
     <e lm="llythrenw"><par n="initial-ll"/><i>ythrenw</i><par n="aberth__n"/></e>
@@ -51261,7 +51263,10 @@
     <e lm="lliain"><par n="initial-ll"/><i>i</i><par n="gl/ain__n"/></e>
     <e lm="atsain"><i>ats</i><par n="ats/ain__n"/></e>
     <e lm="damwain"><par n="initial-d"/><i>amw</i><par n="ats/ain__n"/></e>
+
     <e lm="llain"><i>ll</i><par n="ats/ain__n"/></e>
+    <e lm="llain glanio"><i>ll</i><par n="ats/ain__n"/><p><l><b/>glanio</l><r><g><b/>glanio</g></r></p></e>
+
     <e lm="llys-nain"><par n="initial-ll"/><i>ys-n</i><par n="ats/ain__n"/></e>
     <e lm="nain"><i>n</i><par n="ats/ain__n"/></e>
     <e lm="sain"><i>s</i><par n="ats/ain__n"/></e>
@@ -51559,7 +51564,10 @@
     <e lm="gwar"><par n="initial-g"/><i>war</i><par n="gwar__n"/></e>
     <e lm="cwlwm"><par n="initial-c"/><i/><par n="c/wlwm__n"/></e>
     <e lm="siswrn"><i>sis</i><par n="sis/wrn__n"/></e>
+
     <e lm="maes"><par n="initial-m"/><i></i><par n="m/aes__n"/></e>
+    <e lm="maes awyr"><par n="initial-m"/><i/><par n="m/aes__n"/><p><l><b/>awyr</l><r><g><b/>awyr</g></r></p></e>
+
     <e lm="tŵr"><par n="initial-t"/><par n="t/ŵr__n"/></e>
     <e lm="angau"><i>ang</i><par n="ang/au__n"/></e>
     <e lm="cytsain"><par n="initial-c"/><i>yts</i><par n="cyts/ain__n"/></e>
@@ -57244,6 +57252,7 @@
     <e lm="Birmingham"><par n="initial-B"/><i>irmingham</i><par n="Blaenafon__np"/></e>
     <e lm="Bryste"><par n="initial-B"/><i>ryste</i><par n="Blaenafon__np"/></e>
     <e lm="Manceinion"><par n="initial-M"/><i>anceinion</i><par n="Blaenafon__np"/></e>
+    <e lm="Maesteg"><par n="initial-M"/><i>aesteg</i><par n="Blaenafon__np"/></e>
     <e lm="Lerpwl"><i>Lerpwl</i><par n="Blaenafon__np"/></e>
     <e lm="Glasgow"><par n="initial-G"/><i>lasgow</i><par n="Blaenafon__np"/></e>
     <e lm="Pantyffynnon"><par n="initial-P"/><i>antyffynnon</i><par n="Blaenafon__np"/></e>
@@ -57256,6 +57265,9 @@
     <e lm="Sbaen"><i>Sbaen</i><par n="Blaenafon__np"/></e>
     <e lm="Ewrop"><i>Ewrop</i><par n="Blaenafon__np"/></e>
     <e lm="Lloegr"><par n="initial-Ll"/><i>oegr</i><par n="Lloegr__np"/></e>
+
+    <e lm="gwlad Thai"><par n="initial-g"/><i>wlad<b/>Thai</i><par n="Lloegr__np"/></e>
+
     <e lm="Ariannin"><i>Ariannin</i><par n="Blaenafon__np"/></e>
     <e lm="yr Alban"><i>yr<b/>Alban</i><par n="Blaenafon__np"/></e>
 
@@ -57269,6 +57281,7 @@
     <e lm="Evans"><i>Evans</i><par n="Ifans__np"/></e>
     <e lm="Thomas"><i>Thomas</i><par n="Ifans__np"/></e>
     <e lm="Edwards"><i>Edwards</i><par n="Ifans__np"/></e>
+    <e lm="Collins"><i>Collins</i><par n="Ifans__np"/></e>
     <e lm="Mills"><i>Mills</i><par n="Ifans__np"/></e>
     <e lm="Roberts"><i>Roberts</i><par n="Ifans__np"/></e>
     <e lm="Williams"><i>Williams</i><par n="Ifans__np"/></e>
