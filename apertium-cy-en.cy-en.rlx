@@ -83,7 +83,7 @@ SUBSTITUTE (mf) (f) DetPos (1 MAspC);
 # ôl i 1880
 REMOVE PrnSubj IF (0 Pr) 
 		  (0 PrnSubj) 
-		  ((-1 NC) OR (-1 NP) OR (-1 VblexInf) OR (-1 Adj) or (-1 Num))
+		  (NOT -1 V)
 		  ((1 NC) OR (1 NP) OR (1 Adj) OR (1 Num));
 
 #Ac maen nhw wedi

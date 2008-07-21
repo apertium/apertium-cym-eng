@@ -16956,7 +16956,11 @@
     <e lm="independence"><i>independence</i><par n="house__n__unc"/></e>
     <e lm="regard"><i>regard</i><par n="house__n"/></e>
     <e lm="manufacturer"><i>manufacturer</i><par n="house__n"/></e>
+
     <e lm="strip"><i>strip</i><par n="house__n"/></e>
+    <e lm="strip of land"><i>strip</i><par n="house__n"/><p><l><b/>of<b/>land</l><r><g><b/>of<b/>land</g></r></p></e>
+    <e lm="landing strip"><i>landing<b/>strip</i><par n="house__n"/></e>
+
     <e lm="impression"><i>impression</i><par n="house__n"/></e>
     <e lm="consulting"><i>consulting</i><par n="house__n"/></e>
     <e lm="monitor"><i>monitor</i><par n="house__n"/></e>
@@ -27816,6 +27820,7 @@
     <e lm="whisper"><i>whisper</i><par n="house__n"/></e>
 
     <e lm="Ifans"><i>Ifans</i><par n="Ifans__np"/></e>
+    <e lm="Collins"><i>Collins</i><par n="Ifans__np"/></e>
     <e lm="Haf"><i>Haf</i><par n="Ifans__np"/></e>
     <e lm="Havard"><i>Havard</i><par n="Ifans__np"/></e>
     <e lm="Williams"><i>Williams</i><par n="Ifans__np"/></e>
@@ -27869,6 +27874,7 @@
     <e lm="Llanberis"><i>Llanberis</i><par n="Barcelona__np"/></e>
     <e lm="Llangollen"><i>Llangollen</i><par n="Barcelona__np"/></e>
     <e lm="Manchester"><i>Manchester</i><par n="Barcelona__np"/></e>
+    <e lm="Maesteg"><i>Maesteg</i><par n="Barcelona__np"/></e>
     <e lm="Pantyffynnon"><i>Pantyffynnon</i><par n="Barcelona__np"/></e>
     <e lm="Trowbridge"><i>Trowbridge</i><par n="Barcelona__np"/></e>
 
@@ -30665,7 +30671,9 @@
     <e lm="fancy"><i>fanc</i><par n="appl/y__vblex"/></e>
     <e lm="smash"><i>smash</i><par n="approach__vblex"/></e>
     <e lm="scratch"><i>scratch</i><par n="approach__vblex"/></e>
+
     <e lm="strip"><i>strip</i><par n="step__vblex"/></e>
+
     <e lm="realise"><i>realis</i><par n="liv/e__vblex"/></e>
     <e lm="afford"><i>afford</i><par n="accept__vblex"/></e>
     <e lm="bow"><i>bow</i><par n="accept__vblex"/></e>

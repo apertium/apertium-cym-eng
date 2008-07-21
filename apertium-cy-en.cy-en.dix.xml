@@ -90,6 +90,7 @@
  
     <e r="LR"><p><l>oddi wrth<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
     <e r="LR"><p><l>rhag<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>oddi<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
     <e><p><l>o<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
     
     
@@ -1081,6 +1082,7 @@
     <e><p><l>contract<s n="n"/><s n="m"/></l><r>contract<s n="n"/></r></p></e>
     <e><p><l>cordeddiad<s n="n"/><s n="m"/></l><r>entwining<s n="n"/></r></p></e>
     <e><p><l>corfforaeth<s n="n"/><s n="f"/></l><r>corporation<s n="n"/></r></p></e>
+    <e><p><l>coron<s n="n"/><s n="f"/></l><r>crown<s n="n"/></r></p></e>
     <e><p><l>cosb<s n="n"/><s n="f"/></l><r>punishment<s n="n"/></r></p></e>
     <e><p><l>cosin<s n="n"/><s n="m"/></l><r>cosine<s n="n"/></r></p></e>
     <e><p><l>cost<s n="n"/><s n="f"/></l><r>cost<s n="n"/></r></p></e>
@@ -3652,7 +3654,10 @@
     <e><p><l>atsain<s n="n"/><s n="f"/></l><r>echo<s n="n"/></r></p></e>
     <e><p><l>damwain<s n="n"/><s n="f"/></l><r>accident<s n="n"/></r></p></e>
     <e><p><l>glain<s n="n"/><s n="m"/></l><r>bead<s n="n"/></r></p></e>
+
     <e><p><l>llain<s n="n"/><s n="f"/></l><r>strip<g><b/>of<b/>land</g><s n="n"/></r></p></e>
+    <e><p><l>llain<g><b/>glanio</g><s n="n"/><s n="f"/></l><r>landing strip<s n="n"/></r></p></e>
+
     <e><p><l>lliain<s n="n"/><s n="m"/></l><r>linen<s n="n"/></r></p></e>
     <e><p><l>llys-nain<s n="n"/><s n="f"/></l><r>step-grandmother<s n="n"/></r></p></e>
     <e><p><l>nain<s n="n"/><s n="f"/></l><r>grandmother<s n="n"/></r></p></e>
@@ -3958,7 +3963,10 @@
     <e><p><l>gwar<s n="n"/><s n="m"/></l><r>nape<s n="n"/></r></p></e>
     <e><p><l>cwlwm<s n="n"/><s n="m"/></l><r>knot<s n="n"/></r></p></e>
     <e><p><l>siswrn<s n="n"/><s n="m"/></l><r>pair<g><b/>of<b/>scissors</g><s n="n"/></r></p></e>
+
     <e><p><l>maes<s n="n"/><s n="m"/></l><r>field<s n="n"/></r></p></e>
+    <e><p><l>maes<g><b/>awyr</g><s n="n"/><s n="m"/></l><r>airfield<s n="n"/></r></p></e>
+
     <e><p><l>tŵr<s n="n"/><s n="m"/></l><r>tower<s n="n"/></r></p></e>
     <e><p><l>angau<s n="n"/><s n="mf"/></l><r>death<s n="n"/></r></p></e>
     <e><p><l>cytsain<s n="n"/><s n="f"/></l><r>consonant<s n="n"/></r></p></e>
@@ -10145,6 +10153,7 @@
     <e><p><l>O'Leary<s n="np"/><s n="cog"/></l><r>O'Leary<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>O'Regan<s n="np"/><s n="cog"/></l><r>O'Regan<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Ifans<s n="np"/><s n="cog"/></l><r>Ifans<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Collins<s n="np"/><s n="cog"/></l><r>Collins<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Evans<s n="np"/><s n="cog"/></l><r>Evans<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Thomas<s n="np"/><s n="cog"/></l><r>Thomas<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Roberts<s n="np"/><s n="cog"/></l><r>Roberts<s n="np"/><s n="cog"/></r></p></e>
@@ -10170,6 +10179,7 @@
     <!--  Toponyms -->
  
     <e><p><l>Lloegr<s n="np"/><s n="top"/><s n="f"/></l><r>England<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>gwlad Thai<s n="np"/><s n="top"/><s n="f"/></l><r>Thailand<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Iwerddon<s n="np"/><s n="top"/><s n="f"/></l><r>Ireland<s n="np"/><s n="top"/></r></p></e>
 
     <e><p><l>Sir Gaerfyrddin<s n="np"/><s n="top"/><s n="f"/></l><r>Carmarthenshire<s n="np"/><s n="top"/></r></p></e>
@@ -10217,6 +10227,7 @@
     <e><p><l>Trowbridge<s n="np"/><s n="top"/><s n="f"/></l><r>Trowbridge<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Birmingham<s n="np"/><s n="top"/><s n="f"/></l><r>Birmingham<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Manceinion<s n="np"/><s n="top"/><s n="f"/></l><r>Manchester<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Maesteg<s n="np"/><s n="top"/><s n="f"/></l><r>Maesteg<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Glasgow<s n="np"/><s n="top"/><s n="f"/></l><r>Glasgow<s n="np"/><s n="top"/></r></p></e>
 
 
