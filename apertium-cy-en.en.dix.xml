@@ -982,6 +982,12 @@
       </e>
     </pardef>
     <pardef n="th/is__prn">
+      <e r="RL">
+        <p>
+          <l>is</l>
+          <r>is<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>is</l>
@@ -1424,6 +1430,12 @@
         <p>
           <l/>
           <r><s n="n"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="n"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -15570,7 +15582,7 @@
     <e lm="some"><i>some</i><par n="both__prn"/></e>
     <e lm="something"><i>something</i><par n="something__prn"/></e>
     <e lm="that"><i>th</i><par n="th/at__prn"/></e>
-    <!--                        <e lm="this"><i>th</i><par n="th/is__prn"/></e> -->
+    <e lm="this"><i>th</i><par n="th/is__prn"/></e>
     <e lm="too many"><i>too<b/>many</i><par n="both__prn"/></e>
     <e lm="whatever"><i>whatever</i><par n="everyone__prn"/></e>
     <e lm="what"><i>what</i><par n="what__prn"/></e>
@@ -27872,6 +27884,7 @@
     <e lm="Gwynedd"><i>Gwynedd</i><par n="Barcelona__np"/></e>
     <e lm="Liverpool"><i>Liverpool</i><par n="Barcelona__np"/></e>
     <e lm="Llanberis"><i>Llanberis</i><par n="Barcelona__np"/></e>
+    <e lm="Lanelwedd"><i>Lanelwedd</i><par n="Barcelona__np"/></e>
     <e lm="Llangollen"><i>Llangollen</i><par n="Barcelona__np"/></e>
     <e lm="Manchester"><i>Manchester</i><par n="Barcelona__np"/></e>
     <e lm="Maesteg"><i>Maesteg</i><par n="Barcelona__np"/></e>
@@ -32146,7 +32159,6 @@
     <e lm="misplace"><i>misplac</i><par n="liv/e__vblex"/></e>
     <e lm="interlace"><i>interlac</i><par n="liv/e__vblex"/></e>
     <e lm="disgrace"><i>disgrac</i><par n="liv/e__vblex"/></e>
-    <e lm="police"><i>polic</i><par n="liv/e__vblex"/></e>
     <e lm="slice"><i>slic</i><par n="liv/e__vblex"/></e>
     <e lm="rejoice"><i>rejoic</i><par n="liv/e__vblex"/></e>
     <e lm="voice"><i>voic</i><par n="liv/e__vblex"/></e>

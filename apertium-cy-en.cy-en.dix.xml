@@ -59,6 +59,8 @@
     <e><p><l>pwy<s n="prn"/></l><r>who<s n="prn"/></r></p></e>
     <e><p><l>beth<s n="prn"/></l><r>what<s n="prn"/></r></p></e>
 
+    <e><p><l>hyn<s n="prn"/></l><r>this<s n="prn"/></r></p></e>
+
     <e><p><l>ble<s n="adv"/><s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
 
     <e><p><l>a<s n="rel"/></l><r>that<s n="rel"/></r></p></e>
@@ -3668,7 +3670,10 @@
     <e><p><l>gwarthegyn<s n="n"/><s n="m"/></l><r>head of cattle<s n="n"/></r></p></e>
     <e><p><l>gwelltyn<s n="n"/><s n="m"/></l><r>blade<g><b/>of<b/>grass</g><s n="n"/></r></p></e>
     <e><p><l>gwybedyn<s n="n"/><s n="m"/></l><r>gnat<s n="n"/></r></p></e>
+
     <e><p><l>mochyn<s n="n"/><s n="m"/></l><r>pig<s n="n"/></r></p></e>
+    <e><p><l>mochyn<g><b/>daear</g><s n="n"/><s n="m"/></l><r>badger<s n="n"/></r></p></e>
+
     <e><p><l>bôn<s n="n"/><s n="m"/></l><r>base<s n="n"/></r></p></e>
     <e><p><l>bôn<s n="n"/><s n="m"/></l><r>stump<s n="n"/></r></p></e>
     <e><p><l>clôn<s n="n"/><s n="m"/></l><r>clone<s n="n"/></r></p></e>
@@ -10208,6 +10213,7 @@
     <e><p><l>Dolgellau<s n="np"/><s n="top"/><s n="f"/></l><r>Dolgellau<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llundain<s n="np"/><s n="top"/><s n="f"/></l><r>London<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llanelli<s n="np"/><s n="top"/><s n="f"/></l><r>Llanelli<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Lanelwedd<s n="np"/><s n="top"/><s n="f"/></l><r>Lanelwedd<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llangollen<s n="np"/><s n="top"/><s n="f"/></l><r>Llangollen<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Tregŵyr<s n="np"/><s n="top"/><s n="f"/></l><r>Tregŵyr<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Treganna<s n="np"/><s n="top"/><s n="f"/></l><r>Treganna<s n="np"/><s n="top"/></r></p></e>
