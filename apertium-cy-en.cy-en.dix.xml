@@ -258,6 +258,7 @@
     <e><p><l>croeso<b/>cynnes<b/>i<s n="adv"/></l><r>warm<b/>welcome<b/>to<s n="adv"/></r></p></e>
 
     <e><p><l>ar<b/>werth<s n="adv"/></l><r>on<b/>sale<s n="adv"/></r></p></e>
+    <e><p><l>yn<b/>fuan<b/>wedyn<s n="adv"/></l><r>soon<b/>afterwards<s n="adv"/></r></p></e>
     <e><p><l>ar<b/>ôl<b/>y<b/>cwbl<s n="adv"/></l><r>after<b/>all<s n="adv"/></r></p></e>
     <e><p><l>erbyn<b/>hyn<s n="adv"/></l><r>by<b/>now<s n="adv"/></r></p></e>
     <e><p><l>doed<b/>a<b/>ddelo<s n="adv"/></l><r>come<b/>what<b/>may<s n="adv"/></r></p></e>
@@ -413,7 +414,7 @@
     <e><p><l>uwchben<s n="adv"/></l><r>overhead<s n="adv"/></r></p></e>
     <e><p><l>uwchlaw<s n="adv"/></l><r>overhead<s n="adv"/></r></p></e>
     <e><p><l>wedi'i<b/>luosi<b/>â<s n="adv"/></l><r>multiplied<b/>by<s n="adv"/></r></p></e>
-    <e><p><l>wedyn<s n="adv"/></l><r>afterwards<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>wedyn<s n="adv"/></l><r>afterwards<s n="adv"/></r></p></e>
     <e><p><l>weithiau<s n="adv"/></l><r>sometimes<s n="adv"/></r></p></e>
     <e><p><l>wyneb-yn-wyneb<s n="adv"/></l><r>face<b/>to<b/>face<s n="adv"/></r></p></e>
     <e><p><l>ychwaith<s n="adv"/></l><r>either<s n="adv"/></r></p></e>
