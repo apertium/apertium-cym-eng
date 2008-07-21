@@ -35,6 +35,7 @@
  
     <sdef n="tn"      c="Tonico"/>
     <sdef n="adj"     c="Adjective"/>
+    <sdef n="pred"    c="Predicative"/>
     <sdef n="sint"    c="Synthetic adjective"/>
     <sdef n="comp"    c="Comparative"/>
     <sdef n="sup"     c="Superlative"/>

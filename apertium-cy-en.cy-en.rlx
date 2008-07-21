@@ -119,3 +119,12 @@ SELECT (np ant) IF (1 (np cog));
 
 #Sioned Haf o Gymdeithas yr Iaith
 REMOVE PrnSubj IF (-1 (np)) (0 Pr) (0 PrnSubj) (1 (np));
+
+
+#
+#  Lexical rules
+#
+
+SECTION
+
+ADD (pred) ("unig" adj) ((1 (n)) OR (1 (np)));
