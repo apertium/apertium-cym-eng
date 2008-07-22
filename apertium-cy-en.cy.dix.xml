@@ -56,6 +56,16 @@
       </e>
     </pardef>
 
+    <pardef n="time">
+      <e>
+        <re>[0-9]+[.:][0-5][0-9](pm|PM|am|AM)</re>
+        <p>
+          <l/>
+          <r><s n="num"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="un__num">
       <e>
         <p>
@@ -16303,6 +16313,13 @@
           <r>weud<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
+      <!-- Check this ~ Added from Afal -->
+      <e r="LR">
+        <p>
+          <l>ywed</l>
+          <r>weud<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>ywedid</l>
@@ -26830,6 +26847,12 @@
         </p>
       </e>
       <e>
+        <p>
+          <l>dw</l>
+          <r>bod<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
         <par n="initial-b"/>
         <p>
           <l>wyf</l>
@@ -26865,6 +26888,12 @@
       <e>
         <p>
           <l>wyt</l>
+          <r>bod<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rwyt</l>
           <r>bod<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
@@ -26908,6 +26937,12 @@
         </p>
       </e>
       <e>
+        <p>
+          <l>dan</l>
+          <r>bod<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
         <par n="initial-b"/>
         <p>
           <l>ydych</l>
@@ -26930,6 +26965,12 @@
       <e>
         <p>
           <l>ych</l>
+          <r>bod<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>dach</l>
           <r>bod<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
@@ -26960,6 +27001,12 @@
         </p>
       </e>
       <e>
+        <p>
+          <l>maen</l>
+          <r>bod<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
         <par n="initial-b"/>
         <p>
           <l>ŷnt</l>
@@ -26972,6 +27019,7 @@
           <r>bod<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
+
       <e>
         <par n="initial-b"/>
         <p>
@@ -48264,6 +48312,7 @@
     <e lm="hyd yn oed"><i>hyd<b/>yn<b/>oed</i><par n="yma__adv"/></e>
     <e lm="llynedd"><i>llynedd</i><par n="yma__adv"/></e>
 
+    <e lm="fodd bynnag"><i>fodd<b/>bynnag</i><par n="yma__adv"/></e>
     <e lm="ar werth"><i>ar<b/>werth</i><par n="yma__adv"/></e>
     <e lm="yn fuan wedyn"><i>yn<b/>fuan<b/>wedyn</i><par n="yma__adv"/></e>
     <e lm="ar ôl y cwbl"><i>ar<b/>ôl<b/>y<b/>cwbl</i><par n="yma__adv"/></e>
@@ -50069,6 +50118,7 @@
     <e lm="ymyrraeth"><i>ymyrraeth</i><par n="addysg__n"/></e>
     <e lm="ystadegaeth"><i>ystadegaeth</i><par n="addysg__n"/></e>
     <e lm="cydol"><par n="initial-c"/><i>ydol</i><par n="awyrgylch__n"/></e>
+    <e lm="cyrion"><par n="initial-c"/><i>yrion</i><par n="awyrgylch__n"/></e>
     <e lm="awyrgylch"><i>awyrgylch</i><par n="awyrgylch__n"/></e>
     <e lm="bioamrywiaeth"><par n="initial-b"/><i>ioamrywiaeth</i><par n="awyrgylch__n"/></e>
     <e lm="clod"><par n="initial-c"/><i>lod</i><par n="awyrgylch__n"/></e>
@@ -50314,6 +50364,10 @@
     <e lm="trafferth"><par n="initial-t"/><i>rafferth</i><par n="arwydd__n"/></e>
     <e lm="ymdrech"><i>ymdrech</i><par n="arwydd__n"/></e>
     <e lm="amlap"><i>amlap</i><par n="amlap__n"/></e>
+
+    <e lm="sgîl"><i>sgîl</i><par n="amlap__n"/></e>
+    <e lm="sgil"><p><l>sgil</l><r>sgîl</r></p><par n="amlap__n"/></e>
+
     <e lm="antur"><i>antur</i><par n="amlap__n"/></e>
     <e lm="arlliw"><i>arlliw</i><par n="amlap__n"/></e>
     <e lm="band"><par n="initial-b"/><i>and</i><par n="amlap__n"/></e>
@@ -50684,6 +50738,7 @@
     <e lm="porth"><par n="initial-p"/><i>orth</i><par n="porth__n"/></e>
     <e lm="rhyfel"><par n="initial-rh"/><i>yfel</i><par n="porth__n"/></e>
     <e lm="amlochron"><i>amlochron</i><par n="amlochron__n"/></e>
+    <e lm="bathodyn"><i>bathodyn</i><par n="amlochron__n"/></e>
     <e lm="canran"><par n="initial-c"/><i>anran</i><par n="amlochron__n"/></e>
     <e lm="colyn"><par n="initial-c"/><i>olyn</i><par n="amlochron__n"/></e>
     <e lm="cosyn"><par n="initial-c"/><i>osyn</i><par n="amlochron__n"/></e>
@@ -51028,6 +51083,9 @@
     <e lm="miliwn"><par n="initial-m"/><i>ili</i><par n="fforti/wn__n"/></e>
     <e lm="sesiwn"><i>sesi</i><par n="fforti/wn__n"/></e>
     <e lm="allanfa"><i>allanf</i><par n="allanf/a__n"/></e>
+
+    <e lm="tagfa"><par n="initial-t"/><i>agf</i><par n="allanf/a__n"/></e>
+
     <e lm="amddiffynfa"><i>amddiffynf</i><par n="allanf/a__n"/></e>
     <e lm="amgueddfa"><i>amgueddf</i><par n="allanf/a__n"/></e>
     <e lm="amserfa"><i>amserf</i><par n="allanf/a__n"/></e>
@@ -57263,6 +57321,7 @@
     <e lm="Llundain"><par n="initial-Ll"/><i>undain</i><par n="Blaenafon__np"/></e>
     <e lm="Llanberis"><par n="initial-Ll"/><i>anberis</i><par n="Blaenafon__np"/></e>
     <e lm="Llanelli"><par n="initial-Ll"/><i>anelli</i><par n="Blaenafon__np"/></e>
+    <e lm="Llanfair-ym-Muallt"><par n="initial-Ll"/><i>anfair-ym-Muallt</i><par n="Blaenafon__np"/></e>
     <e lm="Lanelwedd"><i>Lanelwedd</i><par n="Blaenafon__np"/></e>
     <e lm="Tregŵyr"><par n="initial-T"/><i>regŵyr</i><par n="Blaenafon__np"/></e>
     <e lm="Ynys Môn"><i>Ynys<b/>Môn</i><par n="Blaenafon__np"/></e>
@@ -57987,9 +58046,12 @@
     </e>
     <e>
       <par n="numeros"/>
-    </e>
+    </e> 
     <e>
       <par n="acronimos"/>
+    </e>
+    <e>
+      <par n="time"/>
     </e>
     <e>
       <par n="currency"/>

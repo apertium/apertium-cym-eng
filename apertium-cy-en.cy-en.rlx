@@ -4,6 +4,7 @@ DELIMITERS = "<.>" "<!>" "<?>"; # end-of-sentence markers
 
 LIST NC = (n); 				# common nouns
 LIST NP = (np top) (np ant) (np cog); 	# proper nouns (toponyms, anthroponyms, cognomens)
+LIST Acr = (n acr);
 LIST V = vblex vbser;		 	# lexical verbs and "to be"
 LIST Adv = adv; 			# adverb
 LIST Num = num;				# numeral
@@ -16,6 +17,7 @@ LIST PrnSubj = (prn subj);		# subject pronoun
 LIST P2Pl = (p2 pl);			# second person plural
 LIST P3Sg = (p3 sg);
 
+LIST Det    = (det);
 LIST DetDef = (det def);		# definite determiner (article)
 LIST DetPos = (det pos);		# possessive determiner
 
@@ -63,7 +65,7 @@ SELECT PrnSubjP2Pl IF (0 NC) (0 PrnSubj) (-1 VbP2Pl);
 
 # delete a verb from a {verb, noun} cohort if preceded by "preposition + the"
 # yn y golchi
-REMOVE V IF (0 V) (0 NC) (-1 DetDef) (-2 Pr);
+REMOVE V IF (0 V) (0 NC) (NOT 0 Acr) (-1 DetDef) (-2 Pr);
 
 # delete a subject pronoun if preceded by an adjective and followed by a proper noun
 # ??
@@ -93,7 +95,6 @@ REMOVE NC IF (0 (vbser)) (1 PrnSubj);
 REMOVE V IF (-1 DetDef);
 
 # See 1.3.36 -- we currently just drop subjunctives and imperatives
-
 REMOVE VblexPrs IF (0 V); 
 REMOVE Imp IF (0 (vbser)); 
 
@@ -120,6 +121,11 @@ SELECT (np ant) IF (1 (np cog));
 #Sioned Haf o Gymdeithas yr Iaith
 REMOVE PrnSubj IF (-1 (np)) (0 Pr) (0 PrnSubj) (1 (np));
 
+#ym Medi 1999
+REMOVE (vblex) IF (-1 Pr) (0 NC) (NOT 0 Acr) (0 V);
+
+#54 acer o barcio 
+SELECT Pr IF (-1 NC) (1 V);
 
 #
 #  Lexical rules
@@ -127,4 +133,4 @@ REMOVE PrnSubj IF (-1 (np)) (0 Pr) (0 PrnSubj) (1 (np));
 
 SECTION
 
-ADD (pred) ("unig" adj) ((1 (n)) OR (1 (np)));
+ADD (pred) ("unig" adj) ((1 (n)) OR (1 (np)) OR (1 (pr)) OR (1 Det));
