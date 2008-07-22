@@ -257,6 +257,7 @@
     <e><p><l>croeso<b/>i<s n="adv"/></l><r>welcome<b/>to<s n="adv"/></r></p></e>
     <e><p><l>croeso<b/>cynnes<b/>i<s n="adv"/></l><r>warm<b/>welcome<b/>to<s n="adv"/></r></p></e>
 
+    <e><p><l>fodd<b/>bynnag<s n="adv"/></l><r>however<s n="adv"/></r></p></e>
     <e><p><l>ar<b/>werth<s n="adv"/></l><r>on<b/>sale<s n="adv"/></r></p></e>
     <e><p><l>yn<b/>fuan<b/>wedyn<s n="adv"/></l><r>soon<b/>afterwards<s n="adv"/></r></p></e>
     <e><p><l>ar<b/>ôl<b/>y<b/>cwbl<s n="adv"/></l><r>after<b/>all<s n="adv"/></r></p></e>
@@ -852,7 +853,9 @@
     <e><p><l>nodiad<s n="n"/><s n="m"/></l><r>note<s n="n"/></r></p></e>
     <e><p><l>rhagor<s n="n"/><s n="m"/></l><r>more<s n="n"/></r></p></e>
     <e><p><l>uchder<s n="n"/><s n="m"/></l><r>height<s n="n"/></r></p></e>
+    <e><p><l>tagfa<s n="n"/><s n="f"/></l><r>bottleneck<s n="n"/></r></p></e>
     <e><p><l>gradd<s n="n"/><s n="mf"/></l><r>degree<s n="n"/></r></p></e>
+    <e><p><l>cyrion<s n="n"/><s n="mf"/></l><r>margin<s n="n"/></r></p></e>
     <e><p><l>aberth<s n="n"/><s n="m"/></l><r>sacrifice<s n="n"/></r></p></e>
     <e><p><l>rhwygiad<s n="n"/><s n="m"/></l><r>split<s n="n"/></r></p></e>
     <e><p><l>absenoldeb<s n="n"/><s n="m"/></l><r>absence<s n="n"/></r></p></e>
@@ -2404,6 +2407,8 @@
     <e><p><l>seicoleg<s n="n"/><s n="f"/></l><r>psychology<s n="n"/></r></p></e>
     <e><p><l>sensitifrwydd<s n="n"/><s n="m"/></l><r>sensitivity<s n="n"/></r></p></e>
     <e><p><l>sgiwedd<s n="n"/><s n="m"/></l><r>skewness<s n="n"/></r></p></e>
+    <e><p><l>sgîl<s n="n"/><s n="m"/></l><r>skill<s n="n"/></r></p></e>
+    <e><p><l>bathodyn<s n="n"/><s n="m"/></l><r>badge<s n="n"/></r></p></e>
     <e><p><l>sgôp<s n="n"/><s n="m"/></l><r>scope<s n="n"/></r></p></e>
     <e><p><l>sgrap<s n="n"/><s n="m"/></l><r>scrap<s n="n"/></r></p></e>
     <e><p><l>Siapan<s n="n"/><s n="f"/></l><r>Japan<s n="n"/></r></p></e>
@@ -4485,7 +4490,7 @@
     <e><p><l>caeedig<s n="adj"/></l><r>closed<s n="adj"/></r></p></e>
     <e><p><l>caeth<s n="adj"/></l><r>captive<s n="adj"/></r></p></e>
     <e><p><l>caled<s n="adj"/></l><r>hard<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>called<s n="adj"/></l><r>wise<s n="adj"/></r></p></e>
+    <e><p><l>called<s n="adj"/></l><r>wise<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>camarweiniol<s n="adj"/></l><r>misleading<s n="adj"/></r></p></e>
     <e r="RL"><p><l>camffurfiedig<s n="adj"/></l><r>malformatted<s n="adj"/></r></p></e>
     <e><p><l>camffurfiedig<s n="adj"/></l><r>malformed<s n="adj"/></r></p></e>
@@ -5199,7 +5204,7 @@
     <e><p><l>lled<s n="adj"/></l><r>fairly<s n="adj"/></r></p></e>
     <e><p><l>lleiafol<s n="adj"/></l><r>minimalist<s n="adj"/></r></p></e>
     <e><p><l>lleiafrifol<s n="adj"/></l><r>minority<s n="adj"/></r></p></e>
-    <e><p><l>lleied<s n="adj"/></l><r>small<s n="adj"/></r></p></e>
+    <e><p><l>lleied<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>llem<s n="adj"/></l><r>sharp<s n="adj"/></r></p></e>
     <e><p><l>llenyddol<s n="adj"/></l><r>literary<s n="adj"/></r></p></e>
     <e><p><l>lleol<s n="adj"/></l><r>local<s n="adj"/></r></p></e>
@@ -10213,6 +10218,7 @@
     <e><p><l>Caerfyrddin<s n="np"/><s n="top"/><s n="f"/></l><r>Carmarthen<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dolgellau<s n="np"/><s n="top"/><s n="f"/></l><r>Dolgellau<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llundain<s n="np"/><s n="top"/><s n="f"/></l><r>London<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanfair-ym-Muallt<s n="np"/><s n="top"/><s n="f"/></l><r>Llanfair-ym-Muallt<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llanelli<s n="np"/><s n="top"/><s n="f"/></l><r>Llanelli<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Lanelwedd<s n="np"/><s n="top"/><s n="f"/></l><r>Lanelwedd<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llangollen<s n="np"/><s n="top"/><s n="f"/></l><r>Llangollen<s n="np"/><s n="top"/></r></p></e>
@@ -10558,6 +10564,7 @@
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l>eg<s n="num"/><s n="ord"/></l><r>th<s n="num"/><s n="ord"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?au</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[0-9]+[.:][0-5][0-9](pm|PM|am|AM)</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>[¿¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
     <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
@@ -10566,6 +10573,6 @@
 
     <e><re>[A-Z][A-Z]+([A-Z])?</re><p><l><s n="n"/><s n="acr"/></l><r><s n="n"/><s n="acr"/></r></p></e>
 
- 
+
   </section>
 </dictionary>

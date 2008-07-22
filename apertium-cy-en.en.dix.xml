@@ -53,6 +53,17 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="time">
+      <e>
+        <re>[0-9]+[.:][0-5][0-9](pm|PM|am|AM)</re>
+        <p>
+          <l/>
+          <r><s n="num"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="numeros">
       <e>
         <re>[0-9]+([.,][0-9]+)?</re>
@@ -3647,6 +3658,18 @@
         <p>
           <l>in</l>
           <r>in<s n="vblex"/><s n="pres"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>in</l>
+          <r>in<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>in</l>
+          <r>in<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sp"/></r>
         </p>
       </e>
       <e>
@@ -11844,6 +11867,7 @@
     <e lm="calling code"><i>calling<b/>code</i><par n="house__n"/></e>
     <e lm="solar system"><i>solar<b/>system</i><par n="house__n"/></e>
     <e lm="regime"><i>regime</i><par n="house__n"/></e>
+    <e lm="badge"><i>badge</i><par n="house__n"/></e>
     <e lm="leisure"><i>leisure</i><par n="house__n"/></e> <!-- broken -->
     <e lm="bail"><i>bail</i><par n="house__n"/></e>
     <e lm="glance"><i>glance</i><par n="house__n"/></e>
@@ -15717,6 +15741,7 @@
     <e lm="lead"><i>lead</i><par n="house__n"/></e>
     <e lm="top"><i>top</i><par n="house__n"/></e>
     <e lm="house"><i>house</i><par n="house__n"/></e>
+    <e lm="bottleneck"><i>bottleneck</i><par n="house__n"/></e>
     <e lm="ward"><i>ward</i><par n="house__n"/></e>
     <e lm="sob"><i>sob</i><par n="house__n"/></e>
     <e lm="township"><i>township</i><par n="house__n"/></e>
@@ -28106,6 +28131,7 @@
     <e lm="Lisbon"><i>Lisbon</i><par n="Barcelona__np"/></e>
     <e lm="Lithuania"><i>Lithuania</i><par n="Barcelona__np"/></e>
     <e lm="London"><i>London</i><par n="Barcelona__np"/></e>
+    <e lm="Llanfair-ym-Muallt"><i>Llanfair-ym-Muallt</i><par n="Barcelona__np"/></e>
     <e lm="Llanelli"><i>Llanelli</i><par n="Barcelona__np"/></e>
     <e lm="Tregŵyr"><i>Tregŵyr</i><par n="Barcelona__np"/></e>
     <e lm="Treganna"><i>Treganna</i><par n="Barcelona__np"/></e>
@@ -35885,6 +35911,9 @@
     </e>
     <e>
       <par n="numeros"/>
+    </e>
+    <e>
+      <par n="time"/>
     </e>
     <e>
       <par n="currency"/>
