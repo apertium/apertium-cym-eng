@@ -60,8 +60,10 @@
     <e><p><l>beth<s n="prn"/></l><r>what<s n="prn"/></r></p></e>
 
     <e><p><l>hyn<s n="prn"/></l><r>this<s n="prn"/></r></p></e>
+    <e><p><l>hynny<s n="prn"/></l><r>that<s n="prn"/></r></p></e>
 
     <e><p><l>ble<s n="adv"/><s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>sut<s n="adv"/><s n="itg"/></l><r>how<s n="adv"/><s n="itg"/></r></p></e>
 
     <e><p><l>a<s n="rel"/></l><r>that<s n="rel"/></r></p></e>
  
@@ -124,7 +126,7 @@
     <e><p><l>ar draws<s n="pr"/></l><r>across<s n="pr"/></r></p></e>
     <e><p><l>ar gyfer<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
     <e><p><l>er mwyn<s n="pr"/></l><r>for the sake of<s n="pr"/></r></p></e>
-    <e><p><l>o amgylch<s n="pr"/></l><r>aound<s n="pr"/></r></p></e>
+    <e><p><l>o amgylch<s n="pr"/></l><r>around<s n="pr"/></r></p></e>
     <e><p><l>o flaen<s n="pr"/></l><r>in front of<s n="pr"/></r></p></e>
     <e><p><l>o fewn<s n="pr"/></l><r>inside<s n="pr"/></r></p></e>
     <e><p><l>o gwmpas<s n="pr"/></l><r>around<s n="pr"/></r></p></e>
@@ -307,7 +309,7 @@
     <e><p><l>dwywaith<s n="adv"/></l><r>twice<s n="adv"/></r></p></e>
     <e><p><l>dyma<s n="adv"/></l><r>this<b/>is<s n="adv"/></r></p></e>
     <e><p><l>dyna<s n="adv"/></l><r>that<b/>is<s n="adv"/></r></p></e>
-    <e><p><l>echdoe<s n="adv"/></l><r>day<b/>before<b/>yesterday<s n="adv"/></r></p></e>
+    <e><p><l>echdoe<s n="adv"/></l><r>day<g><b/>before<b/>yesterday</g><s n="adv"/></r></p></e>
     <e><p><l>echnos<s n="adv"/></l><r>night<b/>before<b/>last<s n="adv"/></r></p></e>
     <e><p><l>ei<b/>gilydd<s n="adv"/></l><r>each<b/>other<s n="adv"/></r></p></e>
     <e><p><l>eilwaith<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
@@ -536,7 +538,10 @@
     <e><p><l>bioleg<s n="n"/><s n="f"/></l><r>biology<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>difyrwaith<s n="n"/><s n="m"/></l><r>hobby<s n="n"/></r></p></e>
     <e><p><l>ffiseg<s n="n"/><s n="f"/></l><r>physics<s n="n"/><s n="unc"/></r></p></e>
-    <e><p><l>mytholeg<s n="n"/><s n="f"/></l><r>mythology<s n="n"/><s n="unc"/></r></p></e>
+    <e r="LR"><p><l>mytholeg<s n="n"/><s n="f"/></l><r>mythology<s n="n"/><s n="unc"/></r></p></e>
+
+    <e><p><l>chwedloniaeth<s n="n"/><s n="f"/></l><r>mythology<s n="n"/><s n="unc"/></r></p></e>
+
     <e><p><l>anthropoleg<s n="n"/><s n="f"/></l><r>anthropology<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>archaeoleg<s n="n"/><s n="f"/></l><r>archaeology<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>annedwyddwch<s n="n"/><s n="m"/></l><r>unhappiness<s n="n"/></r></p></e><!-- unhappiness - annedwyddwch [m.]-->
@@ -994,7 +999,6 @@
     <e><p><l>barn<s n="n"/><s n="f"/></l><r>opinion<s n="n"/></r></p></e>
     <e><p><l>bath<s n="n"/><s n="m"/></l><r>bath<s n="n"/></r></p></e>
     <e><p><l>bedd<s n="n"/><s n="m"/></l><r>grave<s n="n"/></r></p></e>
-    <e><p><l>Beibl<s n="n"/><s n="m"/></l><r>Bible<s n="n"/></r></p></e>
     <e><p><l>beirniadaeth<s n="n"/><s n="f"/></l><r>adjudication<s n="n"/></r></p></e>
     <e><p><l>beirniadaeth<s n="n"/><s n="f"/></l><r>criticism<s n="n"/></r></p></e>
     <e><p><l>benthyciad<s n="n"/><s n="m"/></l><r>loan<s n="n"/></r></p></e>
@@ -1625,7 +1629,7 @@
 
     <e><p><l>papur<s n="n"/><s n="m"/></l><r>paper<s n="n"/></r></p></e>
     <e><p><l>papur<g><b/>newydd</g><s n="n"/><s n="m"/></l><r>newspaper<s n="n"/></r></p></e>
-    <e><p><l>newyddion<s n="n"/><s n="m"/></l><r>news<s n="n"/></r></p></e>
+    <e><p><l>newyddion<s n="n"/><s n="m"/></l><r>news<s n="n"/><s n="unc"/></r></p></e>
 
     <e><p><l>paragraff<s n="n"/><s n="m"/></l><r>paragraph<s n="n"/></r></p></e>
     <e><p><l>paralelogram<s n="n"/><s n="m"/></l><r>parallelogram<s n="n"/></r></p></e>
@@ -1816,7 +1820,7 @@
     <e><p><l>testun<s n="n"/><s n="m"/></l><r>text<s n="n"/></r></p></e>
     <e><p><l>tetrahedron<s n="n"/><s n="m"/></l><r>tetrahedron<s n="n"/></r></p></e>
     <e><p><l>theatr<s n="n"/><s n="f"/></l><r>theatre<s n="n"/></r></p></e>
-    <e><p><l>thermomedr<s n="n"/><s n="m"/></l><r>thermometre<s n="n"/></r></p></e>
+    <e><p><l>thermomedr<s n="n"/><s n="m"/></l><r>thermometer<s n="n"/></r></p></e>
     <e><p><l>tiriogaeth<s n="n"/><s n="f"/></l><r>territory<s n="n"/></r></p></e>
     <e><p><l>tirwedd<s n="n"/><s n="f"/></l><r>relief<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>torcytundeb<s n="n"/><s n="m"/></l><r>breach<g><b/>of<b/>contract</g><s n="n"/></r></p></e>
@@ -1955,7 +1959,7 @@
     <e><p><l>diffyniad<s n="n"/><s n="m"/></l><r>protection<s n="n"/></r></p></e>
     <e><p><l>diffyniad<s n="n"/><s n="m"/></l><r>defence<s n="n"/></r></p></e>
     <e><p><l>amgyffred<s n="n"/><s n="m"/></l><r>comprehension<s n="n"/></r></p></e>
-    <e><p><l>amgylch<s n="n"/><s n="m"/></l><r>environs<s n="n"/></r></p></e>
+    <e><p><l>amgylch<s n="n"/><s n="m"/></l><r>environs<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>amgylchfyd<s n="n"/><s n="m"/></l><r>environment<s n="n"/></r></p></e>
     <e><p><l>amlder<s n="n"/><s n="m"/></l><r>frequency<s n="n"/></r></p></e>
     <e><p><l>amlygrwydd<s n="n"/><s n="m"/></l><r>prominence<s n="n"/></r></p></e>
@@ -2011,7 +2015,7 @@
     <e><p><l>balchder<s n="n"/><s n="m"/></l><r>pride<s n="n"/></r></p></e>
     <e><p><l>banc<s n="n"/><s n="m"/></l><r>bank<s n="n"/></r></p></e>
     <e><p><l>bara<s n="n"/><s n="m"/></l><r>bread<s n="n"/></r></p></e>
-    <e><p><l>Barddas<s n="n"/><s n="m"/></l><r>magazine about poetry<s n="n"/></r></p></e>
+    <e><p><l>Barddas<s n="n"/><s n="m"/></l><r>magazine<g><b/>about<b/>poetry</g><s n="n"/></r></p></e>
     <e><p><l>barddoniaeth<s n="n"/><s n="f"/></l><r>poetry<s n="n"/></r></p></e>
     <e><p><l>baw<s n="n"/><s n="m"/></l><r>mud<s n="n"/></r></p></e>
     <e><p><l>Beibl<s n="n"/><s n="m"/></l><r>Bible<s n="n"/></r></p></e>
@@ -2053,7 +2057,6 @@
     <e><p><l>cefnogaeth<s n="n"/><s n="f"/></l><r>support<s n="n"/></r></p></e>
     <e><p><l>cenhadaeth<s n="n"/><s n="f"/></l><r>mission<s n="n"/></r></p></e>
     <e><p><l>cerddoriaeth<s n="n"/><s n="f"/></l><r>music<s n="n"/><s n="unc"/></r></p></e>
-    <e><p><l>chwedloniaeth<s n="n"/><s n="f"/></l><r>mythology<s n="n"/></r></p></e>
     <e><p><l>mis<g><b/>Chwefror</g><s n="n"/><s n="m"/></l><r>February<s n="n"/></r></p></e>
     <e r="LR"><p><l>Chwefror<s n="n"/><s n="m"/></l><r>February<s n="n"/></r></p></e>
     <e><p><l>chweil<s n="n"/><s n="m"/></l><r>while<s n="n"/></r></p></e>
@@ -2061,7 +2064,7 @@
     <e><p><l>clod<s n="n"/><s n="mf"/></l><r>renown<s n="n"/></r></p></e>
     <e><p><l>cludiant<s n="n"/><s n="m"/></l><r>transport<s n="n"/></r></p></e>
     <e><p><l>clymwaith<s n="n"/><s n="m"/></l><r>knotwork<s n="n"/></r></p></e>
-    <e><p><l>clyw<s n="n"/><s n="m"/></l><r>sense of hearing<s n="n"/></r></p></e>
+    <e><p><l>clyw<s n="n"/><s n="m"/></l><r>sense<g><b/>of<b/>hearing</g><s n="n"/></r></p></e>
     <e><p><l>cnawd<s n="n"/><s n="m"/></l><r>flesh<s n="n"/></r></p></e>
     <e><p><l>coco<s n="n"/><s n="m"/></l><r>cocoa<s n="n"/></r></p></e>
     <e><p><l>coedwigaeth<s n="n"/><s n="f"/></l><r>forestry<s n="n"/></r></p></e>
@@ -2162,7 +2165,7 @@
     <e><p><l>ebostach<s n="n"/><s n="m"/></l><r>spam<s n="n"/></r></p></e>
     <e><p><l>mis<g><b/>Ebrill</g><s n="n"/><s n="m"/></l><r>April<s n="n"/></r></p></e>
     <e r="LR"><p><l>Ebrill<s n="n"/><s n="m"/></l><r>April<s n="n"/></r></p></e>
-    <e><p><l>echdoe<s n="n"/><s n="m"/></l><r>day before yesterday<s n="n"/></r></p></e>
+    <e><p><l>echdoe<s n="n"/><s n="m"/></l><r>day<g><b/>before<b/>yesterday</g><s n="n"/></r></p></e>
     <e><p><l>echnos<s n="n"/><s n="f"/></l><r>night before last<s n="n"/></r></p></e>
     <e><p><l>economeg<s n="n"/><s n="f"/></l><r>economics<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>economeg<g><b/>y<b/>cartref</g><s n="n"/><s n="f"/></l><r>home economics<s n="n"/><s n="pl"/></r></p></e>
@@ -2308,7 +2311,9 @@
     <e><p><l>mathemateg<s n="n"/><s n="m"/></l><r>mathematics<s n="n"/></r></p></e>
     <e><p><l>mis<g><b/>Mawrth</g><s n="n"/><s n="m"/></l><r>March<s n="n"/></r></p></e>
     <e r="LR"><p><l>Mawrth<s n="n"/><s n="m"/></l><r>March<s n="n"/></r></p></e>
-    <e><p><l>Mawrth<s n="n"/><s n="m"/></l><r>Mars<s n="n"/></r></p></e>
+
+    <e><p><l>Mawrth<s n="n"/><s n="m"/></l><r>Mars<s n="np"/><s n="top"/></r></p></e>
+
     <e><p><l>meddalwedd<s n="n"/><s n="mf"/></l><r>software<s n="n"/></r></p></e>
     <e><p><l>meddygaeth<s n="n"/><s n="f"/></l><r>medicine<s n="n"/></r></p></e>
     <e><p><l>meddylfryd<s n="n"/><s n="m"/></l><r>state<g><b/>of<b/>mind</g><s n="n"/></r></p></e>
@@ -2418,7 +2423,7 @@
     <e><p><l>sŵ<s n="n"/><s n="m"/></l><r>zoo<s n="n"/></r></p></e>
     <e><p><l>swyddogaeth<s n="n"/><s n="f"/></l><r>functionality<s n="n"/></r></p></e>
     <e><p><l>synergedd<s n="n"/><s n="m"/></l><r>synergy<s n="n"/></r></p></e>
-    <e><p><l>syrffed<s n="n"/><s n="m"/></l><r>surfeit<s n="n"/></r></p></e>
+    <e><p><l>syrffed<s n="n"/><s n="m"/></l><r>surfeit<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>mis<g><b/>Tachwedd</g><s n="n"/><s n="m"/></l><r>November<s n="n"/></r></p></e>
     <e r="LR"><p><l>Tachwedd<s n="n"/><s n="m"/></l><r>November<s n="n"/></r></p></e>
     <e><p><l>tadolaeth<s n="n"/><s n="f"/></l><r>fatherhood<s n="n"/></r></p></e>
@@ -3901,7 +3906,6 @@
     <e><p><l>bawd<s n="n"/><s n="m"/></l><r>thumb<s n="n"/></r></p></e>
     <e><p><l>blawd<s n="n"/><s n="m"/></l><r>flour<s n="n"/></r></p></e>
     <e><p><l>cylchoedd<s n="n"/><s n="m"/></l><r>circles<s n="n"/></r></p></e>
-    <e><p><l>geirfaoedd<s n="n"/><s n="f"/></l><r>vocabularies<s n="n"/></r></p></e>
     <e><p><l>iaith<s n="n"/><s n="f"/></l><r>language<s n="n"/></r></p></e>
     <e><p><l>mamiaith<s n="n"/><s n="f"/></l><r>mother-tongue<s n="n"/></r></p></e>
     <e><p><l>arbrawf<s n="n"/><s n="m"/></l><r>experiment<s n="n"/></r></p></e>
@@ -3945,7 +3949,7 @@
     <e><p><l>croen<s n="n"/><s n="m"/></l><r>skin<s n="n"/></r></p></e>
     <e><p><l>glöwr<s n="n"/><s n="m"/></l><r>coalminer<s n="n"/></r></p></e>
     <e><p><l>anghenraid<s n="n"/><s n="m"/></l><r>necessity<s n="n"/></r></p></e>
-    <e><p><l>cronfeydd<s n="n"/><s n="f"/></l><r>funds<s n="n"/></r></p></e>
+    <e><p><l>cronfeydd<s n="n"/><s n="f"/></l><r>funds<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>ffrâm<s n="n"/><s n="f"/></l><r>frame<s n="n"/></r></p></e>
     <e><p><l>cragen<s n="n"/><s n="f"/></l><r>shell<s n="n"/></r></p></e>
     <e><p><l>ysgolhaig<s n="n"/><s n="m"/></l><r>scholar<s n="n"/></r></p></e>
@@ -3993,7 +3997,6 @@
     <e><p><l>cloch<s n="n"/><s n="f"/></l><r>bell<s n="n"/></r></p></e>
     <e><p><l>cloch<g><b/>y<b/>drws</g><s n="n"/><s n="f"/></l><r>doorbell<s n="n"/></r></p></e>
     <e><p><l>tymheredd<s n="n"/><s n="m"/></l><r>temperature<s n="n"/></r></p></e>
-    <e><p><l>cylchgronau<s n="n"/><s n="m"/></l><r>magazines<s n="n"/></r></p></e>
     <e><p><l>lleuen<s n="n"/><s n="f"/></l><r>louse<s n="n"/></r></p></e>
     <e><p><l>bwlb<s n="n"/><s n="m"/></l><r>bulb<s n="n"/></r></p></e>
     <e><p><l>gobaith<s n="n"/><s n="m"/></l><r>hope<s n="n"/></r></p></e>
@@ -4039,6 +4042,7 @@
     <e><p><l>car<s n="n"/><s n="m"/></l><r>car<s n="n"/></r></p></e>
     <e><p><l>buwch<s n="n"/><s n="f"/></l><r>cow<s n="n"/></r></p></e>
     <e><p><l>clwb<s n="n"/><s n="m"/></l><r>club<s n="n"/></r></p></e>
+    <e><p><l>hwb<s n="n"/><s n="m"/></l><r>push<s n="n"/></r></p></e>
     <e><p><l>clawdd<s n="n"/><s n="m"/></l><r>hedge<s n="n"/></r></p></e>
     <e><p><l>neidr<s n="n"/><s n="f"/></l><r>snake<s n="n"/></r></p></e>
     <e><p><l>tŷ<s n="n"/><s n="m"/></l><r>house<s n="n"/></r></p></e>
@@ -4177,6 +4181,7 @@
     <e><p><l>absoliwt<s n="adj"/></l><r>absolute<s n="adj"/></r></p></e>
     <e><p><l>academaidd<s n="adj"/></l><r>academic<s n="adj"/></r></p></e>
     <e><p><l>Anglicanaidd<s n="adj"/></l><r>Anglican<s n="adj"/></r></p></e>
+    <e><p><l>Normanaidd<s n="adj"/></l><r>Norman<s n="adj"/></r></p></e>
     <e><p><l>achlysurol<s n="adj"/></l><r>occasional<s n="adj"/></r></p></e>
     <e><p><l>achrededig<s n="adj"/></l><r>accredited<s n="adj"/></r></p></e>
     <e><p><l>aciwt<s n="adj"/></l><r>acute<s n="adj"/></r></p></e>
