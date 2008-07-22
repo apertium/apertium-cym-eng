@@ -53,6 +53,7 @@ SELECT Prep_i IF (1 VblexInf);
 
 # delete a subject pronoun if preceded by an infinitive
 # i'w weld fo
+# NOT: mynd â chi ar
 REMOVE PrnSubj IF (-1 VblexInf) (NOT 0 MAspC);
 
 #mynd â chi ar
