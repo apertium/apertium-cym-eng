@@ -137,4 +137,4 @@ SELECT Pr IF (-1 NC) (1 V);
 
 SECTION
 
-ADD (pred) ("unig" adj) ((1 (n)) OR (1 (np)) OR (1 (pr)) OR (1 Det));
+ADD (pred) ("unig" adj) ((1 (n)) OR (1 (np)) OR (1 (pr)) OR (1 Det) OR (1 (cm)));

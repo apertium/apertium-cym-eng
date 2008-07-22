@@ -172,6 +172,12 @@
           <r>other<s n="adj"/><s n="sg"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l>other</l>
+          <r>other<s n="adj"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>other</l>
@@ -2093,6 +2099,18 @@
         <p>
           <l/>
           <r><s n="num"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="num"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="num"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -9374,7 +9392,6 @@
     <e lm="confident"><i>confident</i><par n="expensive__adj"/></e>
     <e lm="th"><i>th</i><par n="expensive__adj"/></e> <!-- This is as in 19th -->
     <e lm="far-reaching"><i>far-reaching</i><par n="expensive__adj"/></e>
-    <e lm="second"><i>second</i><par n="expensive__adj"/></e>
     <e lm="actual"><i>actual</i><par n="expensive__adj"/></e>
     <e lm="alleged"><i>alleged</i><par n="expensive__adj"/></e>
     <e lm="key"><i>key</i><par n="expensive__adj"/></e>
@@ -11065,6 +11082,8 @@
     <e lm="romance"><i>romance</i><par n="expensive__adj"/></e>
     <e lm="expansionary"><i>expansionary</i><par n="expensive__adj"/></e>
     <e lm="English"><i>English</i><par n="expensive__adj"/></e>
+    <e lm="Cornish"><i>Cornish</i><par n="expensive__adj"/></e>
+    <e lm="Breton"><i>Breton</i><par n="expensive__adj"/></e>
     <e lm="Afrikaans"><i>Afrikaans</i><par n="expensive__adj"/></e>
     <e lm="diplomatic"><i>diplomatic</i><par n="expensive__adj"/></e>
     <e lm="unrecognizable"><i>unrecognizable</i><par n="expensive__adj"/></e>
@@ -16827,7 +16846,6 @@
     <e lm="manner"><i>manner</i><par n="house__n"/></e>
     <e lm="expense"><i>expense</i><par n="house__n"/></e>
     <e lm="lift"><i>lift</i><par n="house__n"/></e>
-    <e lm="hundred"><i>hundred</i><par n="house__n"/></e>
     <e lm="menu"><i>menu</i><par n="house__n"/></e>
     <e lm="businessman"><i>businessm</i><par n="m/an__n"/></e>
     <e lm="recognition"><i>recognition</i><par n="house__n__unc"/></e>
@@ -20588,6 +20606,7 @@
     <e lm="purgatory"><i>purgator</i><par n="bab/y__n"/></e>
     <e lm="prosthesis"><i>prosthes</i><par n="analys/is__n"/></e>
     <e lm="polyglot"><i>polyglot</i><par n="house__n"/></e>
+    <e lm="monoglot"><i>monoglot</i><par n="house__n"/></e>
     <e lm="physiologist"><i>physiologist</i><par n="house__n"/></e>
     <e lm="personification"><i>personification</i><par n="house__n"/></e>
     <e lm="perfectionism"><i>perfectionism</i><par n="house__n"/></e>
@@ -28082,6 +28101,7 @@
     <e lm="Soviet Union"><i>Soviet<b/>Union</i><par n="United_States__np"/></e>
     <e lm="Axis"><i>Axis</i><par n="United_States__np"/></e>
     <e lm="axis"><i>axis</i><par n="expensive__adj"/></e>
+    <e lm="monoglot"><i>monoglot</i><par n="expensive__adj"/></e>
     <e lm="Canberra"><i>Canberra</i><par n="Barcelona__np"/></e>
     <e lm="Caracas"><i>Caracas</i><par n="Barcelona__np"/></e>
     <e lm="Carribean"><i>Carribean</i><par n="Barcelona__np"/></e>
@@ -28895,6 +28915,7 @@
     <e lm="seventy"><i>seventy</i><par n="twenty__num"/></e>
     <e lm="eighty"><i>eighty</i><par n="twenty__num"/></e>
     <e lm="ninety"><i>ninety</i><par n="twenty__num"/></e>
+    <e lm="hundred"><i>hundred</i><par n="million__num"/></e>
     <e lm="pronoms personals de subjecte"><i/><par n="prsubj__prn"/></e>
     <e lm="pronoms personals d'objecte"><i/><par n="probj__prn"/></e>
     <e lm="herself"><p><l>herself</l><r>herself<s n="prn"/><s n="ref"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
@@ -29078,6 +29099,7 @@
     <e lm="recognise"><i>recognis</i><par n="liv/e__vblex"/></e>
     <e lm="apologise"><i>apologis</i><par n="liv/e__vblex"/></e>
     <e lm="sympathise"><i>sympathis</i><par n="liv/e__vblex"/></e>
+    <e lm="patronise"><i>patronis</i><par n="liv/e__vblex"/></e>
     <e lm="gaze"><i>gaz</i><par n="liv/e__vblex"/></e>
     <e lm="seise"><i>seis</i><par n="liv/e__vblex"/></e>
     <e lm="realise"><i>realis</i><par n="liv/e__vblex"/></e>
@@ -30966,6 +30988,7 @@
     <e lm="connected"><i>connected</i><par n="expensive__adj"/></e>
     <e lm="connecting"><i>connecting</i><par n="expensive__adj"/></e>
     <e lm="content"><i>content</i><par n="expensive__adj"/></e>
+    <e lm="written"><i>written</i><par n="expensive__adj"/></e>
     <e lm="cooperative"><i>cooperative</i><par n="expensive__adj"/></e>
     <e lm="coordinated"><i>coordinated</i><par n="expensive__adj"/></e>
     <e lm="correlated"><i>correlated</i><par n="expensive__adj"/></e>
@@ -31038,7 +31061,6 @@
     <e lm="feathered"><i>feathered</i><par n="expensive__adj"/></e>
     <e lm="fifteen"><i>fifteen</i><par n="expensive__adj"/></e>
     <e lm="fifteenth"><i>fifteenth</i><par n="expensive__adj"/></e>
-    <e lm="fifth"><i>fifth</i><par n="expensive__adj"/></e>
     <e lm="finished"><i>finished</i><par n="expensive__adj"/></e>
     <e lm="five"><i>five</i><par n="expensive__adj"/></e>
     <e lm="five-year"><i>five-year</i><par n="expensive__adj"/></e>
@@ -31049,7 +31071,6 @@
     <e lm="fortnightly"><i>fortnightly</i><par n="expensive__adj"/></e>
     <e lm="forty"><i>forty</i><par n="expensive__adj"/></e>
     <e lm="four"><i>four</i><par n="expensive__adj"/></e>
-    <e lm="fourth"><i>fourth</i><par n="expensive__adj"/></e>
     <e lm="fragmented"><i>fragmented</i><par n="expensive__adj"/></e>
     <e lm="frustrated"><i>frustrated</i><par n="expensive__adj"/></e>
     <e lm="gamma"><i>gamma</i><par n="expensive__adj"/></e>
@@ -31197,7 +31218,6 @@
     <e lm="short notice"><i>short<b/>notice</i><par n="expensive__adj"/></e>
     <e lm="short-term"><i>short-term</i><par n="expensive__adj"/></e>
     <e lm="six"><i>six</i><par n="expensive__adj"/></e>
-    <e lm="sixth"><i>sixth</i><par n="expensive__adj"/></e>
     <e lm="sixtieth"><i>sixtieth</i><par n="expensive__adj"/></e>
     <e lm="sixty"><i>sixty</i><par n="expensive__adj"/></e>
     <e lm="skilful"><i>skilful</i><par n="expensive__adj"/></e>
@@ -31220,10 +31240,7 @@
     <e lm="tearoff"><i>tearoff</i><par n="expensive__adj"/></e>
     <e lm="tele-health"><i>tele-health</i><par n="expensive__adj"/></e>
     <e lm="temporal"><i>temporal</i><par n="expensive__adj"/></e>
-    <e lm="ten"><i>ten</i><par n="expensive__adj"/></e>
     <e lm="tentative"><i>tentative</i><par n="expensive__adj"/></e>
-    <e lm="tenth"><i>tenth</i><par n="expensive__adj"/></e>
-    <e lm="third"><i>third</i><par n="expensive__adj"/></e>
     <e lm="three"><i>three</i><par n="expensive__adj"/></e>
     <e lm="ticklish"><i>ticklish</i><par n="expensive__adj"/></e>
     <e lm="too"><i>too</i><par n="expensive__adj"/></e>
