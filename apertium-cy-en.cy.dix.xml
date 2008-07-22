@@ -1607,9 +1607,10 @@
 
     <pardef n="/drwy__pr">
       <e>
+	<par n="initial-d"/>
         <p>
-          <l>drwy</l>
-          <r>drwy<s n="pr"/></r>
+          <l>rwy</l>
+          <r>rwy<s n="pr"/></r>
         </p>
       </e>
       <e>
@@ -1892,9 +1893,10 @@
 
     <pardef n="/trwy__pr">
       <e>
+	<par n="initial-t"/>
         <p>
-          <l>trwy</l>
-          <r>trwy<s n="pr"/></r>
+          <l>rwy</l>
+          <r>rwy<s n="pr"/></r>
         </p>
       </e>
       <e>
@@ -51934,6 +51936,7 @@
     <e lm="absoliwt"><i>absoliwt</i><par n="caredig__adj"/></e>
     <e lm="academaidd"><i>academaidd</i><par n="caredig__adj"/></e>
     <e lm="Anglicanaidd"><i>Anglicanaidd</i><par n="caredig__adj"/></e>
+    <e lm="Tuduraidd"><i>Tuduraidd</i><par n="caredig__adj"/></e>
     <e lm="Normanaidd"><i>Normanaidd</i><par n="caredig__adj"/></e>
     <e lm="achlysurol"><i>achlysurol</i><par n="caredig__adj"/></e>
     <e lm="achrededig"><i>achrededig</i><par n="caredig__adj"/></e>
