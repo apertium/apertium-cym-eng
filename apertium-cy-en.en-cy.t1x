@@ -35,6 +35,7 @@
       <attr-item tags="det.def"/>
       <attr-item tags="det.dem"/>
       <attr-item tags="det.pos"/>
+      <attr-item tags="det.ord"/>
     </def-attr>
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
