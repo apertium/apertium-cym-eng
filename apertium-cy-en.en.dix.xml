@@ -1990,6 +1990,14 @@
         </p>
       </e>
     </pardef>
+    <pardef n="Cymdeithas_yr_Iaith__np">
+      <e>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="org"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="Barcelona__np">
       <!-- BALAERERG -->
       <e r="RL">
@@ -27913,6 +27921,27 @@
     <e lm="O'Leary"><i>O'Leary</i><par n="Ifans__np"/></e>
     <e lm="O'Regan"><i>O'Regan</i><par n="Ifans__np"/></e>
     <e lm="Roberts"><i>Roberts</i><par n="Ifans__np"/></e>
+
+    <e lm="Thomas"><i>Thomas</i><par n="Ifans__np"/></e>
+    <e lm="Lewis"><i>Lewis</i><par n="Ifans__np"/></e>
+    <e lm="Griffiths"><i>Griffiths</i><par n="Ifans__np"/></e>
+    <e lm="Cyfanswm"><i>Cyfanswm</i><par n="Ifans__np"/></e>
+    <e lm="Wyn"><i>Wyn</i><par n="Mark__np"/></e>
+
+    <e lm="Assembly Government"><i>Assembly<b/>Government</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Cymdeithas"><i>Cymdeithas</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Cymdeithas yr Iaith"><i>Cymdeithas<b/>yr<b/>Iaith</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Cymdeithas yr Iaith Gymraeg"><i>Cymdeithas<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Scottish National Party"><i>Scottish<b/>National<b/>Party</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Plaid Cymru"><i>Plaid<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Labour Party"><i>Labour<b/>Party</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Welsh Language Board"><i>Welsh<b/>Language<b/>Board</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+
+    <e lm="Gwynedd"><i>Gwynedd</i><par n="Barcelona__np"/></e>
+    <e lm="Candela"><i>Candela</i><par n="Mary__np"/></e>
+    <e lm="Carolina"><i>Carolina</i><par n="Mary__np"/></e>
+    <e lm="Kate"><i>Kate</i><par n="Mary__np"/></e>
+
 
 
     <e lm="Mark"><i>Mark</i><par n="Mark__np"/></e>

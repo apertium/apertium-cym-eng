@@ -9740,15 +9740,15 @@
     <!-- Proper names -->
       <!-- Organisations -->
  
-    <e><p><l>Llywodraeth Cynulliad Cymru<s n="np"/></l><r>Welsh Assembly Government<s n="np"/></r></p></e>
-    <e><p><l>Llywodraeth y Cynulliad<s n="np"/></l><r>Assembly Government<s n="np"/></r></p></e>
-    <e><p><l>Cymdeithas yr Iaith Gymraeg<s n="np"/></l><r>Cymdeithas yr Iaith Gymraeg<s n="np"/></r></p></e>
-    <e><p><l>Cymdeithas yr Iaith<s n="np"/></l><r>Cymdeithas yr Iaith<s n="np"/></r></p></e>
-    <e><p><l>Cymdeithas<s n="np"/></l><r>Cymdeithas<s n="np"/></r></p></e>
-    <e><p><l>Bwrdd yr Iaith Gymraeg<s n="np"/></l><r>Welsh Language Board<s n="np"/></r></p></e>
-    <e><p><l>Plaid Genedlaethol yr Alban<s n="np"/></l><r>Scottish National Party<s n="np"/></r></p></e>
-    <e><p><l>Plaid Cymru<s n="np"/></l><r>Plaid Cymru<s n="np"/></r></p></e>
-    <e><p><l>Plaid Lafur<s n="np"/></l><r>Labour Party<s n="np"/></r></p></e>
+    <e><p><l>Llywodraeth Cynulliad Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>Welsh Assembly Government<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Llywodraeth y Cynulliad<s n="np"/><s n="org"/><s n="f"/></l><r>Assembly Government<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Cymdeithas yr Iaith Gymraeg<s n="np"/><s n="org"/><s n="f"/></l><r>Cymdeithas yr Iaith Gymraeg<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Cymdeithas yr Iaith<s n="np"/><s n="org"/><s n="f"/></l><r>Cymdeithas yr Iaith<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Cymdeithas<s n="np"/><s n="org"/><s n="f"/></l><r>Cymdeithas<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Bwrdd yr Iaith Gymraeg<s n="np"/><s n="org"/><s n="m"/></l><r>Welsh Language Board<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Plaid Genedlaethol yr Alban<s n="np"/><s n="org"/><s n="f"/></l><r>Scottish National Party<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Plaid Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>Plaid Cymru<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Plaid Lafur<s n="np"/><s n="org"/><s n="f"/></l><r>Labour Party<s n="np"/><s n="org"/></r></p></e>
  
  
       <!--  Anthroponyms -->
@@ -9766,6 +9766,8 @@
 
 
     <e><p><l>Aaron<s n="np"/><s n="ant"/></l><r>Aaron<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Candela<s n="np"/><s n="ant"/></l><r>Candela<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Carolina<s n="np"/><s n="ant"/></l><r>Carolina<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Abril<s n="np"/><s n="ant"/></l><r>Abril<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Adam<s n="np"/><s n="ant"/></l><r>Adam<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Adrià<s n="np"/><s n="ant"/></l><r>Adrià<s n="np"/><s n="ant"/></r></p></e>
@@ -9799,6 +9801,7 @@
     <e><p><l>Margaret<s n="np"/><s n="ant"/></l><r>Margaret<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Amber<s n="np"/><s n="ant"/></l><r>Amber<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Mark<s n="np"/><s n="ant"/></l><r>Mark<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Marc<s n="np"/><s n="ant"/></l><r>Marc<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Àlex<s n="np"/><s n="ant"/></l><r>Àlex<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alianore-<s n="np"/><s n="ant"/></l><r>Alianore-<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alice<s n="np"/><s n="ant"/></l><r>Alice<s n="np"/><s n="ant"/></r></p></e>
@@ -9991,6 +9994,13 @@
     <e><p><l>Juli<s n="np"/><s n="ant"/></l><r>Juli<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Julyan<s n="np"/><s n="ant"/></l><r>Julyan<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Kateryn<s n="np"/><s n="ant"/></l><r>Kateryn<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Kate<s n="np"/><s n="ant"/></l><r>Kate<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Anne<s n="np"/><s n="ant"/></l><r>Anne<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ele<s n="np"/><s n="ant"/></l><r>Ele<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Eden<s n="np"/><s n="ant"/></l><r>Eden<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Eva<s n="np"/><s n="ant"/></l><r>Eva<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Jan<s n="np"/><s n="ant"/></l><r>Jan<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Sofia<s n="np"/><s n="ant"/></l><r>Sofia<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Katherine<s n="np"/><s n="ant"/></l><r>Katherine<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Kath<s n="np"/><s n="ant"/></l><r>Kath<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Laia<s n="np"/><s n="ant"/></l><r>Laia<s n="np"/><s n="ant"/></r></p></e>
@@ -10076,6 +10086,7 @@
     <e><p><l>Òscar<s n="np"/><s n="ant"/></l><r>Òscar<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Patrícia<s n="np"/><s n="ant"/></l><r>Patrícia<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Paula<s n="np"/><s n="ant"/></l><r>Paula<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Pau<s n="np"/><s n="ant"/></l><r>Pau<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Paul<s n="np"/><s n="ant"/></l><r>Paul<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Pere<s n="np"/><s n="ant"/></l><r>Pere<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Philippa<s n="np"/><s n="ant"/></l><r>Philippa<s n="np"/><s n="ant"/></r></p></e>
@@ -10205,7 +10216,7 @@
     <e><p><l>Powys<s n="np"/><s n="top"/><s n="f"/></l><r>Powys<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dyfed<s n="np"/><s n="top"/><s n="f"/></l><r>Dyfed<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Gwent<s n="np"/><s n="top"/><s n="f"/></l><r>Gwent<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Gwynedd<s n="np"/><s n="top"/></l><r>Gwynedd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Gwynedd<s n="np"/><s n="top"/><s n="f"/></l><r>Gwynedd<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dyfed-Powys<s n="np"/><s n="top"/><s n="f"/></l><r>Dyfed-Powys<s n="np"/><s n="top"/></r></p></e>
 
     <e><p><l>Aberystwyth<s n="np"/><s n="top"/><s n="f"/></l><r>Aberystwyth<s n="np"/><s n="top"/></r></p></e>

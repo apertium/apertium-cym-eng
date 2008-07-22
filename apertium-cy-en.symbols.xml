@@ -50,6 +50,7 @@
     <sdef n="pro"     c="Proclitic"/>
     <sdef n="acr"     c="Acronym"/>
     <sdef n="top"     c="Toponym"/>
+    <sdef n="org"     c="Organització"/>
     <sdef n="ant"     c="Antroponym"/>
     <sdef n="cog"     c="Cognomen"/>
 
