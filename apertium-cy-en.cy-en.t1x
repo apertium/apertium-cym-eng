@@ -173,6 +173,7 @@
       <attr-item tags="n.acr"/>
       <attr-item tags="n.unc"/>
       <attr-item tags="np.top"/>
+      <attr-item tags="np.org"/>
       <attr-item tags="np.ant"/>
       <attr-item tags="np.cog"/>
     </def-attr>

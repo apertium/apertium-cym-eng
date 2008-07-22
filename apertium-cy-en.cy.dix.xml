@@ -3436,7 +3436,16 @@
       <e>
         <p>
           <l/>
-          <r><s n="np"/><s n="sg"/></r>
+          <r><s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="Bwrdd_yr_Iaith_Gymraeg__np">
+      <e>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="org"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -49945,7 +49954,7 @@
     <e lm="sŵ"><i>sŵ</i><par n="achosiant__n"/></e>
     <e lm="synergedd"><i>synergedd</i><par n="achosiant__n"/></e>
     <e lm="syrffed"><i>syrffed</i><par n="achosiant__n"/></e>
-    <e lm="Tachwedd"><i>Tachwedd</i><par n="achosiant__n"/></e>
+    <e lm="Tachwedd"><par n="initial-T"/><i>achwedd</i><par n="achosiant__n"/></e>
     <e lm="tâl"><par n="initial-t"/><i>âl</i><par n="achosiant__n"/></e>
     <e lm="taldra"><par n="initial-t"/><i>aldra</i><par n="achosiant__n"/></e>
     <e lm="taldra"><par n="initial-t"/><i>aldra</i><par n="achosiant__n"/></e>
@@ -50105,7 +50114,7 @@
     <e lm="sosialaeth"><i>sosialaeth</i><par n="addysg__n"/></e>
     <e lm="swyddogaeth"><i>swyddogaeth</i><par n="addysg__n"/></e>
     <e lm="tadolaeth"><par n="initial-t"/><i>adolaeth</i><par n="addysg__n"/></e>
-    <e lm="T.A.W."><i>T.A.W.</i><par n="addysg__n"/></e>
+    <e lm="T.A.W."><par n="initial-T"/><i>.A.W.</i><par n="addysg__n"/></e>
     <e lm="teipograffeg"><par n="initial-t"/><i>eipograffeg</i><par n="addysg__n"/></e>
     <e lm="trafnidiaeth"><par n="initial-t"/><i>rafnidiaeth</i><par n="addysg__n"/></e>
     <e lm="tre"><par n="initial-t"/><i>re</i><par n="addysg__n"/></e>
@@ -57286,11 +57295,12 @@
     <e lm="Cymdeithas"><par n="initial-C"/><i>ymdeithas</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas yr Iaith"><par n="initial-C"/><i>ymdeithas<b/>yr<b/>Iaith</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas yr Iaith Gymraeg"><par n="initial-C"/><i>ymdeithas<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Cymdeithas_yr_Iaith__np"/></e>
-    <e lm="Bwrdd yr Iaith Gymraeg"><par n="initial-B"/><i>wrdd<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
     <e lm="Plaid Genedlaethol yr Alban"><par n="initial-P"/><i>laid<b/>Genedlaethol<b/>yr<b/>Alban</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Plaid Cymru"><par n="initial-P"/><i>laid<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Plaid Lafur"><par n="initial-P"/><i>laid<b/>Lafur</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+
+    <e lm="Bwrdd yr Iaith Gymraeg"><par n="initial-B"/><i>wrdd<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
 
 
     <e lm="Sir Benfro"><i>Sir<b/>Benfro</i><par n="Blaenafon__np"/></e>
@@ -57364,15 +57374,15 @@
     <e lm="Evans"><i>Evans</i><par n="Ifans__np"/></e>
     <e lm="Thomas"><i>Thomas</i><par n="Ifans__np"/></e>
     <e lm="Edwards"><i>Edwards</i><par n="Ifans__np"/></e>
-    <e lm="Collins"><i>Collins</i><par n="Ifans__np"/></e>
-    <e lm="Mills"><i>Mills</i><par n="Ifans__np"/></e>
+    <e lm="Collins"><par n="initial-C"/><i>ollins</i><par n="Ifans__np"/></e>
+    <e lm="Mills"><par n="initial-M"/><i>ills</i><par n="Ifans__np"/></e>
     <e lm="Roberts"><i>Roberts</i><par n="Ifans__np"/></e>
     <e lm="Williams"><i>Williams</i><par n="Ifans__np"/></e>
     <e lm="Hughes"><i>Hughes</i><par n="Ifans__np"/></e>
     <e lm="Lewis"><i>Lewis</i><par n="Ifans__np"/></e>
-    <e lm="Morgan"><i>Morgan</i><par n="Ifans__np"/></e>
+    <e lm="Morgan"><par n="initial-M"/><i>organ</i><par n="Ifans__np"/></e>
     <e lm="Griffiths"><i>Griffiths</i><par n="Ifans__np"/></e>
-    <e lm="Cyfanswm"><i>Cyfanswm</i><par n="Ifans__np"/></e>
+    <e lm="Cyfanswm"><par n="initial-C"/><i>yfanswm</i><par n="Ifans__np"/></e>
     <e lm="Davies"><par n="initial-D"/><i>avies</i><par n="Ifans__np"/></e>
     <e lm="Jones"><i>Jones</i><par n="Ifans__np"/></e>
     <e lm="Llwyd"><i>Llwyd</i><par n="Ifans__np"/></e>
@@ -57384,12 +57394,12 @@
     <e lm="Ifor"><i>Ifor</i><par n="Aled__np"/></e>
     <e lm="Dai"><par n="initial-D"/><i>ai</i><par n="Aled__np"/></e>
     <e lm="Alun"><i>Alun</i><par n="Aled__np"/></e>
-    <e lm="Rhodri"><i>Rhodri</i><par n="Aled__np"/></e>
-    <e lm="Rhys"><i>Rhys</i><par n="Aled__np"/></e>
+    <e lm="Rhodri"><par n="initial-Rh"/><i>odri</i><par n="Aled__np"/></e>
+    <e lm="Rhys"><par n="initial-Rh"/><i>ys</i><par n="Aled__np"/></e>
     <e lm="Wyn"><i>Wyn</i><par n="Aled__np"/></e>
-    <e lm="Talfan"><i>Talfan</i><par n="Aled__np"/></e>
+    <e lm="Talfan"><par n="initial-T"/><i>alfan</i><par n="Aled__np"/></e>
     <e lm="Arwel"><i>Arwel</i><par n="Aled__np"/></e>
-    <e lm="Mark"><i>Mark</i><par n="Aled__np"/></e>
+    <e lm="Mark"><par n="initial-M"/><i>ark</i><par n="Aled__np"/></e>
     <e lm="Aaron"><i>Aaron</i><par n="Aled__np"/></e>
     <e lm="Adam"><i>Adam</i><par n="Aled__np"/></e>
     <e lm="Adrià"><i>Adrià</i><par n="Aled__np"/></e>
@@ -57507,18 +57517,18 @@
     <e lm="Lluís"><i>Lluís</i><par n="Aled__np"/></e>
     <e lm="Lucas"><i>Lucas</i><par n="Aled__np"/></e>
     <e lm="Luke"><i>Luke</i><par n="Aled__np"/></e>
-    <e lm="Manel"><i>Manel</i><par n="Aled__np"/></e>
-    <e lm="Marc"><i>Marc</i><par n="Aled__np"/></e>
-    <e lm="Mario"><i>Mario</i><par n="Aled__np"/></e>
-    <e lm="Martí"><i>Martí</i><par n="Aled__np"/></e>
-    <e lm="Martin"><i>Martin</i><par n="Aled__np"/></e>
-    <e lm="Mathye"><i>Mathye</i><par n="Aled__np"/></e>
-    <e lm="Matthew"><i>Matthew</i><par n="Aled__np"/></e>
-    <e lm="Maurice"><i>Maurice</i><par n="Aled__np"/></e>
-    <e lm="Michael"><i>Michael</i><par n="Aled__np"/></e>
-    <e lm="Miquel Àngel"><i>Miquel Àngel</i><par n="Aled__np"/></e>
-    <e lm="Miquel"><i>Miquel</i><par n="Aled__np"/></e>
-    <e lm="Morys"><i>Morys</i><par n="Aled__np"/></e>
+    <e lm="Manel"><par n="initial-M"/><i>anel</i><par n="Aled__np"/></e>
+    <e lm="Marc"><par n="initial-M"/><i>arc</i><par n="Aled__np"/></e>
+    <e lm="Mario"><par n="initial-M"/><i>ario</i><par n="Aled__np"/></e>
+    <e lm="Martí"><par n="initial-M"/><i>artí</i><par n="Aled__np"/></e>
+    <e lm="Martin"><par n="initial-M"/><i>artin</i><par n="Aled__np"/></e>
+    <e lm="Mathye"><par n="initial-M"/><i>athye</i><par n="Aled__np"/></e>
+    <e lm="Matthew"><par n="initial-M"/><i>atthew</i><par n="Aled__np"/></e>
+    <e lm="Maurice"><par n="initial-M"/><i>aurice</i><par n="Aled__np"/></e>
+    <e lm="Michael"><par n="initial-M"/><i>ichael</i><par n="Aled__np"/></e>
+    <e lm="Miquel Àngel"><par n="initial-M"/><i>iquel Àngel</i><par n="Aled__np"/></e>
+    <e lm="Miquel"><par n="initial-M"/><i>iquel</i><par n="Aled__np"/></e>
+    <e lm="Morys"><par n="initial-M"/><i>orys</i><par n="Aled__np"/></e>
     <e lm="Nathaniel"><i>Nathaniel</i><par n="Aled__np"/></e>
     <e lm="Nicholas"><i>Nicholas</i><par n="Aled__np"/></e>
     <e lm="Nichole"><i>Nichole</i><par n="Aled__np"/></e>
@@ -57529,15 +57539,14 @@
     <e lm="Oliver"><i>Oliver</i><par n="Aled__np"/></e>
     <e lm="Olyver"><i>Olyver</i><par n="Aled__np"/></e>
     <e lm="Òscar"><i>Òscar</i><par n="Aled__np"/></e>
-    <e lm="Pau"><par n="initial-p"/><i>au</i><par n="Aled__np"/></e>
-    <e lm="Paul"><par n="initial-p"/><i>aul</i><par n="Aled__np"/></e>
-    <e lm="Pere"><par n="initial-p"/><i>ere</i><par n="Aled__np"/></e>
-    <e lm="Pers"><par n="initial-p"/><i>ers</i><par n="Aled__np"/></e>
-    <e lm="Peter"><par n="initial-p"/><i>eter</i><par n="Aled__np"/></e>
-    <e lm="Philip"><par n="initial-p"/><i>hilip</i><par n="Aled__np"/></e>
-    <e lm="Philippe"><par n="initial-p"/><i>hilippe</i><par n="Aled__np"/></e>
-    <e lm="Piers"><par n="initial-p"/><i>iers</i><par n="Aled__np"/></e>
-    <e lm="Powle"><par n="initial-p"/><i>owle</i><par n="Aled__np"/></e>
+    <e lm="Pau"><par n="initial-P"/><i>au</i><par n="Aled__np"/></e>
+    <e lm="Paul"><par n="initial-P"/><i>aul</i><par n="Aled__np"/></e>
+    <e lm="Pere"><par n="initial-P"/><i>ere</i><par n="Aled__np"/></e>
+    <e lm="Peter"><par n="initial-P"/><i>eter</i><par n="Aled__np"/></e>
+    <e lm="Philip"><par n="initial-P"/><i>hilip</i><par n="Aled__np"/></e>
+    <e lm="Philippe"><par n="initial-P"/><i>hilippe</i><par n="Aled__np"/></e>
+    <e lm="Piers"><par n="initial-P"/><i>iers</i><par n="Aled__np"/></e>
+    <e lm="Powle"><par n="initial-P"/><i>owle</i><par n="Aled__np"/></e>
     <e lm="Rafel"><i>Rafel</i><par n="Aled__np"/></e>
     <e lm="Romeo"><i>Romeo</i><par n="Aled__np"/></e>
     <e lm="Raffe"><i>Raffe</i><par n="Aled__np"/></e>
@@ -57571,8 +57580,8 @@
     <e lm="Symond"><i>Symond</i><par n="Aled__np"/></e>
     <e lm="Thames"><i>Thames</i><par n="Aled__np"/></e>
     <e lm="Thomas"><i>Thomas</i><par n="Aled__np"/></e>
-    <e lm="Tomas"><i>Tomas</i><par n="Aled__np"/></e>
-    <e lm="Tomàs"><i>Tomàs</i><par n="Aled__np"/></e>
+    <e lm="Tomas"><par n="initial-T"/><i>omas</i><par n="Aled__np"/></e>
+    <e lm="Tomàs"><par n="initial-T"/><i>omàs</i><par n="Aled__np"/></e>
     <e lm="Valentine"><i>Valentine</i><par n="Aled__np"/></e>
     <e lm="Víctor"><i>Víctor</i><par n="Aled__np"/></e>
     <e lm="Vyncent"><i>Vyncent</i><par n="Aled__np"/></e>
@@ -57586,14 +57595,14 @@
     <e lm="Pedr"><par n="initial-P"/><i>edr</i><par n="Aled__np"/></e>
 
     <e lm="Elin"><i>Elin</i><par n="Elin__np"/></e>
-    <e lm="Myfanwy"><i>Myfanwy</i><par n="Elin__np"/></e>
+    <e lm="Myfanwy"><par n="initial-M"/><i>yfanwy</i><par n="Elin__np"/></e>
     <e lm="Susan"><i>Susan</i><par n="Elin__np"/></e>
     <e lm="Kate"><i>Kate</i><par n="Elin__np"/></e>
     <e lm="Edwina"><i>Edwina</i><par n="Elin__np"/></e>
     <e lm="Siôn"><i>Siôn</i><par n="Elin__np"/></e>
     <e lm="Bethan"><par n="initial-B"/><i>ethan</i><par n="Elin__np"/></e>
     <e lm="Amber"><i>Amber</i><par n="Elin__np"/></e>
-    <e lm="Margaret"><i>Margaret</i><par n="Elin__np"/></e>
+    <e lm="Margaret"><par n="initial-M"/><i>argaret</i><par n="Elin__np"/></e>
     <e lm="Janet"><i>Janet</i><par n="Elin__np"/></e>
     <e lm="Sioned"><i>Sioned</i><par n="Elin__np"/></e>
 
@@ -57626,43 +57635,43 @@
     <e lm="Ariadna"><i>Ariadna</i><par n="Elin__np"/></e>
     <e lm="Aroa"><i>Aroa</i><par n="Elin__np"/></e>
     <e lm="Audrey"><i>Audrey</i><par n="Elin__np"/></e>
-    <e lm="Barbara"><i>Barbara</i><par n="Elin__np"/></e>
-    <e lm="Bàrbara"><i>Bàrbara</i><par n="Elin__np"/></e>
-    <e lm="Baterich"><i>Baterich</i><par n="Elin__np"/></e>
-    <e lm="Beatrice"><i>Beatrice</i><par n="Elin__np"/></e>
-    <e lm="Beatrix"><i>Beatrix</i><par n="Elin__np"/></e>
-    <e lm="Benet"><i>Benet</i><par n="Elin__np"/></e>
-    <e lm="Bennet"><i>Bennet</i><par n="Elin__np"/></e>
-    <e lm="Blanca"><i>Blanca</i><par n="Elin__np"/></e>
-    <e lm="Blanche"><i>Blanche</i><par n="Elin__np"/></e>
-    <e lm="Bridget"><i>Bridget</i><par n="Elin__np"/></e>
-    <e lm="Candela "><i>Candela </i><par n="Elin__np"/></e>
-    <e lm="Carla"><i>Carla</i><par n="Elin__np"/></e>
-    <e lm="Carlota"><i>Carlota</i><par n="Elin__np"/></e>
-    <e lm="Carme"><i>Carme</i><par n="Elin__np"/></e>
-    <e lm="Carolina "><i>Carolina </i><par n="Elin__np"/></e>
-    <e lm="Catalina"><i>Catalina</i><par n="Elin__np"/></e>
-    <e lm="Caterina"><i>Caterina</i><par n="Elin__np"/></e>
-    <e lm="Cecilia"><i>Cecilia</i><par n="Elin__np"/></e>
-    <e lm="Cecil"><i>Cecil</i><par n="Elin__np"/></e>
-    <e lm="Cecily"><i>Cecily</i><par n="Elin__np"/></e>
-    <e lm="Christina"><i>Christina</i><par n="Elin__np"/></e>
-    <e lm="Christine"><i>Christine</i><par n="Elin__np"/></e>
-    <e lm="Cicely"><i>Cicely</i><par n="Elin__np"/></e>
-    <e lm="Clara"><i>Clara</i><par n="Elin__np"/></e>
-    <e lm="Clarice"><i>Clarice</i><par n="Elin__np"/></e>
-    <e lm="Clàudia"><i>Clàudia</i><par n="Elin__np"/></e>
-    <e lm="Collys"><i>Collys</i><par n="Elin__np"/></e>
-    <e lm="Constance"><i>Constance</i><par n="Elin__np"/></e>
-    <e lm="Crestian"><i>Crestian</i><par n="Elin__np"/></e>
-    <e lm="Cristina"><i>Cristina</i><par n="Elin__np"/></e>
-    <e lm="Daniela"><i>Daniela</i><par n="Elin__np"/></e>
-    <e lm="Dennis"><i>Dennis</i><par n="Elin__np"/></e>
-    <e lm="Denys"><i>Denys</i><par n="Elin__np"/></e>
-    <e lm="Desirée"><i>Desirée</i><par n="Elin__np"/></e>
-    <e lm="Dionisia"><i>Dionisia</i><par n="Elin__np"/></e>
-    <e lm="Dorothy"><i>Dorothy</i><par n="Elin__np"/></e>
-    <e lm="Douce"><i>Douce</i><par n="Elin__np"/></e>
+    <e lm="Barbara"><par n="initial-B"/><i>arbara</i><par n="Elin__np"/></e>
+    <e lm="Bàrbara"><par n="initial-B"/><i>àrbara</i><par n="Elin__np"/></e>
+    <e lm="Baterich"><par n="initial-B"/><i>aterich</i><par n="Elin__np"/></e>
+    <e lm="Beatrice"><par n="initial-B"/><i>eatrice</i><par n="Elin__np"/></e>
+    <e lm="Beatrix"><par n="initial-B"/><i>eatrix</i><par n="Elin__np"/></e>
+    <e lm="Benet"><par n="initial-B"/><i>enet</i><par n="Elin__np"/></e>
+    <e lm="Bennet"><par n="initial-B"/><i>ennet</i><par n="Elin__np"/></e>
+    <e lm="Blanca"><par n="initial-B"/><i>lanca</i><par n="Elin__np"/></e>
+    <e lm="Blanche"><par n="initial-B"/><i>lanche</i><par n="Elin__np"/></e>
+    <e lm="Bridget"><par n="initial-B"/><i>ridget</i><par n="Elin__np"/></e>
+    <e lm="Candela"><par n="initial-C"/><i>andela</i><par n="Elin__np"/></e>
+    <e lm="Carla"><par n="initial-C"/><i>arla</i><par n="Elin__np"/></e>
+    <e lm="Carlota"><par n="initial-C"/><i>arlota</i><par n="Elin__np"/></e>
+    <e lm="Carme"><par n="initial-C"/><i>arme</i><par n="Elin__np"/></e>
+    <e lm="Carolina"><par n="initial-C"/><i>arolina</i><par n="Elin__np"/></e>
+    <e lm="Catalina"><par n="initial-C"/><i>atalina</i><par n="Elin__np"/></e>
+    <e lm="Caterina"><par n="initial-C"/><i>aterina</i><par n="Elin__np"/></e>
+    <e lm="Cecilia"><par n="initial-C"/><i>ecilia</i><par n="Elin__np"/></e>
+    <e lm="Cecil"><par n="initial-C"/><i>ecil</i><par n="Elin__np"/></e>
+    <e lm="Cecily"><par n="initial-C"/><i>ecily</i><par n="Elin__np"/></e>
+    <e lm="Christina"><par n="initial-C"/><i>hristina</i><par n="Elin__np"/></e>
+    <e lm="Christine"><par n="initial-C"/><i>hristine</i><par n="Elin__np"/></e>
+    <e lm="Cicely"><par n="initial-C"/><i>icely</i><par n="Elin__np"/></e>
+    <e lm="Clara"><par n="initial-C"/><i>lara</i><par n="Elin__np"/></e>
+    <e lm="Clarice"><par n="initial-C"/><i>larice</i><par n="Elin__np"/></e>
+    <e lm="Clàudia"><par n="initial-C"/><i>làudia</i><par n="Elin__np"/></e>
+    <e lm="Collys"><par n="initial-C"/><i>ollys</i><par n="Elin__np"/></e>
+    <e lm="Constance"><par n="initial-C"/><i>onstance</i><par n="Elin__np"/></e>
+    <e lm="Crestian"><par n="initial-C"/><i>restian</i><par n="Elin__np"/></e>
+    <e lm="Cristina"><par n="initial-C"/><i>ristina</i><par n="Elin__np"/></e>
+    <e lm="Daniela"><par n="initial-D"/><i>aniela</i><par n="Elin__np"/></e>
+    <e lm="Dennis"><par n="initial-D"/><i>ennis</i><par n="Elin__np"/></e>
+    <e lm="Denys"><par n="initial-D"/><i>enys</i><par n="Elin__np"/></e>
+    <e lm="Desirée"><par n="initial-D"/><i>esirée</i><par n="Elin__np"/></e>
+    <e lm="Dionisia"><par n="initial-D"/><i>ionisia</i><par n="Elin__np"/></e>
+    <e lm="Dorothy"><par n="initial-D"/><i>orothy</i><par n="Elin__np"/></e>
+    <e lm="Douce"><par n="initial-D"/><i>ouce</i><par n="Elin__np"/></e>
     <e lm="Eden"><i>Eden</i><par n="Elin__np"/></e>
     <e lm="Edith"><i>Edith</i><par n="Elin__np"/></e>
     <e lm="Eleanor"><i>Eleanor</i><par n="Elin__np"/></e>
@@ -57722,36 +57731,35 @@
     <e lm="Lucas"><i>Lucas</i><par n="Elin__np"/></e>
     <e lm="Lucie"><i>Lucie</i><par n="Elin__np"/></e>
     <e lm="Lucy"><i>Lucy</i><par n="Elin__np"/></e>
-    <e lm="Magdalena"><i>Magdalena</i><par n="Elin__np"/></e>
-    <e lm="Malin"><i>Malin</i><par n="Elin__np"/></e>
-    <e lm="Margalida"><i>Margalida</i><par n="Elin__np"/></e>
-    <e lm="Margarete"><i>Margarete</i><par n="Elin__np"/></e>
-    <e lm="Margaret"><i>Margaret</i><par n="Elin__np"/></e>
-    <e lm="Margarida"><i>Margarida</i><par n="Elin__np"/></e>
-    <e lm="Margery"><i>Margery</i><par n="Elin__np"/></e>
-    <e lm="Margry"><i>Margry</i><par n="Elin__np"/></e>
-    <e lm="Maria Antònia"><i>Maria Antònia</i><par n="Elin__np"/></e>
-    <e lm="Maria del Carme"><i>Maria del Carme</i><par n="Elin__np"/></e>
-    <e lm="Maria del Mar"><i>Maria del Mar</i><par n="Elin__np"/></e>
-    <e lm="Maria"><i>Maria</i><par n="Elin__np"/></e>
-    <e lm="Maria Magdalena"><i>Maria Magdalena</i><par n="Elin__np"/></e>
-    <e lm="Marian"><i>Marian</i><par n="Elin__np"/></e>
-    <e lm="Marie"><i>Marie</i><par n="Elin__np"/></e>
-    <e lm="Mar"><i>Mar</i><par n="Elin__np"/></e>
-    <e lm="Marina"><i>Marina</i><par n="Elin__np"/></e>
-    <e lm="Mariona"><i>Mariona</i><par n="Elin__np"/></e>
-    <e lm="Marion"><i>Marion</i><par n="Elin__np"/></e>
-    <e lm="Marta"><i>Marta</i><par n="Elin__np"/></e>
-    <e lm="Martina"><i>Martina</i><par n="Elin__np"/></e>
-    <e lm="Mary"><i>Mary</i><par n="Elin__np"/></e>
-    <e lm="Matilda"><i>Matilda</i><par n="Elin__np"/></e>
-    <e lm="Maude"><i>Maude</i><par n="Elin__np"/></e>
-    <e lm="Maud"><i>Maud</i><par n="Elin__np"/></e>
-    <e lm="Meryell"><i>Meryell</i><par n="Elin__np"/></e>
-    <e lm="Mildred"><i>Mildred</i><par n="Elin__np"/></e>
-    <e lm="Millicent"><i>Millicent</i><par n="Elin__np"/></e>
-    <e lm="Mireia"><i>Mireia</i><par n="Elin__np"/></e>
-    <e lm="Muriel"><i>Muriel</i><par n="Elin__np"/></e>
+    <e lm="Magdalena"><par n="initial-M"/><i>agdalena</i><par n="Elin__np"/></e>
+    <e lm="Malin"><par n="initial-M"/><i>alin</i><par n="Elin__np"/></e>
+    <e lm="Margalida"><par n="initial-M"/><i>argalida</i><par n="Elin__np"/></e>
+    <e lm="Margarete"><par n="initial-M"/><i>argarete</i><par n="Elin__np"/></e>
+    <e lm="Margaret"><par n="initial-M"/><i>argaret</i><par n="Elin__np"/></e>
+    <e lm="Margarida"><par n="initial-M"/><i>argarida</i><par n="Elin__np"/></e>
+    <e lm="Margery"><par n="initial-M"/><i>argery</i><par n="Elin__np"/></e>
+    <e lm="Margry"><par n="initial-M"/><i>argry</i><par n="Elin__np"/></e>
+    <e lm="Maria Antònia"><par n="initial-M"/><i>aria Antònia</i><par n="Elin__np"/></e>
+    <e lm="Maria del Carme"><par n="initial-M"/><i>aria del Carme</i><par n="Elin__np"/></e>
+    <e lm="Maria del Mar"><par n="initial-M"/><i>aria del Mar</i><par n="Elin__np"/></e>
+    <e lm="Maria"><par n="initial-M"/><i>aria</i><par n="Elin__np"/></e>
+    <e lm="Maria Magdalena"><par n="initial-M"/><i>aria Magdalena</i><par n="Elin__np"/></e>
+    <e lm="Marian"><par n="initial-M"/><i>arian</i><par n="Elin__np"/></e>
+    <e lm="Marie"><par n="initial-M"/><i>arie</i><par n="Elin__np"/></e>
+    <e lm="Marina"><par n="initial-M"/><i>arina</i><par n="Elin__np"/></e>
+    <e lm="Mariona"><par n="initial-M"/><i>ariona</i><par n="Elin__np"/></e>
+    <e lm="Marion"><par n="initial-M"/><i>arion</i><par n="Elin__np"/></e>
+    <e lm="Marta"><par n="initial-M"/><i>arta</i><par n="Elin__np"/></e>
+    <e lm="Martina"><par n="initial-M"/><i>artina</i><par n="Elin__np"/></e>
+    <e lm="Mary"><par n="initial-M"/><i>ary</i><par n="Elin__np"/></e>
+    <e lm="Matilda"><par n="initial-M"/><i>atilda</i><par n="Elin__np"/></e>
+    <e lm="Maude"><par n="initial-M"/><i>aude</i><par n="Elin__np"/></e>
+    <e lm="Maud"><par n="initial-M"/><i>aud</i><par n="Elin__np"/></e>
+    <e lm="Meryell"><par n="initial-M"/><i>eryell</i><par n="Elin__np"/></e>
+    <e lm="Mildred"><par n="initial-M"/><i>ildred</i><par n="Elin__np"/></e>
+    <e lm="Millicent"><par n="initial-M"/><i>illicent</i><par n="Elin__np"/></e>
+    <e lm="Mireia"><par n="initial-M"/><i>ireia</i><par n="Elin__np"/></e>
+    <e lm="Muriel"><par n="initial-M"/><i>uriel</i><par n="Elin__np"/></e>
     <e lm="Nàdia"><i>Nàdia</i><par n="Elin__np"/></e>
     <e lm="Naiara"><i>Naiara</i><par n="Elin__np"/></e>
     <e lm="Natàlia"><i>Natàlia</i><par n="Elin__np"/></e>
@@ -57764,11 +57772,10 @@
     <e lm="Nora"><i>Nora</i><par n="Elin__np"/></e>
     <e lm="Núria"><i>Núria</i><par n="Elin__np"/></e>
     <e lm="Olga"><i>Olga</i><par n="Elin__np"/></e>
-    <e lm="Owner"><i>Owner</i><par n="Elin__np"/></e>
-    <e lm="Patrícia"><i>Patrícia</i><par n="Elin__np"/></e>
-    <e lm="Paula"><i>Paula</i><par n="Elin__np"/></e>
-    <e lm="Philippa"><i>Philippa</i><par n="Elin__np"/></e>
-    <e lm="Prudence"><i>Prudence</i><par n="Elin__np"/></e>
+    <e lm="Patrícia"><par n="initial-P"/><i>atrícia</i><par n="Elin__np"/></e>
+    <e lm="Paula"><par n="initial-P"/><i>aula</i><par n="Elin__np"/></e>
+    <e lm="Philippa"><par n="initial-P"/><i>hilippa</i><par n="Elin__np"/></e>
+    <e lm="Prudence"><par n="initial-P"/><i>rudence</i><par n="Elin__np"/></e>
     <e lm="Raquel"><i>Raquel</i><par n="Elin__np"/></e>
     <e lm="Rocio"><i>Rocio</i><par n="Elin__np"/></e>
     <e lm="Rosa"><i>Rosa</i><par n="Elin__np"/></e>
@@ -57788,7 +57795,7 @@
     <e lm="Sybell"><i>Sybell</i><par n="Elin__np"/></e>
     <e lm="Sybil"><i>Sybil</i><par n="Elin__np"/></e>
     <e lm="Sybill"><i>Sybill</i><par n="Elin__np"/></e>
-    <e lm="Tània"><i>Tània</i><par n="Elin__np"/></e>
+    <e lm="Tània"><par n="initial-T"/><i>ània</i><par n="Elin__np"/></e>
     <e lm="Thomasine"><i>Thomasine</i><par n="Elin__np"/></e>
     <e lm="Thomasyn"><i>Thomasyn</i><par n="Elin__np"/></e>
     <e lm="Ursula"><i>Ursula</i><par n="Elin__np"/></e>
