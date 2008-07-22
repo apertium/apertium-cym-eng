@@ -50053,7 +50053,6 @@
     <e lm="fferylliaeth"><i>fferylliaeth</i><par n="addysg__n"/></e>
     <e lm="fforddiadwyedd"><i>fforddiadwyedd</i><par n="addysg__n"/></e>
     <e lm="ffotograffiaeth"><i>ffotograffiaeth</i><par n="addysg__n"/></e>
-    <e lm="Ffrainc"><i>Ffrainc</i><par n="addysg__n"/></e>
     <e lm="ffuglen"><i>ffuglen</i><par n="addysg__n"/></e>
     <e lm="Gaeleg"><par n="initial-G"/><i>aeleg</i><par n="addysg__n"/></e>
     <e lm="garddwriaeth"><par n="initial-g"/><i>arddwriaeth</i><par n="addysg__n"/></e>
@@ -50099,7 +50098,6 @@
     <e lm="rhesymeg"><par n="initial-rh"/><i>esymeg</i><par n="addysg__n"/></e>
     <e lm="rhyngrwyd"><par n="initial-rh"/><i>yngrwyd</i><par n="addysg__n"/></e>
     <e lm="Rwseg"><i>Rwseg</i><par n="addysg__n"/></e>
-    <e lm="Rwsia"><i>Rwsia</i><par n="addysg__n"/></e>
     <e lm="seiciatreg"><i>seiciatreg</i><par n="addysg__n"/></e>
     <e lm="seicolawdriniaeth"><i>seicolawdriniaeth</i><par n="addysg__n"/></e>
     <e lm="seicoleg"><i>seicoleg</i><par n="addysg__n"/></e>
@@ -50109,7 +50107,6 @@
     <e lm="mytholeg"><par n="initial-m"/><i>ytholeg</i><par n="addysg__n"/></e>
     <e lm="anthropoleg"><i>anthropoleg</i><par n="addysg__n"/></e>
     <e lm="archaeoleg"><i>archaeoleg</i><par n="addysg__n"/></e>
-    <e lm="Siapan"><i>Siapan</i><par n="addysg__n"/></e>
     <e lm="Siapaneg"><i>Siapaneg</i><par n="addysg__n"/></e>
     <e lm="sosialaeth"><i>sosialaeth</i><par n="addysg__n"/></e>
     <e lm="swyddogaeth"><i>swyddogaeth</i><par n="addysg__n"/></e>
@@ -51228,9 +51225,7 @@
     <e lm="ymgeisydd"><i>ymgeis</i><par n="achwyn/ydd__n"/></e>
     <e lm="ymgynghorydd"><i>ymgynghor</i><par n="achwyn/ydd__n"/></e>
     <e lm="gwallau"><par n="initial-g"/><i>wall</i><par n="adolygiad/au__n"/></e>
-    <e lm="adolygiadau"><i>adolygiad</i><par n="adolygiad/au__n"/></e>
     <e lm="apeliadau"><i>apeliad</i><par n="adolygiad/au__n"/></e>
-    <e lm="apwyntiadau"><i>apwyntiad</i><par n="adolygiad/au__n"/></e>
     <e lm="cyflenwadau"><par n="initial-c"/><i>yflenwad</i><par n="adolygiad/au__n"/></e>
     <e lm="ymddangosiadau"><i>ymddangosiad</i><par n="adolygiad/au__n"/></e>
     <e lm="sectorau"><i>sector</i><par n="sector/au__n"/></e>
@@ -51424,7 +51419,6 @@
     <e lm="islythyren"><i>islyth</i><par n="blaenlyth/yren__n"/></e>
     <e lm="llythyren"><par n="initial-ll"/><i>yth</i><par n="blaenlyth/yren__n"/></e>
     <e lm="priflythyren"><par n="initial-p"/><i>riflyth</i><par n="blaenlyth/yren__n"/></e>
-    <e lm="recordiau"><i>record</i><par n="record/iau__n"/></e>
     <e lm="bonws"><par n="initial-b"/><i>on</i><par n="bon/ws__n"/></e>
     <e lm="campws"><par n="initial-c"/><i>amp</i><par n="bon/ws__n"/></e>
     <e lm="ffocws"><i>ffoc</i><par n="bon/ws__n"/></e>
@@ -51479,8 +51473,6 @@
     <e lm="aroglau"><i>arogl</i><par n="adn/au__n"/></e>
     <e lm="cyflwr"><par n="initial-c"/><i>yfl</i><par n="cyfl/wr__n"/></e>
     <e lm="ffigwr"><i>ffig</i><par n="ffig/wr__n"/></e>
-    <e lm="hufennau"><i>hufen</i><par n="hufen/nau__n"/></e>
-    <e lm="adrannau"><i>adran</i><par n="adran/nau__n"/></e>
     <e lm="dyffryn"><par n="initial-d"/><i>yffryn</i><par n="dyffryn__n"/></e>
     <e lm="llyn"><par n="initial-ll"/><i>yn</i><par n="dyffryn__n"/></e>
     <e lm="cymhwysedd"><par n="initial-c"/><i>ym</i><par n="cym/hwysedd__n"/></e>
@@ -51647,7 +51639,6 @@
     <e lm="cytsain"><par n="initial-c"/><i>yts</i><par n="cyts/ain__n"/></e>
     <e lm="cymar"><par n="initial-c"/><i>ym</i><par n="cym/ar__n"/></e>
     <e lm="bardd"><i>b</i><par n="b/ardd__n"/></e>
-    <e lm="aseswyr"><i>ases</i><par n="ases/wyr__n"/></e>
     <e lm="arch"><i>arch</i><par n="arch__n"/></e>
     <e lm="anhawster"><i>an</i><par n="an/hawster__n"/></e>
     <e lm="dant"><par n="initial-d"/><i>an</i><par n="dan/t__n"/></e>
@@ -51662,7 +51653,6 @@
     <e lm="cylchoedd"><par n="initial-c"/><i>ylch</i><par n="cylch/oedd__n"/></e>
     <e lm="cymeriadau"><par n="initial-c"/><i>ymeriad</i><par n="adolygiad/au__n"/></e>
     <e lm="grantiau"><par n="initial-g"/><i>rant</i><par n="cyffur/iau__n"/></e>
-    <e lm="modelau"><par n="initial-m"/><i>odel</i><par n="adolygiad/au__n"/></e>
     <e lm="cyhoeddiadau"><par n="initial-c"/><i>yhoeddiad</i><par n="adolygiad/au__n"/></e>
     <e lm="casgliadau"><par n="initial-c"/><i>asgliad</i><par n="adolygiad/au__n"/></e>
     <e lm="trothwyau"><par n="initial-t"/><i>rothwy</i><par n="adolygiad/au__n"/></e>
@@ -51671,6 +51661,14 @@
     <e lm="tawelwch"><par n="initial-t"/><i>awelwch</i><par n="achosiant__n"/></e>
     <e lm="cyffuriau"><par n="initial-c"/><i>yffur</i><par n="cyffur/iau__n"/></e>
     <e lm="cnydau"><par n="initial-c"/><i>n</i><par n="cn/ydau__n"/></e>
+    <e lm="ymatebwyr"><i>ymatebw</i><par n="ymatebw/yr__n"/></e>
+    <e lm="apwyntiadau"><i>apwyntiad</i><par n="adolygiad/au__n"/></e>
+    <e lm="adrannau"><i>adran</i><par n="adran/nau__n"/></e>
+    <e lm="aseswyr"><i>ases</i><par n="ases/wyr__n"/></e>
+    <e lm="recordiau"><i>record</i><par n="record/iau__n"/></e>
+    <e lm="adolygiadau"><i>adolygiad</i><par n="adolygiad/au__n"/></e>
+    <e lm="hufennau"><i>hufen</i><par n="hufen/nau__n"/></e>
+    <e lm="modelau"><par n="initial-m"/><i>odel</i><par n="adolygiad/au__n"/></e>
 
     -->
 
@@ -51784,7 +51782,6 @@
     <e lm="Wicipedia"><i>Wicipedia</i><par n="agenda__n"/></e>
     <e lm="digonedd"><par n="initial-d"/><i>igon</i><par n="digon/edd__n"/></e>
     <e lm="ysgyfaint"><i>ysgyf</i><par n="ysgyf/aint__n"/></e>
-    <e lm="ymatebwyr"><i>ymatebw</i><par n="ymatebw/yr__n"/></e>
     <e lm="diffoddwr"><par n="initial-d"/><i>iffoddw</i><par n="addasw/r__n"/></e>
     <e lm="syntheseisydd"><i>synthesei</i><par n="synthesei/sydd__n"/></e>
     <e lm="cyfiawnhad"><par n="initial-c"/><i>yfiawn</i><par n="cyfiawn/had__n"/></e>
@@ -57299,6 +57296,7 @@
     <e lm="Plaid Genedlaethol yr Alban"><par n="initial-P"/><i>laid<b/>Genedlaethol<b/>yr<b/>Alban</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Plaid Cymru"><par n="initial-P"/><i>laid<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Plaid Lafur"><par n="initial-P"/><i>laid<b/>Lafur</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Democratiaid Rhyddfrydol"><par n="initial-D"/><i>Democratiaid<b/>Rhyddfrydol</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
     <e lm="Bwrdd yr Iaith Gymraeg"><par n="initial-B"/><i>wrdd<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
 
@@ -57355,6 +57353,10 @@
     <e lm="Cymru"><par n="initial-C"/><i>ymru</i><par n="Blaenafon__np"/></e>
     <e lm="Iwerddon"><i>Iwerddon</i><par n="Lloegr__np"/></e>
     <e lm="Slofenia"><i>Slofenia</i><par n="Blaenafon__np"/></e>
+    <e lm="Siapan"><i>Siapan</i><par n="Blaenafon__np"/></e>
+    <e lm="Ffrainc"><i>Ffrainc</i><par n="Blaenafon__np"/></e>
+    <e lm="Twrci"><par n="initial-T"/><i>wrci</i><par n="Blaenafon__np"/></e>
+    <e lm="Rwsia"><i>Rwsia</i><par n="Blaenafon__np"/></e>
     <e lm="Sbaen"><i>Sbaen</i><par n="Blaenafon__np"/></e>
     <e lm="Ewrop"><i>Ewrop</i><par n="Blaenafon__np"/></e>
     <e lm="Lloegr"><par n="initial-Ll"/><i>oegr</i><par n="Lloegr__np"/></e>

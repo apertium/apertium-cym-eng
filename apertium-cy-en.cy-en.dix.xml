@@ -2199,7 +2199,6 @@
     <e><p><l>ffo<s n="n"/><s n="m"/></l><r>flight<s n="n"/></r></p></e>
     <e><p><l>fforddiadwyedd<s n="n"/><s n="f"/></l><r>affordability<s n="n"/></r></p></e>
     <e><p><l>ffotograffiaeth<s n="n"/><s n="f"/></l><r>photography<s n="n"/></r></p></e>
-    <e><p><l>Ffrainc<s n="n"/><s n="f"/></l><r>France<s n="n"/></r></p></e>
     <e><p><l>ffuglen<s n="n"/><s n="f"/></l><r>fiction<s n="n"/></r></p></e>
     <e><p><l>ffurfioldeb<s n="n"/><s n="m"/></l><r>formality<s n="n"/></r></p></e>
     <e><p><l>ffyniant<s n="n"/><s n="m"/></l><r>prosperity<s n="n"/></r></p></e>
@@ -2399,7 +2398,6 @@
     <e><p><l>rhywun<s n="n"/><s n="m"/></l><r>someone<s n="n"/></r></p></e>
     <e><p><l>rwbel<s n="n"/><s n="m"/></l><r>rubble<s n="n"/></r></p></e>
     <e><p><l>Rwseg<s n="n"/><s n="f"/></l><r>Russian<s n="n"/></r></p></e>
-    <e><p><l>Rwsia<s n="n"/><s n="f"/></l><r>Russia<s n="n"/></r></p></e>
     <e><p><l>rygbi<s n="n"/><s n="m"/></l><r>rugby<s n="n"/></r></p></e>
     <e><p><l>sadrwydd<s n="n"/><s n="m"/></l><r>stability<s n="n"/></r></p></e>
     <e><p><l>Sadwrn<s n="n"/><s n="m"/></l><r>Saturn<s n="n"/></r></p></e>
@@ -2416,7 +2414,6 @@
     <e><p><l>bathodyn<s n="n"/><s n="m"/></l><r>badge<s n="n"/></r></p></e>
     <e><p><l>sgôp<s n="n"/><s n="m"/></l><r>scope<s n="n"/></r></p></e>
     <e><p><l>sgrap<s n="n"/><s n="m"/></l><r>scrap<s n="n"/></r></p></e>
-    <e><p><l>Siapan<s n="n"/><s n="f"/></l><r>Japan<s n="n"/></r></p></e>
     <e><p><l>Siapaneg<s n="n"/><s n="f"/></l><r>Japanese<s n="n"/></r></p></e>
     <e><p><l>smonach<s n="n"/><s n="m"/></l><r>mess<s n="n"/></r></p></e>
     <e><p><l>sosialaeth<s n="n"/><s n="f"/></l><r>socialism<s n="n"/></r></p></e>
@@ -2485,7 +2482,7 @@
     <e><p><l>amffinydd<s n="n"/><s n="m"/></l><r>delimiter<s n="n"/></r></p></e>
     <e><p><l>amgodydd<s n="n"/><s n="m"/></l><r>encoder<s n="n"/></r></p></e>
     <e><p><l>amlblecsydd<s n="n"/><s n="m"/></l><r>multiplexer<s n="n"/></r></p></e>
-    <e><p><l>amserydd<s n="n"/><s n="m"/></l><r>timer<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>amserydd<s n="n"/><s n="m"/></l><r>timer<s n="n"/></r></p></e>
     <e><p><l>anrheg<s n="n"/><s n="f"/></l><r>present<s n="n"/></r></p></e>
     <e><p><l>apelydd<s n="n"/><s n="m"/></l><r>appellant<s n="n"/></r></p></e>
     <e><p><l>archeb<s n="n"/><s n="f"/></l><r>order<s n="n"/></r></p></e>
@@ -2862,6 +2859,7 @@
     <e><p><l>streic<s n="n"/><s n="f"/></l><r>strike<s n="n"/></r></p></e>
     <e><p><l>stwns<s n="n"/><s n="m"/></l><r>hash<s n="n"/></r></p></e>
     <e><p><l>dydd<g><b/>Sul</g><s n="n"/><s n="m"/></l><r>Sunday<s n="n"/></r></p></e>
+    <e r="LR"><p><l>Sul<s n="n"/><s n="m"/></l><r>Sunday<s n="n"/></r></p></e>
     <e><p><l>sym<s n="n"/><s n="f"/></l><r>sum<s n="n"/></r></p></e>
     <e><p><l>tab<s n="n"/><s n="m"/></l><r>tab<s n="n"/></r></p></e>
     <e><p><l>tag<s n="n"/><s n="m"/></l><r>tag<s n="n"/></r></p></e>
@@ -3493,7 +3491,7 @@
     <e><p><l>peilot<s n="n"/><s n="m"/></l><r>pilot<s n="n"/></r></p></e>
     <e><p><l>tenant<s n="n"/><s n="m"/></l><r>tenant<s n="n"/></r></p></e>
     <e><p><l>tiwtor<s n="n"/><s n="m"/></l><r>tutor<s n="n"/></r></p></e>
-    <e><p><l>albwm<s n="n"/><s n="n"/></l><r>album<s n="n"/></r></p></e>
+    <e><p><l>albwm<s n="n"/><s n="m"/></l><r>album<s n="n"/></r></p></e>
     <e><p><l>botwm<s n="n"/><s n="m"/></l><r>button<s n="n"/></r></p></e>
     <e><p><l>consortiwm<s n="n"/><s n="m"/></l><r>consortium<s n="n"/></r></p></e>
     <e><p><l>cwricwlwm<s n="n"/><s n="m"/></l><r>curriculum<s n="n"/></r></p></e>
@@ -9749,6 +9747,7 @@
     <e><p><l>Plaid Genedlaethol yr Alban<s n="np"/><s n="org"/><s n="f"/></l><r>Scottish National Party<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Plaid Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>Plaid Cymru<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Plaid Lafur<s n="np"/><s n="org"/><s n="f"/></l><r>Labour Party<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Democratiaid Rhyddfrydol<s n="np"/><s n="org"/><s n="f"/></l><r>Liberal Democrats<s n="np"/><s n="org"/></r></p></e>
  
  
       <!--  Anthroponyms -->
@@ -10513,6 +10512,9 @@
     <e><p><l>Singapore<s n="np"/><s n="top"/><s n="f"/></l><r>Singapore<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Slofacia<s n="np"/><s n="top"/><s n="f"/></l><r>Slovakia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Slofenia<s n="np"/><s n="top"/><s n="f"/></l><r>Slovenia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Siapan<s n="np"/><s n="top"/><s n="f"/></l><r>Japan<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Rwsia<s n="np"/><s n="top"/><s n="f"/></l><r>Russia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ffrainc<s n="np"/><s n="top"/><s n="f"/></l><r>France<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Sofia<s n="np"/><s n="top"/><s n="f"/></l><r>Sofia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Somalia<s n="np"/><s n="top"/><s n="f"/></l><r>Somalia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>De Affrica<s n="np"/><s n="top"/><s n="f"/></l><r>South Africa<s n="np"/><s n="top"/></r></p></e>
