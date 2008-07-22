@@ -53,7 +53,10 @@ SELECT Prep_i IF (1 VblexInf);
 
 # delete a subject pronoun if preceded by an infinitive
 # i'w weld fo
-REMOVE PrnSubj IF (-1 VblexInf);
+REMOVE PrnSubj IF (-1 VblexInf) (NOT 0 MAspC);
+
+#mynd â chi ar
+REMOVE MAspC IF (-1 (vblex)) (0 MAspC) (0 PrnSubj);
 
 # delete a noun from a {noun, pronoun} cohort if preceded by an infinitive and followed by a preposition
 # i'w weld fo yn y dref
