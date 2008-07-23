@@ -37,7 +37,7 @@ LIST Prep_i = ("i" pr);			# the preposition "i" (to)
 
 # mutation for individual letters
 # surface form regex, base form regex
-LIST MSoftC = ("<g.*>"r "c.*"r) ("<d.*>"r "t.*"r) ("<f.*>"r "b.*"r);
+LIST MSoftC = ("<g.*>"r "c.*"r) ("<d.*>"r "t.*"r) ("<f.*>"r "b.*"r) ("<w.*>"r "gw.*"r);
 LIST MAspC = ("<ch.*>"r "c.*"r) ;
 LIST MNasC = ("<n.*>"r "d.*"r) ("<m.*>"r "b.*"r);
 
@@ -137,4 +137,8 @@ SELECT Pr IF (-1 NC) (1 V);
 
 SECTION
 
+# distinguish between "lonely" and "only"
 ADD (pred) ("unig" adj) ((1 (n)) OR (1 (np)) OR (1 (pr)) OR (1 Det) OR (1 (cm)));
+
+# distinguish between "work" and "time"
+REMOVE (n f) (0 ("gwaith")) (0 MSoftC);
