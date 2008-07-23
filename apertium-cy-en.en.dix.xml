@@ -831,7 +831,7 @@
       </e>
     </pardef>
     <pardef n="second__det">
-      <e r="LR">
+      <e>
         <p>
           <l/>
           <r><s n="det"/><s n="ord"/><s n="sp"/></r>
