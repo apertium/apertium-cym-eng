@@ -13,6 +13,7 @@ LIST CS = cnjsub;			# subordinate conjunction
 LIST Interj = ij;			# interjection
 LIST Pr = pr;				# preposition
 LIST PrnSubj = (prn subj);		# subject pronoun
+LIST Prn = (prn tn) (prn subj);		# pronoun
 
 LIST P2Pl = (p2 pl);			# second person plural
 LIST P3Sg = (p3 sg);
@@ -37,7 +38,10 @@ LIST Prep_i = ("i" pr);			# the preposition "i" (to)
 
 # mutation for individual letters
 # surface form regex, base form regex
-LIST MSoftC = ("<g.*>"r "c.*"r) ("<d.*>"r "t.*"r) ("<f.*>"r "b.*"r) ("<w.*>"r "gw.*"r);
+LIST MSoftC = ("<g.*>"r "c.*"r)  ("<d.*>"r "t.*"r) ("<f.*>"r "b.*"r) 
+              ("<w.*>"r "gw.*"r) ("<b.*>"r "p.*"r) ("<dd.*>"r "d.*"r)
+	      ("<f.*">"r "m.*"r);
+
 LIST MAspC = ("<ch.*>"r "c.*"r) ;
 LIST MNasC = ("<n.*>"r "d.*"r) ("<m.*>"r "b.*"r);
 
@@ -118,6 +122,9 @@ REMOVE MNasC IF (0 (n f)) (-1 (n m));
 
 #o ryw fath
 REMOVE MSoftC IF (0 (n m)) (-1 NC);
+
+#Bryd hynny
+REMOVE MSoftC IF (1 Prn);
 
 #Edwina Hart
 SELECT (np ant) IF (1 (np cog));

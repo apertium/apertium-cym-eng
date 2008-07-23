@@ -48601,6 +48601,10 @@
     <e lm="nawfed"><i>nawfed</i><par n="nawfed__det"/></e>
     <e lm="degfed"><par n="initial-d"/><i>egfed</i><par n="nawfed__det"/></e>
 
+<!--
+    <e lm="pumed"><par n="initial-p"/><i>umed</i><par n="caredig__adj"/></e>
+-->
+
     <e lm="hofrenfad"><i>hofrenfad</i><par n="adeilad__n"/></e>
     <e lm="llysywen"><par n="initial-ll"/><i>ysywen</i><par n="llysywen__n"/></e>
     <e lm="asid"><i>asid</i><par n="aberth__n"/></e>
@@ -53160,7 +53164,6 @@
     <e lm="prydlon"><par n="initial-p"/><i>rydlon</i><par n="caredig__adj"/></e>
     <e lm="prynol"><par n="initial-p"/><i>rynol</i><par n="caredig__adj"/></e>
     <e lm="prysur"><par n="initial-p"/><i>rysur</i><par n="caredig__adj"/></e>
-    <e lm="pumed"><par n="initial-p"/><i>umed</i><par n="caredig__adj"/></e>
     <e lm="pum-mlynedd"><par n="initial-p"/><i>um-mlynedd</i><par n="caredig__adj"/></e>
 
     <e lm="pur"><par n="initial-p"/><i>ur</i><par n="caredig__adj"/></e>
