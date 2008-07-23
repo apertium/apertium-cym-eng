@@ -3404,8 +3404,10 @@
     <e><p><l>effaith<s n="n"/><s n="f"/></l><r>impact<s n="n"/></r></p></e>
     <e><p><l>ffaith<s n="n"/><s n="f"/></l><r>fact<s n="n"/></r></p></e>
     <e><p><l>fframwaith<s n="n"/><s n="m"/></l><r>framework<s n="n"/></r></p></e>
+
     <e><p><l>gwaith<s n="n"/><s n="m"/></l><r>work<s n="n"/></r></p></e>
-    <e r="LR"><p><l>gwaith<s n="n"/><s n="f"/></l><r>time<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>gwaith<s n="n"/><s n="f"/></l><r>time<s n="n"/><s n="unc"/></r></p></e>
+
     <e><p><l>mecanwaith<s n="n"/><s n="m"/></l><r>mechanism<s n="n"/></r></p></e>
     <e><p><l>noswaith<s n="n"/><s n="f"/></l><r>evening<s n="n"/></r></p></e>
     <e><p><l>patrymwaith<s n="n"/><s n="m"/></l><r>mosaic<s n="n"/></r></p></e>

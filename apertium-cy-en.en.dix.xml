@@ -29127,6 +29127,7 @@
 
     <e lm="regain"><i>regain</i><par n="accept__vblex"/></e>
     <e lm="station"><i>station</i><par n="accept__vblex"/></e>
+    <e lm="occasion"><i>occasion</i><par n="accept__vblex"/></e>
     <e lm="found"><i>found</i><par n="accept__vblex"/></e>
     <e lm="achieve"><i>achiev</i><par n="liv/e__vblex"/></e>
     <e lm="acknowledge"><i>acknowledg</i><par n="liv/e__vblex"/></e>
@@ -29342,6 +29343,7 @@
     <e lm="publish"><i>publish</i><par n="approach__vblex"/></e>
     <e lm="pull"><i>pull</i><par n="accept__vblex"/></e>
     <e lm="put"><i>put</i><par n="cut__vblex"/></e>
+    <e lm="output"><i>output</i><par n="cut__vblex"/></e>
     <e lm="question"><i>question</i><par n="accept__vblex"/></e>
     <e lm="cross-question"><i>cross-question</i><par n="accept__vblex"/></e>
     <e lm="raise"><i>rais</i><par n="liv/e__vblex"/></e>
@@ -29383,6 +29385,7 @@
     <e lm="send"><i>sen</i><par n="ben/d__vblex"/></e>
     <e lm="serve"><i>serv</i><par n="liv/e__vblex"/></e>
     <e lm="set"><i>set</i><par n="cut__vblex"/></e>
+    <e lm="reset"><i>reset</i><par n="cut__vblex"/></e>
     <e lm="share"><i>shar</i><par n="liv/e__vblex"/></e>
     <e lm="show"><i>show</i><par n="hew__vblex"/></e>
     <e lm="shut"><i>shut</i><par n="cut__vblex"/></e>
@@ -29701,6 +29704,7 @@
     <e lm="catch moles"><i>c</i> <par n="c/atch__vblex"/><p><l><b/>moles</l><r><g><b/>moles</g></r></p></e>
     <e lm="catch mice"><i>c</i> <par n="c/atch__vblex"/><p><l><b/>mice</l><r><g><b/>mice</g></r></p></e>
     <e lm="catch minnows"><i>c</i> <par n="c/atch__vblex"/><p><l><b/>minnows</l><r><g><b/>minnows</g></r></p></e>
+    <e lm="catch birds"><i>c</i><par n="c/atch__vblex"/><p><l><b/>birds</l><r><g><b/>birds</g></r></p></e>
 
     <e lm="board"><i>board</i> <par n="accept__vblex"/></e>
     <e lm="enter"><i>enter</i> <par n="accept__vblex"/></e>
@@ -30568,6 +30572,7 @@
     <e lm="cease"><i>ceas</i><par n="liv/e__vblex"/></e>
     <e lm="tear"><i>t</i><par n="sw/ear__vblex"/></e>
     <e lm="scream"><i>scream</i><par n="accept__vblex"/></e>
+    <e lm="steam"><i>steam</i><par n="accept__vblex"/></e>
     <e lm="sustain"><i>sustain</i><par n="accept__vblex"/></e>
     <e lm="participate"><i>participat</i><par n="liv/e__vblex"/></e>
     <e lm="pose"><i>pos</i><par n="liv/e__vblex"/></e>
@@ -30597,6 +30602,7 @@
     <e lm="swallow"><i>swallow</i><par n="accept__vblex"/></e>
 
     <e lm="muck"><i>muck</i><par n="accept__vblex"/></e>
+    <e lm="muck"><i>muck</i><par n="accept__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
 
     <e lm="load"><i>load</i><par n="accept__vblex"/></e>
     <e lm="translate"><i>translat</i><par n="liv/e__vblex"/></e>
@@ -32863,6 +32869,7 @@
     <e lm="contend"><i>contend</i><par n="accept__vblex"/></e>
     <e lm="grind"><i>grind</i><par n="accept__vblex"/></e>
     <e lm="wind"><i>wind</i><par n="accept__vblex"/></e>
+    <e lm="rewind"><i>rewind</i><par n="accept__vblex"/></e>
     <e lm="pound"><i>pound</i><par n="accept__vblex"/></e>
     <e lm="resound"><i>resound</i><par n="accept__vblex"/></e>
     <e lm="wound"><i>wound</i><par n="accept__vblex"/></e>
@@ -36029,15 +36036,26 @@
     <e lm="stook"><i>stook</i><par n="accept__vblex"/></e>
     <e lm="rework"><i>rework</i><par n="accept__vblex"/></e>
     <e lm="heal"><i>heal</i><par n="accept__vblex"/></e>
-    <e lm="resell"><i>resell</i><par n="s/ell__vblex"/></e>
-    <e lm="retell"><i>retell</i><par n="s/ell__vblex"/></e>
+    <e lm="resell"><i>res</i><par n="s/ell__vblex"/></e>
+    <e lm="retell"><i>ret</i><par n="s/ell__vblex"/></e>
     <e lm="farewell"><i>farewell</i><par n="accept__vblex"/></e>
     <e lm="strim"><i>strim</i><par n="accept__vblex"/></e>
     <e lm="reaccustom"><i>reaccustom</i><par n="accept__vblex"/></e>
+    <e lm="reaccustom"><i>reaccustom</i><par n="accept__vblex"/><p><l><b/>oneself</l><r><g><b/>oneself</g></r></p></e>
     <e lm="rearm"><i>rearm</i><par n="accept__vblex"/></e>
     <e lm="hum"><i>hum</i><par n="accept__vblex"/></e>
     <e lm="lengthen"><i>lengthen</i><par n="accept__vblex"/></e>
+
     <e lm="fasten"><i>fasten</i><par n="accept__vblex"/></e>
+    <e lm="fasten with a latch">
+      <i>fasten</i>
+      <par n="accept__vblex"/>
+      <p>
+        <l><b/>with<b/>a<b/>latch</l>
+        <r><g><b/>with<b/>a<b/>latch</g></r>
+      </p>
+    </e>
+
     <e lm="hasten"><i>hasten</i><par n="accept__vblex"/></e>
     <e lm="flatten"><i>flatten</i><par n="accept__vblex"/></e>
     <e lm="leaven"><i>leaven</i><par n="accept__vblex"/></e>
@@ -36063,6 +36081,7 @@
 
     <e lm="jog"><i>jog</i><par n="plug__vblex"/></e>
     <e lm="log"><i>log</i><par n="plug__vblex"/></e>
+    <e lm="log"><i>log</i><par n="plug__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
     <e lm="pummel"><i>pummel</i><par n="control__vblex"/></e>
     <e lm="rechannel"><i>rechannel</i><par n="control__vblex"/></e>
     <e lm="grovel"><i>grovel</i><par n="control__vblex"/></e>
@@ -36088,6 +36107,37 @@
     <e lm="slit"><i>slit</i><par n="admit__vblex"/></e>
     <e lm="emit"><i>emit</i><par n="admit__vblex"/></e>
     <e lm="recommit"><i>recommit</i><par n="admit__vblex"/></e>
+    <e lm="recommit"><i>recommit</i><par n="admit__vblex"/>      <p><l><b/>oneself</l><r><g><b/>oneself</g></r></p></e>
+
+
+    <e lm="be accustomed">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>accustomed</l>
+        <r><g><b/>accustomed</g></r>
+      </p>
+    </e>
+
+    <e lm="become ill again">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>ill<b/>again</l>
+        <r><g><b/>ill<b/>again</g></r>
+      </p>
+    </e>
+
+    <e lm="become restless">
+      <i>bec</i>
+      <par n="bec/ome__vblex"/>
+      <p>
+        <l><b/>restless</l>
+        <r><g><b/>restless</g></r>
+      </p>
+    </e>
+
+
 
  
     <e lm="magazine about poetry">
