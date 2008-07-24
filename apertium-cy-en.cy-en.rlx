@@ -55,6 +55,8 @@ SECTION
 
 # choose verbal partical if sandwiched between Conj + verb
 SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 NC) (NOT 1 Num);
+SELECT Vpart IF ((-1 (cm)) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 Num);
+SELECT (vbser cns) IF (-1 Vpart);
 
 # choose the preposition "i" if it is followed by an infinitive
 # aeth i gael y pres
