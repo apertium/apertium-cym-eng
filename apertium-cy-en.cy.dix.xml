@@ -50800,6 +50800,8 @@
     <e lm="i gyd"><i>i<b/>gyd</i><par n="caredig__adj"/></e>
     <e lm="amatur"><i>amatur</i><par n="caredig__adj"/></e>
     <e lm="ffederal"><i>ffederal</i><par n="caredig__adj"/></e>
+    <e lm="nid-er-elw"><i>nid-er-elw</i><par n="caredig__adj"/></e>
+    <e lm="nid er elw"><p><l>nid<b/>er<b/>elw</l><r>nid-er-elw</r></p><par n="caredig__adj"/></e>
 
     <e lm="agos"><i>agos</i><par n="agos__adj"/></e>
     <e lm="aml"><i>aml</i><par n="agos__adj"/></e>

@@ -1468,6 +1468,12 @@
       </e>
     </pardef>
     <pardef n="li/fe__n">
+      <e r="RL">
+        <p>
+          <l>fe</l>
+          <r>fe<s n="n"/><s n="sp"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>fe</l>
@@ -2124,6 +2130,20 @@
         <p>
           <l/>
           <r><s n="num"/><s n="sg"/></r>
+        </p>
+      </e>
+
+      <!-- This is stupid -->
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="num"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="num"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -3623,6 +3643,18 @@
         <p>
           <l>ome</l>
           <r>ome<s n="vblex"/><s n="pres"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>ome</l>
+          <r>ome<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>omes</l>
+          <r>ome<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
@@ -9750,6 +9782,7 @@
     <e lm="upper-case"><i>upper-case</i><par n="expensive__adj"/></e>
     <e lm="scarce"><i>scarce</i><par n="expensive__adj"/></e>
     <e lm="profitable"><i>profitable</i><par n="expensive__adj"/></e>
+    <e lm="not-for-profit"><i>not-for-profit</i><par n="expensive__adj"/></e>
     <e lm="pure"><i>pure</i><par n="long/__adj"/></e>
     <e lm="suitable"><i>suitable</i><par n="expensive__adj"/></e>
     <e lm="proactive"><i>proactive</i><par n="expensive__adj"/></e>
@@ -11455,6 +11488,7 @@
     <e lm="disorder"><i>disorder</i><par n="house__n"/></e>
     <e lm="former Minister"><i>former<b/>Minister</i><par n="house__n"/></e>
     <e lm="remainder"><i>remainder</i><par n="house__n"/></e>
+    <e lm="September"><i>September</i><par n="house__n"/></e>
     <e lm="October"><i>October</i><par n="house__n"/></e>
     <e lm="liver"><i>liver</i><par n="house__n"/></e>
     <e lm="lavender"><i>lavender</i><par n="house__n"/></e>
@@ -12109,6 +12143,7 @@
     <e lm="mechanism"><i>mechanism</i><par n="house__n"/></e>
 
     <e lm="brutality"><i>brutalit</i><par n="bab/y__n"/></e>
+    <e lm="treasury"><i>treasur</i><par n="bab/y__n"/></e>
     <e lm="regularity"><i>regularit</i><par n="bab/y__n"/></e>
     <e lm="irregularity"><i>irregularit</i><par n="bab/y__n"/></e>
     <e lm="absurdity"><i>absurdit</i><par n="bab/y__n"/></e>
@@ -12342,6 +12377,7 @@
     <e lm="publicity"><i>publicit</i><par n="bab/y__n"/></e>
     <e lm="indemnity"><i>indemnit</i><par n="bab/y__n"/></e>
     <e lm="January"><i>Januar</i><par n="bab/y__n"/></e>
+    <e lm="July"><i>Jul</i><par n="bab/y__n"/></e>
     <e lm="subdirectory"><i>subdirector</i><par n="bab/y__n"/></e>
     <e lm="literacy"><i>literac</i><par n="bab/y__n"/></e>
     <e lm="maternity"><i>maternit</i><par n="bab/y__n"/></e>
@@ -14754,7 +14790,8 @@
     <e lm="road accident"><i>road<b/>accident</i><par n="house__n"/></e>
     <e lm="horse riding"><i>horse<b/>riding</i><par n="house__n"/></e>
     <e lm="credit balance"><i>credit<b/>balance</i><par n="house__n"/></e>
-    <e lm="june"><i>June</i><par n="house__n"/></e>
+    <e lm="June"><i>June</i><par n="house__n"/></e>
+    <e lm="May"><i>May</i><par n="house__n"/></e>
     <e lm="balance sheet"><i>balance<b/>sheet</i><par n="house__n"/></e>
     <e lm="access code"><i>access<b/>code</i><par n="house__n"/></e>
     <e lm="adverse balance"><i>adverse<b/>balance</i><par n="house__n"/></e>
@@ -19830,7 +19867,6 @@
     <e lm="guesthouse"><i>guesthouse</i><par n="house__n"/></e>
     <e lm="pyrexia"><i>pyrexia</i><par n="house__n"/></e>
     <e lm="barite"><i>barite</i><par n="house__n"/></e>
-    <e lm="april"><i>April</i><par n="house__n"/></e>
     <e lm="ophthalmorrhexis"><i>ophthalmorrhex</i><par n="analys/is__n"/></e>
     <e lm="myoma"><i>myoma</i><par n="house__n"/></e>
     <e lm="holohedron"><i>holohedron</i><par n="house__n"/></e>
@@ -25226,7 +25262,6 @@
     <e lm="accounting"><i>accounting</i><par n="house__n"/></e>
     <e lm="setting"><i>setting</i><par n="house__n"/></e>
     <e lm="catalog"><i>catalog</i><par n="house__n"/></e>
-<!--    <e lm="March"><i>March</i><par n="access__n"/></e> -->
     <e lm="snatch"><i>snatch</i><par n="house__n"/></e>
     <e lm="notch"><i>notch</i><par n="house__n"/></e>
     <e lm="too much"><i>too<b/>much</i><par n="house__n"/></e>
@@ -29661,7 +29696,7 @@
     <e lm="suffix"><i>suffix</i><par n="accept__vblex"/></e>
 
     <e lm="acquaint oneself"><i>acquaint</i><par n="accept__vblex"/><p><l><b/>oneself</l><r><g><b/>oneself</g></r></p></e>
-    <e lm="be a journalist"><par n="/be__vbser"/><p><l><b/>a<b/>journalist</l><r><g><b/>a<b/>journalist</g></r></p></e>
+    <e lm="be a journalist"><par n="/be__vblex"/><p><l><b/>a<b/>journalist</l><r><g><b/>a<b/>journalist</g></r></p></e>
     <e lm="become a member"><i>bec</i><par n="bec/ome__vblex"/><p><l><b/>a<b/>member</l><r><g><b/>a<b/>member</g></r></p></e>
     <e lm="become confused"><i>bec</i><par n="bec/ome__vblex"/><p><l><b/>confused</l><r><g><b/>confused</g></r></p></e>
     <e lm="become empty"><i>bec</i><par n="bec/ome__vblex"/><p><l><b/>empty</l><r><g><b/>empty</g></r></p></e>
@@ -29669,13 +29704,13 @@
     <e lm="become fine"><i>bec</i><par n="bec/ome__vblex"/><p><l><b/>fine</l><r><g><b/>fine</g></r></p></e>
     <e lm="become incarnate"><i>bec</i><par n="bec/ome__vblex"/><p><l><b/>incarnate</l><r><g><b/>incarnate</g></r></p></e>
     <e lm="become night"><i>bec</i><par n="bec/ome__vblex"/><p><l><b/>night</l><r><g><b/>night</g></r></p></e>
-    <e lm="be confident"><par n="/be__vbser"/><p><l><b/>confident</l><r><g><b/>confident</g></r></p></e>
-    <e lm="be fruitful"><par n="/be__vbser"/><p><l><b/>fruitful</l><r><g><b/>fruitful</g></r></p></e>
-    <e lm="be in a tizzy"><par n="/be__vbser"/><p><l><b/>in<b/>a<b/>tizzy</l><r><g><b/>in<b/>a<b/>tizzy</g></r></p></e>
-    <e lm="be radioactive"><par n="/be__vbser"/><p><l><b/>radioactive</l><r><g><b/>radioactive</g></r></p></e>
-    <e lm="be sick and tired of"><par n="/be__vbser"/><p><l><b/>sick<b/>and<b/>tired<b/>of</l><r><g><b/>sick<b/>and<b/>tired<b/>of</g></r></p></e>
+    <e lm="be confident"><par n="/be__vblex"/><p><l><b/>confident</l><r><g><b/>confident</g></r></p></e>
+    <e lm="be fruitful"><par n="/be__vblex"/><p><l><b/>fruitful</l><r><g><b/>fruitful</g></r></p></e>
+    <e lm="be in a tizzy"><par n="/be__vblex"/><p><l><b/>in<b/>a<b/>tizzy</l><r><g><b/>in<b/>a<b/>tizzy</g></r></p></e>
+    <e lm="be radioactive"><par n="/be__vblex"/><p><l><b/>radioactive</l><r><g><b/>radioactive</g></r></p></e>
+    <e lm="be sick and tired of"><par n="/be__vblex"/><p><l><b/>sick<b/>and<b/>tired<b/>of</l><r><g><b/>sick<b/>and<b/>tired<b/>of</g></r></p></e>
     <e lm="bestir oneself"><i>bestir</i><par n="occur__vblex"/><p><l><b/>oneself</l><r><g><b/>oneself</g></r></p></e>
-    <e lm="be stubborn"><par n="/be__vbser"/><p><l><b/>stubborn</l><r><g><b/>stubborn</g></r></p></e>
+    <e lm="be stubborn"><par n="/be__vblex"/><p><l><b/>stubborn</l><r><g><b/>stubborn</g></r></p></e>
     <e lm="border on"><i>border</i><par n="accept__vblex"/><p><l><b/>on</l><r><g><b/>on</g></r></p></e>
     <e lm="catch salmon"><i>catch</i><par n="accept__vblex"/><p><l><b/>salmon</l><r><g><b/>salmon</g></r></p></e>
     <e lm="get buried"><i>g</i><par n="g/et__vblex"/><p><l><b/>buried</l><r><g><b/>buried</g></r></p></e>
