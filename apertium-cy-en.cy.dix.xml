@@ -26633,6 +26633,12 @@
       </e>
       <e>
         <p>
+          <l>id</l>
+          <r>wn<s n="vaux"/><s n="pii"/><s n="impers"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
           <l>em</l>
           <r>wn<s n="vaux"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
         </p>
@@ -54524,7 +54530,7 @@
     <e lm="hel"><i>hel</i><par n="aildderbyn__vblex"/></e>
     <e lm="hela"><i>hel</i><par n="adar/a__vblex"/></e>
     <e lm="helaethu"><i>helaeth</i><par n="aberth/u__vblex"/></e>
-    <e lm="helmu"><i>helm</i><par n="aberth/u__vblex"/></e>
+<!--    <e lm="helmu"><i>helm</i><par n="aberth/u__vblex"/></e> -->
     <e lm="helpio"><i>helpi</i><par n="achlysur/o__vblex"/></e>
     <e lm="helpu"><i>help</i><par n="aberth/u__vblex"/></e>
     <e lm="hemio"><i>hemi</i><par n="achlysur/o__vblex"/></e>
@@ -56222,6 +56228,7 @@
     <e lm="Ynys Môn"><i>Ynys<b/>Môn</i><par n="Blaenafon__np"/></e>
     <e lm="Wrecsam"><i>Wrecsam</i><par n="Blaenafon__np"/></e>
     <e lm="Rydaman"><i>Rydaman</i><par n="Blaenafon__np"/></e>
+    <e lm="San Steffan"><i>San<b/>Steffan</i><par n="Blaenafon__np"/></e>
     <e lm="Birmingham"><par n="initial-B"/><i>irmingham</i><par n="Blaenafon__np"/></e>
     <e lm="Bryste"><par n="initial-B"/><i>ryste</i><par n="Blaenafon__np"/></e>
     <e lm="Manceinion"><par n="initial-M"/><i>anceinion</i><par n="Blaenafon__np"/></e>
