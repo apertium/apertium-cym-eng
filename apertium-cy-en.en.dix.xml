@@ -2497,23 +2497,41 @@
         </p>
       </e>
     </pardef>
-    <pardef n="d/o__vaux">
-      <e>
+    <pardef n="/do__vaux">
+      <e r="RL">
         <p>
-          <l>o</l>
-          <r>o<s n="vbdo"/><s n="pres"/></r>
+          <l><a/>do</l>
+          <r>do<s n="vbdo"/><s n="pres"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
-          <l>oes</l>
-          <r>o<s n="vbdo"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <l>do</l>
+          <r>do<s n="vbdo"/><s n="pres"/></r>
         </p>
       </e>
-      <e>
+      <e r="RL">
         <p>
-          <l>id</l>
-          <r>o<s n="vbdo"/><s n="past"/></r>
+          <l><a/>does</l>
+          <r>do<s n="vbdo"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>does</l>
+          <r>do<s n="vbdo"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>did</l>
+          <r>do<s n="vbdo"/><s n="past"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>did</l>
+          <r>do<s n="vbdo"/><s n="past"/></r>
         </p>
       </e>
     </pardef>
@@ -22704,7 +22722,7 @@
     <e lm="should"><i>should</i><par n="will/__vbmod"/></e>
     <e lm="may"><i>may</i><par n="will/__vbmod"/></e>
     <e lm="might"><i>might</i><par n="will/__vbmod"/></e>
-    <e lm="do"><i>d</i><par n="d/o__vaux"/></e>
+    <e lm="do"><i/><par n="/do__vaux"/></e>
  
     <e lm="take away"><i>t</i><par n="t/ake__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>away</l><r><g><b/>away</g></r></p></e>
     <e lm="take out"><i>t</i><par n="t/ake__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
@@ -26046,7 +26064,6 @@
     <e lm="decapitate"><i>decapitat</i><par n="liv/e__vblex"/></e>
     <e lm="gravitate"><i>gravitat</i><par n="liv/e__vblex"/></e>
     <e lm="rotate"><i>rotat</i><par n="liv/e__vblex"/></e>
-    <e lm="overstate"><i>overstat</i><par n="liv/e__vblex"/></e>
     <e lm="mutate"><i>mutat</i><par n="liv/e__vblex"/></e>
     <e lm="mismutate"><i>mismutat</i><par n="liv/e__vblex"/></e>
     <e lm="perpetuate"><i>perpetuat</i><par n="liv/e__vblex"/></e>

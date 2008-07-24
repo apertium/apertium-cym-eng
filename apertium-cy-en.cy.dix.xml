@@ -41757,34 +41757,19 @@
       <e>
         <p>
           <l>asom</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+          <r>ymyn<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>asoch</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
+          <r>ymyn<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>asant</l>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
+          <r>ymyn<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
@@ -50358,6 +50343,7 @@
     <e lm="dosbarth"><par n="initial-d"/><i>osbarth</i><par n="anaf__n"/></e>
     <e lm="dychryn"><par n="initial-d"/><i>ychryn</i><par n="anaf__n"/></e>
     <e lm="trawsnewid"><par n="initial-t"/><i>rawsnewid</i><par n="anaf__n"/></e>
+    <e lm="newid"><i>newid</i><par n="anaf__n"/></e>
     <e lm="drws"><par n="initial-d"/><i>r</i><par n="dr/ws__n"/></e>
     <e lm="locws"><i>loc</i><par n="dr/ws__n"/></e>
     <e lm="radiws"><i>radi</i><par n="dr/ws__n"/></e>
