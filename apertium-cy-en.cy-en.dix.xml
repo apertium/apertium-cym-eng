@@ -333,7 +333,7 @@
     <e><p><l>dwywaith<s n="adv"/></l><r>twice<s n="adv"/></r></p></e>
     <e><p><l>dyma<s n="adv"/></l><r>this<b/>is<s n="adv"/></r></p></e>
     <e><p><l>dyna<s n="adv"/></l><r>that<b/>is<s n="adv"/></r></p></e>
-    <e><p><l>echdoe<s n="adv"/></l><r>day<g><b/>before<b/>yesterday</g><s n="adv"/></r></p></e>
+    <e><p><l>echdoe<s n="adv"/></l><r>day<b/>before<b/>yesterday<s n="adv"/></r></p></e>
     <e><p><l>echnos<s n="adv"/></l><r>night<b/>before<b/>last<s n="adv"/></r></p></e>
     <e><p><l>ei<b/>gilydd<s n="adv"/></l><r>each<b/>other<s n="adv"/></r></p></e>
     <e><p><l>eilwaith<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
@@ -345,7 +345,7 @@
     <e><p><l>fel<b/>arfer<s n="adv"/></l><r>as<b/>usual<s n="adv"/></r></p></e>
     <e><p><l>felly<s n="adv"/></l><r>so<s n="adv"/></r></p></e>
     <e><p><l>fel<b/>petai<s n="adv"/></l><r>as<b/>it<b/>were<s n="adv"/></r></p></e>
-    <e><p><l>fel<b/>rheol<s n="adv"/></l><r>usually<b/><s n="adv"/></r></p></e>
+    <e><p><l>fel<b/>rheol<s n="adv"/></l><r>usually<s n="adv"/></r></p></e>
     <e><p><l>fel<b/>y<b/>cyfryw<s n="adv"/></l><r>as<b/>such<s n="adv"/></r></p></e>
     <e><p><l>fesul<s n="adv"/></l><r>per<s n="adv"/></r></p></e>
     <e><p><l>fesul<b/>dyfais<s n="adv"/></l><r>per<b/>device<s n="adv"/></r></p></e>
@@ -7292,7 +7292,7 @@
     <e><p><l>eilio<s n="vblex"/></l><r>second<s n="vblex"/></r></p></e>
     <e><p><l>eillio<s n="vblex"/></l><r>shave<s n="vblex"/></r></p></e>
     <e><p><l>eingo<s n="vblex"/></l><r>complain<s n="vblex"/></r></p></e>
-    <e><p><l>eiriasu<s n="vblex"/></l><r>glow red-hot<s n="vblex"/></r></p></e>
+    <e><p><l>eiriasu<s n="vblex"/></l><r>glow<g><b/>red-hot</g><s n="vblex"/></r></p></e>
     <e><p><l>eirio<s n="vblex"/></l><r>snow<s n="vblex"/></r></p></e>
     <e><p><l>eiriol<s n="vblex"/></l><r>implore<s n="vblex"/></r></p></e>
     <e><p><l>eirioli<s n="vblex"/></l><r>implore<s n="vblex"/></r></p></e>
@@ -7706,7 +7706,6 @@
     <e><p><l>hel<s n="vblex"/></l><r>collect<s n="vblex"/></r></p></e>
     <e><p><l>hela<s n="vblex"/></l><r>hunt<s n="vblex"/></r></p></e>
     <e><p><l>helaethu<s n="vblex"/></l><r>enlarge<s n="vblex"/></r></p></e>
-    <e><p><l>helmu<s n="vblex"/></l><r>build a corn-rick<s n="vblex"/></r></p></e>
     <e><p><l>helpio<s n="vblex"/></l><r>help<s n="vblex"/></r></p></e>
     <e><p><l>helpu<s n="vblex"/></l><r>help<s n="vblex"/></r></p></e>
     <e><p><l>hemio<s n="vblex"/></l><r>hem<s n="vblex"/></r></p></e>
@@ -9336,7 +9335,7 @@
     <e><p><l>gwybeta<s n="vblex"/></l><r>dart<g><b/>about</g><s n="vblex"/></r></p></e>
     <e><p><l>gwyrddu<s n="vblex"/></l><r>turn<g><b/>green</g><s n="vblex"/></r></p></e>
     <e><p><l>gwyrgamu<s n="vblex"/></l><r>go<g><b/>awry</g><s n="vblex"/></r></p></e>
-    <e><p><l>hapgyrchu<s n="vblex"/></l><r>random<g><b/>access</g><s n="vblex"/></r></p></e>
+    <e><p><l>hapgyrchu<s n="vblex"/></l><r>random access<s n="vblex"/></r></p></e>
     <e><p><l>heislanu<s n="vblex"/></l><r>hackle<g><b/>flax</g><s n="vblex"/></r></p></e>
     <e><p><l>hepian<s n="vblex"/></l><r>nod<g><b/>off</g><s n="vblex"/></r></p></e>
     <e><p><l>hiraethu<s n="vblex"/></l><r>long<g><b/>for</g><s n="vblex"/></r></p></e>
@@ -10241,6 +10240,7 @@
     <e><p><l>Hwlffordd<s n="np"/><s n="top"/><s n="f"/></l><r>Haverfordwest<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bangor<s n="np"/><s n="top"/><s n="f"/></l><r>Bangor<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Blaenafon<s n="np"/><s n="top"/><s n="f"/></l><r>Blaenafon<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>San Steffan<s n="np"/><s n="top"/><s n="f"/></l><r>Westminster<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caerdydd<s n="np"/><s n="top"/><s n="f"/></l><r>Cardiff<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Corc<s n="np"/><s n="top"/><s n="f"/></l><r>Cork<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Casnewydd<s n="np"/><s n="top"/><s n="f"/></l><r>Newport<s n="np"/><s n="top"/></r></p></e>
