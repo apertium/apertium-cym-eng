@@ -35,6 +35,10 @@
       <cat-item tags="SP.*"/>
     </def-cat>
 
+    <def-cat n="Vpart">
+      <cat-item tags="Vpart.*"/>
+    </def-cat>
+
     <def-cat n="SV">
       <cat-item tags="SV"/>
       <cat-item lemma="verbcj" tags="SV.*"/>
@@ -448,6 +452,106 @@
     </rule>
 
 
+    <rule comment="REGLA: Vpart SV">
+      <pattern>
+        <pattern-item n="Vpart"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <choose>
+	  <when>
+            <test>
+	      <equal>
+	        <clip pos="1" part="tags"/>
+	        <lit-tag v="Vpart.neg"/>
+	      </equal>
+	    </test>
+            <out>
+              <chunk>
+                <clip pos="2" part="lem"/>
+                <clip pos="2" part="tags"/>
+                <clip pos="2" part="chcontent"/>
+              </chunk>
+              <b/>
+              <chunk>
+                <lit v="adv"/>
+                <lit-tag v="Adv"/>
+                <lit v="{^not"/>
+                <lit-tag v="adv"/>
+                <lit v="$}"/>
+              </chunk>
+            </out>
+	  </when>
+          <otherwise>
+	    <out>
+              <chunk>
+                <clip pos="2" part="lem"/>
+                <clip pos="2" part="tags"/>
+                <clip pos="2" part="chcontent"/>
+              </chunk>
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: Vpart SV SN">
+      <pattern>
+        <pattern-item n="Vpart"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <choose>
+	  <when>
+            <test>
+	      <equal>
+	        <clip pos="1" part="tags"/>
+	        <lit-tag v="Vpart.neg"/>
+	      </equal>
+	    </test>
+            <out>
+              <chunk>
+                <clip pos="3" part="lem"/>
+                <clip pos="3" part="tags"/>
+                <clip pos="3" part="chcontent"/>
+              </chunk>
+              <b/>
+              <chunk>
+                <clip pos="2" part="lem"/>
+                <clip pos="2" part="tags"/>
+                <clip pos="2" part="chcontent"/>
+              </chunk>
+              <b/>
+              <chunk>
+                <lit v="adv"/>
+                <lit-tag v="Adv"/>
+                <lit v="{^not"/>
+                <lit-tag v="adv"/>
+                <lit v="$}"/>
+              </chunk>
+            </out>
+	  </when>
+          <otherwise>
+	    <out>
+              <chunk>
+                <clip pos="3" part="lem"/>
+                <clip pos="3" part="tags"/>
+                <clip pos="3" part="chcontent"/>
+              </chunk>
+              <b/>
+              <chunk>
+                <clip pos="2" part="lem"/>
+                <clip pos="2" part="tags"/>
+                <clip pos="2" part="chcontent"/>
+              </chunk>
+            </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: SV SN">
       <pattern>
         <pattern-item n="SV"/>
@@ -515,6 +619,7 @@
 	</choose>
       </action>
     </rule>
+
 <!--
     <rule comment="REGLA: SV SN SP SN">
       <pattern>
