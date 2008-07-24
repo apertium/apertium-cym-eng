@@ -47273,6 +47273,48 @@
       </e>
     </pardef>
 
+    <pardef n="/na__vpart">
+      <e r="LR">
+        <p>
+          <l>na</l>
+          <r>na<s n="vpart"/><s n="neg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>nad</l>
+          <r>na<s n="vpart"/><s n="neg"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>na</l>
+          <r>na<s n="vpart"/><s n="neg"/></r>
+        </p>
+      </e>
+
+      <e r="LR">
+        <p>
+          <l>na</l>
+          <r>na<s n="vpart"/><s n="imp"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>nac</l>
+          <r>na<s n="vpart"/><s n="imp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>na</l>
+          <r>na<s n="vpart"/><s n="imp"/></r>
+        </p>
+      </e>
+
+    </pardef>
+
+
     <pardef n="a__vpart">
       <e>
         <p>
@@ -47351,6 +47393,7 @@
     <e lm="mutations"><i/><par n="mutations"/></e>
 
     <e lm="ni"><i/><par n="/ni__vpart"/></e>
+    <e lm="na"><i/><par n="/na__vpart"/></e>
     <e lm="a"><i>a</i><par n="a__vpart"/></e>
     <e lm="oni"><i/><par n="/oni__vpart"/></e>
     <e lm="fe"><i>fe</i><par n="fe__vpart"/></e>
@@ -55508,7 +55551,7 @@
     <e lm="pinio"><par n="initial-p"/><i>ini</i><par n="achlysur/o__vblex"/></e>
     <e lm="pinsio"><par n="initial-p"/><i>insi</i><par n="achlysur/o__vblex"/></e>
     <e lm="pipio"><par n="initial-p"/><i>ipi</i><par n="achlysur/o__vblex"/></e>
-    <e lm="piso"><par n="initial-p"/><i>is</i><par n="achub__vblex"/></e>
+    <e lm="piso"><par n="initial-p"/><i>is</i><par n="achlysur/o__vblex"/></e> <!-- was achub__vblex -->
     <e lm="pistyllio"><par n="initial-p"/><i>istylli</i><par n="achlysur/o__vblex"/></e>
     <e lm="pistyllu"><par n="initial-p"/><i>istyll</i><par n="aberth/u__vblex"/></e>
     <e lm="pitïo"><par n="initial-p"/><i>itï</i><par n="achlysur/o__vblex"/></e>
