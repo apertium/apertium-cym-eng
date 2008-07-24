@@ -53525,8 +53525,10 @@
     <e lm="cyfoedi"><par n="initial-c"/><i>yfoed</i><par n="achos/i__vblex"/></e>
     <e lm="cyfoesi"><par n="initial-c"/><i>yfoes</i><par n="achos/i__vblex"/></e>
     <e lm="cyfoethogi"><par n="initial-c"/><i>yfoethog</i><par n="achos/i__vblex"/></e>
-    <e lm="cyfogi"><par n="initial-c"/><i>yfog</i><par n="achub__vblex"/></e>
+
+    <e lm="cyfogi"><par n="initial-c"/><i>yfog</i><par n="achos/i__vblex"/></e> <!-- was achub__vblex -->
     <e lm="cyfori"><par n="initial-c"/><i>yfor</i><par n="achos/i__vblex"/></e>
+
     <e lm="cyfosod"><par n="initial-c"/><i>yfosod</i><par n="achub__vblex"/></e>
     <e lm="cyfrannu"><par n="initial-c"/><i>yfrann</i><par n="absenn/u__vblex"/></e>
     <e lm="cyfranogi"><par n="initial-c"/><i>yfranog</i><par n="achos/i__vblex"/></e>
