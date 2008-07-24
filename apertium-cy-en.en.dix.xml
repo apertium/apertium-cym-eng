@@ -94,6 +94,14 @@
           <r><s n="num"/><s n="sp"/></r>
         </p>
       </e>
+      <e>
+        <re>[0-9]+([.,][0-9]+)?%</re>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="sp"/></r>
+        </p>
+      </e>
+
       <e r="RL">
         <re>[0-9]+([.,][0-9]+)?</re>
         <p>
@@ -103,6 +111,21 @@
       </e>
       <e r="RL">
         <re>[0-9]+([.,][0-9]+)?</re>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="pl"/></r>
+        </p>
+      </e>
+
+      <e r="RL">
+        <re>[0-9]+([.,][0-9]+)?%</re>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <re>[0-9]+([.,][0-9]+)?%</re>
         <p>
           <l/>
           <r><s n="num"/><s n="pl"/></r>
@@ -2851,6 +2874,12 @@
       <e r="RL">
         <p>
           <l>e</l>
+          <r>e<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>e</l>
           <r>e<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
@@ -3676,6 +3705,19 @@
         <p>
           <l>et</l>
           <r>et<s n="vblex"/><s n="pres"/></r>
+        </p>
+      </e>
+      <!-- Broken -->
+      <e r="RL">
+        <p>
+          <l>et</l>
+          <r>et<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>et</l>
+          <r>et<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
@@ -5956,6 +5998,20 @@
           <r>et<s n="vblex"/><s n="pres"/></r>
         </p>
       </e>
+      <!-- Broken -->
+      <e r="RL">
+        <p>
+          <l>et</l>
+          <r>et<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>et</l>
+          <r>et<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+
       <e>
         <p>
           <l>ets</l>
@@ -9002,6 +9058,12 @@
           <r>ey<s n="n"/><s n="unc"/><s n="pl"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l>ey</l>
+          <r>ey<s n="n"/><s n="unc"/><s n="sp"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="liv/e__vblex__sep">
       <e>
@@ -9421,7 +9483,11 @@
   <section id="main" type="standard">
     <e lm="the most"><p><l>the<b/>most</l><r>the<s n="det"/><s n="def"/><s n="sp"/><j/>most<s n="preadv"/></r></p></e>
     <e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+
     <e lm="including"><i>including</i><par n="expensive__adj"/></e>
+    <e lm="completely"><i>completely</i><par n="expensive__adj"/></e>
+    <e lm="stunning"><i>stunning</i><par n="expensive__adj"/></e>
+    <e lm="constructive"><i>constructive</i><par n="expensive__adj"/></e>
     <e lm="disappointed"><i>disappointed</i><par n="expensive__adj"/></e>
     <e lm="ample"><i>ample</i><par n="expensive__adj"/></e>
     <e lm="awesome"><i>awesome</i><par n="expensive__adj"/></e>
@@ -10308,6 +10374,8 @@
     <e lm="bilateral"><i>bilateral</i><par n="expensive__adj"/></e>
     <e lm="dyadic"><i>dyadic</i><par n="expensive__adj"/></e>
     <e lm="expensive"><i>expensive</i><par n="expensive__adj"/></e>
+    <e lm="straight"><i>straight</i><par n="expensive__adj"/></e>
+    <e lm="specialist"><i>specialist</i><par n="expensive__adj"/></e>
     <e lm="gay"><i>gay</i><par n="expensive__adj"/></e>
     <e lm="guerilla"><i>guerilla</i><par n="expensive__adj"/></e>
     <e lm="occupying"><i>occupying</i><par n="expensive__adj"/></e>
@@ -12787,6 +12855,7 @@
     <e lm="southern"><i>southern</i><par n="expensive__adj"/></e>
     <e lm="straightforward"><i>straightforward</i><par n="expensive__adj"/></e>
     <e lm="successful"><i>successful</i><par n="expensive__adj"/></e>
+    <e lm="unsuccessful"><i>unsuccessful</i><par n="expensive__adj"/></e>
     <e lm="superb"><i>superb</i><par n="expensive__adj"/></e>
     <e lm="sympathetic"><i>sympathetic</i><par n="expensive__adj"/></e>
     <e lm="temporary"><i>temporary</i><par n="expensive__adj"/></e>
@@ -12816,6 +12885,17 @@
     <e r="LR"><i>as<b/>far<b/>as<b/>they<b/>are<b/>concerned</i><par n="maybe__adv"/></e>
 
     <e lm="at the end of"><i>at<b/>the<b/>end<b/>of</i><par n="at__pr"/></e>
+    <e lm="next to"><i>next<b/>to</i><par n="at__pr"/></e>
+    <e lm="for the purpose of"><i>for<b/>the<b/>purpose<b/>of</i><par n="at__pr"/></e>
+    <e lm="opposite"><i>opposite</i><par n="at__pr"/></e>
+    <e lm="on the point of"><i>on<b/>the<b/>point<b/>of</i><par n="at__pr"/></e>
+    <e lm="on the point of"><i>on<b/>the<b/>point<b/>of</i><par n="at__pr"/></e>
+    <e lm="on the edge of"><i>on<b/>the<b/>edge<b/>of</i><par n="at__pr"/></e>
+    <e lm="in the presence of"><i>in<b/>the<b/>presence<b/>of</i><par n="at__pr"/></e>
+    <e lm="aound"><i>aound</i><par n="at__pr"/></e>
+    <e lm="in the presence of"><i>in<b/>the<b/>presence<b/>of</i><par n="at__pr"/></e>
+    <e lm="in the middle of"><i>in<b/>the<b/>middle<b/>of</i><par n="at__pr"/></e>
+
 
     <e lm="for the sake of"><i>for<b/>the<b/>sake<b/>of</i><par n="at__pr"/></e>
     <e r="LR"><i>in<b/>large<b/>part</i><par n="maybe__adv"/></e>
@@ -29731,7 +29811,6 @@
     <e lm="frequency"><i>frequenc</i><par n="bab/y__n"/></e>
     <e lm="bankruptcy"><i>bankruptc</i><par n="bab/y__n"/></e>
     <e lm="custody"><i>custod</i><par n="bab/y__n"/></e>
-    <e lm="money"><i>mone</i><par n="bab/y__n"/></e>
     <e lm="synergy"><i>synerg</i><par n="bab/y__n"/></e>
     <e lm="typography"><i>typograph</i><par n="bab/y__n"/></e>
     <e lm="apathy"><i>apath</i><par n="bab/y__n"/></e>
