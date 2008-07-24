@@ -179,6 +179,24 @@
 		  </p>
 		  <par n="porten_a"/>
 	  </e>
+	  <e>
+            <p>
+	      <l><a/>did<b/>not</l>
+	      <r>didn't</r>
+	    </p>
+	  </e>
+	  <e>
+            <p>
+	      <l><a/>do<b/>not</l>
+	      <r>don't</r>
+	    </p>
+	  </e>
+	  <e>
+            <p>
+	      <l><a/>does<b/>not</l>
+	      <r>doesn't</r>
+	    </p>
+	  </e>
 	
   </section>
 

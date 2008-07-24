@@ -124,7 +124,7 @@
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
       <attr-item tags="vbmod"/>
-      <attr-item tags="vbaux"/>
+      <attr-item tags="vaux"/>
       <attr-item tags="vbser"/>
     </def-attr>
     <def-attr n="a_prn">
@@ -532,6 +532,91 @@
               </chunk>
             </out>
 	  </when>
+	  <when>
+            <test>
+	      <and>
+	        <equal>
+	          <clip pos="1" part="tags"/>
+	          <lit-tag v="Vpart.itg"/>
+	        </equal>
+	        <equal caseless="yes">
+	          <clip pos="1" part="lem"/>
+	          <lit v="a"/>
+	        </equal>
+              </and>
+	    </test>
+            <out>
+              <chunk>
+                <lit v="do"/>
+                <lit-tag v="SV.vbdo"/>
+                <lit v="{^do"/>
+                <lit-tag v="vbdo.past"/>
+                <lit v="$}"/>
+              </chunk>
+              <b/>
+              <chunk>
+                <clip pos="3" part="lem"/>
+                <clip pos="3" part="tags"/>
+                <clip pos="3" part="chcontent"/>
+              </chunk>
+              <b/>
+              <chunk>
+                <clip pos="2" part="lem"/>
+		<clip pos="2" part="a_frase"/>
+		<clip pos="2" part="a_verb"/>
+		<lit-tag v="inf"/>
+                <clip pos="2" part="chcontent"/>
+              </chunk>
+            </out>
+	  </when>
+
+	  <when>
+            <test>
+	      <and>
+	        <equal>
+	          <clip pos="1" part="tags"/>
+	          <lit-tag v="Vpart.itg"/>
+	        </equal>
+	        <equal caseless="yes">
+	          <clip pos="1" part="lem"/>
+	          <lit v="oni"/>
+	        </equal>
+              </and>
+	    </test>
+            <out>
+              <chunk>
+                <lit v="do"/>
+                <lit-tag v="SV.vbdo"/>
+                <lit v="{^do"/>
+                <lit-tag v="vbdo.past"/>
+                <lit v="$}"/>
+              </chunk>
+	      <b/>
+              <chunk>
+                <lit v="adv"/>
+                <lit-tag v="Adv"/>
+                <lit v="{^not"/>
+                <lit-tag v="adv"/>
+                <lit v="$}"/>
+              </chunk>
+              <b/>
+              <chunk>
+                <clip pos="3" part="lem"/>
+                <clip pos="3" part="tags"/>
+                <clip pos="3" part="chcontent"/>
+              </chunk>
+              <b/>
+              <chunk>
+                <clip pos="2" part="lem"/>
+		<clip pos="2" part="a_frase"/>
+		<clip pos="2" part="a_verb"/>
+		<lit-tag v="inf"/>
+                <clip pos="2" part="chcontent"/>
+              </chunk>
+            </out>
+	  </when>
+
+
           <otherwise>
 	    <out>
               <chunk>

@@ -327,7 +327,7 @@
                 <clip pos="1" side="tl" part="lemh"/>
                 <clip pos="1" side="tl" part="a_verb"/>
                 <clip pos="1" side="tl" part="sep"/>
-                <clip pos="1" side="tl" part="temps"/>
+                <clip pos="1" side="tl" part="temps" link-to="3"/>
                 <clip pos="1" side="sl" part="pers" link-to="4"/>
                 <clip pos="1" side="sl" part="nbr" link-to="5"/> 
               </concat>
@@ -374,7 +374,7 @@
                 <clip pos="1" side="tl" part="lemh"/>
                 <clip pos="1" side="tl" part="a_verb"/>
                 <clip pos="1" side="tl" part="sep"/>
-                <clip pos="1" side="tl" part="temps"/>
+                <clip pos="1" side="tl" part="temps" link-to="3"/>
                 <clip pos="1" side="sl" part="pers" link-to="4"/>
                 <clip pos="1" side="sl" part="nbr" link-to="5"/>
               </concat>
@@ -420,7 +420,7 @@
                 <clip pos="1" side="tl" part="lemh"/>
                 <clip pos="1" side="tl" part="a_verb"/>
                 <clip pos="1" side="tl" part="sep"/>
-                <clip pos="1" side="tl" part="temps"/>
+                <clip pos="1" side="tl" part="temps" link-to="3"/>
                 <clip pos="1" side="tl" part="pers" link-to="4"/>
                 <clip pos="1" side="tl" part="nbr" link-to="5"/> 
               </concat>
@@ -501,7 +501,7 @@
                     <clip pos="1" side="tl" part="lemh"/>
                     <clip pos="1" side="tl" part="a_verb"/>
                     <clip pos="1" side="tl" part="sep"/>
-                    <clip pos="1" side="tl" part="temps"/>
+                    <clip pos="1" side="tl" part="temps" link-to="3"/>
                   </concat>
                 </let>
               </when>
@@ -3253,6 +3253,8 @@
       </action>
     </rule>
 
+
+    <!--  -->
 
 
     <rule comment="REGLA: PR">

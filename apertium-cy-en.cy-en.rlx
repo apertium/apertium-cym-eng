@@ -2,7 +2,7 @@ DELIMITERS = "<.>" "<!>" "<?>"; # end-of-sentence markers
 
 # give Apertium tags a mnemonic to be used in the rules
 
-LIST NC = (n); 				# common nouns
+LIST NC = n; 				# common nouns
 LIST NP = (np top) (np ant) (np cog); 	# proper nouns (toponyms, anthroponyms, cognomens)
 LIST Acr = (n acr);
 LIST V = vblex vbser;		 	# lexical verbs and "to be"
@@ -54,7 +54,7 @@ SET Conj = CC + CS;
 SECTION
 
 # choose verbal partical if sandwiched between Conj + verb
-SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser)));
+SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 NC) (NOT 1 Num);
 
 # choose the preposition "i" if it is followed by an infinitive
 # aeth i gael y pres
