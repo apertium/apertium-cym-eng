@@ -55,6 +55,13 @@
         </p>
       </e>
       <e>
+        <re>[0-9]+([.,][0-9]+)?%</re>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
         <re>[0-9]+([.,][0-9]+)?au</re>
         <p>
           <l/>
@@ -787,6 +794,16 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="amryw_o__det">
+      <e>
+        <p>
+          <l/>
+          <r><s n="det"/><s n="ind"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
 
     <pardef n="/yr__det">
       <e r="LR">
@@ -9399,6 +9416,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="agos__adj">
       <e>
         <p>
@@ -9419,6 +9437,21 @@
         </p>
       </e>
     </pardef>
+    <pardef n="haw/dd__adj">
+      <e>
+        <p>
+          <l>dd</l>
+          <r>dd<s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r>dd<s n="adj"/><s n="sint"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="neis__adj">
       <e>
         <p>
@@ -35320,13 +35353,8 @@
       </e>
       <e>
         <p>
-          <l/>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+          <l>nych</l>
+          <r>nych<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -35499,13 +35527,8 @@
       </e>
       <e>
         <p>
-          <l/>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <l>nych</l>
+          <r>nych<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -47159,6 +47182,8 @@
     <e lm="llawer o"><i>llawer<b/>o</i><par n="llawer_o__det"/></e>
     <e lm="ychydig"><i>ychydig</i><par n="llawer_o__det"/></e>
 
+    <e lm="amryw o"><i>amryw<b/>o</i><par n="amryw_o__det"/></e>
+
     <!-- Adverbs -->
     <e lm="iawn"><i>iawn</i><par n="iawn__preadv"/></e>
 
@@ -50846,7 +50871,9 @@
     <e lm="amrantol"><i>amrantol</i><par n="caredig__adj"/></e>
     <e lm="amrwd"><i>amrwd</i><par n="caredig__adj"/></e>
     <e lm="amryfal"><i>amryfal</i><par n="caredig__adj"/></e>
+
     <e lm="amryw"><i>amryw</i><par n="caredig__adj"/></e>
+
     <e lm="amrywiadwy"><i>amrywiadwy</i><par n="caredig__adj"/></e>
     <e lm="amrywiol"><i>amrywiol</i><par n="caredig__adj"/></e>
     <e lm="amseredig"><i>amseredig</i><par n="caredig__adj"/></e>
@@ -51706,8 +51733,7 @@
     <e lm="hanner-awtomatig"><i>hanner-awtomatig</i><par n="caredig__adj"/></e>
     <e lm="hapus"><i>hapus</i><par n="caredig__adj"/></e>
     <e lm="harmonig"><i>harmonig</i><par n="caredig__adj"/></e>
-    <e lm="hawdd"><i>hawdd</i><par n="caredig__adj"/></e>
-    <e lm="haws"><i>haws</i><par n="caredig__adj"/></e>
+    <e lm="hawdd"><i>haw</i><par n="haw/dd__adj"/></e>
     <e lm="hecs"><i>hecs</i><par n="caredig__adj"/></e>
     <e lm="hecsadegol"><i>hecsadegol</i><par n="caredig__adj"/></e>
     <e lm="hecto"><i>hecto</i><par n="caredig__adj"/></e>

@@ -138,6 +138,9 @@ REMOVE (vblex) IF (-1 Pr) (0 NC) (NOT 0 Acr) (0 V);
 #54 acer o barcio 
 SELECT Pr IF (-1 NC) (1 V);
 
+#yn sicr o gynyddu
+REMOVE PrnSubj IF (-1 Adj) (1 V);
+
 #
 #  Lexical rules
 #

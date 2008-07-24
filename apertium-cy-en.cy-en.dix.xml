@@ -50,6 +50,9 @@
  
       <!-- CHECK THIS -->
     <e r="RL"><p><l>yr<s n="det"/><s n="def"/></l><r>this<s n="det"/><s n="dem"/></r></p></e>
+
+
+    <e><p><l>amryw<b/>o<s n="det"/><s n="ind"/></l><r>various<s n="det"/><s n="ind"/></r></p></e>
  
     <e><p><l>rhywun<s n="prn"/></l><r>someone<s n="prn"/></r></p></e>
     <e><p><l>pawb<s n="prn"/></l><r>everyone<s n="prn"/></r></p></e>
@@ -2395,7 +2398,7 @@
     <e><p><l>potensial<s n="n"/><s n="m"/></l><r>potential<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>preifatrwydd<s n="n"/><s n="m"/></l><r>privacy<s n="n"/></r></p></e>
     <e><p><l>prentisiaeth<s n="n"/><s n="f"/></l><r>apprenticeship<s n="n"/></r></p></e>
-    <e><p><l>pres<s n="n"/><s n="m"/></l><r>money<s n="n"/></r></p></e>
+    <e><p><l>pres<s n="n"/><s n="m"/></l><r>money<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>presenoldeb<s n="n"/><s n="m"/></l><r>presence<s n="n"/></r></p></e>
     <e><p><l>print<s n="n"/><s n="m"/></l><r>print<s n="n"/></r></p></e>
     <e><p><l>proffesiynoldeb<s n="n"/><s n="m"/></l><r>professionalism<s n="n"/></r></p></e>
@@ -4433,7 +4436,7 @@
     <e><p><l>artistig<s n="adj"/></l><r>artistic<s n="adj"/></r></p></e>
     <e><p><l>arunigol<s n="adj"/></l><r>standalone<s n="adj"/></r></p></e>
     <e><p><l>aruthrol<s n="adj"/></l><r>awesome<s n="adj"/></r></p></e>
-    <e><p><l>aruthrol<s n="adj"/></l><r>wonderful<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>aruthrol<s n="adj"/></l><r>wonderful<s n="adj"/></r></p></e>
     <e><p><l>arwahanol<s n="adj"/></l><r>discrete<s n="adj"/></r></p></e>
     <e><p><l>arweiniol<s n="adj"/></l><r>leading<s n="adj"/></r></p></e>
     <e><p><l>arweiniol<s n="adj"/></l><r>introductory<s n="adj"/></r></p></e>
@@ -5148,8 +5151,7 @@
     <e><p><l>hanner-awtomatig<s n="adj"/></l><r>semi-automatic<s n="adj"/></r></p></e>
     <e><p><l>hapus<s n="adj"/></l><r>happy<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>harmonig<s n="adj"/></l><r>harmonic<s n="adj"/></r></p></e>
-    <e><p><l>hawdd<s n="adj"/></l><r>easy<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>haws<s n="adj"/></l><r>easier<s n="adj"/></r></p></e>
+    <e><p><l>hawdd<s n="adj"/><s n="sint"/></l><r>easy<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>hecs<s n="adj"/></l><r>hex<s n="adj"/></r></p></e>
     <e><p><l>hecsadegol<s n="adj"/></l><r>hexadecimal<s n="adj"/></r></p></e>
     <e><p><l>hecto<s n="adj"/></l><r>hecto<s n="adj"/></r></p></e>
@@ -5516,7 +5518,7 @@
     <e><p><l>sawl<s n="adj"/></l><r>many<s n="adj"/></r></p></e>
     <e><p><l>sefydledig<s n="adj"/></l><r>established<s n="adj"/></r></p></e>
     <e><p><l>sefydliadol<s n="adj"/></l><r>institutional<s n="adj"/></r></p></e>
-    <e><p><l>sefydlog<s n="adj"/></l><r>fixed<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>sefydlog<s n="adj"/></l><r>fixed<s n="adj"/></r></p></e>
     <e><p><l>sefydlog<s n="adj"/></l><r>stable<s n="adj"/></r></p></e>
     <e><p><l>segur<s n="adj"/></l><r>standby<s n="adj"/></r></p></e>
     <e><p><l>segur<s n="adj"/></l><r>idle<s n="adj"/></r></p></e>
@@ -5535,7 +5537,7 @@
     <e><p><l>Siapanaidd<s n="adj"/></l><r>Japanese<s n="adj"/></r></p></e>
     <e><p><l>siartredig<s n="adj"/></l><r>chartered<s n="adj"/></r></p></e>
     <e><p><l>sicr<s n="adj"/></l><r>sure<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>sicr<s n="adj"/></l><r>certain<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>sicr<s n="adj"/></l><r>certain<s n="adj"/></r></p></e>
     <e><p><l>sifil<s n="adj"/></l><r>civil<s n="adj"/></r></p></e>
     <e><p><l>siomedig<s n="adj"/></l><r>disappointed<s n="adj"/></r></p></e>
     <e><p><l>sionc<s n="adj"/></l><r>nimble<s n="adj"/></r></p></e>
@@ -5762,7 +5764,7 @@
     <e><p><l>poeth<s n="adj"/><s n="sint"/></l><r>hot<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>pwysig<s n="adj"/><s n="sint"/></l><r>important<s n="adj"/></r></p></e>
     <e><p><l>rhad<s n="adj"/><s n="sint"/></l><r>cheap<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>syml<s n="adj"/></l><r>simple<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>syml<s n="adj"/><s n="sint"/></l><r>simple<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>tal<s n="adj"/><s n="sint"/></l><r>tall<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>tenau<s n="adj"/><s n="sint"/></l><r>thin<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>tew<s n="adj"/><s n="sint"/></l><r>fat<s n="adj"/><s n="sint"/></r></p></e> 
@@ -10596,6 +10598,7 @@
     <e><re>([0-9]+[.,][0-9]+)?2</re><p><l>eg<s n="num"/><s n="ord"/></l><r>nd<s n="num"/><s n="ord"/></r></p></e>
     <e><re>([0-9]+[.,][0-9]+)?3</re><p><l>eg<s n="num"/><s n="ord"/></l><r>rd<s n="num"/><s n="ord"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l>eg<s n="num"/><s n="ord"/></l><r>th<s n="num"/><s n="ord"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)?%</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?au</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[0-9]+[.:][0-5][0-9](pm|PM|am|AM)</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
