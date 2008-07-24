@@ -48574,6 +48574,7 @@
     <e lm="arwynebedd"><i>arwynebedd</i><par n="achosiant__n"/></e>
     <e lm="arwynebeddau"><i>arwynebeddau</i><par n="achosiant__n"/></e>
     <e lm="AS"><i>AS</i><par n="aberth__n"/></e>
+    <e lm="AC"><i>AC</i><par n="aberth__n"/></e>
     <e lm="asbestos"><i>asbestos</i><par n="achosiant__n"/></e>
     <e lm="atebolrwydd"><i>atebolrwydd</i><par n="achosiant__n"/></e>
     <e lm="aur"><i>aur</i><par n="achosiant__n"/></e>
@@ -56239,6 +56240,7 @@
     <e lm="Bangor"><par n="initial-B"/><i>angor</i><par n="Blaenafon__np"/></e>
     <e lm="Pontypridd"><par n="initial-P"/><i>ontypridd</i><par n="Blaenafon__np"/></e>
     <e lm="Blaenafon"><par n="initial-B"/><i>laenafon</i><par n="Blaenafon__np"/></e>
+    <e lm="Bae Caerdydd"><par n="initial-B"/><i>ae<b/>Caerdydd</i><par n="Blaenafon__np"/></e>
     <e lm="Caerdydd"><par n="initial-C"/><i>aerdydd</i><par n="Blaenafon__np"/></e>
     <e lm="Casnewydd"><par n="initial-C"/><i>asnewydd</i><par n="Blaenafon__np"/></e>
     <e lm="Cwmbrân"><par n="initial-C"/><i>wmbrân</i><par n="Blaenafon__np"/></e>
