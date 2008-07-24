@@ -81,6 +81,9 @@
     <def-cat n="verbcael">
       <cat-item lemma="cael" tags="vblex.inf"/>
     </def-cat>
+    <def-cat n="verbaux">
+      <cat-item tags="vaux.*"/>
+    </def-cat>
     <def-cat n="verbser">
       <cat-item tags="vbser.pres.*"/>
     </def-cat>
@@ -181,7 +184,7 @@
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
       <attr-item tags="vbmod"/>
-      <attr-item tags="vbaux"/>
+      <attr-item tags="vaux"/>
       <attr-item tags="vbser"/>
     </def-attr>
     <def-attr n="a_prn">
@@ -2983,6 +2986,33 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: VERB aux">
+      <pattern>
+        <pattern-item n="verbaux"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="verbaux" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><lit-tag v="inf"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+            </lu>
+          </chunk>
+	  <b/>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: yn VERB inf">
       <pattern>
