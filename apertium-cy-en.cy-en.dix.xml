@@ -9206,7 +9206,7 @@
     <e><p><l>siarad<g><b/>â</g><s n="vblex"/></l><r>talk<g><b/>to</g><s n="vblex"/></r></p></e>
     <e><p><l>sôn<g><b/>am</g><s n="vblex"/></l><r>talk<g><b/>about</g><s n="vblex"/></r></p></e>
     <e><p><l>sylwi<g><b/>ar</g><s n="vblex"/></l><r>notice<s n="vblex"/></r></p></e>
-    <e><p><l>synnu<g><b/>at</g><s n="vblex"/></l><r>be<g><b/>surprised<b/>at</g><s n="vblex"/></r></p></e>
+    <e><p><l>synnu<g><b/>at</g><s n="vblex"/></l><r>be<g><b/>surprised<b/>at</g><s n="vbser"/></r></p></e>
     <e><p><l>ychwanegu<g><b/>at</g><s n="vblex"/></l><r>add<g><b/>to</g><s n="vblex"/></r></p></e>
     <e><p><l>ymdebygu<g><b/>i</g><s n="vblex"/></l><r>resemble<s n="vblex"/></r></p></e>
     <e><p><l>ymdrechu<g><b/>dros</g><s n="vblex"/></l><r>strive<g><b/>for</g><s n="vblex"/></r></p></e>
@@ -9505,29 +9505,31 @@
     <e><p><l>ymgladdu<s n="vblex"/></l><r>get<g><b/>buried</g><s n="vblex"/></r></p></e>
     <e><p><l>ymglwyfo<s n="vblex"/></l><r>get<g><b/>wounded</g><s n="vblex"/></r></p></e>
 
-    <e><p><l>arferu<s n="vblex"/></l><r>be<g><b/>accustomed</g><s n="vblex"/></r></p></e>
-    <e><p><l>cydoesi<s n="vblex"/></l><r>be<g><b/>contemporary</g><s n="vblex"/></r></p></e>
-    <e><p><l>cydsefyll<s n="vblex"/></l><r>be<g><b/>compatible</g><s n="vblex"/></r></p></e>
-    <e><p><l>cyfoedi<s n="vblex"/></l><r>be<g><b/>contemporaneous<b/>with</g><s n="vblex"/></r></p></e>
-    <e><p><l>cyfoesi<s n="vblex"/></l><r>be<g><b/>contemporaneous<b/>with</g><s n="vblex"/></r></p></e>
-    <e><p><l>delwi<s n="vblex"/></l><r>be<g><b/>motionless</g><s n="vblex"/></r></p></e>
-    <e><p><l>diclloni<s n="vblex"/></l><r>be<g><b/>indignant</g><s n="vblex"/></r></p></e>
-    <e><p><l>diflasu<s n="vblex"/></l><r>be<g><b/>fed<b/>up<b/>with</g><s n="vblex"/></r></p></e>
-    <e><p><l>ffrwcsio<s n="vblex"/></l><r>be<g><b/>in<b/>a<b/>tizzy</g><s n="vblex"/></r></p></e>
-    <e><p><l>ffrwytho<s n="vblex"/></l><r>be<g><b/>fruitful</g><s n="vblex"/></r></p></e>
-    <e><p><l>gorddibynnu<s n="vblex"/></l><r>be<g><b/>too<b/>dependent</g><s n="vblex"/></r></p></e>
-    <e><p><l>gorfoleddu<s n="vblex"/></l><r>be<g><b/>jubilant</g><s n="vblex"/></r></p></e>
-    <e><p><l>gorofalu<s n="vblex"/></l><r>be<g><b/>overprotective</g><s n="vblex"/></r></p></e>
-    <e><p><l>hyderu<s n="vblex"/></l><r>be<g><b/>confident</g><s n="vblex"/></r></p></e>
-    <e><p><l>cynheica<s n="vblex"/></l><r>be<g><b/>in<b/>heat</g><s n="vblex"/></r></p></e>
-    <e><p><l>llawdio<s n="vblex"/></l><r>be<g><b/>in<b/>heat</g><s n="vblex"/></r></p></e> <!-- sow/animal -->
-    <e><p><l>marchio<s n="vblex"/></l><r>be<g><b/>in<b/>heat</g><s n="vblex"/></r></p></e> <!-- mare / horse -->
-    <e><p><l>llodi<s n="vblex"/></l><r>be<g><b/>in<b/>heat</g><s n="vblex"/></r></p></e> <!-- sow -->
-    <e><p><l>llenora<s n="vblex"/></l><r>be<g><b/>an<b/>author</g><s n="vblex"/></r></p></e>
-    <e><p><l>llenydda<s n="vblex"/></l><r>be<g><b/>well-versed<b/>in<b/>literature</g><s n="vblex"/></r></p></e>
-    <e><p><l>llesio<s n="vblex"/></l><r>be<g><b/>advantageous</g><s n="vblex"/></r></p></e>
-    <e><p><l>llesu<s n="vblex"/></l><r>be<g><b/>advantageous</g><s n="vblex"/></r></p></e>
-    <e><p><l>llwgu<s n="vblex"/></l><r>be<g><b/>ravenously<b/>hungry</g><s n="vblex"/></r></p></e>
+    <e><p><l>arferu<s n="vblex"/></l><r>be<g><b/>accustomed</g><s n="vbser"/></r></p></e>
+    <e><p><l>cydoesi<s n="vblex"/></l><r>be<g><b/>contemporary</g><s n="vbser"/></r></p></e>
+    <e><p><l>cydsefyll<s n="vblex"/></l><r>be<g><b/>compatible</g><s n="vbser"/></r></p></e>
+    <e><p><l>cyfoedi<s n="vblex"/></l><r>be<g><b/>contemporaneous<b/>with</g><s n="vbser"/></r></p></e>
+    <e><p><l>cyfoesi<s n="vblex"/></l><r>be<g><b/>contemporaneous<b/>with</g><s n="vbser"/></r></p></e>
+    <e><p><l>delwi<s n="vblex"/></l><r>be<g><b/>motionless</g><s n="vbser"/></r></p></e>
+    <e><p><l>diclloni<s n="vblex"/></l><r>be<g><b/>indignant</g><s n="vbser"/></r></p></e>
+    <e><p><l>diflasu<s n="vblex"/></l><r>be<g><b/>fed<b/>up<b/>with</g><s n="vbser"/></r></p></e>
+    <e><p><l>ffrwcsio<s n="vblex"/></l><r>be<g><b/>in<b/>a<b/>tizzy</g><s n="vbser"/></r></p></e>
+    <e><p><l>ffrwytho<s n="vblex"/></l><r>be<g><b/>fruitful</g><s n="vbser"/></r></p></e>
+    <e><p><l>gorddibynnu<s n="vblex"/></l><r>be<g><b/>too<b/>dependent</g><s n="vbser"/></r></p></e>
+    <e><p><l>gorfoleddu<s n="vblex"/></l><r>be<g><b/>jubilant</g><s n="vbser"/></r></p></e>
+    <e><p><l>gorofalu<s n="vblex"/></l><r>be<g><b/>overprotective</g><s n="vbser"/></r></p></e>
+    <e><p><l>hyderu<s n="vblex"/></l><r>be<g><b/>confident</g><s n="vbser"/></r></p></e>
+    <e><p><l>cynheica<s n="vblex"/></l><r>be<g><b/>in<b/>heat</g><s n="vbser"/></r></p></e>
+    <e><p><l>llawdio<s n="vblex"/></l><r>be<g><b/>in<b/>heat</g><s n="vbser"/></r></p></e> <!-- sow/animal -->
+    <e><p><l>marchio<s n="vblex"/></l><r>be<g><b/>in<b/>heat</g><s n="vbser"/></r></p></e> <!-- mare / horse -->
+    <e><p><l>llodi<s n="vblex"/></l><r>be<g><b/>in<b/>heat</g><s n="vbser"/></r></p></e> <!-- sow -->
+    <e><p><l>llenora<s n="vblex"/></l><r>be<g><b/>an<b/>author</g><s n="vbser"/></r></p></e>
+    <e><p><l>llenydda<s n="vblex"/></l><r>be<g><b/>well-versed<b/>in<b/>literature</g><s n="vbser"/></r></p></e>
+    <e><p><l>llesio<s n="vblex"/></l><r>be<g><b/>advantageous</g><s n="vbser"/></r></p></e>
+    <e><p><l>llesu<s n="vblex"/></l><r>be<g><b/>advantageous</g><s n="vbser"/></r></p></e>
+    <e><p><l>llwgu<s n="vblex"/></l><r>be<g><b/>ravenously<b/>hungry</g><s n="vbser"/></r></p></e>
+
+
 
     <e r="LR"><p><l>medru<s n="vblex"/></l><r>be<b/>able<b/>to<s n="vbmod"/></r></p></e>
 

@@ -6,6 +6,7 @@ LIST NC = (n); 				# common nouns
 LIST NP = (np top) (np ant) (np cog); 	# proper nouns (toponyms, anthroponyms, cognomens)
 LIST Acr = (n acr);
 LIST V = vblex vbser;		 	# lexical verbs and "to be"
+LIST Vpart = (vpart neg) (vpart aff) (vpart itg); # Verbal particles
 LIST Adv = adv; 			# adverb
 LIST Num = num;				# numeral
 LIST CC = cnjcoo; 			# co-ordinate conjunction
@@ -48,8 +49,12 @@ LIST MNasC = ("<n.*>"r "d.*"r) ("<m.*>"r "b.*"r);
 SET PrnSubjP3Sg = PrnSubj + P3Sg;
 SET PrnSubjP2Pl = PrnSubj + P2Pl;
 SET VbP2Pl = V + P2Pl;
+SET Conj = CC + CS;
 
 SECTION
+
+# choose verbal partical if sandwiched between Conj + verb
+SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser)));
 
 # choose the preposition "i" if it is followed by an infinitive
 # aeth i gael y pres

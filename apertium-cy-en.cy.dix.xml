@@ -28152,7 +28152,7 @@
       <e>
         <p>
           <l>il</l>
-          <r>l<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <r>nal<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -28730,13 +28730,11 @@
         </p>
       </e>
     </pardef>
-    <pardef n="cynffonna__vblex">
+    <pardef n="cynffonn/a__vblex">
       <e>
         <p>
-          <l/>
-          
-            
-          <r><s n="vblex"/><s n="inf"/></r>
+          <l>a</l>
+          <r>a<s n="vblex"/><s n="inf"/></r>
         </p>
       </e>
       <e>
@@ -32298,13 +32296,8 @@
       </e>
       <e>
         <p>
-          <l/>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+          <l>raedd</l>
+          <r>raedd<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -32477,13 +32470,8 @@
       </e>
       <e>
         <p>
-          <l/>
-          
-            
-            
-            
-            
-          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <l>raedd</l>
+          <r>raedd<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -41409,13 +41397,11 @@
         </p>
       </e>
     </pardef>
-    <pardef n="cynhenna__vblex">
+    <pardef n="cynhenn/a__vblex">
       <e>
         <p>
-          <l/>
-          
-            
-          <r><s n="vblex"/><s n="inf"/></r>
+          <l>a</l>
+          <r>a<s n="vblex"/><s n="inf"/></r>
         </p>
       </e>
       <e>
@@ -47013,6 +46999,89 @@
       </e>
     </pardef>
 
+    <pardef n="/ni__vpart">
+      <e r="LR">
+        <p>
+          <l>ni</l>
+          <r>ni<s n="vpart"/><s n="neg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>nid</l>
+          <r>ni<s n="vpart"/><s n="neg"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>ni</l>
+          <r>ni<s n="vpart"/><s n="neg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="a__vpart">
+      <e>
+        <p>
+          <l/>
+          <r><s n="vpart"/><s n="itg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/oni__vpart">
+      <e r="RL">
+        <p>
+          <l><a/>oni</l>
+          <r>oni<s n="vpart"/><s n="itg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>onid</l>
+          <r>oni<s n="vpart"/><s n="itg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>oni</l>
+          <r>oni<s n="vpart"/><s n="itg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+    <pardef n="fe__vpart">
+      <e>
+        <p>
+          <l/>
+          <r><s n="vpart"/><s n="aff"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/yr__vpart">
+      <e r="RL">
+        <p>
+          <l><a/>yr</l>
+          <r>yr<s n="vpart"/><s n="aff"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>yr</l>
+          <r>yr<s n="vpart"/><s n="aff"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>y</l>
+          <r>yr<s n="vpart"/><s n="aff"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
     <pardef n="a__rel">
       <e>
         <p>
@@ -47027,7 +47096,16 @@
 
   <section id="main" type="standard">
     <e lm="mutations"><i/><par n="mutations"/></e>
+
+    <e lm="ni"><i/><par n="/ni__vpart"/></e>
+    <e lm="a"><i>a</i><par n="a__vpart"/></e>
+    <e lm="oni"><i/><par n="/oni__vpart"/></e>
+    <e lm="fe"><i>fe</i><par n="fe__vpart"/></e>
+    <e lm="yr"><i/><par n="/yr__vpart"/></e>
+    <e lm="mi"><i>mi</i><par n="fe__vpart"/></e>
+
     <e lm="pronoms personals de subjecte"><i/><par n="prsubj__prn"/></e>
+
     <e lm="unrhywun"><i>unrhywun</i><par n="unrhywun__prn"/></e>
     <e lm="rhywun"><i>rhywun</i><par n="unrhywun__prn"/></e>
     <e lm="pawb"><par n="initial-p"/><i>awb</i><par n="unrhywun__prn"/></e>
@@ -53601,14 +53679,14 @@
     <e lm="cyndynnu"><par n="initial-c"/><i>yndynn</i><par n="absenn/u__vblex"/></e>
     <e lm="cyneddfu"><par n="initial-c"/><i>yneddf</i><par n="aberth/u__vblex"/></e>
     <e lm="cynefino"><par n="initial-c"/><i>ynefin</i><par n="achlysur/o__vblex"/></e>
-    <e lm="cynffonna"><par n="initial-c"/><i>ynffonn</i><par n="cynffonna__vblex"/></e>
+    <e lm="cynffonna"><par n="initial-c"/><i>ynffonn</i><par n="cynffonn/a__vblex"/></e>
     <e lm="cynganeddu"><par n="initial-c"/><i>ynganedd</i><par n="aberth/u__vblex"/></e>
     <e lm="cynghori"><par n="initial-c"/><i>ynghor</i><par n="cydymgynghor/i__vblex"/></e>
     <e lm="cynghraffu"><par n="initial-c"/><i>ynghraff</i><par n="aberth/u__vblex"/></e>
     <e lm="cynghreirio"><par n="initial-c"/><i>ynghreiri</i><par n="achlysur/o__vblex"/></e>
     <e lm="cyn-gofrestru"><par n="initial-c"/><i>yn-gofrestr</i><par n="aberth/u__vblex"/></e>
     <e lm="cynheica"><par n="initial-c"/><i>ynheic</i><par n="adar/a__vblex"/></e>
-    <e lm="cynhenna"><par n="initial-c"/><i>ynhenn</i><par n="cynhenna__vblex"/></e>
+    <e lm="cynhenna"><par n="initial-c"/><i>ynhenn</i><par n="cynhenn/a__vblex"/></e>
     <e lm="cynhennu"><par n="initial-c"/><i>ynhenn</i><par n="absenn/u__vblex"/></e>
     <e lm="cynhesu"><par n="initial-c"/><i>ynhes</i><par n="cynhes/u__vblex"/></e>
     <e lm="cynhinio"><par n="initial-c"/><i>ynhini</i><par n="achlysur/o__vblex"/></e>
@@ -53647,7 +53725,7 @@
     <e lm="cysgodi"><par n="initial-c"/><i>ysgod</i><par n="achos/i__vblex"/></e>
     <e lm="cysgu"><par n="initial-c"/><i>ysg</i><par n="aberth/u__vblex"/></e>
     <e lm="cysidro"><par n="initial-c"/><i>ysidr</i><par n="achlysur/o__vblex"/></e>
-    <e lm="cysodi"><par n="initial-c"/><i>ysod</i><par n="achub__vblex"/></e>
+    <e lm="cysodi"><par n="initial-c"/><i>ysod</i><par n="achos/i__vblex"/></e> <!-- was achub__vblex -->
     <e lm="cysoni"><par n="initial-c"/><i>yson</i><par n="achos/i__vblex"/></e>
     <e lm="cystadlu"><par n="initial-c"/><i>ystadl</i><par n="aberth/u__vblex"/></e>
     <e lm="cystuddio"><par n="initial-c"/><i>ystuddi</i><par n="achlysur/o__vblex"/></e>

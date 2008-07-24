@@ -25,7 +25,7 @@
     <sdef n="inf"     c="Infinitive"/>
 
     <sdef n="aff"     c="Affirmative"/>
-    <sdef n="int"     c="Interrogative"/>
+    <sdef n="itg"     c="Interrogative"/>
     <sdef n="neg"     c="Negative"/>
 
     <sdef n="p1"      c="First person"/>
@@ -63,7 +63,6 @@
     <sdef n="an"      c="Adjective noun"/>
     <sdef n="aa"      c="Adjective adjective"/>
     <sdef n="ind"     c="Indefinite"/>    
-    <sdef n="itg"     c="Interrogative"/>
     <sdef n="det"     c="Determiner"/>
     <sdef n="dem"     c="Demonstrative"/>
     <sdef n="def"     c="Definite"/>
@@ -105,6 +104,7 @@
     <sdef n="apos"    c="Apostrophe"/>
     <sdef n="abbr"    c="Abbreviation"/>
     <sdef n="part"    c="Particle"/>
+    <sdef n="vpart"   c="Verbal particle"/>
 
     <sdef n="r1"/>
     <sdef n="s1"/>

@@ -84,6 +84,9 @@
     <def-cat n="verbaux">
       <cat-item tags="vaux.*"/>
     </def-cat>
+    <def-cat n="verbpart">
+      <cat-item tags="vpart.*"/>
+    </def-cat>
     <def-cat n="verbser">
       <cat-item tags="vbser.pres.*"/>
     </def-cat>
@@ -181,6 +184,11 @@
       <attr-item tags="np.ant"/>
       <attr-item tags="np.cog"/>
     </def-attr>
+    <def-attr n="a_mood">
+      <attr-item tags="neg"/>
+      <attr-item tags="aff"/>
+      <attr-item tags="itg"/>
+    </def-attr>
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
       <attr-item tags="vbmod"/>
@@ -242,6 +250,7 @@
     <def-var n="temps_chunk"/>
     <def-var n="lema_SV"/>
     <def-var n="lema_SP"/>
+    <def-var n="lema_Vpart"/>
     <def-var n="verbfinal"/>
     <def-var n="prntags"/>
     <def-var n="adjectiu1"/>
@@ -1563,28 +1572,6 @@
     </rule>
 
 
-    <rule comment="REGLA: CNJCOO">
-      <pattern>
-        <pattern-item n="cnjcoo"/>
-      </pattern>
-      <action>
-        <call-macro n="firstWord">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <chunk name="cnjcoo" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="CC"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-
 
     <rule comment="REGLA: DET">
       <pattern>
@@ -2832,6 +2819,34 @@
 
   <!-- Sintagmas verbales -->
 
+    <rule comment="REGLA: VERB particle">
+      <pattern>
+        <pattern-item n="verbpart"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <let>
+          <var n="lema_Vpart"/>
+          <clip pos="1" side="sl" part="lem"/>
+        </let>
+        <out>
+          <chunk namefrom="lema_Vpart" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="Vpart"/></tag>
+              <tag><clip pos="1" side="tl" part="a_mood"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="sl" part="lemh"/>
+              <clip pos="1" side="sl" part="a_mood"/>
+            </lu>
+          </chunk>
+	  <b/>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: VERB conjugat">
       <pattern>
         <pattern-item n="verbcj"/>
@@ -3265,6 +3280,28 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: CNJCOO">
+      <pattern>
+        <pattern-item n="cnjcoo"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="cnjcoo" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="CC"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
 
 
