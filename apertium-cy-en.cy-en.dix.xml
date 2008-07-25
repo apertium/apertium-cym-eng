@@ -4406,7 +4406,7 @@
     <e><p><l>annisgwyl<s n="adj"/></l><r>unexpected<s n="adj"/></r></p></e>
     <e><p><l>annoeth<s n="adj"/></l><r>unwise<s n="adj"/></r></p></e>
     <e><p><l>annwyl<s n="adj"/></l><r>dear<s n="adj"/></r></p></e>
-    <e><p><l>annymunol<s n="adj"/></l><r>unwanted<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>annymunol<s n="adj"/></l><r>unwanted<s n="adj"/></r></p></e>
     <e><p><l>annymunol<s n="adj"/></l><r>unpleasant<s n="adj"/></r></p></e>
     <e><p><l>anochel<s n="adj"/></l><r>inevitable<s n="adj"/></r></p></e>
     <e><p><l>anorchfygol<s n="adj"/></l><r>intractable<s n="adj"/></r></p></e>

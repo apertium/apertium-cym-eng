@@ -9620,7 +9620,7 @@
     <e lm="unfavourable"><i>unfavourable</i><par n="expensive__adj"/></e>
     <e lm="invoiced"><i>invoiced</i><par n="expensive__adj"/></e>
     <e lm="sent"><i>sent</i><par n="expensive__adj"/></e>
-    <e lm="needy"><i>needy</i><par n="sh/y__adj"/></e>
+    <e lm="needy"><i>need</i><par n="sh/y__adj"/></e>
     <e lm="inconsistent"><i>inconsistent</i><par n="expensive__adj"/></e>
     <e lm="unfamiliar"><i>unfamiliar</i><par n="expensive__adj"/></e>
     <e lm="non-proportional"><i>non-proportional</i><par n="expensive__adj"/></e>
@@ -12764,6 +12764,7 @@
     <e lm="wolf"><i>wol</i><par n="wol/f__n"/></e>
     <e lm="calf"><i>cal</i><par n="wol/f__n"/></e>
     <e lm="quisling"><i>quisling</i><par n="expensive__adj"/></e>
+    <e lm="not applicable"><i>not<b/>applicable</i><par n="expensive__adj"/></e>
     <e lm="anti-partisan"><i>anti-partisan</i><par n="expensive__adj"/></e>
     <e lm="partisan"><i>partisan</i><par n="expensive__adj"/></e>
     <e lm="pyramidal"><i>pyramidal</i><par n="expensive__adj"/></e>
@@ -25179,6 +25180,8 @@
     <e lm="muddled"><i>muddled</i><par n="expensive__adj"/></e>
     <e lm="next-day"><i>next-day</i><par n="expensive__adj"/></e>
     <e lm="non-inflected"><i>non-inflected</i><par n="expensive__adj"/></e>
+    <e lm="inflected"><i>inflected</i><par n="expensive__adj"/></e>
+    <e lm="inherited"><i>inherited</i><par n="expensive__adj"/></e>
     <e lm="nonprinting"><i>nonprinting</i><par n="expensive__adj"/></e>
     <e lm="non-Welsh speaking"><i>non-Welsh<b/>speaking</i><par n="expensive__adj"/></e>
     <e lm="obfuscated"><i>obfuscated</i><par n="expensive__adj"/></e>
