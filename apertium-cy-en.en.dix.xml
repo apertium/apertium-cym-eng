@@ -9535,6 +9535,7 @@
     <e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
 
     <e lm="including"><i>including</i><par n="expensive__adj"/></e>
+    <e lm="idle"><i>idle</i><par n="expensive__adj"/></e>
     <e lm="completely"><i>completely</i><par n="expensive__adj"/></e>
     <e lm="stunning"><i>stunning</i><par n="expensive__adj"/></e>
     <e lm="disappointed"><i>disappointed</i><par n="expensive__adj"/></e>
@@ -13535,6 +13536,8 @@
     <e lm="few"><i>few</i><par n="many__det"/></e>
     <e lm="a few"><i>a<b/>few</i><par n="many__det"/></e>
     <e lm="fewer"><i>fewer</i><par n="many__det"/></e>
+    <e lm="fifteenth"><i>fifteenth</i><par n="second__det"/></e>
+    <e lm="twentieth"><i>twentieth</i><par n="second__det"/></e>
     <e lm="fifth"><i>fifth</i><par n="second__det"/></e>
     <e lm="first"><i>first</i><par n="second__det"/></e>
     <e lm="fourth"><i>fourth</i><par n="second__det"/></e>
@@ -21717,7 +21720,9 @@
     <e lm="Griffiths"><i>Griffiths</i><par n="Ifans__np"/></e>
     <e lm="Cyfanswm"><i>Cyfanswm</i><par n="Ifans__np"/></e>
     <e lm="Wyn"><i>Wyn</i><par n="Mark__np"/></e>
+    <e lm="Gwyn"><i>Gwyn</i><par n="Mark__np"/></e>
 
+    <e lm="Welsh Assembly Government"><i>Welsh<b/>Assembly<b/>Government</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Assembly Government"><i>Assembly<b/>Government</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas"><i>Cymdeithas</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas yr Iaith"><i>Cymdeithas<b/>yr<b/>Iaith</i><par n="Cymdeithas_yr_Iaith__np"/></e>
@@ -21730,9 +21735,25 @@
 
     <e lm="Gwynedd"><i>Gwynedd</i><par n="Barcelona__np"/></e>
     <e lm="Candela"><i>Candela</i><par n="Mary__np"/></e>
+
     <e lm="Carolina"><i>Carolina</i><par n="Mary__np"/></e>
     <e lm="Kate"><i>Kate</i><par n="Mary__np"/></e>
 
+    <e lm="Cameron"><i>Cameron</i><par n="Ifans__np"/></e>
+    <e lm="Colman"><i>Colman</i><par n="Ifans__np"/></e>
+    <e lm="Cooper"><i>Cooper</i><par n="Ifans__np"/></e>
+    <e lm="Murphy"><i>Murphy</i><par n="Ifans__np"/></e>
+    <e lm="Parry"><i>Parry</i><par n="Ifans__np"/></e>
+    <e lm="Serwotka"><i>Serwotka</i><par n="Ifans__np"/></e>
+    <e lm="Summers"><i>Summers</i><par n="Ifans__np"/></e>
+
+
+    <e lm="Gordon"><i>Gordon</i><par n="Mark__np"/></e>
+    <e lm="Ian"><i>Ian</i><par n="Mark__np"/></e>
+    <e lm="Edna"><i>Edna</i><par n="Mary__np"/></e>
+    <e lm="Linda"><i>Linda</i><par n="Mary__np"/></e>
+    <e lm="Phillip"><i>Phillip</i><par n="Mark__np"/></e>
+    <e lm="Raymond"><i>Raymond</i><par n="Mark__np"/></e>
 
 
     <e lm="Mark"><i>Mark</i><par n="Mark__np"/></e>
@@ -25113,7 +25134,6 @@
     <e lm="faulty"><i>faulty</i><par n="expensive__adj"/></e>
     <e lm="feathered"><i>feathered</i><par n="expensive__adj"/></e>
     <e lm="fifteen"><i>fifteen</i><par n="expensive__adj"/></e>
-    <e lm="fifteenth"><i>fifteenth</i><par n="expensive__adj"/></e>
     <e lm="finished"><i>finished</i><par n="expensive__adj"/></e>
     <e lm="five-year"><i>five-year</i><par n="expensive__adj"/></e>
     <e lm="floppy"><i>floppy</i><par n="expensive__adj"/></e>
