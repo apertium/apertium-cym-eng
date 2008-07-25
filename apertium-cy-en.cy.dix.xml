@@ -47820,6 +47820,8 @@
     <e lm="degfed"><par n="initial-d"/><i>egfed</i><par n="nawfed__det"/></e>
 
 <!--
+    <e lm="degfed"><par n="initial-d"/><i>egfed</i><par n="caredig__adj"/></e>
+    <e lm="deuddegfed"><par n="initial-d"/><i>euddegfed</i><par n="caredig__adj"/></e>
     <e lm="pumed"><par n="initial-p"/><i>umed</i><par n="caredig__adj"/></e>
 -->
 
@@ -51750,7 +51752,6 @@
     <e lm="defnyddiol"><par n="initial-d"/><i>efnyddiol</i><par n="caredig__adj"/></e>
 
 
-    <e lm="degfed"><par n="initial-d"/><i>egfed</i><par n="caredig__adj"/></e>
     <e lm="degol"><par n="initial-d"/><i>egol</i><par n="caredig__adj"/></e>
     <e lm="degol"><par n="initial-d"/><i>egol</i><par n="caredig__adj"/></e>
     <e lm="deheuol"><par n="initial-d"/><i>eheuol</i><par n="caredig__adj"/></e>
@@ -51769,7 +51770,6 @@
     <e lm="detholus"><par n="initial-d"/><i>etholus</i><par n="caredig__adj"/></e>
     <e lm="deuaidd"><par n="initial-d"/><i>euaidd</i><par n="caredig__adj"/></e>
     <e lm="deuddeg"><par n="initial-d"/><i>euddeg</i><par n="caredig__adj"/></e>
-    <e lm="deuddegfed"><par n="initial-d"/><i>euddegfed</i><par n="caredig__adj"/></e>
     <e lm="deuffordd"><par n="initial-d"/><i>euffordd</i><par n="caredig__adj"/></e>
     <e lm="deufisol"><par n="initial-d"/><i>eufisol</i><par n="caredig__adj"/></e>
     <e lm="deugain"><par n="initial-d"/><i>eugain</i><par n="caredig__adj"/></e>
