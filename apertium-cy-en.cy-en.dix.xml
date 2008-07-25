@@ -4357,7 +4357,7 @@
     <e><p><l>anfonedig<s n="adj"/></l><r>sent<s n="adj"/></r></p></e>
     <e><p><l>anfwriadol<s n="adj"/></l><r>unintentional<s n="adj"/></r></p></e>
     <e><p><l>angenrheidiol<s n="adj"/></l><r>necessary<s n="adj"/></r></p></e>
-    <e><p><l>anghenus<s n="adj"/></l><r>needy<s n="adj"/></r></p></e>
+    <e><p><l>anghenus<s n="adj"/></l><r>needy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>angheuol<s n="adj"/></l><r>fatal<s n="adj"/></r></p></e>
     <e><p><l>anghydamseredig<s n="adj"/></l><r>asynchronous<s n="adj"/></r></p></e>
     <e><p><l>anghydnaws<s n="adj"/></l><r>incompatible<s n="adj"/></r></p></e>
@@ -9812,6 +9812,12 @@
     <e><p><l>Myfanwy<s n="np"/><s n="ant"/></l><r>Myfanwy<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Rhys<s n="np"/><s n="ant"/></l><r>Rhys<s n="np"/><s n="ant"/></r></p></e>
 
+    <e><p><l>Gordon<s n="np"/><s n="ant"/></l><r>Gordon<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Linda<s n="np"/><s n="ant"/></l><r>Linda<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ian<s n="np"/><s n="ant"/></l><r>Ian<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Raymond<s n="np"/><s n="ant"/></l><r>Raymond<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Phillip<s n="np"/><s n="ant"/></l><r>Phillip<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Edna<s n="np"/><s n="ant"/></l><r>Edna<s n="np"/><s n="ant"/></r></p></e>
 
     <e><p><l>Aaron<s n="np"/><s n="ant"/></l><r>Aaron<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Candela<s n="np"/><s n="ant"/></l><r>Candela<s n="np"/><s n="ant"/></r></p></e>
@@ -9836,6 +9842,7 @@
     <e><p><l>Owain<s n="np"/><s n="ant"/></l><r>Owain<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Rhodri<s n="np"/><s n="ant"/></l><r>Rhodri<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Wyn<s n="np"/><s n="ant"/></l><r>Wyn<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Gwyn<s n="np"/><s n="ant"/></l><r>Gwyn<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Siôn<s n="np"/><s n="ant"/></l><r>Siôn<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Sioned<s n="np"/><s n="ant"/></l><r>Sioned<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Talfan<s n="np"/><s n="ant"/></l><r>Talfan<s n="np"/><s n="ant"/></r></p></e>
@@ -10224,6 +10231,14 @@
 
       <!-- Cognomens -->
 
+    <e><p><l>Cameron<s n="np"/><s n="cog"/></l><r>Cameron<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Colman<s n="np"/><s n="cog"/></l><r>Colman<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Cooper<s n="np"/><s n="cog"/></l><r>Cooper<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Murphy<s n="np"/><s n="cog"/></l><r>Murphy<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Parry<s n="np"/><s n="cog"/></l><r>Parry<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Serwotka<s n="np"/><s n="cog"/></l><r>Serwotka<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Summers<s n="np"/><s n="cog"/></l><r>Summers<s n="np"/><s n="cog"/></r></p></e>
+
     <e><p><l>Hart<s n="np"/><s n="cog"/></l><r>Hart<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>O'Leary<s n="np"/><s n="cog"/></l><r>O'Leary<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>O'Regan<s n="np"/><s n="cog"/></l><r>O'Regan<s n="np"/><s n="cog"/></r></p></e>
@@ -10256,6 +10271,7 @@
     <e><p><l>Lloegr<s n="np"/><s n="top"/><s n="f"/></l><r>England<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>gwlad Thai<s n="np"/><s n="top"/><s n="f"/></l><r>Thailand<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Iwerddon<s n="np"/><s n="top"/><s n="f"/></l><r>Ireland<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Fietnam<s n="np"/><s n="top"/><s n="f"/></l><r>Vietnam<s n="np"/><s n="top"/></r></p></e>
 
     <e><p><l>Sir Gaerfyrddin<s n="np"/><s n="top"/><s n="f"/></l><r>Carmarthenshire<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Sir Benfro<s n="np"/><s n="top"/><s n="f"/></l><r>Pembrokeshire<s n="np"/><s n="top"/></r></p></e>
