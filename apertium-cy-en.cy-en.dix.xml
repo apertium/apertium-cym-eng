@@ -86,7 +86,7 @@
     <e><p><l>yn<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
     <e><p><l>o<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
     <e><p><l>rhwng<s n="pr"/></l><r>between<s n="pr"/></r></p></e>
-    <e><p><l>er<s n="pr"/></l><r>despite<s n="pr"/></r></p></e>
+    <e><p><l>er<s n="pr"/></l><r>although<s n="pr"/></r></p></e>
     <e r="LR"><p><l>gan<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
     <e><p><l>i<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
     <e><p><l>wrth<s n="pr"/></l><r>beside<s n="pr"/></r></p></e>
@@ -8158,7 +8158,7 @@
     <e><p><l>nithio<s n="vblex"/></l><r>sift<s n="vblex"/></r></p></e>
     <e><p><l>niweidio<s n="vblex"/></l><r>harm<s n="vblex"/></r></p></e>
     <e><p><l>niwtraleiddio<s n="vblex"/></l><r>neutralise<s n="vblex"/></r></p></e>
-    <e><p><l>noddi<s n="vblex"/></l><r>patronise<s n="vblex"/></r></p></e>
+    <e><p><l>noddi<s n="vblex"/></l><r>sponsor<s n="vblex"/></r></p></e>
     <e><p><l>nodi<s n="vblex"/></l><r>note<s n="vblex"/></r></p></e>
     <e><p><l>nodweddu<s n="vblex"/></l><r>characterise<s n="vblex"/></r></p></e>
     <e><p><l>noethi<s n="vblex"/></l><r>strip<s n="vblex"/></r></p></e>
@@ -9855,6 +9855,8 @@
     <e><p><l>Alexandra<s n="np"/><s n="ant"/></l><r>Alexandra<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Alex<s n="np"/><s n="ant"/></l><r>Alex<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Aled<s n="np"/><s n="ant"/></l><r>Aled<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Dewi<s n="np"/><s n="ant"/></l><r>Dewi<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Elfed<s n="np"/><s n="ant"/></l><r>Elfed<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Geraint<s n="np"/><s n="ant"/></l><r>Geraint<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Margaret<s n="np"/><s n="ant"/></l><r>Margaret<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Amber<s n="np"/><s n="ant"/></l><r>Amber<s n="np"/><s n="ant"/></r></p></e>
