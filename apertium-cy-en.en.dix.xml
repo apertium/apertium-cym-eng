@@ -9539,6 +9539,7 @@
     <e lm="completely"><i>completely</i><par n="expensive__adj"/></e>
     <e lm="stunning"><i>stunning</i><par n="expensive__adj"/></e>
     <e lm="disappointed"><i>disappointed</i><par n="expensive__adj"/></e>
+    <e lm="delayed"><i>delayed</i><par n="expensive__adj"/></e>
     <e lm="based"><i>based</i><par n="expensive__adj"/></e>
     <e lm="confident"><i>confident</i><par n="expensive__adj"/></e>
     <e lm="th"><i>th</i><par n="expensive__adj"/></e> <!-- This is as in 19th -->
@@ -9846,6 +9847,7 @@
     <e lm="worldwide"><i>worldwide</i><par n="expensive__adj"/></e>
     <e lm="short notice"><i>short<b/>notice</i><par n="expensive__adj"/></e>
     <e lm="alive"><i>alive</i><par n="handsome/__adj"/></e>
+    <e lm="bare"><i>bare</i><par n="handsome/__adj"/></e>
     <e lm="affirmative"><i>affirmative</i><par n="expensive__adj"/></e>
     <e lm="captive"><i>captive</i><par n="expensive__adj"/></e>
     <e lm="wise"><i>wise</i><par n="nice/__adj"/></e>
@@ -15472,6 +15474,7 @@
     <e lm="button"><i>button</i><par n="house__n"/></e>
     <e lm="epic"><i>epic</i><par n="house__n"/></e>
     <e lm="amateur"><i>amateur</i><par n="expensive__adj"/></e>
+    <e lm="purple"><i>purple</i><par n="expensive__adj"/></e>
     <e lm="paramilitary"><i>paramilitary</i><par n="expensive__adj"/></e>
     <e lm="ignorance"><i>ignorance</i><par n="house__n"/></e>
     <e lm="breed"><i>breed</i><par n="house__n"/></e>
