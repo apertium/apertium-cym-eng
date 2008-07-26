@@ -47567,6 +47567,7 @@
     <e lm="ble"><i>ble</i><par n="ble__adv"/></e>
     <e lm="sut"><i>sut</i><par n="ble__adv"/></e>
 
+    <e lm="dim ond"><i>dim<b/>ond</i><par n="yma__adv"/></e>
     <e lm="yma"><i>yma</i><par n="yma__adv"/></e>
     <e lm="efallai"><i>efallai</i><par n="yma__adv"/></e>
     <e lm="dros nos"><i>dros<b/>nos</i><par n="yma__adv"/></e>
