@@ -23231,6 +23231,7 @@
     <e lm="advertise"><i>advertis</i><par n="liv/e__vblex"/></e>
 
     <e lm="advocate"><i>advocat</i><par n="liv/e__vblex"/></e>
+    <e lm="annihilate"><i>annihilat</i><par n="liv/e__vblex"/></e>
     <e lm="adjudicate"><i>adjudicat</i><par n="liv/e__vblex"/></e>
     <e lm="deliberate"><i>deliberat</i><par n="liv/e__vblex"/></e>
     <e lm="deliberate"><i>deliberat</i><par n="liv/e__vblex"/><p><l><b/>jointly</l><r><g><b/>jointly</g></r></p></e>
@@ -23887,6 +23888,7 @@
     <e lm="interrupt"><i>interrupt</i> <par n="accept__vblex"/></e>
     <e lm="intervene"><i>interven</i> <par n="liv/e__vblex"/></e>
     <e lm="flood"><i>flood</i> <par n="accept__vblex"/></e>
+    <e lm="brood"><i>brood</i> <par n="accept__vblex"/></e>
     <e lm="invest"><i>invest</i> <par n="accept__vblex"/></e>
     <e lm="swear"><i>sw</i> <par n="sw/ear__vblex"/></e>
     <e lm="justify"><i>justif</i><par n="appl/y__vblex"/></e>
