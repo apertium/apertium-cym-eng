@@ -5225,6 +5225,8 @@
     <e><p><l>hylaw<s n="adj"/></l><r>convenient<s n="adj"/></r></p></e>
     <e><p><l>hylifol<s n="adj"/></l><r>liquid<s n="adj"/></r></p></e>
     <e><p><l>hyll<s n="adj"/></l><r>ugly<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>hagr<s n="adj"/></l><r>ugly<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>huawdl<s n="adj"/></l><r>eloquent<s n="adj"/></r></p></e> 
     <e><p><l>hynafol<s n="adj"/></l><r>ancient<s n="adj"/></r></p></e>
     <e><p><l>hynod<s n="adj"/></l><r>remarkable<s n="adj"/></r></p></e>
     <e><p><l>hyperbolig<s n="adj"/></l><r>hyperbolic<s n="adj"/></r></p></e>
@@ -5257,6 +5259,7 @@
     <e><p><l>llaes<s n="adj"/></l><r>loose<s n="adj"/></r></p></e>
     <e><p><l>llaith<s n="adj"/></l><r>damp<s n="adj"/></r></p></e>
     <e><p><l>llawen<s n="adj"/></l><r>merry<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>llon<s n="adj"/><s n="sint"/></l><r>merry<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>llawer<s n="adj"/></l><r>many<s n="adj"/></r></p></e>
     <e><p><l>llawfeddygol<s n="adj"/></l><r>surgical<s n="adj"/></r></p></e>
     <e><p><l>lled<s n="adj"/></l><r>fairly<s n="adj"/></r></p></e>

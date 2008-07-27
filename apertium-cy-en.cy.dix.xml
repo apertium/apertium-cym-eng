@@ -9468,6 +9468,12 @@
           <r><s n="adj"/><s n="sint"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>ed</l>
+          <r><s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>ach</l>
@@ -9481,10 +9487,45 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="an/odd__adj">
+      <e>
+        <p>
+          <l>odd</l>
+          <r>odd<s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>hawsed</l>
+          <r>odd<s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oddach</l>
+          <r>odd<s n="adj"/><s n="sint"/><s n="comp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oddaf</l>
+          <r>odd<s n="adj"/><s n="sint"/><s n="sup"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
     <pardef n="haw/dd__adj">
       <e>
         <p>
           <l>dd</l>
+          <r>dd<s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sed</l>
           <r>dd<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
@@ -9524,6 +9565,12 @@
           <r><s n="adj"/><s n="sint"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>ned</l>
+          <r><s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>nach</l>
@@ -9537,6 +9584,35 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="llon__adj">
+      <e>
+        <p>
+          <l/>
+          <r><s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ned</l>
+          <r><s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nach</l>
+          <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>naf</l>
+          <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
 
     <pardef n="/arall__adj">
       <e>
@@ -9580,6 +9656,12 @@
           <r>d<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>ted</l>
+          <r>d<s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>tach</l>
@@ -9597,6 +9679,12 @@
       <e>
         <p>
           <l>ydan</l>
+          <r>ydan<s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>eted</l>
           <r>ydan<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
@@ -9619,6 +9707,12 @@
         <p>
           <l>ach</l>
           <r>ach<s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>lleied</l>
+          <r>bach<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
@@ -9688,6 +9782,12 @@
           <r>el<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>ed</l>
+          <r>el<s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l/>
@@ -9708,6 +9808,12 @@
           <r>en<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>yned</l>
+          <r>en<s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>ŷn</l>
@@ -9725,6 +9831,12 @@
       <e>
         <p>
           <l>fanc</l>
+          <r>fanc<s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>euanged</l>
           <r>fanc<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
@@ -9788,6 +9900,12 @@
           <r>chel<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>ched</l>
+          <r>chel<s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>wch</l>
@@ -9805,32 +9923,24 @@
       <e>
         <p>
           <l/>
-          
-            
-            
-            
+          <r><s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>red</l>
           <r><s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>rach</l>
-          
-            
-            
-            
-            
           <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>raf</l>
-          
-            
-            
-            
-            
           <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
@@ -9902,6 +10012,12 @@
       <e>
         <p>
           <l>awd</l>
+          <r>awd<s n="adj"/><s n="sint"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>oted</l>
           <r>awd<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
@@ -10001,6 +10117,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="caredig__adj">
       <e>
         <p>
@@ -10008,7 +10125,108 @@
           <r><s n="adj"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>ed</l>
+          <r><s n="adj"/></r>
+        </p>
+      </e>
     </pardef>
+
+    <pardef n="hu/awdl__adj">
+      <e>
+        <p>
+          <l>awdl</l>
+          <r>awdl<s n="adj"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>otled</l>
+          <r>awdl<s n="adj"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="gwly/b__adj">
+      <e>
+        <p>
+          <l>b</l>
+          <r>b<s n="adj"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ped</l>
+          <r>b<s n="adj"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+
+    <pardef n="te/g__adj">
+      <e>
+        <p>
+          <l>g</l>
+          <r>g<s n="adj"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ced</l>
+          <r>g<s n="adj"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="tl/ws__adj">
+      <e>
+        <p>
+          <l>ws</l>
+          <r>ws<s n="adj"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ysed</l>
+          <r>ws<s n="adj"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="bu/dr__adj">
+      <e>
+        <p>
+          <l>dr</l>
+          <r>dr<s n="adj"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>tred</l>
+          <r>dr<s n="adj"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="ha/gr__adj">
+      <e>
+        <p>
+          <l>gr</l>
+          <r>gr<s n="adj"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>cred</l>
+          <r>gr<s n="adj"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+
 
     <pardef n="defnydd/io__vblex">
       <e>
@@ -27146,6 +27364,18 @@
       <e>
         <p>
           <l>ydym</l>
+          <r>bod<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>de</l>
+          <r>bod<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ryden</l>
           <r>bod<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
@@ -50176,7 +50406,7 @@
     <e lm="stribed"><i>stribed</i><par n="arglwydd__n"/></e>
     <e lm="ticer"><par n="initial-t"/><i>icer</i><par n="arglwydd__n"/></e>
     <e lm="allwedd"><i>allwedd</i><par n="acer__n"/></e>
-    <e lm="allwedd"><i>allwedd</i><par n="acer__n"/></e>
+    <e lm="allwedd"><i>allwedd</i><par n="actores__n"/></e>
     <e lm="baner"><par n="initial-b"/><i>aner</i><par n="acer__n"/></e>
     <e lm="basged"><par n="initial-b"/><i>asged</i><par n="acer__n"/></e>
     <e lm="bisged"><par n="initial-b"/><i>isged</i><par n="acer__n"/></e>
@@ -51172,7 +51402,7 @@
     <e lm="porffor"><par n="initial-p"/><i>orffor</i><par n="agos__adj"/></e>
     <e lm="aml"><i>aml</i><par n="agos__adj"/></e>
     <e lm="amlwg"><i>aml</i><par n="aml/wg__adj"/></e>
-    <e lm="anodd"><i>anodd</i><par n="agos__adj"/></e>
+    <e lm="anodd"><i>an</i><par n="an/odd__adj"/></e>
     <e lm="araf"><i>araf</i><par n="agos__adj"/></e>
     <e lm="bach"><i/><par n="/bach__adj"/></e>
     <e lm="bas"><par n="initial-b"/><i>as</i><par n="agos__adj"/></e>
@@ -51516,7 +51746,8 @@
     <e lm="brwdfrydig"><par n="initial-b"/><i>rwdfrydig</i><par n="caredig__adj"/></e>
     <e lm="buan"><par n="initial-b"/><i>uan</i><par n="caredig__adj"/></e>
     <e lm="buddiol"><par n="initial-b"/><i>uddiol</i><par n="caredig__adj"/></e>
-    <e lm="budr"><par n="initial-b"/><i>udr</i><par n="caredig__adj"/></e>
+    <e lm="budr"><par n="initial-b"/><i>u</i><par n="bu/dr__adj"/></e>
+    <e lm="hagr"><i>ha</i><par n="ha/gr__adj"/></e>
     <e lm="budron"><par n="initial-b"/><i>udron</i><par n="caredig__adj"/></e>
     <e lm="bwriadol"><par n="initial-b"/><i>wriadol</i><par n="caredig__adj"/></e>
     <e lm="bychain"><par n="initial-b"/><i>ychain</i><par n="caredig__adj"/></e>
@@ -52127,6 +52358,7 @@
 
     <e lm="gwen"><par n="initial-g"/><i>wen</i><par n="caredig__adj"/></e>
     <e lm="gwyn"><par n="initial-g"/><i>wyn</i><par n="gwyn__adj"/></e>
+    <e lm="llon"><par n="initial-ll"/><i>on</i><par n="llon__adj"/></e>
 
     <e lm="gwerdd"><par n="initial-g"/><i>werdd</i><par n="caredig__adj"/></e>
     <e lm="gwerthadwy"><par n="initial-g"/><i>werthadwy</i><par n="caredig__adj"/></e>
@@ -52137,7 +52369,7 @@
     <e lm="gwladol"><par n="initial-g"/><i>wladol</i><par n="caredig__adj"/></e>
     <e lm="gwledig"><par n="initial-g"/><i>wledig</i><par n="caredig__adj"/></e>
     <e lm="gwleidyddol"><par n="initial-g"/><i>wleidyddol</i><par n="caredig__adj"/></e>
-    <e lm="gwlyb"><par n="initial-g"/><i>wlyb</i><par n="caredig__adj"/></e>
+    <e lm="gwlyb"><par n="initial-g"/><i>wly</i><par n="gwly/b__adj"/></e>
     <e lm="gwreiddiol"><par n="initial-g"/><i>wreiddiol</i><par n="caredig__adj"/></e>
     <e lm="gwresog"><par n="initial-g"/><i>wresog</i><par n="caredig__adj"/></e>
     <e lm="gwrogaethol"><par n="initial-g"/><i>wrogaethol</i><par n="caredig__adj"/></e>
@@ -52195,6 +52427,7 @@
     <e lm="honedig"><i>honedig</i><par n="caredig__adj"/></e>
     <e lm="hoyw"><i>hoyw</i><par n="caredig__adj"/></e>
     <e lm="hud"><i>hud</i><par n="caredig__adj"/></e>
+    <e lm="huawdl"><i>hu</i><par n="hu/awdl__adj"/></e>
     <e lm="hunanachosedig"><i>hunanachosedig</i><par n="caredig__adj"/></e>
     <e lm="hunanfoddhaus"><i>hunanfoddhaus</i><par n="caredig__adj"/></e>
     <e lm="hunangyflogedig"><i>hunangyflogedig</i><par n="caredig__adj"/></e>
@@ -52599,7 +52832,7 @@
     <e lm="tebygol"><par n="initial-t"/><i>ebygol</i><par n="caredig__adj"/></e>
     <e lm="technegol"><par n="initial-t"/><i>echnegol</i><par n="caredig__adj"/></e>
     <e lm="technolegol"><par n="initial-t"/><i>echnolegol</i><par n="caredig__adj"/></e>
-    <e lm="teg"><par n="initial-t"/><i>eg</i><par n="caredig__adj"/></e>
+    <e lm="teg"><par n="initial-t"/><i>e</i><par n="te/g__adj"/></e>
     <e lm="teithiol"><par n="initial-t"/><i>eithiol</i><par n="caredig__adj"/></e>
     <e lm="tele-iechyd"><par n="initial-t"/><i>ele-iechyd</i><par n="caredig__adj"/></e>
     <e lm="terfynol"><par n="initial-t"/><i>erfynol</i><par n="caredig__adj"/></e>
@@ -52607,7 +52840,7 @@
     <e lm="teuluol"><par n="initial-t"/><i>euluol</i><par n="caredig__adj"/></e>
     <e lm="therapiwtig"><par n="initial-t"/><i>herapiwtig</i><par n="caredig__adj"/></e>
     <e lm="thermodynamig"><par n="initial-t"/><i>hermodynamig</i><par n="caredig__adj"/></e>
-    <e lm="tlws"><par n="initial-t"/><i>lws</i><par n="caredig__adj"/></e>
+    <e lm="tlws"><par n="initial-t"/><i>l</i><par n="tl/ws__adj"/></e>
     <e lm="toredig"><par n="initial-t"/><i>oredig</i><par n="caredig__adj"/></e>
     <e lm="torfol"><par n="initial-t"/><i>orfol</i><par n="caredig__adj"/></e>
     <e lm="tosturiol"><par n="initial-t"/><i>osturiol</i><par n="caredig__adj"/></e>
