@@ -12930,6 +12930,7 @@
     <e r="LR"><p><l>anachronic</l><r>anachronistic</r></p><par n="expensive__adj"/></e>
     <e r="LR"><p><l>analytic</l><r>analytical</r></p><par n="expensive__adj"/></e>
     <e lm="analytical"><i>analytical</i><par n="expensive__adj"/></e>
+    <e lm="eloquent"><i>eloquent</i><par n="expensive__adj"/></e>
     <e r="LR"><p><l>anatomic</l><r>anatomical</r></p><par n="expensive__adj"/></e>
     <e lm="anatomical"><i>anatomical</i><par n="expensive__adj"/></e>
     <e lm="ancient"><i>ancient</i><par n="expensive__adj"/></e>
@@ -26536,7 +26537,7 @@
     <e lm="plait"><i>plait</i><par n="accept__vblex"/></e>
     <e lm="inhabit"><i>inhabit</i><par n="accept__vblex"/></e>
     <e lm="profit"><i>profit</i><par n="accept__vblex"/></e>
-    <e lm="shit"><i>shit</i><par n="accept__vblex"/></e>
+    <e lm="shit"><i>shit</i><par n="admit__vblex"/></e>
     <e lm="commit"><i>commit</i><par n="accept__vblex"/></e>
     <e lm="vomit"><i>vomit</i><par n="accept__vblex"/></e>
     <e lm="spit"><i>spit</i><par n="accept__vblex"/></e>
