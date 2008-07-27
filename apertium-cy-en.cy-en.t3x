@@ -2,6 +2,9 @@
 <!-- -*- nxml -*- -->
 <postchunk>
   <section-def-cats>
+    <def-cat n="det">
+      <cat-item name="det"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item name="nom"/>
     </def-cat>
@@ -68,6 +71,7 @@
         </let>
       </action>
     </rule>
+
     <rule comment="CHUNK:">
       <pattern>
         <pattern-item n="nom"/>
@@ -279,5 +283,23 @@
         </let>
       </action>
     </rule>
+
+    <rule comment="CHUNK: det">
+      <pattern>
+        <pattern-item n="det"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+        <let>
+          <var n="pp"/>
+          <lit v="false"/>
+        </let>
+      </action>
+    </rule>
+
   </section-rules>
 </postchunk>
