@@ -1613,6 +1613,48 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+	<choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="sl" part="a_det"/>
+                <lit-tag v="det.pos"/>
+	      </equal>
+	    </test>
+            <out>
+          <chunk name="det" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SD"/></tag>
+              <tag><clip pos="1" side="tl" part="a_det"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="nbr" link-to="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+	    <b/>
+          <chunk name="nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="nbr" link-to="2"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+	  </when>
+	<otherwise>
         <out>
           <chunk name="det_nom" case="caseFirstWord">
             <tags>
@@ -1638,6 +1680,8 @@
           <var n="caseFirstWord"/>
           <lit v="aa"/>
         </let>
+	</otherwise>
+	</choose>
       </action>
     </rule>
 
@@ -2407,7 +2451,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: mor ADJ â"> 
+    <rule comment="REGLA: mor ADJ â">  <!-- Equative -->
       <pattern>
         <pattern-item n="mor"/>
         <pattern-item n="adj"/>
