@@ -58,10 +58,14 @@ SET Conj = CC + CS;
 
 SECTION
 
+#dawnsio yn y cae
+SELECT NC IF (-1 DetDef) (0 NC) (0 V);
+
 # choose verbal partical if sandwiched between Conj + verb
-SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 NC) (NOT 1 Num);
+SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 (n)) (NOT 1 Num);
 SELECT Vpart IF ((-1 (cm)) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 Num);
 SELECT (vbser cns) IF (-1 Vpart);
+
 
 # choose the preposition "i" if it is followed by an infinitive
 # aeth i gael y pres
@@ -74,6 +78,7 @@ REMOVE PrnSubj IF (-1 VblexInf) (NOT 0 MAspC);
 
 #mynd â chi ar
 REMOVE MAspC IF (-1 (vblex)) (0 MAspC) (0 PrnSubj);
+REMOVE MAspC IF (-1 (n)) (0 MAspC) (0 PrnSubj);
 
 # delete a noun from a {noun, pronoun} cohort if preceded by an infinitive and followed by a preposition
 # i'w weld fo yn y dref

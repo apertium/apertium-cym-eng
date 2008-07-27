@@ -297,6 +297,7 @@
     <e><p><l>pan<b/>fo<b/>angen<s n="adv"/></l><r>as<b/>needed<s n="adv"/></r></p></e>
     <e><p><l>yn<b/>ôl<b/>i<s n="adv"/></l><r>back<b/>to<s n="adv"/></r></p></e>
     <e><p><l>yn<b/>weddill<b/>i<s n="adv"/></l><r>remaining<b/>to<s n="adv"/></r></p></e>
+    <e><p><l>cymaint<b/>â<s n="adv"/></l><r>as<b/>big<b/>as<s n="adv"/></r></p></e>
 
     <e><p><l>wrth<b/>gwrs<s n="adv"/></l><r>of<b/>course<s n="adv"/></r></p></e>
     <e><p><l>ar<b/>hyn<b/>o<b/>bryd<s n="adv"/></l><r>at<b/>the<b/>moment<s n="adv"/></r></p></e>
@@ -4612,6 +4613,7 @@
     <e><p><l>clymedig<s n="adj"/></l><r>mounted<s n="adj"/></r></p></e>
     <e><p><l>clywedig<s n="adj"/></l><r>audible<s n="adj"/></r></p></e>
     <e><p><l>coch<s n="adj"/></l><r>red<s n="adj"/></r></p></e>
+    <e><p><l>du<s n="adj"/><s n="sint"/></l><r>black<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>cofrestredig<s n="adj"/></l><r>registered<s n="adj"/></r></p></e>
     <e><p><l>coll<s n="adj"/></l><r>lost<s n="adj"/></r></p></e>
     <e r="RL"><p><l>coll<s n="adj"/></l><r>missing<s n="adj"/></r></p></e>
@@ -4731,7 +4733,7 @@
     <e><p><l>cylchredol<s n="adj"/></l><r>circulating<s n="adj"/></r></p></e>
     <e><p><l>cyllidebol<s n="adj"/></l><r>budgetary<s n="adj"/></r></p></e>
     <e><p><l>cyllidol<s n="adj"/></l><r>financial<s n="adj"/></r></p></e>
-    <e><p><l>cymaint<s n="adj"/></l><r>as much<s n="adj"/></r></p></e>
+    <e><p><l>cymaint<s n="adj"/></l><r>so much<s n="adj"/></r></p></e>
     <e><p><l>cymaradwy<s n="adj"/></l><r>comparable<s n="adj"/></r></p></e>
     <e><p><l>cymdeithasol<s n="adj"/></l><r>social<s n="adj"/></r></p></e>
     <e><p><l>cymedrig<s n="adj"/></l><r>mean<s n="adj"/><s n="sint"/></r></p></e> 
@@ -5349,7 +5351,7 @@
     <e><p><l>moesegol<s n="adj"/></l><r>ethical<s n="adj"/></r></p></e>
     <e><p><l>moesol<s n="adj"/></l><r>moral<s n="adj"/></r></p></e>
     <e><p><l>moethus<s n="adj"/></l><r>luxurious<s n="adj"/></r></p></e>
-    <e><p><l>mor<s n="adj"/></l><r>as<s n="adj"/></r></p></e>
+<!--    <e><p><l>mor<s n="adj"/></l><r>as<s n="adj"/></r></p></e> -->
     <e><p><l>morlas<s n="adj"/></l><r>aquamarine<s n="adj"/></r></p></e>
     <e><p><l>morol<s n="adj"/></l><r>marine<s n="adj"/></r></p></e>
     <e><p><l>mud<s n="adj"/></l><r>dumb<s n="adj"/><s n="sint"/></r></p></e> 
@@ -5439,7 +5441,10 @@
     <e><p><l>planedig<s n="adj"/></l><r>embedded<s n="adj"/></r></p></e>
     <e><p><l>pleserus<s n="adj"/></l><r>pleasant<s n="adj"/></r></p></e>
     <e><p><l>pluog<s n="adj"/></l><r>feathered<s n="adj"/></r></p></e>
-    <e><p><l>pob<s n="adj"/></l><r>each<s n="adj"/></r></p></e>
+
+<!--    <e><p><l>pob<s n="adj"/></l><r>each<s n="adj"/></r></p></e> -->
+    <e><p><l>pob<s n="det"/><s n="ind"/></l><r>each<s n="det"/><s n="ind"/></r></p></e> 
+
     <e><p><l>poblogaidd<s n="adj"/></l><r>popular<s n="adj"/></r></p></e>
     <e><p><l>polisïol<s n="adj"/></l><r>policy<s n="adj"/></r></p></e>
     <e><p><l>polynomaidd<s n="adj"/></l><r>polynomial<s n="adj"/></r></p></e>
@@ -6410,6 +6415,7 @@
     <e><p><l>carfaglu<s n="vblex"/></l><r>ensnare<s n="vblex"/></r></p></e>
     <e><p><l>carfanu<s n="vblex"/></l><r>rail<s n="vblex"/></r></p></e>
     <e><p><l>cario<s n="vblex"/></l><r>carry<s n="vblex"/></r></p></e>
+    <e><p><l>cario<g><b/>ymlaen</g><s n="vblex"/></l><r>carry<g><b/>on</g><s n="vblex"/></r></p></e>
     <e><p><l>carlamu<s n="vblex"/></l><r>gallop<s n="vblex"/></r></p></e>
     <e><p><l>caroli<s n="vblex"/></l><r>carol<s n="vblex"/></r></p></e>
     <e><p><l>carpedu<s n="vblex"/></l><r>carpet<s n="vblex"/></r></p></e>
@@ -7660,6 +7666,7 @@
     <e><p><l>gwnïo<s n="vblex"/></l><r>sew<s n="vblex"/></r></p></e>
     <e><p><l>gwobrwyo<s n="vblex"/></l><r>reward<s n="vblex"/></r></p></e>
     <e><p><l>gwrando<s n="vblex"/></l><r>listen<s n="vblex"/></r></p></e>
+    <e><p><l>gwrando<g><b/>ar</g><s n="vblex"/></l><r>listen<g><b/>to</g><s n="vblex"/></r></p></e>
     <e><p><l>gwregysu<s n="vblex"/></l><r>girdle<s n="vblex"/></r></p></e>
     <e><p><l>gwreichioni<s n="vblex"/></l><r>sparkle<s n="vblex"/></r></p></e>
     <e><p><l>gwreiddio<s n="vblex"/></l><r>root<s n="vblex"/></r></p></e>

@@ -378,6 +378,35 @@
       </e>
     </pardef>
 
+    <!-- for drwg -->
+    <pardef n="initial-g_d">
+      <e r="LR">
+        <p>
+          <l>g</l>
+          <r>d</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ng</l>
+          <r>g</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l/>
+          <r>d</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>g</l>
+          <r>d</r>
+        </p>
+      </e>
+    </pardef>
+
+
     <pardef n="initial-m">
       <e r="LR">
         <p>
@@ -791,6 +820,15 @@
         <p>
           <l/>
           <r><s n="det"/><s n="qnt"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="pob__det">
+      <e>
+        <p>
+          <l/>
+          <r><s n="det"/><s n="ind"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -9817,23 +9855,26 @@
         </p>
       </e>
     </pardef>
-    <pardef n="drwg__adj">
+    <pardef n="/drwg__adj">
       <e>
+	<par n="initial-d"/>
         <p>
-          <l>drwg</l>
-          <r>drwg<s n="adj"/><s n="sint"/></r>
+          <l>rwg</l>
+          <r>rwg<s n="adj"/><s n="sint"/></r>
         </p>
       </e>
       <e>
+	<par n="initial-g_d"/>
         <p>
-          <l>gwaeth</l>
-          <r>drwg<s n="adj"/><s n="sint"/><s n="comp"/></r>
+          <l>waeth</l>
+          <r>rwg<s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
       <e>
+	<par n="initial-g_d"/>
         <p>
-          <l>gwaethaf</l>
-          <r>drwg<s n="adj"/><s n="sint"/><s n="sup"/></r>
+          <l>waethaf</l>
+          <r>rwg<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -47596,6 +47637,7 @@
     <e lm="pan fo angen"><i>pan<b/>fo<b/>angen</i><par n="yma__adv"/></e>
     <e lm="yn ôl i"><i>yn<b/>ôl<b/>i</i><par n="yma__adv"/></e>
     <e lm="yn weddill i"><i>yn<b/>weddill<b/>i</i><par n="yma__adv"/></e>
+    <e lm="cymaint â"><i>cymaint<b/>â</i><par n="yma__adv"/></e>
 
     <e lm="wrth gwrs"><i>wrth<b/>gwrs</i><par n="yma__adv"/></e>
     <e lm="ar hyn o bryd"><i>ar<b/>hyn<b/>o<b/>bryd</i><par n="yma__adv"/></e>
@@ -49834,7 +49876,7 @@
     <e lm="clust"><par n="initial-c"/><i>lust</i><par n="canllaw__n"/></e>
     <e lm="cyffur"><par n="initial-c"/><i>yffur</i><par n="canllaw__n"/></e>
     <e lm="grant"><par n="initial-g"/><i>rant</i><par n="canllaw__n"/></e>
-    <e lm="rhyw"><par n="initial-rh"/><i>yw</i><par n="canllaw__n"/></e>
+<!--    <e lm="rhyw"><par n="initial-rh"/><i>yw</i><par n="canllaw__n"/></e> -->
     <e lm="stamp"><i>stamp</i><par n="canllaw__n"/></e>
     <e lm="ystum"><i>ystum</i><par n="canllaw__n"/></e>
     <e lm="addaswr"><i>addasw</i><par n="addasw/r__n"/></e>
@@ -51123,6 +51165,8 @@
     <e lm="nid-er-elw"><i>nid-er-elw</i><par n="caredig__adj"/></e>
     <e lm="nid er elw"><p><l>nid<b/>er<b/>elw</l><r>nid-er-elw</r></p><par n="caredig__adj"/></e>
 
+    <e lm="du"><par n="initial-d"/><i>u</i><par n="agos__adj"/></e>
+
     <e lm="agos"><i>agos</i><par n="agos__adj"/></e>
     <e lm="llwm"><par n="initial-ll"/><i>wm</i><par n="agos__adj"/></e>
     <e lm="porffor"><par n="initial-p"/><i>orffor</i><par n="agos__adj"/></e>
@@ -51143,7 +51187,7 @@
     <e lm="da"><i/><par n="da__adj"/></e>
     <e lm="diweddar"><par n="initial-d"/><i>iweddar</i><par n="agos__adj"/></e>
     <e lm="drud"><par n="initial-d"/><i>ru</i><par n="dru/d__adj"/></e>
-    <e lm="drwg"><i/><par n="drwg__adj"/></e>
+    <e lm="drwg"><i/><par n="/drwg__adj"/></e>
     <e lm="dwfn"><par n="initial-d"/><i/><par n="d/wfn__adj"/></e>
     <e lm="dwys"><par n="initial-d"/><i>wys</i><par n="agos__adj"/></e>
     <e lm="eang"><i>e</i><par n="e/ang__adj"/></e>
@@ -52291,7 +52335,7 @@
     <e lm="moesegol"><par n="initial-m"/><i>oesegol</i><par n="caredig__adj"/></e>
     <e lm="moesol"><par n="initial-m"/><i>oesol</i><par n="caredig__adj"/></e>
     <e lm="moethus"><par n="initial-m"/><i>oethus</i><par n="caredig__adj"/></e>
-    <e lm="mor"><par n="initial-m"/><i>or</i><par n="caredig__adj"/></e>
+<!--    <e lm="mor"><par n="initial-m"/><i>or</i><par n="caredig__adj"/></e> -->
     <e lm="morlas"><par n="initial-m"/><i>orlas</i><par n="caredig__adj"/></e>
     <e lm="morol"><par n="initial-m"/><i>orol</i><par n="caredig__adj"/></e>
     <e lm="mud"><par n="initial-m"/><i>ud</i><par n="caredig__adj"/></e>
@@ -52380,7 +52424,10 @@
     <e lm="planedig"><par n="initial-p"/><i>lanedig</i><par n="caredig__adj"/></e>
     <e lm="pleserus"><par n="initial-p"/><i>leserus</i><par n="caredig__adj"/></e>
     <e lm="pluog"><par n="initial-p"/><i>luog</i><par n="caredig__adj"/></e>
-    <e lm="pob"><par n="initial-p"/><i>ob</i><par n="caredig__adj"/></e>
+
+<!--    <e lm="pob"><par n="initial-p"/><i>ob</i><par n="caredig__adj"/></e> -->
+    <e lm="pob"><par n="initial-p"/><i>ob</i><par n="pob__det"/></e>
+
     <e lm="poblogaidd"><par n="initial-p"/><i>oblogaidd</i><par n="caredig__adj"/></e>
     <e lm="polisïol"><par n="initial-p"/><i>olisïol</i><par n="caredig__adj"/></e>
     <e lm="polynomaidd"><par n="initial-p"/><i>olynomaidd</i><par n="caredig__adj"/></e>
@@ -53466,7 +53513,10 @@
     <e lm="caregu"><par n="initial-c"/><i>areg</i><par n="aberth/u__vblex"/></e>
     <e lm="carfaglu"><par n="initial-c"/><i>arfagl</i><par n="aberth/u__vblex"/></e>
     <e lm="carfanu"><par n="initial-c"/><i>arfan</i><par n="aberth/u__vblex"/></e>
+
     <e lm="cario"><par n="initial-c"/><i>ari</i><par n="achlysur/o__vblex"/></e>
+    <e lm="cario ymlawn"><par n="initial-c"/><i>ari</i><par n="achlysur/o__vblex"/><p><l><b/>ymlaen</l><r><g><b/>ymlaen</g></r></p></e>
+
     <e lm="carlamu"><par n="initial-c"/><i>arlam</i><par n="aberth/u__vblex"/></e>
     <e lm="caroli"><par n="initial-c"/><i>arol</i><par n="achos/i__vblex"/></e>
     <e lm="carpedu"><par n="initial-c"/><i>arped</i><par n="aberth/u__vblex"/></e>
@@ -54888,6 +54938,7 @@
     <e lm="gwnïo"><par n="initial-g"/><i>wnï</i><par n="achlysur/o__vblex"/></e>
     <e lm="gwobrwyo"><par n="initial-g"/><i>wobrwy</i><par n="achlysur/o__vblex"/></e>
     <e lm="gwrando"><par n="initial-g"/><i>wrand</i><par n="add/o__vblex"/></e>
+    <e lm="gwrando ar"><par n="initial-g"/><i>wrand</i><par n="add/o__vblex"/><p><l><b/>ar</l><r><g><b/>ar</g></r></p></e>
     <e lm="gwregysu"><par n="initial-g"/><i>wregys</i><par n="aberth/u__vblex"/></e>
     <e lm="gwreica"><par n="initial-g"/><i>wreic</i><par n="adar/a__vblex"/></e>
     <e lm="gwreichioni"><par n="initial-g"/><i>wreichion</i><par n="achos/i__vblex"/></e>
@@ -57229,7 +57280,7 @@
     <e lm="i'w" r="LR">
       <p>
         <l>i'w</l>
-        <r>i<s n="pr"/><j/>ei<s n="det"/><s n="pos"/><s n="sp"/></r>
+        <r>i<s n="pr"/><j/>ei<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
 
@@ -57240,10 +57291,24 @@
       </p>
     </e>
 
+    <e lm="drwy'n" r="LR">
+      <p>
+        <l>drwy'n</l>
+        <r>drwy<s n="pr"/><j/>ein<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+
     <e lm="drwy'r" r="LR">
       <p>
         <l>drwy'r</l>
         <r>drwy<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="trwy'n" r="LR">
+      <p>
+        <l>trwy'n</l>
+        <r>trwy<s n="pr"/><j/>ein<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
 
