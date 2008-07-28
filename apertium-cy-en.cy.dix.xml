@@ -47914,8 +47914,14 @@
     <e lm="hyn"><i>hyn</i><par n="hyn__det"/></e>
 
     <e lm="hwnnw"><i>hwnnw</i><par n="hwn__det"/></e>
+    <e lm="hwnna"><i>hwnna</i><par n="hwn__det"/></e>
     <e lm="honno"><i>honno</i><par n="hon__det"/></e>
+    <e lm="honna"><i>honna</i><par n="hon__det"/></e>
     <e lm="hynny"><i>hynny</i><par n="hyn__det"/></e>
+    <e lm="y rheiny"><i>y<b/>rheiny</i><par n="hyn__det"/></e>
+    <e lm="rheiny"><i>rheiny</i><par n="hyn__det"/></e>
+    <e lm="y rheini"><p><l>y<b/>rheini</l><r>y<b/>rheiny</r></p><par n="hyn__det"/></e>
+    <e lm="rheini"><p><l>rheini</l><r>rheiny</r></p><par n="hyn__det"/></e>
 
     <e lm="llawer o"><par n="initial-ll"/><i>awer<b/>o</i><par n="llawer_o__det"/></e>
     <e lm="ychydig"><i>ychydig</i><par n="llawer_o__det"/></e>
