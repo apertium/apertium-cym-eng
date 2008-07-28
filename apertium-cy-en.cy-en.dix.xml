@@ -12,30 +12,35 @@
  
     <e><p><l>yr<s n="det"/></l><r>the<s n="det"/></r></p></e>
  
-    <e><p><l>yma<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
-    <!--
-    <e r="LR"><p><l>yma<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>yma<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>yma<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
-    -->
- 
-    <e><p><l>yna<s n="det"/><s n="dem"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
-    <!--
-    <e r="LR"><p><l>yna<s n="det"/><s n="dem"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>yna<s n="det"/><s n="dem"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>yna<s n="det"/><s n="dem"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
-    -->
+    <e><p><l>yma<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
+    <e><p><l>yna<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></l><r>that<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
 
-    <!--
-    <e><p><l>hwn<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="ND"/></r></p></e>
-    -->
-    <e><p><l>hwn<s n="det"/><s n="dem"/><s n="sp"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
+    <e><p><l>hwn<s n="det"/><s n="dem"/><s n="m"/></l><r>this<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>hon<s n="det"/><s n="dem"/><s n="f"/></l><r>this<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>hyn<s n="det"/><s n="dem"/><s n="mf"/></l><r>this<s n="det"/><s n="dem"/></r></p></e>
+
+    <e><p><l>hwnnw<s n="det"/><s n="dem"/><s n="m"/></l><r>that<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>honno<s n="det"/><s n="dem"/><s n="f"/></l><r>that<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>hynny<s n="det"/><s n="dem"/><s n="mf"/></l><r>that<s n="det"/><s n="dem"/></r></p></e>
  
     <e><p><l>llawer<b/>o<s n="det"/><s n="qnt"/></l><r>a<b/>lot<b/>of<s n="det"/><s n="qnt"/></r></p></e>
 
     <e><p><l>ychydig<s n="det"/><s n="qnt"/></l><r>a few<s n="det"/><s n="qnt"/></r></p></e>
+
+    <e><p><l>faint<s n="det"/><s n="itg"/></l><r>how much<s n="det"/><s n="itg"/></r></p></e>
+    <e><p><l>faint<b/>o<s n="det"/><s n="itg"/><s n="sp"/></l><r>how much<s n="det"/><s n="itg"/><s n="sg"/></r></p></e>
+    <e><p><l>faint<b/>o<s n="det"/><s n="itg"/><s n="sg"/></l><r>how much<s n="det"/><s n="itg"/><s n="sg"/></r></p></e>
+    <e><p><l>faint<b/>o<s n="det"/><s n="itg"/><s n="pl"/></l><r>how many<s n="det"/><s n="itg"/><s n="pl"/></r></p></e>
+
+    <e><p><l>pa<b/>mor<s n="det"/><s n="itg"/></l><r>how<s n="det"/><s n="itg"/></r></p></e>
+    <e><p><l>pa<b/>fath<b/>o<s n="det"/><s n="itg"/></l><r>what sort of<s n="det"/><s n="itg"/></r></p></e>
+    <e><p><l>sut<s n="det"/><s n="itg"/></l><r>what sort of<s n="det"/><s n="itg"/></r></p></e>
+    <e><p><l>am<b/>faint<s n="det"/><s n="itg"/></l><r>for how long<s n="det"/><s n="itg"/></r></p></e>
+    <e><p><l>ers<b/>faint<s n="det"/><s n="itg"/></l><r>since when<s n="det"/><s n="itg"/></r></p></e>
+
+    <e><p><l>sawl<s n="det"/><s n="itg"/><s n="pl"/></l><r>how many<s n="det"/><s n="itg"/><s n="pl"/></r></p></e>
  
-    <e><p><l>hon<s n="adj"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
+
     <e><p><l>unrhyw<s n="adj"/></l><r>any<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
  
     <e><p><l>fy<s n="det"/><s n="pos"/></l><r>my<s n="det"/><s n="pos"/></r></p></e>
@@ -62,10 +67,14 @@
     <e><p><l>pwy<s n="prn"/></l><r>who<s n="prn"/></r></p></e>
     <e><p><l>beth<s n="prn"/></l><r>what<s n="prn"/></r></p></e>
 
+    <e><p><l>pa<b/>rai<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></l><r>which<b/>one<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></r></p></e>
+
     <e><p><l>hyn<s n="prn"/></l><r>this<s n="prn"/></r></p></e>
     <e><p><l>hynny<s n="prn"/></l><r>that<s n="prn"/></r></p></e>
 
+    <e><p><l>lle<s n="adv"/><s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>ble<s n="adv"/><s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>pryd<s n="adv"/><s n="itg"/></l><r>when<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>sut<s n="adv"/><s n="itg"/></l><r>how<s n="adv"/><s n="itg"/></r></p></e>
 
     <e><p><l>a<s n="rel"/></l><r>that<s n="rel"/></r></p></e>
@@ -2863,6 +2872,7 @@
     <e><p><l>ffin<s n="n"/><s n="f"/></l><r>boundary<s n="n"/></r></p></e>
     <e><p><l>fflach<s n="n"/><s n="f"/></l><r>flash<s n="n"/></r></p></e>
     <e><p><l>fflam<s n="n"/><s n="f"/></l><r>flame<s n="n"/></r></p></e>
+    <e><p><l>afal<s n="n"/><s n="f"/></l><r>apple<s n="n"/></r></p></e>
     <e><p><l>fflasg<s n="n"/><s n="f"/></l><r>flask<s n="n"/></r></p></e>
     <e><p><l>fflat<s n="n"/><s n="f"/></l><r>flat<s n="n"/></r></p></e>
     <e><p><l>ffont<s n="n"/><s n="m"/></l><r>font<s n="n"/></r></p></e>
@@ -5589,7 +5599,7 @@
 
     <e><p><l>sâl<s n="adj"/></l><r>ill<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>sanctaidd<s n="adj"/></l><r>holy<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>sawl<s n="adj"/></l><r>many<s n="adj"/></r></p></e>
+    <e><p><l>sawl<s n="adj"/></l><r>several<s n="adj"/></r></p></e>
     <e><p><l>sefydledig<s n="adj"/></l><r>established<s n="adj"/></r></p></e>
     <e><p><l>sefydliadol<s n="adj"/></l><r>institutional<s n="adj"/></r></p></e>
     <e r="RL"><p><l>sefydlog<s n="adj"/></l><r>fixed<s n="adj"/></r></p></e>
@@ -10348,6 +10358,8 @@
     <e><p><l>Caerdydd<s n="np"/><s n="top"/><s n="f"/></l><r>Cardiff<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Corc<s n="np"/><s n="top"/><s n="f"/></l><r>Cork<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Casnewydd<s n="np"/><s n="top"/><s n="f"/></l><r>Newport<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Cardigan<s n="np"/><s n="top"/><s n="f"/></l><r>Cardigan<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Caernarfon<s n="np"/><s n="top"/><s n="f"/></l><r>Caernarfon<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Cwmbrân<s n="np"/><s n="top"/><s n="f"/></l><r>Cwmbrân<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Cwm Taf<s n="np"/><s n="top"/><s n="f"/></l><r>Cwm Taf<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caerfyrddin<s n="np"/><s n="top"/><s n="f"/></l><r>Carmarthen<s n="np"/><s n="top"/></r></p></e>

@@ -27,6 +27,8 @@ LIST P3Sg = (p3 sg);
 LIST Det    = (det);
 LIST DetDef = (det def);		# definite determiner (article)
 LIST DetPos = (det pos);		# possessive determiner
+LIST DetDem = (det dem);		# demonstrative determiner
+LIST DetItg = (det itg);		# interrogative determiner
 
 LIST Adj = (adj sint) (adj); 		# all adjectives (synthetic + non-synthetic)
 
@@ -105,6 +107,15 @@ SUBSTITUTE (mf) (m) DetPos (1 MSoftC);
 # and feminine if followed by aspirate mutation.
 SUBSTITUTE (mf) (f) DetPos (1 MAspC);
 
+
+# 
+# faint o + noun.sing --> how much + noun
+# faint o + noun.plural --> how many + noun
+#
+SUBSTITUTE (sp) (sg) DetItg (1* (n sg) BARRIER (sent))
+SUBSTITUTE (sp) (pl) DetItg (1* (n pl) BARRIER (sent))
+SUBSTITUTE (sp) (sp) DetItg (1* (n sp) BARRIER (sent))
+
 # ymwelwyr o tramor 
 # un o hen
 # ôl i 1880
@@ -157,6 +168,16 @@ SELECT Pr IF (-1 NC) (1 V);
 
 #yn sicr o gynyddu
 REMOVE PrnSubj IF (-1 Adj) (1 V);
+
+#y llyfr yma
+
+REMOVE Adv IF (-1 NC) (0 Adv) (0 DetDem);
+REMOVE Prn IF (-1 NC) (0 Prn) (0 DetDem);
+
+# sut + verb --> how + verb, sut + noun --> what sort of + noun
+
+SELECT DetItg IF (1* NC BARRIER V);
+SELECT Adv IF (1* V BARRIER NC);
 
 #
 #  Lexical rules

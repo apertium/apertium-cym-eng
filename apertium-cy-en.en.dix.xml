@@ -803,17 +803,23 @@
         </p>
       </e>
     </pardef>
-    <pardef n="a__det">
-      <e>
+    <pardef n="/a__det">
+      <e r="RL">
         <p>
-          <l/>
-          <r><s n="det"/><s n="ind"/><s n="sg"/></r>
+          <l><a/>a</l>
+          <r>a<s n="det"/><s n="ind"/><s n="sg"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
-          <l>n</l>
-          <r><s n="det"/><s n="ind"/><s n="sg"/></r>
+          <l>a</l>
+          <r>a<s n="det"/><s n="ind"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>an</l>
+          <r>a<s n="det"/><s n="ind"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -822,6 +828,19 @@
         <p>
           <l/>
           <r><s n="det"/><s n="ind"/><s n="sg"/></r>
+        </p>
+      </e>
+      <!-- fix this one day -->
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="det"/><s n="ind"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="det"/><s n="ind"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -1128,12 +1147,30 @@
           <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="which_one__prn">
       <e>
         <p>
           <l/>
-          <r><s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r>
+          <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -13376,6 +13413,8 @@
     <e lm="as far as"><i>as<b/>far<b/>as</i><par n="that__cnjsub"/></e>
     <e lm="as soon as"><i>as<b/>soon<b/>as</i><par n="that__cnjsub"/></e>
 
+    <e lm="how"><i>how</i><par n="what__det"/></e>
+
     <e lm="how"><i>how</i><par n="where__adv"/></e>
     <e lm="how"><i>how</i><par n="very__preadv"/></e>
     <e lm="when"><i>when</i><par n="where__adv"/></e>
@@ -13515,8 +13554,7 @@
     <e lm="further to"><i>further<b/>to</i><par n="at__pr"/></e>
     <e lm="due to"><i>due<b/>to</i><par n="at__pr"/></e>
     <e lm="in reply to"><i>in<b/>reply<b/>to</i><par n="at__pr"/></e>
-    <e r="LR"><i>a</i><par n="a__det"/></e>
-    <e r="RL"><p><l><a/>a</l><r>a</r></p><par n="a__det"/></e>
+    <e lm="a"><i/><par n="/a__det"/></e>
     <e lm="another"><i>another</i><par n="another__det"/></e>
     <e lm="any"><i>any</i><par n="other__det"/></e>
     <e lm="both"><i>both</i><par n="several__det"/></e>
@@ -13542,6 +13580,9 @@
     <e lm="their"><i>their</i><par n="her__det"/></e>
     <e lm="this"><i>th</i><par n="th/is__det"/></e>
     <e lm="what"><i>what</i><par n="what__det"/></e>
+    <e lm="for how long"><i>for<b/>how<b/>long</i><par n="what__det"/></e>
+    <e lm="since when"><i>since<b/>when</i><par n="what__det"/></e>
+    <e lm="what sort of"><i>what<b/>sort<b/>of</i><par n="what__det"/></e>
     <e lm="whose"><i>whose</i><par n="what__det"/></e>
     <e lm="whatever"><i>whatever</i><par n="another__det"/></e>
     <e lm="which"><i>which</i><par n="what__det"/></e>
@@ -22036,6 +22077,8 @@
     <e lm="Wrexham"><i>Wrexham</i><par n="Barcelona__np"/></e>
     <e lm="Anglesey"><i>Anglesey</i><par n="Barcelona__np"/></e>
     <e lm="Newport"><i>Newport</i><par n="Barcelona__np"/></e>
+    <e lm="Cardigan"><i>Cardigan</i><par n="Barcelona__np"/></e>
+    <e lm="Caernarfon"><i>Caernarfon</i><par n="Barcelona__np"/></e>
     <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Barcelona__np"/></e>
     <e lm="Ceredigion"><i>Ceredigion</i><par n="Barcelona__np"/></e>
     <e lm="Abercynon"><i>Abercynon</i><par n="Barcelona__np"/></e>
