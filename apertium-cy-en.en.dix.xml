@@ -21793,6 +21793,21 @@
     <e lm="Welsh Language Board"><i>Welsh<b/>Language<b/>Board</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
     <e lm="Gwynedd"><i>Gwynedd</i><par n="Barcelona__np"/></e>
+    <e lm="Blaenau Gwent"><i>Blaenau<b/>Gwent</i><par n="Barcelona__np"/></e>
+    <e lm="Vale of Glamorgan"><i>Vale<b/>of<b/>Glamorgan</i><par n="Barcelona__np"/></e>
+    <e lm="Neath Port Talbot"><i>Neath<b/>Port<b/>Talbot</i><par n="Barcelona__np"/></e>
+    <e lm="Conwy"><i>Conwy</i><par n="Barcelona__np"/></e>
+    <e lm="Clwyd"><i>Clwyd</i><par n="Barcelona__np"/></e>
+    <e lm="South Glamorgan"><i>South<b/>Glamorgan</i><par n="Barcelona__np"/></e>
+    <e lm="West Glamorgan"><i>West<b/>Glamorgan</i><par n="Barcelona__np"/></e>
+    <e lm="Rhondda Cynon Taff"><i>Rhondda<b/>Cynon<b/>Taff</i><par n="Barcelona__np"/></e>
+    <e lm="Denbighshire"><i>Denbighshire</i><par n="Barcelona__np"/></e>
+    <e lm="Radnorshire"><i>Radnorshire</i><par n="Barcelona__np"/></e>
+    <e lm="Merionethshire"><i>Merionethshire</i><par n="Barcelona__np"/></e>
+    <e lm="Brecknockshire"><i>Brecknockshire</i><par n="Barcelona__np"/></e>
+
+
+
     <e lm="Candela"><i>Candela</i><par n="Mary__np"/></e>
 
     <e lm="Carolina"><i>Carolina</i><par n="Mary__np"/></e>
@@ -22078,6 +22093,18 @@
     <e lm="Anglesey"><i>Anglesey</i><par n="Barcelona__np"/></e>
     <e lm="Newport"><i>Newport</i><par n="Barcelona__np"/></e>
     <e lm="Cardigan"><i>Cardigan</i><par n="Barcelona__np"/></e>
+
+    <e lm="Caerphilly"><i>Caerphilly</i><par n="Barcelona__np"/></e>
+    <e lm="Mid Glamorgan"><i>Mid<b/>Glamorgan</i><par n="Barcelona__np"/></e>
+    <e lm="Bridgend"><i>Bridgend</i><par n="Barcelona__np"/></e>
+    <e lm="Cardiganshire"><i>Cardiganshire</i><par n="Barcelona__np"/></e>
+    <e lm="Montgomeryshire"><i>Montgomeryshire</i><par n="Barcelona__np"/></e>
+    <e lm="Glamorganshire"><i>Glamorganshire</i><par n="Barcelona__np"/></e>
+    <e lm="Monmouthshire"><i>Monmouthshire</i><par n="Barcelona__np"/></e>
+    <e lm="Caernarfonshire"><i>Caernarfonshire</i><par n="Barcelona__np"/></e>
+    <e lm="Torfaen"><i>Torfaen</i><par n="Barcelona__np"/></e>
+
+
     <e lm="Caernarfon"><i>Caernarfon</i><par n="Barcelona__np"/></e>
     <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Barcelona__np"/></e>
     <e lm="Ceredigion"><i>Ceredigion</i><par n="Barcelona__np"/></e>
@@ -22325,6 +22352,7 @@
     <e lm="Non-Aligned Movement"><i>Non-Aligned<b/>Movement</i><par n="Barcelona__np"/></e>
     <e lm="Aaron"><i>Aaron</i><par n="Mark__np"/></e>
     <e lm="Abril"><i>Abril</i><par n="Mary__np"/></e>
+    <e lm="Adriana"><i>Adriana</i><par n="Mary__np"/></e>
     <e lm="Elin"><i>Elin</i><par n="Mary__np"/></e>
     <e lm="Adam"><i>Adam</i><par n="Mark__np"/></e>
     <e lm="Adrià"><i>Adrià</i><par n="Mark__np"/></e>
@@ -22345,9 +22373,11 @@
     <e lm="Dewi"><i>Dewi</i><par n="Mark__np"/></e>
     <e lm="Elfed"><i>Elfed</i><par n="Mark__np"/></e>
     <e lm="Dai"><i>Dai</i><par n="Mark__np"/></e>
+    <e lm="Dylan"><i>Dylan</i><par n="Mark__np"/></e>
+    <e lm="Carl"><i>Carl</i><par n="Mark__np"/></e>
     <e lm="Ifan"><i>Ifan</i><par n="Mark__np"/></e>
     <e lm="Àlex"><i>Àlex</i><par n="Mark__np"/></e>
-    <e lm="Alianore-"><i>Alianore-</i><par n="Mary__np"/></e>
+    <e lm="Alianore"><i>Alianore</i><par n="Mary__np"/></e>
     <e lm="Alice"><i>Alice</i><par n="Mary__np"/></e>
     <e lm="Alicia"><i>Alicia</i><par n="Mary__np"/></e>
     <e lm="Alyne"><i>Alyne</i><par n="Mary__np"/></e>

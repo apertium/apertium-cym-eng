@@ -57030,9 +57030,34 @@
     <e lm="Bwrdd yr Iaith Gymraeg"><par n="initial-B"/><i>wrdd<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
 
 
+    <e lm="Sir Aberteifi"><i>Sir<b/>Aberteifi</i><par n="Blaenafon__np"/></e>
     <e lm="Sir Benfro"><i>Sir<b/>Benfro</i><par n="Blaenafon__np"/></e>
-    <e lm="Sir y Fflint"><i>Sir<b/>y<b/>Fflint</i><par n="Blaenafon__np"/></e>
+    <e lm="Sir Frycheiniog"><i>Sir<b/>Frycheiniog</i><par n="Blaenafon__np"/></e>
     <e lm="Sir Gaerfyrddin"><i>Sir<b/>Gaerfyrddin</i><par n="Blaenafon__np"/></e>
+    <e lm="Sir Gaernarfon"><i>Sir<b/>Gaernarfon</i><par n="Blaenafon__np"/></e>
+    <e lm="Sir Ddinbych"><i>Sir<b/>Ddinbych</i><par n="Blaenafon__np"/></e>
+    <e lm="Sir y Fflint"><i>Sir<b/>y<b/>Fflint</i><par n="Blaenafon__np"/></e>
+    <e lm="Sir Fynwy"><i>Sir<b/>Fynwy</i><par n="Blaenafon__np"/></e>
+    <e lm="Sir Faesyfed"><i>Sir<b/>Faesyfed</i><par n="Blaenafon__np"/></e>
+    <e lm="Sir Feirionnydd"><i>Sir<b/>Feirionnydd</i><par n="Blaenafon__np"/></e>
+    <e lm="Sir Forgannwg"><i>Sir<b/>Forgannwg</i><par n="Blaenafon__np"/></e>
+    <e lm="Sir Fôn"><i>Sir<b/>Fôn</i><par n="Blaenafon__np"/></e>
+    <e lm="Sir Drefaldwyn"><i>Sir<b/>Drefaldwyn</i><par n="Blaenafon__np"/></e>
+
+    <e lm="Clwyd"><par n="initial-C"/><i>lwyd</i><par n="Blaenafon__np"/></e>
+    <e lm="De Morgannwg"><par n="initial-D"/><i>e<b/>Morgannwg</i><par n="Blaenafon__np"/></e>
+    <e lm="Gorllewin Morgannwg"><par n="initial-G"/><i>orllewin<b/>Morgannwg</i><par n="Blaenafon__np"/></e>
+    <e lm="Morgannwg Ganol"><par n="initial-M"/><i>organnwg<b/>Ganol</i><par n="Blaenafon__np"/></e>
+    <e lm="Blaenau Gwent"><par n="initial-B"/><i>laenau<b/>Gwent</i><par n="Blaenafon__np"/></e>
+    <e lm="Bro Morgannwg"><par n="initial-B"/><i>ro<b/>Morgannwg</i><par n="Blaenafon__np"/></e>
+    <e lm="Caerffili"><par n="initial-C"/><i>aerffili</i><par n="Blaenafon__np"/></e>
+    <e lm="Castell-nedd Port Talbot"><par n="initial-C"/><i>astell-nedd<b/>Port<b/>Talbot</i><par n="Blaenafon__np"/></e>
+    <e lm="Conwy"><par n="initial-C"/><i>onwy</i><par n="Blaenafon__np"/></e>
+    <e lm="Pen-y-bont ar Ogwr"><par n="initial-P"/><i>en-y-bont<b/>ar<b/>Ogwr</i><par n="Blaenafon__np"/></e>
+    <e lm="Rhondda Cynon Taf"><par n="initial-Rh"/><i>ondda<b/>Cynon<b/>Taf</i><par n="Blaenafon__np"/></e>
+    <e lm="Torfaen"><par n="initial-T"/><i>orfaen</i><par n="Blaenafon__np"/></e>
+
+
     <e lm="Powys"><par n="initial-P"/><i>owys</i><par n="Blaenafon__np"/></e>
     <e lm="Gwent"><par n="initial-G"/><i>went</i><par n="Blaenafon__np"/></e>
     <e lm="Gwynedd"><par n="initial-G"/><i>wynedd</i><par n="Blaenafon__np"/></e>
@@ -57362,7 +57387,7 @@
     <e lm="Janet"><i>Janet</i><par n="Elin__np"/></e>
     <e lm="Sioned"><i>Sioned</i><par n="Elin__np"/></e>
 
-    <e lm="Adriana "><i>Adriana </i><par n="Elin__np"/></e>
+    <e lm="Adriana"><i>Adriana</i><par n="Elin__np"/></e>
     <e lm="Agnes"><i>Agnes</i><par n="Elin__np"/></e>
     <e lm="Aina"><i>Aina</i><par n="Elin__np"/></e>
     <e lm="Ainara"><i>Ainara</i><par n="Elin__np"/></e>
@@ -57370,7 +57395,7 @@
     <e lm="Aitana"><i>Aitana</i><par n="Elin__np"/></e>
     <e lm="Alba"><i>Alba</i><par n="Elin__np"/></e>
     <e lm="Alexandra"><i>Alexandra</i><par n="Elin__np"/></e>
-    <e lm="Alianore-"><i>Alianore-</i><par n="Elin__np"/></e>
+    <e lm="Alianore"><i>Alianore</i><par n="Elin__np"/></e>
     <e lm="Alice"><i>Alice</i><par n="Elin__np"/></e>
     <e lm="Alicia"><i>Alicia</i><par n="Elin__np"/></e>
     <e lm="Alyne"><i>Alyne</i><par n="Elin__np"/></e>
@@ -57380,7 +57405,6 @@
     <e lm="Andrea"><i>Andrea</i><par n="Elin__np"/></e>
     <e lm="Àngela"><i>Àngela</i><par n="Elin__np"/></e>
     <e lm="Annabel"><i>Annabel</i><par n="Elin__np"/></e>
-    <e lm="Anna "><i>Anna </i><par n="Elin__np"/></e>
     <e lm="Anna"><i>Anna</i><par n="Elin__np"/></e>
     <e lm="Anna Maria"><i>Anna Maria</i><par n="Elin__np"/></e>
     <e lm="Anne"><i>Anne</i><par n="Elin__np"/></e>
