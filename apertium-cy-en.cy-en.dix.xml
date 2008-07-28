@@ -122,6 +122,8 @@
     <e><p><l>gogyfer â<s n="pr"/></l><r>for the purpose of<s n="pr"/></r></p></e>
     <e><p><l>i mewn i<s n="pr"/></l><r>into<s n="pr"/></r></p></e>
     <e><p><l>yn lle<s n="pr"/></l><r>instead of<s n="pr"/></r></p></e>
+    <e><p><l>tu draw i<s n="pr"/></l><r>beyond<s n="pr"/></r></p></e>
+    <e><p><l>tu hwnt i<s n="pr"/></l><r>beyond<s n="pr"/></r></p></e>
  
  
     <!-- Prepositions using possessive pronoun for inflection -->
@@ -495,6 +497,27 @@
     <e><p><l>hofrenfad<s n="n"/><s n="mf"/></l><r>hovercraft<s n="n"/></r></p></e>
     <e><p><l>carped<s n="n"/><s n="m"/></l><r>carpet<s n="n"/></r></p></e>
     <e><p><l>fechnïaeth<s n="n"/><s n="f"/></l><r>bail<s n="n"/></r></p></e>
+
+    <e><p><l>anhapusrwydd<s n="n"/><s n="m"/></l><r>unhappiness<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>asembli<s n="n"/><s n="m"/></l><r>assembly<s n="n"/></r></p></e>
+    <e><p><l>blinder<s n="n"/><s n="m"/></l><r>weariness<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>boch<s n="n"/><s n="f"/></l><r>cheek<s n="n"/></r></p></e>
+    <e><p><l>cainc<s n="n"/><s n="f"/></l><r>branch<s n="n"/></r></p></e>
+    <e><p><l>dicter<s n="n"/><s n="m"/></l><r>anger<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>dwyfoch<s n="n"/><s n="f"/></l><r>cheek<s n="n"/><s n="pl"/></r></p></e>
+    <e><p><l>grudd<s n="n"/><s n="f"/></l><r>cheek<s n="n"/></r></p></e>
+    <e><p><l>gwenynen<s n="n"/><s n="f"/></l><r>bee<s n="n"/></r></p></e>
+    <e><p><l>gwlith<s n="n"/><s n="m"/></l><r>dew<s n="n"/></r></p></e>
+    <e><p><l>haid<s n="n"/><s n="f"/></l><r>swarm<s n="n"/></r></p></e>
+    <e><p><l>hapusrwydd<s n="n"/><s n="m"/></l><r>happiness<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>lludw<s n="n"/><s n="m"/></l><r>ashes<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>llwyn<s n="n"/><s n="m"/></l><r>bush<s n="n"/></r></p></e>
+    <e><p><l>melfed<s n="n"/><s n="m"/></l><r>velvet<s n="n"/></r></p></e>
+    <e><p><l>pawen<s n="n"/><s n="f"/></l><r>paw<s n="n"/></r></p></e>
+    <e><p><l>telyn<s n="n"/><s n="f"/></l><r>harp<s n="n"/></r></p></e>
+    <e><p><l>telynor<s n="n"/><s n="m"/></l><r>harpist<s n="n"/></r></p></e>
+    <e><p><l>tristwch<s n="n"/><s n="m"/></l><r>sadness<s n="n"/><s n="unc"/></r></p></e>
+
  
     <e><p><l>gormodiaith<s n="n"/><s n="f"/></l><r>exaggeration<s n="n"/></r></p></e><!-- exaggeration - gormodiaith [f.]-->
     <e><p><l>ymollyngdod<s n="n"/><s n="m"/></l><r>relaxation<s n="n"/></r></p></e><!-- relaxation - ymollyngdod [m.]-->
@@ -4231,6 +4254,21 @@
     <e><p><l>camdriniaeth<s n="n"/><s n="f"/></l><r>abuse<s n="n"/></r></p></e>
  
     <!-- Adjectives -->
+
+    <e><p><l>afrifed<s n="adj"/></l><r>innumerable<s n="adj"/></r></p></e>
+    <e><p><l>blin<s n="adj"/></l><r>annoyed<s n="adj"/></r></p></e>
+    <e><p><l>brith<s n="adj"/></l><r>speckled<s n="adj"/></r></p></e>
+    <e><p><l>croch<s n="adj"/></l><r>loud<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>duon<s n="adj"/></l><r>black<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>gwinau<s n="adj"/></l><r>brown<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>gwirion<s n="adj"/></l><r>silly<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>llwydion<s n="adj"/></l><r>grey<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>melfed<s n="adj"/></l><r>velvet<s n="adj"/></r></p></e>
+    <e><p><l>mwyn<s n="adj"/></l><r>gentle<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>prudd<s n="adj"/></l><r>grave<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>tewion<s n="adj"/></l><r>fat<s n="adj"/><s n="sint"/></r></p></e>
+
+
     <e><p><l>absennol<s n="adj"/></l><r>absent<s n="adj"/></r></p></e>
     <e><p><l>fforensig<s n="adj"/></l><r>forensic<s n="adj"/></r></p></e>
     <e><p><l>absoliwt<s n="adj"/></l><r>absolute<s n="adj"/></r></p></e>
