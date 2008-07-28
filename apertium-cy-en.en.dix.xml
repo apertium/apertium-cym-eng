@@ -9535,6 +9535,8 @@
     <e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
 
     <e lm="including"><i>including</i><par n="expensive__adj"/></e>
+    <e lm="annoyed"><i>annoyed</i><par n="expensive__adj"/></e>
+    <e lm="speckled"><i>speckled</i><par n="expensive__adj"/></e>
     <e lm="idle"><i>idle</i><par n="expensive__adj"/></e>
     <e lm="completely"><i>completely</i><par n="expensive__adj"/></e>
     <e lm="stunning"><i>stunning</i><par n="expensive__adj"/></e>
@@ -10259,6 +10261,7 @@
     <e lm="neuter"><i>neuter</i><par n="expensive__adj"/></e>
     <e lm="similar"><i>similar</i><par n="expensive__adj"/></e>
     <e lm="long"><i>long</i><par n="long/__adj"/></e>
+    <e lm="velvet"><i>velvet</i><par n="expensive__adj"/></e>
     <e lm="dilatory"><i>dilatory</i><par n="expensive__adj"/></e>
     <e lm="bloated"><i>bloated</i><par n="expensive__adj"/></e>
     <e lm="liberated"><i>liberated</i><par n="expensive__adj"/></e>
@@ -10589,7 +10592,7 @@
     <e lm="Christian"><i>Christian</i><par n="expensive__adj"/></e>
     <e lm="vicarious"><i>vicarious</i><par n="expensive__adj"/></e>
     <e lm="climatological"><i>climatological</i><par n="expensive__adj"/></e>
-    <e lm="brown"><i>brown</i><par n="expensive__adj"/></e>
+    <e lm="brown"><i>brown</i><par n="long/__adj"/></e>
     <e lm="Guatemalan"><i>Guatemalan</i><par n="expensive__adj"/></e>
     <e lm="rival"><i>rival</i><par n="expensive__adj"/></e>
     <e lm="lossy"><i>loss</i><par n="lovel/y__adj"/></e>
@@ -11655,6 +11658,7 @@
     <!-- Nouns -->
 
     <e lm="adjective"><i>adjective</i><par n="house__n"/></e>
+    <e lm="paw"><i>paw</i><par n="house__n"/></e>
     <e lm="championship"><i>championship</i><par n="house__n"/></e>
     <e lm="commisioner"><i>commisioner</i><par n="house__n"/></e>
     <e lm="communications"><i>communications</i><par n="politics__n"/></e>
@@ -13192,6 +13196,7 @@
     <e r="LR"><p><l>semivocalic</l><r>semivocal</r></p><par n="expensive__adj"/></e>
     <e r="LR"><p><l>sensational</l><r>sensationalistic</r></p><par n="expensive__adj"/></e>
     <e lm="cloudless"><i>cloudless</i><par n="expensive__adj"/></e>
+    <e lm="loud"><i>loud</i><par n="long/__adj"/></e>
     <e lm="sober"><i>sober</i><par n="long/__adj"/></e>
     <e lm="silicious"><i>silicious</i><par n="expensive__adj"/></e>
     <e r="LR"><p><l>silicolous</l><r>silicious</r></p><par n="expensive__adj"/></e>
@@ -13383,6 +13388,8 @@
     <e r="LR"><i>as<b/>far<b/>as<b/>they<b/>are<b/>concerned</i><par n="maybe__adv"/></e>
     <e lm="as big as"><i>as<b/>big<b/>as</i><par n="maybe__adv"/></e>
 
+    <!-- Prepositions -->
+
     <e lm="at the end of"><i>at<b/>the<b/>end<b/>of</i><par n="at__pr"/></e>
     <e lm="next to"><i>next<b/>to</i><par n="at__pr"/></e>
     <e lm="for the purpose of"><i>for<b/>the<b/>purpose<b/>of</i><par n="at__pr"/></e>
@@ -13395,11 +13402,13 @@
     <e lm="in the presence of"><i>in<b/>the<b/>presence<b/>of</i><par n="at__pr"/></e>
     <e lm="in the middle of"><i>in<b/>the<b/>middle<b/>of</i><par n="at__pr"/></e>
 
+    <e lm="beyond"><i>beyond</i><par n="at__pr"/></e>
 
     <e lm="for the sake of"><i>for<b/>the<b/>sake<b/>of</i><par n="at__pr"/></e>
-    <e r="LR"><i>in<b/>large<b/>part</i><par n="maybe__adv"/></e>
-    <e r="RL"><i>more<b/>closely</i><par n="maybe__adv"/></e>
     <e lm="on the side of"><i>on<b/>the<b/>side<b/>of</i><par n="at__pr"/></e>
+
+    <!-- Pre-adverbials -->
+
     <e lm="any"><i>any</i><par n="very__preadv"/></e>
     <e lm="as"><i>as</i><par n="very__preadv"/></e>
     <e lm="just as"><i>just<b/>as</i><par n="very__preadv"/></e>
@@ -13410,6 +13419,9 @@
     <e lm="too"><i>too</i><par n="very__preadv"/></e>
     <e lm="very"><i>very</i><par n="very__preadv"/></e>
     <e lm="fairly"><i>fairly</i><par n="very__preadv"/></e>
+
+    <!-- Conjunctions -->
+
     <e lm="after"><i>after</i><par n="after__cnjadv"/></e>
     <e lm="although"><i>although</i><par n="after__cnjadv"/></e>
     <e lm="and"><i>and</i><par n="and__cnjcoo"/></e>
@@ -13931,6 +13943,7 @@
     <e lm="example"><i>example</i><par n="house__n"/></e>
     <e lm="price"><i>price</i><par n="house__n"/></e>
     <e lm="baseball"><i>baseball</i><par n="east__n__unc"/></e>
+    <e lm="ashes"><i>ashes</i><par n="east__n__unc"/></e>
     <e lm="league"><i>league</i><par n="house__n"/></e>
     <e lm="experience"><i>experience</i><par n="house__n"/></e>
     <e lm="rate"><i>rate</i><par n="house__n"/></e>
@@ -15476,9 +15489,6 @@
     <e lm="custom"><p><l>custom</l><r>custom<s n="n"/><s n="sg"/></r></p></e>
     <e lm="button"><i>button</i><par n="house__n"/></e>
     <e lm="epic"><i>epic</i><par n="house__n"/></e>
-    <e lm="amateur"><i>amateur</i><par n="expensive__adj"/></e>
-    <e lm="purple"><i>purple</i><par n="expensive__adj"/></e>
-    <e lm="paramilitary"><i>paramilitary</i><par n="expensive__adj"/></e>
     <e lm="ignorance"><i>ignorance</i><par n="house__n"/></e>
     <e lm="breed"><i>breed</i><par n="house__n"/></e>
     <e lm="widening"><i>widening</i><par n="house__n"/></e>
@@ -15689,6 +15699,8 @@
     <e lm="bubble"><i>bubble</i><par n="house__n"/></e>
     <e lm="synagogue"><i>synagogue</i><par n="house__n"/></e>
     <e lm="happiness"><i>happiness</i><par n="east__n__unc"/></e>
+    <e lm="weariness"><i>weariness</i><par n="east__n__unc"/></e>
+    <e lm="unhappiness"><i>unhappiness</i><par n="east__n__unc"/></e>
     <e lm="china"><i>china</i><par n="house__n"/></e>
     <e lm="puzzle"><i>puzzle</i><par n="house__n"/></e>
     <e lm="insult"><i>insult</i><par n="house__n"/></e>
@@ -21883,8 +21895,6 @@
     <e lm="Canary Islands"><i>Canary<b/>Islands</i><par n="United_States__np"/></e>
     <e lm="Soviet Union"><i>Soviet<b/>Union</i><par n="United_States__np"/></e>
     <e lm="Axis"><i>Axis</i><par n="United_States__np"/></e>
-    <e lm="axis"><i>axis</i><par n="expensive__adj"/></e>
-    <e lm="monoglot"><i>monoglot</i><par n="expensive__adj"/></e>
     <e lm="Canberra"><i>Canberra</i><par n="Barcelona__np"/></e>
     <e lm="Caracas"><i>Caracas</i><par n="Barcelona__np"/></e>
     <e lm="Carribean"><i>Carribean</i><par n="Barcelona__np"/></e>
@@ -22713,6 +22723,8 @@
  
     <!-- Adverbs -->
 
+    <e r="LR"><i>in<b/>large<b/>part</i><par n="maybe__adv"/></e>
+    <e r="RL"><i>more<b/>closely</i><par n="maybe__adv"/></e>
     <e lm="on a commercial basis"><i>on<b/>a<b/>commercial<b/>basis</i><par n="maybe__adv"/></e>
     <e lm="beyond"><i>beyond</i><par n="maybe__adv"/></e>
     <e lm="day before yesterday"><i>day<b/>before<b/>yesterday</i><par n="maybe__adv"/></e>
@@ -22885,7 +22897,6 @@
     <e lm="today"><i>today</i><par n="maybe__adv"/></e>
     <e lm="also"><i>also</i><par n="maybe__adv"/></e>
     <e lm="tonight"><i>tonight</i><par n="maybe__adv"/></e>
-    <e lm="beyond"><i>beyond</i><par n="maybe__adv"/></e>
     <e lm="perhaps"><i>perhaps</i><par n="maybe__adv"/></e>
     <e lm="rather"><i>rather</i><par n="maybe__adv"/></e>
     <e lm="OK"><i>OK</i><par n="maybe__adv"/></e>
@@ -25032,7 +25043,14 @@
     <e lm="amortise"><i>amortis</i><par n="liv/e__vblex"/></e>
  
  
+    <!-- Adjectives -->
  
+    <e lm="axis"><i>axis</i><par n="expensive__adj"/></e>
+    <e lm="amateur"><i>amateur</i><par n="expensive__adj"/></e>
+    <e lm="grave"><i>grave</i><par n="nice/__adj"/></e>
+    <e lm="purple"><i>purple</i><par n="expensive__adj"/></e>
+    <e lm="paramilitary"><i>paramilitary</i><par n="expensive__adj"/></e>
+    <e lm="monoglot"><i>monoglot</i><par n="expensive__adj"/></e>
     <e lm="abbreviated"><i>abbreviated</i><par n="expensive__adj"/></e>
     <e lm="abolished"><i>abolished</i><par n="expensive__adj"/></e>
     <e lm="abridged"><i>abridged</i><par n="expensive__adj"/></e>
@@ -25160,6 +25178,7 @@
     <e lm="gamma"><i>gamma</i><par n="expensive__adj"/></e>
     <e lm="gapless"><i>gapless</i><par n="expensive__adj"/></e>
     <e lm="gentlemanly"><i>gentlemanly</i><par n="expensive__adj"/></e>
+    <e lm="gentle"><i>gentle</i><par n="nice/__adj"/></e>
     <e lm="geographical"><i>geographical</i><par n="expensive__adj"/></e>
     <e lm="geometric"><i>geometric</i><par n="expensive__adj"/></e>
     <e lm="governing"><i>governing</i><par n="expensive__adj"/></e>
