@@ -47757,6 +47757,7 @@
     <e lm="pa"><par n="initial-p"/><i>a</i><par n="pa__prn"/></e>
     <e lm="pa rai"><par n="initial-p"/><i>a<b/>rai</i><par n="pa_rai__prn"/></e>
     <e lm="beth"><par n="initial-b"/><i>eth</i><par n="pa__prn"/></e>
+    <e lm="be"><par n="initial-b"/><p><l>e</l><r>eth</r></p><par n="pa__prn"/></e>
     <e lm="pwy"><par n="initial-p"/><i>wy</i><par n="pa__prn"/></e>
 
     <e lm="hyn"><i>hyn</i><par n="hyn__prn"/></e>
@@ -47924,6 +47925,7 @@
     <e lm="rheini"><p><l>rheini</l><r>rheiny</r></p><par n="hyn__det"/></e>
 
     <e lm="llawer o"><par n="initial-ll"/><i>awer<b/>o</i><par n="llawer_o__det"/></e>
+    <e lm="llawer iawn o"><par n="initial-ll"/><i>awer<b/>iawn<b/>o</i><par n="llawer_o__det"/></e>
     <e lm="ychydig"><i>ychydig</i><par n="llawer_o__det"/></e>
 
     <e lm="amryw o"><i>amryw<b/>o</i><par n="amryw_o__det"/></e>
@@ -47934,6 +47936,7 @@
     <e lm="sawl"><i>sawl</i><par n="sawl__det"/></e>
     <e lm="faint o"><i>faint<b/>o</i><par n="faint_o__det"/></e>
     <e lm="pa mor"><i>pa<b/>mor</i><par n="faint_o__det"/></e>
+    <e lm="faint mor"><i>faint<b/>mor</i><par n="faint_o__det"/></e>
     <e lm="pa fath o"><i>pa<b/>fath<b/>o</i><par n="faint_o__det"/></e>
     <e lm="sut"><i>sut</i><par n="faint_o__det"/></e>
 
@@ -47945,6 +47948,9 @@
     <e lm="pryd"><i>pryd</i><par n="ble__adv"/></e>
     <e lm="sut"><i>sut</i><par n="ble__adv"/></e>
 
+    <e lm="fel arfer"><i>fel<b/>arfer</i><par n="yma__adv"/></e>
+    <e lm="i'r dim"><i>i'r<b/>dim</i><par n="yma__adv"/></e>
+    <e lm="o lawer"><i>o<b/>lawer</i><par n="yma__adv"/></e>
     <e lm="dim ond"><i>dim<b/>ond</i><par n="yma__adv"/></e>
     <e lm="yma"><i>yma</i><par n="yma__adv"/></e>
     <e lm="efallai"><i>efallai</i><par n="yma__adv"/></e>
@@ -50928,6 +50934,7 @@
     <e lm="ymddangosiadau"><i>ymddangosiad</i><par n="adolygiad/au__n"/></e>
     <e lm="sectorau"><i>sector</i><par n="sector/au__n"/></e>
     <e lm="baban"><par n="initial-b"/><i>aban</i><par n="baban__n"/></e>
+    <e lm="llwynog"><par n="initial-ll"/><i>wynog</i><par n="baban__n"/></e>
     <e lm="bwgan"><par n="initial-b"/><i>wgan</i><par n="baban__n"/></e>
     <e lm="clerc"><par n="initial-c"/><i>lerc</i><par n="baban__n"/></e>
     <e lm="eliffant"><i>eliffant</i><par n="baban__n"/></e>
@@ -53134,11 +53141,11 @@
     <e lm="cwrdd"><par n="initial-c"/><i>wrdd</i><par n="achub__vblex"/><p><l><b/>â</l><r><g><b/>â</g></r></p></e>
     <e lm="cyfeirio"><par n="initial-c"/><i>yfeiri</i><par n="achlysur/o__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
     <e lm="cyfrannu"><par n="initial-c"/><i>yfrann</i><par n="absenn/u__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
-    <e lm="dod"><par n="initial-d"/><i/><par n="d/od__vblex"/><p><l><b/>â</l><r><g><b/>â</g></r></p></e>
-    <e lm="dod"><par n="initial-d"/><i/><par n="d/od__vblex"/><p><l><b/>o<b/>hyd<b/>i</l><r><g><b/>o<b/>hyd<b/>i</g></r></p></e>
-    <e lm="dweud"><par n="initial-d"/><i/><par n="aildd/weud__vblex"/><p><l><b/>wrth</l><r><g><b/>wrth</g></r></p></e>
-    <e lm="edrych"><i>edrych</i><par n="achub__vblex"/><p><l><b/>ar</l><r><g><b/>ar</g></r></p></e>
-    <e lm="edrych"><i>edrych</i><par n="achub__vblex"/><p><l><b/>ymlaen<b/>at</l><r><g><b/>ymlaen<b/>at</g></r></p></e>
+    <e lm="dod â"><par n="initial-d"/><i/><par n="d/od__vblex"/><p><l><b/>â</l><r><g><b/>â</g></r></p></e>
+    <e lm="dod o hyd"><par n="initial-d"/><i/><par n="d/od__vblex"/><p><l><b/>o<b/>hyd<b/>i</l><r><g><b/>o<b/>hyd<b/>i</g></r></p></e>
+    <e lm="dweud wrth"><par n="initial-d"/><i/><par n="aildd/weud__vblex"/><p><l><b/>wrth</l><r><g><b/>wrth</g></r></p></e>
+    <e lm="edrych ar"><i>edrych</i><par n="achub__vblex"/><p><l><b/>ar</l><r><g><b/>ar</g></r></p></e>
+    <e lm="edrych ymlaen"><i>edrych</i><par n="achub__vblex"/><p><l><b/>ymlaen<b/>at</l><r><g><b/>ymlaen<b/>at</g></r></p></e>
 
     <e lm="ennill"><i>en</i><par n="en/nill__vblex"/><p><l><b/>ar</l><r><g><b/>ar</g></r></p></e>
 
@@ -56229,7 +56236,10 @@
     <e lm="rhyngu"><par n="initial-rh"/><i>yng</i><par n="aberth/u__vblex"/></e>
     <e lm="rhyngwynebu"><par n="initial-rh"/><i>yngwyneb</i><par n="aberth/u__vblex"/></e>
     <e lm="rhynnu"><par n="initial-rh"/><i>ynn</i><par n="absenn/u__vblex"/></e>
+
     <e lm="rhythu"><par n="initial-rh"/><i>yth</i><par n="aberth/u__vblex"/></e>
+    <e lm="rhythu ar"><par n="initial-rh"/><i>yth</i><par n="aberth/u__vblex"/><p><l><b/>ar</l><r><g><b/>ar</g></r></p></e>
+
     <e lm="rowlio"><i>rowli</i><par n="achlysur/o__vblex"/></e>
     <e lm="rwdlan"><i>rwdl</i><par n="begi/an__vblex"/></e>
     <e lm="rwdlian"><i>rwdl</i><par n="rwdl/ian__vblex"/></e>
@@ -57028,6 +57038,9 @@
     <e lm="Democratiaid Rhyddfrydol"><par n="initial-D"/><i>emocratiaid<b/>Rhyddfrydol</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
     <e lm="Bwrdd yr Iaith Gymraeg"><par n="initial-B"/><i>wrdd<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
+    <e lm="BBC Radio Cymru"><i>BBC<b/>Radio<b/>Cymru</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
+    <e lm="BBC Cymru"><i>BBC<b/>Cymru</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
+    <e lm="NHS Cymru"><i>NHS<b/>Cymru</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
 
 
     <e lm="Sir Aberteifi"><i>Sir<b/>Aberteifi</i><par n="Blaenafon__np"/></e>
@@ -57591,6 +57604,34 @@
   </section>
 
   <section id="apostrophes" type="postblank">
+    <e lm="'ch" r="LR">
+      <p>
+        <l>'ch</l>
+        <r>eich<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="'n" r="LR">
+      <p>
+        <l>'n</l>
+        <r>ein<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="'u" r="LR">
+      <p>
+        <l>'u</l>
+        <r>eu<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="'m" r="LR">
+      <p>
+        <l>'u</l>
+        <r>eu<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+
 
     <e lm="'r" r="LR">
       <p>

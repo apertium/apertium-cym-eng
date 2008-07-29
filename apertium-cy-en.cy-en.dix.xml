@@ -27,6 +27,7 @@
     <e><p><l>rheiny<s n="det"/><s n="dem"/><s n="mf"/></l><r>that<s n="det"/><s n="dem"/></r></p></e>
  
     <e><p><l>llawer<b/>o<s n="det"/><s n="qnt"/></l><r>a<b/>lot<b/>of<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>llawer<b/>iawn<b/>o<s n="det"/><s n="qnt"/></l><r>very<b/>many<s n="det"/><s n="qnt"/></r></p></e>
 
     <e><p><l>ychydig<s n="det"/><s n="qnt"/></l><r>a few<s n="det"/><s n="qnt"/></r></p></e>
 
@@ -35,6 +36,7 @@
     <e><p><l>faint<b/>o<s n="det"/><s n="itg"/><s n="sg"/></l><r>how much<s n="det"/><s n="itg"/><s n="sg"/></r></p></e>
     <e><p><l>faint<b/>o<s n="det"/><s n="itg"/><s n="pl"/></l><r>how many<s n="det"/><s n="itg"/><s n="pl"/></r></p></e>
 
+    <e><p><l>faint<b/>mor<s n="det"/><s n="itg"/></l><r>how<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>pa<b/>mor<s n="det"/><s n="itg"/></l><r>how<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>pa<b/>fath<b/>o<s n="det"/><s n="itg"/></l><r>what sort of<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>sut<s n="det"/><s n="itg"/></l><r>what sort of<s n="det"/><s n="itg"/></r></p></e>
@@ -281,6 +283,10 @@
  
     <e><p><l>iawn<s n="preadv"/></l><r>very<s n="preadv"/></r></p></e>
 
+<!--    <e><p><l>fel<b/>arfer<s n="adv"/></l><r>as<b/>usual<s n="adv"/></r></p></e> -->
+    <e><p><l>fel arfer<s n="adv"/></l><r>usually<s n="adv"/></r></p></e>
+    <e><p><l>i'r dim<s n="adv"/></l><r>exactly<s n="adv"/></r></p></e>
+    <e><p><l>o lawer<s n="adv"/></l><r>by far<s n="adv"/></r></p></e>
     <e><p><l>dim ond<s n="adv"/></l><r>only<s n="adv"/></r></p></e>
     <e><p><l>yma<s n="adv"/></l><r>here<s n="adv"/></r></p></e>
     <e><p><l>efallai<s n="adv"/></l><r>perhaps<s n="adv"/></r></p></e>
@@ -362,7 +368,6 @@
     <e><p><l>eleni<s n="adv"/></l><r>this<b/>year<s n="adv"/></r></p></e>
     <e><p><l>eto<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
     <e><p><l>fel<b/>arall<s n="adv"/></l><r>alternatively<s n="adv"/></r></p></e>
-    <e><p><l>fel<b/>arfer<s n="adv"/></l><r>as<b/>usual<s n="adv"/></r></p></e>
     <e><p><l>felly<s n="adv"/></l><r>so<s n="adv"/></r></p></e>
     <e><p><l>fel<b/>petai<s n="adv"/></l><r>as<b/>it<b/>were<s n="adv"/></r></p></e>
     <e><p><l>fel<b/>rheol<s n="adv"/></l><r>usually<s n="adv"/></r></p></e>
@@ -3653,6 +3658,7 @@
     <e><p><l>trothwyau<s n="n"/><s n="m"/></l><r>thresholds<s n="n"/></r></p></e>
     <e><p><l>ymddangosiadau<s n="n"/><s n="m"/></l><r>appearances<s n="n"/></r></p></e>
     <e><p><l>baban<s n="n"/><s n="m"/></l><r>baby<s n="n"/></r></p></e>
+    <e><p><l>llwynog<s n="n"/><s n="m"/></l><r>fox<s n="n"/></r></p></e>
     <e><p><l>bwgan<s n="n"/><s n="m"/></l><r>bogeyman<s n="n"/></r></p></e>
     <e><p><l>cath<s n="n"/><s n="f"/></l><r>cat<s n="n"/></r></p></e>
     <e><p><l>clerc<s n="n"/><s n="m"/></l><r>clerk<s n="n"/></r></p></e>
@@ -8555,6 +8561,7 @@
     <e><p><l>rhyngwynebu<s n="vblex"/></l><r>interface<s n="vblex"/></r></p></e>
     <e><p><l>rhynnu<s n="vblex"/></l><r>shiver<s n="vblex"/></r></p></e>
     <e><p><l>rhythu<s n="vblex"/></l><r>gape<s n="vblex"/></r></p></e>
+    <e><p><l>rhythu<g><b/>ar</g><s n="vblex"/></l><r>stare<g><b/>at</g><s n="vblex"/></r></p></e>
     <e><p><l>rowlio<s n="vblex"/></l><r>roll<s n="vblex"/></r></p></e>
     <e><p><l>sacio<s n="vblex"/></l><r>sack<s n="vblex"/></r></p></e>
     <e><p><l>sadio<s n="vblex"/></l><r>stabilise<s n="vblex"/></r></p></e>
@@ -9861,6 +9868,9 @@
     <e><p><l>Plaid Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>Plaid Cymru<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Plaid Lafur<s n="np"/><s n="org"/><s n="f"/></l><r>Labour Party<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Democratiaid Rhyddfrydol<s n="np"/><s n="org"/><s n="f"/></l><r>Liberal Democrats<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>BBC Radio Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>BBC Radio Cymru<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>BBC Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>BBC Cymru<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>NHS Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>NHS Cymru<s n="np"/><s n="org"/></r></p></e>
  
  
       <!--  Anthroponyms -->
