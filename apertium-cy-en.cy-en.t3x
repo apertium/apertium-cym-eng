@@ -18,6 +18,7 @@
       <cat-item name="det_nom"/>
     </def-cat>
     <def-cat n="prep">
+      <cat-item name="ar ôl"/>
       <cat-item name="gyda"/>
       <cat-item name="am"/>
       <cat-item name="ar"/>
