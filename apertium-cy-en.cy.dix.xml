@@ -48040,8 +48040,10 @@
     <e lm="dros dro"><i>dros<b/>dro</i><par n="yma__adv"/></e>
     <e lm="drwy gydol y nos"><i>drwy<b/>gydol<b/>y<b/>nos</i><par n="yma__adv"/></e>
     <e lm="dwywaith"><i>dwywaith</i><par n="yma__adv"/></e>
+<!--
     <e lm="dyma"><i>dyma</i><par n="yma__adv"/></e>
     <e lm="dyna"><i>dyna</i><par n="yma__adv"/></e>
+-->
     <e lm="echdoe"><i>echdoe</i><par n="yma__adv"/></e>
     <e lm="echnos"><i>echnos</i><par n="yma__adv"/></e>
     <e lm="ei gilydd"><i>ei<b/>gilydd</i><par n="yma__adv"/></e>
@@ -53149,6 +53151,8 @@
 
     <e lm="byw"><i>byw</i><par n="byw__vblex"/></e>
     <e lm="oes"><i>oes</i><par n="oes__vbser"/></e>
+    <e lm="dyna"><i>dyna</i><par n="oes__vbser"/></e>
+    <e lm="dyma"><i>dyma</i><par n="oes__vbser"/></e>
 
     <!-- Multiword verbs -->
 
