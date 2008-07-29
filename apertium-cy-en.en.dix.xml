@@ -4443,6 +4443,18 @@
           <r>ing<s n="vblex"/><s n="pres"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l>ing</l>
+          <r>ing<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>ing</l>
+          <r>ing<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>ings</l>
@@ -21796,6 +21808,7 @@
     <e lm="BBC Radio Wales"><i>BBC<b/>Radio<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="BBC Cymru"><i>BBC<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="NHS Cymru"><i>NHS<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Post Office"><i>Post<b/>Office</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
     <e lm="Gwynedd"><i>Gwynedd</i><par n="Barcelona__np"/></e>
     <e lm="Blaenau Gwent"><i>Blaenau<b/>Gwent</i><par n="Barcelona__np"/></e>
@@ -22638,6 +22651,8 @@
     <e lm="Maurice"><i>Maurice</i><par n="Mark__np"/></e>
     <e lm="Meryell"><i>Meryell</i><par n="Mary__np"/></e>
     <e lm="Michael"><i>Michael</i><par n="Mark__np"/></e>
+    <e lm="Meic"><i>Meic</i><par n="Mark__np"/></e>
+    <e lm="Mike"><i>Mike</i><par n="Mark__np"/></e>
     <e lm="Mildred"><i>Mildred</i><par n="Mary__np"/></e>
     <e lm="Millicent"><i>Millicent</i><par n="Mary__np"/></e>
     <e lm="Miquel Àngel"><i>Miquel Àngel</i><par n="Mark__np"/></e>
@@ -22807,6 +22822,7 @@
     <e lm="beyond"><i>beyond</i><par n="maybe__adv"/></e>
     <e lm="day before yesterday"><i>day<b/>before<b/>yesterday</i><par n="maybe__adv"/></e>
     <e lm="completely"><i>completely</i><par n="maybe__adv"/></e>
+    <e lm="alive"><i>alive</i><par n="maybe__adv"/></e>
     <e lm="earlier"><i>earlier</i><par n="maybe__adv"/></e>
     <e lm="everywhere"><i>everywhere</i><par n="maybe__adv"/></e>
     <e lm="freely"><i>freely</i><par n="maybe__adv"/></e>
@@ -23124,6 +23140,9 @@
     <e lm="can"><i>c</i><par n="c/an__vbmod"/></e>
     <e r="RL"><i/><par n="/be_able_to__vbmod"/></e>
     <e lm="be"><par n="/be__vbser"/></e>
+
+    <e lm="there be"><i>there<b/></i><par n="/be__vbser"/></e>
+
     <e lm="have"><i>ha</i><par n="ha/ve__vbhaver"/></e>
     <e lm="must"><i>must</i><par n="will/__vbmod"/></e>
     <e lm="should"><i>should</i><par n="will/__vbmod"/></e>

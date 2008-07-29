@@ -29,6 +29,7 @@ LIST DetDef = (det def);		# definite determiner (article)
 LIST DetPos = (det pos);		# possessive determiner
 LIST DetDem = (det dem);		# demonstrative determiner
 LIST DetItg = (det itg);		# interrogative determiner
+LIST DetQnt = (det qnt);		# quantifying determiner
 
 LIST Adj = (adj sint) (adj); 		# all adjectives (synthetic + non-synthetic)
 
@@ -50,7 +51,7 @@ LIST MSoftC = ("<g.*>"r "c.*"r)  ("<d.*>"r "t.*"r) ("<f.*>"r "b.*"r)
               ("<w.*>"r "gw.*"r) ("<b.*>"r "p.*"r) ("<dd.*>"r "d.*"r)
 	      ("<f.*">"r "m.*"r);
 
-LIST MAspC = ("<ch.*>"r "c.*"r) ;
+LIST MAspC = ("<ch.*>"r "c.*"r) ("<th.*>"r "t.*"r);
 LIST MNasC = ("<n.*>"r "d.*"r) ("<m.*>"r "b.*"r);
 
 SET PrnSubjP3Sg = PrnSubj + P3Sg;
@@ -68,6 +69,9 @@ SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbs
 SELECT Vpart IF ((-1 (cm)) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 Num);
 SELECT (vbser cns) IF (-1 Vpart);
 
+#This is horrible:
+#nid oes llawer o'r rheiny ar ôl
+SELECT (vbser) IF (0 NC) (0 (vbser)) (1 DetQnt) (2 DetDef);
 
 # choose the preposition "i" if it is followed by an infinitive
 # aeth i gael y pres
@@ -170,17 +174,16 @@ SELECT Pr IF (-1 NC) (1 V);
 REMOVE PrnSubj IF (-1 Adj) (1 V);
 
 #y llyfr yma
-
 REMOVE Adv IF (-1 NC) (0 Adv) (0 DetDem);
 REMOVE Prn IF (-1 NC) (0 Prn) (0 DetDem);
 
 # sut + verb --> how + verb, sut + noun --> what sort of + noun
-
 SELECT DetItg IF (1* NC BARRIER V);
 SELECT Adv IF (1* V BARRIER NC);
 
 # After "sawl", the Welsh noun will always be singular, but the English one plural.
 SUBSTITUTE (sg) (pl) NC (-1 ("sawl" det itg));
+
 
 #
 #  Lexical rules
