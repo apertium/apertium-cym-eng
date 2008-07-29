@@ -7,6 +7,7 @@
       <cat-item tags="n.*"/>
 <!--      <cat-item tags="np.ant.*"/> -->
       <cat-item tags="np.top.*"/>
+      <cat-item tags="np.org.*"/>
     </def-cat>
     <def-cat n="ant">
       <cat-item tags="np.ant.*"/>
@@ -725,7 +726,7 @@
         <choose>
           <when>
             <test>
-                <equal>
+                <equal caseless="yes">
                   <clip pos="1" side="sl" part="lem"/> 
                   <lit v="fy"/>
                 </equal>
@@ -737,7 +738,7 @@
           </when>
           <when>
             <test>
-                <equal>
+                <equal caseless="yes">
                   <clip pos="1" side="sl" part="lem"/> 
                   <lit v="dy"/>
                 </equal>
@@ -749,7 +750,7 @@
           </when>
           <when>
             <test>
-                <equal>
+                <equal caseless="yes">
                   <clip pos="1" side="sl" part="lem"/> 
                   <lit v="ei"/>
                 </equal>
@@ -761,7 +762,7 @@
           </when>
           <when>
             <test>
-                <equal>
+                <equal caseless="yes">
                   <clip pos="1" side="sl" part="lem"/>
                   <lit v="ein"/>
                 </equal>
@@ -773,7 +774,7 @@
           </when>
           <when>
             <test>
-                <equal>
+                <equal caseless="yes">
                   <clip pos="1" side="sl" part="lem"/>
                   <lit v="eich"/>
                 </equal>
@@ -785,7 +786,7 @@
           </when>
           <when>
             <test>
-                <equal>
+                <equal caseless="yes">
                   <clip pos="1" side="sl" part="lem"/>
                   <lit v="eu"/>
                 </equal>
@@ -3677,6 +3678,28 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: COMMA">
+      <pattern>
+        <pattern-item n="comma"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="comma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="CC"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
 
 

@@ -47582,6 +47582,25 @@
       </e>
     </pardef>
 
+    <pardef n="byw__vblex">
+      <e>
+        <p>
+          <l/>
+          <r><s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="oes__vbser">
+      <e>
+        <p>
+          <l/>
+          <r><s n="vbser"/><s n="pres"/><s n="p3"/><s n="sp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
     <pardef n="e.e.__abbr">
       <e>
         <p>
@@ -47952,6 +47971,7 @@
     <e lm="i'r dim"><i>i'r<b/>dim</i><par n="yma__adv"/></e>
     <e lm="o lawer"><i>o<b/>lawer</i><par n="yma__adv"/></e>
     <e lm="dim ond"><i>dim<b/>ond</i><par n="yma__adv"/></e>
+    <e lm="yn fyw"><i>yn<b/>fyw</i><par n="yma__adv"/></e>
     <e lm="yma"><i>yma</i><par n="yma__adv"/></e>
     <e lm="efallai"><i>efallai</i><par n="yma__adv"/></e>
     <e lm="dros nos"><i>dros<b/>nos</i><par n="yma__adv"/></e>
@@ -53127,7 +53147,8 @@
     <e lm="bod"><i/><par n="/bod__vbser"/></e>
     <e lm="dylwn"><i>dyl</i><par n="dyl/wn__vbmod"/></e>
 
-
+    <e lm="byw"><i>byw</i><par n="byw__vblex"/></e>
+    <e lm="oes"><i>oes</i><par n="oes__vbser"/></e>
 
     <!-- Multiword verbs -->
 
@@ -57038,9 +57059,10 @@
     <e lm="Democratiaid Rhyddfrydol"><par n="initial-D"/><i>emocratiaid<b/>Rhyddfrydol</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
     <e lm="Bwrdd yr Iaith Gymraeg"><par n="initial-B"/><i>wrdd<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
-    <e lm="BBC Radio Cymru"><i>BBC<b/>Radio<b/>Cymru</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
-    <e lm="BBC Cymru"><i>BBC<b/>Cymru</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
-    <e lm="NHS Cymru"><i>NHS<b/>Cymru</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
+    <e lm="BBC Radio Cymru"><i>BBC<b/>Radio<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="BBC Cymru"><i>BBC<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="NHS Cymru"><i>NHS<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Swyddfa'r Post"><i>Swyddfa'r<b/>Post</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
 
     <e lm="Sir Aberteifi"><i>Sir<b/>Aberteifi</i><par n="Blaenafon__np"/></e>
@@ -57317,6 +57339,8 @@
     <e lm="Matthew"><par n="initial-M"/><i>atthew</i><par n="Aled__np"/></e>
     <e lm="Maurice"><par n="initial-M"/><i>aurice</i><par n="Aled__np"/></e>
     <e lm="Michael"><par n="initial-M"/><i>ichael</i><par n="Aled__np"/></e>
+    <e lm="Meic"><par n="initial-M"/><i>eic</i><par n="Aled__np"/></e>
+    <e lm="Mike"><par n="initial-M"/><i>ike</i><par n="Aled__np"/></e>
     <e lm="Miquel Àngel"><par n="initial-M"/><i>iquel Àngel</i><par n="Aled__np"/></e>
     <e lm="Miquel"><par n="initial-M"/><i>iquel</i><par n="Aled__np"/></e>
     <e lm="Morys"><par n="initial-M"/><i>orys</i><par n="Aled__np"/></e>
@@ -57603,11 +57627,25 @@
 
   </section>
 
-  <section id="apostrophes" type="postblank">
+  <section id="elisions" type="preblank">
     <e lm="'ch" r="LR">
       <p>
         <l>'ch</l>
         <r>eich<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="'m" r="LR">
+      <p>
+        <l>'m</l>
+        <r>fy<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="'th" r="LR">
+      <p>
+        <l>'th</l>
+        <r>dy<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
 
@@ -57647,15 +57685,34 @@
       </p>
       <par n="gyda__pr"/>
     </e>
-<!--
-    <e lm="'n" r="LR">
+
+    <e lm="'u" r="LR">
       <p>
-        <l>'n</l>
-        <r>yn</r>
+        <l>u</l>
+        <r>eu<s n="det"/><s n="pos"/><s n="sp"/></r>
       </p>
-      <par n="yn__part"/>
     </e>
--->
+
+    <e lm="'na" r="LR">
+      <p>
+        <l>'na</l>
+        <r>yna</r>
+      </p>
+      <par n="yna__det"/>
+    </e>
+
+    <e lm="'ma" r="LR">
+      <p>
+        <l>'ma</l>
+        <r>yma</r>
+      </p>
+      <par n="yna__det"/>
+    </e>
+
+
+  </section>
+
+  <section id="apostrophes" type="postblank">
     <e lm="sy'n" r="LR">
       <p>
         <l>sy'n</l>
@@ -57677,12 +57734,6 @@
       </p>
     </e>
 
-    <e lm="'u" r="LR">
-      <p>
-        <l>u</l>
-        <r>eu<s n="det"/><s n="pos"/><s n="sp"/></r>
-      </p>
-    </e>
 
     <e lm="a'u" r="LR">
       <p>
@@ -57809,23 +57860,6 @@
         <l>wedi'r</l>
         <r>wedi<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
       </p>
-    </e>
-
-
-    <e lm="'na" r="LR">
-      <p>
-        <l>'na</l>
-        <r>yna</r>
-      </p>
-      <par n="yna__det"/>
-    </e>
-
-    <e lm="'ma" r="LR">
-      <p>
-        <l>'ma</l>
-        <r>yma</r>
-      </p>
-      <par n="yna__det"/>
     </e>
 
     <e lm="yma'n" r="LR">
