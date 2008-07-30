@@ -27387,7 +27387,7 @@
       </e>
       <e>
         <p>
-          <l>alla</l>
+          <l>all</l>
           <r>allu<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
@@ -27417,7 +27417,7 @@
       </e>
       <e>
         <p>
-          <l>eller</l>
+          <l>aller</l>
           <r>allu<s n="vbmod"/><s n="imp"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
@@ -27465,13 +27465,13 @@
       </e>
       <e>
         <p>
-          <l>allais</l>
+          <l>ellais</l>
           <r>allu<s n="vbmod"/><s n="past"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>allaist</l>
+          <l>ellaist</l>
           <r>allu<s n="vbmod"/><s n="past"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
@@ -27501,7 +27501,7 @@
       </e>
       <e>
         <p>
-          <l>ellwyd</l>
+          <l>allwyd</l>
           <r>allu<s n="vbmod"/><s n="past"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
@@ -27543,7 +27543,7 @@
       </e>
       <e>
         <p>
-          <l>allasid</l>
+          <l>allesid</l>
           <r>allu<s n="vbmod"/><s n="plu"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
@@ -27555,13 +27555,13 @@
       </e>
       <e>
         <p>
-          <l>alli</l>
+          <l>elli</l>
           <r>allu<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>alla</l>
+          <l>all</l>
           <r>allu<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
@@ -27597,7 +27597,7 @@
       </e>
       <e>
         <p>
-          <l>allych</l>
+          <l>ellych</l>
           <r>allu<s n="vbmod"/><s n="prs"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
@@ -27627,7 +27627,7 @@
       </e>
       <e>
         <p>
-          <l>eller</l>
+          <l>aller</l>
           <r>allu<s n="vbmod"/><s n="prs"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
@@ -48227,6 +48227,7 @@
     <e lm="yn ôl"><i>yn<b/>ôl</i><par n="gyda__pr"/></e>
     <e lm="oddi wrth"><i>oddi<b/>wrth</i><par n="gyda__pr"/></e>
     <e lm="ar ôl"><i>ar<b/>ôl</i><par n="gyda__pr"/></e>
+    <e lm="gan hynny"><i>gan<b/>hynny</i><par n="gyda__pr"/></e>
     <e lm="ynghyd â"><i>ynghyd<b/>â</i><par n="gyda__pr"/></e>
     <e lm="gyferbyn â"><i>gyferbyn<b/>â</i><par n="gyda__pr"/></e>
     <e lm="am ben"><i>am<b/>ben</i><par n="gyda__pr"/></e>
@@ -53560,6 +53561,10 @@
 
     <e lm="bod"><i/><par n="/bod__vbser"/></e>
     <e lm="dylwn"><par n="initial-d"/><i>yl</i><par n="dyl/wn__vbmod"/></e>
+<!--
+    <e lm="bod"><i/><par n="/bod__vbser"/><p><l><b/>angen</l><r><g><b/>angen</g></r></p></e>
+    <e lm="oes"><i>oes</i><par n="oes__vbser"/><p><l><b/>angen</l><r><g><b/>angen</g></r></p></e>
+    -->
 
     <e lm="byw"><i>byw</i><par n="byw__vblex"/></e>
     <e lm="oes"><i>oes</i><par n="oes__vbser"/></e>

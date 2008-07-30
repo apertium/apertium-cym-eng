@@ -13742,6 +13742,7 @@
     <e lm="at"><i>at</i><par n="at__pr"/></e>
     <e lm="away from"><i>away<b/>from</i><par n="at__pr"/></e>
     <e lm="because of"><i>because<b/>of</i><par n="at__pr"/></e>
+    <e lm="because of that"><i>because<b/>of<b/>that</i><par n="at__pr"/></e>
     <e lm="before"><i>before</i><par n="at__pr"/></e>
     <e lm="behind"><i>behind</i><par n="at__pr"/></e>
     <e lm="between"><i>between</i><par n="at__pr"/></e>
@@ -23958,6 +23959,7 @@
     <e lm="be"><par n="/be__vbser"/></e>
 
     <e lm="there be"><i>there<b/></i><par n="/be__vbser"/></e>
+    <e lm="there be"><i>there<b/></i><par n="/be__vbser"/><p><l><b/>a<b/>need</l><r><g><b/>a<b/>need</g></r></p></e>
     <e lm="here be"><i>here<b/></i><par n="/be__vbser"/></e>
 
     <e lm="have"><i>ha</i><par n="ha/ve__vbhaver"/></e>

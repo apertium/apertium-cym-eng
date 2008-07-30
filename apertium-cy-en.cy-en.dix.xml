@@ -114,7 +114,7 @@
     <e r="LR"><p><l>oddi wrth<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
     <e r="LR"><p><l>rhag<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
     <e r="LR"><p><l>oddi<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
-    <e><p><l>o<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>o<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
     
     
     <!-- Uninflected prepositions -->
@@ -159,6 +159,7 @@
     <e><p><l>yn ôl<s n="pr"/></l><r>according to<s n="pr"/></r></p></e> 
  
  
+    <e><p><l>gan hynny<s n="pr"/></l><r>because of that<s n="pr"/></r></p></e>
     <e><p><l>ar ôl<s n="pr"/></l><r>after<s n="pr"/></r></p></e>
     <e><p><l>ynghyd â<s n="pr"/></l><r>together with<s n="pr"/></r></p></e>
     <e><p><l>gyferbyn â<s n="pr"/></l><r>opposite<s n="pr"/></r></p></e>
@@ -5914,6 +5915,8 @@
     <e><p><l>dyna<s n="vbser"/></l><r>there be<s n="vbser"/></r></p></e>
     <e><p><l>dyma<s n="vbser"/></l><r>here be<s n="vbser"/></r></p></e>
  
+    <e><p><l>bod<g><b/>angen</g><s n="vbser"/></l><r>there be<g><b/>a<b/>need</g><s n="vbser"/></r></p></e>
+    <e><p><l>oes<g><b/>angen</g><s n="vbser"/></l><r>there be<g><b/>a<b/>need</g><s n="vbser"/></r></p></e>
  
     <e><p><l>defnyddio<s n="vblex"/></l><r>use<s n="vblex"/></r></p></e>
     <e><p><l>aberthu<s n="vblex"/></l><r>sacrifice<s n="vblex"/></r></p></e>
