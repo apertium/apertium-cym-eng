@@ -36,6 +36,7 @@
       <cat-item tags="adj.*"/>
       <cat-item tags="adj.pos.*"/>
     </def-cat>
+
     <def-cat n="det">
       <cat-item tags="det"/>
       <cat-item tags="det.*"/>
@@ -64,8 +65,18 @@
     <def-cat n="yn">
       <cat-item lemma="yn" tags="*"/>
     </def-cat>
+    <def-cat n="pr_until">
+      <cat-item lemma="tan" tags="*"/>
+    </def-cat>
+
+    <def-cat n="pr_while">
+      <cat-item lemma="wrth" tags="*"/>
+      <cat-item lemma="tra" tags="*"/>
+      <cat-item lemma="gan" tags="*"/>
+    </def-cat>
     <def-cat n="at">
       <cat-item lemma="at" tags="*"/>
+      <cat-item lemma="tuag at" tags="*"/>
     </def-cat>
     <def-cat n="o">
       <cat-item lemma="o" tags="*"/>
@@ -92,6 +103,11 @@
     <def-cat n="verbcael">
       <cat-item lemma="cael" tags="vblex.inf"/>
     </def-cat>
+
+    <def-cat n="verbimpers">
+      <cat-item tags="vblex.*.impers.*"/>  
+    </def-cat>
+
     <def-cat n="verbaux">
       <cat-item tags="vaux.*"/>
     </def-cat>
@@ -748,6 +764,8 @@
               <lit-tag v="prn.obj.p2.mf.sg"/>
             </let>
           </when>
+
+
           <when>
             <test>
                 <equal caseless="yes">
@@ -757,9 +775,14 @@
             </test>
             <let>
               <var n="prntags"/>
-              <lit-tag v="prn.obj.p3.nt.sg"/>
+	      <concat>
+                <lit-tag v="prn.obj.p3"/>
+                <clip pos="1" side="sl" part="gen"/>
+	        <lit-tag v="sg"/>
+	      </concat>
             </let>
           </when>
+
           <when>
             <test>
                 <equal caseless="yes">
@@ -1422,7 +1445,7 @@
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="a_nom"/>
               <clip pos="2" side="tl" part="gen"/>
-              <clip pos="2" side="tl" part="nbr" link-to="2"/>
+              <clip pos="2" side="tl" part="nbr" link-to="3"/>
             </lu>
             <b pos="2"/>
             <lu>
@@ -1433,7 +1456,7 @@
               <clip pos="4" side="tl" part="lem"/>
               <clip pos="4" side="tl" part="a_nom"/>
               <clip pos="4" side="tl" part="gen"/>
-              <clip pos="4" side="tl" part="nbr" link-to="2"/>
+              <clip pos="4" side="tl" part="nbr" link-to="3"/>
             </lu>
           </chunk>
         </out>
@@ -1609,6 +1632,73 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: DET DET">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="det"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="1" side="sl" part="a_det"/>
+                  <lit-tag v="det.qnt"/>
+                </equal>
+                <equal>
+                  <clip pos="2" side="sl" part="a_det"/>
+                  <lit-tag v="det.def"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+              <chunk name="det" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SD"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_det"/></tag>
+                  <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="a_det"/>
+                  <clip pos="1" side="tl" part="nbr" link-to="4"/>
+                </lu>
+              </chunk>
+            </out>
+
+          </when> 
+
+          <otherwise>
+            <out>
+              <chunk name="det_det" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SD"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_det"/></tag>
+                  <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="a_det"/>
+                  <clip pos="1" side="tl" part="nbr" link-to="4"/>
+                </lu>
+                <b/>
+                <lu>
+                  <clip pos="2" side="tl" part="lem"/>
+                  <clip pos="2" side="tl" part="a_det"/>
+                  <clip pos="2" side="tl" part="nbr" link-to="4"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: DET NOM DET">
       <pattern>
@@ -3222,6 +3312,41 @@
       </action>
     </rule>
 
+
+    <rule comment="REGLA: VERB impers">
+      <pattern>
+        <pattern-item n="verbimpers"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="verbimpers" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+            </tags>
+	    <lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+	      <clip pos="1" side="tl" part="temps" link-to="3"/>
+	    </lu>
+	    <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+	      <lit-tag v="pp"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+	  <b/>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: VERB conjugat">
       <pattern>
         <pattern-item n="verbcj"/>
@@ -3251,6 +3376,35 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: VERB inf">
+      <pattern>
+        <pattern-item n="verbinf"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="verbinf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><lit-tag v="inf"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+	  <b/>
+        </out>
+      </action>
+    </rule>
+
+
 
     <rule comment="REGLA: rel VERB conjugat">
       <pattern>
@@ -3404,6 +3558,41 @@
     </rule>
 
 
+    <rule comment="REGLA: VERB aux VERB inf">
+      <pattern>
+        <pattern-item n="verbaux"/>
+        <pattern-item n="verbinf"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="verbcj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+	      <tag><lit-tag v="vblex"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="inf"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+	    <b/>
+            <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+	  <b/>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: yn VERB inf">
       <pattern>
         <pattern-item n="yn"/>
@@ -3517,6 +3706,51 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: yn DET pos VERB inf PRNSUBJ">
+      <pattern>
+        <pattern-item n="yn"/>
+        <pattern-item n="detpos"/>
+        <pattern-item n="verbinf"/>
+        <pattern-item n="prnsubj"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="prnobj_from_detpos1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="verbger" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+              <tag><lit-tag v="ger"/></tag>
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="temps" link-to="3"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+	  </chunk>
+	    <b/>
+	  <chunk name="prnobj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="prntags"/></tag>
+            </tags>
+            <lu>
+	      <lit v="prpers"/>
+	      <var n="prntags"/>
+            </lu>
+          </chunk>
+          <b/>
+        </out>
+      </action>
+    </rule>
+
+
 
 
     <rule comment="REGLA: yn lle VERB inf">
@@ -3582,6 +3816,74 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: pr_while VERB inf">
+      <pattern>
+        <pattern-item n="pr_while"/>
+        <pattern-item n="verbinf"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="verbinf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+              <tag><lit-tag v="ger"/></tag>
+            </tags>
+	    <lu>
+	      <lit v="while"/>
+	      <lit-tag v="cnjadv"/> 
+            </lu>
+	    <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps" link-to="3"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b/>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: pr_until VERB inf">
+      <pattern>
+        <pattern-item n="pr_until"/>
+        <pattern-item n="verbinf"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="verbinf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+              <tag><lit-tag v="ger"/></tag>
+            </tags>
+	    <lu>
+	      <lit v="until"/>
+	      <lit-tag v="cnjadv"/> 
+            </lu>
+	    <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps" link-to="3"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b/>
+        </out>
+      </action>
+    </rule>
+
+
 
 
 

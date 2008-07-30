@@ -140,6 +140,13 @@
           <r><s n="num"/><s n="mon"/></r>
         </p>
       </e>
+      <e>
+        <re>[£$€][0-9]+([.,][0-9]+)?m</re>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="mon"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="separa">
       <e>
@@ -8928,6 +8935,12 @@
           <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l>it</l>
+          <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>it</l>
@@ -9018,6 +9031,63 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="prref__prn">
+      <e>
+        <p>
+          <l>myself</l>
+          <r>myself<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>yourself</l>
+          <r>yourself<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>herself</l>
+          <r>herself<s n="prn"/><s n="ref"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>himself</l>
+          <r>himself<s n="prn"/><s n="ref"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>itself</l>
+          <r>itself<s n="prn"/><s n="ref"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ourselves</l>
+          <r>ourselves<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>yourselves</l>
+          <r>yourselves<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>themselves</l>
+          <r>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+
+
+
+
     <pardef n="t/ake__vblex__sep">
       <e>
         <p>
@@ -11707,6 +11777,7 @@
     <!-- Nouns -->
 
     <e lm="adjective"><i>adjective</i><par n="house__n"/></e>
+    <e lm="First Minister"><i>First<b/>Minister</i><par n="house__n"/></e>
     <e lm="paw"><i>paw</i><par n="house__n"/></e>
     <e lm="championship"><i>championship</i><par n="house__n"/></e>
     <e lm="commisioner"><i>commisioner</i><par n="house__n"/></e>
@@ -13503,6 +13574,12 @@
     <e lm="so"><i>so</i><par n="after__cnjadv"/></e>
     <e lm="so that"><i>so<b/>that</i><par n="after__cnjadv"/></e>
     <e lm="than"><i>than</i><par n="and__cnjcoo"/></e>
+
+    <e lm="than"><i>than</i><par n="that__cnjsub"/></e>
+
+    <e lm="namely"><i>namely</i><par n="that__cnjsub"/></e>
+    <e lm="notwithstanding"><i>notwithstanding</i><par n="that__cnjsub"/></e>
+
     <e lm="as"><i>as</i><par n="and__cnjcoo"/></e>
 
     <e lm="that"><i>that</i><par n="that__cnjsub"/></e>
@@ -13719,6 +13796,15 @@
     <e lm="on behalf of"><i>on<b/>behalf<b/>of</i><par n="at__pr"/></e>
     <e lm="instead of"><i>instead<b/>of</i><par n="at__pr"/></e>
     <e lm="together with"><i>together<b/>with</i><par n="at__pr"/></e>
+    <e lm="in accordance with"><i>in<b/>accordance<b/>with</i><par n="at__pr"/></e>
+
+
+    <!-- Pronouns -->
+
+    <e lm="pronoms personals de subjecte"><i/><par n="prsubj__prn"/></e>
+    <e lm="pronoms personals d'objecte"><i/><par n="probj__prn"/></e>
+    <e lm="pronoms reflexius"><i/><par n="prref__prn"/></e>
+
     <e lm="others"><i>others</i><par n="both__prn"/></e>
     <e lm="a few"><i>a<b/>few</i><par n="both__prn"/></e>
     <e lm="we all"><i>we<b/>all</i><par n="both__prn"/></e>
@@ -13730,7 +13816,9 @@
     <e lm="ours"><i>ours</i><par n="mine__prn"/></e>
     <e lm="theirs"><i>theirs</i><par n="mine__prn"/></e>
     <e lm="yours"><i>yours</i><par n="mine__prn"/></e>
+
     <e lm="all"><i>all</i><par n="all__prn"/></e>
+
     <e lm="another one"><i>another<b/>one</i><par n="everyone__prn"/></e>
     <e lm="another"><i>another</i><par n="everyone__prn"/></e>
     <e lm="anybody"><i>anybody</i><par n="everyone__prn"/></e>
@@ -13744,18 +13832,23 @@
     <e lm="everybody"><i>everybody</i><par n="everyone__prn"/></e>
     <e lm="everyone"><i>everyone</i><par n="everyone__prn"/></e>
     <e lm="everything"><i>everything</i><par n="everyone__prn"/></e>
+
     <e lm="many"><i>many</i><par n="both__prn"/></e>
     <e lm="most"><i>most</i><par n="both__prn"/></e>
+    <e lm="several"><i>several</i><par n="both__prn"/></e>
+    <e lm="some"><i>some</i><par n="both__prn"/></e>
+
     <e lm="nobody"><i>nobody</i><par n="everyone__prn"/></e>
     <e lm="no one"><i>no<b/>one</i><par n="everyone__prn"/></e>
     <e lm="nothing"><i>nothing</i><par n="everyone__prn"/></e>
+
     <e lm="one"><i>one</i><par n="the_other__prn"/></e>
     <e lm="the other"><i>the<b/>other</i><par n="the_other__prn"/></e>
-    <e lm="several"><i>several</i><par n="both__prn"/></e>
+
     <e lm="somebody"><i>somebody</i><par n="everyone__prn"/></e>
     <e lm="someone"><i>someone</i><par n="everyone__prn"/></e>
-    <e lm="some"><i>some</i><par n="both__prn"/></e>
     <e lm="something"><i>something</i><par n="something__prn"/></e>
+
     <e lm="that"><i>th</i><par n="th/at__prn"/></e>
     <e lm="this"><i>th</i><par n="th/is__prn"/></e>
     <e lm="too many"><i>too<b/>many</i><par n="both__prn"/></e>
@@ -13767,6 +13860,7 @@
     <e lm="who"><i>who</i><par n="what__prn"/></e>
     <e lm="how many"><i>how<b/>many</i><par n="how_many__prn"/></e>
     <e lm="how much"><i>how<b/>much</i><par n="how_much__prn"/></e>
+
     <e lm="what"><i>what</i><par n="what__rel"/></e>
     <e lm="those who"><i>those<b/>who</i><par n="those_who__rel"/></e>
     <e lm="those that"><i>those<b/>that</i><par n="those_who__rel"/></e>
@@ -13776,8 +13870,9 @@
     <e lm="who"><i>who</i><par n="that__rel"/></e>
     <e lm="that"><i>that</i><par n="that__rel"/></e>
     <e lm="whom"><i>whom</i><par n="that__rel"/></e>
+
     <e><i>'s</i><par n="'s__gen"/></e>
-    <e lm="in accordance with"><i>in<b/>accordance<b/>with</i><par n="at__pr"/></e>
+
     <e lm="goodbye"><i>goodbye</i><par n="hello__ij"/></e>
     <e lm="welcome to"><i>welcome<b/>to</i><par n="hello__ij"/></e>
     <e lm="congratulations"><i>congratulations</i><par n="hello__ij"/></e>
@@ -14260,6 +14355,7 @@
     <e lm="difference"><i>difference</i><par n="house__n"/></e>
     <e lm="drop"><i>drop</i><par n="house__n"/></e>
     <e lm="culture"><i>culture</i><par n="house__n"/></e>
+    <e lm="mariculture"><i>mariculture</i><par n="house__n"/></e>
     <e lm="dance"><i>dance</i><par n="house__n"/></e>
     <e lm="funding"><i>funding</i><par n="house__n"/></e>
     <e lm="truck"><i>truck</i><par n="house__n"/></e>
@@ -21784,6 +21880,8 @@
     <e lm="Jones"><i>Jones</i><par n="Ifans__np"/></e>
     <e lm="Llwyd"><i>Llwyd</i><par n="Ifans__np"/></e>
     <e lm="Lloyd"><i>Lloyd</i><par n="Ifans__np"/></e>
+    <e lm="Thompson"><i>Thompson</i><par n="Ifans__np"/></e>
+    <e lm="Walker"><i>Walker</i><par n="Ifans__np"/></e>
     <e lm="O'Leary"><i>O'Leary</i><par n="Ifans__np"/></e>
     <e lm="O'Regan"><i>O'Regan</i><par n="Ifans__np"/></e>
 
@@ -21890,6 +21988,7 @@
     <e lm="Labour Party"><i>Labour<b/>Party</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Liberal Democrats"><i>Liberal<b/>Democrats</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Welsh Language Board"><i>Welsh<b/>Language<b/>Board</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="British Medical Association"><i>British<b/>Medical<b/>Association</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="BBC Radio Wales"><i>BBC<b/>Radio<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="BBC Cymru"><i>BBC<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="NHS Cymru"><i>NHS<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
@@ -21908,6 +22007,69 @@
     <e lm="Radnorshire"><i>Radnorshire</i><par n="Barcelona__np"/></e>
     <e lm="Merionethshire"><i>Merionethshire</i><par n="Barcelona__np"/></e>
     <e lm="Brecknockshire"><i>Brecknockshire</i><par n="Barcelona__np"/></e>
+
+    <e lm="Monmouth"><i>Monmouth</i><par n="Barcelona__np"/></e>
+    <e lm="Monmouth Town"><i>Monmouth Town</i><par n="Barcelona__np"/></e>
+    <e lm="Puffin Island"><i>Puffin Island</i><par n="Barcelona__np"/></e>
+    <e lm="Holy Island"><i>Holy Island</i><par n="Barcelona__np"/></e>
+    <e lm="Holyhead"><i>Holyhead</i><par n="Barcelona__np"/></e>
+    <e lm="Mold"><i>Mold</i><par n="Barcelona__np"/></e>
+    <e lm="Abergavenny"><i>Abergavenny</i><par n="Barcelona__np"/></e>
+    <e lm="Argentina"><i>Argentina</i><par n="Barcelona__np"/></e>
+    <e lm="Bardsey Island"><i>Bardsey Island</i><par n="Barcelona__np"/></e>
+    <e lm="Barmouth"><i>Barmouth</i><par n="Barcelona__np"/></e>
+    <e lm="Brecon"><i>Brecon</i><par n="Barcelona__np"/></e>
+    <e lm="Gwynedd"><i>Gwynedd</i><par n="Barcelona__np"/></e>
+    <e lm="Conwy"><i>Conwy</i><par n="Barcelona__np"/></e>
+    <e lm="Glastonbury"><i>Glastonbury</i><par n="Barcelona__np"/></e>
+    <e lm="Avon, Severn"><i>Avon, Severn</i><par n="Barcelona__np"/></e>
+    <e lm="Bristol"><i>Bristol</i><par n="Barcelona__np"/></e>
+    <e lm="Cambridge"><i>Cambridge</i><par n="Barcelona__np"/></e>
+    <e lm="London"><i>London</i><par n="Barcelona__np"/></e>
+    <e lm="Oxford"><i>Oxford</i><par n="Barcelona__np"/></e>
+    <e lm="Merioneth"><i>Merioneth</i><par n="Barcelona__np"/></e>
+    <e lm="England"><i>England</i><par n="Barcelona__np"/></e>
+    <e lm="Glamorgan"><i>Glamorgan</i><par n="Barcelona__np"/></e>
+    <e lm="Gwent"><i>Gwent</i><par n="Barcelona__np"/></e>
+    <e lm="Ireland"><i>Ireland</i><par n="Barcelona__np"/></e>
+    <e lm="Scotland"><i>Scotland</i><par n="Barcelona__np"/></e>
+    <e lm="Cornwall"><i>Cornwall</i><par n="Barcelona__np"/></e>
+    <e lm="Isle of Man"><i>Isle of Man</i><par n="Barcelona__np"/></e>
+    <e lm="Holywell"><i>Holywell</i><par n="Barcelona__np"/></e>
+    <e lm="Llandudno "><i>Llandudno </i><par n="Barcelona__np"/></e>
+    <e lm="Beaumaris"><i>Beaumaris</i><par n="Barcelona__np"/></e>
+    <e lm="Amlwch"><i>Amlwch</i><par n="Barcelona__np"/></e>
+    <e lm="Malltraeth"><i>Malltraeth</i><par n="Barcelona__np"/></e>
+    <e lm="Benllech"><i>Benllech</i><par n="Barcelona__np"/></e>
+    <e lm="Chirk"><i>Chirk</i><par n="Barcelona__np"/></e>
+    <e lm="Dyfed"><i>Dyfed</i><par n="Barcelona__np"/></e>
+    <e lm="Powys"><i>Powys</i><par n="Barcelona__np"/></e>
+    <e lm="Clwyd"><i>Clwyd</i><par n="Barcelona__np"/></e>
+    <e lm="New York"><i>New York</i><par n="Barcelona__np"/></e>
+    <e lm="York"><i>York</i><par n="Barcelona__np"/></e>
+    <e lm="Edinburgh"><i>Edinburgh</i><par n="Barcelona__np"/></e>
+    <e lm="Menai Bridge"><i>Menai Bridge</i><par n="Barcelona__np"/></e>
+    <e lm="Llanfairpwllgwyngyllgogerychwyrndobwllllantysiliogogogoch"><i>Llanfairpwllgwyngyllgogerychwyrndobwllllantysiliogogogoch</i><par n="Barcelona__np"/></e>
+    <e lm="Fishguard"><i>Fishguard</i><par n="Barcelona__np"/></e>
+    <e lm="Tenby"><i>Tenby</i><par n="Barcelona__np"/></e>
+    <e lm="Denbigh"><i>Denbigh</i><par n="Barcelona__np"/></e>
+    <e lm="St Asaph"><i>St Asaph</i><par n="Barcelona__np"/></e>
+    <e lm="Welshpool"><i>Welshpool</i><par n="Barcelona__np"/></e>
+    <e lm="Wrexham"><i>Wrexham</i><par n="Barcelona__np"/></e>
+    <e lm="Newborough"><i>Newborough</i><par n="Barcelona__np"/></e>
+    <e lm="Ludlow"><i>Ludlow</i><par n="Barcelona__np"/></e>
+    <e lm="Isle of Wight"><i>Isle of Wight</i><par n="Barcelona__np"/></e>
+    <e lm="Gloucester"><i>Gloucester</i><par n="Barcelona__np"/></e>
+    <e lm="Liverpool"><i>Liverpool</i><par n="Barcelona__np"/></e>
+    <e lm="Manceinion"><i>Manceinion</i><par n="Barcelona__np"/></e>
+    <e lm="Montgomery"><i>Montgomery</i><par n="Barcelona__np"/></e>
+    <e lm="Pembroke"><i>Pembroke</i><par n="Barcelona__np"/></e>
+    <e lm="Offa's Dyke"><i>Offa's Dyke</i><par n="Barcelona__np"/></e>
+    <e lm="Oswestry"><i>Oswestry</i><par n="Barcelona__np"/></e>
+    <e lm="Port Dinorwic"><i>Port Dinorwic</i><par n="Barcelona__np"/></e>
+    <e lm="Radnor"><i>Radnor</i><par n="Barcelona__np"/></e>
+    <e lm="Cardiff"><i>Cardiff</i><par n="Barcelona__np"/></e>
+    <e lm="Swansea"><i>Swansea</i><par n="Barcelona__np"/></e>
 
 
 
@@ -23464,14 +23626,7 @@
     <e lm="eighty"><i>eighty</i><par n="twenty__num"/></e>
     <e lm="ninety"><i>ninety</i><par n="twenty__num"/></e>
     <e lm="hundred"><i>hundred</i><par n="million__num"/></e>
-    <e lm="pronoms personals de subjecte"><i/><par n="prsubj__prn"/></e>
-    <e lm="pronoms personals d'objecte"><i/><par n="probj__prn"/></e>
-    <e lm="herself"><p><l>herself</l><r>herself<s n="prn"/><s n="ref"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-    <e lm="himself"><p><l>himself</l><r>himself<s n="prn"/><s n="ref"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-    <e lm="itself"><p><l>itself</l><r>itself<s n="prn"/><s n="ref"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e lm="myself"><p><l>myself</l><r>myself<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="themselves"><p><l>themselves</l><r>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
- 
+
  
     <!-- Adverbs -->
 
@@ -23479,6 +23634,7 @@
     <e r="RL"><i>more<b/>closely</i><par n="maybe__adv"/></e>
     <e lm="on a commercial basis"><i>on<b/>a<b/>commercial<b/>basis</i><par n="maybe__adv"/></e>
     <e lm="beyond"><i>beyond</i><par n="maybe__adv"/></e>
+    <e lm="increasingly"><i>increasingly</i><par n="maybe__adv"/></e>
     <e lm="day before yesterday"><i>day<b/>before<b/>yesterday</i><par n="maybe__adv"/></e>
     <e lm="completely"><i>completely</i><par n="maybe__adv"/></e>
     <e lm="alive"><i>alive</i><par n="maybe__adv"/></e>
@@ -23710,6 +23866,7 @@
     <e lm="at one time"><i>at<b/>one<b/>time</i><par n="maybe__adv"/></e>
     <e lm="at random"><i>at<b/>random</i><par n="maybe__adv"/></e>
     <e lm="at the expense of"><i>at<b/>the<b/>expense<b/>of</i><par n="maybe__adv"/></e>
+    <e lm="at the same time"><i>at<b/>the<b/>same<b/>time</i><par n="maybe__adv"/></e>
     <e lm="at the moment"><i>at<b/>the<b/>moment</i><par n="maybe__adv"/></e>
     <e lm="back to"><i>back<b/>to</i><par n="maybe__adv"/></e>
     <e lm="by now"><i>by<b/>now</i><par n="maybe__adv"/></e>
@@ -24137,6 +24294,7 @@
     <e lm="help"><i>help</i><par n="accept__vblex"/></e>
     <e lm="hire"><i>hir</i><par n="liv/e__vblex"/></e>
     <e lm="hold"><i>h</i><par n="h/old__vblex"/></e>
+    <e lm="hold a meeting"><i>h</i><par n="h/old__vblex"/><p><l><b/>a<b/>meeting</l><r><g><b/>a<b/>meeting</g></r></p></e>
 
     <e lm="withhold"><i>withh</i><par n="h/old__vblex"/></e>
     <e lm="withhold"><i>withh</i><par n="h/old__vblex"/><p><l><b/>unjustly</l><r><g><b/>unjustly</g></r></p></e>
@@ -26216,7 +26374,6 @@
     <e lm="smoke"><i>smoke</i><par n="house__n"/></e>
     <e lm="executable"><i>executable</i><par n="house__n"/></e>
     <e lm="rubble"><i>rubble</i><par n="house__n"/></e>
-    <e lm="while"><i>while</i><par n="house__n"/></e>
     <e lm="tile"><i>tile</i><par n="house__n"/></e>
     <e lm="hackle"><i>hackle</i><par n="house__n"/></e>
     <e lm="stipple"><i>stipple</i><par n="house__n"/></e>

@@ -17,6 +17,17 @@
     <def-cat n="det_nom">
       <cat-item name="det_nom"/>
     </def-cat>
+    <def-cat n="adv">
+      <cat-item name="adv"/>
+    </def-cat>
+    <def-cat n="verbcj">
+      <cat-item name="verb_aux"/>
+      <cat-item name="verbcj"/>
+      <cat-item name="verbger"/>
+    </def-cat>
+    <def-cat n="verbinf">
+      <cat-item name="verbinf"/>
+    </def-cat>
     <def-cat n="prep">
       <cat-item name="ar ôl"/>
       <cat-item name="gyda"/>
@@ -50,6 +61,7 @@
   <section-def-vars>
     <def-var n="paraula"/>
     <def-var n="pp"/>
+    <def-var n="fullinf"/>
   </section-def-vars>
   <section-rules>
     <rule comment="CHUNK: regla que no fa res">
@@ -72,6 +84,51 @@
         </let>
       </action>
     </rule>
+
+    <rule comment="CHUNK:">
+      <pattern>
+        <pattern-item n="verbinf"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+                <equal>
+                  <var n="fullinf"/>
+                  <lit v="true"/>
+                </equal>
+            </test>
+            <out>
+              <lu>
+                <lit v="to"/>
+                <lit-tag v="pr"/>
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="1" part="whole"/>
+              </lu>
+            </out>
+            <let>
+              <var n="fullinf"/>
+              <lit v="false"/>
+            </let>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" part="whole"/>
+              </lu>
+            </out>
+            <let>
+              <var n="fullinf"/>
+              <lit v="false"/>
+            </let>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+
 
     <rule comment="CHUNK:">
       <pattern>
@@ -282,6 +339,31 @@
           <var n="pp"/>
           <lit v="true"/>
         </let>
+        <let>
+          <var n="fullinf"/>
+          <lit v="false"/>
+        </let>
+      </action>
+    </rule>
+
+    <rule comment="CHUNK: adv">
+      <pattern>
+        <pattern-item n="adv"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+        <let>
+          <var n="pp"/>
+          <lit v="true"/>
+        </let>
+        <let>
+          <var n="fullinf"/>
+          <lit v="false"/>
+        </let>
       </action>
     </rule>
 
@@ -299,8 +381,30 @@
           <var n="pp"/>
           <lit v="false"/>
         </let>
+        <let>
+          <var n="fullinf"/>
+          <lit v="false"/>
+        </let>
       </action>
     </rule>
+
+    <rule comment="CHUNK: verbcj">
+      <pattern>
+        <pattern-item n="verbcj"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+        <let>
+          <var n="fullinf"/>
+          <lit v="true"/>
+        </let>
+      </action>
+    </rule>
+
 
   </section-rules>
 </postchunk>

@@ -10,7 +10,7 @@ DELIMITERS = "<.>" "<!>" "<?>"; # end-of-sentence markers
 LIST NC = n; 				# common nouns
 LIST NP = (np top) (np ant) (np cog); 	# proper nouns (toponyms, anthroponyms, cognomens)
 LIST Acr = (n acr);
-LIST V = vblex vbser;		 	# lexical verbs and "to be"
+LIST V = vaux vblex vbser vbmod;		 	# lexical verbs and "to be"
 LIST Vpart = (vpart neg) (vpart aff) (vpart itg); # Verbal particles
 LIST Adv = adv; 			# adverb
 LIST Num = num;				# numeral
@@ -65,7 +65,10 @@ SECTION
 SELECT NC IF (-1 DetDef) (0 NC) (0 V);
 
 # choose verbal partical if sandwiched between Conj + verb
-SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 (n)) (NOT 1 Num) (NOT 0 CC);
+SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex))) 
+		((1 (vblex)) OR (1 (vbser)) OR (1 (vbmod)) OR (1 (vaux))) 
+		(NOT 1 (vblex inf)) (NOT 1 (n)) (NOT 1 Num) (NOT 0 CC);
+
 SELECT Vpart IF ((-1 (cm)) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 Num) (NOT 0 CC);
 SELECT (vbser cns) IF (-1 Vpart);
 
@@ -137,6 +140,7 @@ REMOVE V IF (-1 DetDef);
 # See 1.3.36 -- we currently just drop subjunctives and imperatives
 REMOVE VblexPrs IF (0 V); 
 REMOVE Imp IF (0 (vbser)); 
+REMOVE Imp IF (0 (vblex past)); 
 
 # pobl y de
 REMOVE MSoftC IF (-1 DetDef);
@@ -187,6 +191,12 @@ SUBSTITUTE (sg) (pl) NC (-1 ("sawl" det itg));
 #Rhai gwynion, rhai gwinau,
 REMOVE MSoftC IF (-1 Adj);
 
+#well o lawer na'r
+SELECT ("na" cnjsub) IF (-1* (adj comp) BARRIER Det);
+
+#i ein rhai ein hunain
+
+REMOVE PrnSubj IF (NOT -1 V);
 
 #
 #  Lexical rules
@@ -200,3 +210,7 @@ ADD (pred) ("unig" adj) ((1 (n)) OR (1 (np)) OR (1 (pr)) OR (1 Det) OR (1 (cm)))
 # distinguish between "work" and "time"
 REMOVE (n f) (0 ("gwaith")) (0 MSoftC);
 
+SECTION
+
+REMOVE ("i" pr) IF (0 ("i" pr)) (0 ("ein" det));
+REMOVE ("yn" pr) IF (0 ("ein" det));
