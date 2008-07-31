@@ -48796,6 +48796,8 @@
     <e lm="pryd"><i>pryd</i><par n="ble__adv"/></e>
     <e lm="sut"><i>sut</i><par n="ble__adv"/></e>
 
+    <e lm="ar gael"><i>ar<b/>gael</i><par n="yma__adv"/></e>
+    <e lm="o'r blaen"><i>o'r<b/>blaen</i><par n="yma__adv"/></e>
     <e lm="er cof am"><i>er<b/>cof<b/>am</i><par n="yma__adv"/></e>
     <e lm="ar yr un pryd"><i>ar<b/>yr<b/>un<b/>pryd</i><par n="yma__adv"/></e>
     <e lm="fel petai"><i>fel<b/>petai</i><par n="yma__adv"/></e>
@@ -50068,7 +50070,7 @@
     <e lm="neuadd"><i>neuadd</i><par n="actores__n"/></e>
     <e lm="nofel"><i>nofel</i><par n="actores__n"/></e>
     <e lm="nos"><i>nos</i><par n="actores__n"/></e>
-    <e lm="dos"><par n="initial-d"/><i>os</i><par n="dos__n"/></e>
+<!--    <e lm="dos"><par n="initial-d"/><i>os</i><par n="dos__n"/></e> -->
     <e lm="ras"><i>ras</i><par n="dos__n"/></e>
     <e lm="ochr"><i>ochr</i><par n="actores__n"/></e>
     <e lm="odl"><i>odl</i><par n="actores__n"/></e>
