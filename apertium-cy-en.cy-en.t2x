@@ -1153,14 +1153,14 @@
 	    <clip pos="2" part="nbr"/>
             <clip pos="1" part="chcontent"/>
           </chunk>
-          <b/>
+<!--          <b/>
 	  <chunk>
             <lit v="to"/>
 	    <lit-tag v="SP"/>
 	    <lit v="{^to"/>
 	    <lit-tag v="pr"/>
 	    <lit v="$}"/>
-	  </chunk>
+	  </chunk> -->
 	  <b/>
           <chunk>
             <clip pos="3" part="lem"/>

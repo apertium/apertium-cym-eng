@@ -177,6 +177,9 @@ SELECT Pr IF (-1 NC) (1 V);
 #yn sicr o gynyddu
 REMOVE PrnSubj IF (-1 Adj) (1 V);
 
+#gwerthir llyfrau yma
+REMOVE DetDem IF (NOT -2* DetDef BARRIER V) ;
+
 #y llyfr yma
 REMOVE Adv IF (-1 NC) (0 Adv) (0 DetDem);
 REMOVE Prn IF (-1 NC) (0 Prn) (0 DetDem);
@@ -195,7 +198,6 @@ REMOVE MSoftC IF (-1 Adj);
 SELECT ("na" cnjsub) IF (-1* (adj comp) BARRIER Det);
 
 #i ein rhai ein hunain
-
 REMOVE PrnSubj IF (NOT -1 V);
 
 #
@@ -209,8 +211,3 @@ ADD (pred) ("unig" adj) ((1 (n)) OR (1 (np)) OR (1 (pr)) OR (1 Det) OR (1 (cm)))
 
 # distinguish between "work" and "time"
 REMOVE (n f) (0 ("gwaith")) (0 MSoftC);
-
-SECTION
-
-REMOVE ("i" pr) IF (0 ("i" pr)) (0 ("ein" det));
-REMOVE ("yn" pr) IF (0 ("ein" det));

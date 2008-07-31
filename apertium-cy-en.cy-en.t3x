@@ -84,7 +84,7 @@
         </let>
       </action>
     </rule>
-
+<!--
     <rule comment="CHUNK:">
       <pattern>
         <pattern-item n="verbinf"/>
@@ -118,7 +118,7 @@
               <lu>
                 <clip pos="1" part="whole"/>
               </lu>
-            </out>
+            </out> 
             <let>
               <var n="fullinf"/>
               <lit v="false"/>
@@ -127,7 +127,7 @@
         </choose>
       </action>
     </rule>
-
+-->
 
 
     <rule comment="CHUNK:">
@@ -397,7 +397,7 @@
           <lu>
             <clip pos="1" part="whole"/>
           </lu>
-        </out>
+        </out> 
         <let>
           <var n="fullinf"/>
           <lit v="true"/>

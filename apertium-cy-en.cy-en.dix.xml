@@ -64,6 +64,7 @@
 
     <e><p><l>amryw<b/>o<s n="det"/><s n="ind"/></l><r>various<s n="det"/><s n="ind"/></r></p></e>
  
+    <e><p><l>rhywun arall<s n="prn"/></l><r>someone else<s n="prn"/></r></p></e>
     <e><p><l>rhywun<s n="prn"/></l><r>someone<s n="prn"/></r></p></e>
     <e><p><l>pawb<s n="prn"/></l><r>everyone<s n="prn"/></r></p></e>
     <e><p><l>unrhywun<s n="prn"/></l><r>anyone<s n="prn"/></r></p></e>
@@ -119,6 +120,7 @@
     
     <!-- Uninflected prepositions -->
     <e><p><l>gyda<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
+    <e><p><l>uwch<s n="pr"/></l><r>above<s n="pr"/></r></p></e>
     <e r="LR"><p><l>â<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
     <e r="LR"><p><l>efo<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
     <e><p><l>tua<s n="pr"/></l><r>towards<s n="pr"/></r></p></e>
@@ -251,6 +253,7 @@
     <e><p><l>ond<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
     <e><p><l>neu<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
     <e><p><l>namyn<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
+    <e><p><l>naill ai<s n="cnjcoo"/></l><r>either<s n="cnjcoo"/></r></p></e>
     <e><p><l>eithr<s n="cnjcoo"/></l><r>except<s n="cnjcoo"/></r></p></e>
     <e><p><l>na<s n="cnjcoo"/></l><r>nor<s n="cnjcoo"/></r></p></e>
     <e><p><l>â<s n="cnjcoo"/></l><r>as<s n="cnjcoo"/></r></p></e>
@@ -305,6 +308,7 @@
 
 <!--    <e><p><l>fel<b/>arfer<s n="adv"/></l><r>as<b/>usual<s n="adv"/></r></p></e> -->
 
+    <e><p><l>er cof am<s n="adv"/></l><r>in memory of<s n="adv"/></r></p></e>
     <e><p><l>ar yr un pryd<s n="adv"/></l><r>at the same time<s n="adv"/></r></p></e>
     <e><p><l>fel petai<s n="adv"/></l><r>as it were<s n="adv"/></r></p></e>
     <e><p><l>yn fyw<s n="adv"/></l><r>alive<s n="adv"/></r></p></e>
@@ -321,10 +325,14 @@
     <e><p><l>hyd yn oed<s n="adv"/></l><r>even<s n="adv"/></r></p></e>
     <e><p><l>wrth gwrs<s n="adv"/></l><r>of course<s n="adv"/></r></p></e>
     <e><p><l>cynyddol<s n="adv"/></l><r>increasingly<s n="adv"/></r></p></e>
+    <e><p><l>hynod<s n="adv"/></l><r>remarkably<s n="adv"/></r></p></e>
+    <e><p><l>eitha<s n="adv"/></l><r>extremely<s n="adv"/></r></p></e>
+    <e><p><l>at hynny<s n="adv"/></l><r>besides that<s n="adv"/></r></p></e>
 
 <!--    <e><p><l>wedyn<s n="adv"/></l><r>here<s n="adv"/></r></p></e> -->
     <e><p><l>wedyn<s n="adv"/></l><r>afterwards<s n="adv"/></r></p></e>
 
+    <e><p><l>ai peidio<s n="adv"/></l><r>or not<s n="adv"/></r></p></e>
     <e><p><l>hefyd<s n="adv"/></l><r>also<s n="adv"/></r></p></e>
     <e><p><l>rwan<s n="adv"/></l><r>now<s n="adv"/></r></p></e>    <!-- this form is probably incorrect -->
     <e><p><l>rŵan<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
@@ -350,6 +358,10 @@
     <e><p><l>wrth<b/>gwrs<s n="adv"/></l><r>of<b/>course<s n="adv"/></r></p></e>
     <e><p><l>ar<b/>hyn<b/>o<b/>bryd<s n="adv"/></l><r>at<b/>the<b/>moment<s n="adv"/></r></p></e>
     <e><p><l>fel<b/>ag<b/>y<b/>mae<s n="adv"/></l><r>like<b/>it<b/>is<s n="adv"/></r></p></e>
+
+    <e><p><l>ac ati<s n="adv"/></l><r>and so on<s n="adv"/></r></p></e>
+    <e><p><l>drosodd a throsodd<s n="adv"/></l><r>over and over<s n="adv"/></r></p></e>
+    <e><p><l>erbyn meddwl<s n="adv"/></l><r>come to think of it<s n="adv"/></r></p></e>
  
     <e><p><l>acw<s n="adv"/></l><r>over<b/>there<s n="adv"/></r></p></e>
     <e><p><l>adre<s n="adv"/></l><r>homewards<s n="adv"/></r></p></e>
@@ -439,6 +451,18 @@
     <e><p><l>masnachol-ei-sail<s n="adv"/></l><r>on<b/>a<b/>commercial<b/>basis<s n="adv"/></r></p></e>
     <e><p><l>mi<s n="adv"/></l><r>not<s n="adv"/></r></p></e>
     <e><p><l>mo<s n="adv"/></l><r>not<s n="adv"/></r></p></e>
+
+
+    <e><p><l>ar fy mhen fy hun<s n="adv"/></l><r>on my own<s n="adv"/></r></p></e>
+    <e><p><l>ar dy ben dy hun<s n="adv"/></l><r>on your own<s n="adv"/></r></p></e>
+    <e><p><l>ar ei ben ei hun<s n="adv"/></l><r>on his own<s n="adv"/></r></p></e>
+    <e><p><l>ar ei phen ei hun<s n="adv"/></l><r>on her own<s n="adv"/></r></p></e>
+    <e><p><l>ar ein pennau ein hun<s n="adv"/></l><r>on our own<s n="adv"/></r></p></e>
+    <e><p><l>ar eich pen eich hun<s n="adv"/></l><r>on your own<s n="adv"/></r></p></e>
+    <e><p><l>ar eich pennau eich hun<s n="adv"/></l><r>on your own<s n="adv"/></r></p></e>
+    <e><p><l>ar eu pennau eu hun<s n="adv"/></l><r>on their own<s n="adv"/></r></p></e>
+
+
 
     <e><p><l>mohonoch<b/>chi<s n="adv"/></l><r>not<b/>you<s n="adv"/></r></p></e>
     <e><p><l>mohono<b/>fe<s n="adv"/></l><r>not<b/>him<s n="adv"/></r></p></e>
@@ -542,6 +566,26 @@
     <e><p><l>hofrenfad<s n="n"/><s n="mf"/></l><r>hovercraft<s n="n"/></r></p></e>
     <e><p><l>carped<s n="n"/><s n="m"/></l><r>carpet<s n="n"/></r></p></e>
     <e><p><l>fechnïaeth<s n="n"/><s n="f"/></l><r>bail<s n="n"/></r></p></e>
+
+    <e><p><l>addolwr<s n="n"/><s n="m"/></l><r>worshipper<s n="n"/></r></p></e>
+    <e><p><l>alaw<s n="n"/><s n="f"/></l><r>melody<s n="n"/></r></p></e>
+    <e><p><l>archdderwydd<s n="n"/><s n="m"/></l><r>archdruid<s n="n"/></r></p></e>
+    <e><p><l>band<g><b/>pres</g><s n="n"/><s n="m"/></l><r>brass band<s n="n"/></r></p></e>
+    <e><p><l>coron<s n="n"/><s n="f"/></l><r>crown<s n="n"/></r></p></e>
+    <e><p><l>cwsg<s n="n"/><s n="m"/></l><r>sleep<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>cyfansoddwr<s n="n"/><s n="m"/></l><r>composer<s n="n"/></r></p></e>
+    <e><p><l>darpariaeth<s n="n"/><s n="f"/></l><r>provision<s n="n"/></r></p></e>
+    <e><p><l>derwydd<s n="n"/><s n="m"/></l><r>druid<s n="n"/></r></p></e>
+    <e><p><l>Gorsedd<s n="np"/><s n="org"/><s n="f"/></l><r>Bardic<b/>order<s n="n"/></r></p></e>
+    <e><p><l>gorsedd<s n="n"/><s n="f"/></l><r>throne<s n="n"/></r></p></e>
+    <e><p><l>gwae<s n="n"/><s n="mf"/></l><r>woe<s n="n"/></r></p></e>
+    <e><p><l>gwawr<s n="n"/><s n="f"/></l><r>dawn<s n="n"/></r></p></e>
+    <e><p><l>oedfa<s n="n"/><s n="f"/></l><r>service<s n="n"/></r></p></e>
+    <e><p><l>pafiliwn<s n="n"/><s n="m"/></l><r>pavilion<s n="n"/></r></p></e>
+    <e><p><l>rhagbrawf<s n="n"/><s n="m"/></l><r>preliminary<b/>test<s n="n"/></r></p></e>
+    <e><p><l>rhedwr<s n="n"/><s n="m"/></l><r>runner<s n="n"/></r></p></e>
+    <e><p><l>tant<s n="n"/><s n="m"/></l><r>string<s n="n"/></r></p></e>
+
 
     <e><p><l>cyllell<s n="n"/><s n="f"/></l><r>knife<s n="n"/></r></p></e>
     <e><p><l>anhapusrwydd<s n="n"/><s n="m"/></l><r>unhappiness<s n="n"/><s n="unc"/></r></p></e>
@@ -671,7 +715,6 @@
     <e><p><l>anghyfanhedd-dra<s n="n"/><s n="m"/></l><r>desolation<s n="n"/></r></p></e><!-- desolation - anghyfanhedd-dra [m.]-->
     <e><p><l>diwinyddiaeth<s n="n"/><s n="f"/></l><r>theology<s n="n"/></r></p></e><!-- theology - diwinyddiaeth [f.]-->
     <e><p><l>dadeni<s n="n"/><s n="m"/></l><r>renaissance<s n="n"/></r></p></e><!-- renaissance - dadeni [m.]-->
-    <e><p><l>gwawr<s n="n"/><s n="f"/></l><r>nuance<s n="n"/></r></p></e><!-- nuance - gwawr [f.]-->
     <e><p><l>brag<s n="n"/><s n="m"/></l><r>malt<s n="n"/></r></p></e><!-- malt - brag [m.]-->
     <e><p><l>piano<s n="n"/><s n="mf"/></l><r>piano<s n="n"/></r></p></e><!-- piano - piano [mf.]-->
     <e><p><l>manna<s n="n"/><s n="m"/></l><r>manna<s n="n"/></r></p></e><!-- manna - manna [m.]-->
@@ -883,6 +926,8 @@
     <e><p><l>morlys<s n="n"/><s n="m"/></l><r>admiralty<s n="n"/></r></p></e><!-- admiralty - morlys [m.]-->
  
     <e><p><l>ysbïwr<s n="n"/><s n="m"/></l><r>spy<s n="n"/></r></p></e>
+    <e><p><l>ffermwr<s n="n"/><s n="m"/></l><r>farmer<s n="n"/></r></p></e>
+    <e><p><l>comisiynydd<s n="n"/><s n="m"/></l><r>commissioner<s n="n"/></r></p></e>
 
 
     <e><p><l>terfysgaeth<s n="n"/><s n="f"/></l><r>terrorism<s n="n"/></r></p></e>
@@ -1100,6 +1145,7 @@
     <e><p><l>aseiniad<s n="n"/><s n="m"/></l><r>assignment<s n="n"/></r></p></e>
     <e><p><l>asesiad<s n="n"/><s n="m"/></l><r>assessment<s n="n"/></r></p></e>
     <e><p><l>asiant<s n="n"/><s n="m"/></l><r>agent<s n="n"/></r></p></e>
+    <e><p><l>blaidd<s n="n"/><s n="m"/></l><r>wolf<s n="n"/></r></p></e>
     <e><p><l>asiantaeth<s n="n"/><s n="f"/></l><r>agency<s n="n"/></r></p></e>
     <e><p><l>asid<s n="n"/><s n="m"/></l><r>acid<s n="n"/></r></p></e>
     <e><p><l>astudiaeth<s n="n"/><s n="f"/></l><r>study<s n="n"/></r></p></e>
@@ -1180,6 +1226,7 @@
     <e><p><l>cebl<s n="n"/><s n="m"/></l><r>cable<s n="n"/></r></p></e>
     <e><p><l>ceffyl<s n="n"/><s n="m"/></l><r>horse<s n="n"/></r></p></e>
     <e><p><l>cefn<s n="n"/><s n="m"/></l><r>back<s n="n"/></r></p></e>
+    <e><p><l>cefn<g><b/>gwlad</g><s n="n"/><s n="m"/></l><r>countryside<s n="n"/></r></p></e>
     <e><p><l>ceg<s n="n"/><s n="f"/></l><r>mouth<s n="n"/></r></p></e>
     <e><p><l>cegin<s n="n"/><s n="f"/></l><r>kitchen<s n="n"/></r></p></e>
     <e><p><l>cei<s n="n"/><s n="m"/></l><r>quay<s n="n"/></r></p></e>
@@ -2727,7 +2774,7 @@
     <e><p><l>gwarged<s n="n"/><s n="m"/></l><r>remains<s n="n"/></r></p></e>
     <e><p><l>gweddill<s n="n"/><s n="m"/></l><r>remnant<s n="n"/></r></p></e>
     <e><p><l>gweinidog<s n="n"/><s n="m"/></l><r>minister<s n="n"/></r></p></e>
-    <e><p><l>Prif<b/>Weinidog<s n="n"/><s n="m"/></l><r>First<b/>Minister<s n="n"/></r></p></e>
+    <e><p><l>Prif<b/>Weinidog<s n="n"/><s n="m"/></l><r>Prime<b/>Minister<s n="n"/></r></p></e>
     <e><p><l>gweinydd<s n="n"/><s n="m"/></l><r>server<s n="n"/></r></p></e>
     <e><p><l>gweithredydd<s n="n"/><s n="m"/></l><r>operator<s n="n"/></r></p></e>
     <e><p><l>gwelydd<s n="n"/><s n="m"/></l><r>viewer<s n="n"/></r></p></e>
@@ -3123,6 +3170,8 @@
     <e><p><l>coetir<s n="n"/><s n="m"/></l><r>woodland<s n="n"/></r></p></e>
     <e><p><l>cyfle<s n="n"/><s n="m"/></l><r>opportunity<s n="n"/></r></p></e>
     <e><p><l>cylch<s n="n"/><s n="m"/></l><r>circle<s n="n"/></r></p></e>
+    <e><p><l>cylch<g><b/>yr<b/>Orsedd</g><s n="n"/><s n="m"/></l><r>bardic circle<s n="n"/></r></p></e>
+
     <e><p><l>cylchfa<s n="n"/><s n="f"/></l><r>zone<s n="n"/></r></p></e>
     <e><p><l>cynefin<s n="n"/><s n="m"/></l><r>habitat<s n="n"/></r></p></e>
     <e><p><l>darlith<s n="n"/><s n="f"/></l><r>lecture<s n="n"/></r></p></e>
@@ -3654,6 +3703,7 @@
     <e><p><l>bocs<s n="n"/><s n="m"/></l><r>box<s n="n"/></r></p></e>
     <e><p><l>cwis<s n="n"/><s n="m"/></l><r>quiz<s n="n"/></r></p></e>
     <e><p><l>dos<s n="n"/><s n="f"/></l><r>dose<s n="n"/></r></p></e>
+    <e><p><l>ras<s n="n"/><s n="f"/></l><r>race<s n="n"/></r></p></e>
     <e><p><l>ffacs<s n="n"/><s n="m"/></l><r>fax<s n="n"/></r></p></e>
     <e><p><l>ffens<s n="n"/><s n="f"/></l><r>fence<s n="n"/></r></p></e>
     <e><p><l>niwsans<s n="n"/><s n="m"/></l><r>nuisance<s n="n"/></r></p></e>
@@ -4664,6 +4714,9 @@
     <e><p><l>cardiag<s n="adj"/></l><r>cardiac<s n="adj"/></r></p></e>
     <e><p><l>cardiolegol<s n="adj"/></l><r>cardiac<s n="adj"/></r></p></e>
     <e><p><l>caredig<s n="adj"/></l><r>kind<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>rhoddedig<s n="adj"/></l><r>given<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>cwynfannus<s n="adj"/></l><r>mournful<s n="adj"/></r></p></e>
+    <e><p><l>nesaf<s n="adj"/></l><r>next<s n="adj"/></r></p></e> 
     <e><p><l>cartesaidd<s n="adj"/></l><r>cartesian<s n="adj"/></r></p></e>
     <e><p><l>cas<s n="adj"/></l><r>nasty<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>cefnogol<s n="adj"/></l><r>encouraging<s n="adj"/></r></p></e>
@@ -5914,6 +5967,7 @@
     <e><p><l>oes<s n="vbser"/></l><r>there be<s n="vbser"/></r></p></e>
     <e><p><l>dyna<s n="vbser"/></l><r>there be<s n="vbser"/></r></p></e>
     <e><p><l>dyma<s n="vbser"/></l><r>here be<s n="vbser"/></r></p></e>
+    <e><p><l>geni<s n="vblex"/></l><r>be<b/>born<s n="vbser"/></r></p></e>
  
     <e><p><l>bod<g><b/>angen</g><s n="vbser"/></l><r>there be<g><b/>a<b/>need</g><s n="vbser"/></r></p></e>
     <e><p><l>oes<g><b/>angen</g><s n="vbser"/></l><r>there be<g><b/>a<b/>need</g><s n="vbser"/></r></p></e>
@@ -5958,6 +6012,7 @@
     <e><p><l>adlewyrchu<s n="vblex"/></l><r>reflect<s n="vblex"/></r></p></e>
     <e><p><l>adlifo<s n="vblex"/></l><r>reflux<s n="vblex"/></r></p></e>
     <e><p><l>adnabod<s n="vblex"/></l><r>know<s n="vblex"/></r></p></e> <!-- to know someone -->
+    <e><p><l>gwybod<s n="vblex"/></l><r>know<s n="vblex"/></r></p></e> <!-- to know someone -->
     <e><p><l>adneuo<s n="vblex"/></l><r>deposit<s n="vblex"/></r></p></e>
     <e><p><l>adnewyddu<s n="vblex"/></l><r>renew<s n="vblex"/></r></p></e>
     <e><p><l>adnoddu<s n="vblex"/></l><r>resource<s n="vblex"/></r></p></e>
@@ -7568,6 +7623,7 @@
     <e><p><l>gaeafgysgu<s n="vblex"/></l><r>hibernate<s n="vblex"/></r></p></e>
     <e><p><l>gaeafu<s n="vblex"/></l><r>winter<s n="vblex"/></r></p></e>
     <e><p><l>gafael<s n="vblex"/></l><r>grasp<s n="vblex"/></r></p></e>
+    <e><p><l>gafael<g><b/>ar</g><s n="vblex"/></l><r>grab<s n="vblex"/></r></p></e>
     <e><p><l>galarnadu<s n="vblex"/></l><r>lament<s n="vblex"/></r></p></e>
     <e><p><l>galaru<s n="vblex"/></l><r>wail<s n="vblex"/></r></p></e>
     <e><p><l>galfaneiddio<s n="vblex"/></l><r>galvanise<s n="vblex"/></r></p></e>
@@ -10973,6 +11029,7 @@
     <e><p><l>Jones<s n="np"/><s n="cog"/></l><r>Jones<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Llwyd<s n="np"/><s n="cog"/></l><r>Llwyd<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Lloyd<s n="np"/><s n="cog"/></l><r>Lloyd<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Nelson<s n="np"/><s n="cog"/></l><r>Nelson<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Havard<s n="np"/><s n="cog"/></l><r>Havard<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Haf<s n="np"/><s n="cog"/></l><r>Haf<s n="np"/><s n="cog"/></r></p></e>
 
@@ -11099,13 +11156,14 @@
     <e><p><l>Sir Gaernarfon<s n="np"/><s n="top"/><s n="f"/></l><r>Caernarfonshire<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Torfaen<s n="np"/><s n="top"/><s n="f"/></l><r>Torfaen<s n="np"/><s n="top"/></r></p></e>
 
+    <e><p><l>y Wladfa<s n="np"/><s n="top"/><s n="f"/></l><r>Y Wladfa<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Mynwy<s n="np"/><s n="top"/><s n="f"/></l><r>Monmouth<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Trefynwy<s n="np"/><s n="top"/><s n="f"/></l><r>Monmouth Town<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ynys Seiriol<s n="np"/><s n="top"/><s n="f"/></l><r>Puffin Island<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ynys Gybi<s n="np"/><s n="top"/><s n="f"/></l><r>Holy Island<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caergybi<s n="np"/><s n="top"/><s n="f"/></l><r>Holyhead<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Yr Wyddgrug<s n="np"/><s n="top"/><s n="f"/></l><r>Mold<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Y Fenni<s n="np"/><s n="top"/><s n="f"/></l><r>Abergavenny<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>yr Wyddgrug<s n="np"/><s n="top"/><s n="f"/></l><r>Mold<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>y Fenni<s n="np"/><s n="top"/><s n="f"/></l><r>Abergavenny<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ariannin<s n="np"/><s n="top"/><s n="f"/></l><r>Argentina<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ynys Enlli<s n="np"/><s n="top"/><s n="f"/></l><r>Bardsey Island<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bermo<s n="np"/><s n="top"/><s n="f"/></l><r>Barmouth<s n="np"/><s n="top"/></r></p></e>
@@ -11121,13 +11179,16 @@
     <e><p><l>Morgannwg<s n="np"/><s n="top"/><s n="f"/></l><r>Glamorgan<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Gwent<s n="np"/><s n="top"/><s n="f"/></l><r>Gwent<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Iwerddon<s n="np"/><s n="top"/><s n="f"/></l><r>Ireland<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Yr Alban<s n="np"/><s n="top"/><s n="f"/></l><r>Scotland<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>yr Alban<s n="np"/><s n="top"/><s n="f"/></l><r>Scotland<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Cernyw<s n="np"/><s n="top"/><s n="f"/></l><r>Cornwall<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ynys Manaw<s n="np"/><s n="top"/><s n="f"/></l><r>Isle of Man<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Treffynnon<s n="np"/><s n="top"/><s n="f"/></l><r>Holywell<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Biwmaris<s n="np"/><s n="top"/><s n="f"/></l><r>Beaumaris<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Y Waun<s n="np"/><s n="top"/><s n="f"/></l><r>Chirk<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>y Waun<s n="np"/><s n="top"/><s n="f"/></l><r>Chirk<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Efrog Newydd<s n="np"/><s n="top"/><s n="f"/></l><r>New York<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>y Bala<s n="np"/><s n="top"/><s n="f"/></l><r>Bala<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>y Wyddfa<s n="np"/><s n="top"/><s n="f"/></l><r>Snowdon<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Eryri<s n="np"/><s n="top"/><s n="f"/></l><r>Snowdonia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Efrog<s n="np"/><s n="top"/><s n="f"/></l><r>York<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caeredin<s n="np"/><s n="top"/><s n="f"/></l><r>Edinburgh<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Porthaethwy<s n="np"/><s n="top"/><s n="f"/></l><r>Menai Bridge<s n="np"/><s n="top"/></r></p></e>
@@ -11135,7 +11196,7 @@
     <e><p><l>Dinbych y Pysgod<s n="np"/><s n="top"/><s n="f"/></l><r>Tenby<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dinbych<s n="np"/><s n="top"/><s n="f"/></l><r>Denbigh<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llanelwy<s n="np"/><s n="top"/><s n="f"/></l><r>St Asaph<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Y Trallwng<s n="np"/><s n="top"/><s n="f"/></l><r>Welshpool<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>y Trallwng<s n="np"/><s n="top"/><s n="f"/></l><r>Welshpool<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Wrecsam<s n="np"/><s n="top"/><s n="f"/></l><r>Wrexham<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Niwbwrch<s n="np"/><s n="top"/><s n="f"/></l><r>Newborough<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llwydle<s n="np"/><s n="top"/><s n="f"/></l><r>Ludlow<s n="np"/><s n="top"/></r></p></e>
@@ -11147,7 +11208,7 @@
     <e><p><l>Penfro<s n="np"/><s n="top"/><s n="f"/></l><r>Pembroke<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Clawdd Offa<s n="np"/><s n="top"/><s n="f"/></l><r>Offa's Dyke<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Croesoswallt<s n="np"/><s n="top"/><s n="f"/></l><r>Oswestry<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Y Felinheli<s n="np"/><s n="top"/><s n="f"/></l><r>Port Dinorwic<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>y Felinheli<s n="np"/><s n="top"/><s n="f"/></l><r>Port Dinorwic<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Maesyfed<s n="np"/><s n="top"/><s n="f"/></l><r>Radnor<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caerdydd<s n="np"/><s n="top"/><s n="f"/></l><r>Cardiff<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Abertawe<s n="np"/><s n="top"/><s n="f"/></l><r>Swansea<s n="np"/><s n="top"/></r></p></e>
@@ -11233,8 +11294,7 @@
     <e><p><l>Angola<s n="np"/><s n="top"/><s n="f"/></l><r>Angola<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Anguilla<s n="np"/><s n="top"/><s n="f"/></l><r>Anguilla<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ankara<s n="np"/><s n="top"/><s n="f"/></l><r>Ankara<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Yr Antarctig<s n="np"/><s n="top"/><s n="f"/></l><r>Antarctica<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Yr Antarctig<s n="np"/><s n="top"/><s n="f"/></l><r>Antarctic<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>yr Antarctig<s n="np"/><s n="top"/><s n="f"/></l><r>Antarctica<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Aragón<s n="np"/><s n="top"/><s n="f"/></l><r>Aragon<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Arizona<s n="np"/><s n="top"/><s n="f"/></l><r>Arizona<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Arkansas<s n="np"/><s n="top"/><s n="f"/></l><r>Arkansas<s n="np"/><s n="top"/></r></p></e>
@@ -11261,7 +11321,7 @@
     <e><p><l>Belize<s n="np"/><s n="top"/><s n="f"/></l><r>Belize<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Benin<s n="np"/><s n="top"/><s n="f"/></l><r>Benin<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bhutan<s n="np"/><s n="top"/><s n="f"/></l><r>Bhutan<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Y Môr Du<s n="np"/><s n="top"/><s n="f"/></l><r>Black Sea<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>y Môr Du<s n="np"/><s n="top"/><s n="f"/></l><r>Black Sea<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bogotá<s n="np"/><s n="top"/><s n="f"/></l><r>Bogota<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bolivia<s n="np"/><s n="top"/><s n="f"/></l><r>Bolivia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bosna a Hercegovina<s n="np"/><s n="top"/><s n="f"/></l><r>Bosnia and Herzegovina<s n="np"/><s n="top"/></r></p></e>
@@ -11282,7 +11342,7 @@
     <e><p><l>Cambodia<s n="np"/><s n="top"/><s n="f"/></l><r>Cambodia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Camerŵn<s n="np"/><s n="top"/><s n="f"/></l><r>Cameroon<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Canada<s n="np"/><s n="top"/><s n="f"/></l><r>Canada<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Yr Ynysoedd Dedwydd<s n="np"/><s n="top"/><s n="f"/></l><r>Canary Islands<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>yr Ynysoedd Dedwydd<s n="np"/><s n="top"/><s n="f"/></l><r>Canary Islands<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Canberra<s n="np"/><s n="top"/><s n="f"/></l><r>Canberra<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Cantabria<s n="np"/><s n="top"/><s n="f"/></l><r>Cantabria<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Cabo Verde<s n="np"/><s n="top"/><s n="f"/></l><r>Cape Verde<s n="np"/><s n="top"/></r></p></e>
@@ -11311,7 +11371,7 @@
     <e><p><l>Ecuador<s n="np"/><s n="top"/><s n="f"/></l><r>Ecuador<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Eden<s n="np"/><s n="top"/><s n="f"/></l><r>Eden<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caeredin<s n="np"/><s n="top"/><s n="f"/></l><r>Edinburgh<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Yr Aifft<s n="np"/><s n="top"/><s n="f"/></l><r>Egypt<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>yr Aifft<s n="np"/><s n="top"/><s n="f"/></l><r>Egypt<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Eritrea<s n="np"/><s n="top"/><s n="f"/></l><r>Eritrea<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Estonia<s n="np"/><s n="top"/><s n="f"/></l><r>Estonia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ethiopia<s n="np"/><s n="top"/><s n="f"/></l><r>Ethiopia<s n="np"/><s n="top"/></r></p></e>
@@ -11323,8 +11383,8 @@
     <e><p><l>Frankfurt am Main<s n="np"/><s n="top"/><s n="f"/></l><r>Frankfurt<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Gabon<s n="np"/><s n="top"/><s n="f"/></l><r>Gabon<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ynysoedd y Galapagos<s n="np"/><s n="top"/><s n="f"/></l><r>Galapagos Islands<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Y Gambia<s n="np"/><s n="top"/><s n="f"/></l><r>Gambia<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Yr Almaen<s n="np"/><s n="top"/><s n="f"/></l><r>Germany<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>y Gambia<s n="np"/><s n="top"/><s n="f"/></l><r>Gambia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>yr Almaen<s n="np"/><s n="top"/><s n="f"/></l><r>Germany<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ghana<s n="np"/><s n="top"/><s n="f"/></l><r>Ghana<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Gibraltar<s n="np"/><s n="top"/><s n="f"/></l><r>Gibraltar<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Prydain Fawr<s n="np"/><s n="top"/><s n="f"/></l><r>Great Britain<s n="np"/><s n="top"/></r></p></e>
@@ -11349,7 +11409,7 @@
     <e><p><l>Irac<s n="np"/><s n="top"/><s n="f"/></l><r>Iraq<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Islamabad<s n="np"/><s n="top"/><s n="f"/></l><r>Islamabad<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Israel<s n="np"/><s n="top"/><s n="f"/></l><r>Israel<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Yr Eidal<s n="np"/><s n="top"/><s n="f"/></l><r>Italy<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>yr Eidal<s n="np"/><s n="top"/><s n="f"/></l><r>Italy<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Côte d'Ivoire<s n="np"/><s n="top"/><s n="f"/></l><r>Ivory Coast<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Jakarta<s n="np"/><s n="top"/><s n="f"/></l><r>Jakarta<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Jamaica<s n="np"/><s n="top"/><s n="f"/></l><r>Jamaica<s n="np"/><s n="top"/></r></p></e>
@@ -11390,7 +11450,7 @@
     <e><p><l>Mauritania<s n="np"/><s n="top"/><s n="f"/></l><r>Mauritania<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Mauritius<s n="np"/><s n="top"/><s n="f"/></l><r>Mauritius<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>México<s n="np"/><s n="top"/><s n="f"/></l><r>Mexico<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Y Dwyrain Canol<s n="np"/><s n="top"/><s n="f"/></l><r>Middle East<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>y Dwyrain Canol<s n="np"/><s n="top"/><s n="f"/></l><r>Middle East<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Milan<s n="np"/><s n="top"/><s n="f"/></l><r>Milan<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Missouri<s n="np"/><s n="top"/><s n="f"/></l><r>Missouri<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Moldofa<s n="np"/><s n="top"/><s n="f"/></l><r>Moldova<s n="np"/><s n="top"/></r></p></e>
@@ -11405,7 +11465,7 @@
     <e><p><l>Namibia<s n="np"/><s n="top"/><s n="f"/></l><r>Namibia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Navarra<s n="np"/><s n="top"/><s n="f"/></l><r>Navarra<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Nepal<s n="np"/><s n="top"/><s n="f"/></l><r>Nepal<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Yr Iseldiroedd<s n="np"/><s n="top"/><s n="f"/></l><r>Netherlands<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>yr Iseldiroedd<s n="np"/><s n="top"/><s n="f"/></l><r>Netherlands<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caledonia Newydd<s n="np"/><s n="top"/><s n="f"/></l><r>New Caledonia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Delhi Newydd<s n="np"/><s n="top"/><s n="f"/></l><r>New Delhi<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Newfoundland<s n="np"/><s n="top"/><s n="f"/></l><r>Newfoundland<s n="np"/><s n="top"/></r></p></e>
@@ -11428,7 +11488,7 @@
     <e><p><l>Oslo<s n="np"/><s n="top"/><s n="f"/></l><r>Oslo<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ottawa<s n="np"/><s n="top"/><s n="f"/></l><r>Ottawa<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Rhydychen<s n="np"/><s n="top"/><s n="f"/></l><r>Oxford<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Y Cefnfor Tawel<s n="np"/><s n="top"/><s n="f"/></l><r>Pacific<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>y Cefnfor Tawel<s n="np"/><s n="top"/><s n="f"/></l><r>Pacific<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Pakistan<s n="np"/><s n="top"/><s n="f"/></l><r>Pakistan<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Palesteina<s n="np"/><s n="top"/><s n="f"/></l><r>Palestine<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Panama<s n="np"/><s n="top"/><s n="f"/></l><r>Panama<s n="np"/><s n="top"/></r></p></e>
@@ -11476,7 +11536,7 @@
     <e><p><l>De Affrica<s n="np"/><s n="top"/><s n="f"/></l><r>South Africa<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>De America<s n="np"/><s n="top"/><s n="f"/></l><r>South America<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Pegwn y De<s n="np"/><s n="top"/><s n="f"/></l><r>South Pole<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Yr Undeb Sofietaidd<s n="np"/><s n="top"/><s n="f"/></l><r>Soviet Union<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>yr Undeb Sofietaidd<s n="np"/><s n="top"/><s n="f"/></l><r>Soviet Union<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Sbaen<s n="np"/><s n="top"/><s n="f"/></l><r>Spain<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Stockholm<s n="np"/><s n="top"/><s n="f"/></l><r>Stockholm<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Strasbourg<s n="np"/><s n="top"/><s n="f"/></l><r>Strasbourg<s n="np"/><s n="top"/></r></p></e>
@@ -11484,15 +11544,15 @@
     <e><p><l>Suriname<s n="np"/><s n="top"/><s n="f"/></l><r>Suriname<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Gwlad Swazi<s n="np"/><s n="top"/><s n="f"/></l><r>Swaziland<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Sweden<s n="np"/><s n="top"/><s n="f"/></l><r>Sweden<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Y Swistir<s n="np"/><s n="top"/><s n="f"/></l><r>Switzerland<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>y Swistir<s n="np"/><s n="top"/><s n="f"/></l><r>Switzerland<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Syria<s n="np"/><s n="top"/><s n="f"/></l><r>Syria<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Taiwan<s n="np"/><s n="top"/><s n="f"/></l><r>Taiwan<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Tajikistan<s n="np"/><s n="top"/><s n="f"/></l><r>Tajikistan<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Tanzania<s n="np"/><s n="top"/><s n="f"/></l><r>Tanzania<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Texas<s n="np"/><s n="top"/><s n="f"/></l><r>Texas<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Gwlad Thai<s n="np"/><s n="top"/><s n="f"/></l><r>Thailand<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Y Gambia<s n="np"/><s n="top"/><s n="f"/></l><r>The Gambia<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Yr Iseldiroedd<s n="np"/><s n="top"/><s n="f"/></l><r>The Netherlands<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>y Gambia<s n="np"/><s n="top"/><s n="f"/></l><r>The Gambia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>yr Iseldiroedd<s n="np"/><s n="top"/><s n="f"/></l><r>The Netherlands<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Togo<s n="np"/><s n="top"/><s n="f"/></l><r>Togo<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Tokyo<s n="np"/><s n="top"/><s n="f"/></l><r>Tokyo<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Tonga<s n="np"/><s n="top"/><s n="f"/></l><r>Tonga<s n="np"/><s n="top"/></r></p></e>
@@ -11503,8 +11563,8 @@
     <e><p><l>Turkmenistan<s n="np"/><s n="top"/><s n="f"/></l><r>Turkmenistan<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Wganda<s n="np"/><s n="top"/><s n="f"/></l><r>Uganda<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Wcráin<s n="np"/><s n="top"/><s n="f"/></l><r>Ukraine<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Yr Emiradau Arabaidd Unedig<s n="np"/><s n="top"/><s n="f"/></l><r>United Arab Emirates<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Y Deyrnas Unedig<s n="np"/><s n="top"/><s n="f"/></l><r>United Kingdom<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>yr Emiradau Arabaidd Unedig<s n="np"/><s n="top"/><s n="f"/></l><r>United Arab Emirates<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>y Deyrnas Unedig<s n="np"/><s n="top"/><s n="f"/></l><r>United Kingdom<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Unol Daleithiau America<s n="np"/><s n="top"/><s n="f"/></l><r>United States of America<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Wranws <s n="np"/><s n="top"/><s n="f"/></l><r>Uranus<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Uruguay<s n="np"/><s n="top"/><s n="f"/></l><r>Uruguay<s n="np"/><s n="top"/></r></p></e>
@@ -11530,6 +11590,8 @@
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
     <e><re>[£$€][0-9]+([.,][0-9]+)?</re><p><l><s n="num"/><s n="mon"/></l><r><s n="num"/><s n="mon"/></r></p></e>
     <e><re>[£$€][0-9]+([.,][0-9]+)?m</re><p><l><s n="num"/><s n="mon"/></l><r><s n="num"/><s n="mon"/></r></p></e>
+
+<!--
     <e><re>([0-9]+[.,][0-9]+)?11</re><p><l>eg<s n="num"/><s n="ord"/></l><r>th<s n="num"/><s n="ord"/></r></p></e>
     <e><re>([0-9]+[.,][0-9]+)?12</re><p><l>eg<s n="num"/><s n="ord"/></l><r>th<s n="num"/><s n="ord"/></r></p></e>
     <e><re>([0-9]+[.,][0-9]+)?13</re><p><l>eg<s n="num"/><s n="ord"/></l><r>th<s n="num"/><s n="ord"/></r></p></e>
@@ -11537,6 +11599,14 @@
     <e><re>([0-9]+[.,][0-9]+)?2</re><p><l>eg<s n="num"/><s n="ord"/></l><r>nd<s n="num"/><s n="ord"/></r></p></e>
     <e><re>([0-9]+[.,][0-9]+)?3</re><p><l>eg<s n="num"/><s n="ord"/></l><r>rd<s n="num"/><s n="ord"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l>eg<s n="num"/><s n="ord"/></l><r>th<s n="num"/><s n="ord"/></r></p></e>
+-->
+
+    <e><re>[1-9]?</re><p><l>1af<s n="num"/><s n="ord"/></l><r>1st<s n="num"/><s n="ord"/></r></p></e>
+    <e><re>[0-9]?</re><p><l>2il<s n="num"/><s n="ord"/></l><r>2nd<s n="num"/><s n="ord"/></r></p></e>
+    <e><re>[0-9]?</re><p><l>3ydd<s n="num"/><s n="ord"/></l><r>3rd<s n="num"/><s n="ord"/></r></p></e>
+    <e><re>[0-9]?</re><p><l>4ydd<s n="num"/><s n="ord"/></l><r>4th<s n="num"/><s n="ord"/></r></p></e>
+    <e><re>[0-9]?</re><p><l>ed<s n="num"/><s n="ord"/></l><r>th<s n="num"/><s n="ord"/></r></p></e>
+
 
     <e><re>[0-9]+([.,][0-9]+)?au</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 
