@@ -1208,6 +1208,79 @@
 
     </pardef>
 
+    <pardef n="premph__prn">
+      <e>
+        <p>
+          <l>finnau</l>
+          <r>prpers<s n="prn"/><s n="emph"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>minnau</l>
+          <r>prpers<s n="prn"/><s n="emph"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>innau</l>
+          <r>prpers<s n="prn"/><s n="emph"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>dithau</l>
+          <r>prpers<s n="prn"/><s n="emph"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>tithau</l>
+          <r>prpers<s n="prn"/><s n="emph"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>fintau</l>
+          <r>prpers<s n="prn"/><s n="emph"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>yntau</l>
+          <r>prpers<s n="prn"/><s n="emph"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>hithau</l>
+          <r>prpers<s n="prn"/><s n="emph"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>ninnau</l>
+          <r>prpers<s n="prn"/><s n="emph"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>chithau</l>
+          <r>prpers<s n="prn"/><s n="emph"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nhwthau</l>
+          <r>prpers<s n="prn"/><s n="emph"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
 
 
     <!-- Prepositions -->
@@ -32868,12 +32941,14 @@
       </e>
     </pardef>
     <pardef n="t/ewi__vblex">
+<!--
       <e>
         <p>
           <l>ewi</l>
           <r>ewi<s n="vblex"/><s n="inf"/></r>
         </p>
       </e>
+-->
       <e>
         <p>
           <l>awa</l>
@@ -48496,6 +48571,7 @@
 
     <e lm="pronoms personals de subjecte"><i/><par n="prsubj__prn"/></e>
     <e lm="pronoms reflexius"><i/><par n="prref__prn"/></e>
+    <e lm="pronoms enfàtics"><i/><par n="premph__prn"/></e>
 
     <e lm="unrhywun"><i>unrhywun</i><par n="unrhywun__prn"/></e>
     <e lm="rhywun arall"><i>rhywun<b/>arall</i><par n="unrhywun__prn"/></e>
@@ -51366,7 +51442,10 @@
     <e lm="blwydd"><par n="initial-b"/><i>lwydd</i><par n="acer__n"/></e>
     <e lm="bwled"><par n="initial-b"/><i>wled</i><par n="acer__n"/></e>
     <e lm="cadwyn"><par n="initial-c"/><i>adwyn</i><par n="acer__n"/></e>
+
     <e lm="cerdd"><par n="initial-c"/><i>erdd</i><par n="acer__n"/></e>
+    <e lm="cerdd dant"><par n="initial-c"/><i>erdd</i><par n="acer__n"/><p><l><b/>dant</l><r><g><b/>dant</g></r></p></e>
+
     <e lm="coelcerth"><par n="initial-c"/><i>oelcerth</i><par n="acer__n"/></e>
     <e lm="coelcerth"><par n="initial-c"/><i>oelcerth</i><par n="acer__n"/></e>
     <e lm="cornel"><par n="initial-c"/><i>ornel</i><par n="acer__n"/></e>
