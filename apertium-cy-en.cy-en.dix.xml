@@ -3322,8 +3322,11 @@
     <e><p><l>cadwyn<s n="n"/><s n="f"/></l><r>chain<s n="n"/></r></p></e>
     <e><p><l>capel<s n="n"/><s n="m"/></l><r>chapel<s n="n"/></r></p></e>
     <e><p><l>cartref<s n="n"/><s n="m"/></l><r>home<s n="n"/></r></p></e>
+
     <e><p><l>cerdd<s n="n"/><s n="f"/></l><r>poem<s n="n"/></r></p></e>
     <e><p><l>cerdd<s n="n"/><s n="f"/></l><r>music<s n="n"/></r></p></e>
+    <e><p><l>cerdd<g><b/>dant</g><s n="n"/><s n="f"/></l><r>singing to harp accompaniment<s n="n"/><s n="unc"/></r></p></e>
+
     <e><p><l>coelcerth<s n="n"/><s n="f"/></l><r>bonfire<s n="n"/></r></p></e>
     <e><p><l>coelcerth<s n="n"/><s n="f"/></l><r>bonfire<s n="n"/></r></p></e>
     <e><p><l>cornel<s n="n"/><s n="f"/></l><r>corner<s n="n"/></r></p></e>
@@ -9959,6 +9962,55 @@
     <e><p><l>eich hun<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>yourselves<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>eu hun<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
+    <!-- Object -->
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="emph"/><s n="p1"/><s n="mf"/><s n="sg"/></l>
+        <r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="emph"/><s n="p2"/><s n="mf"/><s n="sg"/></l>
+        <r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="emph"/><s n="p2"/><s n="mf"/><s n="pl"/></l>
+        <r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="emph"/><s n="p3"/><s n="m"/><s n="sg"/></l>
+        <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="emph"/><s n="p3"/><s n="f"/><s n="sg"/></l>
+        <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="emph"/><s n="p3"/><s n="mf"/><s n="sg"/></l>
+        <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="emph"/><s n="p1"/><s n="mf"/><s n="pl"/></l>
+        <r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="emph"/><s n="p3"/><s n="mf"/><s n="pl"/></l>
+        <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
 
  
  

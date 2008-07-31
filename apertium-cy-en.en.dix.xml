@@ -5992,6 +5992,18 @@
           <r>ive<s n="vblex"/><s n="pres"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l>ive</l>
+          <r>ive<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>ive</l>
+          <r>ive<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>ives</l>
@@ -14073,6 +14085,7 @@
     <e lm="field"><i>field</i><par n="house__n"/></e>
     <e lm="woman"><i>wom</i><par n="m/an__n"/></e>
     <e lm="news"><i>news</i><par n="politics__n__unc"/></e>
+    <e lm="singing to harp accompaniment"><i>singing<b/>to<b/>harp<b/>accompaniment</i><par n="politics__n__unc"/></e>
     <e lm="sleep"><i>sleep</i><par n="politics__n__unc"/></e>
     <e lm="surfeit"><i>surfeit</i><par n="politics__n__unc"/></e>
     <e lm="environs"><i>environs</i><par n="politics__n__unc"/></e>

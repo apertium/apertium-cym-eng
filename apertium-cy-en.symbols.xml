@@ -47,6 +47,7 @@
     <sdef n="ord"     c="Ordinal"/>
     <sdef n="obj"     c="Object"/>
     <sdef n="subj"    c="Subject"/>
+    <sdef n="emph"    c="Emphatic"/>
     <sdef n="pro"     c="Proclitic"/>
     <sdef n="acr"     c="Acronym"/>
     <sdef n="top"     c="Toponym"/>
