@@ -131,6 +131,23 @@
           <r><s n="num"/><s n="pl"/></r>
         </p>
       </e>
+
+
+      <e r="RL">
+        <re>[0-9]+([.,][0-9]+)?au</re>
+        <p>
+          <l>s</l>
+          <r><s n="num"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <re>[0-9]+([.,][0-9]+)?au</re>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="pl"/></r>
+        </p>
+      </e>
+
     </pardef>
     <pardef n="currency">
       <e>
@@ -184,36 +201,47 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="ordinals">
       <e>
-        <re>[0-9]+([.,][0-9]+)?st</re>
+        <re>[1-9]?</re>
         <p>
-          <l/>
-          <r><s n="num"/><s n="ord"/></r>
+          <l>1st</l>
+          <r>1st<s n="num"/><s n="ord"/></r>
         </p>
       </e>
       <e>
-        <re>[0-9]+([.,][0-9]+)?nd</re>
+        <re>[0-9]?</re>
         <p>
-          <l/>
-          <r><s n="num"/><s n="ord"/></r>
+          <l>2nd</l>
+          <r>2nd<s n="num"/><s n="ord"/></r>
         </p>
       </e>
       <e>
-        <re>[0-9]+([.,][0-9]+)?rd</re>
+        <re>[0-9]?</re>
         <p>
-          <l/>
-          <r><s n="num"/><s n="ord"/></r>
+          <l>3rd</l>
+          <r>3rd<s n="num"/><s n="ord"/></r>
         </p>
       </e>
       <e>
-        <re>[0-9]+([.,][0-9]+)?th</re>
+        <re>[0-9]?</re>
         <p>
-          <l/>
-          <r><s n="num"/><s n="ord"/></r>
+          <l>4th</l>
+          <r>4th<s n="num"/><s n="ord"/></r>
+        </p>
+      </e>
+      <e>
+        <re>[0-9]?</re>
+        <p>
+          <l>th</l>
+          <r>th<s n="num"/><s n="ord"/></r>
         </p>
       </e>
     </pardef>
+
+
+
     <pardef n="expensive__adj">
       <e>
         <p>
@@ -2437,6 +2465,16 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="/be_born__vbser">
+      <e>
+        <p>
+          <l>born</l>
+          <r>be<b/>born<s n="vbser"/><s n="pp"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="/be_able_to__vbmod">
       <e>
         <p>
@@ -10055,7 +10093,6 @@
     <e lm="awake"><i>awake</i><par n="expensive__adj"/></e>
     <e lm="extreme"><i>extreme</i><par n="handsome/__adj"/></e>
     <e lm="ultimate"><i>ultimate</i><par n="expensive__adj"/></e>
-    <e lm="extreme"><i>extreme</i><par n="handsome/__adj"/></e>
     <e lm="charitable"><i>charitable</i><par n="expensive__adj"/></e>
     <e lm="horrible"><i>horrible</i><par n="expensive__adj"/></e>
     <e lm="extensible"><i>extensible</i><par n="expensive__adj"/></e>
@@ -11777,6 +11814,15 @@
     <!-- Nouns -->
 
     <e lm="adjective"><i>adjective</i><par n="house__n"/></e>
+    <e lm="druid"><i>druid</i><par n="house__n"/></e>
+    <e lm="dawn"><i>dawn</i><par n="house__n"/></e>
+    <e lm="woe"><i>woe</i><par n="house__n"/></e>
+    <e lm="provision"><i>provision</i><par n="house__n"/></e>
+    <e lm="pavilion"><i>pavilion</i><par n="house__n"/></e>
+    <e lm="runner"><i>runner</i><par n="house__n"/></e>
+    <e lm="worshipper"><i>worshipper</i><par n="house__n"/></e>
+    <e lm="archdruid"><i>archdruid</i><par n="house__n"/></e>
+    <e lm="Prime Minister"><i>Prime<b/>Minister</i><par n="house__n"/></e>
     <e lm="First Minister"><i>First<b/>Minister</i><par n="house__n"/></e>
     <e lm="paw"><i>paw</i><par n="house__n"/></e>
     <e lm="championship"><i>championship</i><par n="house__n"/></e>
@@ -11785,6 +11831,7 @@
     <e lm="compensation payment"><i>compensation<b/>payment</i><par n="house__n"/></e>
     <e lm="decision-maker"><i>decision-maker</i><par n="house__n"/></e>
     <e lm="dictionar"><i>dictionar</i><par n="bab/y__n"/></e>
+    <e lm="melody"><i>melod</i><par n="bab/y__n"/></e>
     <e lm="disillusionment"><i>disillusionment</i><par n="house__n"/></e>
     <e lm="distributions"><i>distributions</i><par n="politics__n"/></e>
     <e lm="institute of education"><i>institute</i><par n="house__n"/><p><l><b/>of<b/>education</l><r><g><b/>of<b/>education</g></r></p></e>
@@ -11807,6 +11854,7 @@
     <e lm="fender"><i>fender</i><par n="house__n"/></e>
     <e lm="coriander"><i>coriander</i><par n="house__n"/></e>
     <e lm="farmer"><i>farmer</i><par n="house__n"/></e>
+    <e lm="commissioner"><i>commissioner</i><par n="house__n"/></e>
     <e lm="member"><i>member</i><par n="house__n"/></e>
     <e lm="perimeter"><i>perimeter</i><par n="house__n"/></e>
     <e lm="speedometer"><i>speedometer</i><par n="house__n"/></e>
@@ -13765,7 +13813,7 @@
     <e lm="near"><i>near</i><par n="at__pr"/></e>
     <e lm="off"><i>off</i><par n="at__pr"/></e>
     <e lm="of"><i>of</i><par n="at__pr"/></e>
-    <e lm="in memory of"><i>in<b/>memory<b/>of</i><par n="at__pr"/></e>
+    <e lm="in memory of"><i>in<b/>memory<b/>of</i><par n="maybe__adv"/></e>
     <e lm="on"><i>on</i><par n="at__pr"/></e>
     <e lm="on top of"><i>on<b/>top<b/>of</i><par n="at__pr"/></e>
     <e lm="onto"><i>onto</i><par n="at__pr"/></e>
@@ -13848,6 +13896,7 @@
 
     <e lm="somebody"><i>somebody</i><par n="everyone__prn"/></e>
     <e lm="someone"><i>someone</i><par n="everyone__prn"/></e>
+    <e lm="someone else"><i>someone<b/>else</i><par n="everyone__prn"/></e>
     <e lm="something"><i>something</i><par n="something__prn"/></e>
 
     <e lm="that"><i>th</i><par n="th/at__prn"/></e>
@@ -14024,6 +14073,7 @@
     <e lm="field"><i>field</i><par n="house__n"/></e>
     <e lm="woman"><i>wom</i><par n="m/an__n"/></e>
     <e lm="news"><i>news</i><par n="politics__n__unc"/></e>
+    <e lm="sleep"><i>sleep</i><par n="politics__n__unc"/></e>
     <e lm="surfeit"><i>surfeit</i><par n="politics__n__unc"/></e>
     <e lm="environs"><i>environs</i><par n="politics__n__unc"/></e>
     <e lm="film"><i>film</i><par n="house__n"/></e>
@@ -14161,6 +14211,7 @@
     <e lm="ground"><i>ground</i><par n="house__n"/></e>
     <e lm="charge"><i>charge</i><par n="house__n"/></e>
     <e lm="test"><i>test</i><par n="house__n"/></e>
+    <e lm="preliminary test"><i>preliminary<b/>test</i><par n="house__n"/></e>
     <e lm="human"><i>human</i><par n="house__n"/></e>
     <e lm="violence"><i>violence</i><par n="house__n__unc"/></e>
     <e lm="drug"><i>drug</i><par n="house__n"/></e>
@@ -14207,6 +14258,7 @@
     <e lm="research"><i>research</i><par n="access__n__unc"/></e>
     <e lm="bit"><i>bit</i><par n="house__n"/></e>
     <e lm="band"><i>band</i><par n="house__n"/></e>
+    <e lm="brass band"><i>brass<b/>band</i><par n="house__n"/></e>
     <e lm="remains"><i>remains</i><par n="personnel__n"/></e>
     <e lm="apartment"><i>apartment</i><par n="house__n"/></e>
     <e lm="scene"><i>scene</i><par n="house__n"/></e>
@@ -14966,6 +15018,7 @@
     <e lm="nurse"><i>nurse</i><par n="house__n"/></e>
     <e lm="civilian"><i>civilian</i><par n="house__n"/></e>
     <e lm="civilian"><i>civilian</i><par n="expensive__adj"/></e>
+    <e lm="given"><i>given</i><par n="expensive__adj"/></e>
     <e lm="moving"><i>moving</i><par n="expensive__adj"/></e>
     <e lm="rear"><i>rear</i><par n="expensive__adj"/></e>
     <e lm="element"><i>element</i><par n="house__n"/></e>
@@ -15029,6 +15082,7 @@
     <e lm="gross"><i>gross</i><par n="access__n"/></e>
     <e lm="substance"><i>substance</i><par n="house__n"/></e>
     <e lm="circle"><i>circle</i><par n="house__n"/></e>
+    <e lm="bardic circle"><i>bardic<b/>circle</i><par n="house__n"/></e>
     <e lm="harm"><i>harm</i><par n="house__n"/></e>
     <e lm="athlete"><i>athlete</i><par n="house__n"/></e>
     <e lm="requirement"><i>requirement</i><par n="house__n"/></e>
@@ -21881,6 +21935,7 @@
     <e lm="Jones"><i>Jones</i><par n="Ifans__np"/></e>
     <e lm="Llwyd"><i>Llwyd</i><par n="Ifans__np"/></e>
     <e lm="Lloyd"><i>Lloyd</i><par n="Ifans__np"/></e>
+    <e lm="Nelson"><i>Nelson</i><par n="Ifans__np"/></e>
     <e lm="Thompson"><i>Thompson</i><par n="Ifans__np"/></e>
     <e lm="Walker"><i>Walker</i><par n="Ifans__np"/></e>
     <e lm="O'Leary"><i>O'Leary</i><par n="Ifans__np"/></e>
@@ -22048,6 +22103,7 @@
     <e lm="Clwyd"><i>Clwyd</i><par n="Barcelona__np"/></e>
     <e lm="New York"><i>New York</i><par n="Barcelona__np"/></e>
     <e lm="York"><i>York</i><par n="Barcelona__np"/></e>
+    <e lm="Y Wladfa"><i>Y<b/>Wladfa</i><par n="Barcelona__np"/></e>
     <e lm="Edinburgh"><i>Edinburgh</i><par n="Barcelona__np"/></e>
     <e lm="Menai Bridge"><i>Menai Bridge</i><par n="Barcelona__np"/></e>
     <e lm="Llanfairpwllgwyngyllgogerychwyrndobwllllantysiliogogogoch"><i>Llanfairpwllgwyngyllgogerychwyrndobwllllantysiliogogogoch</i><par n="Barcelona__np"/></e>
@@ -22929,6 +22985,9 @@
     <e lm="Treganna"><i>Treganna</i><par n="Barcelona__np"/></e>
     <e lm="Lansdowne"><i>Lansdowne</i><par n="Barcelona__np"/></e>
     <e lm="Blaenafon"><i>Blaenafon</i><par n="Barcelona__np"/></e>
+    <e lm="Bala"><i>Bala</i><par n="Barcelona__np"/></e>
+    <e lm="Snowdon"><i>Snowdon</i><par n="Barcelona__np"/></e>
+    <e lm="Snowdonia"><i>Snowdonia</i><par n="Barcelona__np"/></e>
     <e lm="Wrexham"><i>Wrexham</i><par n="Barcelona__np"/></e>
     <e lm="Anglesey"><i>Anglesey</i><par n="Barcelona__np"/></e>
     <e lm="Newport"><i>Newport</i><par n="Barcelona__np"/></e>
@@ -23633,9 +23692,13 @@
 
     <e r="LR"><i>in<b/>large<b/>part</i><par n="maybe__adv"/></e>
     <e r="RL"><i>more<b/>closely</i><par n="maybe__adv"/></e>
+
+    <e lm="besides that"><i>besides<b/>that</i><par n="maybe__adv"/></e>
     <e lm="on a commercial basis"><i>on<b/>a<b/>commercial<b/>basis</i><par n="maybe__adv"/></e>
     <e lm="beyond"><i>beyond</i><par n="maybe__adv"/></e>
     <e lm="increasingly"><i>increasingly</i><par n="maybe__adv"/></e>
+    <e lm="remarkably"><i>remarkably</i><par n="maybe__adv"/></e>
+    <e lm="extremely"><i>extremely</i><par n="maybe__adv"/></e>
     <e lm="day before yesterday"><i>day<b/>before<b/>yesterday</i><par n="maybe__adv"/></e>
     <e lm="completely"><i>completely</i><par n="maybe__adv"/></e>
     <e lm="alive"><i>alive</i><par n="maybe__adv"/></e>
@@ -23692,6 +23755,7 @@
     <e lm="no"><i>no</i><par n="maybe__adv"/></e>
     <e lm="north"><i>north</i><par n="maybe__adv"/></e>
     <e lm="not"><i>not</i><par n="maybe__adv"/></e>
+    <e lm="or not"><i>or<b/>not</i><par n="maybe__adv"/></e>
     <e lm="now"><i>now</i><par n="maybe__adv"/></e>
     <e lm="off"><i>off</i><par n="maybe__adv"/></e>
     <e lm="on"><i>on</i><par n="maybe__adv"/></e>
@@ -23914,6 +23978,16 @@
     <e lm="on sale"><i>on<b/>sale</i><par n="maybe__adv"/></e>
     <e lm="on the go"><i>on<b/>the<b/>go</i><par n="maybe__adv"/></e>
     <e lm="on their own account"><i>on<b/>their<b/>own<b/>account</i><par n="maybe__adv"/></e>
+
+    <e lm="on my own"><i>on<b/>my<b/>own</i><par n="maybe__adv"/></e>
+    <e lm="on your own"><i>on<b/>your<b/>own</i><par n="maybe__adv"/></e>
+    <e lm="on his own"><i>on<b/>his<b/>own</i><par n="maybe__adv"/></e>
+    <e lm="on her own"><i>on<b/>her<b/>own</i><par n="maybe__adv"/></e>
+    <e lm="on our own"><i>on<b/>our<b/>own</i><par n="maybe__adv"/></e>
+    <e lm="on your own"><i>on<b/>your<b/>own</i><par n="maybe__adv"/></e>
+    <e lm="on your own"><i>on<b/>your<b/>own</i><par n="maybe__adv"/></e>
+    <e lm="on their own"><i>on<b/>their<b/>own</i><par n="maybe__adv"/></e>
+
     <e lm="over there"><i>over<b/>there</i><par n="maybe__adv"/></e>
     <e lm="per device"><i>per<b/>device</i><par n="maybe__adv"/></e>
     <e lm="per host"><i>per<b/>host</i><par n="maybe__adv"/></e>
@@ -23937,6 +24011,11 @@
     <e lm="very relevant to"><i>very<b/>relevant<b/>to</i><par n="maybe__adv"/></e>
     <e lm="warm welcome to"><i>warm<b/>welcome<b/>to</i><par n="maybe__adv"/></e>
     <e lm="welcome to"><i>welcome<b/>to</i><par n="maybe__adv"/></e>
+
+    <e lm="come to think of it"><i>come<b/>to<b/>think<b/>of<b/>it</i><par n="maybe__adv"/></e>
+    <e lm="and so on"><i>and<b/>so<b/>on</i><par n="maybe__adv"/></e>
+    <e lm="over and over"><i>over<b/>and<b/>over</i><par n="maybe__adv"/></e>
+
     <e lm="with immediate effect"><i>with<b/>immediate<b/>effect</i><par n="maybe__adv"/></e>
     <e lm="with no ifs or buts"><i>with<b/>no<b/>ifs<b/>or<b/>buts</i><par n="maybe__adv"/></e>
     <e lm="without a trace"><i>without<b/>a<b/>trace</i><par n="maybe__adv"/></e>
@@ -23956,7 +24035,10 @@
     <e lm="would"><i>would</i><par n="will/__vbmod"/></e>
     <e lm="can"><i>c</i><par n="c/an__vbmod"/></e>
     <e r="RL"><i/><par n="/be_able_to__vbmod"/></e>
+
     <e lm="be"><par n="/be__vbser"/></e>
+
+    <e lm="be born"><par n="/be_born__vbser"/></e>
 
     <e lm="there be"><i>there<b/></i><par n="/be__vbser"/></e>
     <e lm="there be"><i>there<b/></i><par n="/be__vbser"/><p><l><b/>a<b/>need</l><r><g><b/>a<b/>need</g></r></p></e>
@@ -24588,6 +24670,7 @@
     <e lm="mix"><i>mix</i><par n="approach__vblex"/></e>
     <e lm="suffice"><i>suffic</i><par n="liv/e__vblex"/></e>
     <e lm="dub"><i>dub</i> <par n="dub__vblex"/></e>
+    <e lm="grab"><i>grab</i> <par n="dub__vblex"/></e>
     <e lm="beat"><i>b</i> <par n="b/eat__vblex"/></e>
     <e lm="bleat"><i>bleat</i> <par n="accept__vblex"/></e>
     <e lm="bless"><i>bless</i> <par n="approach__vblex"/></e>
@@ -31179,6 +31262,9 @@
     </e>
     <e>
       <par n="acronimos"/>
+    </e>
+    <e>
+      <par n="ordinals"/>
     </e>
     <e>
       <par n="numeros"/>

@@ -2094,6 +2094,71 @@
       </action>
     </rule>
 
+
+    <rule comment="REGLA: NOM DET NOM ADJ">
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action> 
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="adjectiu">
+          <with-param pos="4"/>
+        </call-macro>
+        <out>
+          <chunk name="det_nom_of_det_adj_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="the"/>
+              <lit-tag v="det.def.sp"/>
+            </lu>
+	    <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="of"/>
+              <lit-tag v="pr"/>
+	    </lu>
+	    <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_det"/>
+              <clip pos="2" side="tl" part="nbr" link-to="2"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+	    <b/>
+            <lu>
+	      <var n="adjectiu1"/>
+            </lu>
+	    <b/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="nbr"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: NUM yn NOM">
       <pattern>
         <pattern-item n="num"/>
@@ -3803,7 +3868,7 @@
               <clip pos="1" side="tl" part="whole"/>
             </lu>
 	  </chunk>
-	    <b/>
+          <b/>
           <chunk name="verbinf" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
@@ -3834,16 +3899,21 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
+	  <chunk name="at" case="caseFirstWord">
+	    <tags>
+              <tag><lit-tag v="SP"/></tag>
+	    </tags>
+	    <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	  </chunk>
+          <b/>          
           <chunk name="verbinf" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="2" side="tl" part="a_verb"/></tag>
               <tag><lit-tag v="ger"/></tag>
             </tags>
-	    <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-	    <b/>
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_verb"/>
@@ -3866,17 +3936,22 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
+	  <chunk name="while" case="caseFirstWord">
+	    <tags>
+              <tag><lit-tag v="SP"/></tag>
+	    </tags>
+	    <lu>
+	      <lit v="while"/>
+	      <lit-tag v="cnjadv"/> 
+            </lu>
+	  </chunk>
+          <b/>          
           <chunk name="verbinf" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="2" side="tl" part="a_verb"/></tag>
               <tag><lit-tag v="ger"/></tag>
             </tags>
-	    <lu>
-	      <lit v="while"/>
-	      <lit-tag v="cnjadv"/> 
-            </lu>
-	    <b/>
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_verb"/>
@@ -3899,17 +3974,22 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
+	  <chunk name="until" case="caseFirstWord">
+	    <tags>
+              <tag><lit-tag v="SP"/></tag>
+	    </tags>
+	    <lu>
+	      <lit v="until"/>
+	      <lit-tag v="cnjadv"/> 
+            </lu>
+	  </chunk>
+          <b/>
           <chunk name="verbinf" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="2" side="tl" part="a_verb"/></tag>
               <tag><lit-tag v="ger"/></tag>
             </tags>
-	    <lu>
-	      <lit v="until"/>
-	      <lit-tag v="cnjadv"/> 
-            </lu>
-	    <b/>
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_verb"/>
