@@ -106,6 +106,7 @@
 
     <def-cat n="verbimpers">
       <cat-item tags="vblex.*.impers.*"/>  
+      <cat-item tags="vbser.*.impers.*"/>  
     </def-cat>
 
     <def-cat n="verbaux">
@@ -3388,9 +3389,6 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="conj_verb1">
-          <with-param pos="2"/>
-        </call-macro>
         <choose>
           <when>
             <test>
@@ -3449,7 +3447,7 @@
 	    <lu>
               <lit v="be"/>
               <lit-tag v="vbser"/>
-	      <clip pos="1" side="tl" part="temps" link-to="3"/>
+	      <var n="temps_lu"/>
 	    </lu>
 	    <b/>
             <lu>
