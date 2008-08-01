@@ -519,16 +519,16 @@
           <r><s n="adj"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>r</l>
-          <r><s n="adj"/><s n="comp"/></r>
+          <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>st</l>
-          <r><s n="adj"/><s n="sup"/></r>
+          <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>
@@ -10024,7 +10024,7 @@
     <e lm="worldwide"><i>worldwide</i><par n="expensive__adj"/></e>
     <e lm="short notice"><i>short<b/>notice</i><par n="expensive__adj"/></e>
     <e lm="alive"><i>alive</i><par n="handsome/__adj"/></e>
-    <e lm="bare"><i>bare</i><par n="handsome/__adj"/></e>
+    <e lm="bare"><i>bare</i><par n="nice/__adj"/></e>
     <e lm="affirmative"><i>affirmative</i><par n="expensive__adj"/></e>
     <e lm="captive"><i>captive</i><par n="expensive__adj"/></e>
     <e lm="wise"><i>wise</i><par n="nice/__adj"/></e>
