@@ -101,6 +101,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
 	   $(BASENAME).$(PREFIX1).dix.xml \
 	   $(BASENAME).$(PREFIX1).rlx \
 	   $(BASENAME).pre-$(LANG1).t1x \
+	   $(BASENAME).symbols.xml \
            $(PREFIX1).prob $(PREFIX2).prob \
            $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
            $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \
