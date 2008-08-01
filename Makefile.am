@@ -94,15 +94,18 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 
 EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
+	   $(BASENAME).orth-$(LANG1).dix \
 	   $(BASENAME).$(LANG2).dix \
 	   $(BASENAME).$(LANG1).dix.xml \
 	   $(BASENAME).$(LANG2).dix.xml \
 	   $(BASENAME).$(PREFIX1).dix.xml \
+	   $(BASENAME).$(PREFIX1).rlx \
+	   $(BASENAME).pre-$(LANG1).t1x \
            $(PREFIX1).prob $(PREFIX2).prob \
            $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
            $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \
            $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x \
-           modes.xml
+           modes.xml $(BASENAME).$(LANG1).acx
 
 #           $(LANG1)-tagger-data/README $(LANG2)-tagger-data/README 
 #           $(BASENAME).$(LANG1).tsx 
@@ -133,12 +136,15 @@ apertium_cy_en_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		    $(PREFIX1).cg.bin \
 		    $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
 		    $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin pre-$(LANG1).t1x.bin \
-		    $(PREFIX1).mode $(PREFIX2).mode
+		    $(PREFIX1).mode 
+		    
+#$(PREFIX2).mode
 		  
+#$(INSTALL_DATA) $(PREFIX2).mode $(apertium_cy_modesdir)
+
 install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
 	$(INSTALL_DATA) $(PREFIX1).mode $(apertium_cy_modesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(apertium_cy_modesdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(apertium_cy_endir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x $(apertium_cy_endir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x $(apertium_cy_endir)

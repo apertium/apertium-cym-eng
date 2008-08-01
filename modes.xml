@@ -34,7 +34,8 @@
     </pipeline>
   </mode>
 
-  <mode name="en-cy" install="yes">
+  <!-- not installed for now -->
+  <mode name="en-cy">
     <pipeline>
       <program name="lt-proc">
         <file name="en-cy.automorf.bin"/>
