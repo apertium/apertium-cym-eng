@@ -216,6 +216,7 @@
     </def-attr>
     <def-attr n="a_mood">
       <attr-item tags="neg"/>
+      <attr-item tags="imp"/>
       <attr-item tags="aff"/>
       <attr-item tags="itg"/>
     </def-attr>
