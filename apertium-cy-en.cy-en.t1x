@@ -276,6 +276,7 @@
     <def-var n="caseFirstWord"/>
     <def-var n="caseNP"/>
     <def-var n="nombre"/>
+    <def-var n="temps_lu"/>
     <def-var n="temps_chunk"/>
     <def-var n="lema_SV"/>
     <def-var n="lema_SP"/>
@@ -3387,6 +3388,57 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="conj_verb1">
+          <with-param pos="2"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <or>
+                <equal>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <lit-tag v="pii"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <lit-tag v="plu"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <lit-tag v="past"/>
+                </equal>
+              </or>
+            </test>
+            <let>
+              <var n="temps_lu"/>
+              <lit-tag v="past"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <or>
+                <equal>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <lit-tag v="pres"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <lit-tag v="prs"/>
+                </equal>
+              </or>
+            </test>
+            <let>
+              <var n="temps_lu"/>
+              <lit-tag v="pres"/>
+            </let>
+          </when>
+	  <otherwise>
+            <let>
+              <var n="temps_lu"/>
+              <clip pos="1" side="tl" part="temps"/>
+            </let>
+	  </otherwise>
+        </choose>
         <out>
           <chunk name="verbimpers" case="caseFirstWord">
             <tags>

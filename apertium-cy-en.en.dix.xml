@@ -519,13 +519,13 @@
           <r><s n="adj"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>r</l>
           <r><s n="adj"/><s n="comp"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>st</l>
           <r><s n="adj"/><s n="sup"/></r>
@@ -1000,7 +1000,7 @@
       </e>
     </pardef>
     <pardef n="what__det">
-      <e r="LR">
+      <e>
         <p>
           <l/>
           <r><s n="det"/><s n="itg"/><s n="sp"/></r>
@@ -2651,6 +2651,12 @@
         </p>
       </e>
       <!-- This is horrific -->
+      <e r="RL">
+        <p>
+          <l>be</l>
+          <r>be<s n="vbser"/><s n="imp"/></r>
+        </p>
+      </e>
       <e r="RL">
         <p>
           <l>are</l>
@@ -15031,6 +15037,7 @@
     <e lm="nurse"><i>nurse</i><par n="house__n"/></e>
     <e lm="civilian"><i>civilian</i><par n="house__n"/></e>
     <e lm="civilian"><i>civilian</i><par n="expensive__adj"/></e>
+    <e lm="several"><i>several</i><par n="expensive__adj"/></e>
     <e lm="given"><i>given</i><par n="expensive__adj"/></e>
     <e lm="moving"><i>moving</i><par n="expensive__adj"/></e>
     <e lm="rear"><i>rear</i><par n="expensive__adj"/></e>
