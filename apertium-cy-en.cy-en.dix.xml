@@ -5148,7 +5148,7 @@
     <e><p><l>Eingl-Gymreig<s n="adj"/></l><r>Anglo-Welsh<s n="adj"/></r></p></e>
     <e><p><l>eironig<s n="adj"/></l><r>ironic<s n="adj"/></r></p></e>
     <e><p><l>eisteddfodol<s n="adj"/></l><r>eisteddfod<s n="adj"/></r></p></e>
-    <e><p><l>eitha<s n="adj"/></l><r>extreme<s n="adj"/></r></p></e>
+    <e><p><l>eitha<s n="adj"/></l><r>extreme<s n="adj"/><s n="sint"/></r></p></e>
 
     <e r="RL"><p><l>eithaf<s n="adj"/></l><r>ultimate<s n="adj"/></r></p></e>
     <e><p><l>eithaf<s n="adj"/></l><r>maximum<s n="adj"/></r></p></e>
