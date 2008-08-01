@@ -2,8 +2,9 @@ Many thanks to Kevin Donnelly for helping to integrate his work with Eurfa and
 Klebran into the project, see http://www.eurfa.org.uk for more information on
 these tools. And for designing the bulk of the system of transfer rules.
 
-The data for English come from the Apertium English to Catalan language pair, 
-which was funded by the Generalitat de Catalunya (Government of Catalonia).
+The data for English come from the Apertium English to Catalan language pair,
+which was developed by the Transducens group at Universitat d'Alacant, and
+funded by the Generalitat de Catalunya (Government of Catalonia).
 
 Many thanks to Mark Nodine to allowing his extensive Welsh--English bilingual 
 dictionary be used in the project. The original can be found here:
