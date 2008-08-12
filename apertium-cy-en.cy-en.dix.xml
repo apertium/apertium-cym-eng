@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet></alphabet>
   <!-- Symbol definitions -->
@@ -2742,6 +2742,7 @@
     <e><p><l>dewisydd<s n="n"/><s n="m"/></l><r>chooser<s n="n"/></r></p></e>
     <e><p><l>diben<s n="n"/><s n="m"/></l><r>purpose<s n="n"/></r></p></e>
     <e><p><l>diffyg<s n="n"/><s n="m"/></l><r>lack<s n="n"/><s n="unc"/></r></p></e>
+    <e><p><l>digrifwr<s n="n"/><s n="m"/></l><r>comedian<s n="n"/></r></p></e>
     <e><p><l>diheintydd<s n="n"/><s n="m"/></l><r>disinfectant<s n="n"/></r></p></e>
     <e><p><l>dilynydd<s n="n"/><s n="m"/></l><r>tracker<s n="n"/></r></p></e>
     <e><p><l>dilysydd<s n="n"/><s n="m"/></l><r>validator<s n="n"/></r></p></e>
@@ -6718,6 +6719,8 @@
     <e><p><l>clymu<s n="vblex"/></l><r>tie<s n="vblex"/></r></p></e>
     <e><p><l>clytio<s n="vblex"/></l><r>patch<s n="vblex"/></r></p></e>
     <e><p><l>clywed<s n="vblex"/></l><r>hear<s n="vblex"/></r></p></e>
+    <e><p><l>clywed<g><b/>i</g><s n="vblex"/></l><r>hear<g><b/>on</g><s n="vblex"/></r></p></e> <!-- check -->
+    <e><p><l>clywed<g><b/>am</g><s n="vblex"/></l><r>hear<g><b/>about</g><s n="vblex"/></r></p></e>
     <e><p><l>cnawdoli<s n="vblex"/></l><r>incarnate<s n="vblex"/></r></p></e>
     <e><p><l>cnecio<s n="vblex"/></l><r>jar<s n="vblex"/></r></p></e>
     <e><p><l>cnecu<s n="vblex"/></l><r>jar<s n="vblex"/></r></p></e>
@@ -10041,6 +10044,7 @@
     <e><p><l>Democratiaid Rhyddfrydol<s n="np"/><s n="org"/><s n="f"/></l><r>Liberal Democrats<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>BBC Radio Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>BBC Radio Cymru<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>BBC Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>BBC Cymru<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>BBC2<s n="np"/><s n="org"/><s n="f"/></l><r>BBC2<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>NHS Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>NHS Cymru<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Swyddfa'r Post<s n="np"/><s n="org"/><s n="f"/></l><r>Post Office<s n="np"/><s n="org"/></r></p></e>
  
@@ -11276,7 +11280,7 @@
     <e><p><l>Malltraeth<s n="np"/><s n="top"/><s n="f"/></l><r>Malltraeth<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Benllech<s n="np"/><s n="top"/><s n="f"/></l><r>Benllech<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llanfairpwllgwyngyllgogerychwyrndobwllllantysiliogogogoch<s n="np"/><s n="top"/><s n="f"/></l><r>Llanfairpwllgwyngyllgogerychwyrndobwllllantysiliogogogoch<s n="np"/><s n="top"/></r></p></e>
-
+    <e><p><l>Pontcanna<s n="np"/><s n="top"/><s n="f"/></l><r>Pontcanna<s n="np"/><s n="top"/></r></p></e>
 
 
     <e><p><l>Sir Gwynedd<s n="np"/><s n="top"/><s n="f"/></l><r>Gwynedd<s n="np"/><s n="top"/></r></p></e>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- -*- nxml -*- -->
 <dictionary>
   <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzáéíóúýÁÉÍÓÚÝ</alphabet>
@@ -14117,6 +14117,7 @@
     <e lm="air"><i>air</i><par n="house__n__unc"/></e>
     <e lm="TV"><i>TV</i><par n="BBC__n"/></e>
     <e lm="UN"><i>UN</i><par n="BBC__n"/></e>
+    <e lm="BBC2"><i>BBC2</i><par n="BBC__n"/></e>
     <e lm="general"><i>general</i><par n="house__n"/></e>
     <e lm="turn"><i>turn</i><par n="house__n"/></e>
     <e lm="force"><i>force</i><par n="house__n"/></e>
@@ -15263,6 +15264,7 @@
     <e lm="monitoring"><i>monitoring</i><par n="house__n"/></e>
     <e lm="rebound"><i>rebound</i><par n="house__n"/></e>
     <e lm="politician"><i>politician</i><par n="house__n"/></e>
+    <e lm="comedian"><i>comedian</i><par n="house__n"/></e>
     <e lm="living room"><i>living<b/>room</i><par n="house__n"/></e>
     <e lm="human race"><i>human<b/>race</i><par n="house__n"/></e>
     <e lm="bank account"><i>bank<b/>account</i><par n="house__n"/></e>
@@ -22084,6 +22086,7 @@
     <e lm="Radnorshire"><i>Radnorshire</i><par n="Barcelona__np"/></e>
     <e lm="Merionethshire"><i>Merionethshire</i><par n="Barcelona__np"/></e>
     <e lm="Brecknockshire"><i>Brecknockshire</i><par n="Barcelona__np"/></e>
+    <e lm="Pontcanna"><i>Pontcanna</i><par n="Barcelona__np"/></e>
 
     <e lm="Monmouth"><i>Monmouth</i><par n="Barcelona__np"/></e>
     <e lm="Monmouth Town"><i>Monmouth Town</i><par n="Barcelona__np"/></e>
@@ -24397,6 +24400,8 @@
     <e lm="guarantee"><i>guarante</i><par n="liv/e__vblex"/></e>
     <e lm="happen"><i>happen</i><par n="accept__vblex"/></e>
     <e lm="hear"><i>hear</i><par n="hear__vblex"/></e>
+    <e lm="hear on"><i>hear</i><par n="hear__vblex"/><p><l><b/>on</l><r><g><b/>on</g></r></p></e>
+    <e lm="hear about"><i>hear</i><par n="hear__vblex"/><p><l><b/>about</l><r><g><b/>about</g></r></p></e>
     <e lm="help"><i>help</i><par n="accept__vblex"/></e>
     <e lm="hire"><i>hir</i><par n="liv/e__vblex"/></e>
     <e lm="hold"><i>h</i><par n="h/old__vblex"/></e>
