@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
 <!-- The lowercase letters of the Welsh alphabet followed by letters with accents, followed by letters found in loan words -->
   <alphabet>ABCDEFGHILMNOPRSTUWYÂÊÎÔŴŶJKVXZÁÉÍÓÚÄËÏÖÜQabcdefghilmnoprstuwyâêîôŵŷáïjkvxzáéíóúäëïöüq</alphabet>
@@ -51170,6 +51170,7 @@
     <e lm="dechreuwr"><par n="initial-d"/><i>echreuw</i><par n="addasw/r__n"/></e>
     <e lm="dechreuwr"><par n="initial-d"/><i>echreuw</i><par n="addasw/r__n"/></e>
     <e lm="dehonglwr"><par n="initial-d"/><i>ehonglw</i><par n="addasw/r__n"/></e>
+    <e lm="digrifwr"><par n="initial-d"/><i>igrifw</i><par n="addasw/r__n"/></e>
     <e lm="dinaswr"><par n="initial-d"/><i>inasw</i><par n="addasw/r__n"/></e>
     <e lm="dioddefwr"><par n="initial-d"/><i>ioddefw</i><par n="addasw/r__n"/></e>
     <e lm="dosbarthwr"><par n="initial-d"/><i>osbarthw</i><par n="addasw/r__n"/></e>
@@ -54997,6 +54998,8 @@
     <e lm="clywed"><par n="initial-c"/><i>lywed</i><par n="achub__vblex"/></e>
 -->
     <e lm="clywed"><par n="initial-c"/><i>lyw</i><par n="clyw/ed__vblex"/></e>
+    <e lm="clywed i"><par n="initial-c"/><i>lyw</i><par n="clyw/ed__vblex"/><p><l><b/>i</l><r><g><b/>i</g></r></p></e>
+    <e lm="clywed am"><par n="initial-c"/><i>lyw</i><par n="clyw/ed__vblex"/><p><l><b/>am</l><r><g><b/>am</g></r></p></e>
 
     <e lm="cnawdoli"><par n="initial-c"/><i>nawdol</i><par n="achos/i__vblex"/></e>
     <e lm="cnecio"><par n="initial-c"/><i>neci</i><par n="achlysur/o__vblex"/></e>
@@ -57990,6 +57993,7 @@
     <e lm="Bwrdd yr Iaith Gymraeg"><par n="initial-B"/><i>wrdd<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
     <e lm="BBC Radio Cymru"><par n="initial-B"/><i>BC<b/>Radio<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="BBC Cymru"><par n="initial-B"/><i>BC<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="BBC2"><par n="initial-B"/><i>BC2</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="NHS Cymru"><i>NHS<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Swyddfa'r Post"><i>Swyddfa'r<b/>Post</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
@@ -58082,6 +58086,7 @@
     <e lm="Maesyfed"><par n="initial-M"/><i>aesyfed</i><par n="Blaenafon__np"/></e>
     <e lm="Caerdydd"><par n="initial-C"/><i>aerdydd</i><par n="Blaenafon__np"/></e>
     <e lm="Abertawe"><i>Abertawe</i><par n="Blaenafon__np"/></e>
+    <e lm="Pontcanna"><par n="initial-P"/><i>ontcanna</i><par n="Blaenafon__np"/></e> <!-- FIXME -->
 
 
     <e lm="Clwyd"><par n="initial-C"/><i>lwyd</i><par n="Blaenafon__np"/></e>
