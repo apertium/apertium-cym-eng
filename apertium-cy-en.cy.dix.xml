@@ -10394,7 +10394,7 @@
       </e>
       <e>
         <p>
-          <l/>
+          <l>angaf</l>
           <r>ang<s n="adj"/><s n="sint"/><s n="sup"/></r>
         </p>
       </e>
@@ -58168,6 +58168,7 @@
     <e lm="Fietnam"><i>Fietnam</i><par n="Blaenafon__np"/></e>
     <e lm="Ariannin"><i>Ariannin</i><par n="Blaenafon__np"/></e>
     <e lm="Lloegr"><par n="initial-Ll"/><i>oegr</i><par n="Lloegr__np"/></e>
+    <e lm="Llydaw"><par n="initial-Ll"/><i>ydaw</i><par n="Lloegr__np"/></e>
 
     <e lm="gwlad Thai"><par n="initial-g"/><i>wlad<b/>Thai</i><par n="Lloegr__np"/></e>
 
