@@ -5,6 +5,10 @@
   source files (.dix.xml, .xml) and not the .dix file directly, as it will be
   overwritten next time you make.
 
+  You can do this manually using:
+
+    $ xmllint --xinclude apertium-cy-en.cy.dix.xml > apertium-cy-en.cy.dix
+
 * The tagger files (.prob) are taken from en-ca.prob and will need retraining 
   when the dictionary is larger.
 
