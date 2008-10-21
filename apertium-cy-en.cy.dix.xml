@@ -30,6 +30,16 @@
         </p>
       </e>
     </pardef>
+    <pardef n="proper_names">
+      <e>
+        <re>(Mr|Miss|Ms|Mrs|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+        <p>
+          <l/>
+         <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="acronimos">
       <e>
         <re>[A-Z][A-Z]+([A-Z])?</re>
@@ -62,10 +72,10 @@
         </p>
       </e>
       <e>
-        <re>[0-9]+([.,][0-9]+)?au</re>
+        <re>[0-9]+([.,][0-9]+)?</re>
         <p>
-          <l/>
-          <r><s n="num"/><s n="sp"/></r>
+          <l>au</l>
+          <r>au<s n="num"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -27896,6 +27906,12 @@
       <e r="LR">
         <p>
           <l>dwi</l>
+          <r>bod<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>dw</l>
           <r>bod<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
@@ -59339,7 +59355,7 @@
 
     <e lm="'m" r="LR">
       <p>
-        <l>'u</l>
+        <l>'m</l>
         <r>eu<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
@@ -59358,13 +59374,6 @@
         <r>yn</r>
       </p>
       <par n="gyda__pr"/>
-    </e>
-
-    <e lm="'u" r="LR">
-      <p>
-        <l>u</l>
-        <r>eu<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
-      </p>
     </e>
 
     <e lm="'na" r="LR">
@@ -59637,6 +59646,9 @@
     <e>
       <par n="numeros"/>
     </e> 
+    <e>
+      <par n="proper_names"/>
+    </e>
     <e>
       <par n="acronimos"/>
     </e>

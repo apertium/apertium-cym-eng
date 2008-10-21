@@ -30,6 +30,16 @@
         </p>
       </e>
     </pardef>
+    <pardef n="proper_names">
+      <e>
+        <re>(Mr|Miss|Ms|Mrs|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+        <p>
+          <l/>
+         <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="acronimos">
       <e>
         <re>[A-Z][A-Z]+([A-Z])?</re>
@@ -133,18 +143,18 @@
       </e>
 
 
-      <e r="RL">
-        <re>[0-9]+([.,][0-9]+)?au</re>
+      <e>
+        <re>[0-9]+([.,][0-9]+)?</re>
         <p>
           <l>s</l>
-          <r><s n="num"/><s n="sp"/></r>
+          <r>s<s n="num"/><s n="sp"/></r>
         </p>
       </e>
-      <e r="RL">
-        <re>[0-9]+([.,][0-9]+)?au</re>
+      <e>
+        <re>[0-9]+([.,][0-9]+)?</re>
         <p>
-          <l/>
-          <r><s n="num"/><s n="pl"/></r>
+          <l>s</l>
+          <r>s<s n="num"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -31287,6 +31297,9 @@
   <section id="final" type="inconditional">
     <e>
       <par n="separa"/>
+    </e>
+    <e>
+      <par n="proper_names"/>
     </e>
     <e>
       <par n="acronimos"/>
