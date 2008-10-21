@@ -11672,7 +11672,7 @@
     <e><re>[0-9]?</re><p><l>ed<s n="num"/><s n="ord"/></l><r>th<s n="num"/><s n="ord"/></r></p></e>
 
 
-    <e><re>[0-9]+([.,][0-9]+)?au</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)?</re><p><l>au<s n="num"/></l><r>s<s n="num"/></r></p></e>
 
     <e><re>[0-9]+([.,][0-9]+)?%</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
@@ -11686,6 +11686,8 @@
 
     <e><re>[A-Z][A-Z]+([A-Z])?</re><p><l><s n="n"/><s n="acr"/></l><r><s n="n"/><s n="acr"/></r></p></e>
     <e><re>[A-Z][0-9]+([0-9])?</re><p><l><s n="n"/><s n="acr"/></l><r><s n="n"/><s n="acr"/></r></p></e>
+
+    <e><re>(Mr|Miss|Ms|Mrs|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
 
   </section>
 </dictionary>
