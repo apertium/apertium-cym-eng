@@ -1602,6 +1602,7 @@
     <e><p><l>gwendid<s n="n"/><s n="m"/></l><r>weakness<s n="n"/></r></p></e>
     <e><p><l>gwenwyn<s n="n"/><s n="m"/></l><r>poison<s n="n"/></r></p></e>
     <e><p><l>gwerthfawrogiad<s n="n"/><s n="m"/></l><r>appreciation<s n="n"/></r></p></e>
+    <e><p><l>gweriniaeth<s n="n"/><s n="f"/></l><r>republic<s n="n"/></r></p></e>
     <e><p><l>gwerthusiad<s n="n"/><s n="m"/></l><r>evaluation<s n="n"/></r></p></e>
     <e><p><l>gwiriad<s n="n"/><s n="m"/></l><r>check<s n="n"/></r></p></e>
     <e><p><l>gwirionedd<s n="n"/><s n="m"/></l><r>truth<s n="n"/><s n="unc"/></r></p></e>
@@ -3322,7 +3323,10 @@
     <e><p><l>baner<s n="n"/><s n="f"/></l><r>flag<s n="n"/></r></p></e>
     <e><p><l>basged<s n="n"/><s n="f"/></l><r>basket<s n="n"/></r></p></e>
     <e><p><l>bisged<s n="n"/><s n="f"/></l><r>biscuit<s n="n"/></r></p></e>
+
     <e><p><l>blwydd<s n="n"/><s n="f"/></l><r>year<s n="n"/></r></p></e>
+    <e r="LR"><p><l>blynedd<s n="n"/><s n="mf"/></l><r>year<s n="n"/><s n="pl"/></r></p></e>
+
     <e><p><l>border<s n="n"/><s n="m"/></l><r>border<s n="n"/></r></p></e>
     <e><p><l>bwled<s n="n"/><s n="f"/></l><r>bullet<s n="n"/></r></p></e>
     <e><p><l>bwrdeistref<s n="n"/><s n="m"/></l><r>borough<s n="n"/></r></p></e>
@@ -9384,6 +9388,7 @@
     <e><p><l>meddu<g><b/>ar</g><s n="vblex"/></l><r>own<s n="vblex"/></r></p></e>
     <e><p><l>meddwl<g><b/>am</g><s n="vblex"/></l><r>think<g><b/>about</g><s n="vblex"/></r></p></e>
     <e><p><l>mynd<g><b/>â</g><s n="vblex"/></l><r>take<s n="vblex"/></r></p></e>
+    <e><p><l>mynd<g><b/>i'r<b/>afael</g><s n="vblex"/></l><r>get<g><b/>to<b/>grips</g><s n="vblex"/></r></p></e>
     <e><p><l>paratoi<g><b/>at</g><s n="vblex"/></l><r>prepare<g><b/>for</g><s n="vblex"/></r></p></e>
     <e><p><l>peidio<g><b/>â</g><s n="vblex"/></l><r>stop<s n="vblex"/></r></p></e>
     <e><p><l>pleidleisio<g><b/>dros</g><s n="vblex"/></l><r>vote<g><b/>for</g><s n="vblex"/></r></p></e>
@@ -11414,6 +11419,7 @@
     <e><p><l>Castillia-La Mancha<s n="np"/><s n="top"/><s n="f"/></l><r>Castile-La Mancha<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Catalonia<s n="np"/><s n="top"/><s n="f"/></l><r>Catalonia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Gweriniaeth Canolbarth Affrica<s n="np"/><s n="top"/><s n="f"/></l><r>Central African Republic<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Gweriniaeth Iwerddon<s n="np"/><s n="top"/><s n="f"/></l><r>Republic of Ireland<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ceuta<s n="np"/><s n="top"/><s n="f"/></l><r>Ceuta<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Sri Lanka<s n="np"/><s n="top"/><s n="f"/></l><r>Ceylon<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Tchad<s n="np"/><s n="top"/><s n="f"/></l><r>Chad<s n="np"/><s n="top"/></r></p></e>

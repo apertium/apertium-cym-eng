@@ -3119,6 +3119,18 @@
           <r><s n="vblex"/><s n="pres"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l>s</l>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>s</l>
+          <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>s</l>
@@ -3156,6 +3168,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="pa/y__vblex">
       <e>
         <p>
@@ -22122,11 +22135,12 @@
     <e lm="Glamorgan"><i>Glamorgan</i><par n="Barcelona__np"/></e>
     <e lm="Gwent"><i>Gwent</i><par n="Barcelona__np"/></e>
     <e lm="Ireland"><i>Ireland</i><par n="Barcelona__np"/></e>
+    <e lm="Republic of Ireland"><i>Republic of Ireland</i><par n="Barcelona__np"/></e>
     <e lm="Scotland"><i>Scotland</i><par n="Barcelona__np"/></e>
     <e lm="Cornwall"><i>Cornwall</i><par n="Barcelona__np"/></e>
     <e lm="Isle of Man"><i>Isle of Man</i><par n="Barcelona__np"/></e>
     <e lm="Holywell"><i>Holywell</i><par n="Barcelona__np"/></e>
-    <e lm="Llandudno "><i>Llandudno </i><par n="Barcelona__np"/></e>
+    <e lm="Llandudno "><i>Llandudno</i><par n="Barcelona__np"/></e>
     <e lm="Beaumaris"><i>Beaumaris</i><par n="Barcelona__np"/></e>
     <e lm="Amlwch"><i>Amlwch</i><par n="Barcelona__np"/></e>
     <e lm="Malltraeth"><i>Malltraeth</i><par n="Barcelona__np"/></e>
@@ -24397,6 +24411,7 @@
     <e lm="gather"><i>gather</i><par n="accept__vblex"/></e>
     <e lm="get"><i>g</i><par n="g/et__vblex"/></e>
 
+    <e lm="get to grips"><i>g</i><par n="g/et__vblex"/><p><l><b/>to<b/>grips</l><r><g><b/>to<b/>grips</g></r></p></e>
     <e lm="get frosty"><i>g</i><par n="g/et__vblex"/><p><l><b/>frosty</l><r><g><b/>frosty</g></r></p></e>
     <e lm="get drunk"><i>g</i><par n="g/et__vblex"/><p><l><b/>drunk</l><r><g><b/>drunk</g></r></p></e>
     <e lm="get angry"><i>g</i><par n="g/et__vblex"/><p><l><b/>angry</l><r><g><b/>angry</g></r></p></e>
