@@ -32,7 +32,7 @@
     </pardef>
     <pardef n="proper_names">
       <e>
-        <re>(Mr|Miss|Ms|Mrs|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <re>(Sir|Rt Hon|Mr|Miss|Ms|Mrs|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
         <p>
           <l/>
          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
