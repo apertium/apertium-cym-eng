@@ -211,3 +211,4 @@ ADD (pred) ("unig" adj) ((1 (n)) OR (1 (np)) OR (1 (pr)) OR (1 Det) OR (1 (cm)))
 
 # distinguish between "work" and "time"
 REMOVE (n f) (0 ("gwaith")) (0 MSoftC);
+
