@@ -34,6 +34,46 @@
     </pipeline>
   </mode>
 
+<!--
+  <mode name="cy-en-multi" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="cy-en.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="cy-en.cg.bin"/> 
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="cy-en.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-multiple-translations">
+        <file name="cy-en.t1x.bin"/>
+        <file name="cy-en.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer">
+        <file name="apertium-cy-en.cy-en.t1x"/>
+        <file name="cy-en.t1x.bin"/>
+        <file name="cy-en.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-cy-en.cy-en.t2x"/>
+        <file name="cy-en.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-cy-en.cy-en.t3x"/>
+        <file name="cy-en.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="cy-en.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="cy-en.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+-->
+
   <!-- not installed for now -->
   <mode name="en-cy">
     <pipeline>
