@@ -649,7 +649,6 @@
     <e><p><l>distylliad<s n="n"/><s n="m"/></l><r>distillation<s n="n"/></r></p></e><!-- distillation - distylliad [m.]-->
     <e><p><l>gwrogaeth<s n="n"/><s n="f"/></l><r>homage<s n="n"/></r></p></e><!-- homage - gwrogaeth (gwarogaeth) [f.]-->
     <e><p><l>hiwmaniaeth<s n="n"/><s n="f"/></l><r>humanism<s n="n"/></r></p></e><!-- humanism - hiwmaniaeth [f.]-->
-    <e r="RL"><p><l>arian<s n="n"/><s n="m"/></l><r>silver<s n="n"/></r></p></e><!-- silver - arian [m.]-->
     <e><p><l>ocsid<s n="n"/><s n="m"/></l><r>oxide<s n="n"/></r></p></e><!-- oxide - ocsid [m.?]-->
     <e><p><l>cynddaredd<s n="n"/><s n="f"/></l><r>rabies<s n="n"/></r></p></e><!-- rabies - cynddaredd [f.]-->
     <e><p><l>llwfrdra<s n="n"/><s n="m"/></l><r>cowardice<s n="n"/></r></p></e><!-- cowardice - llwfrdra [m.]-->
@@ -2165,7 +2164,10 @@
     <e><p><l>anwybodaeth<s n="n"/><s n="f"/></l><r>ignorance<s n="n"/></r></p></e>
     <e><p><l>arbenigedd<s n="n"/><s n="m"/></l><r>expertise<s n="n"/></r></p></e>
     <e><p><l>argaeledd<s n="n"/><s n="m"/></l><r>availability<s n="n"/></r></p></e>
+
+    <e r="RL"><p><l>arian<s n="n"/><s n="m"/></l><r>silver<s n="n"/></r></p></e><!-- silver - arian [m.]-->
     <e><p><l>arian<s n="n"/><s n="m"/></l><r>money<s n="n"/><s n="unc"/></r></p></e>
+
     <e><p><l>Ariannin<s n="np"/><s n="top"/><s n="f"/></l><r>Argentina<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>arithmetig<s n="n"/><s n="m"/></l><r>arithmetic<s n="n"/></r></p></e>
     <e><p><l>arlliw<s n="n"/><s n="m"/></l><r>shade<s n="n"/></r></p></e>
