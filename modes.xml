@@ -34,7 +34,6 @@
     </pipeline>
   </mode>
 
-<!--
   <mode name="cy-en-multi" install="no">
     <pipeline>
       <program name="lt-proc">
@@ -47,10 +46,6 @@
         <file name="cy-en.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-multiple-translations">
-        <file name="cy-en.t1x.bin"/>
-        <file name="cy-en.autobil.bin"/>
-      </program>
       <program name="apertium-transfer">
         <file name="apertium-cy-en.cy-en.t1x"/>
         <file name="cy-en.t1x.bin"/>
@@ -64,6 +59,10 @@
         <file name="apertium-cy-en.cy-en.t3x"/>
         <file name="cy-en.t3x.bin"/>
       </program>
+      <program name="apertium-multiple-translations">
+        <file name="en-cy.t1x.bin"/> <!-- Empty transfer -->
+        <file name="cy-en.autopoly.bin"/>
+      </program>
       <program name="lt-proc $1">
         <file name="cy-en.autogen.bin"/>
       </program>
@@ -72,7 +71,6 @@
       </program>
     </pipeline>
   </mode>
--->
 
   <!-- not installed for now -->
   <mode name="en-cy">

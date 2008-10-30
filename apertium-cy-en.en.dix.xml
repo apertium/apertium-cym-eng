@@ -11696,6 +11696,7 @@
     <e lm="cochlear"><i>cochlear</i><par n="expensive__adj"/></e>
     <e lm="Andorran"><i>Andorran</i><par n="expensive__adj"/></e>
     <e lm="constant"><i>constant</i><par n="expensive__adj"/></e>
+    <e lm="steady"><i>steady</i><par n="expensive__adj"/></e>
     <e lm="municipal"><i>municipal</i><par n="expensive__adj"/></e>
     <e lm="peaty"><i>peat</i><par n="happ/y__adj"/></e>
     <e lm="polynomial"><i>polynomial</i><par n="expensive__adj"/></e>
@@ -23746,6 +23747,9 @@
     <e lm="on a commercial basis"><i>on<b/>a<b/>commercial<b/>basis</i><par n="maybe__adv"/></e>
     <e lm="beyond"><i>beyond</i><par n="maybe__adv"/></e>
     <e lm="increasingly"><i>increasingly</i><par n="maybe__adv"/></e>
+    <e lm="clearly"><i>clearly</i><par n="maybe__adv"/></e>
+    <e lm="steadily"><i>steadily</i><par n="maybe__adv"/></e>
+    <e lm="constantly"><i>constantly</i><par n="maybe__adv"/></e>
     <e lm="remarkably"><i>remarkably</i><par n="maybe__adv"/></e>
     <e lm="extremely"><i>extremely</i><par n="maybe__adv"/></e>
     <e lm="day before yesterday"><i>day<b/>before<b/>yesterday</i><par n="maybe__adv"/></e>
@@ -27613,7 +27617,6 @@
     <e lm="inhabit"><i>inhabit</i><par n="accept__vblex"/></e>
     <e lm="profit"><i>profit</i><par n="accept__vblex"/></e>
     <e lm="shit"><i>shit</i><par n="admit__vblex"/></e>
-    <e lm="commit"><i>commit</i><par n="accept__vblex"/></e>
     <e lm="vomit"><i>vomit</i><par n="accept__vblex"/></e>
     <e lm="spit"><i>spit</i><par n="accept__vblex"/></e>
     <e lm="exalt"><i>exalt</i><par n="accept__vblex"/></e>
