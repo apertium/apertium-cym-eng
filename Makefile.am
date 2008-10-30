@@ -7,7 +7,7 @@ PREFIX2=$(LANG2)-$(LANG1)
 BASENAME=apertium-$(PREFIX1)
 
 TARGETS_COMMON = $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG1)-$(LANG2).dix \
-     $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
+     $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin $(PREFIX1).autopoly.bin \
      $(PREFIX1).autopgen.bin $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
      $(PREFIX2).autogen.bin \
      $(PREFIX2).autopgen.bin \
@@ -22,6 +22,10 @@ $(BASENAME).$(LANG2).dix:
 	xmllint --xinclude $(BASENAME).$(LANG2).dix.xml > $(BASENAME).$(LANG2).dix
 $(BASENAME).$(LANG1)-$(LANG2).dix:
 	xmllint --xinclude $(BASENAME).$(LANG1)-$(LANG2).dix.xml > $(BASENAME).$(LANG1)-$(LANG2).dix
+
+$(PREFIX1).autopoly.bin: $(BASENAME).$(LANG2)-poly.dix
+	apertium-validate-dictionary $(BASENAME).$(LANG2)-poly.dix
+	lt-comp lr $(BASENAME).$(LANG2)-poly.dix $@ $(BASENAME).$(LANG2).acx
      
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
@@ -131,6 +135,7 @@ apertium_cy_en_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
                     $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
                     $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
                     $(PREFIX1).autopgen.bin \
+                    $(PREFIX1).autopoly.bin \
                     $(PREFIX2).autopgen.bin \
      		    $(PREFIX2).autoorth.bin \
                     $(PREFIX1).prob $(PREFIX2).prob \
