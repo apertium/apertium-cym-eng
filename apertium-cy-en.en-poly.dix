@@ -1,0 +1,32 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="vblex"/>
+    <sdef n="n"/>
+    <sdef n="adj"/>
+    <sdef n="adv"/>
+    <sdef n="unc"/>
+    <sdef n="sint"/>
+  </sdefs>
+  <section id="main" type="inconditional">
+    <e><p><l>want<s n="vblex"/></l><r>want<s n="vblex"/></r></p></e> 
+    <e><p><l>want<s n="vblex"/></l><r>wish<s n="vblex"/></r></p></e> 
+
+    <e><p><l>money<s n="n"/><s n="unc"/></l><r>money<s n="n"/><s n="unc"/></r></p></e> 
+    <e><p><l>money<s n="n"/><s n="unc"/></l><r>silver<s n="n"/></r></p></e> 
+
+    <e><p><l>daughter<s n="n"/></l><r>daughter<s n="n"/></r></p></e> 
+    <e><p><l>daughter<s n="n"/></l><r>girl<s n="n"/></r></p></e> 
+
+    <e><p><l>clear<s n="adj"/><s n="sint"/></l><r>clear<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>clear<s n="adj"/><s n="sint"/></l><r>clearly<s n="adv"/></r></p></e> 
+
+    <e><p><l>constant<s n="adj"/></l><r>constant<s n="adj"/></r></p></e> 
+    <e><p><l>constant<s n="adj"/></l><r>constantly<s n="adv"/></r></p></e> 
+    <e><p><l>constant<s n="adj"/></l><r>steady<s n="adj"/></r></p></e> 
+    <e><p><l>constant<s n="adj"/></l><r>steadily<s n="adv"/></r></p></e> 
+
+    <e><p><l>last<s n="adj"/></l><r>last<s n="adj"/></r></p></e> 
+    <e><p><l>last<s n="adj"/></l><r>recent<s n="adj"/></r></p></e> 
+  </section>
+</dictionary>
