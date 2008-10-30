@@ -58184,6 +58184,8 @@
     <e lm="Llydaw"><par n="initial-Ll"/><i>ydaw</i><par n="Lloegr__np"/></e>
 
     <e lm="gwlad Thai"><par n="initial-g"/><i>wlad<b/>Thai</i><par n="Lloegr__np"/></e>
+    <e lm="gwlad Basg"><par n="initial-g"/><i>wlad<b/>Basg</i><par n="Lloegr__np"/></e>
+    <e lm="gwlad y Basg"><par n="initial-g"/><p><l>wlad<b/>y<b/>Basg</l><r>wlad<b/>Basg</r></p><par n="Lloegr__np"/></e>
 
     <e lm="Ariannin"><i>Ariannin</i><par n="Blaenafon__np"/></e>
     <e lm="yr Alban"><i>yr<b/>Alban</i><par n="Blaenafon__np"/></e>

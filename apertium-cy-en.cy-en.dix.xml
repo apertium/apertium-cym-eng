@@ -11197,7 +11197,8 @@
  
     <e><p><l>Lloegr<s n="np"/><s n="top"/><s n="f"/></l><r>England<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llydaw<s n="np"/><s n="top"/><s n="f"/></l><r>Brittany<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>gwlad Thai<s n="np"/><s n="top"/><s n="f"/></l><r>Thailand<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>gwlad<b/>Thai<s n="np"/><s n="top"/><s n="f"/></l><r>Thailand<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>gwlad<b/>Basg<s n="np"/><s n="top"/><s n="f"/></l><r>Basque<b/>Country<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Iwerddon<s n="np"/><s n="top"/><s n="f"/></l><r>Ireland<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Fietnam<s n="np"/><s n="top"/><s n="f"/></l><r>Vietnam<s n="np"/><s n="top"/></r></p></e>
 
