@@ -94,6 +94,13 @@
           <r><s n="num"/></r>
         </p>
       </e>
+      <e>
+        <re>[0-9](pm|PM|am|AM)</re>
+        <p>
+          <l/>
+          <r><s n="num"/></r>
+        </p>
+      </e>
     </pardef>
 
     <pardef n="numeros">
@@ -8342,7 +8349,7 @@
       </e>
       <e>
         <p>
-          <l>eachs</l>
+          <l>eaches</l>
           <r>each<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
@@ -11324,6 +11331,7 @@
     <e lm="instrumental"><i>instrumental</i><par n="expensive__adj"/></e>
     <e lm="expansionary"><i>expansionary</i><par n="expensive__adj"/></e>
     <e lm="Breton"><i>Breton</i><par n="expensive__adj"/></e>
+    <e lm="Basque"><i>Basque</i><par n="expensive__adj"/></e>
     <e lm="Afrikaans"><i>Afrikaans</i><par n="expensive__adj"/></e>
     <e lm="transnational"><i>transnational</i><par n="expensive__adj"/></e>
     <e lm="artificial"><i>artificial</i><par n="expensive__adj"/></e>

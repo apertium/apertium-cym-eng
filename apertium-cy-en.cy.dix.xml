@@ -88,6 +88,13 @@
           <r><s n="num"/></r>
         </p>
       </e>
+      <e>
+        <re>[0-9](pm|PM|am|AM)</re>
+        <p>
+          <l/>
+          <r><s n="num"/></r>
+        </p>
+      </e>
     </pardef>
 
     <pardef n="un__num">
@@ -53843,6 +53850,7 @@
     <e lm="rhywiol"><par n="initial-rh"/><i>ywiol</i><par n="caredig__adj"/></e>
     <e lm="Rwsiaidd"><i>Rwsiaidd</i><par n="caredig__adj"/></e>
     <e lm="Saesneg"><i>Saesneg</i><par n="caredig__adj"/></e>
+    <e lm="Basgeg"><par n="initial-B"/><i>asgeg</i><par n="caredig__adj"/></e>
     <e lm="Cernyweg"><par n="initial-C"/><i>ernyweg</i><par n="caredig__adj"/></e>
     <e lm="Llydaweg"><par n="initial-Ll"/><i>ydaweg</i><par n="caredig__adj"/></e>
     <e lm="safonol"><i>safonol</i><par n="caredig__adj"/></e>

@@ -5704,6 +5704,7 @@
     <e><p><l>rhywiol<s n="adj"/></l><r>sexual<s n="adj"/></r></p></e>
     <e><p><l>Rwsiaidd<s n="adj"/></l><r>Russian<s n="adj"/></r></p></e>
     <e><p><l>Saesneg<s n="adj"/></l><r>English<s n="adj"/></r></p></e>
+    <e><p><l>Basgeg<s n="adj"/></l><r>Basque<s n="adj"/></r></p></e>
     <e><p><l>Llydaweg<s n="adj"/></l><r>Breton<s n="adj"/></r></p></e>
     <e><p><l>Cernyweg<s n="adj"/></l><r>Cornish<s n="adj"/></r></p></e>
     <e><p><l>safonol<s n="adj"/></l><r>standard<s n="adj"/></r></p></e>
@@ -11687,6 +11688,7 @@
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 
     <e><re>[0-9]+[.:][0-5][0-9](pm|PM|am|AM)</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[0-9](pm|PM|am|AM)</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>[¿¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
     <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
