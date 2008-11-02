@@ -108,6 +108,14 @@ REMOVE PrnSubj IF (1 NP) (-1 Adj);
 # mewn i un system
 REMOVE PrnSubj IF (1 Num) (-1 Pr);
 
+
+# Remove a pronoun reading if it doesn't concord with the verb
+REMOVE PrnSubj IF ((-1 (p2) OR (p3))) (0 (p1)); 
+REMOVE PrnSubj IF ((-1 (p1) OR (p3))) (0 (p2)); 
+REMOVE PrnSubj IF ((-1 (p1) OR (p2))) (0 (p3));
+REMOVE PrnSubj IF (-1 (pl)) (0 (sg));
+REMOVE PrnSubj IF (-1 (sg)) (0 (pl));
+
 # mark a possessive determiner as being masculine if followed by soft mutation
 SUBSTITUTE (mf) (m) DetPos (1 MSoftC);
 
