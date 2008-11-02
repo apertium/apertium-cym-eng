@@ -110,6 +110,10 @@ REMOVE PrnSubj IF (1 Num) (-1 Pr);
 
 
 # Remove a pronoun reading if it doesn't concord with the verb
+# Better would be: 
+#  REMOVE (Pron) IF (-1 V $$PERNUM)(NOT 0 $$PERNUM);
+#  when $$PERNUM = (p1 sg) | (p2 sg) | ...
+
 REMOVE PrnSubj IF (-1 V) ((-1 (p2) OR (p3))) (0 (p1)); 
 REMOVE PrnSubj IF (-1 V) ((-1 (p1) OR (p3))) (0 (p2)); 
 REMOVE PrnSubj IF (-1 V) ((-1 (p1) OR (p2))) (0 (p3));
