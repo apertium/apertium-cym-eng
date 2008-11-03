@@ -12,7 +12,7 @@ TARGETS_COMMON = $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG2).dix $(BASENAME).$
      $(PREFIX2).autogen.bin \
      $(PREFIX2).autopgen.bin \
      $(PREFIX2).autoorth.bin \
-     $(PREFIX1).cg.bin \
+     $(PREFIX1).rlx.bin \
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin pre-$(LANG1).t1x.bin \
      $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes
 
@@ -68,7 +68,7 @@ pre-$(LANG1).t1x.bin: $(BASENAME).pre-$(LANG1).t1x
 	apertium-preprocess-transfer $(BASENAME).pre-$(LANG1).t1x $@
 
 
-$(PREFIX1).cg.bin: $(BASENAME).$(PREFIX1).rlx
+$(PREFIX1).rlx.bin: $(BASENAME).$(PREFIX1).rlx
 	cg-comp $(BASENAME).$(PREFIX1).rlx $@
 
 $(PREFIX1).t1x.bin: $(BASENAME).$(PREFIX1).t1x
@@ -139,7 +139,7 @@ apertium_cy_en_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
                     $(PREFIX2).autopgen.bin \
      		    $(PREFIX2).autoorth.bin \
                     $(PREFIX1).prob $(PREFIX2).prob \
-		    $(PREFIX1).cg.bin \
+		    $(PREFIX1).rlx.bin \
 		    $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
 		    $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin pre-$(LANG1).t1x.bin \
 		    $(PREFIX1).mode 
