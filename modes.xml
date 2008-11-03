@@ -6,7 +6,7 @@
         <file name="cy-en.automorf.bin"/>
       </program>
       <program name="cg-proc">
-        <file name="cy-en.cg.bin"/> 
+        <file name="cy-en.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2 $2">
         <file name="cy-en.prob"/>
@@ -40,7 +40,7 @@
         <file name="cy-en.automorf.bin"/>
       </program>
       <program name="cg-proc">
-        <file name="cy-en.cg.bin"/> 
+        <file name="cy-en.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2 $2">
         <file name="cy-en.prob"/>
