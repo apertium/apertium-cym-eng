@@ -3759,7 +3759,7 @@
     </rule>
 
 
-    <rule comment="REGLA: yn VERB inf">
+    <rule comment="REGLA: yn VERBinf">
       <pattern>
         <pattern-item n="yn"/>
         <pattern-item n="verbinf"/>
@@ -3783,6 +3783,45 @@
             </lu>
           </chunk>
           <b/>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: VERBcj yn VERBinf">
+      <pattern>
+        <pattern-item n="verbcj"/>
+        <pattern-item n="yn"/>
+        <pattern-item n="verbinf"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conj_verb1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="verbcj_verbger" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+	      <tag><lit-tag v="vblex"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <var n="verbfinal"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+	    <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_verb"/>
+              <lit-tag v="ger"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+	  <b/>
         </out>
       </action>
     </rule>

@@ -72,6 +72,51 @@
     </pipeline>
   </mode>
 
+  <mode name="cy-en-chunker" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="cy-en.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="cy-en.cg.bin"/> 
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="cy-en.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-cy-en.cy-en.t1x"/>
+        <file name="cy-en.t1x.bin"/>
+        <file name="cy-en.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="cy-en-interchunk" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="cy-en.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="cy-en.cg.bin"/> 
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="cy-en.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-cy-en.cy-en.t1x"/>
+        <file name="cy-en.t1x.bin"/>
+        <file name="cy-en.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-cy-en.cy-en.t2x"/>
+        <file name="cy-en.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
   <!-- not installed for now -->
   <mode name="en-cy">
     <pipeline>
