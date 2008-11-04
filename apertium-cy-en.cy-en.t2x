@@ -46,6 +46,13 @@
       <cat-item lemma="aux_verb" tags="SV.*"/>
     </def-cat>
 
+    <def-cat n="SVpers">
+      <cat-item tags="SV.vblex.*.p1.*"/>
+      <cat-item tags="SV.vblex.*.p2.*"/>
+      <cat-item tags="SV.vbser.*.p1.*"/>
+      <cat-item tags="SV.vbser.*.p2.*"/>
+    </def-cat>
+
     <def-cat n="REL">
       <cat-item tags="REL"/>
     </def-cat>
@@ -453,6 +460,74 @@
     </rule>
 
 
+    <rule comment="REGLA: Vpart SVpers">
+      <pattern>
+        <pattern-item n="Vpart"/>
+        <pattern-item n="SVpers"/>
+      </pattern>
+      <action>
+        <choose>
+	  <when>
+            <test>
+	      <equal>
+	        <clip pos="1" part="tags"/>
+	        <lit-tag v="Vpart.neg"/>
+	      </equal>
+	    </test>
+            <out>
+              <chunk>
+                <lit v="prpers"/>
+                <lit-tag v="SN"/>
+                <lit v="{^prpers"/>
+                <lit-tag v="prn"/>
+                <lit-tag v="subj"/>
+		<clip pos="2" part="pers"/>
+                <lit-tag v="mf"/>
+		<clip pos="2" part="nbr"/>
+                <lit v="$}"/>
+              </chunk>
+              <b pos="1"/>
+              <chunk>
+                <clip pos="2" part="lem"/>
+                <clip pos="2" part="tags"/>
+                <clip pos="2" part="chcontent"/>
+              </chunk>
+              <b/>
+              <chunk>
+                <lit v="adv"/>
+                <lit-tag v="Adv"/>
+                <lit v="{^not"/>
+                <lit-tag v="adv"/>
+                <lit v="$}"/>
+              </chunk>
+            </out>
+	  </when>
+          <otherwise>
+	    <out>
+              <chunk>
+                <lit v="prpers"/>
+                <lit-tag v="SN"/>
+                <lit v="{^prpers"/>
+                <lit-tag v="prn"/>
+                <lit-tag v="subj"/>
+		<clip pos="2" part="pers"/>
+                <lit-tag v="mf"/>
+		<clip pos="2" part="nbr"/>
+                <lit v="$}"/>
+              </chunk>
+              <b pos="1"/>  
+              <chunk>
+                <clip pos="2" part="lem"/>
+                <clip pos="2" part="tags"/>
+                <clip pos="2" part="chcontent"/>
+              </chunk>
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: Vpart SV">
       <pattern>
         <pattern-item n="Vpart"/>
@@ -495,6 +570,7 @@
 	</choose>
       </action>
     </rule>
+
 
     <rule comment="REGLA: Vpart SV SN">
       <pattern>
