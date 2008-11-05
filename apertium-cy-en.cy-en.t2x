@@ -52,6 +52,7 @@
       <cat-item lemma="verbimpers" tags="SV.*"/>
       <cat-item lemma="aux_verb" tags="SV.*"/>
       <cat-item lemma="verbaux" tags="SV.*"/>
+      <cat-item lemma="verbcj_verbger" tags="SV.*"/>
     </def-cat>
 
     <def-cat n="SVpers">

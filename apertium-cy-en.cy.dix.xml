@@ -59590,14 +59590,14 @@
     <e lm="yma'n" r="LR">
       <p>
         <l>yma'n</l>
-        <r>yma<s n="det"/><s n="dem"/><s n="sp"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+        <r>yma<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
       </p>
     </e>
 
     <e lm="yna'n" r="LR">
       <p>
         <l>yna'n</l>
-        <r>yna<s n="det"/><s n="dem"/><s n="sp"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+        <r>yna<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
       </p>
     </e>
 
