@@ -32,7 +32,7 @@
     </pardef>
     <pardef n="proper_names">
       <e>
-	<re>(Sir|Rt Hon|Mr|Miss|Ms|Mrs|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+	<re>(Sir|Lord|Rt Hon|Mr|Miss|Ms|Mrs|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
         <p>
           <l/>
          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
@@ -14814,6 +14814,7 @@
     <e lm="flow"><i>flow</i><par n="house__n"/></e>
     <e lm="hate"><i>hate</i><par n="house__n__unc"/></e>
     <e lm="bag"><i>bag</i><par n="house__n"/></e>
+    <e lm="plastic bag"><i>plastic<b/>bag</i><par n="house__n"/></e>
     <e lm="shift"><i>shift</i><par n="house__n"/></e>
     <e lm="mile"><i>mile</i><par n="house__n"/></e>
     <e lm="wave"><i>wave</i><par n="house__n"/></e>
@@ -21938,12 +21939,12 @@
     <e lm="supply and demand"><i>supply<b/>and<b/>demand</i><par n="east__n"/></e>
     <e lm="betting"><i>betting</i><par n="house__n"/></e>
     <e lm="breathing"><i>breathing</i><par n="house__n"/></e>
-    <e lm="CD"><i>CD</i><par n="DNA__n"/></e>
+    <e lm="CD"><i>CD</i><par n="house__n"/></e>
     <e lm="cheat"><i>cheat</i><par n="house__n"/></e>
     <e lm="chief"><i>chief</i><par n="house__n"/></e>
     <e lm="clap"><i>clap</i><par n="house__n"/></e>
     <e lm="dislike"><i>dislike</i><par n="house__n"/></e>
-    <e lm="DVD"><i>DVD</i><par n="DNA__n"/></e>
+    <e lm="DVD"><i>DVD</i><par n="house__n"/></e>
     <e lm="following"><i>following</i><par n="house__n"/></e>
     <e lm="fries"><i>fries</i><par n="personnel__n"/></e>
     <e lm="gamble"><i>gamble</i><par n="house__n"/></e>
@@ -21988,6 +21989,8 @@
     <e lm="Hart"><i>Hart</i><par n="Ifans__np"/></e>
     <e lm="Hughes"><i>Hughes</i><par n="Ifans__np"/></e>
     <e lm="Jones"><i>Jones</i><par n="Ifans__np"/></e>
+    <e lm="Dodd"><i>Dodd</i><par n="Ifans__np"/></e>
+    <e lm="Machreth"><i>Machreth</i><par n="Ifans__np"/></e>
     <e lm="Llwyd"><i>Llwyd</i><par n="Ifans__np"/></e>
     <e lm="Lloyd"><i>Lloyd</i><par n="Ifans__np"/></e>
     <e lm="Nelson"><i>Nelson</i><par n="Ifans__np"/></e>
@@ -22286,6 +22289,7 @@
     <e lm="Kerys"><i>Kerys</i><par n="Mary__np"/></e>
     <e lm="Lauryn"><i>Lauryn</i><par n="Mary__np"/></e>
     <e lm="Mary"><i>Mary</i><par n="Mary__np"/></e>
+    <e lm="Menna"><i>Menna</i><par n="Mary__np"/></e>
     <e lm="Natalia"><i>Natalia</i><par n="Mary__np"/></e>
     <e lm="Carmen"><i>Carmen</i><par n="Mary__np"/></e>
     <e lm="Christina"><i>Christina</i><par n="Mary__np"/></e>
@@ -26437,7 +26441,6 @@
     <e lm="plastic"><i>plastic</i><par n="house__n"/></e>
     <e lm="lead"><i>lead</i><par n="house__n"/></e>
     <e lm="pad"><i>pad</i><par n="house__n"/></e>
-    <e lm="CD"><i>CD</i><par n="house__n"/></e>
     <e lm="feed"><i>feed</i><par n="house__n"/></e>
     <e lm="linefeed"><i>linefeed</i><par n="house__n"/></e>
     <e lm="speed"><i>speed</i><par n="house__n"/></e>

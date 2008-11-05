@@ -265,6 +265,7 @@
     <e r="RL"><p><l>na<s n="cnjcoo"/></l><r>than<s n="cnjcoo"/></r></p></e>
 
     <e><p><l>na<s n="cnjsub"/></l><r>than<s n="cnjsub"/></r></p></e>
+    <e><p><l>taw<s n="cnjsub"/></l><r>that<s n="cnjsub"/></r></p></e>
 
     <e><p><l>ai<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
     <e><p><l>canys<s n="cnjsub"/></l><r>because<s n="cnjsub"/></r></p></e>
@@ -576,7 +577,9 @@
     <e><p><l>addolwr<s n="n"/><s n="m"/></l><r>worshipper<s n="n"/></r></p></e>
     <e><p><l>alaw<s n="n"/><s n="f"/></l><r>melody<s n="n"/></r></p></e>
     <e><p><l>archdderwydd<s n="n"/><s n="m"/></l><r>archdruid<s n="n"/></r></p></e>
-    <e><p><l>band<g><b/>pres</g><s n="n"/><s n="m"/></l><r>brass band<s n="n"/></r></p></e>
+    <e><p><l>band<g><b/>pres</g><s n="n"/><s n="m"/></l><r>brass<b/>band<s n="n"/></r></p></e>
+    <e><p><l>bag<g><b/>plastig</g><s n="n"/><s n="m"/></l><r>plastic<b/>bag<s n="n"/></r></p></e>
+    <e><p><l>bag<s n="n"/><s n="m"/></l><r>bag<s n="n"/></r></p></e>
     <e><p><l>coron<s n="n"/><s n="f"/></l><r>crown<s n="n"/></r></p></e>
     <e><p><l>cwsg<s n="n"/><s n="m"/></l><r>sleep<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>cyfansoddwr<s n="n"/><s n="m"/></l><r>composer<s n="n"/></r></p></e>
@@ -10596,6 +10599,7 @@
     <e><p><l>Kerys<s n="np"/><s n="ant"/></l><r>Kerys<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Lauryn<s n="np"/><s n="ant"/></l><r>Lauryn<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Mary<s n="np"/><s n="ant"/></l><r>Mary<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Menna<s n="np"/><s n="ant"/></l><r>Menna<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Natalia<s n="np"/><s n="ant"/></l><r>Natalia<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Carmen<s n="np"/><s n="ant"/></l><r>Carmen<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Christina<s n="np"/><s n="ant"/></l><r>Christina<s n="np"/><s n="ant"/></r></p></e>
@@ -11098,6 +11102,8 @@
     <e><p><l>Cyfanswm<s n="np"/><s n="cog"/></l><r>Cyfanswm<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Davies<s n="np"/><s n="cog"/></l><r>Davies<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Jones<s n="np"/><s n="cog"/></l><r>Jones<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Dodd<s n="np"/><s n="cog"/></l><r>Dodd<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Machreth<s n="np"/><s n="cog"/></l><r>Machreth<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Llwyd<s n="np"/><s n="cog"/></l><r>Llwyd<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Lloyd<s n="np"/><s n="cog"/></l><r>Lloyd<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Nelson<s n="np"/><s n="cog"/></l><r>Nelson<s n="np"/><s n="cog"/></r></p></e>
@@ -11198,7 +11204,6 @@
  
     <e><p><l>Lloegr<s n="np"/><s n="top"/><s n="f"/></l><r>England<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llydaw<s n="np"/><s n="top"/><s n="f"/></l><r>Brittany<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>gwlad<b/>Thai<s n="np"/><s n="top"/><s n="f"/></l><r>Thailand<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>gwlad<b/>Basg<s n="np"/><s n="top"/><s n="f"/></l><r>Basque<b/>Country<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Iwerddon<s n="np"/><s n="top"/><s n="f"/></l><r>Ireland<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Fietnam<s n="np"/><s n="top"/><s n="f"/></l><r>Vietnam<s n="np"/><s n="top"/></r></p></e>
@@ -11597,26 +11602,30 @@
     <e><p><l>Sénégal<s n="np"/><s n="top"/><s n="f"/></l><r>Senegal<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Serbia<s n="np"/><s n="top"/><s n="f"/></l><r>Serbia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Seychelles<s n="np"/><s n="top"/><s n="f"/></l><r>Seychelles<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Gwlad Thai<s n="np"/><s n="top"/><s n="f"/></l><r>Siam<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Sierra Leone<s n="np"/><s n="top"/><s n="f"/></l><r>Sierra Leone<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>gwlad<b/>Thai<s n="np"/><s n="top"/><s n="f"/></l><r>Thailand<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Sierra<b/>Leone<s n="np"/><s n="top"/><s n="f"/></l><r>Sierra<b/>Leone<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Singapore<s n="np"/><s n="top"/><s n="f"/></l><r>Singapore<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Slofacia<s n="np"/><s n="top"/><s n="f"/></l><r>Slovakia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Slofenia<s n="np"/><s n="top"/><s n="f"/></l><r>Slovenia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Siapan<s n="np"/><s n="top"/><s n="f"/></l><r>Japan<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Israel<s n="np"/><s n="top"/><s n="f"/></l><r>Israel<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Tsieina<s n="np"/><s n="top"/><s n="f"/></l><r>China<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bhutan<s n="np"/><s n="top"/><s n="f"/></l><r>Bhutan<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bangladesh<s n="np"/><s n="top"/><s n="f"/></l><r>Bangladesh<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Rwsia<s n="np"/><s n="top"/><s n="f"/></l><r>Russia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ffrainc<s n="np"/><s n="top"/><s n="f"/></l><r>France<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Sofia<s n="np"/><s n="top"/><s n="f"/></l><r>Sofia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Somalia<s n="np"/><s n="top"/><s n="f"/></l><r>Somalia<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>De Affrica<s n="np"/><s n="top"/><s n="f"/></l><r>South Africa<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>De America<s n="np"/><s n="top"/><s n="f"/></l><r>South America<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Pegwn y De<s n="np"/><s n="top"/><s n="f"/></l><r>South Pole<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>yr Undeb Sofietaidd<s n="np"/><s n="top"/><s n="f"/></l><r>Soviet Union<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>De<b/>Affrica<s n="np"/><s n="top"/><s n="f"/></l><r>South<b/>Africa<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>De<b/>America<s n="np"/><s n="top"/><s n="f"/></l><r>South<b/>America<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Pegwn<b/>y<b/>De<s n="np"/><s n="top"/><s n="f"/></l><r>South<b/>Pole<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Undeb<b/>Sofietaidd<s n="np"/><s n="top"/><s n="f"/></l><r>Soviet<b/>Union<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Sbaen<s n="np"/><s n="top"/><s n="f"/></l><r>Spain<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Stockholm<s n="np"/><s n="top"/><s n="f"/></l><r>Stockholm<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Strasbourg<s n="np"/><s n="top"/><s n="f"/></l><r>Strasbourg<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Swdan<s n="np"/><s n="top"/><s n="f"/></l><r>Sudan<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Suriname<s n="np"/><s n="top"/><s n="f"/></l><r>Suriname<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Gwlad Swazi<s n="np"/><s n="top"/><s n="f"/></l><r>Swaziland<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Gwlad<b/>Swazi<s n="np"/><s n="top"/><s n="f"/></l><r>Swaziland<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Sweden<s n="np"/><s n="top"/><s n="f"/></l><r>Sweden<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>y Swistir<s n="np"/><s n="top"/><s n="f"/></l><r>Switzerland<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Syria<s n="np"/><s n="top"/><s n="f"/></l><r>Syria<s n="np"/><s n="top"/></r></p></e>
@@ -11624,7 +11633,6 @@
     <e><p><l>Tajikistan<s n="np"/><s n="top"/><s n="f"/></l><r>Tajikistan<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Tanzania<s n="np"/><s n="top"/><s n="f"/></l><r>Tanzania<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Texas<s n="np"/><s n="top"/><s n="f"/></l><r>Texas<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Gwlad Thai<s n="np"/><s n="top"/><s n="f"/></l><r>Thailand<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>y Gambia<s n="np"/><s n="top"/><s n="f"/></l><r>The Gambia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>yr Iseldiroedd<s n="np"/><s n="top"/><s n="f"/></l><r>The Netherlands<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Togo<s n="np"/><s n="top"/><s n="f"/></l><r>Togo<s n="np"/><s n="top"/></r></p></e>
@@ -11698,7 +11706,7 @@
     <e><re>[A-Z][A-Z]+([A-Z])?</re><p><l><s n="n"/><s n="acr"/></l><r><s n="n"/><s n="acr"/></r></p></e>
     <e><re>[A-Z][0-9]+([0-9])?</re><p><l><s n="n"/><s n="acr"/></l><r><s n="n"/><s n="acr"/></r></p></e>
 
-    <e><re>(Sir|Rt Hon|Mr|Miss|Ms|Mrs|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e><re>(Sir|Lord|Rt Hon|Mr|Miss|Ms|Mrs|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
 
   </section>
 </dictionary>
