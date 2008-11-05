@@ -26,10 +26,17 @@
     <def-cat n="CC">
       <cat-item tags="CC"/>
     </def-cat>
+    <def-cat n="CS">
+      <cat-item tags="CS"/>
+    </def-cat>
 
     <def-cat n="PRNSUBJ">
       <cat-item lemma="prnsubj" tags="SN.*"/>
     </def-cat>
+    <def-cat n="Prn">
+      <cat-item lemma="Prn" tags="SN.*"/>
+    </def-cat>
+
     <def-cat n="SP">
       <cat-item tags="SP"/>
       <cat-item tags="SP.*"/>
@@ -44,6 +51,7 @@
       <cat-item lemma="verbcj" tags="SV.*"/>
       <cat-item lemma="verbimpers" tags="SV.*"/>
       <cat-item lemma="aux_verb" tags="SV.*"/>
+      <cat-item lemma="verbaux" tags="SV.*"/>
     </def-cat>
 
     <def-cat n="SVpers">
@@ -714,6 +722,40 @@
     </rule>
 
 
+    <rule comment="REGLA: Prn SV">
+      <pattern>
+        <pattern-item n="Prn"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+      <call-macro n="when_are_we1">
+        <with-param pos="1"/>
+      </call-macro>
+          <out>
+            <chunk>
+              <get-case-from pos="1">
+                <clip pos="1" part="lem"/>
+              </get-case-from>
+              <clip pos="1" part="tags"/>
+              <clip pos="1" part="chcontent"/>
+            </chunk>
+            <b/>
+            <chunk>
+              <get-case-from pos="2">
+                <clip pos="2" part="lem"/>
+              </get-case-from>
+              <clip pos="2" part="a_frase"/>
+              <clip pos="2" part="a_verb"/>
+              <clip pos="2" part="temps"/>
+              <clip pos="2" part="pers"/>
+              <clip pos="1" part="nbr"/>
+              <clip pos="2" part="chcontent"/>
+            </chunk>
+          </out>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: SV SN">
       <pattern>
         <pattern-item n="SV"/>
@@ -1096,6 +1138,54 @@
         </out>
       </action>
     </rule>
+
+    <!--
+         Welsh: CS SN1 SV SN2 (Verb Subj Obj) 
+	 output English CS SN1 SV SN2 (Subject Verb Obj) 
+    -->
+    <rule comment="REGLA: CS SN SV SN">
+      <pattern>
+        <pattern-item n="CS"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+      <call-macro n="when_are_we1">
+        <with-param pos="1"/>
+      </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="a_frase"/>
+	    <clip pos="3" part="a_verb"/>
+	    <clip pos="3" part="temps"/>
+	    <clip pos="3" part="pers"/>
+	    <clip pos="2" part="nbr"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: mon SP_o SN">
       <pattern>

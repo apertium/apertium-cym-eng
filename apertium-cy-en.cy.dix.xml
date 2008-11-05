@@ -32,7 +32,7 @@
     </pardef>
     <pardef n="proper_names">
       <e>
-        <re>(Sir|Rt Hon|Mr|Miss|Ms|Mrs|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <re>(Sir|Lord|Rt Hon|Mr|Miss|Ms|Mrs|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
         <p>
           <l/>
          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
@@ -48609,6 +48609,7 @@
  
     <e lm="yn"><i>yn</i><par n="yn__part"/></e>  -->
 
+
     <e lm="ar"><i/><par n="/ar__pr"/></e>
     <e lm="am"><i/><par n="/am__pr"/></e>
     <e lm="dan"><i/><par n="/dan__pr"/></e>
@@ -48716,6 +48717,7 @@
 
 
     <e lm="na"><i>na</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="taw"><i>taw</i><par n="oherwydd__cnjsub"/></e>
 
     <e lm="ai"><i>ai</i><par n="ond__cnjcoo"/></e> <!-- or, cnjcoo -->
     <e lm="canys"><i>canys</i><par n="oherwydd__cnjsub"/></e> <!-- because, cnjsub -->
@@ -50987,6 +50989,8 @@
     <e lm="antur"><i>antur</i><par n="amlap__n"/></e>
     <e lm="arlliw"><i>arlliw</i><par n="amlap__n"/></e>
     <e lm="band"><par n="initial-b"/><i>and</i><par n="amlap__n"/></e>
+    <e lm="bag"><par n="initial-b"/><i>ag</i><par n="amlap__n"/></e>
+    <e lm="bag plastig"><par n="initial-b"/><i>ag</i><par n="amlap__n"/><p><l><b/>plastig</l><r><g><b/>plastig</g></r></p></e>
     <e lm="band pres"><par n="initial-b"/><i>and</i><par n="amlap__n"/><p><l><b/>pres</l><r><g><b/>pres</g></r></p></e>
     <e lm="bar"><par n="initial-b"/><i>ar</i><par n="amlap__n"/></e>
     <e lm="bat"><par n="initial-b"/><i>at</i><par n="amlap__n"/></e>
@@ -58181,6 +58185,14 @@
     <e lm="Canada"><par n="initial-C"/><i>anada</i><par n="Blaenafon__np"/></e>
     <e lm="Seland Newydd"><i>Seland<b/>Newydd</i><par n="Blaenafon__np"/></e>
     <e lm="Siapan"><i>Siapan</i><par n="Blaenafon__np"/></e>
+
+    <e lm="Tsieina"><i>Tsieina</i><par n="Blaenafon__np"/></e>
+    <e lm="Tseina"><p><l>Tseina</l><r>Tsieina</r></p><par n="Blaenafon__np"/></e>
+    <e lm="China"><p><l>China</l><r>Tsieina</r></p><par n="Blaenafon__np"/></e>
+
+    <e lm="Israel"><i>Israel</i><par n="Blaenafon__np"/></e>
+    <e lm="Bangladesh"><par n="initial-B"/><i>angladesh</i><par n="Blaenafon__np"/></e>
+    <e lm="Bhutan"><i>Bhutan</i><par n="Blaenafon__np"/></e>
     <e lm="Ffrainc"><i>Ffrainc</i><par n="Blaenafon__np"/></e>
     <e lm="Twrci"><par n="initial-T"/><i>wrci</i><par n="Blaenafon__np"/></e>
     <e lm="Rwsia"><i>Rwsia</i><par n="Blaenafon__np"/></e>
@@ -58218,11 +58230,13 @@
     <e lm="Cyfanswm"><par n="initial-C"/><i>yfanswm</i><par n="Ifans__np"/></e>
     <e lm="Davies"><par n="initial-D"/><i>avies</i><par n="Ifans__np"/></e>
     <e lm="Jones"><i>Jones</i><par n="Ifans__np"/></e>
+    <e lm="Dodd"><par n="initial-D"/><i>odd</i><par n="Ifans__np"/></e>
     <e lm="Llwyd"><par n="initial-Ll"/><i>wyd</i><par n="Ifans__np"/></e>
     <e lm="Lloyd"><par n="initial-Ll"/><i>oyd</i><par n="Ifans__np"/></e>
     <e lm="Summers"><i>Summers</i><par n="Ifans__np"/></e>
     <e lm="Nelson"><i>Nelson</i><par n="Ifans__np"/></e>
     <e lm="Murphy"><par n="initial-M"/><i>urphy</i><par n="Ifans__np"/></e>
+    <e lm="Machreth"><par n="initial-M"/><i>achreth</i><par n="Ifans__np"/></e>
     <e lm="Hart"><i>Hart</i><par n="Ifans__np"/></e>
     <e lm="Havard"><i>Havard</i><par n="Ifans__np"/></e>
     <e lm="Cameron"><par n="initial-C"/><i>ameron</i><par n="Ifans__np"/></e>
@@ -59266,6 +59280,7 @@
     <e lm="Marta"><par n="initial-M"/><i>arta</i><par n="Elin__np"/></e>
     <e lm="Martina"><par n="initial-M"/><i>artina</i><par n="Elin__np"/></e>
     <e lm="Mary"><par n="initial-M"/><i>ary</i><par n="Elin__np"/></e>
+    <e lm="Menna"><par n="initial-M"/><i>enna</i><par n="Elin__np"/></e>
     <e lm="Matilda"><par n="initial-M"/><i>atilda</i><par n="Elin__np"/></e>
     <e lm="Maude"><par n="initial-M"/><i>aude</i><par n="Elin__np"/></e>
     <e lm="Maud"><par n="initial-M"/><i>aud</i><par n="Elin__np"/></e>

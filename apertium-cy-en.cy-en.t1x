@@ -52,6 +52,9 @@
     <def-cat n="cnjcoo">
       <cat-item tags="cnjcoo"/>
     </def-cat>
+    <def-cat n="cnjsub">
+      <cat-item tags="cnjsub"/>
+    </def-cat>
     <def-cat n="comma">
       <cat-item tags="cm"/>
     </def-cat>
@@ -4231,6 +4234,27 @@
           <chunk name="cnjcoo" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="CC"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: CNJSUB">
+      <pattern>
+        <pattern-item n="cnjsub"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="cnjsub" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="CS"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
