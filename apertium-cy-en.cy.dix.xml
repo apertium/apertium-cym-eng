@@ -50971,8 +50971,9 @@
     <e lm="rhodd"><par n="initial-rh"/><i>odd</i><par n="acen__n"/></e>
     <e lm="ymarfer"><i>ymarfer</i><par n="acen__n"/></e>
     <e lm="ysgol"><i>ysgol</i><par n="acen__n"/></e>
-    <e lm="ysgol"><i>ysgol</i><par n="acen__n"/></e>
-    <e lm="ystod"><i>ystod</i><par n="acen__n"/></e>
+
+    <e lm="ysgol"><p><l>hysgol</l><r>ysgol</r></p><par n="acen__n"/></e>
+
     <e lm="ystod"><i>ystod</i><par n="acen__n"/></e>
     <e lm="arwydd"><i>arwydd</i><par n="arwydd__n"/></e>
     <e lm="breuddwyd"><par n="initial-b"/><i>reuddwyd</i><par n="arwydd__n"/></e>
@@ -53854,6 +53855,7 @@
     <e lm="rhywiol"><par n="initial-rh"/><i>ywiol</i><par n="caredig__adj"/></e>
     <e lm="Rwsiaidd"><i>Rwsiaidd</i><par n="caredig__adj"/></e>
     <e lm="Saesneg"><i>Saesneg</i><par n="caredig__adj"/></e>
+    <e lm="Sbaeneg"><i>Sbaeneg</i><par n="caredig__adj"/></e>
     <e lm="Basgeg"><par n="initial-B"/><i>asgeg</i><par n="caredig__adj"/></e>
     <e lm="Cernyweg"><par n="initial-C"/><i>ernyweg</i><par n="caredig__adj"/></e>
     <e lm="Llydaweg"><par n="initial-Ll"/><i>ydaweg</i><par n="caredig__adj"/></e>
@@ -58045,6 +58047,10 @@
     <e lm="yr Wyddgrug"><i>yr<b/>Wyddgrug</i><par n="Blaenafon__np"/></e>
     <e lm="y Fenni"><i>y<b/>Fenni</i><par n="Blaenafon__np"/></e>
     <e lm="y Wladfa"><i>y<b/>Wladfa</i><par n="Blaenafon__np"/></e>
+    <e lm="Patagonia"><par n="initial-P"/><i>atagonia</i><par n="Blaenafon__np"/></e>
+    <e lm="Trelew"><par n="initial-T"/><i>relew</i><par n="Blaenafon__np"/></e>
+    <e lm="Trevelin"><par n="initial-T"/><i>revelin</i><par n="Blaenafon__np"/></e>
+    <e lm="Gaiman"><par n="initial-G"/><i>aiman</i><par n="Blaenafon__np"/></e>
     <e lm="Wladfa"><p><l>Wladfa</l><r>y<b/>Wladfa</r></p><par n="Blaenafon__np"/></e>
     <e lm="Ariannin"><i>Ariannin</i><par n="Blaenafon__np"/></e>
     <e lm="Ynys Enlli"><i>Ynys<b/>Enlli</i><par n="Blaenafon__np"/></e>
@@ -59113,6 +59119,7 @@
     <e lm="Ava"><i>Ava</i><par n="Elin__np"/></e>
     <e lm="Caitlin"><par n="initial-C"/><i>aitlin</i><par n="Elin__np"/></e>
     <e lm="Anna"><i>Anna</i><par n="Elin__np"/></e>
+    <e lm="Ann-Marie"><i>Ann-Marie</i><par n="Elin__np"/></e>
     <e lm="Mia"><par n="initial-M"/><i>ia</i><par n="Elin__np"/></e>
     <e lm="Niamh"><i>Niamh</i><par n="Elin__np"/></e>
     <e lm="Lauren"><i>Lauren</i><par n="Elin__np"/></e>

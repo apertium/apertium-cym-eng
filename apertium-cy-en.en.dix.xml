@@ -10005,6 +10005,7 @@
     <e lm="fresh"><i>fresh</i><par n="long/__adj"/></e>
     <e lm="British"><i>British</i><par n="expensive__adj"/></e>
     <e lm="English"><i>English</i><par n="expensive__adj"/></e>
+    <e lm="Spanish"><i>Spanish</i><par n="expensive__adj"/></e>
     <e lm="Cornish"><i>Cornish</i><par n="expensive__adj"/></e>
 
     <e lm="absolute"><i>absolute</i><par n="expensive__adj"/></e>
@@ -22131,7 +22132,11 @@
     <e lm="Mold"><i>Mold</i><par n="Barcelona__np"/></e>
     <e lm="Abergavenny"><i>Abergavenny</i><par n="Barcelona__np"/></e>
     <e lm="Argentina"><i>Argentina</i><par n="Barcelona__np"/></e>
-    <e lm="Bardsey Island"><i>Bardsey Island</i><par n="Barcelona__np"/></e>
+    <e lm="Patagonia"><i>Patagonia</i><par n="Barcelona__np"/></e>
+    <e lm="Trelew"><i>Trelew</i><par n="Barcelona__np"/></e>
+    <e lm="Trevelin"><i>Trevelin</i><par n="Barcelona__np"/></e>
+    <e lm="Gaiman"><i>Gaiman</i><par n="Barcelona__np"/></e>
+    <e lm="Bardsey Island"><i>Bardsey<b/>Island</i><par n="Barcelona__np"/></e>
     <e lm="Barmouth"><i>Barmouth</i><par n="Barcelona__np"/></e>
     <e lm="Brecon"><i>Brecon</i><par n="Barcelona__np"/></e>
     <e lm="Gwynedd"><i>Gwynedd</i><par n="Barcelona__np"/></e>
@@ -23352,10 +23357,10 @@
     <e lm="Àngela"><i>Àngela</i><par n="Mary__np"/></e>
     <e lm="Àngel"><i>Àngel</i><par n="Mark__np"/></e>
     <e lm="Annabel"><i>Annabel</i><par n="Mary__np"/></e>
-    <e lm="Anna "><i>Anna </i><par n="Mary__np"/></e>
     <e lm="Anna"><i>Anna</i><par n="Mary__np"/></e>
-    <e lm="Anna Maria"><i>Anna Maria</i><par n="Mary__np"/></e>
+    <e lm="Anna Maria"><i>Anna<b/>Maria</i><par n="Mary__np"/></e>
     <e lm="Anne"><i>Anne</i><par n="Mary__np"/></e>
+    <e lm="Ann-Marie"><i>Ann-Marie</i><par n="Mary__np"/></e>
     <e lm="Ann"><i>Ann</i><par n="Mary__np"/></e>
     <e lm="Anthony"><i>Anthony</i><par n="Mark__np"/></e>
     <e lm="Antònia"><i>Antònia</i><par n="Mary__np"/></e>
@@ -23372,7 +23377,6 @@
     <e lm="Baldwin"><i>Baldwin</i><par n="Mark__np"/></e>
     <e lm="Barbara"><i>Barbara</i><par n="Mary__np"/></e>
     <e lm="Bàrbara"><i>Bàrbara</i><par n="Mary__np"/></e>
-    <e lm="(Barnard)"><i>(Barnard)</i><par n="Mark__np"/></e>
     <e lm="Bartholomew"><i>Bartholomew</i><par n="Mark__np"/></e>
     <e lm="Bartomeu"><i>Bartomeu</i><par n="Mark__np"/></e>
     <e lm="Baterich"><i>Baterich</i><par n="Mary__np"/></e>
