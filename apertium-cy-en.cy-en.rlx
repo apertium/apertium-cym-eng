@@ -59,6 +59,8 @@ SET PrnSubjP2Pl = PrnSubj | P2Pl;
 SET VbP2Pl = V | P2Pl;
 SET Conj = CC | CS;
 
+SET DetPosNE = DetPos - (+ei);
+
 SECTION
 
 #dawnsio yn y cae
@@ -121,10 +123,10 @@ REMOVE PrnSubj IF (-1 V) (-1 (pl)) (0 (sg));
 REMOVE PrnSubj IF (-1 V) (-1 (sg)) (0 (pl));
 
 # mark a possessive determiner as being masculine if followed by soft mutation
-SUBSTITUTE (mf) (m) DetPos (1 MSoftC);
+SUBSTITUTE (mf) (m) DetPosNE (1 MSoftC);
 
 # and feminine if followed by aspirate mutation.
-SUBSTITUTE (mf) (f) DetPos (1 MAspC);
+SUBSTITUTE (mf) (f) DetPosNE (1 MAspC);
 
 
 # 
