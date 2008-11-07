@@ -2172,6 +2172,10 @@
     <e><p><l>arian<s n="n"/><s n="m"/></l><r>money<s n="n"/><s n="unc"/></r></p></e>
 
     <e><p><l>Ariannin<s n="np"/><s n="top"/><s n="f"/></l><r>Argentina<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Patagonia<s n="np"/><s n="top"/><s n="f"/></l><r>Patagonia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Trevelin<s n="np"/><s n="top"/><s n="f"/></l><r>Trevelin<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Trelew<s n="np"/><s n="top"/><s n="f"/></l><r>Trelew<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Gaiman<s n="np"/><s n="top"/><s n="f"/></l><r>Gaiman<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>arithmetig<s n="n"/><s n="m"/></l><r>arithmetic<s n="n"/></r></p></e>
     <e><p><l>arlliw<s n="n"/><s n="m"/></l><r>shade<s n="n"/></r></p></e>
     <e><p><l>arloesedd<s n="n"/><s n="m"/></l><r>innovation<s n="n"/></r></p></e>
@@ -5707,6 +5711,7 @@
     <e><p><l>rhywiol<s n="adj"/></l><r>sexual<s n="adj"/></r></p></e>
     <e><p><l>Rwsiaidd<s n="adj"/></l><r>Russian<s n="adj"/></r></p></e>
     <e><p><l>Saesneg<s n="adj"/></l><r>English<s n="adj"/></r></p></e>
+    <e><p><l>Sbaeneg<s n="adj"/></l><r>Spanish<s n="adj"/></r></p></e>
     <e><p><l>Basgeg<s n="adj"/></l><r>Basque<s n="adj"/></r></p></e>
     <e><p><l>Llydaweg<s n="adj"/></l><r>Breton<s n="adj"/></r></p></e>
     <e><p><l>Cernyweg<s n="adj"/></l><r>Cornish<s n="adj"/></r></p></e>
@@ -10884,7 +10889,7 @@
     <e><p><l>Jon<s n="np"/><s n="ant"/></l><r>Jon<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Jordi<s n="np"/><s n="ant"/></l><r>Jordi<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Jorge<s n="np"/><s n="ant"/></l><r>Jorge<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>Josep Antoni<s n="np"/><s n="ant"/></l><r>Josep Antoni<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Josep<b/>Antoni<s n="np"/><s n="ant"/></l><r>Josep<b/>Antoni<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Josep<s n="np"/><s n="ant"/></l><r>Josep<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Joyce<s n="np"/><s n="ant"/></l><r>Joyce<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Judith<s n="np"/><s n="ant"/></l><r>Judith<s n="np"/><s n="ant"/></r></p></e>
@@ -10896,6 +10901,7 @@
     <e><p><l>Kateryn<s n="np"/><s n="ant"/></l><r>Kateryn<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Kate<s n="np"/><s n="ant"/></l><r>Kate<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Anne<s n="np"/><s n="ant"/></l><r>Anne<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ann-Marie<s n="np"/><s n="ant"/></l><r>Ann-Marie<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Ele<s n="np"/><s n="ant"/></l><r>Ele<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Eden<s n="np"/><s n="ant"/></l><r>Eden<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Eva<s n="np"/><s n="ant"/></l><r>Eva<s n="np"/><s n="ant"/></r></p></e>
