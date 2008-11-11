@@ -32,10 +32,24 @@
     </pardef>
     <pardef n="proper_names">
       <e>
-	<re>(Sir|Lord|Rt Hon|Mr|Miss|Ms|Mrs|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <re>(Rt Hon|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
         <p>
           <l/>
          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <re>(Lady|Miss|Ms|Mrs).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <p>
+          <l/>
+         <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <re>(Sir|Lord|Mr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <p>
+          <l/>
+         <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
