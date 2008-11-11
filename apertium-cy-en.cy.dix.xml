@@ -58062,6 +58062,7 @@
     <e lm="y Fenni"><i>y<b/>Fenni</i><par n="Blaenafon__np"/></e>
     <e lm="y Wladfa"><i>y<b/>Wladfa</i><par n="Blaenafon__np"/></e>
     <e lm="Patagonia"><par n="initial-P"/><i>atagonia</i><par n="Blaenafon__np"/></e>
+    <e lm="Prestatyn"><par n="initial-P"/><i>restatyn</i><par n="Blaenafon__np"/></e>
     <e lm="Trelew"><par n="initial-T"/><i>relew</i><par n="Blaenafon__np"/></e>
     <e lm="Trevelin"><par n="initial-T"/><i>revelin</i><par n="Blaenafon__np"/></e>
     <e lm="Gaiman"><par n="initial-G"/><i>aiman</i><par n="Blaenafon__np"/></e>
@@ -58080,6 +58081,7 @@
     <e lm="Caergrawnt"><par n="initial-C"/><i>aergrawnt</i><par n="Blaenafon__np"/></e>
     <e lm="Llundain"><par n="initial-Ll"/><i>undain</i><par n="Blaenafon__np"/></e>
     <e lm="Rhydychen"><par n="initial-Rh"/><i>ydychen</i><par n="Blaenafon__np"/></e>
+    <e lm="Rhyl"><par n="initial-Rh"/><i>yl</i><par n="Blaenafon__np"/></e>
     <e lm="Meirionnydd"><par n="initial-M"/><i>eirionnydd</i><par n="Blaenafon__np"/></e>
     <e lm="Sir Feirionnydd"><i>Sir<b/>Feirionnydd</i><par n="Blaenafon__np"/></e>
     <e lm="Lloegr"><par n="initial-Ll"/><i>oegr</i><par n="Blaenafon__np"/></e>
