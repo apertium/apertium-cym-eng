@@ -54118,7 +54118,8 @@
     <e lm="cyfeirio"><par n="initial-c"/><i>yfeiri</i><par n="achlysur/o__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
     <e lm="cyfrannu"><par n="initial-c"/><i>yfrann</i><par n="absenn/u__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
     <e lm="dod â"><par n="initial-d"/><i/><par n="d/od__vblex"/><p><l><b/>â</l><r><g><b/>â</g></r></p></e>
-    <e lm="dod o hyd"><par n="initial-d"/><i/><par n="d/od__vblex"/><p><l><b/>o<b/>hyd<b/>i</l><r><g><b/>o<b/>hyd<b/>i</g></r></p></e>
+    
+    <e lm="dod o hyd i"><par n="initial-d"/><i/><par n="d/od__vblex"/><p><l><b/>o<b/>hyd<b/>i</l><r><g><b/>o<b/>hyd<b/>i</g></r></p></e>
     <e lm="dweud wrth"><par n="initial-d"/><i/><par n="aildd/weud__vblex"/><p><l><b/>wrth</l><r><g><b/>wrth</g></r></p></e>
     <e lm="edrych ar"><i>edrych</i><par n="achub__vblex"/><p><l><b/>ar</l><r><g><b/>ar</g></r></p></e>
     <e lm="edrych ymlaen"><i>edrych</i><par n="achub__vblex"/><p><l><b/>ymlaen<b/>at</l><r><g><b/>ymlaen<b/>at</g></r></p></e>
@@ -58031,6 +58032,7 @@
     <e lm="Democratiaid Rhyddfrydol"><par n="initial-D"/><i>emocratiaid<b/>Rhyddfrydol</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
     <e lm="Bwrdd yr Iaith Gymraeg"><par n="initial-B"/><i>wrdd<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
+    <e lm="Banc Lloegr"><par n="initial-B"/><i>anc<b/>Lloegr</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
     <e lm="BBC Radio Cymru"><par n="initial-B"/><i>BC<b/>Radio<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="BBC Cymru"><par n="initial-B"/><i>BC<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="BBC2"><par n="initial-B"/><i>BC2</i><par n="Cymdeithas_yr_Iaith__np"/></e>

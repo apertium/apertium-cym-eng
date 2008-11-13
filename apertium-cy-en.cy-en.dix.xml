@@ -7388,7 +7388,6 @@
     <e><p><l>doctora<s n="vblex"/></l><r>doctor<s n="vblex"/></r></p></e>
     <e><p><l>doctoran<s n="vblex"/></l><r>doctor<s n="vblex"/></r></p></e>
     <e><p><l>dod<s n="vblex"/></l><r>come<s n="vblex"/></r></p></e>
-    <e><p><l>dod<s n="vblex"/></l><r>come<s n="vblex"/></r></p></e>
     <e><p><l>dodi<s n="vblex"/></l><r>place<s n="vblex"/></r></p></e>
     <e><p><l>dodrefnu<s n="vblex"/></l><r>furnish<s n="vblex"/></r></p></e>
     <e><p><l>dodwy<s n="vblex"/></l><r>lay<s n="vblex"/></r></p></e> <!-- to lay eggs -->
@@ -10055,6 +10054,7 @@
     <e><p><l>Cymdeithas<s n="np"/><s n="org"/><s n="f"/></l><r>Cymdeithas<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Cymdeithas Feddygol Brydeinig<s n="np"/><s n="org"/><s n="f"/></l><r>British Medical Association<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Bwrdd yr Iaith Gymraeg<s n="np"/><s n="org"/><s n="m"/></l><r>Welsh Language Board<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Banc<b/>Lloegr<s n="np"/><s n="org"/><s n="m"/></l><r>Bank<b/>of<b/>England<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Plaid Genedlaethol yr Alban<s n="np"/><s n="org"/><s n="f"/></l><r>Scottish National Party<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Plaid Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>Plaid Cymru<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Plaid Lafur<s n="np"/><s n="org"/><s n="f"/></l><r>Labour Party<s n="np"/><s n="org"/></r></p></e>

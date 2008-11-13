@@ -14594,7 +14594,7 @@
     <e lm="repair"><i>repair</i><par n="house__n"/></e>
     <e lm="article"><i>article</i><par n="house__n"/></e>
 
-    <e lm="article"><i>article</i><par n="house__n"/><p><l><b/>of<b/>merchandise</l><r><g><b/>of<b/>merchandise</g></r></p></e>
+    <e lm="article of merchandise"><i>article</i><par n="house__n"/><p><l><b/>of<b/>merchandise</l><r><g><b/>of<b/>merchandise</g></r></p></e>
 
     <e lm="trading"><i>trading</i><par n="east__n__unc"/></e>
     <e lm="song"><i>song</i><par n="house__n"/></e>
@@ -22122,6 +22122,7 @@
     <e lm="BBC Cymru"><i>BBC<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="NHS Cymru"><i>NHS<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Post Office"><i>Post<b/>Office</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Bank of England"><i>Bank<b/>of<b/>England</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
     <e lm="Gwynedd"><i>Gwynedd</i><par n="Barcelona__np"/></e>
     <e lm="Blaenau Gwent"><i>Blaenau<b/>Gwent</i><par n="Barcelona__np"/></e>

@@ -228,7 +228,7 @@
               <lu>
                   <clip pos="1" part="whole"/>
               </lu>
-              <b/>
+              <b pos="1"/>
               <lu>
                 <clip pos="2" part="whole"/>
               </lu>
