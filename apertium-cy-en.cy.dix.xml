@@ -4030,10 +4030,11 @@
       </e>
     </pardef>
     <pardef n="addysg__n">
+      <!-- Changed 'sp' to 'sg' -->
       <e>
         <p>
           <l/>
-          <r><s n="n"/><s n="f"/><s n="sp"/></r>
+          <r><s n="n"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -48718,6 +48719,8 @@
 
     <e lm="tu draw i"><i>tu<b/>draw<b/>i</i><par n="gyda__pr"/></e>
     <e lm="tu hwnt i"><i>tu<b/>hwnt<b/>i</i><par n="gyda__pr"/></e>
+    <e lm="tu cefn i"><i>tu<b/>cefn<b/>i</i><par n="gyda__pr"/></e>
+    <e lm="tu allan i"><i>tu<b/>allan<b/>i</i><par n="gyda__pr"/></e>
 
 
     <e lm="a"><i/><par n="/a__cnjcoo"/></e>
@@ -50606,6 +50609,7 @@
 
     <e lm="graffeg"><par n="initial-g"/><i>raffeg</i><par n="addysg__n"/></e>
     <e lm="addysg"><i>addysg</i><par n="addysg__n"/></e>
+    <e lm="addysg"><p><l>haddysg</l><r>addysg</r></p><par n="addysg__n"/></e>
     <e lm="adnabyddiaeth"><i>adnabyddiaeth</i><par n="addysg__n"/></e>
     <e lm="aelodaeth"><i>aelodaeth</i><par n="addysg__n"/></e>
     <e lm="alffa"><i>alffa</i><par n="addysg__n"/></e>
