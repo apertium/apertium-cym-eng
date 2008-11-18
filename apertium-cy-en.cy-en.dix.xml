@@ -142,10 +142,12 @@
     <e><p><l>ac eithrio<s n="pr"/></l><r>with the exception of<s n="pr"/></r></p></e>
     <e><p><l>eithr<s n="pr"/></l><r>except<s n="pr"/></r></p></e>
     <e><p><l>gogyfer â<s n="pr"/></l><r>for the purpose of<s n="pr"/></r></p></e>
-    <e><p><l>i mewn i<s n="pr"/></l><r>into<s n="pr"/></r></p></e>
-    <e><p><l>yn lle<s n="pr"/></l><r>instead of<s n="pr"/></r></p></e>
-    <e><p><l>tu draw i<s n="pr"/></l><r>beyond<s n="pr"/></r></p></e>
-    <e><p><l>tu hwnt i<s n="pr"/></l><r>beyond<s n="pr"/></r></p></e>
+    <e><p><l>i<b/>mewn<b/>i<s n="pr"/></l><r>into<s n="pr"/></r></p></e>
+    <e><p><l>yn<b/>lle<s n="pr"/></l><r>instead of<s n="pr"/></r></p></e>
+    <e><p><l>tu<b/>draw<b/>i<s n="pr"/></l><r>beyond<s n="pr"/></r></p></e>
+    <e><p><l>tu<b/>hwnt<b/>i<s n="pr"/></l><r>beyond<s n="pr"/></r></p></e>
+    <e><p><l>tu<b/>cefn<b/>i<s n="pr"/></l><r>behind<s n="pr"/></r></p></e>
+    <e><p><l>tu<b/>allan<b/>i<s n="pr"/></l><r>outside<s n="pr"/></r></p></e>
  
  
     <!-- Prepositions using possessive pronoun for inflection -->
@@ -2297,7 +2299,7 @@
     <e><p><l>cymeradwyaeth<s n="n"/><s n="f"/></l><r>approval<s n="n"/></r></p></e>
     <e><p><l>cymhlethdod<s n="n"/><s n="m"/></l><r>complexity<s n="n"/></r></p></e>
     <e><p><l>Cymraeg<s n="n"/><s n="f"/></l><r>Welsh<s n="n"/></r></p></e>
-    <e><p><l>Cymraes<s n="n"/><s n="f"/></l><r>Welsh person<s n="n"/></r></p></e>
+    <e><p><l>Cymraes<s n="n"/><s n="f"/></l><r>Welsh<b/>woman<s n="n"/></r></p></e>
     <e><p><l>Cymreictod<s n="n"/><s n="m"/></l><r>Welshness<s n="n"/></r></p></e>
     <e><p><l>cynaliadwyedd<s n="n"/><s n="m"/></l><r>sustainability<s n="n"/></r></p></e>
     <e><p><l>cyndynrwydd<s n="n"/><s n="m"/></l><r>reluctance<s n="n"/></r></p></e>
