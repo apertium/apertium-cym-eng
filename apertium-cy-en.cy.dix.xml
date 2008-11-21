@@ -1217,6 +1217,13 @@
           <r>ei<b/>hun<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
+      <!-- This is erroneous, but appears in text: Mae Prifysgol Bangor eisoes wedi penderfynu mewn egwyddor i gyflwyno graddau ei hunain. -->
+      <e r="LR">
+        <p>
+          <l>ei<b/>hunain</l>
+          <r>ei<b/>hun<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
 
       <e r="LR">
         <p>
@@ -51642,6 +51649,7 @@
     <e lm="nodiant"><i>nodian</i><par n="ardrefnian/t__n"/></e>
     <e lm="pedrant"><par n="initial-p"/><i>edran</i><par n="ardrefnian/t__n"/></e>
     <e lm="peiriant"><par n="initial-p"/><i>eirian</i><par n="ardrefnian/t__n"/></e>
+    <e lm="peiriant golchi"><par n="initial-p"/><i>eirian</i><par n="ardrefnian/t__n"/><p><l><b/>golchi</l><r><g><b/>golchi</g></r></p></e>
     <e lm="porthiant"><par n="initial-p"/><i>orthian</i><par n="ardrefnian/t__n"/></e>
     <e lm="trefniant"><par n="initial-t"/><i>refnian</i><par n="ardrefnian/t__n"/></e>
     <e lm="trosiant"><par n="initial-t"/><i>rosian</i><par n="ardrefnian/t__n"/></e>
@@ -51821,7 +51829,10 @@
     <e lm="ffantasi"><i>ffantas</i><par n="ffans/i__n"/></e>
     <e lm="seremoni"><i>seremon</i><par n="ffans/i__n"/></e>
     <e lm="theori"><par n="initial-t"/><i>heor</i><par n="ffans/i__n"/></e>
+
     <e lm="economi"><i>econom</i><par n="econom/i__n"/></e>
+    <e lm="economi"><p><l>heconom</l><r>econom</r></p><par n="econom/i__n"/></e>
+
     <e lm="artist"><i>artist</i><par n="artist__n"/></e>
     <e lm="capten"><par n="initial-c"/><i>apten</i><par n="artist__n"/></e>
     <e lm="cleient"><par n="initial-c"/><i>leient</i><par n="artist__n"/></e>
@@ -54523,6 +54534,7 @@
 
     <e lm="areithio"><i>areithi</i><par n="achlysur/o__vblex"/></e>
     <e lm="arestio"><i>aresti</i><par n="achlysur/o__vblex"/></e>
+    <e lm="arestio"><p><l>haresti</l><r>aresti</r></p><par n="achlysur/o__vblex"/></e>
     <e lm="arfaethu"><i>arfaeth</i><par n="aberth/u__vblex"/></e>
     <e lm="arfer"><i>arfer</i><par n="achub__vblex"/></e>
     <e lm="arferu"><i>arfer</i><par n="aberth/u__vblex"/></e>
@@ -58036,6 +58048,8 @@
     <e lm="Democratiaid Rhyddfrydol"><par n="initial-D"/><i>emocratiaid<b/>Rhyddfrydol</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
     <e lm="Bwrdd yr Iaith Gymraeg"><par n="initial-B"/><i>wrdd<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
+    <e lm="Bwrdd Iaith Aeleg yr Alban"><par n="initial-B"/><i>wrdd<b/>Iaith<b/>Aeleg<b/>yr<b/>Alban</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
+    <e lm="Bord na Gaidhlig"><par n="initial-B"/><i>ord<b/>na<b/>Gaidhlig</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
     <e lm="Banc Lloegr"><par n="initial-B"/><i>anc<b/>Lloegr</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
     <e lm="BBC Radio Cymru"><par n="initial-B"/><i>BC<b/>Radio<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="BBC Cymru"><par n="initial-B"/><i>BC<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
@@ -58243,6 +58257,7 @@
     <e lm="O'Regan"><i>O'Regan</i><par n="Ifans__np"/></e>
     <e lm="Glyndŵr"><par n="initial-G"/><i>lyndŵr</i><par n="Ifans__np"/></e>
     <e lm="Ifans"><i>Ifans</i><par n="Ifans__np"/></e>
+    <e lm="German"><par n="initial-G"/><i>erman</i><par n="Ifans__np"/></e>
     <e lm="Haf"><i>Haf</i><par n="Ifans__np"/></e>
     <e lm="Evans"><i>Evans</i><par n="Ifans__np"/></e>
     <e lm="Thomas"><par n="initial-T"/><i>homas</i><par n="Ifans__np"/></e>
@@ -58265,9 +58280,11 @@
     <e lm="Nelson"><i>Nelson</i><par n="Ifans__np"/></e>
     <e lm="Murphy"><par n="initial-M"/><i>urphy</i><par n="Ifans__np"/></e>
     <e lm="Machreth"><par n="initial-M"/><i>achreth</i><par n="Ifans__np"/></e>
+    <e lm="Macleod"><par n="initial-M"/><i>acleod</i><par n="Ifans__np"/></e>
     <e lm="Hart"><i>Hart</i><par n="Ifans__np"/></e>
     <e lm="Havard"><i>Havard</i><par n="Ifans__np"/></e>
     <e lm="Cameron"><par n="initial-C"/><i>ameron</i><par n="Ifans__np"/></e>
+    <e lm="Cormack"><par n="initial-C"/><i>ormack</i><par n="Ifans__np"/></e>
     <e lm="Serwotka"><i>Serwotka</i><par n="Ifans__np"/></e>
     <e lm="Bowen"><i>owen</i><par n="Ifans__np"/></e>
     <e lm="Colman"><par n="initial-C"/><i>olman</i><par n="Ifans__np"/></e>
@@ -58442,6 +58459,7 @@
     <e lm="Gerard"><par n="initial-G"/><i>erard</i><par n="Aled__np"/></e>
     <e lm="Geraint"><par n="initial-G"/><i>eraint</i><par n="Aled__np"/></e>
     <e lm="Owain"><i>Owain</i><par n="Aled__np"/></e>
+    <e lm="Ieuan"><i>Ieuan</i><par n="Aled__np"/></e>
     <e lm="Gilbert"><par n="initial-G"/><i>ilbert</i><par n="Aled__np"/></e>
     <e lm="Giles"><par n="initial-G"/><i>iles</i><par n="Aled__np"/></e>
     <e lm="Godfrey"><par n="initial-G"/><i>odfrey</i><par n="Aled__np"/></e>

@@ -14706,6 +14706,7 @@
     <e lm="justice"><i>justice</i><par n="house__n"/></e>
     <e lm="chain"><i>chain</i><par n="house__n"/></e>
     <e lm="machine"><i>machine</i><par n="house__n"/></e>
+    <e lm="washing machine"><i>washing<b/>machine</i><par n="house__n"/></e>
     <e lm="smoke"><i>smoke</i><par n="house__n"/></e>
     <e lm="contest"><i>contest</i><par n="house__n"/></e>
     <e lm="prime"><i>prime</i><par n="house__n"/></e>
@@ -21991,6 +21992,9 @@
     <e lm="website"><i>website</i><par n="house__n"/></e>
 
     <e lm="Ifans"><i>Ifans</i><par n="Ifans__np"/></e>
+    <e lm="German"><i>German</i><par n="Ifans__np"/></e>
+    <e lm="Cormack"><i>Cormack</i><par n="Ifans__np"/></e>
+    <e lm="Macleod"><i>Macleod</i><par n="Ifans__np"/></e>
     <e lm="Collins"><i>Collins</i><par n="Ifans__np"/></e>
     <e lm="Haf"><i>Haf</i><par n="Ifans__np"/></e>
     <e lm="Havard"><i>Havard</i><par n="Ifans__np"/></e>
@@ -22111,12 +22115,14 @@
     <e lm="Assembly Government"><i>Assembly<b/>Government</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas"><i>Cymdeithas</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas yr Iaith"><i>Cymdeithas<b/>yr<b/>Iaith</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Bord na Gaidhlig"><i>Bord<b/>na<b/>Gaidhlig</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas yr Iaith Gymraeg"><i>Cymdeithas<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Scottish National Party"><i>Scottish<b/>National<b/>Party</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Plaid Cymru"><i>Plaid<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Labour Party"><i>Labour<b/>Party</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Liberal Democrats"><i>Liberal<b/>Democrats</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Welsh Language Board"><i>Welsh<b/>Language<b/>Board</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Scottish Gaelic Language Board"><i>Scottish<b/>Gaelic<b/>Language<b/>Board</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="British Medical Association"><i>British<b/>Medical<b/>Association</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="BBC Radio Wales"><i>BBC<b/>Radio<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="BBC Cymru"><i>BBC<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
@@ -22161,6 +22167,7 @@
     <e lm="Conwy"><i>Conwy</i><par n="Barcelona__np"/></e>
     <e lm="Glastonbury"><i>Glastonbury</i><par n="Barcelona__np"/></e>
     <e lm="Avon, Severn"><i>Avon, Severn</i><par n="Barcelona__np"/></e>
+    <e lm="Avon"><i>Avon</i><par n="Barcelona__np"/></e>
     <e lm="Bristol"><i>Bristol</i><par n="Barcelona__np"/></e>
     <e lm="Cambridge"><i>Cambridge</i><par n="Barcelona__np"/></e>
     <e lm="London"><i>London</i><par n="Barcelona__np"/></e>
@@ -22827,6 +22834,7 @@
     <e lm="Ifor"><i>Ifor</i><par n="Mark__np"/></e>
     <e lm="Myfanwy"><i>Myfanwy</i><par n="Mary__np"/></e>
     <e lm="Owain"><i>Owain</i><par n="Mark__np"/></e>
+    <e lm="Ieuan"><i>Ieuan</i><par n="Mark__np"/></e>
     <e lm="Rhys"><i>Rhys</i><par n="Mark__np"/></e>
     <e lm="Siôn"><i>Siôn</i><par n="Mary__np"/></e>
     <e lm="Sioned"><i>Sioned</i><par n="Mary__np"/></e>
@@ -26767,6 +26775,7 @@
     <e lm="cartoon"><i>cartoon</i><par n="house__n"/></e>
     <e lm="scrap iron"><i>scrap<b/>iron</i><par n="house__n"/></e>
     <e lm="Welsh woman"><i>welsh<b/>wom</i><par n="m/an__n"/></e>
+    <e lm="Welsh person"><i>welsh<b/>pe</i><par n="p/erson__n"/></e>
     <e lm="tavern"><i>tavern</i><par n="house__n"/></e>
     <e lm="Saturn"><i>Saturn</i><par n="house__n"/></e>
     <e lm="carriage return"><i>carriage<b/>return</i><par n="house__n"/></e>
