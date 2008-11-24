@@ -24384,7 +24384,10 @@
     <e lm="break"><i>br</i><par n="br/eak__vblex"/></e>
     <e lm="bring"><i>br</i><par n="br/ing__vblex"/></e>
     <e lm="fight"><i>f</i><par n="f/ight__vblex"/></e>
+
     <e lm="light"><i>l</i><par n="f/ight__vblex"/></e>
+    <e lm="light a fire"><i>l</i><par n="f/ight__vblex"/><p><l><b/>a<b/>fire</l><r><g><b/>a<b/>fire</g></r></p></e>
+
     <e lm="blight"><i>bl</i><par n="f/ight__vblex"/></e>
     <e lm="build"><i>buil</i><par n="ben/d__vblex"/></e>
     <e lm="buy"><i>b</i><par n="b/uy__vblex"/></e>
@@ -24392,7 +24395,10 @@
     <e lm="carry"><i>carr</i><par n="appl/y__vblex"/></e>
     <e lm="carry on"><i>carr</i><par n="appl/y__vblex"/><p><l><b/>on</l><r><g><b/>on</g></r></p></e>
     <e lm="cause"><i>caus</i><par n="liv/e__vblex"/></e>
+
     <e lm="change"><i>chang</i><par n="liv/e__vblex"/></e>
+    <e lm="change completely"><i>chang</i><par n="liv/e__vblex"/><p><l><b/>completely</l><r><g><b/>completely</g></r></p></e>
+
     <e lm="charge"><i>charg</i><par n="liv/e__vblex"/></e>
     <e lm="choose"><i>cho</i><par n="cho/ose__vblex"/></e>
     <e lm="claim"><i>claim</i><par n="accept__vblex"/></e>
@@ -24519,7 +24525,10 @@
     <e lm="listen to"><i>listen</i><par n="accept__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
     <e lm="list"><i>list</i><par n="accept__vblex"/></e>
     <e lm="look"><i>look</i><par n="accept__vblex"/></e>
+
     <e lm="lose"><i>lo</i><par n="lo/se__vblex"/></e>
+    <e lm="lose weight"><i>lo</i><par n="lo/se__vblex"/><p><l><b/>weight</l><r><g><b/>weight</g></r></p></e>
+
     <e lm="love"><i>lov</i><par n="liv/e__vblex"/></e>
     <e lm="maintain"><i>maintain</i><par n="accept__vblex"/></e>
     <e lm="make"><i>ma</i><par n="ma/ke__vblex"/></e>
@@ -24592,9 +24601,15 @@
     <e lm="rise"><i>r</i><par n="ar/ise__vblex"/></e>
     <e lm="rule"><i>rul</i><par n="liv/e__vblex"/></e>
     <e lm="run"><i>r</i><par n="r/un__vblex"/></e>
+
     <e lm="save"><i>sav</i><par n="liv/e__vblex"/></e>
+    <e lm="save money"><i>sav</i><par n="liv/e__vblex"/><p><l><b/>money</l><r><g><b/>money</g></r></p></e>
+
     <e lm="say"><i>sa</i><par n="pa/y__vblex"/></e>
+
     <e lm="seek"><i>s</i><par n="s/eek__vblex"/></e>
+    <e lm="seek asylum"><i>s</i><par n="s/eek__vblex"/><p><l><b/>asylum</l><r><g><b/>asylum</g></r></p></e>
+
     <e lm="seem"><i>seem</i><par n="accept__vblex"/></e>
     <e lm="see"><i>s</i><par n="s/ee__vblex"/></e>
     <e lm="sell"><i>s</i><par n="s/ell__vblex"/></e>
@@ -24612,7 +24627,10 @@
     <e lm="sort"><i>sort</i><par n="accept__vblex"/></e>
     <e lm="speak"><i>sp</i><par n="br/eak__vblex"/></e>
     <e lm="spend"><i>spen</i><par n="ben/d__vblex"/></e>
+
     <e lm="stand"><i>st</i><par n="st/and__vblex"/></e>
+    <e lm="stand trial"><i>st</i><par n="st/and__vblex"/><p><l><b/>trial</l><r><g><b/>trial</g></r></p></e>
+
     <e lm="start"><i>start</i><par n="accept__vblex"/></e>
     <e lm="stay"><i>stay</i><par n="accept__vblex"/></e>
     <e lm="stop"><i>stop</i><par n="step__vblex"/></e>
@@ -25143,7 +25161,10 @@
     <e lm="respond"><i>respond</i> <par n="accept__vblex"/></e>
     <e lm="seduce"><i>seduc</i> <par n="liv/e__vblex"/></e>
     <e lm="saw"><i>saw</i> <par n="accept__vblex"/></e>
+
     <e lm="sign"><i>sign</i> <par n="accept__vblex"/></e>
+    <e lm="sign a petition"><i>sign</i><par n="accept__vblex"/><p><l><b/>a<b/>petition</l><r><g><b/>a<b/>petition</g></r></p></e>
+
     <e lm="co-sign"><i>co-sign</i> <par n="accept__vblex"/></e>
     <e lm="simulate"><i>simulat</i> <par n="liv/e__vblex"/></e>
     <e lm="arise"><i>ar</i> <par n="ar/ise__vblex"/></e>
@@ -28209,6 +28230,14 @@
       <p>
         <l><b/>verdant</l>
         <r><g><b/>verdant</g></r>
+      </p>
+    </e>
+    <e lm="be stunned">
+      <i/>
+      <par n="/be__vblex"/>
+      <p>
+        <l><b/>stunned</l>
+        <r><g><b/>stunned</g></r>
       </p>
     </e>
     <e lm="be advantageous">
