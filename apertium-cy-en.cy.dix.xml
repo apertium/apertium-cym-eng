@@ -48427,6 +48427,12 @@
     <pardef n="g/eni__vblex">
       <e>
         <p>
+          <l>eni</l>
+          <r>eni<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
           <l>enir</l>
           <r>eni<s n="vblex"/><s n="pres"/><s n="impers"/><s n="sg"/></r>
         </p>
@@ -48989,6 +48995,7 @@
     <e lm="mor"><i>mor</i><par n="yma__adv"/></e>
     <e lm="mwyach"><i>mwyach</i><par n="yma__adv"/></e>
     <e lm="mwy na thebyg"><i>mwy<b/>na<b/>thebyg</i><par n="yma__adv"/></e>
+    <e lm="mwy a mwy"><par n="initial-m"/><i>wy<b/>a<b/>mwy</i><par n="yma__adv"/></e>
     <e lm="'na"><i>'na</i><par n="yma__adv"/></e>
     <e lm="nac"><i>nac</i><par n="yma__adv"/></e>
     <e lm="nage"><i>nage</i><par n="yma__adv"/></e>
@@ -50969,6 +50976,8 @@
     <e lm="ymadrodd"><i>ymadrodd</i><par n="academydd__n"/></e>
     <e lm="ymarferydd"><i>ymarferydd</i><par n="academydd__n"/></e>
     <e lm="ymateb"><i>ymateb</i><par n="academydd__n"/></e>
+    <e lm="ymateb"><p><l>hymateb</l><r>ymateb</r></p><par n="academydd__n"/></e>
+
     <e lm="ymatebydd"><i>ymatebydd</i><par n="academydd__n"/></e>
     <e lm="ymchwil"><i>ymchwil</i><par n="academydd__n"/></e>
     <e lm="ymchwilydd"><i>ymchwilydd</i><par n="academydd__n"/></e>
@@ -52244,11 +52253,11 @@
     <e lm="bawd"><i>b</i><par n="b/awd__n"/></e>
     <e lm="blawd"><par n="initial-b"/><i>l</i><par n="b/awd__n"/></e>
     <e lm="iaith"><i>i</i><par n="i/aith__n"/></e>
-    <e lm="tafodiaith"><i>tafodi</i><par n="i/aith__n"/></e>
+    <e lm="tafodiaith"><par n="initial-t"/><i>afodi</i><par n="i/aith__n"/></e>
     <e lm="mamiaith"><par n="initial-m"/><i>ami</i><par n="i/aith__n"/></e>
     <e lm="arbrawf"><i>arbr</i><par n="arbr/awf__n"/></e>
     <e lm="rhagbrawf"><par n="initial-rh"/><i>agbr</i><par n="arbr/awf__n"/></e>
-    <e lm="prawf"><i>pr</i><par n="arbr/awf__n"/></e>
+    <e lm="prawf"><par n="initial-p"/><i>r</i><par n="arbr/awf__n"/></e>
     <e lm="cyrhaeddiad"><par n="initial-c"/><i>yr</i><par n="cyr/haeddiad__n"/></e>
     <e lm="dilledyn"><par n="initial-d"/><i>ill</i><par n="dill/edyn__n"/></e>
     <e lm="pwnc"><par n="initial-p"/><i/><par n="p/wnc__n"/></e>
@@ -52269,7 +52278,10 @@
     <e lm="losen"><i>los</i><par n="los/en__n"/></e>
     <e lm="cyngerdd"><par n="initial-c"/><i>yng</i><par n="cyng/erdd__n"/></e>
     <e lm="asgell"><i>asgell</i><par n="asgell__n"/></e>
+
     <e lm="argymhelliad"><i>argymhelli</i><par n="argymhelli/ad__n"/></e>
+    <e lm="argymhelliad"><p><l>hargymhelli</l><r>argymhelli</r></p><par n="argymhelli/ad__n"/></e>
+
     <e lm="dychymyg"><par n="initial-d"/><i>ych</i><par n="dych/ymyg__n"/></e>
     <e lm="cartŵn"><par n="initial-c"/><i>art</i><par n="cart/ŵn__n"/></e>
     <e lm="cymhariaeth"><par n="initial-c"/><i>ym</i><par n="cym/hariaeth__n"/></e>
@@ -58271,6 +58283,7 @@
     <e lm="Ewrop"><i>Ewrop</i><par n="Blaenafon__np"/></e>
     <e lm="Fietnam"><i>Fietnam</i><par n="Blaenafon__np"/></e>
     <e lm="Ariannin"><i>Ariannin</i><par n="Blaenafon__np"/></e>
+    <e lm="Latfia"><i>Latfia</i><par n="Blaenafon__np"/></e>
     <e lm="Lloegr"><par n="initial-Ll"/><i>oegr</i><par n="Lloegr__np"/></e>
     <e lm="Llydaw"><par n="initial-Ll"/><i>ydaw</i><par n="Lloegr__np"/></e>
 
@@ -59434,6 +59447,13 @@
       <p>
         <l>'th</l>
         <r>dy<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="'i" r="LR">
+      <p>
+        <l>'i</l>
+        <r>ei<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
 

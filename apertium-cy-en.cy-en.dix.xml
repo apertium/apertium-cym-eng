@@ -496,6 +496,7 @@
     <e><p><l>mor<s n="adv"/></l><r>so<s n="adv"/></r></p></e>
     <e><p><l>mwyach<s n="adv"/></l><r>any<b/>more<s n="adv"/></r></p></e>
     <e><p><l>mwy<b/>na<b/>thebyg<s n="adv"/></l><r>more<b/>than<b/>likely<s n="adv"/></r></p></e>
+    <e><p><l>mwy<b/>a<b/>mwy<s n="adv"/></l><r>more<b/>and<b/>more<s n="adv"/></r></p></e>
     <e><p><l>'na<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
     <e><p><l>nac<s n="adv"/></l><r>not<s n="adv"/></r></p></e>
     <e><p><l>nage<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
@@ -11256,6 +11257,7 @@
     <!--  Toponyms -->
  
     <e><p><l>Lloegr<s n="np"/><s n="top"/><s n="f"/></l><r>England<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Latfia<s n="np"/><s n="top"/><s n="f"/></l><r>Latvia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llydaw<s n="np"/><s n="top"/><s n="f"/></l><r>Brittany<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>gwlad<b/>Basg<s n="np"/><s n="top"/><s n="f"/></l><r>Basque<b/>Country<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Iwerddon<s n="np"/><s n="top"/><s n="f"/></l><r>Ireland<s n="np"/><s n="top"/></r></p></e>
