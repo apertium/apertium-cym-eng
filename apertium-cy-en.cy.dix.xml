@@ -7934,6 +7934,18 @@
       </e>
     </pardef>
     <pardef n="/ôl__n">
+      <e r="LR">
+        <p>
+          <l>hôl</l>
+          <r>ôl<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>holion</l>
+          <r>ôl<s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>ôl</l>
@@ -49038,8 +49050,10 @@
     <e lm="ymhell"><i>ymhell</i><par n="yma__adv"/></e>
     <e lm="ymhellach"><i>ymhellach</i><par n="yma__adv"/></e>
     <e lm="ymhen amser"><i>ymhen<b/>amser</i><par n="yma__adv"/></e>
+
     <e lm="ymlaen"><i>ymlaen</i><par n="yma__adv"/></e>
-    <e lm="ymlaen"><i>ymlaen</i><par n="yma__adv"/></e>
+    <e lm="'mlaen"><p><l>'mlaen</l><r>ymlaen</r></p><par n="yma__adv"/></e>
+
     <e lm="ym mhobman"><i>ym<b/>mhobman</i><par n="yma__adv"/></e>
     <e lm="yna"><i>yna</i><par n="yma__adv"/></e>
     <e lm="yn ddiymdroi"><i>yn<b/>ddiymdroi</i><par n="yma__adv"/></e>
@@ -50805,6 +50819,9 @@
     <e lm="brasamcan"><par n="initial-b"/><i>rasamcan</i><par n="academydd__n"/></e>
     <e lm="budd"><par n="initial-b"/><i>udd</i><par n="academydd__n"/></e>
     <e lm="cadeirydd"><par n="initial-c"/><i>adeirydd</i><par n="academydd__n"/></e>
+
+    <e lm="cadeirydd y Bwrdd"><par n="initial-c"/><i>adeirydd</i><par n="academydd__n"/><p><l><b/>y<b/>Bwrdd</l><r><g><b/>y<b/>Bwrdd</g></r></p></e>
+
     <e lm="canfyddydd"><par n="initial-c"/><i>anfyddydd</i><par n="academydd__n"/></e>
     <e lm="carcharor"><par n="initial-c"/><i>archaror</i><par n="academydd__n"/></e>
     <e lm="cardiolegydd"><par n="initial-c"/><i>ardiolegydd</i><par n="academydd__n"/></e>
@@ -58206,6 +58223,7 @@
     <e lm="Castell-nedd Port Talbot"><par n="initial-C"/><i>astell-nedd<b/>Port<b/>Talbot</i><par n="Blaenafon__np"/></e>
     <e lm="Conwy"><par n="initial-C"/><i>onwy</i><par n="Blaenafon__np"/></e>
     <e lm="Pen-y-bont ar Ogwr"><par n="initial-P"/><i>en-y-bont<b/>ar<b/>Ogwr</i><par n="Blaenafon__np"/></e>
+    <e lm="Pen-y-bont"><par n="initial-P"/><i>en-y-bont</i><par n="Blaenafon__np"/></e>
     <e lm="Rhondda Cynon Taf"><par n="initial-Rh"/><i>ondda<b/>Cynon<b/>Taf</i><par n="Blaenafon__np"/></e>
     <e lm="Torfaen"><par n="initial-T"/><i>orfaen</i><par n="Blaenafon__np"/></e>
 
@@ -58309,6 +58327,7 @@
     <e lm="Roberts"><i>Roberts</i><par n="Ifans__np"/></e>
     <e lm="Williams"><i>Williams</i><par n="Ifans__np"/></e>
     <e lm="Hughes"><i>Hughes</i><par n="Ifans__np"/></e>
+    <e lm="Huws"><i>Huws</i><par n="Ifans__np"/></e>
     <e lm="Lewis"><i>Lewis</i><par n="Ifans__np"/></e>
     <e lm="Morgan"><par n="initial-M"/><i>organ</i><par n="Ifans__np"/></e>
     <e lm="Griffiths"><par n="initial-G"/><i>riffiths</i><par n="Ifans__np"/></e>
@@ -58539,6 +58558,7 @@
     <e lm="Joan Manel"><i>Joan Manel</i><par n="Aled__np"/></e>
     <e lm="Joel"><i>Joel</i><par n="Aled__np"/></e>
     <e lm="John"><i>John</i><par n="Aled__np"/></e>
+    <e lm="Ffred"><i>Ffred</i><par n="Aled__np"/></e>
     <e lm="Jon"><i>Jon</i><par n="Aled__np"/></e>
     <e lm="Jordi"><i>Jordi</i><par n="Aled__np"/></e>
     <e lm="Jorge"><i>Jorge</i><par n="Aled__np"/></e>
