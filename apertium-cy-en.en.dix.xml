@@ -14337,6 +14337,8 @@
     <e lm="funds"><i>funds</i><par n="politics__n__unc"/></e>
     <e lm="stage"><i>stage</i><par n="house__n"/></e>
     <e lm="chairman"><i>chairm</i><par n="m/an__n"/></e>
+    <e lm="chairman of the Board"><i>chairm</i><par n="m/an__n"/><p><l><b/>of<b/>the<b/>Board</l><r><g><b/>of<b/>the<b/>Board</g></r></p></e>
+
     <e lm="audience"><i>audience</i><par n="house__n"/></e>
     <e lm="assistant"><i>assistant</i><par n="house__n"/></e>
     <e lm="estate"><i>estate</i><par n="house__n"/></e>
@@ -22007,6 +22009,7 @@
     <e lm="Glyndŵr"><i>Glyndŵr</i><par n="Ifans__np"/></e>
     <e lm="Hart"><i>Hart</i><par n="Ifans__np"/></e>
     <e lm="Hughes"><i>Hughes</i><par n="Ifans__np"/></e>
+    <e lm="Huws"><i>Huws</i><par n="Ifans__np"/></e>
     <e lm="Jones"><i>Jones</i><par n="Ifans__np"/></e>
     <e lm="Dodd"><i>Dodd</i><par n="Ifans__np"/></e>
     <e lm="Machreth"><i>Machreth</i><par n="Ifans__np"/></e>
@@ -23364,6 +23367,7 @@
     <e lm="Alexandra"><i>Alexandra</i><par n="Mary__np"/></e>
     <e lm="Alex"><i>Alex</i><par n="Mark__np"/></e>
     <e lm="Aled"><i>Aled</i><par n="Mark__np"/></e>
+    <e lm="Ffred"><i>Ffred</i><par n="Mark__np"/></e>
     <e lm="Dewi"><i>Dewi</i><par n="Mark__np"/></e>
     <e lm="Elfed"><i>Elfed</i><par n="Mark__np"/></e>
     <e lm="Dai"><i>Dai</i><par n="Mark__np"/></e>
