@@ -27984,8 +27984,14 @@
       </e>
       <e r="LR">
         <p>
+          <l>dydy</l>
+          <r>ni<s n="vpart"/><s n="neg"/><j/>bod<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
           <l>dydi</l>
-          <r>bod<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+          <r>ni<s n="vpart"/><s n="neg"/><j/>bod<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e r="LR">
@@ -28165,7 +28171,7 @@
       <e>
         <p>
           <l>doedd</l>
-          <r>bod<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
+          <r>ni<s n="vpart"/><s n="neg"/><j/>bod<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -57160,7 +57166,7 @@
     <e lm="protestio"><par n="initial-p"/><i>rotesti</i><par n="achlysur/o__vblex"/></e>
     <e lm="pryderu"><par n="initial-p"/><i>ryder</i><par n="aberth/u__vblex"/></e>
     <e lm="prydferthu"><par n="initial-p"/><i>rydferth</i><par n="aberth/u__vblex"/></e>
-    <e lm="prydu"><par n="initial-p"/><i>ryd</i><par n="aberth/u__vblex"/></e>
+<!--    <e lm="prydu"><par n="initial-p"/><i>ryd</i><par n="aberth/u__vblex"/></e> -->
     <e lm="prydyddu"><par n="initial-p"/><i>rydydd</i><par n="aberth/u__vblex"/></e>
     <e lm="pryfedu"><par n="initial-p"/><i>ryfed</i><par n="aberth/u__vblex"/></e>
     <e lm="pryfocio"><par n="initial-p"/><i>ryfoci</i><par n="achlysur/o__vblex"/></e>
@@ -58347,6 +58353,7 @@
     <e lm="O'Regan"><i>O'Regan</i><par n="Ifans__np"/></e>
     <e lm="Glyndŵr"><par n="initial-G"/><i>lyndŵr</i><par n="Ifans__np"/></e>
     <e lm="Ifans"><i>Ifans</i><par n="Ifans__np"/></e>
+    <e lm="Galliford"><i>Galliford</i><par n="Ifans__np"/></e>
     <e lm="German"><par n="initial-G"/><i>erman</i><par n="Ifans__np"/></e>
     <e lm="Haf"><i>Haf</i><par n="Ifans__np"/></e>
     <e lm="Evans"><i>Evans</i><par n="Ifans__np"/></e>
@@ -58386,6 +58393,40 @@
     <e lm="Prys"><par n="initial-P"/><i>rys</i><par n="Ifans__np"/></e>
     <e lm="Gyln"><par n="initial-G"/><i>lyn</i><par n="Ifans__np"/></e>
     <e lm="Hutt"><i>Hutt</i><par n="Ifans__np"/></e>
+
+    <e lm="Wood"><i>Wood</i><par n="Ifans__np"/></e>
+    <e lm="Turner"><i>Turner</i><par n="Ifans__np"/></e>
+    <e lm="Hill"><i>Hill</i><par n="Ifans__np"/></e>
+    <e lm="Morris"><i>Morris</i><par n="Ifans__np"/></e>
+    <e lm="Moore"><i>Moore</i><par n="Ifans__np"/></e>
+    <e lm="King"><i>King</i><par n="Ifans__np"/></e>
+    <e lm="Baker"><i>Baker</i><par n="Ifans__np"/></e>
+    <e lm="Allen"><i>Allen</i><par n="Ifans__np"/></e>
+    <e lm="Parker"><i>Parker</i><par n="Ifans__np"/></e>
+    <e lm="Bennett"><i>Bennett</i><par n="Ifans__np"/></e>
+    <e lm="Cook"><i>Cook</i><par n="Ifans__np"/></e>
+    <e lm="Shaw"><i>Shaw</i><par n="Ifans__np"/></e>
+    <e lm="Richardson"><i>Richardson</i><par n="Ifans__np"/></e>
+    <e lm="Adams"><i>Adams</i><par n="Ifans__np"/></e>
+    <e lm="Richards"><i>Richards</i><par n="Ifans__np"/></e>
+    <e lm="Wilkinson"><i>Wilkinson</i><par n="Ifans__np"/></e>
+    <e lm="Foster"><i>Foster</i><par n="Ifans__np"/></e>
+    <e lm="Chapman"><i>Chapman</i><par n="Ifans__np"/></e>
+    <e lm="Powell"><i>Powell</i><par n="Ifans__np"/></e>
+    <e lm="Webb"><i>Webb</i><par n="Ifans__np"/></e>
+    <e lm="Rogers"><i>Rogers</i><par n="Ifans__np"/></e>
+    <e lm="Hunt"><i>Hunt</i><par n="Ifans__np"/></e>
+    <e lm="Holmes"><i>Holmes</i><par n="Ifans__np"/></e>
+    <e lm="Palmer"><i>Palmer</i><par n="Ifans__np"/></e>
+    <e lm="Matthews"><i>Matthews</i><par n="Ifans__np"/></e>
+    <e lm="Fisher"><i>Fisher</i><par n="Ifans__np"/></e>
+    <e lm="Barnes"><i>Barnes</i><par n="Ifans__np"/></e>
+    <e lm="Knight"><i>Knight</i><par n="Ifans__np"/></e>
+    <e lm="Barker"><i>Barker</i><par n="Ifans__np"/></e>
+    <e lm="Butler"><i>Butler</i><par n="Ifans__np"/></e>
+    <e lm="Jenkins"><i>Jenkins</i><par n="Ifans__np"/></e>
+    <e lm="Stevens"><i>Stevens</i><par n="Ifans__np"/></e>
+
 
     <e lm="Alexander"><i>Alexander</i><par n="Ifans__np"/></e>
     <e lm="Ali"><i>Ali</i><par n="Ifans__np"/></e>
