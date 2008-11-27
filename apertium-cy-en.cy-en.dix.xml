@@ -3973,6 +3973,7 @@
     <e><p><l>ffocws<s n="n"/><s n="m"/></l><r>focus<s n="n"/></r></p></e>
     <e><p><l>conglfaen<s n="n"/><s n="m"/></l><r>cornerstone<s n="n"/></r></p></e>
     <e r="LR"><p><l>maen<s n="n"/><s n="m"/></l><r>stone<s n="n"/></r></p></e>
+    <e><p><l>maen<g><b/>prawf</g><s n="n"/><s n="m"/></l><r>milestone<s n="n"/></r></p></e>
     <e><p><l>sylfaen<s n="n"/><s n="f"/></l><r>foundation<s n="n"/></r></p></e>
     <e><p><l>sylfaen<s n="n"/><s n="f"/></l><r>basis<s n="n"/></r></p></e>
     <e><p><l>argyfwng<s n="n"/><s n="m"/></l><r>emergency<s n="n"/></r></p></e>
@@ -10240,6 +10241,7 @@
     <e><p><l>Lochlan<s n="np"/><s n="ant"/></l><r>Lochlan<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Ronan<s n="np"/><s n="ant"/></l><r>Ronan<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Simon<s n="np"/><s n="ant"/></l><r>Simon<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Seimon<s n="np"/><s n="ant"/></l><r>Seimon<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Travis<s n="np"/><s n="ant"/></l><r>Travis<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Boyd<s n="np"/><s n="ant"/></l><r>Boyd<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Glen<s n="np"/><s n="ant"/></l><r>Glen<s n="np"/><s n="ant"/></r></p></e>
@@ -11145,6 +11147,7 @@
     <e><p><l>Parry<s n="np"/><s n="cog"/></l><r>Parry<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Price<s n="np"/><s n="cog"/></l><r>Price<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Prys<s n="np"/><s n="cog"/></l><r>Prys<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Glyn<s n="np"/><s n="cog"/></l><r>Glyn<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Cuthbertson<s n="np"/><s n="cog"/></l><r>Cuthbertson<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Hutt<s n="np"/><s n="cog"/></l><r>Hutt<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Serwotka<s n="np"/><s n="cog"/></l><r>Serwotka<s n="np"/><s n="cog"/></r></p></e>

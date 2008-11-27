@@ -21,6 +21,7 @@ LIST Pr = pr;				# preposition
 LIST PrnSubj = (prn subj);		# subject pronoun
 LIST Prn = (prn tn) (prn subj);		# pronoun
 
+LIST P1Pl = (p1 pl);
 LIST P2Pl = (p2 pl);			# second person plural
 LIST P3Sg = (p3 sg);
 
@@ -55,6 +56,7 @@ LIST MAspC = ("<ch.*>"r "c.*"r) ("<th.*>"r "t.*"r);
 LIST MNasC = ("<n.*>"r "d.*"r) ("<m.*>"r "b.*"r);
 
 SET PrnSubjP3Sg = PrnSubj | P3Sg;
+SET PrnSubjP1Pl = PrnSubj | P1Pl;
 SET PrnSubjP2Pl = PrnSubj | P2Pl;
 SET VbP2Pl = V | P2Pl;
 SET Conj = CC | CS;
@@ -81,6 +83,9 @@ SELECT (vbser) IF (0 NC) (0 (vbser)) (1 DetQnt) (2 DetDef);
 # choose the preposition "i" if it is followed by an infinitive
 # aeth i gael y pres
 SELECT Prep_i IF (1 VblexInf);
+
+#Rydan ni wedi sefydlu meini prawf newydd, ystyried y ffordd ymlaen. 
+SELECT PrnSubjP1Pl IF (-1 P1Pl) (-1 V);
 
 # delete a subject pronoun if preceded by an infinitive
 # i'w weld fo

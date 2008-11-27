@@ -27984,6 +27984,12 @@
       </e>
       <e r="LR">
         <p>
+          <l>dydi</l>
+          <r>bod<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
           <l>ydy</l>
           <r>bod<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
@@ -28380,6 +28386,13 @@
         <par n="initial-b"/>
         <p>
           <l>yddent</l>
+          <r>od<s n="vbser"/><s n="cni"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <par n="initial-b"/>
+        <p>
+          <l>yddan</l>
           <r>od<s n="vbser"/><s n="cni"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
@@ -52135,7 +52148,10 @@
     <e lm="campws"><par n="initial-c"/><i>amp</i><par n="bon/ws__n"/></e>
     <e lm="ffocws"><i>ffoc</i><par n="bon/ws__n"/></e>
     <e lm="conglfaen"><par n="initial-c"/><i>onglf</i><par n="conglf/aen__n"/></e>
+
     <e lm="maen"><par n="initial-m"/><i></i><par n="conglf/aen__n"/></e>
+    <e lm="maen prawf"><par n="initial-m"/><i></i><par n="conglf/aen__n"/><p><l><b/>prawf</l><r><g><b/>prawf</g></r></p></e>
+
     <e lm="sylfaen"><i>sylf</i><par n="sylf/aen__n"/></e>
     <e lm="argyfwng"><i>argyf</i><par n="argyf/wng__n"/></e>
     <e lm="cyfrwng"><par n="initial-c"/><i>yfr</i><par n="argyf/wng__n"/></e>
@@ -58368,6 +58384,7 @@
     <e lm="Parry"><par n="initial-P"/><i>arry</i><par n="Ifans__np"/></e>
     <e lm="Price"><par n="initial-P"/><i>rice</i><par n="Ifans__np"/></e>
     <e lm="Prys"><par n="initial-P"/><i>rys</i><par n="Ifans__np"/></e>
+    <e lm="Gyln"><par n="initial-G"/><i>lyn</i><par n="Ifans__np"/></e>
     <e lm="Hutt"><i>Hutt</i><par n="Ifans__np"/></e>
 
     <e lm="Alexander"><i>Alexander</i><par n="Ifans__np"/></e>
@@ -58652,6 +58669,7 @@
     <e lm="Sebastià"><i>Sebastià</i><par n="Aled__np"/></e>
     <e lm="Sergi"><i>Sergi</i><par n="Aled__np"/></e>
     <e lm="Simon"><i>Simon</i><par n="Aled__np"/></e>
+    <e lm="Seimon"><i>Seimon</i><par n="Aled__np"/></e>
     <e lm="Stehen"><i>Stehen</i><par n="Aled__np"/></e>
     <e lm="Stephen"><i>Stephen</i><par n="Aled__np"/></e>
     <e lm="Steven"><i>Steven</i><par n="Aled__np"/></e>
