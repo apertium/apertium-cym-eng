@@ -7875,6 +7875,8 @@
     <e><p><l>gwleidyddoli<s n="vblex"/></l><r>politicise<s n="vblex"/></r></p></e>
     <e><p><l>gwlychu<s n="vblex"/></l><r>moisten<s n="vblex"/></r></p></e>
     <e><p><l>gwneud<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
+    <e><p><l>gwneud<g><b/>penderfyniadau</g><s n="vblex"/></l><r>make<g><b/>decisions</g><s n="vblex"/></r></p></e>
+
     <e><p><l>gwnïo<s n="vblex"/></l><r>sew<s n="vblex"/></r></p></e>
     <e><p><l>gwobrwyo<s n="vblex"/></l><r>reward<s n="vblex"/></r></p></e>
     <e><p><l>gwrando<s n="vblex"/></l><r>listen<s n="vblex"/></r></p></e>
@@ -10109,7 +10111,8 @@
     <e><p><l>BBC Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>BBC Cymru<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>BBC2<s n="np"/><s n="org"/><s n="f"/></l><r>BBC2<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>NHS Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>NHS Cymru<s n="np"/><s n="org"/></r></p></e>
-    <e><p><l>Swyddfa'r Post<s n="np"/><s n="org"/><s n="f"/></l><r>Post Office<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Tesco<s n="np"/><s n="org"/><s n="f"/></l><r>Tesco<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Swyddfa'r<b/>Post<s n="np"/><s n="org"/><s n="f"/></l><r>Post<b/>Office<s n="np"/><s n="org"/></r></p></e>
  
  
       <!--  Anthroponyms -->
@@ -11127,6 +11130,7 @@
     <e r="LR"><p><l>Pedr<s n="np"/><s n="ant"/></l><r>Peter<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Peter<s n="np"/><s n="ant"/></l><r>Peter<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Ifan<s n="np"/><s n="ant"/></l><r>Ifan<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Gethin<s n="np"/><s n="ant"/></l><r>Gethin<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Ifor<s n="np"/><s n="ant"/></l><r>Ifor<s n="np"/><s n="ant"/></r></p></e>
 
 
@@ -11139,6 +11143,10 @@
     <e><p><l>Cooper<s n="np"/><s n="cog"/></l><r>Cooper<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Murphy<s n="np"/><s n="cog"/></l><r>Murphy<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Parry<s n="np"/><s n="cog"/></l><r>Parry<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Price<s n="np"/><s n="cog"/></l><r>Price<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Prys<s n="np"/><s n="cog"/></l><r>Prys<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Cuthbertson<s n="np"/><s n="cog"/></l><r>Cuthbertson<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Hutt<s n="np"/><s n="cog"/></l><r>Hutt<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Serwotka<s n="np"/><s n="cog"/></l><r>Serwotka<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Summers<s n="np"/><s n="cog"/></l><r>Summers<s n="np"/><s n="cog"/></r></p></e>
 
@@ -11351,6 +11359,7 @@
     <e><p><l>Maesyfed<s n="np"/><s n="top"/><s n="f"/></l><r>Radnor<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caerdydd<s n="np"/><s n="top"/><s n="f"/></l><r>Cardiff<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Abertawe<s n="np"/><s n="top"/><s n="f"/></l><r>Swansea<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Aberteifi<s n="np"/><s n="top"/><s n="f"/></l><r>Cardigan<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Llandudno<s n="np"/><s n="top"/><s n="f"/></l><r>Llandudno<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Amlwch<s n="np"/><s n="top"/><s n="f"/></l><r>Amlwch<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Malltraeth<s n="np"/><s n="top"/><s n="f"/></l><r>Malltraeth<s n="np"/><s n="top"/></r></p></e>
@@ -11507,11 +11516,12 @@
     <e><p><l>Gweriniaeth Tsiec<s n="np"/><s n="top"/><s n="f"/></l><r>Czech Republic<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Damascus<s n="np"/><s n="top"/><s n="f"/></l><r>Damascus<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Denmarc<s n="np"/><s n="top"/><s n="f"/></l><r>Denmark<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Sgandinafia<s n="np"/><s n="top"/><s n="f"/></l><r>Scandinavia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dulyn<s n="np"/><s n="top"/><s n="f"/></l><r>Dublin<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ecuador<s n="np"/><s n="top"/><s n="f"/></l><r>Ecuador<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Eden<s n="np"/><s n="top"/><s n="f"/></l><r>Eden<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caeredin<s n="np"/><s n="top"/><s n="f"/></l><r>Edinburgh<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>yr Aifft<s n="np"/><s n="top"/><s n="f"/></l><r>Egypt<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>yr<b/>Aifft<s n="np"/><s n="top"/><s n="f"/></l><r>Egypt<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Eritrea<s n="np"/><s n="top"/><s n="f"/></l><r>Eritrea<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Estonia<s n="np"/><s n="top"/><s n="f"/></l><r>Estonia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ethiopia<s n="np"/><s n="top"/><s n="f"/></l><r>Ethiopia<s n="np"/><s n="top"/></r></p></e>
