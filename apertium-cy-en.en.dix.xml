@@ -28751,25 +28751,9 @@
         <r><g><b/>oneself</g></r>
       </p>
     </e>
-    <e lm="commit oneself">
-      <i>commit</i>
-      <par n="accept__vblex"/>
-      <p>
-        <l><b/>oneself</l>
-        <r><g><b/>oneself</g></r>
-      </p>
-    </e>
     <e lm="commit perjury">
       <i>commit</i>
       <par n="admit__vblex"/>
-      <p>
-        <l><b/>perjury</l>
-        <r><g><b/>perjury</g></r>
-      </p>
-    </e>
-    <e lm="commit perjury">
-      <i>commit</i>
-      <par n="accept__vblex"/>
       <p>
         <l><b/>perjury</l>
         <r><g><b/>perjury</g></r>
