@@ -22133,6 +22133,7 @@
     <e lm="NHS Cymru"><i>NHS<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Post Office"><i>Post<b/>Office</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Bank of England"><i>Bank<b/>of<b/>England</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Tesco"><i>Tesco</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
     <e lm="Gwynedd"><i>Gwynedd</i><par n="Barcelona__np"/></e>
     <e lm="Blaenau Gwent"><i>Blaenau<b/>Gwent</i><par n="Barcelona__np"/></e>
@@ -22220,6 +22221,7 @@
     <e lm="Port Dinorwic"><i>Port Dinorwic</i><par n="Barcelona__np"/></e>
     <e lm="Radnor"><i>Radnor</i><par n="Barcelona__np"/></e>
     <e lm="Cardiff"><i>Cardiff</i><par n="Barcelona__np"/></e>
+    <e lm="Cardigan"><i>Cardigan</i><par n="Barcelona__np"/></e>
     <e lm="Swansea"><i>Swansea</i><par n="Barcelona__np"/></e>
 
 
@@ -22520,6 +22522,10 @@
     <e lm="Cooper"><i>Cooper</i><par n="Ifans__np"/></e>
     <e lm="Murphy"><i>Murphy</i><par n="Ifans__np"/></e>
     <e lm="Parry"><i>Parry</i><par n="Ifans__np"/></e>
+    <e lm="Price"><i>Price</i><par n="Ifans__np"/></e>
+    <e lm="Prys"><i>Prys</i><par n="Ifans__np"/></e>
+    <e lm="Cuthbertson"><i>Cuthbertson</i><par n="Ifans__np"/></e>
+    <e lm="Hutt"><i>Hutt</i><par n="Ifans__np"/></e>
     <e lm="Serwotka"><i>Serwotka</i><par n="Ifans__np"/></e>
     <e lm="Summers"><i>Summers</i><par n="Ifans__np"/></e>
 
@@ -23306,6 +23312,7 @@
     <e lm="Aragon"><i>Aragon</i><par n="Barcelona__np"/></e>
     <e lm="Aruba"><i>Aruba</i><par n="Barcelona__np"/></e>
     <e lm="Asia"><i>Asia</i><par n="Barcelona__np"/></e>
+    <e lm="Scandinavia"><i>Scandinavia</i><par n="Barcelona__np"/></e>
     <e lm="Central Asia"><i>Central<b/>Asia</i><par n="Barcelona__np"/></e>
     <e lm="Asturias"><i>Asturias</i><par n="Barcelona__np"/></e>
     <e lm="Austria"><i>Austria</i><par n="Barcelona__np"/></e>
@@ -23374,6 +23381,7 @@
     <e lm="Dylan"><i>Dylan</i><par n="Mark__np"/></e>
     <e lm="Carl"><i>Carl</i><par n="Mark__np"/></e>
     <e lm="Ifan"><i>Ifan</i><par n="Mark__np"/></e>
+    <e lm="Gethin"><i>Gethin</i><par n="Mark__np"/></e>
     <e lm="Àlex"><i>Àlex</i><par n="Mark__np"/></e>
     <e lm="Alianore"><i>Alianore</i><par n="Mary__np"/></e>
     <e lm="Alice"><i>Alice</i><par n="Mary__np"/></e>
@@ -28390,6 +28398,14 @@
       </p>
     </e>
  
+    <e lm="make decisions">
+      <i>ma</i>
+      <par n="ma/ke__vblex"/>
+      <p>
+        <l><b/>decisions</l>
+        <r><g><b/>decisions</g></r>
+      </p>
+    </e>
     <e lm="make weather-proof">
       <i>ma</i>
       <par n="ma/ke__vblex"/>

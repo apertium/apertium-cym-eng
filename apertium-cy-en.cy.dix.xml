@@ -6195,25 +6195,17 @@
         </p>
       </e>
     </pardef>
-    <pardef n="awr__n">
+    <pardef n="/awr__n">
       <e>
         <p>
-          <l/>
-          
-            
-            
-            
-          <r><s n="n"/><s n="f"/><s n="sg"/></r>
+          <l>awr</l>
+          <r>awr<s n="n"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oriau</l>
-          
-            
-            
-            
-          <r><s n="n"/><s n="f"/><s n="pl"/></r>
+          <r>awr<s n="n"/><s n="f"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -28028,6 +28020,12 @@
       </e>
       <e>
         <p>
+          <l>rydan</l>
+          <r>bod<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
           <l>ryden</l>
           <r>bod<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
@@ -28155,6 +28153,12 @@
       <e>
         <p>
           <l>roedd</l>
+          <r>bod<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>doedd</l>
           <r>bod<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
@@ -52328,7 +52332,7 @@
     <e lm="brenin"><par n="initial-b"/><i>ren</i><par n="bren/in__n"/></e>
     <e lm="Cymro"><par n="initial-C"/><i>ymr</i><par n="Cymr/o__n"/></e>
     <e lm="ôl"><i/><par n="/ôl__n"/></e>
-    <e lm="awr"><i>awr</i><par n="awr__n"/></e>
+    <e lm="awr"><i/><par n="/awr__n"/></e>
     <e lm="cwpl"><par n="initial-c"/><i/><par n="c/wpl__n"/></e>
     <e lm="cynnwys"><par n="initial-c"/><i>yn</i><par n="cyn/nwys__n"/></e>
     <e lm="cwrt"><par n="initial-c"/><i/><par n="c/wrt__n"/></e>
@@ -54605,7 +54609,9 @@
     <e lm="asio"><i>asi</i><par n="achlysur/o__vblex"/></e>
     <e lm="astudio"><i>astudi</i><par n="achlysur/o__vblex"/></e>
     <e lm="atafaelu"><i>atafael</i><par n="aberth/u__vblex"/></e>
+
     <e lm="atal"><i>atal</i><par n="aildderbyn__vblex"/></e>
+
     <e lm="atalnodi"><i>atalnod</i><par n="achos/i__vblex"/></e>
     <e lm="atchwelyd"><i>atchwelyd</i><par n="achub__vblex"/></e>
     <e lm="ateb"><i>ateb</i><par n="achub__vblex"/></e>
@@ -56365,7 +56371,11 @@
     <e lm="gwlana"><par n="initial-g"/><i>wlan</i><par n="adar/a__vblex"/></e>
     <e lm="gwleidyddoli"><par n="initial-g"/><i>wleidyddol</i><par n="achos/i__vblex"/></e>
     <e lm="gwlychu"><par n="initial-g"/><i>wlych</i><par n="aberth/u__vblex"/></e>
+
     <e lm="gwneud"><par n="initial-g"/><i>wn</i><par n="ailwn/eud__vblex"/></e>
+
+    <e lm="gwneud penderfyniadau"><par n="initial-g"/><i>wn</i><par n="ailwn/eud__vblex"/><p><l><b/>penderfyniadau</l><r><g><b/>penderfyniadau</g></r></p></e>
+
     <e lm="gwnïo"><par n="initial-g"/><i>wnï</i><par n="achlysur/o__vblex"/></e>
     <e lm="gwobrwyo"><par n="initial-g"/><i>wobrwy</i><par n="achlysur/o__vblex"/></e>
     <e lm="gwrando"><par n="initial-g"/><i>wrand</i><par n="add/o__vblex"/></e>
@@ -58113,6 +58123,7 @@
     <e lm="BBC Cymru"><par n="initial-B"/><i>BC<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="BBC2"><par n="initial-B"/><i>BC2</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="NHS Cymru"><i>NHS<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Tesco"><i>Tesco</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Swyddfa'r Post"><i>Swyddfa'r<b/>Post</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
 
@@ -58210,6 +58221,7 @@
     <e lm="Maesyfed"><par n="initial-M"/><i>aesyfed</i><par n="Blaenafon__np"/></e>
     <e lm="Caerdydd"><par n="initial-C"/><i>aerdydd</i><par n="Blaenafon__np"/></e>
     <e lm="Abertawe"><i>Abertawe</i><par n="Blaenafon__np"/></e>
+    <e lm="Aberteifi"><i>Aberteifi</i><par n="Blaenafon__np"/></e>
     <e lm="Pontcanna"><par n="initial-P"/><i>ontcanna</i><par n="Blaenafon__np"/></e> <!-- FIXME -->
 
 
@@ -58299,6 +58311,8 @@
     <e lm="Rwsia"><i>Rwsia</i><par n="Blaenafon__np"/></e>
     <e lm="Sbaen"><i>Sbaen</i><par n="Blaenafon__np"/></e>
     <e lm="Ewrop"><i>Ewrop</i><par n="Blaenafon__np"/></e>
+    <e lm="Sgandinafia"><i>Sgandinafia</i><par n="Blaenafon__np"/></e>
+    <e lm="Denmarc"><par n="initial-D"/><i>enmarc</i><par n="Blaenafon__np"/></e>
     <e lm="Fietnam"><i>Fietnam</i><par n="Blaenafon__np"/></e>
     <e lm="Ariannin"><i>Ariannin</i><par n="Blaenafon__np"/></e>
     <e lm="Latfia"><i>Latfia</i><par n="Blaenafon__np"/></e>
@@ -58320,6 +58334,7 @@
     <e lm="German"><par n="initial-G"/><i>erman</i><par n="Ifans__np"/></e>
     <e lm="Haf"><i>Haf</i><par n="Ifans__np"/></e>
     <e lm="Evans"><i>Evans</i><par n="Ifans__np"/></e>
+    <e lm="Cuthbertson"><par n="initial-C"/><i>uthbertson</i><par n="Ifans__np"/></e>
     <e lm="Thomas"><par n="initial-T"/><i>homas</i><par n="Ifans__np"/></e>
     <e lm="Edwards"><i>Edwards</i><par n="Ifans__np"/></e>
     <e lm="Collins"><par n="initial-C"/><i>ollins</i><par n="Ifans__np"/></e>
@@ -58351,6 +58366,9 @@
     <e lm="Colman"><par n="initial-C"/><i>olman</i><par n="Ifans__np"/></e>
     <e lm="Cooper"><par n="initial-C"/><i>ooper</i><par n="Ifans__np"/></e>
     <e lm="Parry"><par n="initial-P"/><i>arry</i><par n="Ifans__np"/></e>
+    <e lm="Price"><par n="initial-P"/><i>rice</i><par n="Ifans__np"/></e>
+    <e lm="Prys"><par n="initial-P"/><i>rys</i><par n="Ifans__np"/></e>
+    <e lm="Hutt"><i>Hutt</i><par n="Ifans__np"/></e>
 
     <e lm="Alexander"><i>Alexander</i><par n="Ifans__np"/></e>
     <e lm="Ali"><i>Ali</i><par n="Ifans__np"/></e>
@@ -58651,6 +58669,7 @@
     <e lm="William"><i>William</i><par n="Aled__np"/></e>
     <e lm="Xavier"><i>Xavier</i><par n="Aled__np"/></e>
     <e lm="Ifan"><i>Ifan</i><par n="Aled__np"/></e>
+    <e lm="Gethin"><par n="initial-G"/><i>ethin</i><par n="Aled__np"/></e>
     <e lm="Zacheus"><i>Zacheus</i><par n="Aled__np"/></e>
     <e lm="Pedr"><par n="initial-P"/><i>edr</i><par n="Aled__np"/></e>
 
