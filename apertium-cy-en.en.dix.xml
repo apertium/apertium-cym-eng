@@ -12263,6 +12263,7 @@
     <e lm="recognition"><i>recognition</i><par n="house__n"/></e>
     <e lm="distortion"><i>distortion</i><par n="house__n"/></e>
     <e lm="repetition"><i>repetition</i><par n="house__n"/></e>
+    <e lm="petition"><i>petition</i><par n="house__n"/></e>
     <e lm="redirection"><i>redirection</i><par n="house__n"/></e>
     <e lm="encapsulation"><i>encapsulation</i><par n="house__n"/></e>
     <e lm="condition"><i>condition</i><par n="house__n"/></e>
@@ -24429,6 +24430,7 @@
     <e lm="appear"><i>appear</i><par n="accept__vblex"/></e>
     <e lm="apply"><i>appl</i><par n="appl/y__vblex"/></e>
     <e lm="worry"><i>worr</i><par n="appl/y__vblex"/></e>
+    <e lm="lobby"><i>lobb</i><par n="appl/y__vblex"/></e>
     <e lm="approve"><i>approv</i><par n="liv/e__vblex"/></e>
     <e lm="argue"><i>argu</i><par n="liv/e__vblex"/></e>
     <e lm="arrive"><i>arriv</i><par n="liv/e__vblex"/></e>

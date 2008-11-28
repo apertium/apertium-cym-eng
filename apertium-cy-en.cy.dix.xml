@@ -49209,6 +49209,7 @@
     <e lm="llysywen"><par n="initial-ll"/><i>ysywen</i><par n="llysywen__n"/></e>
     <e lm="asid"><i>asid</i><par n="aberth__n"/></e>
     <e lm="blynedd"><par n="initial-b"/><i>lynedd</i><par n="blynedd__n"/></e>
+    <e lm="deiseb"><par n="initial-d"/><i>eiseb</i><par n="actores__n"/></e>
     <e lm="blaidd"><par n="initial-b"/><i>l</i><par n="bl/aidd__n"/></e>
     <e lm="blinder"><i>blinder</i><par n="aberth__n"/></e>
     <e lm="rhwygiad"><par n="initial-rh"/><i>wygiad</i><par n="aberth__n"/></e>
@@ -56626,6 +56627,7 @@
     <e lm="lercio"><i>lerci</i><par n="achlysur/o__vblex"/></e>
     <e lm="lesio"><i>lesi</i><par n="achlysur/o__vblex"/></e>
     <e lm="licio"><i>lici</i><par n="achlysur/o__vblex"/></e>
+    <e lm="lobïo"><i>lobï</i><par n="achlysur/o__vblex"/></e> <!-- check -->
     <e lm="llabyddio"><par n="initial-ll"/><i>abyddi</i><par n="achlysur/o__vblex"/></e>
     <e lm="llacáu"><par n="initial-ll"/><i>ac</i><par n="agos/áu__vblex"/></e>
     <e lm="llachio"><par n="initial-ll"/><i>achi</i><par n="achlysur/o__vblex"/></e>

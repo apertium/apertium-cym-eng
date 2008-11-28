@@ -3833,9 +3833,10 @@
     <e><p><l>ysgallen<s n="n"/><s n="f"/></l><r>thistle<s n="n"/></r></p></e>
     <e><p><l>adlais<s n="n"/><s n="m"/></l><r>echo<s n="n"/></r></p></e>
     <e><p><l>dyfais<s n="n"/><s n="f"/></l><r>device<s n="n"/></r></p></e>
-    <e><p><l>gwrthbleidlais<s n="n"/><s n="f"/></l><r>opposition vote<s n="n"/></r></p></e>
+    <e><p><l>gwrthbleidlais<s n="n"/><s n="f"/></l><r>opposition<b/>vote<s n="n"/></r></p></e>
     <e><p><l>llais<s n="n"/><s n="m"/></l><r>voice<s n="n"/></r></p></e>
     <e><p><l>pleidlais<s n="n"/><s n="f"/></l><r>vote<s n="n"/></r></p></e>
+    <e><p><l>deiseb<s n="n"/><s n="f"/></l><r>petition<s n="n"/></r></p></e>
     <e><p><l>pwyslais<s n="n"/><s n="m"/></l><r>emphasis<s n="n"/></r></p></e>
     <e><p><l>trais<s n="n"/><s n="m"/></l><r>rape<s n="n"/></r></p></e>
     <e><p><l>uchelgais<s n="n"/><s n="mf"/></l><r>ambition<s n="n"/></r></p></e>
@@ -6829,6 +6830,8 @@
 
     <e><p><l>craffu<s n="vblex"/></l><r>grasp<s n="vblex"/></r></p></e>
     <e><p><l>craffu<g><b/>ar</g><s n="vblex"/></l><r>grasp<s n="vblex"/></r></p></e>
+
+    <e><p><l>lobïo<s n="vblex"/></l><r>lobby<s n="vblex"/></r></p></e>
 
     <e><p><l>crafu<s n="vblex"/></l><r>scratch<s n="vblex"/></r></p></e>
     <e><p><l>cramennu<s n="vblex"/></l><r>ulcerate<s n="vblex"/></r></p></e>
