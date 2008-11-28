@@ -10461,6 +10461,8 @@
     <e><p><l>Alex<s n="np"/><s n="ant"/></l><r>Alex<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Aled<s n="np"/><s n="ant"/></l><r>Aled<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Ffred<s n="np"/><s n="ant"/></l><r>Ffred<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Fred<s n="np"/><s n="ant"/></l><r>Fred<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ffransis<s n="np"/><s n="ant"/></l><r>Ffransis<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Dewi<s n="np"/><s n="ant"/></l><r>Dewi<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Elfed<s n="np"/><s n="ant"/></l><r>Elfed<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Geraint<s n="np"/><s n="ant"/></l><r>Geraint<s n="np"/><s n="ant"/></r></p></e>
@@ -11157,6 +11159,7 @@
     <e><p><l>O'Leary<s n="np"/><s n="cog"/></l><r>O'Leary<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>O'Regan<s n="np"/><s n="cog"/></l><r>O'Regan<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Ifans<s n="np"/><s n="cog"/></l><r>Ifans<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Ffransis<s n="np"/><s n="cog"/></l><r>Ffransis<s n="np"/><s n="cog"/></r></p></e>
 
     <e><p><l>Wood<s n="np"/><s n="cog"/></l><r>Wood<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Turner<s n="np"/><s n="cog"/></l><r>Turner<s n="np"/><s n="cog"/></r></p></e>

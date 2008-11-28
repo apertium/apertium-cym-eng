@@ -28180,6 +28180,12 @@
           <r>bod<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>oedden</l>
+          <r>bod<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>oeddem</l>
@@ -58353,6 +58359,7 @@
     <e lm="O'Regan"><i>O'Regan</i><par n="Ifans__np"/></e>
     <e lm="Glyndŵr"><par n="initial-G"/><i>lyndŵr</i><par n="Ifans__np"/></e>
     <e lm="Ifans"><i>Ifans</i><par n="Ifans__np"/></e>
+    <e lm="Ffransis"><i>Ffransis</i><par n="Ifans__np"/></e>
     <e lm="Galliford"><i>Galliford</i><par n="Ifans__np"/></e>
     <e lm="German"><par n="initial-G"/><i>erman</i><par n="Ifans__np"/></e>
     <e lm="Haf"><i>Haf</i><par n="Ifans__np"/></e>
@@ -58635,6 +58642,8 @@
     <e lm="Joel"><i>Joel</i><par n="Aled__np"/></e>
     <e lm="John"><i>John</i><par n="Aled__np"/></e>
     <e lm="Ffred"><i>Ffred</i><par n="Aled__np"/></e>
+    <e lm="Fred"><i>Fred</i><par n="Aled__np"/></e>
+    <e lm="Ffransis"><i>Ffransis</i><par n="Aled__np"/></e>
     <e lm="Jon"><i>Jon</i><par n="Aled__np"/></e>
     <e lm="Jordi"><i>Jordi</i><par n="Aled__np"/></e>
     <e lm="Jorge"><i>Jorge</i><par n="Aled__np"/></e>
