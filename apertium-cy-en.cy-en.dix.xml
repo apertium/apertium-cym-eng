@@ -11822,6 +11822,7 @@
     <e><re>[A-Z][A-Z]+([A-Z])?</re><p><l><s n="n"/><s n="acr"/></l><r><s n="n"/><s n="acr"/></r></p></e>
     <e><re>[A-Z][0-9]+([0-9])?</re><p><l><s n="n"/><s n="acr"/></l><r><s n="n"/><s n="acr"/></r></p></e>
 
+    <e><re>[A-Z][a-z]* ap [A-Z][a-z]*</re><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
     <e><re>(Sir|Rt Hon|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
     <e><re>(Lady|Miss|Ms|Mrs).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re><i><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></i></e>
     <e><re>(Sir|Lord|Mr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re><i><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></i></e>
