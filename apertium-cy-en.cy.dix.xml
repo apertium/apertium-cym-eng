@@ -32,6 +32,13 @@
     </pardef>
     <pardef n="proper_names">
       <e>
+        <re>[A-Z][a-z]* ap [A-Z][a-z]*</re>
+        <p>
+          <l/>
+         <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
         <re>(Rt Hon|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
         <p>
           <l/>
@@ -51615,7 +51622,10 @@
     <e lm="modur"><par n="initial-m"/><i>odur</i><par n="achlysur__n"/></e>
     <e lm="nwy"><i>nwy</i><par n="achlysur__n"/></e>
     <e lm="parafeddyg"><par n="initial-p"/><i>arafeddyg</i><par n="achlysur__n"/></e>
+
     <e lm="perygl"><par n="initial-p"/><i>erygl</i><par n="achlysur__n"/></e>
+    <e lm="peryg"><par n="initial-p"/><p><l>eryg</l><r>erygl</r></p><par n="achlysur__n"/></e>
+
     <e lm="pryder"><par n="initial-p"/><i>ryder</i><par n="achlysur__n"/></e>
     <e lm="rhifiadur"><par n="initial-rh"/><i>ifiadur</i><par n="achlysur__n"/></e>
     <e lm="teipiadur"><par n="initial-t"/><i>eipiadur</i><par n="achlysur__n"/></e>
