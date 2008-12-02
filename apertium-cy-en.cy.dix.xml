@@ -58159,6 +58159,7 @@
     <e lm="Gorsedd"><par n="initial-G"/><i>orsedd</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Plaid Lafur"><par n="initial-P"/><i>laid<b/>Lafur</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Democratiaid Rhyddfrydol"><par n="initial-D"/><i>emocratiaid<b/>Rhyddfrydol</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Ceidwadwyr Cymreig"><par n="initial-C"/><i>eidwadwyr<b/>Cymreig</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
     <e lm="Bwrdd yr Iaith"><par n="initial-B"/><i>wrdd<b/>yr<b/>Iaith</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
     <e lm="Bwrdd yr Iaith Gymraeg"><par n="initial-B"/><i>wrdd<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
@@ -58377,6 +58378,8 @@
     <e lm="O'Regan"><i>O'Regan</i><par n="Ifans__np"/></e>
     <e lm="Glyndŵr"><par n="initial-G"/><i>lyndŵr</i><par n="Ifans__np"/></e>
     <e lm="Ifans"><i>Ifans</i><par n="Ifans__np"/></e>
+    <e lm="Bourne"><i>Bourne</i><par n="Ifans__np"/></e>
+    <e lm="Randerson"><i>Randerson</i><par n="Ifans__np"/></e>
     <e lm="Ffransis"><i>Ffransis</i><par n="Ifans__np"/></e>
     <e lm="Galliford"><i>Galliford</i><par n="Ifans__np"/></e>
     <e lm="German"><par n="initial-G"/><i>erman</i><par n="Ifans__np"/></e>

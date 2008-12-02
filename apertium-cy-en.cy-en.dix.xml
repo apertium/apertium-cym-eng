@@ -10108,6 +10108,7 @@
     <e><p><l>Bord<b/>na<b/>Gaidhlig<s n="np"/><s n="org"/><s n="m"/></l><r>Bord<b/>na<b/>Gaidhlig<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Banc<b/>Lloegr<s n="np"/><s n="org"/><s n="m"/></l><r>Bank<b/>of<b/>England<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Plaid Genedlaethol yr Alban<s n="np"/><s n="org"/><s n="f"/></l><r>Scottish National Party<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Ceidwadwyr<b/>Cymreig<s n="np"/><s n="org"/><s n="f"/></l><r>Welsh<b/>Conservatives<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Plaid Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>Plaid Cymru<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Plaid Lafur<s n="np"/><s n="org"/><s n="f"/></l><r>Labour Party<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Democratiaid Rhyddfrydol<s n="np"/><s n="org"/><s n="f"/></l><r>Liberal Democrats<s n="np"/><s n="org"/></r></p></e>
@@ -11162,6 +11163,8 @@
     <e><p><l>O'Leary<s n="np"/><s n="cog"/></l><r>O'Leary<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>O'Regan<s n="np"/><s n="cog"/></l><r>O'Regan<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Ifans<s n="np"/><s n="cog"/></l><r>Ifans<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Bourne<s n="np"/><s n="cog"/></l><r>Bourne<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Randerson<s n="np"/><s n="cog"/></l><r>Randerson<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Ffransis<s n="np"/><s n="cog"/></l><r>Ffransis<s n="np"/><s n="cog"/></r></p></e>
 
     <e><p><l>Wood<s n="np"/><s n="cog"/></l><r>Wood<s n="np"/><s n="cog"/></r></p></e>

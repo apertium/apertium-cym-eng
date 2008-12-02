@@ -22009,6 +22009,8 @@
     <e lm="website"><i>website</i><par n="house__n"/></e>
 
     <e lm="Ifans"><i>Ifans</i><par n="Ifans__np"/></e>
+    <e lm="Bourne"><i>Bourne</i><par n="Ifans__np"/></e>
+    <e lm="Randerson"><i>Randerson</i><par n="Ifans__np"/></e>
 
 
     <e lm="Ffransis"><i>Ffransis</i><par n="Ifans__np"/></e>
@@ -22177,6 +22179,7 @@
     <e lm="Cymdeithas yr Iaith Gymraeg"><i>Cymdeithas<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Scottish National Party"><i>Scottish<b/>National<b/>Party</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Plaid Cymru"><i>Plaid<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Welsh Conservatives"><i>Welsh<b/>Conservatives</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Labour Party"><i>Labour<b/>Party</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Liberal Democrats"><i>Liberal<b/>Democrats</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Language Board"><i>Language<b/>Board</i><par n="Cymdeithas_yr_Iaith__np"/></e>
