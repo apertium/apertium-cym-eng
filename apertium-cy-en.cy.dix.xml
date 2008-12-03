@@ -27955,6 +27955,12 @@
       </e>
       <e r="LR">
         <p>
+          <l>rwy</l>
+          <r>bod<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
           <l>wy</l>
           <r>bod<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
@@ -58229,7 +58235,7 @@
     <e lm="Cernyw"><par n="initial-C"/><i>ernyw</i><par n="Blaenafon__np"/></e>
     <e lm="Ynys Manaw"><i>Ynys<b/>Manaw</i><par n="Blaenafon__np"/></e>
     <e lm="Treffynnon"><par n="initial-T"/><i>reffynnon</i><par n="Blaenafon__np"/></e>
-    <e lm="Llandudno"><par n="initial-Ll"/><i>andudno</i><par n="Blaenafon__np"/></e>
+    <e lm="Machynlleth"><par n="initial-M"/><i>achynlleth</i><par n="Blaenafon__np"/></e>
     <e lm="Biwmaris"><par n="initial-B"/><i>iwmaris</i><par n="Blaenafon__np"/></e>
     <e lm="Amlwch"><i>Amlwch</i><par n="Blaenafon__np"/></e>
     <e lm="Malltraeth"><par n="initial-M"/><i>alltraeth</i><par n="Blaenafon__np"/></e>
