@@ -50159,6 +50159,7 @@
     <e lm="lefel"><i>lefel</i><par n="actores__n"/></e>
     <e lm="llath"><par n="initial-ll"/><i>ath</i><par n="actores__n"/></e>
     <e lm="llawdriniaeth"><par n="initial-ll"/><i>awdriniaeth</i><par n="actores__n"/></e>
+    <e lm="llawdriniaeth Gesaraidd"><par n="initial-ll"/><i>awdriniaeth</i><par n="actores__n"/><p><l><b/>Gesaraidd</l><r><g><b/>Gesaraidd</g></r></p></e>
     <e lm="llawysgrif"><par n="initial-ll"/><i>awysgrif</i><par n="actores__n"/></e>
     <e lm="llenyddiaeth"><par n="initial-ll"/><i>enyddiaeth</i><par n="actores__n"/></e>
     <e lm="llethr"><par n="initial-ll"/><i>ethr</i><par n="actores__n"/></e>
