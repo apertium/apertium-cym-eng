@@ -184,6 +184,9 @@ REMOVE MSoftC IF (1 Prn);
 #Edwina Hart
 SELECT (np ant) IF (1 (np cog));
 
+#Ieuan Wyn Jones AC
+SELECT (n acr) IF (-1 (np cog));
+
 #Sioned Haf o Gymdeithas yr Iaith
 REMOVE PrnSubj IF (-1 (np)) (0 Pr) (0 PrnSubj) (1 (np));
 

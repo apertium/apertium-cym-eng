@@ -2514,6 +2514,12 @@
     <pardef n="/be_born__vbser">
       <e>
         <p>
+          <l>be<b/>born</l>
+          <r>be<b/>born<s n="vbser"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
           <l>born</l>
           <r>be<b/>born<s n="vbser"/><s n="pp"/></r>
         </p>
@@ -12496,6 +12502,7 @@
     <e lm="situation"><i>situation</i><par n="house__n"/></e>
     <e lm="explosion"><i>explosion</i><par n="house__n"/></e>
     <e lm="section"><i>section</i><par n="house__n"/></e>
+    <e lm="Caesarean section"><i>Caesarean<b/>section</i><par n="house__n"/></e>
     <e lm="faction"><i>faction</i><par n="house__n"/></e>
     <e lm="portion"><i>portion</i><par n="house__n"/></e>
     <e lm="destination"><i>destination</i><par n="house__n"/></e>
