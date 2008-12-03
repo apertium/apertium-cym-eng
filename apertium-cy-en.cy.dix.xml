@@ -92,11 +92,20 @@
           <r><s n="num"/><s n="sp"/></r>
         </p>
       </e>
+      <!-- 1990s -->
       <e>
         <re>[0-9]+([.,][0-9]+)?</re>
         <p>
           <l>au</l>
           <r>au<s n="num"/><s n="sp"/></r>
+        </p>
+      </e>
+      <!-- Years old -->
+      <e>
+        <re>[0-9]+</re>
+        <p>
+          <l><b/>oed</l>
+          <r><b/>oed<s n="num"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
