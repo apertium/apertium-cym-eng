@@ -10435,6 +10435,7 @@
     <e lm="momentary"><i>momentary</i><par n="expensive__adj"/></e>
     <e lm="horned"><i>horned</i><par n="expensive__adj"/></e>
     <e lm="mediaeval"><i>mediaeval</i><par n="expensive__adj"/></e>
+    <e lm="medieval"><i>medieval</i><par n="expensive__adj"/></e>
     <e lm="canonical"><i>canonical</i><par n="expensive__adj"/></e>
     <e lm="coplanar"><i>coplanar</i><par n="expensive__adj"/></e>
     <e lm="floating"><i>floating</i><par n="expensive__adj"/></e>
@@ -13593,7 +13594,6 @@
     <e lm="marginal"><i>marginal</i><par n="expensive__adj"/></e>
     <e lm="marvellous"><i>marvellous</i><par n="expensive__adj"/></e>
     <e lm="meaningful"><i>meaningful</i><par n="expensive__adj"/></e>
-    <e lm="medieval"><i>medieval</i><par n="expensive__adj"/></e>
     <e lm="mild"><i>mild</i><par n="long/__adj"/></e>
     <e lm="naked"><i>naked</i><par n="expensive__adj"/></e>
     <e lm="nasty"><i>nast</i><par n="happ/y__adj"/></e>

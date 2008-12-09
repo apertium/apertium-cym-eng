@@ -9059,25 +9059,18 @@
         </p>
       </e>
     </pardef>
-    <pardef n="llaw__n">
+    <pardef n="/llaw__n">
       <e>
+        <par n="initial-ll"/>
         <p>
-          <l/>
-          
-            
-            
-            
-          <r><s n="n"/><s n="f"/><s n="sg"/></r>
+          <l>aw</l>
+          <r>aw<s n="n"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>dwylo</l>
-          
-            
-            
-            
-          <r><s n="n"/><s n="f"/><s n="pl"/></r>
+          <r>llaw<s n="n"/><s n="f"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -52586,7 +52579,7 @@
     <e lm="dŵr"><par n="initial-d"/><i/><par n="d/ŵr__n"/></e>
     <e lm="cwpwrdd"><par n="initial-c"/><i/><par n="c/wpwrdd__n"/></e>
     <e lm="sôn"><i>s</i><par n="s/ôn__n"/></e>
-    <e lm="llaw"><par n="initial-ll"/><i>aw</i><par n="llaw__n"/></e>
+    <e lm="llaw"><i/><par n="/llaw__n"/></e>
     <e lm="plentyn"><par n="initial-p"/><i>l</i><par n="pl/entyn__n"/></e>
     <e lm="dafad"><par n="initial-d"/><i/><par n="d/afad__n"/></e>
     <e lm="rhôl"><par n="initial-rh"/><i/><par n="rh/ôl__n"/></e>
