@@ -3923,6 +3923,15 @@
     </pardef>
 
     <!-- Nouns -->
+    <pardef n="ager__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="aberth__n">
       <e>
         <p>
@@ -49229,13 +49238,15 @@
     <e lm="gwae"><par n="initial-g"/><i>wae</i><par n="adeilad__n"/></e>
     <e lm="llysywen"><par n="initial-ll"/><i>ysywen</i><par n="llysywen__n"/></e>
     <e lm="asid"><i>asid</i><par n="aberth__n"/></e>
+    <e lm="ager"><i>ager</i><par n="ager__n"/></e>
     <e lm="blynedd"><par n="initial-b"/><i>lynedd</i><par n="blynedd__n"/></e>
     <e lm="deiseb"><par n="initial-d"/><i>eiseb</i><par n="actores__n"/></e>
     <e lm="blaidd"><par n="initial-b"/><i>l</i><par n="bl/aidd__n"/></e>
-    <e lm="blinder"><i>blinder</i><par n="aberth__n"/></e>
+    <e lm="blinder"><par n="initial-b"/><i>linder</i><par n="aberth__n"/></e>
     <e lm="rhwygiad"><par n="initial-rh"/><i>wygiad</i><par n="aberth__n"/></e>
     <e lm="gwaed"><par n="initial-g"/><i>waed</i><par n="aberth__n"/></e>
     <e lm="gwydr"><par n="initial-g"/><i>wydr</i><par n="aberth__n"/></e>
+    <e lm="toiled"><par n="initial-t"/><i>oiled</i><par n="aberth__n"/></e>
     <e lm="wy"><i>wy</i><par n="aberth__n"/></e>
     <e lm="caledwedd"><par n="initial-c"/><i>aledwedd</i><par n="achosiant__n"/></e>
     <e lm="cabinet"><par n="initial-c"/><i>abinet</i><par n="achosiant__n"/></e>
@@ -58206,6 +58217,7 @@
     <e lm="yr Wyddgrug"><i>yr<b/>Wyddgrug</i><par n="Blaenafon__np"/></e>
     <e lm="y Fenni"><i>y<b/>Fenni</i><par n="Blaenafon__np"/></e>
     <e lm="y Wladfa"><i>y<b/>Wladfa</i><par n="Blaenafon__np"/></e>
+    <e lm="Iseldiroedd"><i>Iseldiroedd</i><par n="Blaenafon__np"/></e>
     <e lm="Patagonia"><par n="initial-P"/><i>atagonia</i><par n="Blaenafon__np"/></e>
     <e lm="Prestatyn"><par n="initial-P"/><i>restatyn</i><par n="Blaenafon__np"/></e>
     <e lm="Trelew"><par n="initial-T"/><i>relew</i><par n="Blaenafon__np"/></e>
@@ -58254,6 +58266,7 @@
     <e lm="Efrog"><i>Efrog</i><par n="Blaenafon__np"/></e>
     <e lm="Caeredin"><par n="initial-C"/><i>aeredin</i><par n="Blaenafon__np"/></e>
     <e lm="Porthaethwy"><par n="initial-P"/><i>orthaethwy</i><par n="Blaenafon__np"/></e>
+    <e lm="Port Talbot"><par n="initial-P"/><i>ort<b/>Talbot</i><par n="Blaenafon__np"/></e>
     <e lm="Llanfairpwllgwyngyllgogerychwyrndobwllllantysiliogogogoch"><par n="initial-Ll"/><i>anfairpwllgwyngyllgogerychwyrndobwllllantysiliogogogoch</i><par n="Blaenafon__np"/></e>
     <e lm="Abergwaun"><i>Abergwaun</i><par n="Blaenafon__np"/></e>
     <e lm="Dinbych y Pysgod"><par n="initial-D"/><i>inbych<b/>y<b/>Pysgod</i><par n="Blaenafon__np"/></e>
@@ -58279,6 +58292,365 @@
     <e lm="Abertawe"><i>Abertawe</i><par n="Blaenafon__np"/></e>
     <e lm="Aberteifi"><i>Aberteifi</i><par n="Blaenafon__np"/></e>
     <e lm="Pontcanna"><par n="initial-P"/><i>ontcanna</i><par n="Blaenafon__np"/></e> <!-- FIXME -->
+
+    <e lm="Affganistan"><i>Affganistan</i><par n="Blaenafon__np"/></e>
+    <e lm="Afghanistan"><i>Afghanistan</i><par n="Blaenafon__np"/></e>
+    <e lm="yr Aifft"><i>yr<b/>Aifft</i><par n="Blaenafon__np"/></e>
+    <e lm="Albania"><i>Albania</i><par n="Blaenafon__np"/></e>
+    <e lm="Algeria"><i>Algeria</i><par n="Blaenafon__np"/></e>
+    <e lm="yr Almaen"><i>yr<b/>Almaen</i><par n="Blaenafon__np"/></e>
+    <e lm="Andorra"><i>Andorra</i><par n="Blaenafon__np"/></e>
+    <e lm="Angola"><i>Angola</i><par n="Blaenafon__np"/></e>
+    <e lm="Antigua a Barbuda"><i>Antigua<b/>a<b/>Barbuda</i><par n="Blaenafon__np"/></e>
+    <e lm="Antigwa a Barbiwda"><i>Antigwa<b/>a<b/>Barbiwda</i><par n="Blaenafon__np"/></e>
+    <e lm="Antigwa a Barbuda"><i>Antigwa<b/>a<b/>Barbuda</i><par n="Blaenafon__np"/></e>
+    <e lm="yr Arfordir Ifori"><i>yr<b/>Arfordir<b/>Ifori</i><par n="Blaenafon__np"/></e>
+    <e lm="Armenia"><i>Armenia</i><par n="Blaenafon__np"/></e>
+    <e lm="Aserbaijan"><i>Aserbaijan</i><par n="Blaenafon__np"/></e>
+    <e lm="Awstralia"><i>Awstralia</i><par n="Blaenafon__np"/></e>
+    <e lm="Awstria"><i>Awstria</i><par n="Blaenafon__np"/></e>
+    <e lm="Azerbaijan"><i>Azerbaijan</i><par n="Blaenafon__np"/></e>
+    <e lm="Bahamas"><i>Bahamas</i><par n="Blaenafon__np"/></e>
+    <e lm="Bahrain"><i>Bahrain</i><par n="Blaenafon__np"/></e>
+    <e lm="Bahrein"><i>Bahrein</i><par n="Blaenafon__np"/></e>
+    <e lm="Barbados"><i>Barbados</i><par n="Blaenafon__np"/></e>
+    <e lm="Belarus"><i>Belarus</i><par n="Blaenafon__np"/></e>
+    <e lm="Belarws"><i>Belarws</i><par n="Blaenafon__np"/></e>
+    <e lm="Belg"><i>Belg</i><par n="Blaenafon__np"/></e>
+    <e lm="Belîs"><i>Belîs</i><par n="Blaenafon__np"/></e>
+    <e lm="Belize"><i>Belize</i><par n="Blaenafon__np"/></e>
+    <e lm="Belorwsia"><i>Belorwsia</i><par n="Blaenafon__np"/></e>
+    <e lm="Benin"><i>Benin</i><par n="Blaenafon__np"/></e>
+    <e lm="Benîn"><i>Benîn</i><par n="Blaenafon__np"/></e>
+    <e lm="Bermiwda"><i>Bermiwda</i><par n="Blaenafon__np"/></e>
+    <e lm="Bhwtan"><i>Bhwtan</i><par n="Blaenafon__np"/></e>
+    <e lm="Bolifia"><i>Bolifia</i><par n="Blaenafon__np"/></e>
+    <e lm="Bolivia"><i>Bolivia</i><par n="Blaenafon__np"/></e>
+    <e lm="Bosnia"><i>Bosnia</i><par n="Blaenafon__np"/></e>
+    <e lm="Bosnia a Hertsegofina"><i>Bosnia<b/>a<b/>Hertsegofina</i><par n="Blaenafon__np"/></e>
+    <e lm="Botswana"><i>Botswana</i><par n="Blaenafon__np"/></e>
+    <e lm="Brasil"><i>Brasil</i><par n="Blaenafon__np"/></e>
+    <e lm="Brunei"><i>Brunei</i><par n="Blaenafon__np"/></e>
+    <e lm="Brwnei"><i>Brwnei</i><par n="Blaenafon__np"/></e>
+    <e lm="Burkina"><i>Burkina</i><par n="Blaenafon__np"/></e>
+    <e lm="Burkina Faso"><i>Burkina<b/>Faso</i><par n="Blaenafon__np"/></e>
+    <e lm="Burma"><i>Burma</i><par n="Blaenafon__np"/></e>
+    <e lm="Burundi"><i>Burundi</i><par n="Blaenafon__np"/></e>
+    <e lm="Bwlgaria"><i>Bwlgaria</i><par n="Blaenafon__np"/></e>
+    <e lm="Bwrcina Ffaso"><i>Bwrcina<b/>Ffaso</i><par n="Blaenafon__np"/></e>
+    <e lm="Bwrma"><i>Bwrma</i><par n="Blaenafon__np"/></e>
+    <e lm="Bwrwndi"><i>Bwrwndi</i><par n="Blaenafon__np"/></e>
+    <e lm="Byrma"><i>Byrma</i><par n="Blaenafon__np"/></e>
+    <e lm="Cabo Verde"><i>Cabo<b/>Verde</i><par n="Blaenafon__np"/></e>
+    <e lm="Cambodia"><i>Cambodia</i><par n="Blaenafon__np"/></e>
+    <e lm="Cameroon"><i>Cameroon</i><par n="Blaenafon__np"/></e>
+    <e lm="Cameroun"><i>Cameroun</i><par n="Blaenafon__np"/></e>
+    <e lm="y Camerŵn"><i>y<b/>Camerŵn</i><par n="Blaenafon__np"/></e>
+    <e lm="Casachstan"><i>Casachstan</i><par n="Blaenafon__np"/></e>
+    <e lm="Casacstan"><i>Casacstan</i><par n="Blaenafon__np"/></e>
+    <e lm="Casacstân"><i>Casacstân</i><par n="Blaenafon__np"/></e>
+    <e lm="Catâr"><i>Catâr</i><par n="Blaenafon__np"/></e>
+    <e lm="Cenia"><i>Cenia</i><par n="Blaenafon__np"/></e>
+    <e lm="Cergistan"><i>Cergistan</i><par n="Blaenafon__np"/></e>
+    <e lm="Chad"><i>Chad</i><par n="Blaenafon__np"/></e>
+    <e lm="Chile"><i>Chile</i><par n="Blaenafon__np"/></e>
+    <e lm="Chile"><i>Chile</i><par n="Blaenafon__np"/></e>
+    <e lm="Cirgisia"><i>Cirgisia</i><par n="Blaenafon__np"/></e>
+    <e lm="Ciribas"><i>Ciribas</i><par n="Blaenafon__np"/></e>
+    <e lm="Ciwba"><i>Ciwba</i><par n="Blaenafon__np"/></e>
+    <e lm="Ciwba"><i>Ciwba</i><par n="Blaenafon__np"/></e>
+    <e lm="Colombia"><i>Colombia</i><par n="Blaenafon__np"/></e>
+    <e lm="Comoros"><i>Comoros</i><par n="Blaenafon__np"/></e>
+    <e lm="Congo"><i>Congo</i><par n="Blaenafon__np"/></e>
+    <e lm="Costa Rica"><i>Costa<b/>Rica</i><par n="Blaenafon__np"/></e>
+    <e lm="Côte d'Ivoire"><i>Côte<b/>d'Ivoire</i><par n="Blaenafon__np"/></e>
+    <e lm="Coweit"><i>Coweit</i><par n="Blaenafon__np"/></e>
+    <e lm="Croasia"><i>Croasia</i><par n="Blaenafon__np"/></e>
+    <e lm="Croatia"><i>Croatia</i><par n="Blaenafon__np"/></e>
+    <e lm="Cuba"><i>Cuba</i><par n="Blaenafon__np"/></e>
+    <e lm="Cyprus"><i>Cyprus</i><par n="Blaenafon__np"/></e>
+    <e lm="Cyrgystan"><i>Cyrgystan</i><par n="Blaenafon__np"/></e>
+    <e lm="De Affrica"><i>De<b/>Affrica</i><par n="Blaenafon__np"/></e>
+    <e lm="De Corea"><i>De<b/>Corea</i><par n="Blaenafon__np"/></e>
+    <e lm="Deheudir Affrica"><i>Deheudir<b/>Affrica</i><par n="Blaenafon__np"/></e>
+    <e lm="De Korea"><i>De<b/>Korea</i><par n="Blaenafon__np"/></e>
+    <e lm="De'r Affrig"><i>De'r<b/>Affrig</i><par n="Blaenafon__np"/></e>
+    <e lm="y Deyrnas Gyfunol"><i>y<b/>Deyrnas<b/>Gyfunol</i><par n="Blaenafon__np"/></e>
+    <e lm="y Deyrnas Gyfun"><i>y<b/>Deyrnas<b/>Gyfun</i><par n="Blaenafon__np"/></e>
+    <e lm="y Deyrnas Unedig"><i>y<b/>Deyrnas<b/>Unedig</i><par n="Blaenafon__np"/></e>
+    <e lm="y Deyrnas Unedig"><i>y<b/>Deyrnas<b/>Unedig</i><par n="Blaenafon__np"/></e>
+    <e lm="Dinas y Fatican"><i>Dinas<b/>y<b/>Fatican</i><par n="Blaenafon__np"/></e>
+    <e lm="Dwyrain Timor"><i>Dwyrain<b/>Timor</i><par n="Blaenafon__np"/></e>
+    <e lm="Ecuador"><i>Ecuador</i><par n="Blaenafon__np"/></e>
+    <e lm="Ecwador"><i>Ecwador</i><par n="Blaenafon__np"/></e>
+    <e lm="yr Eidal"><i>yr<b/>Eidal</i><par n="Blaenafon__np"/></e>
+    <e lm="El Salfador"><i>El<b/>Salfador</i><par n="Blaenafon__np"/></e>
+    <e lm="El Salvador"><i>El<b/>Salvador</i><par n="Blaenafon__np"/></e>
+    <e lm="Emiradau Arabaidd Unedig"><i>Emiradau<b/>Arabaidd<b/>Unedig</i><par n="Blaenafon__np"/></e>
+    <e lm="yr Emiradau Arabaidd Unedig"><i>yr<b/>Emiradau<b/>Arabaidd<b/>Unedig</i><par n="Blaenafon__np"/></e>
+    <e lm="Emiriaethau Arabaidd Unedig"><i>Emiriaethau<b/>Arabaidd<b/>Unedig</i><par n="Blaenafon__np"/></e>
+    <e lm="Eritrea"><i>Eritrea</i><par n="Blaenafon__np"/></e>
+    <e lm="Estonia"><i>Estonia</i><par n="Blaenafon__np"/></e>
+    <e lm="Ethiopia"><i>Ethiopia</i><par n="Blaenafon__np"/></e>
+    <e lm="Fanwatw"><i>Fanwatw</i><par n="Blaenafon__np"/></e>
+    <e lm="y Fatican"><i>y<b/>Fatican</i><par n="Blaenafon__np"/></e>
+    <e lm="Feneswela"><i>Feneswela</i><par n="Blaenafon__np"/></e>
+    <e lm="Ffederasiwn Rwsia"><i>Ffederasiwn<b/>Rwsia</i><par n="Blaenafon__np"/></e>
+    <e lm="Ffederasiwn Rwsia"><i>Ffederasiwn<b/>Rwsia</i><par n="Blaenafon__np"/></e>
+    <e lm="Ffiji"><i>Ffiji</i><par n="Blaenafon__np"/></e>
+    <e lm="Fiet Nam"><i>Fiet<b/>Nam</i><par n="Blaenafon__np"/></e>
+    <e lm="Fiji"><i>Fiji</i><par n="Blaenafon__np"/></e>
+    <e lm="Gabon"><i>Gabon</i><par n="Blaenafon__np"/></e>
+    <e lm="Gaiana"><i>Gaiana</i><par n="Blaenafon__np"/></e>
+    <e lm="Gambia"><i>Gambia</i><par n="Blaenafon__np"/></e>
+    <e lm="Ghana"><i>Ghana</i><par n="Blaenafon__np"/></e>
+    <e lm="Giana"><i>Giana</i><par n="Blaenafon__np"/></e>
+    <e lm="Gini"><i>Gini</i><par n="Blaenafon__np"/></e>
+    <e lm="Gini Gyhydeddol"><i>Gini<b/>Gyhydeddol</i><par n="Blaenafon__np"/></e>
+    <e lm="Gogledd Corea"><i>Gogledd<b/>Corea</i><par n="Blaenafon__np"/></e>
+    <e lm="Gogledd Korea"><i>Gogledd<b/>Korea</i><par n="Blaenafon__np"/></e>
+    <e lm="Grenada"><i>Grenada</i><par n="Blaenafon__np"/></e>
+    <e lm="Grenaida"><i>Grenaida</i><par n="Blaenafon__np"/></e>
+    <e lm="Groeg"><i>Groeg</i><par n="Blaenafon__np"/></e>
+    <e lm="Groeg"><i>Groeg</i><par n="Blaenafon__np"/></e>
+    <e lm="Guatemala"><i>Guatemala</i><par n="Blaenafon__np"/></e>
+    <e lm="Guinea"><i>Guinea</i><par n="Blaenafon__np"/></e>
+    <e lm="Guinea Gyhydeddol"><i>Guinea<b/>Gyhydeddol</i><par n="Blaenafon__np"/></e>
+    <e lm="Guinée"><i>Guinée</i><par n="Blaenafon__np"/></e>
+    <e lm="Guyana"><i>Guyana</i><par n="Blaenafon__np"/></e>
+    <e lm="Gwatemala"><i>Gwatemala</i><par n="Blaenafon__np"/></e>
+    <e lm="Gweriniaeth Canolbarth Affrica"><i>Gweriniaeth<b/>Canolbarth<b/>Affrica</i><par n="Blaenafon__np"/></e>
+    <e lm="Gweriniaeth Ddemocrataidd Congo"><i>Gweriniaeth<b/>Ddemocrataidd<b/>Congo</i><par n="Blaenafon__np"/></e>
+    <e lm="Gweriniaeth Ddemocrataidd y Congo"><i>Gweriniaeth<b/>Ddemocrataidd<b/>y<b/>Congo</i><par n="Blaenafon__np"/></e>
+    <e lm="Gweriniaeth De Affrica"><i>Gweriniaeth<b/>De<b/>Affrica</i><par n="Blaenafon__np"/></e>
+    <e lm="Gweriniaeth Dominica"><i>Gweriniaeth<b/>Dominica</i><par n="Blaenafon__np"/></e>
+    <e lm="Gweriniaeth Korea"><i>Gweriniaeth<b/>Korea</i><par n="Blaenafon__np"/></e>
+    <e lm="Gweriniaeth Tsiec"><i>Gweriniaeth<b/>Tsiec</i><par n="Blaenafon__np"/></e>
+    <e lm="Gweriniaeth y Tsieciaid"><i>Gweriniaeth<b/>y<b/>Tsieciaid</i><par n="Blaenafon__np"/></e>
+    <e lm="Gwlad Belg"><i>Gwlad<b/>Belg</i><par n="Blaenafon__np"/></e>
+    <e lm="Gwlad Groeg"><i>Gwlad<b/>Groeg</i><par n="Blaenafon__np"/></e>
+    <e lm="Gwlad Iorddonen"><i>Gwlad<b/>Iorddonen</i><par n="Blaenafon__np"/></e>
+    <e lm="Gwlad Pwyl"><i>Gwlad<b/>Pwyl</i><par n="Blaenafon__np"/></e>
+    <e lm="Gwlad Pwyl"><i>Gwlad<b/>Pwyl</i><par n="Blaenafon__np"/></e>
+    <e lm="Gwlad Swazi"><i>Gwlad<b/>Swazi</i><par n="Blaenafon__np"/></e>
+    <e lm="Gwlad yr Iorddonen"><i>Gwlad<b/>yr<b/>Iorddonen</i><par n="Blaenafon__np"/></e>
+    <e lm="Gwlad y Swasi"><i>Gwlad<b/>y<b/>Swasi</i><par n="Blaenafon__np"/></e>
+    <e lm="Gwlad y Swazi"><i>Gwlad<b/>y<b/>Swazi</i><par n="Blaenafon__np"/></e>
+    <e lm="Haiti"><i>Haiti</i><par n="Blaenafon__np"/></e>
+    <e lm="Honduras"><i>Honduras</i><par n="Blaenafon__np"/></e>
+    <e lm="Hondwras"><i>Hondwras</i><par n="Blaenafon__np"/></e>
+    <e lm="Hong Cong"><i>Hong<b/>Cong</i><par n="Blaenafon__np"/></e>
+    <e lm="Hwngari"><i>Hwngari</i><par n="Blaenafon__np"/></e>
+    <e lm="Hwngari"><i>Hwngari</i><par n="Blaenafon__np"/></e>
+    <e lm="Hwngaria"><i>Hwngaria</i><par n="Blaenafon__np"/></e>
+    <e lm="Iemen"><i>Iemen</i><par n="Blaenafon__np"/></e>
+    <e lm="Indonesia"><i>Indonesia</i><par n="Blaenafon__np"/></e>
+    <e lm="Irac"><i>Irac</i><par n="Blaenafon__np"/></e>
+    <e lm="Iràc"><i>Iràc</i><par n="Blaenafon__np"/></e>
+    <e lm="Iran"><i>Iran</i><par n="Blaenafon__np"/></e>
+    <e lm="Iràn"><i>Iràn</i><par n="Blaenafon__np"/></e>
+    <e lm="Iraq"><i>Iraq</i><par n="Blaenafon__np"/></e>
+    <e lm="Jamaica"><i>Jamaica</i><par n="Blaenafon__np"/></e>
+    <e lm="Japan"><i>Japan</i><par n="Blaenafon__np"/></e>
+    <e lm="Japan"><i>Japan</i><par n="Blaenafon__np"/></e>
+    <e lm="Kazakhstan"><i>Kazakhstan</i><par n="Blaenafon__np"/></e>
+    <e lm="Kazakstan"><i>Kazakstan</i><par n="Blaenafon__np"/></e>
+    <e lm="Kenya"><i>Kenya</i><par n="Blaenafon__np"/></e>
+    <e lm="Kiribati"><i>Kiribati</i><par n="Blaenafon__np"/></e>
+    <e lm="Kuwait"><i>Kuwait</i><par n="Blaenafon__np"/></e>
+    <e lm="Kyrgyzstan"><i>Kyrgyzstan</i><par n="Blaenafon__np"/></e>
+    <e lm="Laos"><i>Laos</i><par n="Blaenafon__np"/></e>
+    <e lm="Latvia"><i>Latvia</i><par n="Blaenafon__np"/></e>
+    <e lm="Lesotho"><i>Lesotho</i><par n="Blaenafon__np"/></e>
+    <e lm="Leswtw"><i>Leswtw</i><par n="Blaenafon__np"/></e>
+    <e lm="Libanus"><i>Libanus</i><par n="Blaenafon__np"/></e>
+    <e lm="Liberia"><i>Liberia</i><par n="Blaenafon__np"/></e>
+    <e lm="Libia"><i>Libia</i><par n="Blaenafon__np"/></e>
+    <e lm="Libya"><i>Libya</i><par n="Blaenafon__np"/></e>
+    <e lm="Liechtenstein"><i>Liechtenstein</i><par n="Blaenafon__np"/></e>
+    <e lm="Lithuania"><i>Lithuania</i><par n="Blaenafon__np"/></e>
+    <e lm="Lithwania"><i>Lithwania</i><par n="Blaenafon__np"/></e>
+    <e lm="Llethaw"><i>Llethaw</i><par n="Blaenafon__np"/></e>
+    <e lm="Luxembourg"><i>Luxembourg</i><par n="Blaenafon__np"/></e>
+    <e lm="Lwcsembwrg"><i>Lwcsembwrg</i><par n="Blaenafon__np"/></e>
+    <e lm="Macau"><i>Macau</i><par n="Blaenafon__np"/></e>
+    <e lm="Macâw"><i>Macâw</i><par n="Blaenafon__np"/></e>
+    <e lm="Macedonia"><i>Macedonia</i><par n="Blaenafon__np"/></e>
+    <e lm="Madagascar"><i>Madagascar</i><par n="Blaenafon__np"/></e>
+    <e lm="Madagasgar"><i>Madagasgar</i><par n="Blaenafon__np"/></e>
+    <e lm="Malawi"><i>Malawi</i><par n="Blaenafon__np"/></e>
+    <e lm="Malaŵi"><i>Malaŵi</i><par n="Blaenafon__np"/></e>
+    <e lm="Malaysia"><i>Malaysia</i><par n="Blaenafon__np"/></e>
+    <e lm="Maldives"><i>Maldives</i><par n="Blaenafon__np"/></e>
+    <e lm="Maleisia"><i>Maleisia</i><par n="Blaenafon__np"/></e>
+    <e lm="Mâli"><i>Mâli</i><par n="Blaenafon__np"/></e>
+    <e lm="Malta"><i>Malta</i><par n="Blaenafon__np"/></e>
+    <e lm="Malta"><i>Malta</i><par n="Blaenafon__np"/></e>
+    <e lm="Mauritania"><i>Mauritania</i><par n="Blaenafon__np"/></e>
+    <e lm="Mauritius"><i>Mauritius</i><par n="Blaenafon__np"/></e>
+    <e lm="Mawretania"><i>Mawretania</i><par n="Blaenafon__np"/></e>
+    <e lm="Mawrisiws"><i>Mawrisiws</i><par n="Blaenafon__np"/></e>
+    <e lm="Mawritania"><i>Mawritania</i><par n="Blaenafon__np"/></e>
+    <e lm="Mecsico"><i>Mecsico</i><par n="Blaenafon__np"/></e>
+    <e lm="Mecsico"><i>Mecsico</i><par n="Blaenafon__np"/></e>
+    <e lm="Meicronesia"><i>Meicronesia</i><par n="Blaenafon__np"/></e>
+    <e lm="Melita"><i>Melita</i><par n="Blaenafon__np"/></e>
+    <e lm="Mexico"><i>Mexico</i><par n="Blaenafon__np"/></e>
+    <e lm="México"><i>México</i><par n="Blaenafon__np"/></e>
+    <e lm="Micronesia"><i>Micronesia</i><par n="Blaenafon__np"/></e>
+    <e lm="Moçambique"><i>Moçambique</i><par n="Blaenafon__np"/></e>
+    <e lm="Moldafia"><i>Moldafia</i><par n="Blaenafon__np"/></e>
+    <e lm="Moldofa"><i>Moldofa</i><par n="Blaenafon__np"/></e>
+    <e lm="Moldova"><i>Moldova</i><par n="Blaenafon__np"/></e>
+    <e lm="Monaco"><i>Monaco</i><par n="Blaenafon__np"/></e>
+    <e lm="Mongolia"><i>Mongolia</i><par n="Blaenafon__np"/></e>
+    <e lm="Montenegro"><i>Montenegro</i><par n="Blaenafon__np"/></e>
+    <e lm="Morocco"><i>Morocco</i><par n="Blaenafon__np"/></e>
+    <e lm="Moroco"><i>Moroco</i><par n="Blaenafon__np"/></e>
+    <e lm="Mosambîc"><i>Mosambîc</i><par n="Blaenafon__np"/></e>
+    <e lm="Mozambique"><i>Mozambique</i><par n="Blaenafon__np"/></e>
+    <e lm="Myanmar"><i>Myanmar</i><par n="Blaenafon__np"/></e>
+    <e lm="Namibia"><i>Namibia</i><par n="Blaenafon__np"/></e>
+    <e lm="Nauru"><i>Nauru</i><par n="Blaenafon__np"/></e>
+    <e lm="Nawrw"><i>Nawrw</i><par n="Blaenafon__np"/></e>
+    <e lm="Nepal"><i>Nepal</i><par n="Blaenafon__np"/></e>
+    <e lm="Nicaragua"><i>Nicaragua</i><par n="Blaenafon__np"/></e>
+    <e lm="Nicaragwa"><i>Nicaragwa</i><par n="Blaenafon__np"/></e>
+    <e lm="Niger"><i>Niger</i><par n="Blaenafon__np"/></e>
+    <e lm="Nigeria"><i>Nigeria</i><par n="Blaenafon__np"/></e>
+    <e lm="Nijer"><i>Nijer</i><par n="Blaenafon__np"/></e>
+    <e lm="Nijeria"><i>Nijeria</i><par n="Blaenafon__np"/></e>
+    <e lm="Niue"><i>Niue</i><par n="Blaenafon__np"/></e>
+    <e lm="Niwe"><i>Niwe</i><par n="Blaenafon__np"/></e>
+    <e lm="Norwy"><i>Norwy</i><par n="Blaenafon__np"/></e>
+    <e lm="Oman"><i>Oman</i><par n="Blaenafon__np"/></e>
+    <e lm="Pacistan"><i>Pacistan</i><par n="Blaenafon__np"/></e>
+    <e lm="Pakistan"><i>Pakistan</i><par n="Blaenafon__np"/></e>
+    <e lm="Palau"><i>Palau</i><par n="Blaenafon__np"/></e>
+    <e lm="Palaw"><i>Palaw</i><par n="Blaenafon__np"/></e>
+    <e lm="Panama"><i>Panama</i><par n="Blaenafon__np"/></e>
+    <e lm="Panama"><i>Panama</i><par n="Blaenafon__np"/></e>
+    <e lm="Panamá"><i>Panamá</i><par n="Blaenafon__np"/></e>
+    <e lm="Panamâ"><i>Panamâ</i><par n="Blaenafon__np"/></e>
+    <e lm="Papiwa Gini Newydd"><i>Papiwa<b/>Gini<b/>Newydd</i><par n="Blaenafon__np"/></e>
+    <e lm="Papua Guinea Newydd"><i>Papua<b/>Guinea<b/>Newydd</i><par n="Blaenafon__np"/></e>
+    <e lm="Papwa Gini Newydd"><i>Papwa<b/>Gini<b/>Newydd</i><par n="Blaenafon__np"/></e>
+    <e lm="Paraguay"><i>Paraguay</i><par n="Blaenafon__np"/></e>
+    <e lm="Paraguay"><i>Paraguay</i><par n="Blaenafon__np"/></e>
+    <e lm="Paragwâi"><i>Paragwâi</i><par n="Blaenafon__np"/></e>
+    <e lm="Periw"><i>Periw</i><par n="Blaenafon__np"/></e>
+    <e lm="Peru"><i>Peru</i><par n="Blaenafon__np"/></e>
+    <e lm="Perw"><i>Perw</i><par n="Blaenafon__np"/></e>
+    <e lm="Pilipinas"><i>Pilipinas</i><par n="Blaenafon__np"/></e>
+    <e lm="Portiwgal"><i>Portiwgal</i><par n="Blaenafon__np"/></e>
+    <e lm="Pwerto Rico"><i>Pwerto<b/>Rico</i><par n="Blaenafon__np"/></e>
+    <e lm="Pwyl"><i>Pwyl</i><par n="Blaenafon__np"/></e>
+    <e lm="Pwyldir"><i>Pwyldir</i><par n="Blaenafon__np"/></e>
+    <e lm="Qatar"><i>Qatar</i><par n="Blaenafon__np"/></e>
+    <e lm="Romania"><i>Romania</i><par n="Blaenafon__np"/></e>
+    <e lm="România"><i>România</i><par n="Blaenafon__np"/></e>
+    <e lm="Rwanda"><i>Rwanda</i><par n="Blaenafon__np"/></e>
+    <e lm="Rwmania"><i>Rwmania</i><par n="Blaenafon__np"/></e>
+    <e lm="Sambia"><i>Sambia</i><par n="Blaenafon__np"/></e>
+    <e lm="Samoa"><i>Samoa</i><par n="Blaenafon__np"/></e>
+    <e lm="San Marino"><i>San<b/>Marino</i><par n="Blaenafon__np"/></e>
+    <e lm="Sant Cristoffer a Nefis"><i>Sant<b/>Cristoffer<b/>a<b/>Nefis</i><par n="Blaenafon__np"/></e>
+    <e lm="Sant Kitts a Nevis"><i>Sant<b/>Kitts<b/>a<b/>Nevis</i><par n="Blaenafon__np"/></e>
+    <e lm="Sant Lwsia"><i>Sant<b/>Lwsia</i><par n="Blaenafon__np"/></e>
+    <e lm="São Tomé a Príncipe"><i>São<b/>Tomé<b/>a<b/>Príncipe</i><par n="Blaenafon__np"/></e>
+    <e lm="Saudi Arabia"><i>Saudi<b/>Arabia</i><par n="Blaenafon__np"/></e>
+    <e lm="Senegal"><i>Senegal</i><par n="Blaenafon__np"/></e>
+    <e lm="Sénégal"><i>Sénégal</i><par n="Blaenafon__np"/></e>
+    <e lm="Serbia"><i>Serbia</i><par n="Blaenafon__np"/></e>
+    <e lm="Seychelles"><i>Seychelles</i><par n="Blaenafon__np"/></e>
+    <e lm="Sierra Leone"><i>Sierra<b/>Leone</i><par n="Blaenafon__np"/></e>
+    <e lm="Simbabwe"><i>Simbabwe</i><par n="Blaenafon__np"/></e>
+    <e lm="Singapôr"><i>Singapôr</i><par n="Blaenafon__np"/></e>
+    <e lm="Singapore"><i>Singapore</i><par n="Blaenafon__np"/></e>
+    <e lm="Siorja"><i>Siorja</i><par n="Blaenafon__np"/></e>
+    <e lm="Siorsia"><i>Siorsia</i><par n="Blaenafon__np"/></e>
+    <e lm="Slofacia"><i>Slofacia</i><par n="Blaenafon__np"/></e>
+    <e lm="Slovenija"><i>Slovenija</i><par n="Blaenafon__np"/></e>
+    <e lm="Somalia"><i>Somalia</i><par n="Blaenafon__np"/></e>
+    <e lm="Sri Lanca"><i>Sri<b/>Lanca</i><par n="Blaenafon__np"/></e>
+    <e lm="Sri Lanka"><i>Sri<b/>Lanka</i><par n="Blaenafon__np"/></e>
+    <e lm="St Lucia"><i>St<b/>Lucia</i><par n="Blaenafon__np"/></e>
+    <e lm="St Vincent a'r Grenadines"><i>St<b/>Vincent<b/>a'r<b/>Grenadines</i><par n="Blaenafon__np"/></e>
+    <e lm="Sudan"><i>Sudan</i><par n="Blaenafon__np"/></e>
+    <e lm="Surinam"><i>Surinam</i><par n="Blaenafon__np"/></e>
+    <e lm="Suriname"><i>Suriname</i><par n="Blaenafon__np"/></e>
+    <e lm="Swaziland"><i>Swaziland</i><par n="Blaenafon__np"/></e>
+    <e lm="Swdan"><i>Swdan</i><par n="Blaenafon__np"/></e>
+    <e lm="y Swdan"><i>y<b/>Swdan</i><par n="Blaenafon__np"/></e>
+    <e lm="Sweden"><i>Sweden</i><par n="Blaenafon__np"/></e>
+    <e lm="y Swistir"><i>y<b/>Swistir</i><par n="Blaenafon__np"/></e>
+    <e lm="Swrinam"><i>Swrinam</i><par n="Blaenafon__np"/></e>
+    <e lm="Swrinâm"><i>Swrinâm</i><par n="Blaenafon__np"/></e>
+    <e lm="Syria"><i>Syria</i><par n="Blaenafon__np"/></e>
+    <e lm="Taiwan"><i>Taiwan</i><par n="Blaenafon__np"/></e>
+    <e lm="Taiwàn"><i>Taiwàn</i><par n="Blaenafon__np"/></e>
+    <e lm="Tajicistan"><i>Tajicistan</i><par n="Blaenafon__np"/></e>
+    <e lm="Tajikistan"><i>Tajikistan</i><par n="Blaenafon__np"/></e>
+    <e lm="Taleithiau Ffederal Micronesia"><i>Taleithiau<b/>Ffederal<b/>Micronesia</i><par n="Blaenafon__np"/></e>
+    <e lm="Taleithiau Ffederyddol Meicronesia"><i>Taleithiau<b/>Ffederyddol<b/>Meicronesia</i><par n="Blaenafon__np"/></e>
+    <e lm="y Taleithiau Unedig"><i>y<b/>Taleithiau<b/>Unedig</i><par n="Blaenafon__np"/></e>
+    <e lm="Tansanîa"><i>Tansanîa</i><par n="Blaenafon__np"/></e>
+    <e lm="Tansanïa"><i>Tansanïa</i><par n="Blaenafon__np"/></e>
+    <e lm="Tanzania"><i>Tanzania</i><par n="Blaenafon__np"/></e>
+    <e lm="Tchad"><i>Tchad</i><par n="Blaenafon__np"/></e>
+    <e lm="Tiwnisia"><i>Tiwnisia</i><par n="Blaenafon__np"/></e>
+    <e lm="y Traeth Ifori"><i>y<b/>Traeth<b/>Ifori</i><par n="Blaenafon__np"/></e>
+    <e lm="Trinidad a Thobago"><i>Trinidad<b/>a<b/>Thobago</i><par n="Blaenafon__np"/></e>
+    <e lm="Trinidad a Tobago"><i>Trinidad<b/>a<b/>Tobago</i><par n="Blaenafon__np"/></e>
+    <e lm="Tsiad"><i>Tsiad</i><par n="Blaenafon__np"/></e>
+    <e lm="Tsili"><i>Tsili</i><par n="Blaenafon__np"/></e>
+    <e lm="Tunisia"><i>Tunisia</i><par n="Blaenafon__np"/></e>
+    <e lm="Turkmenistan"><i>Turkmenistan</i><par n="Blaenafon__np"/></e>
+    <e lm="Tuvalu"><i>Tuvalu</i><par n="Blaenafon__np"/></e>
+    <e lm="Twfalw"><i>Twfalw</i><par n="Blaenafon__np"/></e>
+    <e lm="Twrcmenistan"><i>Twrcmenistan</i><par n="Blaenafon__np"/></e>
+    <e lm="Tyrcmenistan"><i>Tyrcmenistan</i><par n="Blaenafon__np"/></e>
+    <e lm="Uganda"><i>Uganda</i><par n="Blaenafon__np"/></e>
+    <e lm="Ukrain"><i>Ukrain</i><par n="Blaenafon__np"/></e>
+    <e lm="Unol Daleithiau America"><i>Unol<b/>Daleithiau<b/>America</i><par n="Blaenafon__np"/></e>
+    <e lm="Unol Daleithiau America"><i>Unol<b/>Daleithiau<b/>America</i><par n="Blaenafon__np"/></e>
+    <e lm="yr Unol Daleithiau"><i>yr<b/>Unol<b/>Daleithiau</i><par n="Blaenafon__np"/></e>
+    <e lm="Uruguay"><i>Uruguay</i><par n="Blaenafon__np"/></e>
+    <e lm="Uzbekistan"><i>Uzbekistan</i><par n="Blaenafon__np"/></e>
+    <e lm="Vanuatu"><i>Vanuatu</i><par n="Blaenafon__np"/></e>
+    <e lm="Venezuela"><i>Venezuela</i><par n="Blaenafon__np"/></e>
+    <e lm="Vietnam"><i>Vietnam</i><par n="Blaenafon__np"/></e>
+    <e lm="Viet Nam"><i>Viet<b/>Nam</i><par n="Blaenafon__np"/></e>
+    <e lm="Wcrain"><i>Wcrain</i><par n="Blaenafon__np"/></e>
+    <e lm="Wcráin"><i>Wcráin</i><par n="Blaenafon__np"/></e>
+    <e lm="y Weriniaeth Ddominicaidd"><i>y<b/>Weriniaeth<b/>Ddominicaidd</i><par n="Blaenafon__np"/></e>
+    <e lm="y Weriniaeth Slofacaidd"><i>y<b/>Weriniaeth<b/>Slofacaidd</i><par n="Blaenafon__np"/></e>
+    <e lm="y Weriniaeth Tsiecaidd"><i>y<b/>Weriniaeth<b/>Tsiecaidd</i><par n="Blaenafon__np"/></e>
+    <e lm="y Weriniaeth Tsiec"><i>y<b/>Weriniaeth<b/>Tsiec</i><par n="Blaenafon__np"/></e>
+    <e lm="Wganda"><i>Wganda</i><par n="Blaenafon__np"/></e>
+    <e lm="Wrwgwái"><i>Wrwgwái</i><par n="Blaenafon__np"/></e>
+    <e lm="Wsbecistan"><i>Wsbecistan</i><par n="Blaenafon__np"/></e>
+    <e lm="y Bahamas"><i>y<b/>Bahamas</i><par n="Blaenafon__np"/></e>
+    <e lm="Yemen"><i>Yemen</i><par n="Blaenafon__np"/></e>
+    <e lm="y Gambia"><i>y<b/>Gambia</i><par n="Blaenafon__np"/></e>
+    <e lm="Ynysoedd Bahama"><i>Ynysoedd<b/>Bahama</i><par n="Blaenafon__np"/></e>
+    <e lm="Ynysoedd Caiman"><i>Ynysoedd<b/>Caiman</i><par n="Blaenafon__np"/></e>
+    <e lm="Ynysoedd Ffarö"><i>Ynysoedd<b/>Ffarö</i><par n="Blaenafon__np"/></e>
+    <e lm="Ynysoedd Penrhyn Verde"><i>Ynysoedd<b/>Penrhyn<b/>Verde</i><par n="Blaenafon__np"/></e>
+    <e lm="Ynysoedd Solomon"><i>Ynysoedd<b/>Solomon</i><par n="Blaenafon__np"/></e>
+    <e lm="Ynysoedd y Bahamas"><i>Ynysoedd<b/>y<b/>Bahamas</i><par n="Blaenafon__np"/></e>
+    <e lm="Ynysoedd y Maldîfs"><i>Ynysoedd<b/>y<b/>Maldîfs</i><par n="Blaenafon__np"/></e>
+    <e lm="Ynysoedd y Maldives"><i>Ynysoedd<b/>y<b/>Maldives</i><par n="Blaenafon__np"/></e>
+    <e lm="Ynysoedd y Philipinau"><i>Ynysoedd<b/>y<b/>Philipinau</i><par n="Blaenafon__np"/></e>
+    <e lm="Ynysoedd y Philipinos"><i>Ynysoedd<b/>y<b/>Philipinos</i><par n="Blaenafon__np"/></e>
+    <e lm="Ynysoedd y Philippines"><i>Ynysoedd<b/>y<b/>Philippines</i><par n="Blaenafon__np"/></e>
+    <e lm="Ynysoedd y Pilipins"><i>Ynysoedd<b/>y<b/>Pilipins</i><par n="Blaenafon__np"/></e>
+    <e lm="Ynys Sant Finsent ac Yr Ynysoedd y Grenadîns"><i>Ynys<b/>Sant<b/>Finsent<b/>ac<b/>Yr<b/>Ynysoedd<b/>y<b/>Grenadîns</i><par n="Blaenafon__np"/></e>
+    <e lm="Ynys y Santes Lwsia"><i>Ynys<b/>y<b/>Santes<b/>Lwsia</i><par n="Blaenafon__np"/></e>
+    <e lm="Ysbaen"><i>Ysbaen</i><par n="Blaenafon__np"/></e>
+    <e lm="y Seishêls"><i>y<b/>Seishêls</i><par n="Blaenafon__np"/></e>
+    <e lm="Zambia"><i>Zambia</i><par n="Blaenafon__np"/></e>
+    <e lm="Zimbabwe"><i>Zimbabwe</i><par n="Blaenafon__np"/></e>
 
 
     <e lm="Clwyd"><par n="initial-C"/><i>lwyd</i><par n="Blaenafon__np"/></e>

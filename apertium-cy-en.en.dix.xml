@@ -63,7 +63,7 @@
     </pardef>
 
     <pardef n="acronimos">
-      <e>
+      <e r="LR">
         <re>[A-Z][A-Z]+([A-Z])?</re>
         <p>
           <l/>
@@ -14168,6 +14168,7 @@
     <e lm="field"><i>field</i><par n="house__n"/></e>
     <e lm="woman"><i>wom</i><par n="m/an__n"/></e>
     <e lm="news"><i>news</i><par n="politics__n__unc"/></e>
+    <e lm="steam"><i>steam</i><par n="politics__n__unc"/></e>
     <e lm="harp singing"><i>harp<b/>singing</i><par n="politics__n__unc"/></e>
     <e lm="sleep"><i>sleep</i><par n="politics__n__unc"/></e>
     <e lm="surfeit"><i>surfeit</i><par n="politics__n__unc"/></e>
@@ -15568,7 +15569,6 @@
     <e lm="sum"><i>sum</i><par n="house__n"/></e>
     <e lm="northeast"><i>northeast</i><par n="east__n__unc"/></e>
     <e lm="homeland"><i>homeland</i><par n="house__n"/></e>
-    <e lm="steam"><i>steam</i><par n="house__n"/></e>
     <e lm="motorcycle"><i>motorcycle</i><par n="house__n"/></e>
     <e lm="homework"><i>homework</i><par n="house__n__unc"/></e>
     <e lm="rocket"><i>rocket</i><par n="house__n"/></e>
@@ -22212,6 +22212,7 @@
     <e lm="Blaenau Gwent"><i>Blaenau<b/>Gwent</i><par n="Barcelona__np"/></e>
     <e lm="Vale of Glamorgan"><i>Vale<b/>of<b/>Glamorgan</i><par n="Barcelona__np"/></e>
     <e lm="Neath Port Talbot"><i>Neath<b/>Port<b/>Talbot</i><par n="Barcelona__np"/></e>
+    <e lm="Port Talbot"><i>Port<b/>Talbot</i><par n="Barcelona__np"/></e>
     <e lm="Conwy"><i>Conwy</i><par n="Barcelona__np"/></e>
     <e lm="Clwyd"><i>Clwyd</i><par n="Barcelona__np"/></e>
     <e lm="South Glamorgan"><i>South<b/>Glamorgan</i><par n="Barcelona__np"/></e>
@@ -22254,6 +22255,41 @@
     <e lm="England"><i>England</i><par n="Barcelona__np"/></e>
     <e lm="Glamorgan"><i>Glamorgan</i><par n="Barcelona__np"/></e>
     <e lm="Gwent"><i>Gwent</i><par n="Barcelona__np"/></e>
+
+    <e lm="Antigua and Barbuda"><i>Antigua<b/>and<b/>Barbuda</i><par n="Barcelona__np"/></e>
+    <e lm="Belarus"><i>Belarus</i><par n="Barcelona__np"/></e>
+    <e lm="Bermuda"><i>Bermuda</i><par n="Barcelona__np"/></e>
+    <e lm="Brunei"><i>Brunei</i><par n="Barcelona__np"/></e>
+    <e lm="Costa Rica"><i>Costa<b/>Rica</i><par n="Barcelona__np"/></e>
+    <e lm="Côte d'Ivoire"><i>Côte<b/>d'Ivoire</i><par n="Barcelona__np"/></e>
+    <e lm="Democratic Republic of the Congo"><i>Democratic<b/>Republic<b/>of<b/>the<b/>Congo</i><par n="Barcelona__np"/></e>
+    <e lm="Dominican Republic"><i>Dominican<b/>Republic</i><par n="Barcelona__np"/></e>
+    <e lm="East Timor"><i>East<b/>Timor</i><par n="Barcelona__np"/></e>
+    <e lm="El Salvador"><i>El<b/>Salvador</i><par n="Barcelona__np"/></e>
+    <e lm="Equatorial Guinea"><i>Equatorial<b/>Guinea</i><par n="Barcelona__np"/></e>
+    <e lm="Faroe Islands"><i>Faroe<b/>Islands</i><par n="Barcelona__np"/></e>
+    <e lm="Federated States of Micronesia"><i>Federated<b/>States<b/>of<b/>Micronesia</i><par n="Barcelona__np"/></e>
+    <e lm="Greek"><i>Greek</i><par n="Barcelona__np"/></e>
+    <e lm="Kiribati"><i>Kiribati</i><par n="Barcelona__np"/></e>
+    <e lm="Macau"><i>Macau</i><par n="Barcelona__np"/></e>
+    <e lm="Nauru"><i>Nauru</i><par n="Barcelona__np"/></e>
+    <e lm="Niue"><i>Niue</i><par n="Barcelona__np"/></e>
+    <e lm="North Korea"><i>North<b/>Korea</i><par n="Barcelona__np"/></e>
+    <e lm="Palau"><i>Palau</i><par n="Barcelona__np"/></e>
+    <e lm="Saint Kitts and Nevis"><i>Saint<b/>Kitts<b/>and<b/>Nevis</i><par n="Barcelona__np"/></e>
+    <e lm="Saint Lucia"><i>Saint<b/>Lucia</i><par n="Barcelona__np"/></e>
+    <e lm="Saint Vincent and the Grenadines"><i>Saint<b/>Vincent<b/>and<b/>the<b/>Grenadines</i><par n="Barcelona__np"/></e>
+    <e lm="São Tomé and Príncipe"><i>São<b/>Tomé<b/>and<b/>Príncipe</i><par n="Barcelona__np"/></e>
+    <e lm="Solomon Islands"><i>Solomon<b/>Islands</i><par n="Barcelona__np"/></e>
+    <e lm="South Korea"><i>South<b/>Korea</i><par n="Barcelona__np"/></e>
+    <e lm="Sri Lanka"><i>Sri<b/>Lanka</i><par n="Barcelona__np"/></e>
+    <e lm="The Bahamas"><i>The<b/>Bahamas</i><par n="Barcelona__np"/></e>
+    <e lm="Trinidad and Tobago"><i>Trinidad<b/>and<b/>Tobago</i><par n="Barcelona__np"/></e>
+    <e lm="Tuvalu"><i>Tuvalu</i><par n="Barcelona__np"/></e>
+    <e lm="Vanuatu"><i>Vanuatu</i><par n="Barcelona__np"/></e>
+    <e lm="Vatican City"><i>Vatican<b/>City</i><par n="Barcelona__np"/></e>
+
+
     <e lm="Ireland"><i>Ireland</i><par n="Barcelona__np"/></e>
     <e lm="Republic of Ireland"><i>Republic of Ireland</i><par n="Barcelona__np"/></e>
     <e lm="Scotland"><i>Scotland</i><par n="Barcelona__np"/></e>

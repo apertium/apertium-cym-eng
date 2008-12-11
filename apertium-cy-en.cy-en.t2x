@@ -469,6 +469,39 @@
     </rule>
 
 
+    <rule comment="REGLA: Vpart">
+      <pattern>
+        <pattern-item n="Vpart"/>
+      </pattern>
+      <action>
+        <choose>
+	  <when>
+            <test>
+	      <equal>
+	        <clip pos="1" part="tags"/>
+	        <lit-tag v="Vpart.neg"/>
+	      </equal>
+	    </test>
+            <out>
+              <chunk>
+                <lit v="adv"/>
+                <lit-tag v="Adv"/>
+                <lit v="{^not"/>
+                <lit-tag v="adv"/>
+                <lit v="$}"/>
+              </chunk>
+            </out>
+	  </when>
+          <otherwise>
+	    <out>
+              <b/>  
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: Vpart SVpers">
       <pattern>
         <pattern-item n="Vpart"/>
