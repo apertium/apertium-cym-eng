@@ -849,7 +849,8 @@
               <clip pos="1" part="a_verb"/>
               <clip pos="1" part="temps"/>
               <clip pos="1" part="pers"/>
-              <clip pos="2" part="nbr"/>
+<!--              <clip pos="2" part="nbr"/> -->
+              <clip pos="1" part="nbr"/> 
               <clip pos="1" part="chcontent"/>
             </chunk>
           </out>
