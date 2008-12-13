@@ -24544,7 +24544,10 @@
     <e lm="count"><i>count</i><par n="accept__vblex"/></e>
     <e lm="cover"><i>cover</i><par n="accept__vblex"/></e>
     <e lm="create"><i>creat</i><par n="liv/e__vblex"/></e>
+
     <e lm="cut"><i>cut</i><par n="cut__vblex"/></e>
+    <e lm="cut costs"><i>cut</i><par n="cut__vblex"/><p><l><b/>costs</l><r><g><b/>costs</g></r></p></e>
+
     <e lm="deal"><i>deal</i><par n="deal__vblex"/></e>
     <e lm="decide"><i>decid</i><par n="liv/e__vblex"/></e>
     <e lm="defend"><i>defend</i><par n="accept__vblex"/></e>
