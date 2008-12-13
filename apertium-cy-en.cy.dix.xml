@@ -57701,7 +57701,10 @@
     <e lm="torchi"><par n="initial-t"/><i>orch</i><par n="achos/i__vblex"/></e>
     <e lm="torfynyglu"><par n="initial-t"/><i>orfynygl</i><par n="aberth/u__vblex"/></e>
     <e lm="torheulo"><par n="initial-t"/><i>orheul</i><par n="achlysur/o__vblex"/></e>
+
     <e lm="torri"><par n="initial-t"/><i>or</i><par n="blaendor/ri__vblex"/></e>
+    <e lm="torri costau"><par n="initial-t"/><i>or</i><par n="blaendor/ri__vblex"/><p><l><b/>costau</l><r><g><b/>costau</g></r></p></e>
+
     <e lm="torsythu"><par n="initial-t"/><i>orsyth</i><par n="aberth/u__vblex"/></e>
     <e lm="torthi"><par n="initial-t"/><i>orth</i><par n="achos/i__vblex"/></e>
     <e lm="tostio"><par n="initial-t"/><i>osti</i><par n="achlysur/o__vblex"/></e>

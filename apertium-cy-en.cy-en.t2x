@@ -196,10 +196,34 @@
 	<choose>
 	  <when>
 	    <test>
-	      <equal caseless="yes">
-	        <clip pos="1" part="lem"/>
-		<lit v="verbcj"/>
-              </equal>
+                <equal caseless="yes">
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="pii"/>
+                </equal>
+            </test>
+	    <let>
+	      <var n="tense"/>
+              <lit-tag v="past"/>
+	    </let>
+	    <let>
+              <clip pos="1" part="temps"/>
+              <lit-tag v="past"/>
+	    </let>
+	  </when>
+	  <when>
+	    <test>
+              <and>
+                <equal caseless="yes">
+                  <clip pos="1" part="lem"/>
+                  <lit v="verbcj"/>
+                </equal>
+                <not>
+                  <equal caseless="yes">
+                    <clip pos="1" part="temps"/>
+                    <lit-tag v="pii"/>
+                  </equal>
+                </not>
+              </and>
             </test>
 	    <let>
 	      <var n="tense"/>

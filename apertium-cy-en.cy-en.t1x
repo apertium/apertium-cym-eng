@@ -368,7 +368,7 @@
                 <clip pos="1" side="tl" part="lemh"/>
                 <clip pos="1" side="tl" part="a_verb"/>
                 <clip pos="1" side="tl" part="sep"/>
-                <clip pos="1" side="tl" part="temps" link-to="3"/>
+                <clip pos="1" side="tl" part="temps" link-to="3"/> 
                 <clip pos="1" side="sl" part="pers" link-to="4"/>
                 <clip pos="1" side="sl" part="nbr" link-to="5"/> 
               </concat>
@@ -2563,6 +2563,57 @@
               <clip pos="3" side="tl" part="a_nom"/>
               <clip pos="3" side="tl" part="gen"/>
               <clip pos="3" side="tl" part="nbr"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: DET NOM NOM ANT COG">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="ant"/>
+        <pattern-item n="cog"/>
+      </pattern>
+      <action> 
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="det_nom_nom_ant_cog" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+	    <lu>
+              <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	    <b/>
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="nbr" link-to="2"/>
+            </lu>
+	    <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="nbr" link-to="2"/>
+            </lu>
+	    <b/>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/>
+            </lu>
+	    <b/>
+            <lu>
+              <clip pos="5" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
