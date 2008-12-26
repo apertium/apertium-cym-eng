@@ -27036,7 +27036,6 @@
     <e lm="brightness"><i>brightness</i><par n="house__n"/></e>
     <e lm="fitness"><i>fitness</i><par n="house__n"/></e>
     <e lm="skewness"><i>skewness</i><par n="house__n"/></e>
-    <e lm="agreements"><i>agreements</i><par n="house__n"/></e>
     <e lm="plus"><i>plus</i><par n="access__n"/></e>
     <e lm="minus"><i>minus</i><par n="access__n"/></e>
     <e lm="fat"><i>fat</i><par n="house__n"/></e>
@@ -31501,7 +31500,7 @@
     <e lm="jigsaw"><i>jigsaw</i><par n="house__n"/></e>
     <e lm="jew"><i>jew</i><par n="house__n"/></e>
     <e lm="fax"><i>fax</i><par n="house__n"/></e>
-    <e lm="climax"><i>climax</i><par n="house__n"/></e>
+    <e lm="climax"><i>climax</i><par n="access__n"/></e>
     <e lm="vertex"><i>vertex</i><par n="house__n"/></e>
     <e lm="ox"><i>ox</i><par n="ox__n"/></e>
 
