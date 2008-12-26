@@ -1399,7 +1399,7 @@
     <e><p><l>cysylltiad<s n="n"/><s n="m"/></l><r>association<s n="n"/></r></p></e>
     <e><p><l>cysylltnod<s n="n"/><s n="m"/></l><r>hyphen<s n="n"/></r></p></e>
     <e><p><l>cysyniad<s n="n"/><s n="m"/></l><r>concept<s n="n"/></r></p></e>
-    <e><p><l>cytundeb<s n="n"/><s n="m"/></l><r>agreements<s n="n"/></r></p></e>
+    <e><p><l>cytundeb<s n="n"/><s n="m"/></l><r>agreement<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>cywasgiad<s n="n"/><s n="m"/></l><r>compression<s n="n"/></r></p></e>
     <e><p><l>cywiriad<s n="n"/><s n="m"/></l><r>correction<s n="n"/></r></p></e>
     <e><p><l>cywydd<s n="n"/><s n="m"/></l><r>alliterative poem<s n="n"/></r></p></e>
@@ -4298,7 +4298,7 @@
     <e><p><l>traed<s n="n"/><s n="mf"/></l><r>foot<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>meddwl<s n="n"/><s n="m"/></l><r>thought<s n="n"/></r></p></e>
     <e><p><l>babi<s n="n"/><s n="mf"/></l><r>baby<s n="n"/></r></p></e>
-    <e><p><l>cyfaill<s n="n"/><s n="m"/></l><r>mate<s n="n"/></r></p></e>
+    <e><p><l>cyfaill<s n="n"/><s n="m"/></l><r>friend<s n="n"/></r></p></e> <!-- changed from 'mate' -->
     <e><p><l>gwelltyn<s n="n"/><s n="m"/></l><r>hair<s n="n"/></r></p></e>
     <e><p><l>gyrrydd<s n="n"/><s n="m"/></l><r>driver<s n="n"/></r></p></e>
     <e><p><l>dawn<s n="n"/><s n="mf"/></l><r>talent<s n="n"/></r></p></e>
