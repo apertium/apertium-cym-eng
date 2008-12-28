@@ -58263,6 +58263,10 @@
     <e lm="Powys"><par n="initial-P"/><i>owys</i><par n="Blaenafon__np"/></e>
     <e lm="Clwyd"><par n="initial-C"/><i>lwyd</i><par n="Blaenafon__np"/></e>
     <e lm="Efrog Newydd"><i>Efrog<b/>Newydd</i><par n="Blaenafon__np"/></e>
+    <e lm="Nantes"><i>Nantes</i><par n="Blaenafon__np"/></e>
+    <e lm="Naoned"><i>Naoned</i><par n="Blaenafon__np"/></e>
+    <e lm="Rennes"><i>Rennes</i><par n="Blaenafon__np"/></e>
+    <e lm="Roazhon"><i>Roazhon</i><par n="Blaenafon__np"/></e>
     <e lm="y Bala"><i>y<b/>Bala</i><par n="Blaenafon__np"/></e>
     <e lm="y Wyddfa"><i>y<b/>Wyddfa</i><par n="Blaenafon__np"/></e>
     <e lm="Eryri"><i>Eryri</i><par n="Blaenafon__np"/></e>
@@ -58538,7 +58542,6 @@
     <e lm="Papiwa Gini Newydd"><i>Papiwa<b/>Gini<b/>Newydd</i><par n="Blaenafon__np"/></e>
     <e lm="Papua Guinea Newydd"><i>Papua<b/>Guinea<b/>Newydd</i><par n="Blaenafon__np"/></e>
     <e lm="Papwa Gini Newydd"><i>Papwa<b/>Gini<b/>Newydd</i><par n="Blaenafon__np"/></e>
-    <e lm="Paraguay"><i>Paraguay</i><par n="Blaenafon__np"/></e>
     <e lm="Paraguay"><i>Paraguay</i><par n="Blaenafon__np"/></e>
     <e lm="Paragwâi"><i>Paragwâi</i><par n="Blaenafon__np"/></e>
     <e lm="Periw"><i>Periw</i><par n="Blaenafon__np"/></e>
@@ -58999,7 +59002,7 @@
     <e lm="Fernando"><i>Fernando</i><par n="Aled__np"/></e>
     <e lm="Folke"><i>Folke</i><par n="Aled__np"/></e>
     <e lm="Francesc"><i>Francesc</i><par n="Aled__np"/></e>
-    <e lm="Francesc Xavier"><i>Francesc Xavier</i><par n="Aled__np"/></e>
+    <e lm="Francesc Xavier"><i>Francesc<b/>Xavier</i><par n="Aled__np"/></e>
     <e lm="Francis"><i>Francis</i><par n="Aled__np"/></e>
     <e lm="Gabriel"><par n="initial-G"/><i>abriel</i><par n="Aled__np"/></e>
     <e lm="Gauwyn"><par n="initial-G"/><i>auwyn</i><par n="Aled__np"/></e>

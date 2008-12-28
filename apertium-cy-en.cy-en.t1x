@@ -18,6 +18,9 @@
     <def-cat n="cog">
       <cat-item tags="np.cog.*"/>
     </def-cat>
+    <def-cat n="toponim">
+      <cat-item tags="np.top.*"/>
+    </def-cat>
     <def-cat n="nom_propi">
       <cat-item tags="np.*"/>
     </def-cat>
@@ -292,6 +295,7 @@
     <def-var n="lema_SV"/>
     <def-var n="lema_SP"/>
     <def-var n="lema_Vpart"/>
+    <def-var n="cur_lem"/>
     <def-var n="verbfinal"/>
     <def-var n="prntags"/>
     <def-var n="adjectiu1"/>
@@ -2170,6 +2174,53 @@
       </action>
     </rule>
 
+
+
+    <rule comment="REGLA: NOM DET TOPONIM">
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="det"/>
+        <pattern-item n="toponim"/>
+      </pattern>
+      <action> 
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="det_nom_of_det_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="the"/>
+              <lit-tag v="det.def.sp"/>
+            </lu>
+	    <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="of"/>
+              <lit-tag v="pr"/>
+	    </lu>
+	    <b/>
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="nbr"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
 
 
     <rule comment="REGLA: NOM DET NOM">
@@ -4527,8 +4578,12 @@
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <let>
+          <var n="cur_lem"/>
+          <clip pos="1" side="sl" part="lem"/>
+        </let>
         <out>
-          <chunk name="adv" case="caseFirstWord">
+          <chunk namefrom="cur_lem" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="ADV"/></tag>
             </tags>

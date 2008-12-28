@@ -23,6 +23,10 @@
       <cat-item lemma="num" tags="SN.*"/>
     </def-cat>
 
+    <def-cat n="DDIM">
+      <cat-item lemma="ddim" tags="ADV"/>
+    </def-cat>
+
     <def-cat n="CC">
       <cat-item tags="CC"/>
     </def-cat>
@@ -185,6 +189,7 @@
   </section-def-attrs>
 
   <section-def-vars>
+    <def-var n="posa_neg" v="0"/>
     <def-var n="nombre"/>
     <def-var n="genere"/>
     <def-var n="tense" v="&lt;pres&gt;"/>
@@ -515,12 +520,54 @@
                 <lit v="$}"/>
               </chunk>
             </out>
+            <let>
+              <var n="posa_neg"/>
+              <lit v="1"/>
+            </let>
 	  </when>
           <otherwise>
 	    <out>
               <b/>  
 	    </out>
 	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: DDIM">
+      <pattern>
+        <pattern-item n="DDIM"/>
+      </pattern>
+      <action>
+        <choose>
+	  <when>
+            <test>
+	      <equal>
+                <var n="posa_neg"/>
+	        <lit v="0"/>
+	      </equal>
+	    </test>
+            <out>
+              <chunk>
+                <lit v="adv"/>
+                <lit-tag v="Adv"/>
+                <lit v="{^not"/>
+                <lit-tag v="adv"/>
+                <lit v="$}"/>
+              </chunk>
+            </out>
+            <let>
+              <var n="posa_neg"/>
+              <lit v="1"/>
+            </let>
+	  </when>
+ <!--
+          <otherwise>
+	     <out>
+              <b/>   
+	    </out> 
+	  </otherwise> -->
 	</choose>
       </action>
     </rule>
@@ -567,6 +614,10 @@
                 <lit v="$}"/>
               </chunk>
             </out>
+            <let>
+              <var n="posa_neg"/>
+              <lit v="1"/>
+            </let>
 	  </when>
           <otherwise>
 	    <out>
@@ -623,6 +674,10 @@
                 <lit v="$}"/>
               </chunk>
             </out>
+            <let>
+              <var n="posa_neg"/>
+              <lit v="1"/>
+            </let>
 	  </when>
           <otherwise>
 	    <out>
@@ -674,6 +729,10 @@
                 <lit v="$}"/>
               </chunk>
             </out>
+            <let>
+              <var n="posa_neg"/>
+              <lit v="1"/>
+            </let>
 	  </when>
 	  <when>
             <test>
