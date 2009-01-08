@@ -1620,6 +1620,7 @@
     <e><p><l>gwrthwyneb<s n="n"/><s n="m"/></l><r>opposite<s n="n"/></r></p></e>
     <e><p><l>gwrthwynebiad<s n="n"/><s n="m"/></l><r>opposition<s n="n"/></r></p></e>
     <e><p><l>gwybodaeth<s n="n"/><s n="f"/></l><r>knowledge<s n="n"/></r></p></e>
+    <e><p><l>gwys<s n="n"/><s n="f"/></l><r>summons<s n="n"/></r></p></e>
     <e><p><l>gwyddor<s n="n"/><s n="f"/></l><r>alphabet<s n="n"/></r></p></e>
     <e><p><l>gwyddor<s n="n"/><s n="f"/></l><r>science<s n="n"/></r></p></e>
     <e><p><l>gwydr<s n="n"/><s n="m"/></l><r>glass<s n="n"/></r></p></e>
@@ -2192,6 +2193,7 @@
     <e><p><l>arwynebeddau<s n="n"/><s n="m"/></l><r>areas<s n="n"/></r></p></e>
     <e><p><l>AS<s n="n"/><s n="m"/></l><r>MP<s n="n"/></r></p></e>
     <e><p><l>AC<s n="n"/><s n="m"/></l><r>AM<s n="n"/></r></p></e>
+    <e><p><l>DU<s n="n"/><s n="m"/></l><r>UK<s n="n"/></r></p></e>
     <e><p><l>asbestos<s n="n"/><s n="m"/></l><r>asbestos<s n="n"/></r></p></e>
     <e><p><l>astroleg<s n="n"/><s n="f"/></l><r>astrology<s n="n"/></r></p></e>
     <e><p><l>atebolrwydd<s n="n"/><s n="m"/></l><r>accountability<s n="n"/></r></p></e>
@@ -11403,7 +11405,8 @@
     <e><p><l>Abergwaun<s n="np"/><s n="top"/><s n="f"/></l><r>Fishguard<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dinbych y Pysgod<s n="np"/><s n="top"/><s n="f"/></l><r>Tenby<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dinbych<s n="np"/><s n="top"/><s n="f"/></l><r>Denbigh<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Llanelwy<s n="np"/><s n="top"/><s n="f"/></l><r>St Asaph<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanelwy<s n="np"/><s n="top"/><s n="f"/></l><r>St<b/>Asaph<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanrwst<s n="np"/><s n="top"/><s n="f"/></l><r>Llanrwst<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>y Trallwng<s n="np"/><s n="top"/><s n="f"/></l><r>Welshpool<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Wrecsam<s n="np"/><s n="top"/><s n="f"/></l><r>Wrexham<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Niwbwrch<s n="np"/><s n="top"/><s n="f"/></l><r>Newborough<s n="np"/><s n="top"/></r></p></e>

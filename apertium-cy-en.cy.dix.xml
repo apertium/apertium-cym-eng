@@ -50378,6 +50378,7 @@
     <e lm="arwynebeddau"><i>arwynebeddau</i><par n="achosiant__n"/></e>
     <e lm="AS"><i>AS</i><par n="aberth__n"/></e>
     <e lm="AC"><i>AC</i><par n="aberth__n"/></e>
+    <e lm="DU"><i>DU</i><par n="aberth__n"/></e>
     <e lm="asbestos"><i>asbestos</i><par n="achosiant__n"/></e>
     <e lm="atebolrwydd"><i>atebolrwydd</i><par n="achosiant__n"/></e>
     <e lm="aur"><i>aur</i><par n="achosiant__n"/></e>
@@ -51067,6 +51068,7 @@
     <e lm="ymwelydd"><i>ymwelydd</i><par n="academydd__n"/></e>
     <e lm="ysbryd"><i>ysbryd</i><par n="academydd__n"/></e>
     <e lm="acen"><i>acen</i><par n="acen__n"/></e>
+    <e lm="gwys"><par n="initial-g"/><i>wys</i><par n="acen__n"/></e>
     <e lm="addewid"><i>addewid</i><par n="acen__n"/></e>
     <e lm="anrheg"><i>anrheg</i><par n="acen__n"/></e>
     <e lm="archeb"><i>archeb</i><par n="acen__n"/></e>
@@ -52638,7 +52640,7 @@
     <e lm="bas"><par n="initial-b"/><i>as</i><par n="agos__adj"/></e>
     <e lm="bas"><par n="initial-b"/><i>as</i><par n="agos__adj"/></e>
     <e lm="byr"><par n="initial-b"/><i>yr</i><par n="byr__adj"/></e>
-    <e lm="call"><par n="initial-c"/><i>all</i><par n="agos__adj"/></e>
+<!--    <e lm="call"><par n="initial-c"/><i>all</i><par n="agos__adj"/></e> -->
     <e lm="cryf"><par n="initial-c"/><i>ryf</i><par n="agos__adj"/></e>
     <e lm="cul"><par n="initial-c"/><i>ul</i><par n="agos__adj"/></e>
     <e lm="cyflym"><par n="initial-c"/><i>yflym</i><par n="agos__adj"/></e>
@@ -58279,6 +58281,7 @@
     <e lm="Dinbych y Pysgod"><par n="initial-D"/><i>inbych<b/>y<b/>Pysgod</i><par n="Blaenafon__np"/></e>
     <e lm="Dinbych"><par n="initial-D"/><i>inbych</i><par n="Blaenafon__np"/></e>
     <e lm="Llanelwy"><par n="initial-Ll"/><i>anelwy</i><par n="Blaenafon__np"/></e>
+    <e lm="Llanrwst"><par n="initial-Ll"/><i>anrwst</i><par n="Blaenafon__np"/></e>
     <e lm="y Trallwng"><i>y<b/>Trallwng</i><par n="Blaenafon__np"/></e>
     <e lm="Wrecsam"><i>Wrecsam</i><par n="Blaenafon__np"/></e>
     <e lm="Niwbwrch"><i>Niwbwrch</i><par n="Blaenafon__np"/></e>
