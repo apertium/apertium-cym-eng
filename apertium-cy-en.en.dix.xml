@@ -14139,6 +14139,7 @@
     <e lm="police service"><i>police<b/>service</i><par n="house__n"/></e>
     <e lm="kind"><i>kind</i><par n="house__n"/></e>
     <e lm="court"><i>court</i><par n="house__n"/></e>
+    <e lm="summons"><i>summons</i><par n="politics__n"/></e>
     <e lm="magistrates' court"><i>magistrates'<b/>court</i><par n="house__n"/></e>
     <e lm="court of appeal"><i>court<b/>of<b/>appeal</i><par n="house__n"/></e>
     <e lm="music"><i>music</i><par n="house__n__unc"/></e>
@@ -22297,7 +22298,8 @@
     <e lm="Cornwall"><i>Cornwall</i><par n="Barcelona__np"/></e>
     <e lm="Isle of Man"><i>Isle of Man</i><par n="Barcelona__np"/></e>
     <e lm="Holywell"><i>Holywell</i><par n="Barcelona__np"/></e>
-    <e lm="Llandudno "><i>Llandudno</i><par n="Barcelona__np"/></e>
+    <e lm="Llandudno"><i>Llanrwst</i><par n="Barcelona__np"/></e>
+    <e lm="Llanrwst"><i>Llandudno</i><par n="Barcelona__np"/></e>
     <e lm="Machynlleth"><i>Machynlleth</i><par n="Barcelona__np"/></e>
     <e lm="Beaumaris"><i>Beaumaris</i><par n="Barcelona__np"/></e>
     <e lm="Amlwch"><i>Amlwch</i><par n="Barcelona__np"/></e>
@@ -26912,7 +26914,7 @@
     <e lm="median"><i>median</i><par n="house__n"/></e>
     <e lm="librarian"><i>librarian</i><par n="house__n"/></e>
     <e lm="workplan"><i>workplan</i><par n="house__n"/></e>
-    <e lm="young man"><i>young<b/>man</i><par n="house__n"/></e>
+    <e lm="young man"><i>young<b/>m</i><par n="m/en__n"/></e>
     <e lm="co-chairman"><i>co-chairman</i><par n="house__n"/></e>
     <e lm="bogeyman"><i>bogeyman</i><par n="house__n"/></e>
     <e lm="nitrogen"><i>nitrogen</i><par n="house__n"/></e>
@@ -26962,6 +26964,7 @@
     <e lm="help"><i>help</i><par n="house__n"/></e>
     <e lm="MP"><i>MP</i><par n="house__n"/></e>
     <e lm="AM"><i>AM</i><par n="house__n"/></e>
+    <e lm="UK"><i>UK</i><par n="house__n"/></e>
     <e lm="pop"><i>pop</i><par n="house__n"/></e>
     <e lm="desktop"><i>desktop</i><par n="house__n"/></e>
     <e lm="cleanup"><i>cleanup</i><par n="house__n"/></e>
