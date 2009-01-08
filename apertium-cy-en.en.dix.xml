@@ -195,6 +195,20 @@
           <r><b/>years<b/>old<s n="num"/><s n="sp"/></r>
         </p>
       </e>
+      <e r="RL">
+        <re>[0-9]+</re>
+        <p>
+          <l><b/>years<b/>old</l>
+          <r><b/>years<b/>old<s n="num"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <re>[0-9]+</re>
+        <p>
+          <l><b/>years<b/>old</l>
+          <r><b/>years<b/>old<s n="num"/><s n="pl"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="currency">
       <e>
@@ -26914,7 +26928,7 @@
     <e lm="median"><i>median</i><par n="house__n"/></e>
     <e lm="librarian"><i>librarian</i><par n="house__n"/></e>
     <e lm="workplan"><i>workplan</i><par n="house__n"/></e>
-    <e lm="young man"><i>young<b/>m</i><par n="m/en__n"/></e>
+    <e lm="young man"><i>young<b/>m</i><par n="m/an__n"/></e>
     <e lm="co-chairman"><i>co-chairman</i><par n="house__n"/></e>
     <e lm="bogeyman"><i>bogeyman</i><par n="house__n"/></e>
     <e lm="nitrogen"><i>nitrogen</i><par n="house__n"/></e>
