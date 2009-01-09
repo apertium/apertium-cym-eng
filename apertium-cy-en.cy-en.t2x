@@ -933,7 +933,7 @@
               <clip pos="1" part="temps"/>
               <clip pos="1" part="pers"/>
 <!--              <clip pos="2" part="nbr"/> -->
-              <clip pos="1" part="nbr"/> 
+              <clip pos="2" part="nbr"/> 
               <clip pos="1" part="chcontent"/>
             </chunk>
           </out>
@@ -1258,7 +1258,7 @@
     </rule>
 
     <!--
-         Welsh: CS SN1 SV SN2 (Verb Subj Obj) 
+         Welsh: CS SN1 SV SN2 (Subj Verb Obj) 
 	 output English CS SN1 SV SN2 (Subject Verb Obj) 
     -->
     <rule comment="REGLA: CS SN SV SN">

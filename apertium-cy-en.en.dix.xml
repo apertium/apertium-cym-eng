@@ -11928,6 +11928,7 @@
     <e lm="provision"><i>provision</i><par n="house__n"/></e>
     <e lm="pavilion"><i>pavilion</i><par n="house__n"/></e>
     <e lm="runner"><i>runner</i><par n="house__n"/></e>
+    <e lm="front runner"><i>front<b/>runner</i><par n="house__n"/></e>
     <e lm="worshipper"><i>worshipper</i><par n="house__n"/></e>
     <e lm="archdruid"><i>archdruid</i><par n="house__n"/></e>
     <e lm="Prime Minister"><i>Prime<b/>Minister</i><par n="house__n"/></e>

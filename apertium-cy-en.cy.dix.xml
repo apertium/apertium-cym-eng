@@ -31450,9 +31450,16 @@
           <r>a<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
+      <!-- [para, pery] ?? -->
       <e>
         <p>
-          <l>a[para, pery]</l>
+          <l>a</l>
+          <r>a<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>y</l>
           <r>a<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
@@ -49405,7 +49412,9 @@
     <e lm="casgliad"><par n="initial-c"/><i>asgliad</i><par n="aberth__n"/></e>
     <e lm="catalog"><par n="initial-c"/><i>atalog</i><par n="aberth__n"/></e>
     <e lm="cebl"><par n="initial-c"/><i>ebl</i><par n="aberth__n"/></e>
+
     <e lm="ceffyl"><par n="initial-c"/><i>effyl</i><par n="aberth__n"/></e>
+    <e lm="ceffyl blaen"><par n="initial-c"/><i>effyl</i><par n="aberth__n"/><p><l><b/>blaen</l><r><g><b/>blaen</g></r></p></e>
 
     <e lm="cefn"><par n="initial-c"/><i>efn</i><par n="aberth__n"/></e>
     <e lm="cefn gwlad"><par n="initial-c"/><i>efn</i><par n="aberth__n"/><p><l><b/>gwlad</l><r><g><b/>gwlad</g></r></p></e>
