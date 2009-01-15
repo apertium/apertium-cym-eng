@@ -60,6 +60,40 @@
          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
+      <e>
+        <p>
+          <l>Sir</l>
+          <r>Sir</r>
+        </p>
+        <re>.? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>Detective<b/>Sargeant</l>
+          <r>Detective<b/>Sargeant</r>
+        </p>
+        <re> ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>Detective</l>
+          <r>Detective</r>
+        </p>
+        <re> ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+
     </pardef>
 
     <pardef n="acronimos">

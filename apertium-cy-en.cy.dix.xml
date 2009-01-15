@@ -59,6 +59,39 @@
          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
+      <e>
+        <p>
+          <l>Syr</l>
+          <r>Syr</r>
+        </p>
+        <re>.? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>Ditectif<b/>Sarjant</l>
+          <r>Ditectif<b/>Sarjant</r>
+        </p>
+        <re> ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>Ditectif</l>
+          <r>Ditectif</r>
+        </p>
+        <re> ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
     </pardef>
 
     <pardef n="acronimos">

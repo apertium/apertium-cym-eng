@@ -48,12 +48,12 @@ LIST Prep_i = ("i" pr);			# the preposition "i" (to)
 
 # mutation for individual letters
 # surface form regex, base form regex
-LIST MSoftC = ("<g.*>"r "c.*"r)  ("<d.*>"r "t.*"r) ("<f.*>"r "b.*"r) 
-              ("<w.*>"r "gw.*"r) ("<b.*>"r "p.*"r) ("<dd.*>"r "d.*"r)
-	      ("<f.*">"r "m.*"r);
+LIST MSoftC = ("<g.*>"ri "c.*"ri)  ("<d.*>"ri "t.*"ri) ("<f.*>"ri "b.*"ri) 
+              ("<w.*>"ri "gw.*"ri) ("<b.*>"ri "p.*"ri) ("<dd.*>"ri "d.*"ri)
+	      ("<f.*>"ri "m.*"ri);
 
-LIST MAspC = ("<ch.*>"r "c.*"r) ("<th.*>"r "t.*"r);
-LIST MNasC = ("<n.*>"r "d.*"r) ("<m.*>"r "b.*"r);
+LIST MAspC = ("<ch.*>"ri "c.*"ri) ("<th.*>"ri "t.*"ri);
+LIST MNasC = ("<n.*>"ri "d.*"ri) ("<m.*>"ri "b.*"ri);
 
 SET PrnSubjP3Sg = PrnSubj | P3Sg;
 SET PrnSubjP1Pl = PrnSubj | P1Pl;
@@ -128,13 +128,12 @@ REMOVE PrnSubj IF (-1 V) (-1 (pl)) (0 (sg));
 REMOVE PrnSubj IF (-1 V) (-1 (sg)) (0 (pl));
 
 # mark a possessive determiner as being masculine if followed by soft mutation
-SUBSTITUTE (mf) (m) DetPos (1 MSoftC);
+SUBSTITUTE (mf) (m) DetPos (1 MSoftC) (NOT 0 ("<o'i>"));
 
 # and feminine if followed by aspirate mutation.
 SUBSTITUTE (mf) (f) DetPos (1 MAspC);
 
 
-# 
 # faint o + noun.sing --> how much + noun
 # faint o + noun.plural --> how many + noun
 #

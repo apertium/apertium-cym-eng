@@ -12066,5 +12066,36 @@
     <e><re>(Lady|Miss|Ms|Mrs).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re><i><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></i></e>
     <e><re>(Sir|Lord|Mr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re><i><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></i></e>
 
+    <e>
+      <p>
+        <l>Syr</l><r>Sir</r>
+      </p>
+      <re>.? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+      <p>
+        <l><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>Ditectif<b/>Sarjant</l><r>Detective<b/>Sargeant</r>
+      </p>
+      <re> ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+      <p>
+        <l><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>Ditectif</l><r>Detective</r>
+      </p>
+      <re> ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+      <p>
+        <l><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+      </p>
+    </e>
+
+
+
+
   </section>
 </dictionary>
