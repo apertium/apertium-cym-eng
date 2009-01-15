@@ -27635,9 +27635,15 @@
           <r>allu<s n="vbmod"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>allwch</l>
+          <r>allu<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ellwch</l>
           <r>allu<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
