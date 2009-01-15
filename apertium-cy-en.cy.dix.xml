@@ -49107,6 +49107,7 @@
     <e lm="mwyach"><i>mwyach</i><par n="yma__adv"/></e>
     <e lm="mwy na thebyg"><i>mwy<b/>na<b/>thebyg</i><par n="yma__adv"/></e>
     <e lm="mwy a mwy"><par n="initial-m"/><i>wy<b/>a<b/>mwy</i><par n="yma__adv"/></e>
+    <e lm="mwy o"><par n="initial-m"/><i>wy<b/>o</i><par n="yma__adv"/></e>
     <e lm="'na"><i>'na</i><par n="yma__adv"/></e>
     <e lm="nac"><i>nac</i><par n="yma__adv"/></e>
     <e lm="nage"><i>nage</i><par n="yma__adv"/></e>
@@ -49814,6 +49815,7 @@
     <e lm="cyllell"><par n="initial-c"/><i>yll</i><par n="cyll/ell__n"/></e>
     <e lm="telyn"><par n="initial-t"/><i>elyn</i><par n="actores__n"/></e>
     <e lm="fflam"><i>fflam</i><par n="actores__n"/></e>
+    <e lm="ffrae"><i>ffrae</i><par n="actores__n"/></e>
     <e lm="gorsedd"><par n="initial-g"/><i>orsedd</i><par n="actores__n"/></e>
     <e lm="afal"><i>afal</i><par n="actores__n"/></e>
     <e lm="boch"><par n="initial-b"/><i>och</i><par n="actores__n"/></e>
