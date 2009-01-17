@@ -32,28 +32,28 @@
     </pardef>
     <pardef n="proper_names">
       <e>
-        <re>[A-Z][a-z]* ap [A-Z][a-z]*</re>
+        <re>[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* ap [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*</re>
         <p>
           <l/>
          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
       <e>
-        <re>(Rt Hon|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <re>(Rt Hon|Dr).? ([A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z].? [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*)</re>
         <p>
           <l/>
          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
       <e>
-        <re>(Lady|Miss|Ms|Mrs).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <re>(Lady|Miss|Ms|Mrs).? ([A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z].? [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*)</re>
         <p>
           <l/>
          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
       <e>
-        <re>(Sir|Lord|Mr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <re>(Sir|Lord|Mr).? ([A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z].? [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*)</re>
         <p>
           <l/>
          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r>
@@ -64,7 +64,7 @@
           <l>Syr</l>
           <r>Syr</r>
         </p>
-        <re>.? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <re>.? ([A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z].? [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*)</re>
         <p>
           <l/>
           <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r>
@@ -75,7 +75,7 @@
           <l>Ditectif<b/>Sarjant</l>
           <r>Ditectif<b/>Sarjant</r>
         </p>
-        <re> ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <re> ([A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z].? [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*)</re>
         <p>
           <l/>
           <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
@@ -86,7 +86,7 @@
           <l>Ditectif</l>
           <r>Ditectif</r>
         </p>
-        <re> ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z].? [A-Z][a-z]*)</re>
+        <re> ([A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z].? [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*)</re>
         <p>
           <l/>
           <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
@@ -48937,6 +48937,7 @@
     <e lm="rheini"><p><l>rheini</l><r>rheiny</r></p><par n="hyn__det"/></e>
 
     <e lm="llawer o"><par n="initial-ll"/><i>awer<b/>o</i><par n="llawer_o__det"/></e>
+    <e lm="mwy o"><par n="initial-m"/><i>wy<b/>o</i><par n="llawer_o__det"/></e>
     <e lm="llawer iawn o"><par n="initial-ll"/><i>awer<b/>iawn<b/>o</i><par n="llawer_o__det"/></e>
     <e lm="ychydig"><i>ychydig</i><par n="llawer_o__det"/></e>
 
@@ -49113,7 +49114,6 @@
     <e lm="mwyach"><i>mwyach</i><par n="yma__adv"/></e>
     <e lm="mwy na thebyg"><i>mwy<b/>na<b/>thebyg</i><par n="yma__adv"/></e>
     <e lm="mwy a mwy"><par n="initial-m"/><i>wy<b/>a<b/>mwy</i><par n="yma__adv"/></e>
-    <e lm="mwy o"><par n="initial-m"/><i>wy<b/>o</i><par n="yma__adv"/></e>
     <e lm="'na"><i>'na</i><par n="yma__adv"/></e>
     <e lm="nac"><i>nac</i><par n="yma__adv"/></e>
     <e lm="nage"><i>nage</i><par n="yma__adv"/></e>
@@ -58584,27 +58584,27 @@
     <e lm="Niwe"><i>Niwe</i><par n="Blaenafon__np"/></e>
     <e lm="Norwy"><i>Norwy</i><par n="Blaenafon__np"/></e>
     <e lm="Oman"><i>Oman</i><par n="Blaenafon__np"/></e>
-    <e lm="Pacistan"><i>Pacistan</i><par n="Blaenafon__np"/></e>
-    <e lm="Pakistan"><i>Pakistan</i><par n="Blaenafon__np"/></e>
-    <e lm="Palau"><i>Palau</i><par n="Blaenafon__np"/></e>
-    <e lm="Palaw"><i>Palaw</i><par n="Blaenafon__np"/></e>
-    <e lm="Panama"><i>Panama</i><par n="Blaenafon__np"/></e>
-    <e lm="Panama"><i>Panama</i><par n="Blaenafon__np"/></e>
-    <e lm="Panamá"><i>Panamá</i><par n="Blaenafon__np"/></e>
-    <e lm="Panamâ"><i>Panamâ</i><par n="Blaenafon__np"/></e>
-    <e lm="Papiwa Gini Newydd"><i>Papiwa<b/>Gini<b/>Newydd</i><par n="Blaenafon__np"/></e>
-    <e lm="Papua Guinea Newydd"><i>Papua<b/>Guinea<b/>Newydd</i><par n="Blaenafon__np"/></e>
-    <e lm="Papwa Gini Newydd"><i>Papwa<b/>Gini<b/>Newydd</i><par n="Blaenafon__np"/></e>
-    <e lm="Paraguay"><i>Paraguay</i><par n="Blaenafon__np"/></e>
-    <e lm="Paragwâi"><i>Paragwâi</i><par n="Blaenafon__np"/></e>
-    <e lm="Periw"><i>Periw</i><par n="Blaenafon__np"/></e>
-    <e lm="Peru"><i>Peru</i><par n="Blaenafon__np"/></e>
-    <e lm="Perw"><i>Perw</i><par n="Blaenafon__np"/></e>
-    <e lm="Pilipinas"><i>Pilipinas</i><par n="Blaenafon__np"/></e>
-    <e lm="Portiwgal"><i>Portiwgal</i><par n="Blaenafon__np"/></e>
-    <e lm="Pwerto Rico"><i>Pwerto<b/>Rico</i><par n="Blaenafon__np"/></e>
-    <e lm="Pwyl"><i>Pwyl</i><par n="Blaenafon__np"/></e>
-    <e lm="Pwyldir"><i>Pwyldir</i><par n="Blaenafon__np"/></e>
+    <e lm="Pacistan"><par n="initial-P"/><i>acistan</i><par n="Blaenafon__np"/></e>
+    <e lm="Pakistan"><par n="initial-P"/><i>akistan</i><par n="Blaenafon__np"/></e>
+    <e lm="Palau"><par n="initial-P"/><i>alau</i><par n="Blaenafon__np"/></e>
+    <e lm="Palaw"><par n="initial-P"/><i>alaw</i><par n="Blaenafon__np"/></e>
+    <e lm="Panama"><par n="initial-P"/><i>anama</i><par n="Blaenafon__np"/></e>
+    <e lm="Panama"><par n="initial-P"/><i>anama</i><par n="Blaenafon__np"/></e>
+    <e lm="Panamá"><par n="initial-P"/><i>anamá</i><par n="Blaenafon__np"/></e>
+    <e lm="Panamâ"><par n="initial-P"/><i>anamâ</i><par n="Blaenafon__np"/></e>
+    <e lm="Papiwa Gini Newydd"><par n="initial-P"/><i>apiwa<b/>Gini<b/>Newydd</i><par n="Blaenafon__np"/></e>
+    <e lm="Papua Guinea Newydd"><par n="initial-P"/><i>apua<b/>Guinea<b/>Newydd</i><par n="Blaenafon__np"/></e>
+    <e lm="Papwa Gini Newydd"><par n="initial-P"/><i>apwa<b/>Gini<b/>Newydd</i><par n="Blaenafon__np"/></e>
+    <e lm="Paraguay"><par n="initial-P"/><i>araguay</i><par n="Blaenafon__np"/></e>
+    <e lm="Paragwâi"><par n="initial-P"/><i>aragwâi</i><par n="Blaenafon__np"/></e>
+    <e lm="Periw"><par n="initial-P"/><i>eriw</i><par n="Blaenafon__np"/></e>
+    <e lm="Peru"><par n="initial-P"/><i>eru</i><par n="Blaenafon__np"/></e>
+    <e lm="Perw"><par n="initial-P"/><i>erw</i><par n="Blaenafon__np"/></e>
+    <e lm="Pilipinas"><par n="initial-P"/><i>ilipinas</i><par n="Blaenafon__np"/></e>
+    <e lm="Portiwgal"><par n="initial-P"/><i>ortiwgal</i><par n="Blaenafon__np"/></e>
+    <e lm="Pwerto Rico"><par n="initial-P"/><i>werto<b/>Rico</i><par n="Blaenafon__np"/></e>
+    <e lm="Pwyl"><par n="initial-P"/><i>wyl</i><par n="Blaenafon__np"/></e>
+    <e lm="Pwyldir"><par n="initial-P"/><i>wyldir</i><par n="Blaenafon__np"/></e>
     <e lm="Qatar"><i>Qatar</i><par n="Blaenafon__np"/></e>
     <e lm="Romania"><i>Romania</i><par n="Blaenafon__np"/></e>
     <e lm="România"><i>România</i><par n="Blaenafon__np"/></e>
@@ -60005,13 +60005,6 @@
       </p>
     </e>
 
-    <e lm="'m" r="LR">
-      <p>
-        <l>'m</l>
-        <r>fy<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
-      </p>
-    </e>
-
     <e lm="'th" r="LR">
       <p>
         <l>'th</l>
@@ -60047,6 +60040,12 @@
       </p>
     </e>
 
+    <e lm="'m" r="LR">
+      <p>
+        <l>'m</l>
+        <r>fy<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
 
     <e lm="'r" r="LR">
       <p>
