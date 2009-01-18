@@ -9,6 +9,7 @@ DELIMITERS = "<.>" "<!>" "<?>"; # end-of-sentence markers
 
 LIST NC = n; 				# common nouns
 LIST NP = (np top) (np ant) (np cog); 	# proper nouns (toponyms, anthroponyms, cognomens)
+LIST Ant = (np ant);
 LIST Acr = (n acr);
 LIST V = vaux vblex vbser vbmod;		 	# lexical verbs and "to be"
 LIST Vpart = (vpart neg) (vpart aff) (vpart itg); # Verbal particles
@@ -45,6 +46,7 @@ LIST VblexPrs = (vblex prs); 		# verb in the present subjunctive
 LIST Imp = imp;
 
 LIST Prep_i = ("i" pr);			# the preposition "i" (to)
+LIST Prep_yn_ôl = ("yn ôl" pr) ("Yn ôl" pr);			# the preposition "yn ôl"
 
 # mutation for individual letters
 # surface form regex, base form regex
@@ -61,9 +63,13 @@ SET PrnSubjP2Pl = PrnSubj | P2Pl;
 SET VbP2Pl = V | P2Pl;
 SET Conj = CC | CS;
 
+
 #SET DetPosNE = DetPos - (+ei);
 
 SECTION
+
+#Yn ôl Ms Thomas
+REMOVE Adv IF (0 Prep_yn_ôl) (1 Ant);
 
 #dawnsio yn y cae
 SELECT NC IF (-1 DetDef) (0 NC) (0 V);
