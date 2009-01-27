@@ -82,6 +82,8 @@ SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex)))
 SELECT Vpart IF ((-1 (cm)) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 Num) (NOT 0 CC);
 SELECT (vbser cns) IF (-1 Vpart);
 
+REMOVE Vpart IF (-1 V) (1 NC);
+
 #This is horrible:
 #nid oes llawer o'r rheiny ar ôl
 SELECT (vbser) IF (0 NC) (0 (vbser)) (1 DetQnt) (2 DetDef);
