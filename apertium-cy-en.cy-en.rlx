@@ -3,7 +3,7 @@
 #       of a tool to hack around the badly trained HMM POS tagger.
 #
 
-DELIMITERS = "<.>" "<!>" "<?>"; # end-of-sentence markers
+DELIMITERS = "<.>" "<!>" "<?>" (sent); # end-of-sentence markers
 
 # give Apertium tags a mnemonic to be used in the rules
 
