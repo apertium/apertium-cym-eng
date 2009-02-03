@@ -56498,6 +56498,11 @@
     <e lm="gwneud"><par n="initial-g"/><i>wn</i><par n="ailwn/eud__vblex"/></e>
 
     <e lm="gwneud penderfyniadau"><par n="initial-g"/><i>wn</i><par n="ailwn/eud__vblex"/><p><l><b/>penderfyniadau</l><r><g><b/>penderfyniadau</g></r></p></e>
+    <e lm="gwneud cais"><par n="initial-g"/><i>wn</i><par n="ailwn/eud__vblex"/><p><l><b/>cais</l><r><g><b/>cais</g></r></p></e>
+<!--
+    <e lm="gwneud cais i"><par n="initial-g"/><i>wn</i><par n="ailwn/eud__vblex"/><p><l><b/>cais<b/>i</l><r><g><b/>cais<b/>i</g></r></p></e> 
+-->
+
 
     <e lm="gwnïo"><par n="initial-g"/><i>wnï</i><par n="achlysur/o__vblex"/></e>
     <e lm="gwobrwyo"><par n="initial-g"/><i>wobrwy</i><par n="achlysur/o__vblex"/></e>
