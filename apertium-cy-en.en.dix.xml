@@ -9830,6 +9830,7 @@
     <e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
 
     <e lm="including"><i>including</i><par n="expensive__adj"/></e>
+    <e lm="cosmopolitan"><i>cosmopolitan</i><par n="expensive__adj"/></e>
     <e lm="annoyed"><i>annoyed</i><par n="expensive__adj"/></e>
     <e lm="speckled"><i>speckled</i><par n="expensive__adj"/></e>
     <e lm="idle"><i>idle</i><par n="expensive__adj"/></e>
@@ -24666,6 +24667,7 @@
 
     <e lm="give"><i>g</i><par n="g/ive__vblex"/></e>
     <e lm="go"><par n="/go__vblex"/></e>
+    <e lm="go with"><par n="/go__vblex"/><p><l><b/>with</l><r><g><b/>with</g></r></p></e>
     <e lm="govern"><i>govern</i><par n="accept__vblex"/></e>
     <e lm="grow"><i>gr</i><par n="bl/ow__vblex"/></e>
     <e lm="guarantee"><i>guarante</i><par n="liv/e__vblex"/></e>

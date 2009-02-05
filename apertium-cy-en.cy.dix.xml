@@ -3805,7 +3805,19 @@
           <r><s n="pr"/></r>
         </p>
       </e>
-    </pardef>
+      <e>
+        <p>
+          <l>'w</l>
+          <r><s n="pr"/><j/>ei<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>'n</l>
+          <r><s n="pr"/><j/>ein<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+        </p>
+      </e>
+    </pardef> 
 
     <!-- Conjunctions -->
     <pardef n="ond__cnjcoo">
@@ -48882,6 +48894,8 @@
     <e lm="sef"><i>sef</i><par n="oherwydd__cnjsub"/></e> <!-- namely, ? -->
     <e lm="serch"><i>serch</i><par n="oherwydd__cnjsub"/></e> <!-- notwithstanding, ?-->
     <e lm="ynteu"><i>ynteu</i><par n="ond__cnjcoo"/></e> <!-- or, cnjcoo -->
+    <e lm="taw"><i>taw</i><par n="oherwydd__cnjsub"/></e>
+
 
 
     <e lm="am"><i>am</i><par n="oherwydd__cnjsub"/></e>
@@ -48909,6 +48923,7 @@
     <e lm="ar ôl"><i>ar<b/>ôl</i><par n="oherwydd__cnjsub"/></e>
 <!--    <e lm="nes"><i>nes</i><par n="oherwydd__cnjsub"/></e> -->
     <e lm="wedi"><i>wedi</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="tra bod"><i>tra<b/>bod</i><par n="oherwydd__cnjsub"/></e>
 
     <e lm="pan"><par n="initial-p"/><i>an</i><par n="oherwydd__cnjsub"/></e>
 
@@ -53083,6 +53098,7 @@
     <e lm="cardiag"><par n="initial-c"/><i>ardiag</i><par n="caredig__adj"/></e>
     <e lm="cardiolegol"><par n="initial-c"/><i>ardiolegol</i><par n="caredig__adj"/></e>
     <e lm="caredig"><par n="initial-c"/><i>aredig</i><par n="caredig__adj"/></e>
+    <e lm="cosmopolitan"><par n="initial-c"/><i>osmopolitan</i><par n="caredig__adj"/></e>
     <e lm="cartesaidd"><par n="initial-c"/><i>artesaidd</i><par n="caredig__adj"/></e>
     <e lm="Cartesaidd"><par n="initial-C"/><i>artesaidd</i><par n="caredig__adj"/></e>
     <e lm="cas"><par n="initial-c"/><i>as</i><par n="caredig__adj"/></e>
@@ -54264,6 +54280,8 @@
     </e>
 
     <e lm="bod"><i/><par n="/bod__vbser"/></e>
+    <e lm="bod yn rhaid"><i/><par n="/bod__vbser"/><p><l><b/>yn<b/>rhaid</l><r><g><b/>yn<b/>rhaid</g></r></p></e>
+
     <e lm="dylwn"><par n="initial-d"/><i>yl</i><par n="dyl/wn__vbmod"/></e>
 <!--
     <e lm="bod"><i/><par n="/bod__vbser"/><p><l><b/>angen</l><r><g><b/>angen</g></r></p></e>
@@ -54308,7 +54326,9 @@
 
     <e lm="meddwl am"><par n="initial-m"/><i>edd</i><par n="ailfedd/wl__vblex"/><p><l><b/>am</l><r><g><b/>am</g></r></p></e>
 
-    <e lm="mynd"><i/><par n="/mynd__vblex"/><p><l><b/>â</l><r><g><b/>â</g></r></p></e>
+    <e lm="mynd â"><i/><par n="/mynd__vblex"/><p><l><b/>â</l><r><g><b/>â</g></r></p></e>
+    <e lm="cyd-fynd"><i>cyd-</i><par n="/mynd__vblex"/></e>
+
     <e lm="mynd i'r afael"><i/><par n="/mynd__vblex"/><p><l><b/>i'r<b/>afael</l><r><g><b/>i'r<b/>afael</g></r></p></e>
     <e lm="paratoi"><par n="initial-p"/><i>arato</i><par n="atgno/i__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
     <e lm="peidio"><par n="initial-p"/><i>eidi</i><par n="achlysur/o__vblex"/><p><l><b/>â</l><r><g><b/>â</g></r></p></e>
