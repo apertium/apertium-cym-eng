@@ -294,13 +294,14 @@
     <e><p><l>ers<s n="cnjsub"/></l><r>since<s n="cnjsub"/></r></p></e>
     <e><p><l>rhag<s n="cnjsub"/></l><r>lest<s n="cnjsub"/></r></p></e>
     <e><p><l>wrth<s n="cnjsub"/></l><r>while<s n="cnjsub"/></r></p></e>
+    <e><p><l>tra<b/>bod<s n="cnjsub"/></l><r>while<s n="cnjsub"/></r></p></e>
     <e><p><l>erbyn<s n="cnjsub"/></l><r>by<b/>the<b/>time<s n="cnjsub"/></r></p></e>
     <e><p><l>fel<s n="cnjsub"/></l><r>so<b/>that<s n="cnjsub"/></r></p></e>
     <e><p><l>megis<s n="cnjsub"/></l><r>just<b/>as<s n="cnjsub"/></r></p></e>
     <e><p><l>er<b/>mwyn<s n="cnjsub"/></l><r>for<b/>the<b/>sake<b/>of<s n="cnjsub"/></r></p></e>
     <e><p><l>hyd<s n="cnjsub"/></l><r>as<b/>far<b/>as<s n="cnjsub"/></r></p></e>
     <e><p><l>cyn<s n="cnjsub"/></l><r>before<s n="cnjsub"/></r></p></e>
-    <e><p><l>ar ôl<s n="cnjsub"/></l><r>after<s n="cnjsub"/></r></p></e>
+    <e><p><l>ar<b/>ôl<s n="cnjsub"/></l><r>after<s n="cnjsub"/></r></p></e>
     <e><p><l>wedi<s n="cnjsub"/></l><r>after<s n="cnjsub"/></r></p></e>
     <e><p><l>gyda<s n="cnjsub"/></l><r>as<b/>soon<b/>as<s n="cnjsub"/></r></p></e>
     <e><p><l>oherwydd<s n="cnjsub"/></l><r>because<s n="cnjsub"/></r></p></e>
@@ -4758,6 +4759,7 @@
     <e><p><l>cardiag<s n="adj"/></l><r>cardiac<s n="adj"/></r></p></e>
     <e><p><l>cardiolegol<s n="adj"/></l><r>cardiac<s n="adj"/></r></p></e>
     <e><p><l>caredig<s n="adj"/></l><r>kind<s n="adj"/><s n="sint"/></r></p></e> 
+    <e><p><l>cosmopolitan<s n="adj"/></l><r>cosmopolitan<s n="adj"/></r></p></e> 
     <e><p><l>rhoddedig<s n="adj"/></l><r>given<s n="adj"/></r></p></e> 
     <e><p><l>cwynfannus<s n="adj"/></l><r>mournful<s n="adj"/></r></p></e>
     <e><p><l>nesaf<s n="adj"/></l><r>next<s n="adj"/></r></p></e> 
@@ -6016,6 +6018,9 @@
     <e><p><l>geni<s n="vblex"/></l><r>be<b/>born<s n="vbser"/></r></p></e>
  
     <e><p><l>bod<g><b/>angen</g><s n="vbser"/></l><r>there be<g><b/>a<b/>need</g><s n="vbser"/></r></p></e>
+
+    <e r="LR"><p><l>bod<g><b/>yn<b/>rhaid</g><s n="vbser"/></l><r>have<s n="vblex"/></r></p></e>
+
     <e><p><l>oes<g><b/>angen</g><s n="vbser"/></l><r>there be<g><b/>a<b/>need</g><s n="vbser"/></r></p></e>
  
     <e><p><l>defnyddio<s n="vblex"/></l><r>use<s n="vblex"/></r></p></e>
@@ -8367,6 +8372,7 @@
     <e><p><l>mygu<s n="vblex"/></l><r>smoke<s n="vblex"/></r></p></e>
     <e><p><l>mygydu<s n="vblex"/></l><r>mask<s n="vblex"/></r></p></e>
     <e><p><l>mynd<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
+    <e><p><l>cyn-mynd<s n="vblex"/></l><r>go<g><b/>with</g><s n="vblex"/></r></p></e>
     <e><p><l>mynegeio<s n="vblex"/></l><r>index<s n="vblex"/></r></p></e>
     <e><p><l>mynegi<s n="vblex"/></l><r>express<s n="vblex"/></r></p></e>
     <e><p><l>mynegrifo<s n="vblex"/></l><r>index<s n="vblex"/></r></p></e>
@@ -9885,6 +9891,7 @@
     <e><p><l>creisioni<s n="vblex"/></l><r>burn<g><b/>to<b/>ashes</g><s n="vblex"/></r></p></e>
     <e><p><l>cyd-ddefnyddio<s n="vblex"/></l><r>share<g><b/>the<b/>use<b/>of</g><s n="vblex"/></r></p></e>
     <e><p><l>cyd-dynnu<s n="vblex"/></l><r>act<g><b/>in<b/>harmony</g><s n="vblex"/></r></p></e>
+    <e><p><l>cyd-mynd<s n="vblex"/></l><r>go<g><b/>with</g><s n="vblex"/></r></p></e>
     <e><p><l>cydfeddiannu<s n="vblex"/></l><r>possess<g><b/>in<b/>common</g><s n="vblex"/></r></p></e>
     <e><p><l>cyfredeg<s n="vblex"/></l><r>keep<g><b/>pace<b/>with</g><s n="vblex"/></r></p></e>
     <e><p><l>cyweirio<s n="vblex"/></l><r>set<g><b/>in<b/>order</g><s n="vblex"/></r></p></e>

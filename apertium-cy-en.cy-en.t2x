@@ -1462,6 +1462,60 @@
     </rule>
 
     <!-- 
+        For Welsh pattern "bod + wedi + verb_inf"
+        output English "has/have + verb_past_participle"
+    -->
+    <rule comment="REGLA: SV_ser SP_wedi SV_inf">
+      <pattern>
+        <pattern-item n="SV_ser"/>
+        <pattern-item n="SP_wedi"/>
+        <pattern-item n="SV_inf"/>
+      </pattern>
+      <action>
+	<choose> 
+	  <when>
+	    <test>
+	      <or>
+	        <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="past"/>
+                </equal>
+	        <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="pii"/>
+                </equal>
+	      </or>
+            </test>
+            <call-macro n="conj_verb_haver_past1">
+               <with-param pos="1"/> 
+            </call-macro> 
+          </when>
+          <otherwise>
+            <call-macro n="conj_verb_haver_pres1">
+               <with-param pos="1"/> 
+            </call-macro> 
+          </otherwise>
+        </choose>
+        <out>
+          <chunk>
+            <lit v="vbhaver"/>
+            <lit-tag v="SV.vbhaver"/>
+            <lit v="{^have"/>
+              <var n="verbfinal"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+	  <chunk>
+	    <clip pos="3" part="lem"/>
+	    <lit-tag v="SV.vblex.pp"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <!-- 
         For Welsh pattern "bod + noun phrase + wedi + verb_inf"
         output English "noun phrase + has/have + verb_past_participle"
     -->
