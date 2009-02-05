@@ -48923,7 +48923,7 @@
     <e lm="ar ôl"><i>ar<b/>ôl</i><par n="oherwydd__cnjsub"/></e>
 <!--    <e lm="nes"><i>nes</i><par n="oherwydd__cnjsub"/></e> -->
     <e lm="wedi"><i>wedi</i><par n="oherwydd__cnjsub"/></e>
-    <e lm="tra bod"><i>tra<b/>bod</i><par n="oherwydd__cnjsub"/></e>
+    <e lm="tra"><i>tra</i><par n="oherwydd__cnjsub"/></e>
 
     <e lm="pan"><par n="initial-p"/><i>an</i><par n="oherwydd__cnjsub"/></e>
 
@@ -56519,9 +56519,6 @@
 
     <e lm="gwneud penderfyniadau"><par n="initial-g"/><i>wn</i><par n="ailwn/eud__vblex"/><p><l><b/>penderfyniadau</l><r><g><b/>penderfyniadau</g></r></p></e>
     <e lm="gwneud cais"><par n="initial-g"/><i>wn</i><par n="ailwn/eud__vblex"/><p><l><b/>cais</l><r><g><b/>cais</g></r></p></e>
-<!--
-    <e lm="gwneud cais i"><par n="initial-g"/><i>wn</i><par n="ailwn/eud__vblex"/><p><l><b/>cais<b/>i</l><r><g><b/>cais<b/>i</g></r></p></e> 
--->
 
 
     <e lm="gwnïo"><par n="initial-g"/><i>wnï</i><par n="achlysur/o__vblex"/></e>

@@ -93,6 +93,9 @@ SELECT Prep_i IF (1 VblexInf);
 #Rydan ni wedi sefydlu meini prawf newydd, ystyried y ffordd ymlaen. 
 SELECT PrnSubjP1Pl IF (-1 P1Pl) (-1 V);
 
+#tra bod
+REMOVE ("tra" adv) IF (NOT 1 Adj);
+
 # delete a subject pronoun if preceded by an infinitive
 # i'w weld fo
 # NOT: mynd â chi ar
@@ -227,9 +230,11 @@ SELECT ("na" cnjsub) IF (-1* (adj comp) BARRIER Det);
 #i ein rhai ein hunain
 REMOVE PrnSubj IF (NOT -1 V);
 
-
 #ysgolion o'r fath -- no idea why this doesn't work with MSoftC list
 REMOVE ("<f.*>"ri "b.*"ri) IF (0 (n m sg)) (-1 DetDef);  
+
+#gyfrwng y Gymraeg
+REMOVE Adj IF (-1 DetDef);
 
 #
 #  Lexical rules
