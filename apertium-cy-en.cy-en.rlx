@@ -50,9 +50,7 @@ LIST Prep_yn_ôl = ("yn ôl" pr) ("Yn ôl" pr);			# the preposition "yn ôl"
 
 # mutation for individual letters
 # surface form regex, base form regex
-LIST MSoftC = ("<g.*>"ri "c.*"ri)  ("<d.*>"ri "t.*"ri) ("<f.*>"ri "b.*"ri) 
-              ("<w.*>"ri "gw.*"ri) ("<b.*>"ri "p.*"ri) ("<dd.*>"ri "d.*"ri)
-	      ("<f.*>"ri "m.*"ri);
+LIST MSoftC = ("<g.*>"ri "c.*"ri)  ("<d.*>"ri "t.*"ri) ("<f.*>"ri "b.*"ri)  ("<w.*>"ri "gw.*"ri) ("<b.*>"ri "p.*"ri) ("<dd.*>"ri "d.*"ri) ("<f.*>"ri "m.*"ri);
 
 LIST MAspC = ("<ch.*>"ri "c.*"ri) ("<th.*>"ri "t.*"ri);
 LIST MNasC = ("<n.*>"ri "d.*"ri) ("<m.*>"ri "b.*"ri);
@@ -229,6 +227,10 @@ SELECT ("na" cnjsub) IF (-1* (adj comp) BARRIER Det);
 #i ein rhai ein hunain
 REMOVE PrnSubj IF (NOT -1 V);
 
+
+#ysgolion o'r fath -- no idea why this doesn't work with MSoftC list
+REMOVE ("<f.*>"ri "b.*"ri) IF (0 (n m sg)) (-1 DetDef);  
+
 #
 #  Lexical rules
 #
@@ -240,4 +242,5 @@ ADD (pred) ("unig" adj) ((1 (n)) OR (1 (np)) OR (1 (pr)) OR (1 Det) OR (1 (cm)))
 
 # distinguish between "work" and "time"
 REMOVE (n f) (0 ("gwaith")) (0 MSoftC);
+
 
