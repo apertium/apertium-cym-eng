@@ -294,7 +294,7 @@
     <e><p><l>ers<s n="cnjsub"/></l><r>since<s n="cnjsub"/></r></p></e>
     <e><p><l>rhag<s n="cnjsub"/></l><r>lest<s n="cnjsub"/></r></p></e>
     <e><p><l>wrth<s n="cnjsub"/></l><r>while<s n="cnjsub"/></r></p></e>
-    <e><p><l>tra<b/>bod<s n="cnjsub"/></l><r>while<s n="cnjsub"/></r></p></e>
+    <e><p><l>tra<s n="cnjsub"/></l><r>while<s n="cnjsub"/></r></p></e>
     <e><p><l>erbyn<s n="cnjsub"/></l><r>by<b/>the<b/>time<s n="cnjsub"/></r></p></e>
     <e><p><l>fel<s n="cnjsub"/></l><r>so<b/>that<s n="cnjsub"/></r></p></e>
     <e><p><l>megis<s n="cnjsub"/></l><r>just<b/>as<s n="cnjsub"/></r></p></e>
@@ -7897,8 +7897,7 @@
 
     <e><p><l>gwneud<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
     <e><p><l>gwneud<g><b/>penderfyniadau</g><s n="vblex"/></l><r>make<g><b/>decisions</g><s n="vblex"/></r></p></e>
-    <e><p><l>gwneud<g><b/>cais</g><s n="vblex"/></l><r>request<s n="vblex"/></r></p></e>
-    <e><p><l>gwneud<g><b/>cais<b/>i</g><s n="vblex"/></l><r>apply<s n="vblex"/></r></p></e>
+    <e><p><l>gwneud<g><b/>cais</g><s n="vblex"/></l><r>make<g><b/>a<b/>request</g><s n="vblex"/></r></p></e>
 
     <e><p><l>gwnïo<s n="vblex"/></l><r>sew<s n="vblex"/></r></p></e>
     <e><p><l>gwobrwyo<s n="vblex"/></l><r>reward<s n="vblex"/></r></p></e>
