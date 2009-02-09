@@ -48820,6 +48820,7 @@
     <e lm="ger"><i>ger</i><par n="gyda__pr"/></e>
     <e lm="megis"><par n="initial-m"/><i>egis</i><par n="gyda__pr"/></e>
     <e lm="mewn"><par n="initial-m"/><i>ewn</i><par n="gyda__pr"/></e>
+    <e lm="mwy na"><par n="initial-m"/><i>wy<b/>na</i><par n="gyda__pr"/></e>
     <e lm="wedi"><i>wedi</i><par n="gyda__pr"/></e>
     <e lm="erbyn"><i>erbyn</i><par n="gyda__pr"/></e>
     <e lm="heblaw"><i>heblaw</i><par n="gyda__pr"/></e>
@@ -58273,6 +58274,7 @@
     <e lm="Cymdeithas yr Iaith Gymraeg"><par n="initial-C"/><i>ymdeithas<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
     <e lm="Plaid Genedlaethol yr Alban"><par n="initial-P"/><i>laid<b/>Genedlaethol<b/>yr<b/>Alban</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Heddlu'r Gogledd"><i>Heddlu'r<b/>Gogledd</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Plaid Cymru"><par n="initial-P"/><i>laid<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Gorsedd"><par n="initial-G"/><i>orsedd</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Plaid Lafur"><par n="initial-P"/><i>laid<b/>Lafur</i><par n="Cymdeithas_yr_Iaith__np"/></e>
