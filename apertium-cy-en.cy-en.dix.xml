@@ -4182,6 +4182,7 @@
     <e><p><l>ynni<s n="n"/><s n="m"/></l><r>energy<s n="n"/></r></p></e>
     <e><p><l>tîm<s n="n"/><s n="m"/></l><r>team<s n="n"/></r></p></e>
     <e><p><l>anifail<s n="n"/><s n="m"/></l><r>animal<s n="n"/></r></p></e>
+    <e><p><l>anifail<g><b/>anwes</g><s n="n"/><s n="m"/></l><r>pet<s n="n"/></r></p></e>
     <e><p><l>cynhadledd<s n="n"/><s n="f"/></l><r>conference<s n="n"/></r></p></e>
     <e><p><l>brenin<s n="n"/><s n="m"/></l><r>king<s n="n"/></r></p></e>
     <e><p><l>Cymro<s n="n"/><s n="m"/></l><r>Welsh person<s n="n"/></r></p></e>
@@ -12104,6 +12105,16 @@
         <l><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
       </p>
     </e>
+    <e>
+      <p>
+        <l>Tad</l><r>Father</r>
+      </p>
+      <re> ([A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z].? [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*)</re>
+      <p>
+        <l><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+
 
 
 
