@@ -92,6 +92,18 @@
           <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
+      <e>
+        <p>
+          <l>Tad</l>
+          <r>Tad</r>
+        </p>
+        <re> ([A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*|[A-Z][a-zäëïöüáéíóúàèìòùâêîôû]* [A-Z].? [A-Z][a-zäëïöüáéíóúàèìòùâêîôû]*)</re>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+
     </pardef>
 
     <pardef n="acronimos">
@@ -52465,7 +52477,10 @@
     <e lm="sibrwd"><i>sibr</i><par n="sibr/wd__n"/></e>
     <e lm="ynni"><i>yn</i><par n="yn/ni__n"/></e>
     <e lm="tîm"><par n="initial-t"/><par n="t/îm__n"/></e>
+
     <e lm="anifail"><i>anif</i><par n="anif/ail__n"/></e>
+    <e lm="anifail anwes"><i>anif</i><par n="anif/ail__n"/><p><l><b/>anwes</l><r><g><b/>anwes</g></r></p></e>
+
     <e lm="cynhadledd"><par n="initial-c"/><i>yn</i><par n="cyn/hadledd__n"/></e>
     <e lm="brenin"><par n="initial-b"/><i>ren</i><par n="bren/in__n"/></e>
     <e lm="Cymro"><par n="initial-C"/><i>ymr</i><par n="Cymr/o__n"/></e>
