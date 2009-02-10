@@ -22138,6 +22138,7 @@
     <e lm="Haf"><i>Haf</i><par n="Ifans__np"/></e>
     <e lm="Havard"><i>Havard</i><par n="Ifans__np"/></e>
     <e lm="Williams"><i>Williams</i><par n="Ifans__np"/></e>
+    <e lm="Dixon"><i>Dixon</i><par n="Ifans__np"/></e>
     <e lm="Edwards"><i>Edwards</i><par n="Ifans__np"/></e>
     <e lm="Mills"><i>Mills</i><par n="Ifans__np"/></e>
     <e lm="Morgan"><i>Morgan</i><par n="Ifans__np"/></e>
@@ -28551,12 +28552,12 @@
         <r><g><b/>overprotective</g></r>
       </p>
     </e>
-    <e lm="be ravenously hungry">
+    <e lm="be starving">
       <i/>
       <par n="/be__vblex"/>
       <p>
-        <l><b/>ravenously<b/>hungry</l>
-        <r><g><b/>ravenously<b/>hungry</g></r>
+        <l><b/>starving</l>
+        <r><g><b/>starving</g></r>
       </p>
     </e>
     <e lm="be tepid">
