@@ -96,6 +96,11 @@ SELECT PrnSubjP1Pl IF (-1 P1Pl) (-1 V);
 #tra bod
 REMOVE ("tra" adv) IF (NOT 1 Adj);
 
+#Early removal of impossible aspirate mutations.
+#Gobeithio bod popeth yn iawn gyda chi
+REMOVE MAspC IF (NOT -1 ("ei")) (NOT -1 ("a" cnjcoo)) 
+		(NOT -1 ("â")) (NOT -1 ("chwech"));
+
 # delete a subject pronoun if preceded by an infinitive
 # i'w weld fo
 # NOT: mynd â chi ar
