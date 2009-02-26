@@ -145,6 +145,14 @@
           <r>au<s n="num"/><s n="sp"/></r>
         </p>
       </e>
+      <!-- 90,000 troedfedd sgwâr  -->
+      <e>
+        <re>[0-9]+([.,][0-9]+)?</re>
+        <p>
+          <l><b/>troedfedd<b/>sgwâr</l>
+          <r><b/>troedfedd<b/>sgwâr<s n="num"/><s n="sp"/></r>
+        </p>
+      </e>
       <!-- Years old -->
       <e>
         <re>[0-9]+</re>
