@@ -217,6 +217,27 @@
       </e>
 
 
+      <e r="RL">
+        <re>[0-9]+([.,][0-9]+)?</re>
+        <p>
+          <l><b/>square<b/>foot</l>
+          <r><b/>square<b/>foot<s n="num"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <re>[0-9]+([.,][0-9]+)?</re>
+        <p>
+          <l><b/>square<b/>foot</l>
+          <r><b/>square<b/>foot<s n="num"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <re>[0-9]+([.,][0-9]+)?</re>
+        <p>
+          <l><b/>square<b/>foot</l>
+          <r><b/>square<b/>foot<s n="num"/><s n="sp"/></r>
+        </p>
+      </e>
       <e>
         <re>[0-9]+([.,][0-9]+)?</re>
         <p>
