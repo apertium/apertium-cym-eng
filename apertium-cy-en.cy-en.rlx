@@ -7,62 +7,99 @@ DELIMITERS = "<.>" "<!>" "<?>" (sent); # end-of-sentence markers
 
 # give Apertium tags a mnemonic to be used in the rules
 
+
+# mutation for individual letters
+# surface form regex, base form regex
+
+LIST MSoftC = ("<g.*>"ri "c.*"ri)  ("<d.*>"ri "t.*"ri) ("<f.*>"ri "b.*"ri)  ("<w.*>"ri "gw.*"ri) ("<b.*>"ri "p.*"ri) ("<dd.*>"ri "d.*"ri) ("<f.*>"ri "m.*"ri);		# soft mutation
+
+LIST MAspC = ("<ch.*>"ri "c.*"ri) ("<th.*>"ri "t.*"ri);		# aspirate mutation
+
+LIST MNasC = ("<n.*>"ri "d.*"ri) ("<m.*>"ri "b.*"ri);		# nasal mutation
+
+
+# nouns
+
 LIST NC = n; 				# common nouns
-LIST NP = (np top) (np ant) (np cog); 	# proper nouns (toponyms, anthroponyms, cognomens)
-LIST Ant = (np ant);
+LIST NP = (np top) (np ant) (np cog);		# proper nouns (toponyms, anthroponyms, cognomens)
+LIST Ant = (np ant);		# anthroponyms
 LIST Acr = (n acr);
-LIST V = vaux vblex vbser vbmod;		 	# lexical verbs and "to be"
-LIST Vpart = (vpart neg) (vpart aff) (vpart itg); # Verbal particles
-LIST Adv = adv; 			# adverb
-LIST Num = num;				# numeral
-LIST CC = cnjcoo; 			# co-ordinate conjunction
-LIST CS = cnjsub;			# subordinate conjunction
-LIST Interj = ij;			# interjection
-LIST Pr = pr;				# preposition
+
+LIST MF = mf;		# masculine/feminine
+LIST M = m;			# masculine
+LIST F = f;			# feminine
+
+
+# pronouns
+
 LIST PrnSubj = (prn subj);		# subject pronoun
 LIST Prn = (prn tn) (prn subj);		# pronoun
 
-LIST P1Pl = (p1 pl);
-LIST P2Pl = (p2 pl);			# second person plural
-LIST P3Sg = (p3 sg);
 
-LIST Det    = (det);
+# verbs
+
+LIST V = vaux vblex vbser vbmod;		 	# lexical verbs and "to be"
+LIST VblexInf = (vblex inf);		# verb in the infinitive
+LIST VblexPrs = (vblex prs);		# verb in the present subjunctive
+LIST Imp = imp;		# imperative
+LIST VbMod = (vbmod);		# modal verb (eg gallu)
+
+LIST Vpart = (vpart neg) (vpart aff) (vpart itg); # Verbal particles
+
+LIST P1Pl = (p1 pl);		# first person plural - verb agreement
+LIST P2Pl = (p2 pl);		# second person plural - verb agreement
+LIST P3Sg = (p3 sg);		# third person plural - verb agreement
+
+SET PrnSubjP3Sg = PrnSubj | P3Sg;
+SET PrnSubjP1Pl = PrnSubj | P1Pl;
+SET PrnSubjP2Pl = PrnSubj | P2Pl;
+SET VbP2Pl = V | P2Pl;
+
+
+# determiners and possessive pronouns
+
+LIST Det = (det);		# determiner
+LIST Def = def;		# definite
+# ? can above two be deleted in view of below ?
 LIST DetDef = (det def);		# definite determiner (article)
 LIST DetPos = (det pos);		# possessive determiner
 LIST DetDem = (det dem);		# demonstrative determiner
 LIST DetItg = (det itg);		# interrogative determiner
 LIST DetQnt = (det qnt);		# quantifying determiner
 
+#SET DetPosNE = DetPos - (+ei);
+
+
+# adjectives and numerals
+
 LIST Adj = (adj sint) (adj); 		# all adjectives (synthetic + non-synthetic)
+LIST Num = num;				# numeral
 
-LIST MF = mf;				# masculine/feminine
-LIST M = m;				# masculine
-LIST F = f;				# feminine
 
-LIST Def = def; 			# definite
+# prepositions
 
-LIST VblexInf = (vblex inf); 		# verb in the infinitive
-LIST VblexPrs = (vblex prs); 		# verb in the present subjunctive
-LIST Imp = imp;
+LIST Pr = pr;		# preposition
+LIST Prep_i = ("i" pr);		# the preposition "i" (to)
+LIST Prep_yn_ôl = ("yn ôl" pr) ("Yn ôl" pr);		# the preposition "yn ôl"
 
-LIST Prep_i = ("i" pr);			# the preposition "i" (to)
-LIST Prep_yn_ôl = ("yn ôl" pr) ("Yn ôl" pr);			# the preposition "yn ôl"
 
-# mutation for individual letters
-# surface form regex, base form regex
-LIST MSoftC = ("<g.*>"ri "c.*"ri)  ("<d.*>"ri "t.*"ri) ("<f.*>"ri "b.*"ri)  ("<w.*>"ri "gw.*"ri) ("<b.*>"ri "p.*"ri) ("<dd.*>"ri "d.*"ri) ("<f.*>"ri "m.*"ri);
+# adverbs
 
-LIST MAspC = ("<ch.*>"ri "c.*"ri) ("<th.*>"ri "t.*"ri);
-LIST MNasC = ("<n.*>"ri "d.*"ri) ("<m.*>"ri "b.*"ri);
+LIST Adv = adv;		# adverb
 
-SET PrnSubjP3Sg = PrnSubj | P3Sg;
-SET PrnSubjP1Pl = PrnSubj | P1Pl;
-SET PrnSubjP2Pl = PrnSubj | P2Pl;
-SET VbP2Pl = V | P2Pl;
+
+# conjunctions
+
+LIST CC = cnjcoo; 			# co-ordinate conjunction
+LIST CS = cnjsub;			# subordinate conjunction
+
 SET Conj = CC | CS;
 
 
-#SET DetPosNE = DetPos - (+ei);
+# interjections
+
+LIST Interj = ij;			# interjection
+
 
 SECTION
 
@@ -110,9 +147,24 @@ REMOVE PrnSubj IF (-1 VblexInf) (NOT 0 MAspC);
 REMOVE MAspC IF (-1 (vblex)) (0 MAspC) (0 PrnSubj);
 REMOVE MAspC IF (-1 (n)) (0 MAspC) (0 PrnSubj);
 
+
+
+
 # delete a noun from a {noun, pronoun} cohort if preceded by an infinitive and followed by a preposition
 # i'w weld fo yn y dref
 REMOVE NC IF (-1 V) (0 NC) (0 PrnSubj) (1 Pr);
+
+# delete a noun from a {vbmod, noun} cohort if preceded by a preposition
+# this may be cast too widely - let's see ...
+# yn gallu dod (able to come) - *in capacity come
+REMOVE NC IF (-1 Pr) (0 NC) (0 VbMod);
+
+# delete a noun from a {verb, noun} cohort if preceded by a verbal particle
+# nad oes (that there is not) - *not age
+REMOVE NC IF (-1 Vpart) (0 NC) (0 V);
+
+
+
 
 # choose a 2p.pl pronoun if it is preceded by a 2p.pl verb
 # rydych chi yn mynd
@@ -238,8 +290,9 @@ REMOVE PrnSubj IF (NOT -1 V);
 #ysgolion o'r fath -- no idea why this doesn't work with MSoftC list
 REMOVE ("<f.*>"ri "b.*"ri) IF (0 (n m sg)) (-1 DetDef);  
 
+# not needed, because "trwy gyfrwng y Gymraeg" is now entered as a multiword
 #gyfrwng y Gymraeg
-REMOVE Adj IF (-1 DetDef);
+#REMOVE Adj IF (-1 DetDef);
 
 #
 #  Lexical rules
