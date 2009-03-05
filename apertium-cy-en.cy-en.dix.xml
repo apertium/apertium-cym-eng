@@ -354,7 +354,7 @@
     <e><p><l>llynedd<s n="adv"/></l><r>last year<s n="adv"/></r></p></e>
     <e><p><l>am<b/>amser<b/>hir<s n="adv"/></l><r>for a long time<s n="adv"/></r></p></e>
     <e><p><l>croeso<b/>i<s n="adv"/></l><r>welcome<b/>to<s n="adv"/></r></p></e>
-    <e><p><l>croeso<b/>cynnes<b/>i<s n="adv"/></l><r>warm<b/>welcome<b/>to<s n="adv"/></r></p></e>
+    <e><p><l>croeso<b/>cynnes<b/>i<s n="adv"/></l><r>a<b/>warm<b/>welcome<b/>to<s n="adv"/></r></p></e>
 
     <e><p><l>fodd<b/>bynnag<s n="adv"/></l><r>however<s n="adv"/></r></p></e>
     <e><p><l>ar<b/>werth<s n="adv"/></l><r>on<b/>sale<s n="adv"/></r></p></e>
@@ -4401,6 +4401,12 @@
     <e><p><l>consensws<s n="n"/><s n="m"/></l><r>consensus<s n="n"/></r></p></e>
     <e><p><l>camddefnydd<s n="n"/><s n="m"/></l><r>abuse<s n="n"/></r></p></e>
     <e><p><l>camdriniaeth<s n="n"/><s n="f"/></l><r>abuse<s n="n"/></r></p></e>
+    
+    <!-- Multiwords-->
+   
+    <e><p><l>trwy<b/>gyfrwng<b/>y<b/>Gymraeg<s n="adv"/></l><r>through<b/>the<b/>medium<b/>of<b/>Welsh<s n="adv"/></r></p></e>
+    <e><p><l>yn<b/>y<b/>pen<b/>draw<s n="adv"/></l><r>eventually<s n="adv"/></r></p></e>
+
  
     <!-- Adjectives -->
 

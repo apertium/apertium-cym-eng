@@ -58273,6 +58273,12 @@
     <e lm="nos Sul"><i>nos</i><par n="actores__n"/><p><l><b/>Sul</l><r><g><b/>Sul</g></r></p></e>
 
 
+<!-- multiwords -->
+
+	<e lm="trwy gyfrwng y Gymraeg"><par n="initial-t"/><i>rwy<b/>gyfrwng<b/>y<b/>Gymraeg</i><par n="yma__adv"/></e>
+	<e lm="yn y pen draw"><i>yn<b/>y<b/>pen<b/>draw</i><par n="yma__adv"/></e>
+
+
 
 
     <e lm="Llywodraeth y Cynulliad"><par n="initial-Ll"/><i>ywodraeth<b/>y<b/>Cynulliad</i><par n="Cymdeithas_yr_Iaith__np"/></e>
@@ -58280,7 +58286,6 @@
     <e lm="Cymdeithas Feddygol Brydeinig"><par n="initial-C"/><i>ymdeithas<b/>Feddygol<b/>Brydeinig</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas yr Iaith"><par n="initial-C"/><i>ymdeithas<b/>yr<b/>Iaith</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas yr Iaith Gymraeg"><par n="initial-C"/><i>ymdeithas<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Cymdeithas_yr_Iaith__np"/></e>
-
     <e lm="Plaid Genedlaethol yr Alban"><par n="initial-P"/><i>laid<b/>Genedlaethol<b/>yr<b/>Alban</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Heddlu'r Gogledd"><i>Heddlu'r<b/>Gogledd</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Plaid Cymru"><par n="initial-P"/><i>laid<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
@@ -58288,7 +58293,6 @@
     <e lm="Plaid Lafur"><par n="initial-P"/><i>laid<b/>Lafur</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Democratiaid Rhyddfrydol"><par n="initial-D"/><i>emocratiaid<b/>Rhyddfrydol</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Ceidwadwyr Cymreig"><par n="initial-C"/><i>eidwadwyr<b/>Cymreig</i><par n="Cymdeithas_yr_Iaith__np"/></e>
-
     <e lm="Bwrdd yr Iaith"><par n="initial-B"/><i>wrdd<b/>yr<b/>Iaith</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
     <e lm="Bwrdd yr Iaith Gymraeg"><par n="initial-B"/><i>wrdd<b/>yr<b/>Iaith<b/>Gymraeg</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
     <e lm="Bwrdd Iaith Aeleg yr Alban"><par n="initial-B"/><i>wrdd<b/>Iaith<b/>Aeleg<b/>yr<b/>Alban</i><par n="Bwrdd_yr_Iaith_Gymraeg__np"/></e>
