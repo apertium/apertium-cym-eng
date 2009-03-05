@@ -43,6 +43,7 @@ LIST VblexInf = (vblex inf);		# verb in the infinitive
 LIST VblexPrs = (vblex prs);		# verb in the present subjunctive
 LIST Imp = imp;		# imperative
 LIST VbMod = (vbmod);		# modal verb (eg gallu)
+LIST Oes = (vbser sp); 		# oes
 
 LIST Vpart = (vpart neg) (vpart aff) (vpart itg); # Verbal particles
 
@@ -86,6 +87,7 @@ LIST Prep_yn_ôl = ("yn ôl" pr) ("Yn ôl" pr);		# the preposition "yn ôl"
 # adverbs
 
 LIST Adv = adv;		# adverb
+LIST Int = adv itg;		# interrogative adverb (eg where?)
 
 
 # conjunctions
@@ -163,6 +165,33 @@ REMOVE NC IF (-1 Pr) (0 NC) (0 VbMod);
 # nad oes (that there is not) - *not age
 REMOVE NC IF (-1 Vpart) (0 NC) (0 V);
 
+
+REMOVE ("yna" det) IF (NOT -2 DetDef);
+# as analogue of rule below - can they be combined?
+# mae 'na le yma (there is a place here) - *that place is here.
+# with above rule, we get "is there place here" - acceptable if we can get rid of question word-order
+# perhaps keep this rule, but do a multiword for "mae 'na = there is", since it is a bit odd, and Englishy
+# compare (better) "mae lle yma" - "*place is here"
+REMOVE ("yma" det) IF (NOT -2 DetDef);
+# choose the "where" (adv, itg) sense for lle only if it is followed by a verb
+# a oes lle yma? (is there room (a place) here?) - *and there are where here.
+REMOVE Int IF (NOT 1 V);
+# Oops - gives "this place" for "lle yma"
+# we need the REMOVE yma rule to handle this, and it needs to come before this rule
+# or we get "this place there are"
+# with both in this order, we get "and place there are here"
+
+
+# choose the interrogative "a" instead of the conjunctive "a" if oes follows
+# this could probably be broadened out
+# a oes lle yma? (is there room (a place) here?) - *and there are where here
+REMOVE ("a" cnjcoo) IF (1 Oes);
+# Oops - gives "did this place there are"
+# With above "lle yma" rules, we now get "did place there are here"
+# not ideal, but slightly better than original "and there are where here"
+# where is "did" coming from? "did" is never used with "be" in English!!
+# and where is the plural coming from?
+# "place there is here" would be acceptable
 
 
 
