@@ -3,7 +3,6 @@
   <alphabet></alphabet>
   <!-- Symbol definitions -->
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-cy-en.symbols.xml"></xi:include>
-
  
   <!-- Main dictionary section -->
   <section id="main" type="standard">
@@ -1333,7 +1332,7 @@
     <e><p><l>cyfatebiaeth<s n="n"/><s n="f"/></l><r>correspondence<s n="n"/></r></p></e>
     <e><p><l>cyfathrebiad<s n="n"/><s n="m"/></l><r>communication<s n="n"/></r></p></e>
     <e><p><l>cyfathrebiad<s n="n"/><s n="m"/></l><r>communication<s n="n"/></r></p></e>
-    <e><p><l>cyfeiriad<s n="n"/><s n="m"/></l><r>direction<s n="n"/></r></p></e>
+    <e r="LR"><p><l>cyfeiriad<s n="n"/><s n="m"/><s n="S1"/></l><r>direction<s n="n"/></r></p></e>
     <e><p><l>cyfeiriad<s n="n"/><s n="m"/></l><r>address<s n="n"/></r></p></e>
     <e><p><l>cyfeirlyfr<s n="n"/><s n="m"/></l><r>directory<s n="n"/></r></p></e>
     <e><p><l>cyfeirnod<s n="n"/><s n="m"/></l><r>reference<s n="n"/></r></p></e>
@@ -4407,7 +4406,11 @@
     <e><p><l>trwy<b/>gyfrwng<b/>y<b/>Gymraeg<s n="adv"/></l><r>through<b/>the<b/>medium<b/>of<b/>Welsh<s n="adv"/></r></p></e>
     <e><p><l>yn<b/>y<b/>pen<b/>draw<s n="adv"/></l><r>eventually<s n="adv"/></r></p></e>
 	<e><p><l>gyda<b/>llaw<s n="adv"/></l><r>by<b/>the<b/>way<s n="adv"/></r></p></e>
- 
+ 	<e><p><l>o<b/>hyn<b/>ymlaen<s n="adv"/></l><r>from<b/>now<b/>on<s n="adv"/></r></p></e>
+	<e><p><l>ar<b/>ei<b/>hôl<b/>hi<s n="adv"/></l><r>running<b/>late<s n="adv"/></r></p></e>
+
+
+
     <!-- Adjectives -->
 
     <e><p><l>afrifed<s n="adj"/></l><r>innumerable<s n="adj"/></r></p></e>
