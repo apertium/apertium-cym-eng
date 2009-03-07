@@ -54331,6 +54331,8 @@
     <e lm="cyfeirio"><par n="initial-c"/><i>yfeiri</i><par n="achlysur/o__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
     <e lm="cyfrannu"><par n="initial-c"/><i>yfrann</i><par n="absenn/u__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
     <e lm="dod â"><par n="initial-d"/><i/><par n="d/od__vblex"/><p><l><b/>â</l><r><g><b/>â</g></r></p></e>
+
+	
     
     <e lm="dod o hyd i"><par n="initial-d"/><i/><par n="d/od__vblex"/><p><l><b/>o<b/>hyd<b/>i</l><r><g><b/>o<b/>hyd<b/>i</g></r></p></e>
     <e lm="dweud wrth"><par n="initial-d"/><i/><par n="aildd/weud__vblex"/><p><l><b/>wrth</l><r><g><b/>wrth</g></r></p></e>
@@ -58278,7 +58280,8 @@
 	<e lm="trwy gyfrwng y Gymraeg"><par n="initial-t"/><i>rwy<b/>gyfrwng<b/>y<b/>Gymraeg</i><par n="yma__adv"/></e>
 	<e lm="yn y pen draw"><i>yn<b/>y<b/>pen<b/>draw</i><par n="yma__adv"/></e>
 	<e lm="gyda llaw"><i>gyda<b/>llaw</i><par n="yma__adv"/></e>
-
+	<e lm="o hyn ymlaen"><i>o<b/>hyn<b/>ymlaen</i><par n="yma__adv"/></e>
+	<e lm="ar ei hôl hi"><i>ar<b/>ei<b/>hôl<b/>hi</i><par n="yma__adv"/></e>
 
 
 
@@ -60325,38 +60328,52 @@
       </p>
     </e>
 
+	<e lm="i'n" r="LR">
+      <p>
+        <l>i'n</l>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>yn<s n="pr"/></r>
+      </p>
+    </e>
+
     <e lm="ni'n" r="LR">
       <p>
         <l>ni'n</l>
-	<r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
       </p>
     </e>
 
     <e lm="e'n" r="LR">
       <p>
         <l>e'n</l>
-	<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>yn<s n="pr"/></r>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>yn<s n="pr"/></r>
+      </p>
+    </e>
+
+	<e lm="o'n" r="LR">
+      <p>
+        <l>o'n</l>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>yn<s n="pr"/></r>
       </p>
     </e>
 
     <e lm="hi'n" r="LR">
       <p>
         <l>hi'n</l>
-	<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>yn<s n="pr"/></r>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>yn<s n="pr"/></r>
       </p>
     </e>
 
     <e lm="nhw'n" r="LR">
       <p>
         <l>nhw'n</l>
-	<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
       </p>
     </e>
 
     <e lm="chi'n" r="LR">
       <p>
         <l>chi'n</l>
-	<r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
       </p>
     </e>
 

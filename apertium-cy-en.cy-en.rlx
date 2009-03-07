@@ -2,6 +2,10 @@
 # Note: This is currently not a real "Constraint Grammar", but more 
 #       of a tool to hack around the badly trained HMM POS tagger.
 #
+################## IMPORTANT #####################
+# If a rule is not having any effect, it may be because it is order-dependent
+# Try moving it up the pile and see if that works.
+##################################################
 
 DELIMITERS = "<.>" "<!>" "<?>" (sent); # end-of-sentence markers
 
@@ -47,14 +51,25 @@ LIST Oes = (vbser sp); 		# oes
 
 LIST Vpart = (vpart neg) (vpart aff) (vpart itg); # Verbal particles
 
+LIST P1Sg = (p1 sg);		# first person singular - verb agreement
+LIST P3Sg = (p3 sg);		# third person singular - verb agreement
 LIST P1Pl = (p1 pl);		# first person plural - verb agreement
 LIST P2Pl = (p2 pl);		# second person plural - verb agreement
-LIST P3Sg = (p3 sg);		# third person plural - verb agreement
+
+LIST PrnSubjP1Sg = (prn subj p1 sg);
+
+LIST vb_1_sg = (vblex p1 sg);
+LIST be_1_sg = (vbser p1 sg);
+
 
 SET PrnSubjP3Sg = PrnSubj | P3Sg;
 SET PrnSubjP1Pl = PrnSubj | P1Pl;
 SET PrnSubjP2Pl = PrnSubj | P2Pl;
+
+SET VbP1Sg = V | P1Sg;
 SET VbP2Pl = V | P2Pl;
+
+
 
 
 # determiners and possessive pronouns
@@ -105,6 +120,7 @@ LIST Interj = ij;			# interjection
 
 SECTION
 
+
 #Yn ôl Ms Thomas
 REMOVE Adv IF (0 Prep_yn_ôl) (1 Ant);
 
@@ -125,12 +141,28 @@ REMOVE Vpart IF (-1 V) (1 NC);
 #nid oes llawer o'r rheiny ar ôl
 SELECT (vbser) IF (0 NC) (0 (vbser)) (1 DetQnt) (2 DetDef);
 
+
+# choose a 1p.sg pronoun if it is preceded by 1p.sg bod
+# rydw i'n anfon - i'n should be seen as pronoun + yn, not as prep + ein - I am sending
+SELECT PrnSubjP1Sg IF (-1 be_1_sg) (0 Prep_i) (0 PrnSubjP1Sg);
+
 # choose the preposition "i" if it is followed by an infinitive
-# aeth i gael y pres
-SELECT Prep_i IF (1 VblexInf);
+# aeth i gael y pres - he went to get the money
+# aethom i gael y pres - we went to get the money
+# the first is alright without this rule, the second isn't
+SELECT Prep_i IF (NOT -1 vb_1_sg) (0 Prep_i) (0 PrnSubjP1Sg);
+
+# We need more work to differentiate between
+# cerddaf i'r dre - I'll walk to the town (prep + yr)
+# and
+# wela i'r dyn fory - I'll see the man tomorrow (prn + yr)
+# May not even be possible without some marker of case.
+
 
 #Rydan ni wedi sefydlu meini prawf newydd, ystyried y ffordd ymlaen. 
 SELECT PrnSubjP1Pl IF (-1 P1Pl) (-1 V);
+
+
 
 #tra bod
 REMOVE ("tra" adv) IF (NOT 1 Adj);
@@ -149,9 +181,6 @@ REMOVE PrnSubj IF (-1 VblexInf) (NOT 0 MAspC);
 REMOVE MAspC IF (-1 (vblex)) (0 MAspC) (0 PrnSubj);
 REMOVE MAspC IF (-1 (n)) (0 MAspC) (0 PrnSubj);
 
-
-
-
 # delete a noun from a {noun, pronoun} cohort if preceded by an infinitive and followed by a preposition
 # i'w weld fo yn y dref
 REMOVE NC IF (-1 V) (0 NC) (0 PrnSubj) (1 Pr);
@@ -164,6 +193,7 @@ REMOVE NC IF (-1 Pr) (0 NC) (0 VbMod);
 # delete a noun from a {verb, noun} cohort if preceded by a verbal particle
 # nad oes (that there is not) - *not age
 REMOVE NC IF (-1 Vpart) (0 NC) (0 V);
+
 
 
 REMOVE ("yna" det) IF (NOT -2 DetDef);
@@ -192,6 +222,16 @@ REMOVE ("a" cnjcoo) IF (1 Oes);
 # where is "did" coming from? "did" is never used with "be" in English!!
 # and where is the plural coming from?
 # "place there is here" would be acceptable
+
+
+# this chooses the direction sense of cyfeiriad (not address) if preceded by trafod
+SUBSTITUTE ("cyfeiriad"ri n m) ("cyfeiriad" n m S1) NC (-1 ("trafod"ri vblex));
+REMOVE ("trafod"ri n m) IF (1 ("cyfeiriad"ri n m S1));
+# above gets rid of noun reading of trafod if it's followed by cyfeiriad
+# we could probably change this to NC, because it's of wider application
+
+
+
 
 
 
