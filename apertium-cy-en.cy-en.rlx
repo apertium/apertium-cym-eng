@@ -62,12 +62,12 @@ LIST vb_1_sg = (vblex p1 sg);
 LIST be_1_sg = (vbser p1 sg);
 
 
-SET PrnSubjP3Sg = PrnSubj | P3Sg;
-SET PrnSubjP1Pl = PrnSubj | P1Pl;
-SET PrnSubjP2Pl = PrnSubj | P2Pl;
+SET PrnSubjP3Sg = PrnSubj + P3Sg;
+SET PrnSubjP1Pl = PrnSubj + P1Pl;
+SET PrnSubjP2Pl = PrnSubj + P2Pl;
 
-SET VbP1Sg = V | P1Sg;
-SET VbP2Pl = V | P2Pl;
+SET VbP1Sg = V + P1Sg;
+SET VbP2Pl = V + P2Pl;
 
 
 
@@ -97,6 +97,7 @@ LIST Num = num;				# numeral
 LIST Pr = pr;		# preposition
 LIST Prep_i = ("i" pr);		# the preposition "i" (to)
 LIST Prep_yn_ôl = ("yn ôl" pr) ("Yn ôl" pr);		# the preposition "yn ôl"
+LIST prep_yn = ("yn" pr);		# the preposition "yn" (in)
 
 
 # adverbs
@@ -110,7 +111,7 @@ LIST Int = adv itg;		# interrogative adverb (eg where?)
 LIST CC = cnjcoo; 			# co-ordinate conjunction
 LIST CS = cnjsub;			# subordinate conjunction
 
-SET Conj = CC | CS;
+SET Conj = CC + CS;
 
 
 # interjections
@@ -195,14 +196,13 @@ REMOVE NC IF (-1 Pr) (0 NC) (0 VbMod);
 REMOVE NC IF (-1 Vpart) (0 NC) (0 V);
 
 
-
-REMOVE ("yna" det) IF (NOT -2 DetDef);
+REMOVE:R_yna_det ("yna" det) OR ("yma" det) (NOT -2 DetDef);
 # as analogue of rule below - can they be combined?
 # mae 'na le yma (there is a place here) - *that place is here.
 # with above rule, we get "is there place here" - acceptable if we can get rid of question word-order
 # perhaps keep this rule, but do a multiword for "mae 'na = there is", since it is a bit odd, and Englishy
 # compare (better) "mae lle yma" - "*place is here"
-REMOVE ("yma" det) IF (NOT -2 DetDef);
+#REMOVE ("yma" det) IF (NOT -2 DetDef);
 # choose the "where" (adv, itg) sense for lle only if it is followed by a verb
 # a oes lle yma? (is there room (a place) here?) - *and there are where here.
 REMOVE Int IF (NOT 1 V);
@@ -224,13 +224,15 @@ REMOVE ("a" cnjcoo) IF (1 Oes);
 # "place there is here" would be acceptable
 
 
+# this chooses the be able sense of cyfeiriad (not address) if preceded by yn
+SUBSTITUTE ("gallu"ri vbmod) ("gallu" vbmod S1) NC (-1 prep_yn);
+
 # this chooses the direction sense of cyfeiriad (not address) if preceded by trafod
 SUBSTITUTE ("cyfeiriad"ri n m) ("cyfeiriad" n m S1) NC (-1 ("trafod"ri vblex));
-REMOVE ("trafod"ri n m) IF (1 ("cyfeiriad"ri n m S1));
-# above gets rid of noun reading of trafod if it's followed by cyfeiriad
+
+# this gets rid of noun reading of trafod if it's followed by cyfeiriad
 # we could probably change this to NC, because it's of wider application
-
-
+REMOVE ("trafod"ri n m) IF (1 ("cyfeiriad"ri n m S1));
 
 
 

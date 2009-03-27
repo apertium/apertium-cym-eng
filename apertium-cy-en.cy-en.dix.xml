@@ -200,7 +200,7 @@
     <e><p><l>ynghanol<s n="pr"/></l><r>in<b/>the<b/>middle<b/>of<s n="pr"/></r></p></e>
     <e><p><l>ymhen<s n="pr"/></l><r>at the end of<s n="pr"/></r></p></e>
  
- 
+ 	<!-- Multiwords -->
     <!-- Generic multiword prepositions -->
  
     <e><p><l>yn<b/>unol<b/>â<s n="pr"/></l><r>in<b/>accordance<b/>with<s n="pr"/></r></p></e>
@@ -9818,11 +9818,10 @@
 
     <e r="LR"><p><l>medru<s n="vblex"/></l><r>be<b/>able<b/>to<s n="vbmod"/></r></p></e>
 
-    <!--
-    <e><p><l>gallu<s n="vblex"/></l><r>be<g><b/>able<b/>to</g><s n="vbmod"/></r></p></e>
-     -->
 
+    <e r="LR"><p><l>gallu<s n="vblex"/><s n="S1"/></l><r>be<g><b/>able<b/>to</g><s n="vbmod"/></r></p></e>
     <e><p><l>gallu<s n="vbmod"/></l><r>can<s n="vaux"/></r></p></e>
+
 
     <e><p><l>mwyglo<s n="vblex"/></l><r>be<g><b/>tepid</g><s n="vblex"/></r></p></e>
     <e><p><l>newyddiadura<s n="vblex"/></l><r>be<g><b/>a<b/>journalist</g><s n="vblex"/></r></p></e>
@@ -11760,8 +11759,10 @@
     <e><p><l>San Marino<s n="np"/><s n="top"/><s n="f"/></l><r>San Marino<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Saudi Arabia<s n="np"/><s n="top"/><s n="f"/></l><r>Saudi Arabia<s n="np"/><s n="top"/></r></p></e>
 
-    <!-- Check if 'Yr' should always be capitalised -->
-    <e><p><l>yr Alban<s n="np"/><s n="top"/><s n="f"/></l><r>Scotland<s n="np"/><s n="top"/></r></p></e>
+	<!-- Multiword names -->
+
+    <e><p><l>Yr Alban<s n="np"/><s n="top"/><s n="f"/></l><r>Scotland<s n="np"/><s n="top"/></r></p></e>
+	<e><p><l>Nant Gwrtheyrn<s n="np"/><s n="top"/><s n="f"/></l><r>Nant Gwrtheyrn<s n="np"/><s n="top"/></r></p></e>
 
     <e><p><l>Sénégal<s n="np"/><s n="top"/><s n="f"/></l><r>Senegal<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Serbia<s n="np"/><s n="top"/><s n="f"/></l><r>Serbia<s n="np"/><s n="top"/></r></p></e>
