@@ -41539,6 +41539,12 @@
           <r>anc<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
+	  <e>
+        <p>
+          <l>hanget</l>
+          <r>anc<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>hangai</l>
@@ -41575,9 +41581,21 @@
           <r>anc<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
+	  <e>
+        <p>
+          <l>hangais</l>
+          <r>anc<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>hengaist</l>
+          <r>anc<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+	  <e>
+        <p>
+          <l>hangaist</l>
           <r>anc<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
@@ -41589,19 +41607,19 @@
       </e>
       <e>
         <p>
-          <l>gasom</l>
+          <l>angasom</l>
           <r>anc<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>gasoch</l>
+          <l>angasoch</l>
           <r>anc<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>gasant</l>
+          <l>angasant</l>
           <r>anc<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
@@ -41613,43 +41631,43 @@
       </e>
       <e>
         <p>
-          <l>gaswn</l>
+          <l>angaswn</l>
           <r>anc<s n="vblex"/><s n="plu"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>gasit</l>
+          <l>angasit</l>
           <r>anc<s n="vblex"/><s n="plu"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>gasai</l>
+          <l>angasai</l>
           <r>anc<s n="vblex"/><s n="plu"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>gasem</l>
+          <l>angasem</l>
           <r>anc<s n="vblex"/><s n="plu"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>gasech</l>
+          <l>angasech</l>
           <r>anc<s n="vblex"/><s n="plu"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>gasent</l>
+          <l>angasent</l>
           <r>anc<s n="vblex"/><s n="plu"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>gasid</l>
+          <l>angasid</l>
           <r>anc<s n="vblex"/><s n="plu"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
@@ -41667,7 +41685,7 @@
       </e>
       <e>
         <p>
-          <l>inc</l>
+          <l>ainc</l>
           <r>anc<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
@@ -41680,6 +41698,12 @@
       <e>
         <p>
           <l>hengwch</l>
+          <r>anc<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+	  <e>
+        <p>
+          <l>hangwch</l>
           <r>anc<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
