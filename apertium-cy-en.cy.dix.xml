@@ -27287,7 +27287,7 @@
 -->
       <e> 
         <p>
-          <l>ed</l>
+          <l>oed</l>
           <r>od<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
@@ -27299,7 +27299,7 @@
       </e>
       <e>
         <p>
-          <l>wn</l>
+          <l>own</l>
           <r>od<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
@@ -27311,13 +27311,13 @@
       </e>
       <e>
         <p>
-          <l>wch</l>
+          <l>owch</l>
           <r>od<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ent</l>
+          <l>oent</l>
           <r>od<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
@@ -27347,7 +27347,7 @@
       </e>
       <e>
         <p>
-          <l>wn</l>
+          <l>own</l>
           <r>od<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
@@ -27357,9 +27357,15 @@
           <r>od<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
+	  <e>
+        <p>
+          <l>euet</l>
+          <r>od<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
       <e>
         <p>
-          <l>it</l>
+          <l>oit</l>
           <r>od<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
@@ -27383,7 +27389,7 @@
       </e>
       <e>
         <p>
-          <l>em</l>
+          <l>oem</l>
           <r>od<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
@@ -27395,7 +27401,7 @@
       </e>
       <e>
         <p>
-          <l>ech</l>
+          <l>oech</l>
           <r>od<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
@@ -27407,13 +27413,13 @@
       </e>
       <e>
         <p>
-          <l>ent</l>
+          <l>oent</l>
           <r>od<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>id</l>
+          <l>oid</l>
           <r>od<s n="vblex"/><s n="pii"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
@@ -27461,7 +27467,7 @@
       </e>
       <e>
         <p>
-          <l>ed</l>
+          <l>oed</l>
           <r>od<s n="vblex"/><s n="past"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
@@ -27509,7 +27515,7 @@
       </e>
       <e>
         <p>
-          <l>id</l>
+          <l>oid</l>
           <r>od<s n="vblex"/><s n="plu"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
@@ -27539,7 +27545,7 @@
       </e>
       <e>
         <p>
-          <l>i</l>
+          <l>oi</l>
           <r>od<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
@@ -27557,7 +27563,7 @@
       </e>
       <e>
         <p>
-          <l>wn</l>
+          <l>own</l>
           <r>od<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
@@ -27587,7 +27593,7 @@
       </e>
       <e>
         <p>
-          <l>ir</l>
+          <l>oir</l>
           <r>od<s n="vblex"/><s n="pres"/><s n="impers"/><s n="pl"/></r>
         </p>
       </e>
@@ -27612,6 +27618,12 @@
       <e>
         <p>
           <l>êl</l>
+          <r>od<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+	  <e>
+        <p>
+          <l>elo</l>
           <r>od<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
@@ -41481,7 +41493,7 @@
       </e>
       <e>
         <p>
-          <l/>
+          <l>anc</l>
           <r>anc<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
@@ -56319,6 +56331,7 @@
     <e lm="galfaneiddio"><par n="initial-g"/><i>alfaneiddi</i><par n="achlysur/o__vblex"/></e>
 
     <e lm="gallu"><par n="initial-g"/><i></i><par n="g/allu__vbmod"/></e>
+	<e lm="gallu"><par n="initial-g"/><i></i><par n="g/allu__vbmod"/></e>
 
     <e lm="galluogi"><par n="initial-g"/><i>alluog</i><par n="achos/i__vblex"/></e>
     <e lm="galw"><par n="initial-g"/><i>alw</i><par n="adalw__vblex"/></e>
@@ -58323,7 +58336,7 @@
     <e lm="Sir Forgannwg"><i>Sir<b/>Forgannwg</i><par n="Blaenafon__np"/></e>
     <e lm="Sir Fôn"><i>Sir<b/>Fôn</i><par n="Blaenafon__np"/></e>
     <e lm="Sir Drefaldwyn"><i>Sir<b/>Drefaldwyn</i><par n="Blaenafon__np"/></e>
-
+	<e lm="Nant Gwrtheyrn"><i>Nant<b/>Gwrtheyrn</i><par n="Blaenafon__np"/></e>
     <e lm="Mynwy"><par n="initial-M"/><i>ynwy</i><par n="Blaenafon__np"/></e>
     <e lm="Sir Fynwy"><i>Sir<b/>Fynwy</i><par n="Blaenafon__np"/></e>
     <e lm="Trefynwy"><par n="initial-T"/><i>refynwy</i><par n="Blaenafon__np"/></e>
