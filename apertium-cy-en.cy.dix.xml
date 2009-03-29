@@ -60152,6 +60152,15 @@
       </p>
     </e>
 
+    <e lm="'r llall" r="LR">
+      <p>
+        <l>'r<b/>ll</l>
+        <r>y<b/>ll</r>
+      </p>
+      <par n="y_ll/all__prn"/>
+    </e>
+
+
     <e lm="'n" r="LR">
       <p>
         <l>'n</l>
@@ -60337,6 +60346,14 @@
       </p>
     </e>  
 
+    <e lm="na'r llall" r="LR">
+      <p>
+        <l>na'r<b/>ll</l>
+        <r>na<s n="cnjcoo"/><j/>y<b/>ll</r>
+      </p>
+      <par n="y_ll/all__prn"/>
+    </e>
+
 <!-- neu - or -->
 
     <e lm="neu'r">
@@ -60484,6 +60501,7 @@
         <r>yna<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
       </p>
     </e>
+
 
 <!-- end elision section -->
   </section>
