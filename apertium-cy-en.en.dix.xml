@@ -13886,7 +13886,6 @@
  
     <e lm="other"><i/><par n="/other__adj"/></e> <!-- fix this -->
  
-    <e lm="the other"><i>the<b/>other</i><par n="other__det"/></e>
     <e lm="our"><i>our</i><par n="her__det"/></e>
     <e lm="several"><i>several</i><par n="several__det"/></e>
     <e lm="some"><i>some</i><par n="enough__det"/></e>

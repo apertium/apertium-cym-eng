@@ -1092,16 +1092,14 @@
       </e>
     </pardef>
 
-    <pardef n="y_/llall__prn">
+    <pardef n="y_ll/all__prn">
       <e>
-	<par n="initial-ll"/>
         <p>
           <l>all</l>
           <r>all<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
       <e>
-	<par n="initial-ll"/>
         <p>
           <l>eill</l>
           <r>all<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r>
@@ -48818,7 +48816,7 @@
     <e lm="be"><par n="initial-b"/><p><l>e</l><r>eth</r></p><par n="pa__prn"/></e>
     <e lm="pwy"><par n="initial-p"/><i>wy</i><par n="pa__prn"/></e>
 
-    <e lm="y llall"><i>y<b/></i><par n="y_/llall__prn"/></e>
+    <e lm="y llall"><i>y<b/>ll</i><par n="y_ll/all__prn"/></e>
 
     <e lm="hyn"><i>hyn</i><par n="hyn__prn"/></e>
     <e lm="hynny"><i>hynny</i><par n="hyn__prn"/></e>
@@ -48935,10 +48933,10 @@
     <e lm="namyn"><i>namyn</i><par n="ond__cnjcoo"/></e>
     <e lm="eithr"><i>eithr</i><par n="ond__cnjcoo"/></e>
     <e lm="ys"><i>ys</i><par n="ond__cnjcoo"/></e>
+
     <e lm="na"><i/><par n="/na__cnjcoo"/></e>
-
-
     <e lm="na"><i>na</i><par n="oherwydd__cnjsub"/></e>
+
     <e lm="taw"><i>taw</i><par n="oherwydd__cnjsub"/></e>
 
     <e lm="ai"><i>ai</i><par n="ond__cnjcoo"/></e> <!-- or, cnjcoo -->
@@ -60181,22 +60179,12 @@
 
   </section>
 
+<!-- elisions -->
+<!-- when adding to this section, put them in alphabetical order!-->
   <section id="apostrophes" type="postblank">
-    <e lm="sy'n" r="LR">
-      <p>
-        <l>sy'n</l>
-        <r>a<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/><j/>bod<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>yn<s n="pr"/></r>
-      </p>
-    </e>
 
-    <e lm="gyda'i" r="LR">
-      <p>
-        <l>gyda'i</l>
-        <r>gyda<s n="pr"/><j/>i<s n="pr"/></r>
-      </p>
-    </e>
-
-    <e lm="a'i" r="LR">
+<!-- a - and -->
+	<e lm="a'i" r="LR">
       <p>
         <l>a'i</l>
         <r>a<s n="cnjcoo"/><j/>ei<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
@@ -60210,6 +60198,13 @@
       </p>
     </e>
 
+    <e lm="a'r" r="LR">
+      <p>
+        <l>a'r</l>
+        <r>a<s n="cnjcoo"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+    </e>
+
     <e lm="a'u" r="LR">
       <p>
         <l>a'u</l>
@@ -60217,50 +60212,34 @@
       </p>
     </e>
 
-    <e lm="o'n" r="LR">
+<!-- â - with -->
+
+    <e lm="â'i" r="LR">
       <p>
-        <l>o'n</l>
-        <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>ein<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+        <l>â'i</l>
+        <r>â<s n="pr"/><j/>ei<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
 
-    <e lm="o'i" r="LR">
+    <e lm="â'r" r="LR">
       <p>
-        <l>o'i</l>
-        <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>ei<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+        <l>â'r</l>
+        <r>â<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
       </p>
     </e>
 
+<!-- chi - 2p pl pronoun-->
 
-    <e lm="i mewn i'r" r="LR">
+    <e lm="chi'n" r="LR">
       <p>
-        <l>i<b/>mewn<b/>i'r</l>
-        <r>i<b/>mewn<b/>i<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+        <l>chi'n</l>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
       </p>
     </e>
 
-    <e lm="i'w" r="LR">
-      <p>
-        <l>i'w</l>
-        <r>i<s n="pr"/><j/>ei<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
-      </p>
-    </e>
+<!-- drwy - through (see also trwy) -->
 
-    <e lm="i'n" r="LR">
-      <p>
-        <l>i'n</l>
-        <r>i<s n="pr"/><j/>ein<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
-      </p>
-    </e>
-
-    <e lm="gyda'r" r="LR">
-      <p>
-        <l>gyda'r</l>
-        <r>gyda<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
-      </p>
-    </e>
-
-    <e lm="drwy'n" r="LR">
+	<e lm="drwy'n" r="LR">
       <p>
         <l>drwy'n</l>
         <r>drwy<s n="pr"/><j/>ein<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
@@ -60274,45 +60253,139 @@
       </p>
     </e>
 
-    <e lm="trwy'n" r="LR">
+<!-- (f)e - 3p sg masc pronoun-->
+
+    <e lm="e'n" r="LR">
       <p>
-        <l>trwy'n</l>
-        <r>trwy<s n="pr"/><j/>ein<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+        <l>e'n</l>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>yn<s n="pr"/></r>
       </p>
     </e>
 
-    <e lm="trwy'r" r="LR">
+<!-- gyda - with-->
+
+    <e lm="gyda'i" r="LR">
       <p>
-        <l>trwy'r</l>
-        <r>trwy<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+        <l>gyda'i</l>
+        <r>gyda<s n="pr"/><j/>i<s n="pr"/></r>
       </p>
     </e>
 
-    <e lm="a'r" r="LR">
+	<e lm="gyda'r" r="LR">
       <p>
-        <l>a'r</l>
-        <r>a<s n="cnjcoo"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+        <l>gyda'r</l>
+        <r>gyda<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
       </p>
     </e>
 
-    <e lm="â'i" r="LR">
+<!-- hi - 3p sg fem pronoun-->
+
+    <e lm="hi'n" r="LR">
       <p>
-        <l>â'i</l>
-        <r>â<s n="pr"/><j/>ei<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+        <l>hi'n</l>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>yn<s n="pr"/></r>
       </p>
     </e>
 
-    <e lm="â'i" r="LR">
+<!-- (f)i - 1p sg pronoun-->
+
+	<e lm="i'n" r="LR">
       <p>
-        <l>â'i</l>
-        <r>â<s n="pr"/><j/>ei<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+        <l>i'n</l>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>yn<s n="pr"/></r>
       </p>
     </e>
 
-    <e lm="â'r" r="LR">
+<!-- i - to -->
+    
+    <e lm="i'n" r="LR">
       <p>
-        <l>â'r</l>
-        <r>â<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+        <l>i'n</l>
+        <r>i<s n="pr"/><j/>ein<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="i'w" r="LR">
+      <p>
+        <l>i'w</l>
+        <r>i<s n="pr"/><j/>ei<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+
+	<e lm="i mewn i'r" r="LR">
+      <p>
+        <l>i<b/>mewn<b/>i'r</l>
+        <r>i<b/>mewn<b/>i<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+	</e>
+
+<!-- na - nor -->
+ 
+	<e lm="na'r">
+      <p>
+        <l>na'r</l>
+        <r>na<s n="cnjcoo"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+    </e>  
+
+<!-- na - than -->
+ 
+	<e lm="na'r">
+      <p>
+        <l>na'r</l>
+        <r>na<s n="cnjsub"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+    </e>  
+
+<!-- neu - or -->
+
+    <e lm="neu'r">
+      <p>
+        <l>neu'r</l>
+        <r>neu<s n="cnjcoo"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+    </e>
+
+<!-- nhw - 3p pl pronoun-->
+
+    <e lm="nhw'n" r="LR">
+      <p>
+        <l>nhw'n</l>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
+      </p>
+    </e>
+
+<!-- ni - 1p pl pronoun-->
+
+    <e lm="ni'n" r="LR">
+      <p>
+        <l>ni'n</l>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
+      </p>
+    </e>
+
+<!-- (f)o - 3p sg masc pronoun-->
+
+	<e lm="o'n" r="LR">
+      <p>
+        <l>o'n</l>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>yn<s n="pr"/></r>
+      </p>
+    </e>
+
+<!-- o - from, of -->
+
+	<e lm="o'i" r="LR">
+      <p>
+        <l>o'i</l>
+        <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>ei<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="o'n" r="LR">
+      <p>
+        <l>o'n</l>
+        <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>ein<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
 
@@ -60329,6 +60402,49 @@
         <r>o<s n="pr"/><j/>eu<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
+
+<!-- pa - which-->
+
+    <e lm="pr'un">
+      <p>
+        <l>pr'un</l>
+        <r>pa<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/><j/>un<s n="num"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e lm="p'un">
+      <p>
+        <l>p'un</l>
+        <r>pa<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/><j/>un<s n="num"/><s n="sg"/></r>
+      </p>
+    </e>
+
+<!-- sy - present relative of bod -->
+
+    <e lm="sy'n" r="LR">
+      <p>
+        <l>sy'n</l>
+        <r>a<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/><j/>bod<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>yn<s n="pr"/></r>
+      </p>
+    </e>
+    
+<!-- trwy - through (see also drwy) -->    
+
+    <e lm="trwy'n" r="LR">
+      <p>
+        <l>trwy'n</l>
+        <r>trwy<s n="pr"/><j/>ein<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+
+    <e lm="trwy'r" r="LR">
+      <p>
+        <l>trwy'r</l>
+        <r>trwy<s n="pr"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
+      </p>
+    </e>
+
+<!-- wedi - after -->
 
     <e lm="wedi'r" r="LR">
       <p>
@@ -60351,12 +60467,16 @@
       </p>
     </e>
 
+<!-- yma - here -->
+
     <e lm="yma'n" r="LR">
       <p>
         <l>yma'n</l>
         <r>yma<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
       </p>
     </e>
+
+<!-- yna - there -->
 
     <e lm="yna'n" r="LR">
       <p>
@@ -60365,78 +60485,7 @@
       </p>
     </e>
 
-	<e lm="i'n" r="LR">
-      <p>
-        <l>i'n</l>
-		<r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>yn<s n="pr"/></r>
-      </p>
-    </e>
-
-    <e lm="ni'n" r="LR">
-      <p>
-        <l>ni'n</l>
-		<r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
-      </p>
-    </e>
-
-    <e lm="e'n" r="LR">
-      <p>
-        <l>e'n</l>
-		<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>yn<s n="pr"/></r>
-      </p>
-    </e>
-
-	<e lm="o'n" r="LR">
-      <p>
-        <l>o'n</l>
-		<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>yn<s n="pr"/></r>
-      </p>
-    </e>
-
-    <e lm="hi'n" r="LR">
-      <p>
-        <l>hi'n</l>
-		<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>yn<s n="pr"/></r>
-      </p>
-    </e>
-
-    <e lm="nhw'n" r="LR">
-      <p>
-        <l>nhw'n</l>
-		<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
-      </p>
-    </e>
-
-    <e lm="chi'n" r="LR">
-      <p>
-        <l>chi'n</l>
-		<r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>yn<s n="pr"/></r>
-      </p>
-    </e>
-
-    <e lm="neu'r">
-      <p>
-        <l>neu'r</l>
-        <r>neu<s n="cnjcoo"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
-      </p>
-    </e>
-
-    <e lm="p'un">
-      <p>
-        <l>p'un</l>
-        <r>pa<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/><j/>un<s n="num"/><s n="sg"/></r>
-      </p>
-    </e>
-
-    <e lm="pr'un">
-      <p>
-        <l>pr'un</l>
-        <r>pa<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/><j/>un<s n="num"/><s n="sg"/></r>
-      </p>
-    </e>
-
-
-
+<!-- end elision section -->
   </section>
 
   <section id="final" type="inconditional">

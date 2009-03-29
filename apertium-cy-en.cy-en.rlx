@@ -372,7 +372,7 @@ REMOVE:R_sawl_interrogative ("sawl" itg) (-1 be_any);
 REMOVE MSoftC IF (-1 Adj);
 
 #well o lawer na'r
-SELECT:S_na_cnj_postcomp ("na" cnjsub) IF (-1* (adj comp) BARRIER Det);
+SELECT:S_na_cnjsub_postcomp ("na" cnjsub) IF (-1* (adj comp) BARRIER Det);
 
 #i ein rhai ein hunain
 REMOVE PrnSubj IF (NOT -1 V);
