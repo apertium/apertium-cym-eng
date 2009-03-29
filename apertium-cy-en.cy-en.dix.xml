@@ -68,11 +68,11 @@
 
     <e><p><l>amryw<b/>o<s n="det"/><s n="ind"/></l><r>various<s n="det"/><s n="ind"/></r></p></e>
  
-    <e><p><l>rhywun arall<s n="prn"/></l><r>someone else<s n="prn"/></r></p></e>
+    <e><p><l>rhywun<b/>arall<s n="prn"/></l><r>someone<b/>else<s n="prn"/></r></p></e>
     <e><p><l>rhywun<s n="prn"/></l><r>someone<s n="prn"/></r></p></e>
     <e><p><l>pawb<s n="prn"/></l><r>everyone<s n="prn"/></r></p></e>
     <e><p><l>unrhywun<s n="prn"/></l><r>anyone<s n="prn"/></r></p></e>
-    <e><p><l>y<b/>llall<s n="prn"/></l><r>the other<s n="prn"/></r></p></e>
+    <e><p><l>y<b/>llall<s n="prn"/></l><r>the<b/>other<s n="prn"/></r></p></e>
 
     <e><p><l>pa<s n="prn"/></l><r>which<s n="prn"/></r></p></e>
     <e><p><l>pwy<s n="prn"/></l><r>who<s n="prn"/></r></p></e>
@@ -262,14 +262,14 @@
     <e><p><l>namyn<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
     <e><p><l>naill ai<s n="cnjcoo"/></l><r>either<s n="cnjcoo"/></r></p></e>
     <e><p><l>eithr<s n="cnjcoo"/></l><r>except<s n="cnjcoo"/></r></p></e>
-    <e><p><l>na<s n="cnjcoo"/></l><r>nor<s n="cnjcoo"/></r></p></e>
     <e><p><l>â<s n="cnjcoo"/></l><r>as<s n="cnjcoo"/></r></p></e>
     <e><p><l>ys<s n="cnjcoo"/></l><r>as<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>na<s n="cnjcoo"/></l><r>nor<s n="cnjcoo"/></r></p></e>
     <e r="RL"><p><l>na<s n="cnjcoo"/></l><r>than<s n="cnjcoo"/></r></p></e>
-
     <e><p><l>na<s n="cnjsub"/></l><r>than<s n="cnjsub"/></r></p></e>
-    <e><p><l>taw<s n="cnjsub"/></l><r>that<s n="cnjsub"/></r></p></e>
 
+    <e><p><l>taw<s n="cnjsub"/></l><r>that<s n="cnjsub"/></r></p></e>
     <e><p><l>ai<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
     <e><p><l>canys<s n="cnjsub"/></l><r>because<s n="cnjsub"/></r></p></e>
     <e><p><l>cans<s n="cnjsub"/></l><r>because<s n="cnjsub"/></r></p></e>
