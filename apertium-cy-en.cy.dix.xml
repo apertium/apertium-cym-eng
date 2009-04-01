@@ -60403,20 +60403,11 @@
       </p>
     </e>  
 
- 
-    .mine
-    <e lm="na'r llall" r="LR">
-      <p>
-        <l>na'r<b/>ll</l>
-        <r>na<s n="cnjsub"/><j/>y<b/>ll</r>
-      </p>
-      <par n="y_ll/all__prn"/>
-    </e>
 
     <e lm="na'r llall" r="LR">
       <p>
         <l>na'r<b/>ll</l>
-        <r>na<s n="cnjcoo"/><j/>y<b/>ll</r>
+        <r>na<s n="cnjsub"/><j/>y<b/>ll</r>
       </p>
       <par n="y_ll/all__prn"/>
     </e>
