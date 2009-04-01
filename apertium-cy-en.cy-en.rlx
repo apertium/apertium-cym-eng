@@ -50,6 +50,26 @@ LIST F = f;			# feminine
 LIST PrnSubj = (prn subj);		# subject pronoun
 LIST Prn = (prn tn) (prn subj);		# pronoun
 
+LIST P1Sg = (p1 sg);		# first person singular - verb agreement
+LIST P3Sg = (p3 sg);		# third person singular - verb agreement
+LIST P1Pl = (p1 pl);		# first person plural - verb agreement
+LIST P2Pl = (p2 pl);		# second person plural - verb agreement
+LIST P3Pl = (p3 pl);
+
+LIST prn_subj_1sg = (prn subj p1 sg);
+LIST prn_subj_2sg = (prn subj p2 sg);
+LIST prn_subj_3sg_m = (prn subj p3 sg m);
+LIST prn_subj_3sg_f = (prn subj p3 sg f);
+LIST prn_subj_1pl = (prn subj p1 pl);
+LIST prn_subj_2pl = (prn subj p2 pl);
+LIST prn_subj_3pl = (prn subj p3 pl);
+
+LIST PrnSubjP1Sg = (prn subj p1 sg);
+
+SET PrnSubjP3Sg = PrnSubj + P3Sg;
+SET PrnSubjP1Pl = PrnSubj + P1Pl;
+SET PrnSubjP2Pl = PrnSubj + P2Pl;
+SET PrnSubjP3Pl = PrnSubj + P3Pl;
 
 # verbs
 
@@ -62,26 +82,16 @@ LIST Oes = (vbser sp); 		# oes
 
 LIST Vpart = (vpart neg) (vpart aff) (vpart itg); # Verbal particles
 
-LIST P1Sg = (p1 sg);		# first person singular - verb agreement
-LIST P3Sg = (p3 sg);		# third person singular - verb agreement
-LIST P1Pl = (p1 pl);		# first person plural - verb agreement
-LIST P2Pl = (p2 pl);		# second person plural - verb agreement
-LIST P3Pl = (p3 pl);
-
-LIST PrnSubjP1Sg = (prn subj p1 sg);
-
 LIST vb_1sg = (vblex p1 sg);
+LIST vb_2sg = (vblex p2 sg);
+LIST vb_3sg = (vblex p3 sg);
 LIST vb_1pl = (vblex p1 pl);
+LIST vb_2pl = (vblex p2 pl);
 LIST vb_3pl = (vblex p3 pl);
 
 LIST be_1_sg = (vbser p1 sg);
 LIST be_any = (vbser);
 LIST be_pres_3sg = (vbser pres p3 sg);
-
-SET PrnSubjP3Sg = PrnSubj + P3Sg;
-SET PrnSubjP1Pl = PrnSubj + P1Pl;
-SET PrnSubjP2Pl = PrnSubj + P2Pl;
-SET PrnSubjP3Pl = PrnSubj + P3Pl;
 
 SET VbP1Sg = V + P1Sg;
 SET VbP2Pl = V + P2Pl;
@@ -256,8 +266,13 @@ REMOVE Prn IF (-1 NC) (0 Prn) (0 DetDem);
 # UPDATE - for some inexplicable reason this stopped working; even adjusting the location made no difference
 # but the outcome is that I tried the SUBSTITUTE rules below, and these work well
 # ... with the added benefit that we don't need to add obj entries to cydix :-)
-SUBSTITUTE:M_subj_obj_3pl (subj) (obj) PrnSubjP3Pl (NOT -1 vb_3pl);
-SUBSTITUTE:M_subj_obj_1pl (subj) (obj) PrnSubjP1Pl (NOT -1 vb_1pl);
+SUBSTITUTE:M_subj_obj_1sg (subj) (obj) prn_subj_1sg (NOT -1 vb_1sg);
+SUBSTITUTE:M_subj_obj_2sg (subj) (obj) prn_subj_2sg (NOT -1 vb_2sg);
+SUBSTITUTE:M_subj_obj_3sg_m (subj) (obj) prn_subj_3sg_m (NOT -1 vb_3sg);
+SUBSTITUTE:M_subj_obj_3sg_f (subj) (obj) prn_subj_3sg_f (NOT -1 vb_3sg);
+SUBSTITUTE:M_subj_obj_1pl (subj) (obj) prn_subj_1pl (NOT -1 vb_1pl);
+SUBSTITUTE:M_subj_obj_2pl (subj) (obj) prn_subj_2pl (NOT -1 vb_2pl);
+SUBSTITUTE:M_subj_obj_3pl (subj) (obj) prn_subj_3pl (NOT -1 vb_3pl);
 
 
 #i ein rhai ein hunain
