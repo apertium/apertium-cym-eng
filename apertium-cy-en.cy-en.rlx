@@ -8,7 +8,6 @@
 ##################################################
 
 # to-dos
-# add object pronouns in dixes (already done for ni)
 # check and remove if nec items in "apostrophes" section of cydix
 
 
@@ -67,20 +66,22 @@ LIST P1Sg = (p1 sg);		# first person singular - verb agreement
 LIST P3Sg = (p3 sg);		# third person singular - verb agreement
 LIST P1Pl = (p1 pl);		# first person plural - verb agreement
 LIST P2Pl = (p2 pl);		# second person plural - verb agreement
+LIST P3Pl = (p3 pl);
 
 LIST PrnSubjP1Sg = (prn subj p1 sg);
 
 LIST vb_1sg = (vblex p1 sg);
 LIST vb_1pl = (vblex p1 pl);
+LIST vb_3pl = (vblex p3 pl);
 
 LIST be_1_sg = (vbser p1 sg);
 LIST be_any = (vbser);
 LIST be_pres_3sg = (vbser pres p3 sg);
 
-
 SET PrnSubjP3Sg = PrnSubj + P3Sg;
 SET PrnSubjP1Pl = PrnSubj + P1Pl;
 SET PrnSubjP2Pl = PrnSubj + P2Pl;
+SET PrnSubjP3Pl = PrnSubj + P3Pl;
 
 SET VbP1Sg = V + P1Sg;
 SET VbP2Pl = V + P2Pl;
@@ -178,9 +179,12 @@ REMOVE MSoftC IF (1 Prn);
 # Pre-verbal particles
 #####################################
 
+
+
 # delete verbal particle reading if a verb does not follow
 # Mi welodd y bachgen ni a'n ffrindiau ar y traeth.
 REMOVE:R_ni_vpart ("ni" vpart) IF (NOT 1 V);
+
 
 # this needs to be checked and perhaps broken down into smaller rules
 # choose verbal partical if sandwiched between Conj + verb
@@ -248,7 +252,13 @@ REMOVE Prn IF (-1 NC) (0 Prn) (0 DetDem);
 
 # this needs to be expanded for all the pronouns
 # entries for them as obj need to be put in cydix alongside the ones for subj
-REMOVE:R_ni_subj ("ni" subj) IF (NOT -1 vb_1pl);
+#REMOVE:R_ni_subj ("ni"ri prn subj) IF (NOT -1 vb_1pl);
+# UPDATE - for some inexplicable reason this stopped working; even adjusting the location made no difference
+# but the outcome is that I tried the SUBSTITUTE rules below, and these work well
+# ... with the added benefit that we don't need to add obj entries to cydix :-)
+SUBSTITUTE:M_subj_obj_3pl (subj) (obj) PrnSubjP3Pl (NOT -1 vb_3pl);
+SUBSTITUTE:M_subj_obj_1pl (subj) (obj) PrnSubjP1Pl (NOT -1 vb_1pl);
+
 
 #i ein rhai ein hunain
 #REMOVE PrnSubj IF (NOT -1 V);
@@ -492,3 +502,5 @@ REMOVE:R_trafod_n ("trafod"ri n m) IF (1 ("cyfeiriad"ri n m S1));
 # this chooses the be able sense of cyfeiriad (not address) if preceded by yn
 SUBSTITUTE ("gallu"ri vbmod) ("gallu" vbmod S1) NC (-1 prep_yn);
 # doesn't work - investigate
+
+
