@@ -1187,14 +1187,6 @@
           <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
-
-      <e>
-        <p>
-          <l>ni</l>
-          <r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
-        </p>
-      </e>
-
       <e>
         <p>
           <l>chi</l>
@@ -60402,7 +60394,6 @@
         <r>na<s n="cnjsub"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
       </p>
     </e>  
-
 
     <e lm="na'r llall" r="LR">
       <p>
