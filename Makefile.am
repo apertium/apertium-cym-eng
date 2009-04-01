@@ -136,7 +136,7 @@ $(PREFIX2).mode: modes.xml
 	cp *.mode modes/
 
 #                    $(PREFIX1).autopoly.bin 
-apertium_cy_en_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
+apertium_cy_en_DATA=$(PREFIX1).rlx.bin $(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
                     $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
                     $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
                     $(PREFIX1).autopgen.bin \
