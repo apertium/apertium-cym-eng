@@ -7,14 +7,20 @@
 # Try moving it up the pile and see if that works.
 ##################################################
 
+# to-dos
+# add object pronouns in dixes (already done for ni)
+# check and remove if nec items in "apostrophes" section of cydix
+
+
+
+
 #####################################
 # Intial configuration
 #####################################
 
 DELIMITERS = "<.>" "<!>" "<?>" (sent); # end-of-sentence markers
 
-# give Apertium tags a mnemonic to be used in the rules
-
+# the LIST statements give Apertium tags a mnemonic to be used in the rules
 
 # mutations for individual letters
 # first the surface form regex, then the base form regex
@@ -64,9 +70,12 @@ LIST P2Pl = (p2 pl);		# second person plural - verb agreement
 
 LIST PrnSubjP1Sg = (prn subj p1 sg);
 
-LIST vb_1_sg = (vblex p1 sg);
+LIST vb_1sg = (vblex p1 sg);
+LIST vb_1pl = (vblex p1 pl);
+
 LIST be_1_sg = (vbser p1 sg);
 LIST be_any = (vbser);
+LIST be_pres_3sg = (vbser pres p3 sg);
 
 
 SET PrnSubjP3Sg = PrnSubj + P3Sg;
@@ -126,86 +135,81 @@ SET Conj = CC + CS;
 LIST Interj = ij;			# interjection
 
 
+
+
 #####################################
 # Morphological disambiguation
 #####################################
 SECTION
 
 
-#Yn ôl Ms Thomas
-REMOVE:R_ynôl_adv Adv IF (0 Prep_yn_ôl) (1 Ant);
-# needs expansion - perhaps put two meanings in the dictionary?
 
-#dawnsio yn y cae
-SELECT NC IF (-1 DetDef) (0 NC) (0 V);
-
-# choose verbal partical if sandwiched between Conj + verb
-SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex))) 
-		((1 (vblex)) OR (1 (vbser)) OR (1 (vbmod)) OR (1 (vaux))) 
-		(NOT 1 (vblex inf)) (NOT 1 (n)) (NOT 1 Num) (NOT 0 CC);
-
-SELECT Vpart IF ((-1 (cm)) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 Num) (NOT 0 CC);
-SELECT (vbser cns) IF (-1 Vpart);
-
-REMOVE Vpart IF (-1 V) (1 NC);
-
-#This is horrible:
-#nid oes llawer o'r rheiny ar ôl
-SELECT (vbser) IF (0 NC) (0 (vbser)) (1 DetQnt) (2 DetDef);
-
-
-# choose a 1p.sg pronoun if it is preceded by 1p.sg bod
-# rydw i'n anfon - i'n should be seen as pronoun + yn, not as prep + ein - I am sending
-SELECT:S_i_1sg PrnSubjP1Sg IF (-1 be_1_sg) (0 Prep_i) (0 PrnSubjP1Sg);
-
-# choose the preposition "i" if it is followed by an infinitive
-# aeth i gael y pres - he went to get the money
-# aethom i gael y pres - we went to get the money
-# the first is alright without this rule, the second isn't
-SELECT:S_i_prep Prep_i IF (NOT -1 vb_1_sg) (0 Prep_i) (0 PrnSubjP1Sg);
-
-# We need more work to differentiate between
-# cerddaf i'r dre - I'll walk to the town (prep + yr)
-# and
-# wela i'r dyn fory - I'll see the man tomorrow (prn + yr)
-# May not even be possible without some marker of case.
-
-
-#Rydan ni wedi sefydlu meini prawf newydd, ystyried y ffordd ymlaen. 
-SELECT:S_1pl_prn PrnSubjP1Pl IF (-1 P1Pl) (-1 V);
-# ?? Is this required?  I think the problems with ni were due to incorrect entries for dod and dianc, and these have been fixed - check.
-
-
-#tra bod
-REMOVE:R_tra_adv ("tra" adv) IF (NOT 1 Adj);
+# Mutations
+#####################################
 
 #Early removal of impossible aspirate mutations.
 #Gobeithio bod popeth yn iawn gyda chi
-REMOVE:R_aspC_imposs MAspC IF (NOT -1 ("ei")) (NOT -1 ("a" cnjcoo)) (NOT -1 ("â")) (NOT -1 ("chwech"));
-
-# delete a subject pronoun if preceded by an infinitive
-# i'w weld fo
-# NOT: mynd â chi ar
-REMOVE:R_prn_postinfin PrnSubj IF (-1 VblexInf) (NOT 0 MAspC);
+REMOVE:R_asp_c_notpostprep  MAspC IF (NOT -1 ("ei")) (NOT -1 ("a" cnjcoo)) (NOT -1 ("â")) (NOT -1 ("chwech"));
 
 #mynd â chi ar
 REMOVE:R_aspC_imposs MAspC IF (-1 (vblex)) (0 MAspC) (0 PrnSubj);
 REMOVE:R_aspC_imposs MAspC IF (-1 (n)) (0 MAspC) (0 PrnSubj);
 # The ambiguity in sense still needs to be resolved somehow.
 
-# delete a noun from a {noun, pronoun} cohort if preceded by an infinitive and followed by a preposition
-# i'w weld fo yn y dref
-REMOVE NC IF (-1 V) (0 NC) (0 PrnSubj) (1 Pr);
+#Rhai gwynion, rhai gwinau,
+REMOVE MSoftC IF (-1 Adj);
+# seems too greedy
 
-# delete a noun from a {vbmod, noun} cohort if preceded by a preposition
-# this may be cast too widely - let's see ...
-# yn gallu dod (able to come) - *in capacity come
-REMOVE NC IF (-1 Pr) (0 NC) (0 VbMod);
+# pobl y de
+REMOVE MSoftC IF (-1 DetDef);
+# seems too greedy
 
-# delete a noun from a {verb, noun} cohort if preceded by a verbal particle
-# nad oes (that there is not) - *not age
-REMOVE:R_oes_age NC IF (-1 Vpart) (0 NC) (0 V);
+#cyfarfod nos
+REMOVE MNasC IF (0 (n f)) (-1 (n m));
 
+#o ryw fath
+REMOVE MSoftC IF (0 (n m)) (-1 NC);
+
+#Bryd hynny
+REMOVE MSoftC IF (1 Prn);
+
+
+
+# Pre-verbal particles
+#####################################
+
+# delete verbal particle reading if a verb does not follow
+# Mi welodd y bachgen ni a'n ffrindiau ar y traeth.
+REMOVE:R_ni_vpart ("ni" vpart) IF (NOT 1 V);
+
+# this needs to be checked and perhaps broken down into smaller rules
+# choose verbal partical if sandwiched between Conj + verb
+SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex))) 
+		((1 (vblex)) OR (1 (vbser)) OR (1 (vbmod)) OR (1 (vaux)))
+		(NOT 1 (vblex inf)) (NOT 1 (n)) (NOT 1 Num) (NOT 0 CC);
+
+SELECT Vpart IF ((-1 (cm)) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 Num) (NOT 0 CC);
+
+SELECT (vbser cns) IF (-1 Vpart);
+
+# choose det.def after a verb and before a noun
+REMOVE:R_yr_vpart Vpart IF (-1 V) (1 NC);
+
+# choose the interrogative "a" instead of the conjunctive "a" if oes follows
+# this could probably be broadened out
+# a oes lle yma? (is there room (a place) here?) - *and there are where here
+REMOVE:R_a_cnjcoo ("a" cnjcoo) IF (1 Oes);
+# Oops - gives "did this place there are"
+# With above "lle yma" rules, we now get "did place there are here"
+# not ideal, but slightly better than original "and there are where here"
+# where is "did" coming from? "did" is never used with "be" in English!!
+# and where is the plural coming from?
+# "place there is here" would be acceptable
+
+
+
+# Determiners
+#####################################
 
 REMOVE:R_yna_det ("yna" det) OR ("yma" det) (NOT -2 DetDef);
 # as analogue of rule below - can they be combined?
@@ -222,48 +226,154 @@ REMOVE:R_lle_where ("lle" itg) IF (NOT 1 V);
 # or we get "this place there are"
 # with both in this order, we get "and place there are here"
 
+# mark a possessive determiner as being masculine if followed by soft mutation
+SUBSTITUTE:M_mf_m_presoft (mf) (m) DetPos (1 MSoftC) (NOT 0 ("<o'i>"));
+# what's with the last condition?
+# and feminine if followed by aspirate mutation.
+SUBSTITUTE:M_mf_f_preasp (mf) (f) DetPos (1 MAspC);
 
-# choose the interrogative "a" instead of the conjunctive "a" if oes follows
-# this could probably be broadened out
-# a oes lle yma? (is there room (a place) here?) - *and there are where here
-REMOVE:R_a_cnjcoo ("a" cnjcoo) IF (1 Oes);
-# Oops - gives "did this place there are"
-# With above "lle yma" rules, we now get "did place there are here"
-# not ideal, but slightly better than original "and there are where here"
-# where is "did" coming from? "did" is never used with "be" in English!!
-# and where is the plural coming from?
-# "place there is here" would be acceptable
+#gwerthir llyfrau yma
+REMOVE DetDem IF (NOT -2* DetDef BARRIER V) ;
+# may not be required now - R_yna_det
 
-
-# this chooses the be able sense of cyfeiriad (not address) if preceded by yn
-SUBSTITUTE ("gallu"ri vbmod) ("gallu" vbmod S1) NC (-1 prep_yn);
-# doesn't work - investigate
-
-# this chooses the direction sense of cyfeiriad (not address) if preceded by trafod
-SUBSTITUTE:M_cyfeiriad_direction_posttrafod ("cyfeiriad"ri n m) ("cyfeiriad" n m S1) NC (-1 ("trafod"ri vblex));
-
-# this gets rid of noun reading of trafod if it's followed by cyfeiriad
-# we could probably change this to NC, because it's of wider application
-REMOVE:R_trafod_n ("trafod"ri n m) IF (1 ("cyfeiriad"ri n m S1));
+#y llyfr yma
+REMOVE Adv IF (-1 NC) (0 Adv) (0 DetDem);
+REMOVE Prn IF (-1 NC) (0 Prn) (0 DetDem);
+# may not be required now - R_yna_det
 
 
 
+# Pronouns
+#####################################
 
-# choose a 2p.pl pronoun if it is preceded by a 2p.pl verb
-# rydych chi yn mynd
-SELECT:S_2pl_prn_post2plvb PrnSubjP2Pl IF (0 NC) (0 PrnSubj) (-1 VbP2Pl);
+# this needs to be expanded for all the pronouns
+# entries for them as obj need to be put in cydix alongside the ones for subj
+REMOVE:R_ni_subj ("ni" subj) IF (NOT -1 vb_1pl);
 
-# delete a verb from a {verb, noun} cohort if preceded by "preposition + the"
-# yn y golchi
-REMOVE:R_vb_postdef V IF (0 V) (0 NC) (NOT 0 Acr) (-1 DetDef) (-2 Pr);
+#i ein rhai ein hunain
+#REMOVE PrnSubj IF (NOT -1 V);
+#too broad - revise
+
+# delete a subject pronoun if preceded by an infinitive
+# i'w weld fo
+# NOT: mynd â chi ar
+REMOVE:R_prn_postinfin PrnSubj IF (-1 VblexInf) (NOT 0 MAspC);
 
 # delete a subject pronoun if preceded by an adjective and followed by a proper noun
 # ??
 REMOVE PrnSubj IF (1 NP) (-1 Adj);
 
+# convert iddyn nhw to a subject in subordinate clauses after cyn
+#Mi ddaeth y dyn yn ôl cyn iddyn nhw fynd.
+
+
+
+
+# Interrogatives
+#####################################
+
+# sut + verb --> how + verb, sut + noun --> what sort of + noun
+# we need the ri here to catch cases where sut is at the beginning of a sentence, and therefore capitalised
+REMOVE:R_sut_det_preverb ("sut"ri det) (1 V);
+REMOVE:R_sut_adv_prenoun ("sut"ri adv) (1 NC);
+
+# Mae sawl anifail yn y maes - adjectival use
+REMOVE:R_sawl_interrogative ("sawl" itg) (-1 be_any);
+
+# After "sawl", the Welsh noun will always be singular, but the English one plural.
+SUBSTITUTE:M_sg_pl_postsawl (sg) (pl) NC (-1 ("sawl"ri));
+
+# Also need to propagate pl to following sydd
+# sydd is entered in cydix as a+bod pres, 3p, mf, sg
+# and we can use that subreading directly as a tag
+SUBSTITUTE:M_sg_pl_sydd (sg) (pl) (+bod sg) (-1* ("sawl"ri) BARRIER (sent));
+# this is not perfect, because you could have:
+# mi welodd y ffermwr sawl anifail yr oedd yn eu hoffi
+# so the rule needs to be tightened
+# but it seems unlikely that the adverbial and adjectival uses of sawl in a subordinate clause can be disambiguated like this
+# dwn i ddim sawl gwaith yr aeth i'r lle
+
+# faint o + noun.sing --> how much + noun
+# faint o + noun.plural --> how many + noun
+#
+#SUBSTITUTE (sp) (sg) DetItg (1* (n sg) BARRIER (sent))
+#SUBSTITUTE (sp) (pl) DetItg (1* (n pl) BARRIER (sent))
+#SUBSTITUTE (sp) (sp) DetItg (1* (n sp) BARRIER (sent))
+# these are too greedy - they impact on sut
+
+
+
+# Prepositions
+#####################################
+
+# choose the preposition "i" if it is followed by an infinitive
+# aeth i gael y pres - he went to get the money
+# aethom i gael y pres - we went to get the money
+# the first is alright without this rule, the second isn't
+SELECT:S_i_prep Prep_i IF (NOT -1 vb_1sg) (0 Prep_i) (0 PrnSubjP1Sg);
+# We need more work to differentiate between
+# cerddaf i'r dre - I'll walk to the town (prep + yr)
+# and
+# wela i'r dyn fory - I'll see the man tomorrow (prn + yr)
+# May not even be possible without some marker of case.
+
+#tra bod
+REMOVE:R_tra_adv ("tra" adv) IF (NOT 1 Adj);
+
+#Yn ôl Ms Thomas
+REMOVE:R_ynôl_adv Adv IF (0 Prep_yn_ôl) (1 Ant);
+# needs expansion - perhaps put two meanings in the dictionary?
+
+#dawnsio yn y cae
+SELECT NC IF (-1 DetDef) (0 NC) (0 V);
+
 # mewn i un system
 REMOVE PrnSubj IF (1 Num) (-1 Pr);
 # check re above prn_subj rules
+
+# ymwelwyr o tramor 
+# un o hen
+# ôl i 1880
+REMOVE PrnSubj IF (0 Pr) 
+		  (0 PrnSubj) 
+		  (NOT -1 V)
+		  ((1 NC) OR (1 NP) OR (1 Adj) OR (1 Num));
+
+# stative
+SELECT:S_yn_stative ("yn" stative) (1 (num)) (2 ("oed"ri));
+
+#cyn iddyn nhw
+SELECT:S_cyn_cnjsub_prei ("cyn" cnjsub) (1 Prep_i);
+SELECT:S_subj_postcyn PrnSubj (-1 ("cyn"ri cnjsub));
+
+
+
+# Verbs - bod
+#####################################
+
+#This is horrible:
+#nid oes llawer o'r rheiny ar ôl
+SELECT (vbser) IF (0 NC) (0 (vbser)) (1 DetQnt) (2 DetDef);
+
+#Ac maen nhw wedi
+REMOVE NC IF (0 (vbser)) (1 PrnSubj);
+
+
+
+# Verbs - agreement
+#####################################
+
+# choose a 1p.sg pronoun if it is preceded by 1p.sg bod
+# rydw i'n anfon - i'n should be seen as pronoun + yn, not as prep + ein - I am sending
+SELECT:S_i_1sg PrnSubjP1Sg IF (-1 be_1_sg) (0 Prep_i) (0 PrnSubjP1Sg);
+
+#Rydan ni wedi sefydlu meini prawf newydd, ystyried y ffordd ymlaen. 
+SELECT:S_1pl_prn PrnSubjP1Pl IF (-1 P1Pl) (-1 V);
+# ?? Is this required?  I think the problems with ni were due to incorrect entries for dod and dianc, and these have been fixed - check.
+
+# choose a 2p.pl pronoun if it is preceded by a 2p.pl verb
+# rydych chi yn mynd
+SELECT:S_2pl_prn_post2plvb PrnSubjP2Pl IF (0 NC) (0 PrnSubj) (-1 VbP2Pl);
 
 # Remove a pronoun reading if it doesn't concord with the verb
 # Better would be: 
@@ -276,65 +386,61 @@ REMOVE PrnSubj IF (-1 V) ((-1 (p1) OR (p2))) (0 (p3));
 REMOVE PrnSubj IF (-1 V) (-1 (pl)) (0 (sg));
 REMOVE PrnSubj IF (-1 V) (-1 (sg)) (0 (pl));
 
-# mark a possessive determiner as being masculine if followed by soft mutation
-SUBSTITUTE:M_mf_m_presoft (mf) (m) DetPos (1 MSoftC) (NOT 0 ("<o'i>"));
-# what's with the last condition?
-
-# and feminine if followed by aspirate mutation.
-SUBSTITUTE:M_mf_f_preasp (mf) (f) DetPos (1 MAspC);
-
-
-# faint o + noun.sing --> how much + noun
-# faint o + noun.plural --> how many + noun
-#
-SUBSTITUTE (sp) (sg) DetItg (1* (n sg) BARRIER (sent))
-SUBSTITUTE (sp) (pl) DetItg (1* (n pl) BARRIER (sent))
-SUBSTITUTE (sp) (sp) DetItg (1* (n sp) BARRIER (sent))
-
-# ymwelwyr o tramor 
-# un o hen
-# ôl i 1880
-REMOVE PrnSubj IF (0 Pr) 
-		  (0 PrnSubj) 
-		  (NOT -1 V)
-		  ((1 NC) OR (1 NP) OR (1 Adj) OR (1 Num));
-
-#Ac maen nhw wedi
-REMOVE NC IF (0 (vbser)) (1 PrnSubj);
-
-
 REMOVE V IF (-1 DetDef);
+# isn't this duplicating something else?
+
+#aeth fo
+SELECT PrnSubj IF (0 PrnSubj) (0 (vbser prs)) (-1 (vblex past));
+
+
+
+# Verbs - lexical
+#####################################
+
+
+# delete a verb from a {verb, noun} cohort if preceded by "preposition + the"
+# yn y golchi
+REMOVE:R_vb_postdef V IF (0 V) (0 NC) (NOT 0 Acr) (-1 DetDef) (-2 Pr);
 
 # See 1.3.36 -- we currently just drop subjunctives and imperatives
 REMOVE:R_subjunctive_vb VblexPrs IF (0 V); 
 REMOVE:R_imperative_be Imp IF (0 (vbser)); 
 REMOVE:R_imperative_vb Imp IF (0 (vblex past)); 
 
-# pobl y de
-REMOVE MSoftC IF (-1 DetDef);
 
-# Mae'r modd y mae gweithwyr mudol
-# nad oedd modd
-# Dim modd ei
-REMOVE MNasC IF ((-1 DetDef) OR (-1 V) OR (-1 (n m)));
 
-#aeth fo
-SELECT PrnSubj IF (0 PrnSubj) (0 (vbser prs)) (-1 (vblex past));
+# Nouns
+#####################################
 
-#cyfarfod nos
-REMOVE MNasC IF (0 (n f)) (-1 (n m));
+# delete a noun from a {noun, pronoun} cohort if preceded by an infinitive and followed by a preposition
+# i'w weld fo yn y dref
+REMOVE NC IF (-1 V) (0 NC) (0 PrnSubj) (1 Pr);
+# this doesn't seem to work - check
 
-#o ryw fath
-REMOVE MSoftC IF (0 (n m)) (-1 NC);
+# delete a noun from a {vbmod, noun} cohort if preceded by a preposition
+# this may be cast too widely - let's see ...
+# yn gallu dod (able to come) - *in capacity come
+REMOVE NC IF (-1 Pr) (0 NC) (0 VbMod);
 
-#Bryd hynny
-REMOVE MSoftC IF (1 Prn);
+# delete a noun from a {verb, noun} cohort if preceded by a verbal particle
+# nad oes (that there is not) - *not age
+REMOVE:R_oes_age NC IF (-1 Vpart) (0 NC) (0 V);
+
+
+
+# Nouns - tweaking
+#####################################
 
 #Edwina Hart
 SELECT (np ant) IF (1 (np cog));
 
 #Ieuan Wyn Jones AC
 SELECT (n acr) IF (-1 (np cog));
+
+# Mae'r modd y mae gweithwyr mudol
+# nad oedd modd
+# Dim modd ei
+REMOVE MNasC IF ((-1 DetDef) OR (-1 V) OR (-1 (n m)));
 
 #Sioned Haf o Gymdeithas yr Iaith
 REMOVE PrnSubj IF (-1 (np)) (0 Pr) (0 PrnSubj) (1 (np));
@@ -348,41 +454,19 @@ SELECT Pr IF (-1 NC) (1 V);
 #yn sicr o gynyddu
 REMOVE PrnSubj IF (-1 Adj) (1 V);
 
-#gwerthir llyfrau yma
-REMOVE DetDem IF (NOT -2* DetDef BARRIER V) ;
+#ysgolion o'r fath -- no idea why this doesn't work with MSoftC list
+REMOVE ("<f.*>"ri "b.*"ri) IF (0 (n m sg)) (-1 DetDef);  
 
-#y llyfr yma
-REMOVE Adv IF (-1 NC) (0 Adv) (0 DetDem);
-REMOVE Prn IF (-1 NC) (0 Prn) (0 DetDem);
 
-# sut + verb --> how + verb, sut + noun --> what sort of + noun
-#SELECT DetItg IF (1* NC BARRIER V);
-#SELECT Adv IF (1* V BARRIER NC);
-# Temporarily suspended because they are too greedy - see sawl
-# Need to be reinstated after fine-tuning along sawl lines
 
-# After "sawl", the Welsh noun will always be singular, but the English one plural.
-SUBSTITUTE:M_sg_pl_postsawl (sg) (pl) NC (-1 ("sawl"ri));
-# Also need to propagate pl to following sydd
-
-# Mae sawl anifail yn y maes - adjectival use
-REMOVE:R_sawl_interrogative ("sawl" itg) (-1 be_any);
-
-#Rhai gwynion, rhai gwinau,
-REMOVE MSoftC IF (-1 Adj);
+# Conjunctions
+#####################################
 
 #well o lawer na'r
 SELECT:S_na_cnjsub_postcomp ("na" cnjsub) IF (-1* (adj comp) BARRIER Det);
 
-#i ein rhai ein hunain
-REMOVE PrnSubj IF (NOT -1 V);
 
-#ysgolion o'r fath -- no idea why this doesn't work with MSoftC list
-REMOVE ("<f.*>"ri "b.*"ri) IF (0 (n m sg)) (-1 DetDef);  
 
-# not needed, because "trwy gyfrwng y Gymraeg" is now entered as a multiword
-#gyfrwng y Gymraeg
-#REMOVE Adj IF (-1 DetDef);
 
 #####################################
 # Lexical disambiguation
@@ -398,4 +482,13 @@ REMOVE (n f) (0 ("gwaith")) (0 MSoftC);
 # perhaps better to use the meaning tag approach?
 # hmm - does this make sense?  all it says is remove the time meaning when you have soft mutation - needs more
 
+# choose the direction sense of cyfeiriad (not address) if preceded by trafod
+SUBSTITUTE:M_cyfeiriad_direction_posttrafod ("cyfeiriad"ri n m) ("cyfeiriad" n m S1) NC (-1 ("trafod"ri vblex));
 
+# get rid of noun reading of trafod if it's followed by cyfeiriad
+# we could probably change this to NC, because it's of wider application
+REMOVE:R_trafod_n ("trafod"ri n m) IF (1 ("cyfeiriad"ri n m S1));
+
+# this chooses the be able sense of cyfeiriad (not address) if preceded by yn
+SUBSTITUTE ("gallu"ri vbmod) ("gallu" vbmod S1) NC (-1 prep_yn);
+# doesn't work - investigate

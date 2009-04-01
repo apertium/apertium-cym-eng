@@ -122,6 +122,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="numeros">
       <e>
         <re>[0-9]+([.,][0-9]+)?</re>
@@ -1073,7 +1074,6 @@
       </e>
     </pardef>
 
-
     <pardef n="pa__prn">
       <e>
         <p>
@@ -1185,6 +1185,13 @@
         <p>
           <l>ni</l>
           <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>ni</l>
+          <r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -2607,6 +2614,15 @@
       </e>
     </pardef>
 
+	<pardef n="stative__dummy">
+      <e>
+        <p>
+          <l>yn</l>
+          <r><b/><s n="stative"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="/yn__pr">
       <e r="LR">
         <p>
@@ -3781,7 +3797,16 @@
           <r>i<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
-      <e>
+
+	  <e><!--testing an idea-->
+        <p>
+          <l>iddynt</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+
+
+	  <e>
         <p>
           <l>iddynt<b/>hwy</l>
           <r>i<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
@@ -3793,6 +3818,17 @@
           <r>i<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
+
+
+	  <e>
+        <p>
+          <l>iddyn<b/>nhw</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+
+
+
     </pardef>
 
     <pardef n="/tua__pr">
@@ -48838,7 +48874,10 @@
     <e lm="trwy"><i/><par n="/trwy__pr"/></e>
     <e lm="drwy"><i/><par n="/drwy__pr"/></e> 
     <e lm="heb"><i/><par n="/heb__pr"/></e> 
+
     <e lm="yn"><i/><par n="/yn__pr"/></e>   
+    <e lm="yn"><i/><par n="stative__dummy"/></e>
+
     <e lm="o"><i/><par n="/o__pr"/></e> 
     <e lm="rhwng"><i/><par n="/rhwng__pr"/></e>   
     <e lm="rhag"><i/><par n="/rhag__pr"/></e> 
@@ -49027,16 +49066,15 @@
     <e lm="pa mor"><i>pa<b/>mor</i><par n="faint_o__det"/></e>
     <e lm="faint mor"><i>faint<b/>mor</i><par n="faint_o__det"/></e>
     <e lm="pa fath o"><i>pa<b/>fath<b/>o</i><par n="faint_o__det"/></e>
-    <e lm="sut"><i>sut</i><par n="faint_o__det"/></e>
+
+    <e lm="sut"><i>sut</i><par n="faint_o__det"/></e><!-- what sort of + noun -->
+	<e lm="sut"><i>sut</i><par n="ble__adv"/></e><!-- how + verb -->
 
     <!-- Adverbs -->
     <e lm="iawn"><i>iawn</i><par n="iawn__preadv"/></e>
-
     <e lm="ble"><i>ble</i><par n="ble__adv"/></e>
     <e lm="lle"><i>lle</i><par n="ble__adv"/></e>
     <e lm="pryd"><i>pryd</i><par n="ble__adv"/></e>
-    <e lm="sut"><i>sut</i><par n="ble__adv"/></e>
-
     <e lm="ar gael"><i>ar<b/>gael</i><par n="yma__adv"/></e>
     <e lm="o'r blaen"><i>o'r<b/>blaen</i><par n="yma__adv"/></e>
     <e lm="er cof am"><i>er<b/>cof<b/>am</i><par n="yma__adv"/></e>
@@ -58317,6 +58355,8 @@
 	<e lm="gyda llaw"><i>gyda<b/>llaw</i><par n="yma__adv"/></e>
 	<e lm="o hyn ymlaen"><i>o<b/>hyn<b/>ymlaen</i><par n="yma__adv"/></e>
 	<e lm="ar ei hôl hi"><i>ar<b/>ei<b/>hôl<b/>hi</i><par n="yma__adv"/></e>
+	<e lm="diolch yn fawr"><i>diolch<b/>yn<b/>fawr</i><par n="yma__adv"/></e>
+	<e lm="diolch yn fawr iawn"><i>diolch<b/>yn<b/>fawr<b/>iawn</i><par n="yma__adv"/></e>
 
 
 
@@ -60095,6 +60135,8 @@
 
   </section>
 
+<!-- elements where the initial segment can be elided -->
+<!-- see section below for units where these elements are attached to another word -->
   <section id="elisions" type="preblank">
     <e lm="'ch" r="LR">
       <p>
@@ -60185,20 +60227,35 @@
       <par n="yna__det"/>
     </e>
 
+	<e lm="'r llall" r="LR">
+       <p>
+         <l>'r<b/>ll</l>
+         <r>y<b/>ll</r>
+       </p>
+       <par n="y_ll/all__prn"/>
+     </e>
+
 
   </section>
 
-<!-- elisions -->
+<!-- elision units - see above section for elided elements-->
 <!-- when adding to this section, put them in alphabetical order!-->
+<!-- update - some of these were added at an earlier stage for disambiguation purposes -->
+<!-- so "a'i" was added below to specify conj+poss, and not vpart+poss-->
+<!-- now that we have CG, it is cleaner to do all disambiguation there-->
+<!-- so these items will be commented out as they are tested and found to be dumpable -->
   <section id="apostrophes" type="postblank">
 
 <!-- a - and -->
+
+<!--
 	<e lm="a'i" r="LR">
       <p>
         <l>a'i</l>
         <r>a<s n="cnjcoo"/><j/>ei<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
+-->
 
     <e lm="a'n" r="LR">
       <p>
@@ -60345,6 +60402,16 @@
         <r>na<s n="cnjsub"/><j/>yr<s n="det"/><s n="def"/><s n="sp"/></r>
       </p>
     </e>  
+
+ 
+    .mine
+    <e lm="na'r llall" r="LR">
+      <p>
+        <l>na'r<b/>ll</l>
+        <r>na<s n="cnjsub"/><j/>y<b/>ll</r>
+      </p>
+      <par n="y_ll/all__prn"/>
+    </e>
 
     <e lm="na'r llall" r="LR">
       <p>

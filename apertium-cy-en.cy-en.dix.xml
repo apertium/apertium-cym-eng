@@ -43,7 +43,7 @@
     <e><p><l>faint<b/>mor<s n="det"/><s n="itg"/></l><r>how<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>pa<b/>mor<s n="det"/><s n="itg"/></l><r>how<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>pa<b/>fath<b/>o<s n="det"/><s n="itg"/></l><r>what sort of<s n="det"/><s n="itg"/></r></p></e>
-    <e><p><l>sut<s n="det"/><s n="itg"/></l><r>what sort of<s n="det"/><s n="itg"/></r></p></e>
+
     <e><p><l>am<b/>faint<s n="det"/><s n="itg"/></l><r>for how long<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>ers<b/>faint<s n="det"/><s n="itg"/></l><r>since when<s n="det"/><s n="itg"/></r></p></e>
 
@@ -86,7 +86,9 @@
     <e><p><l>lle<s n="adv"/><s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>ble<s n="adv"/><s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>pryd<s n="adv"/><s n="itg"/></l><r>when<s n="adv"/><s n="itg"/></r></p></e>
-    <e><p><l>sut<s n="adv"/><s n="itg"/></l><r>how<s n="adv"/><s n="itg"/></r></p></e>
+
+    <e><p><l>sut<s n="adv"/><s n="itg"/></l><r>how<s n="adv"/><s n="itg"/></r></p></e><!-- how + verb -->
+	<e><p><l>sut<s n="det"/><s n="itg"/></l><r>what sort of<s n="det"/><s n="itg"/></r></p></e><!-- what sort of + noun -->
 
     <e><p><l>a<s n="rel"/></l><r>that<s n="rel"/></r></p></e>
  
@@ -104,7 +106,10 @@
     <e r="LR"><p><l>trwy<s n="pr"/></l><r>through<s n="pr"/></r></p></e>
     <e><p><l>drwy<s n="pr"/></l><r>through<s n="pr"/></r></p></e>
     <e><p><l>heb<s n="pr"/></l><r>without<s n="pr"/></r></p></e>
+
     <e><p><l>yn<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e><p><l>yn<s n="stative"/></l><r><b/></r></p></e>
+
     <e><p><l>o<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
     <e><p><l>rhwng<s n="pr"/></l><r>between<s n="pr"/></r></p></e>
     <e><p><l>er<s n="pr"/></l><r>although<s n="pr"/></r></p></e>
@@ -201,6 +206,9 @@
     <e><p><l>ymhen<s n="pr"/></l><r>at the end of<s n="pr"/></r></p></e>
  
  	<!-- Multiwords -->
+
+
+
     <!-- Generic multiword prepositions -->
  
     <e><p><l>yn<b/>unol<b/>â<s n="pr"/></l><r>in<b/>accordance<b/>with<s n="pr"/></r></p></e>
@@ -4408,6 +4416,8 @@
 	<e><p><l>gyda<b/>llaw<s n="adv"/></l><r>by<b/>the<b/>way<s n="adv"/></r></p></e>
  	<e><p><l>o<b/>hyn<b/>ymlaen<s n="adv"/></l><r>from<b/>now<b/>on<s n="adv"/></r></p></e>
 	<e><p><l>ar<b/>ei<b/>hôl<b/>hi<s n="adv"/></l><r>running<b/>late<s n="adv"/></r></p></e>
+	<e><p><l>diolch<b/>yn<b/>fawr<s n="adv"/></l><r>thank<b/>you<b/>very<b/>much<s n="adv"/></r></p></e>
+	<e><p><l>diolch<b/>yn<b/>fawr<b/>iawn<s n="adv"/></l><r>thank<b/>you<b/>very<b/>much<b/>indeed<s n="adv"/></r></p></e>
 
 
 
