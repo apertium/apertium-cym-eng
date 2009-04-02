@@ -1230,6 +1230,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="something__prn">
       <e>
         <p>
@@ -1238,6 +1239,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="th/is__prn">
       <e r="RL">
         <p>
@@ -14073,10 +14075,13 @@
     <e lm="one"><i>one</i><par n="the_other__prn"/></e>
     <e lm="the other"><i>the<b/>other</i><par n="the_other__prn"/></e>
 
+
     <e lm="somebody"><i>somebody</i><par n="everyone__prn"/></e>
     <e lm="someone"><i>someone</i><par n="everyone__prn"/></e>
     <e lm="someone else"><i>someone<b/>else</i><par n="everyone__prn"/></e>
     <e lm="something"><i>something</i><par n="something__prn"/></e>
+ 	<e lm="somewhat"><i>somewhat</i><par n="maybe__adv"/></e>
+    <e lm="somewhere"><i>somewhere</i><par n="maybe__adv"/></e>
 
     <e lm="that"><i>th</i><par n="th/at__prn"/></e>
     <e lm="this"><i>th</i><par n="th/is__prn"/></e>
@@ -24149,8 +24154,6 @@
     <e lm="poorly"><i>poorly</i><par n="maybe__adv"/></e>
     <e lm="previously"><i>previously</i><par n="maybe__adv"/></e>
     <e lm="publicly"><i>publicly</i><par n="maybe__adv"/></e>
-    <e lm="somewhat"><i>somewhat</i><par n="maybe__adv"/></e>
-    <e lm="somewhere"><i>somewhere</i><par n="maybe__adv"/></e>
     <e lm="stubbornly"><i>stubbornly</i><par n="maybe__adv"/></e>
     <e lm="thoroughly"><i>thoroughly</i><par n="maybe__adv"/></e>
     <e lm="usually"><i>usually</i><par n="maybe__adv"/></e>

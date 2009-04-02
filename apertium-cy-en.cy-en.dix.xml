@@ -67,12 +67,18 @@
 
 
     <e><p><l>amryw<b/>o<s n="det"/><s n="ind"/></l><r>various<s n="det"/><s n="ind"/></r></p></e>
+
  
-    <e><p><l>rhywun<b/>arall<s n="prn"/></l><r>someone<b/>else<s n="prn"/></r></p></e>
-    <e><p><l>rhywun<s n="prn"/></l><r>someone<s n="prn"/></r></p></e>
-    <e><p><l>pawb<s n="prn"/></l><r>everyone<s n="prn"/></r></p></e>
-    <e><p><l>unrhywun<s n="prn"/></l><r>anyone<s n="prn"/></r></p></e>
+    <e><p><l>rhywun<b/>arall<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>someone<b/>else<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>rhywun<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>someone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>unrhywun<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>anyone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+	<e><p><l>rhywbeth<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>something<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>rhywfaint<s n="adv"/></l><r>somewhat<s n="adv"/></r></p></e>
+    <e><p><l>rhywle<s n="adv"/></l><r>somewhere<s n="adv"/></r></p></e>
+
+
     <e><p><l>y<b/>llall<s n="prn"/></l><r>the<b/>other<s n="prn"/></r></p></e>
+    <e><p><l>pawb<s n="prn"/></l><r>everyone<s n="prn"/></r></p></e>
 
     <e><p><l>pa<s n="prn"/></l><r>which<s n="prn"/></r></p></e>
     <e><p><l>pwy<s n="prn"/></l><r>who<s n="prn"/></r></p></e>
@@ -108,7 +114,7 @@
     <e><p><l>heb<s n="pr"/></l><r>without<s n="pr"/></r></p></e>
 
     <e><p><l>yn<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
-    <e><p><l>yn<s n="stative"/></l><r><b/></r></p></e>
+    <e><p><l>yn<s n="stative"/></l><r></r></p></e>
 
     <e><p><l>o<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
     <e><p><l>rhwng<s n="pr"/></l><r>between<s n="pr"/></r></p></e>
@@ -2602,10 +2608,6 @@
     <e><p><l>rhifyn<s n="n"/><s n="m"/></l><r>number<s n="n"/></r></p></e>
     <e><p><l>rhyddid<s n="n"/><s n="m"/></l><r>freedom<s n="n"/></r></p></e>
     <e><p><l>rhyngrwyd<s n="n"/><s n="f"/></l><r>internet<s n="n"/></r></p></e>
-    <e><p><l>rhywbeth<s n="n"/><s n="m"/></l><r>something<s n="n"/></r></p></e>
-    <e><p><l>rhywfaint<s n="n"/><s n="m"/></l><r>amount<s n="n"/></r></p></e>
-    <e><p><l>rhywle<s n="n"/><s n="m"/></l><r>somewhere<s n="n"/></r></p></e>
-    <e><p><l>rhywun<s n="n"/><s n="m"/></l><r>someone<s n="n"/></r></p></e>
     <e><p><l>rwbel<s n="n"/><s n="m"/></l><r>rubble<s n="n"/></r></p></e>
     <e><p><l>Rwseg<s n="n"/><s n="f"/></l><r>Russian<s n="n"/></r></p></e>
     <e><p><l>rygbi<s n="n"/><s n="m"/></l><r>rugby<s n="n"/></r></p></e>
@@ -6025,6 +6027,8 @@
     <e><p><l>ysgafn<s n="adj"/><s n="sint"/></l><r>light<s n="adj"/><s n="sint"/></r></p></e> 
  
     <!-- Verbs -->
+
+	<e><p><l>ddaru<s n="vaux"/><s n="past"/><s n="invariant"/></l><r>do<s n="vblex"/><s n="past"/></r></p></e>
  
     <e><p><l>plygu<s n="vblex"/></l><r>bend<s n="vblex"/></r></p></e>
     <e><p><l>eangu<s n="vblex"/></l><r>broaden<s n="vblex"/></r></p></e>
