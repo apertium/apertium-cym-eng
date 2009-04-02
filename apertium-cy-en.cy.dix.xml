@@ -2610,7 +2610,7 @@
       <e>
         <p>
           <l>yn</l>
-          <r><b/><s n="stative"/></r>
+          <r>yn<s n="stative"/></r>
         </p>
       </e>
     </pardef>
@@ -3789,14 +3789,14 @@
           <r>i<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
-
-	  <e><!--testing an idea-->
+<!-- reverting
+	  <e>
         <p>
           <l>iddynt</l>
           <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
-
+-->
 
 	  <e>
         <p>
@@ -3811,14 +3811,14 @@
         </p>
       </e>
 
-
+<!-- reverting
 	  <e>
         <p>
           <l>iddyn<b/>nhw</l>
           <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
-
+-->
 
 
     </pardef>
@@ -10715,6 +10715,16 @@
     </pardef>
 
 
+<!-- verbs -->
+
+	<pardef n="ddaru__vaux">
+	  <e>
+        <p>
+          <l/>
+          <r><s n="vaux"/><s n="past"/><s n="invariant"/></r>
+        </p>
+      </e>
+    </pardef>
 
 
     <pardef n="defnydd/io__vblex">
@@ -48821,6 +48831,8 @@
   <section id="main" type="standard">
     <e lm="mutations"><i/><par n="mutations"/></e>
 
+<!-- preverbal particles -->
+
     <e lm="ni"><i/><par n="/ni__vpart"/></e>
     <e lm="na"><i/><par n="/na__vpart"/></e>
     <e lm="a"><i>a</i><par n="a__vpart"/></e>
@@ -48834,9 +48846,12 @@
     <e lm="pronoms enfàtics"><i/><par n="premph__prn"/></e>
 
     <e lm="unrhywun"><i>unrhywun</i><par n="unrhywun__prn"/></e>
-    <e lm="rhywun arall"><i>rhywun<b/>arall</i><par n="unrhywun__prn"/></e>
-    <e lm="rhywun"><i>rhywun</i><par n="unrhywun__prn"/></e>
+    <e lm="rhywun arall"><par n="initial-rh"/><i>ywun<b/>arall</i><par n="unrhywun__prn"/></e>
+    <e lm="rhywun"><par n="initial-rh"/><i>ywun</i><par n="unrhywun__prn"/></e>
     <e lm="pawb"><par n="initial-p"/><i>awb</i><par n="unrhywun__prn"/></e>
+	<e lm="rhywbeth"><par n="initial-rh"/><i>ywbeth</i><par n="unrhywun__prn"/></e>
+    <e lm="rhywfaint"><par n="initial-rh"/><i>ywfaint</i><par n="yma__adv"/></e>
+    <e lm="rhywle"><par n="initial-rh"/><i>ywle</i><par n="yma__adv"/></e>
 
     <e lm="pa"><par n="initial-p"/><i>a</i><par n="pa__prn"/></e>
     <e lm="pa rai"><par n="initial-p"/><i>a<b/>rai</i><par n="pa_rai__prn"/></e>
@@ -48854,6 +48869,7 @@
  
     <e lm="yn"><i>yn</i><par n="yn__part"/></e>  -->
 
+<!-- prepositions -->
 
     <e lm="ar"><i/><par n="/ar__pr"/></e>
     <e lm="am"><i/><par n="/am__pr"/></e>
@@ -49014,7 +49030,8 @@
     <e lm="pan"><par n="initial-p"/><i>an</i><par n="oherwydd__cnjsub"/></e>
 
 
-    <!-- Determiners -->
+<!-- determiners, demonstratives, possessives -->
+
     <e lm="yr"><i/><par n="/yr__det"/></e>
 
     <e lm="yma"><i>yma</i><par n="yna__det"/></e>
@@ -49062,7 +49079,8 @@
     <e lm="sut"><i>sut</i><par n="faint_o__det"/></e><!-- what sort of + noun -->
 	<e lm="sut"><i>sut</i><par n="ble__adv"/></e><!-- how + verb -->
 
-    <!-- Adverbs -->
+<!-- adverbs -->
+
     <e lm="iawn"><i>iawn</i><par n="iawn__preadv"/></e>
     <e lm="ble"><i>ble</i><par n="ble__adv"/></e>
     <e lm="lle"><i>lle</i><par n="ble__adv"/></e>
@@ -50803,10 +50821,6 @@
     <e lm="rhifedd"><par n="initial-rh"/><i>ifedd</i><par n="achosiant__n"/></e>
     <e lm="rhifyn"><par n="initial-rh"/><i>ifyn</i><par n="achosiant__n"/></e>
     <e lm="rhyddid"><par n="initial-rh"/><i>yddid</i><par n="achosiant__n"/></e>
-    <e lm="rhywbeth"><par n="initial-rh"/><i>ywbeth</i><par n="achosiant__n"/></e>
-    <e lm="rhywfaint"><par n="initial-rh"/><i>ywfaint</i><par n="achosiant__n"/></e>
-    <e lm="rhywle"><par n="initial-rh"/><i>ywle</i><par n="achosiant__n"/></e>
-    <e lm="rhywun"><par n="initial-rh"/><i>ywun</i><par n="achosiant__n"/></e>
     <e lm="rygbi"><i>rygbi</i><par n="achosiant__n"/></e>
     <e lm="sadrwydd"><i>sadrwydd</i><par n="achosiant__n"/></e>
     <e lm="Sadwrn"><i>Sadwrn</i><par n="achosiant__n"/></e>
@@ -54380,6 +54394,13 @@
     <e lm="oes"><i>oes</i><par n="oes__vbser"/></e>
     <e lm="dyna"><i>dyna</i><par n="oes__vbser"/></e>
     <e lm="dyma"><i>dyma</i><par n="oes__vbser"/></e>
+
+    <e lm="ddaru"><i>ddaru</i><par n="ddaru__vaux"/></e>
+
+
+
+
+
     <e lm="geni"><par n="initial-g"/><i></i><par n="g/eni__vblex"/></e>
 
     <!-- Multiword verbs -->

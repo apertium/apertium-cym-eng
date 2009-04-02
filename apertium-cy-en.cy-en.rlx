@@ -64,6 +64,7 @@ LIST prn_subj_1pl = (prn subj p1 pl);
 LIST prn_subj_2pl = (prn subj p2 pl);
 LIST prn_subj_3pl = (prn subj p3 pl);
 
+
 LIST PrnSubjP1Sg = (prn subj p1 sg);
 
 SET PrnSubjP3Sg = PrnSubj + P3Sg;
@@ -74,7 +75,7 @@ SET PrnSubjP3Pl = PrnSubj + P3Pl;
 # verbs
 
 LIST V = vaux vblex vbser vbmod;		 	# lexical verbs and "to be"
-LIST VblexInf = (vblex inf);		# verb in the infinitive
+#LIST VblexInf = (vblex inf);		# verb in the infinitive
 LIST VblexPrs = (vblex prs);		# verb in the present subjunctive
 LIST Imp = imp;		# imperative
 LIST VbMod = (vbmod);		# modal verb (eg gallu)
@@ -88,6 +89,8 @@ LIST vb_3sg = (vblex p3 sg);
 LIST vb_1pl = (vblex p1 pl);
 LIST vb_2pl = (vblex p2 pl);
 LIST vb_3pl = (vblex p3 pl);
+
+LIST vb_inf = (vblex inf);
 
 LIST be_1_sg = (vbser p1 sg);
 LIST be_any = (vbser);
@@ -260,6 +263,7 @@ REMOVE Prn IF (-1 NC) (0 Prn) (0 DetDem);
 # Pronouns
 #####################################
 
+# Mi welodd y bachgen ni a'n ffrindiau ar y traeth.
 # this needs to be expanded for all the pronouns
 # entries for them as obj need to be put in cydix alongside the ones for subj
 #REMOVE:R_ni_subj ("ni"ri prn subj) IF (NOT -1 vb_1pl);
@@ -268,28 +272,27 @@ REMOVE Prn IF (-1 NC) (0 Prn) (0 DetDem);
 # ... with the added benefit that we don't need to add obj entries to cydix :-)
 SUBSTITUTE:M_subj_obj_1sg (subj) (obj) prn_subj_1sg (NOT -1 vb_1sg);
 SUBSTITUTE:M_subj_obj_2sg (subj) (obj) prn_subj_2sg (NOT -1 vb_2sg);
-SUBSTITUTE:M_subj_obj_3sg_m (subj) (obj) prn_subj_3sg_m (NOT -1 vb_3sg);
+SUBSTITUTE:M_subj_obj_3sg_m (subj) (obj) prn_subj_3sg_m (NOT -1 vb_3sg) (NOT -1 (invariant));
 SUBSTITUTE:M_subj_obj_3sg_f (subj) (obj) prn_subj_3sg_f (NOT -1 vb_3sg);
 SUBSTITUTE:M_subj_obj_1pl (subj) (obj) prn_subj_1pl (NOT -1 vb_1pl);
 SUBSTITUTE:M_subj_obj_2pl (subj) (obj) prn_subj_2pl (NOT -1 vb_2pl);
 SUBSTITUTE:M_subj_obj_3pl (subj) (obj) prn_subj_3pl (NOT -1 vb_3pl);
 
-
-#i ein rhai ein hunain
+# i ein rhai ein hunain
 #REMOVE PrnSubj IF (NOT -1 V);
-#too broad - revise
+# too broad - revise
 
 # delete a subject pronoun if preceded by an infinitive
 # i'w weld fo
 # NOT: mynd â chi ar
-REMOVE:R_prn_postinfin PrnSubj IF (-1 VblexInf) (NOT 0 MAspC);
+REMOVE:R_prn_postinfin PrnSubj IF (-1 vb_inf) (NOT 0 MAspC);
 
 # delete a subject pronoun if preceded by an adjective and followed by a proper noun
 # ??
 REMOVE PrnSubj IF (1 NP) (-1 Adj);
 
 # convert iddyn nhw to a subject in subordinate clauses after cyn
-#Mi ddaeth y dyn yn ôl cyn iddyn nhw fynd.
+# Mi ddaeth y dyn yn ôl cyn iddyn nhw fynd.
 
 
 
@@ -342,14 +345,14 @@ SELECT:S_i_prep Prep_i IF (NOT -1 vb_1sg) (0 Prep_i) (0 PrnSubjP1Sg);
 # wela i'r dyn fory - I'll see the man tomorrow (prn + yr)
 # May not even be possible without some marker of case.
 
-#tra bod
+# tra bod
 REMOVE:R_tra_adv ("tra" adv) IF (NOT 1 Adj);
 
-#Yn ôl Ms Thomas
+# Yn ôl Ms Thomas
 REMOVE:R_ynôl_adv Adv IF (0 Prep_yn_ôl) (1 Ant);
 # needs expansion - perhaps put two meanings in the dictionary?
 
-#dawnsio yn y cae
+# dawnsio yn y cae
 SELECT NC IF (-1 DetDef) (0 NC) (0 V);
 
 # mewn i un system
@@ -365,12 +368,19 @@ REMOVE PrnSubj IF (0 Pr)
 		  ((1 NC) OR (1 NP) OR (1 Adj) OR (1 Num));
 
 # stative
-SELECT:S_yn_stative ("yn" stative) (1 (num)) (2 ("oed"ri));
+SELECT:S_yn_stative ("yn" stative) (1 (num));
+#SUBSTITUTE:M_pr_stative_yn (pr) (stative) ("yn" pr) (1 (num)) (2 ("oed"ri));
 
-#cyn iddyn nhw
-SELECT:S_cyn_cnjsub_prei ("cyn" cnjsub) (1 Prep_i);
-SELECT:S_subj_postcyn PrnSubj (-1 ("cyn"ri cnjsub));
-
+# cyn iddyn nhw
+# note that these two rules are co-dependent
+# we use i_prep to decide that cyn is cnjsub
+# and then use cyn_cnjsub to choose the subj form of i_prep
+#SELECT:S_cyn_cnjsub_prei ("cyn" cnjsub) (1 Prep_i);
+#SELECT:S_subj_postcyn PrnSubj (-1 ("cyn"ri cnjsub));
+# had to revert - clashes with M_subj_obj_xyy.
+SUBSTITUTE:M_obj_subj_posti_preinf (obj) (subj) (+prpers obj) (1 vb_inf);
+# this works better, and is applicable to things other than cyn, eg erbyn, wedi, etc.
+# could be tightened by adding (-1 Time_prep)
 
 
 # Verbs - bod
