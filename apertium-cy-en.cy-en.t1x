@@ -4075,7 +4075,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: VERB aux">
+    <rule comment="conjugate an auxiliary verb on the English side">
       <pattern>
         <pattern-item n="verbaux"/>
       </pattern>
@@ -4088,7 +4088,7 @@
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-              <tag><lit-tag v="inf"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>

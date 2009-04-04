@@ -192,8 +192,6 @@ REMOVE MSoftC IF (1 Prn);
 # Pre-verbal particles
 #####################################
 
-
-
 # delete verbal particle reading if a verb does not follow
 # Mi welodd y bachgen ni a'n ffrindiau ar y traeth.
 REMOVE:R_ni_vpart ("ni" vpart) IF (NOT 1 V);
@@ -385,6 +383,10 @@ SUBSTITUTE:M_obj_subj_posti_preinf (obj) (subj) (+prpers obj) (1 vb_inf);
 
 # gan feddwl amdani, gan gynnwys
 # noun gets chosen
+
+# wrth fynd i'r ffenestr
+# select i_prep, not i_prn
+SELECT:S_i_postinfin ("i" pr) (-1 vb_inf);
 
 
 
