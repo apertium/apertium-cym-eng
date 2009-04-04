@@ -17421,12 +17421,15 @@
         </p>
       </e>
       <!-- Check this ~ Added from Afal -->
+<!-- KD - I've never heard this.  As an imperative, perhaps, but it's marked imperfect. -->
+<!--
       <e r="LR">
         <p>
           <l>ywed</l>
           <r>weud<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
+-->
       <e>
         <p>
           <l>ywedid</l>
@@ -54405,6 +54408,10 @@
 
     <!-- Multiword verbs -->
 
+	<e lm="dwn i ddim"><i>dwn<b/>i<b/>ddim</i><par n="ddaru__vaux"/></e>
+	<e lm="gyda llaw"><i>gyda<b/>llaw</i><par n="yma__adv"/></e>
+
+
     <e lm="achub"><i>achub</i><par n="achub__vblex"/><p><l><b/>ar</l><r><g><b/>ar</g></r></p></e>
     <e lm="anelu"><i>anel</i><par n="aberth/u__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
     <e lm="anfon"><i>anfon</i><par n="achub__vblex"/><p><l><b/>am</l><r><g><b/>am</g></r></p></e>
@@ -58369,8 +58376,10 @@
 	<e lm="o hyn ymlaen"><i>o<b/>hyn<b/>ymlaen</i><par n="yma__adv"/></e>
 	<e lm="ar ei hôl hi"><i>ar<b/>ei<b/>hôl<b/>hi</i><par n="yma__adv"/></e>
 	<e lm="diolch yn fawr"><i>diolch<b/>yn<b/>fawr</i><par n="yma__adv"/></e>
+	<e lm="diolch yn fawr i chi"><i>diolch<b/>yn<b/>fawr<b/>i<b/>chi</i><par n="yma__adv"/></e>
 	<e lm="diolch yn fawr iawn"><i>diolch<b/>yn<b/>fawr<b/>iawn</i><par n="yma__adv"/></e>
-
+	<e lm="diolch yn fawr iawn i chi"><i>diolch<b/>yn<b/>fawr<b/>iawn<b/>i<b/>chi</i><par n="yma__adv"/></e>
+	<e lm="yn ogystal â"><i>yn<b/>ogystal<b/>â</i><par n="yma__adv"/></e>
 
 
     <e lm="Llywodraeth y Cynulliad"><par n="initial-Ll"/><i>ywodraeth<b/>y<b/>Cynulliad</i><par n="Cymdeithas_yr_Iaith__np"/></e>

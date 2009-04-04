@@ -270,13 +270,14 @@ REMOVE Prn IF (-1 NC) (0 Prn) (0 DetDem);
 # UPDATE - for some inexplicable reason this stopped working; even adjusting the location made no difference
 # but the outcome is that I tried the SUBSTITUTE rules below, and these work well
 # ... with the added benefit that we don't need to add obj entries to cydix :-)
-SUBSTITUTE:M_subj_obj_1sg (subj) (obj) prn_subj_1sg (NOT -1 vb_1sg);
-SUBSTITUTE:M_subj_obj_2sg (subj) (obj) prn_subj_2sg (NOT -1 vb_2sg);
-SUBSTITUTE:M_subj_obj_3sg_m (subj) (obj) prn_subj_3sg_m (NOT -1 vb_3sg) (NOT -1 (invariant));
-SUBSTITUTE:M_subj_obj_3sg_f (subj) (obj) prn_subj_3sg_f (NOT -1 vb_3sg);
-SUBSTITUTE:M_subj_obj_1pl (subj) (obj) prn_subj_1pl (NOT -1 vb_1pl);
-SUBSTITUTE:M_subj_obj_2pl (subj) (obj) prn_subj_2pl (NOT -1 vb_2pl);
-SUBSTITUTE:M_subj_obj_3pl (subj) (obj) prn_subj_3pl (NOT -1 vb_3pl);
+SUBSTITUTE:M_subj_obj_1sg (subj) (obj) prn_subj_1sg (-1 V) (NOT -1 vb_1sg) (NOT -1 (invariant));
+SUBSTITUTE:M_subj_obj_2sg (subj) (obj) prn_subj_2sg (-1 V) (NOT -1 vb_2sg) (NOT -1 (invariant));
+SUBSTITUTE:M_subj_obj_3sg_m (subj) (obj) prn_subj_3sg_m (-1 V) (NOT -1 vb_3sg) (NOT -1 (invariant));
+SUBSTITUTE:M_subj_obj_3sg_f (subj) (obj) prn_subj_3sg_f (-1 V) (NOT -1 vb_3sg) (NOT -1 (invariant));
+SUBSTITUTE:M_subj_obj_1pl (subj) (obj) prn_subj_1pl (-1 V) (NOT -1 vb_1pl) (NOT -1 (invariant));
+SUBSTITUTE:M_subj_obj_2pl (subj) (obj) prn_subj_2pl (-1 V) (NOT -1 vb_2pl) (NOT -1 (invariant));
+SUBSTITUTE:M_subj_obj_3pl (subj) (obj) prn_subj_3pl (-1 V) (NOT -1 vb_3pl) (NOT -1 (invariant));
+# (invariant) to cover "ddaru"
 
 # i ein rhai ein hunain
 #REMOVE PrnSubj IF (NOT -1 V);
@@ -381,6 +382,11 @@ SELECT:S_yn_stative ("yn" stative) (1 (num));
 SUBSTITUTE:M_obj_subj_posti_preinf (obj) (subj) (+prpers obj) (1 vb_inf);
 # this works better, and is applicable to things other than cyn, eg erbyn, wedi, etc.
 # could be tightened by adding (-1 Time_prep)
+
+# gan feddwl amdani, gan gynnwys
+# noun gets chosen
+
+
 
 
 # Verbs - bod

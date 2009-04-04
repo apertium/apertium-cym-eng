@@ -1346,8 +1346,10 @@
     <e><p><l>cyfatebiaeth<s n="n"/><s n="f"/></l><r>correspondence<s n="n"/></r></p></e>
     <e><p><l>cyfathrebiad<s n="n"/><s n="m"/></l><r>communication<s n="n"/></r></p></e>
     <e><p><l>cyfathrebiad<s n="n"/><s n="m"/></l><r>communication<s n="n"/></r></p></e>
+
     <e r="LR"><p><l>cyfeiriad<s n="n"/><s n="m"/><s n="S1"/></l><r>direction<s n="n"/></r></p></e>
     <e><p><l>cyfeiriad<s n="n"/><s n="m"/></l><r>address<s n="n"/></r></p></e>
+
     <e><p><l>cyfeirlyfr<s n="n"/><s n="m"/></l><r>directory<s n="n"/></r></p></e>
     <e><p><l>cyfeirnod<s n="n"/><s n="m"/></l><r>reference<s n="n"/></r></p></e>
     <e><p><l>cyfeirnod<s n="n"/><s n="m"/></l><r>reference<s n="n"/></r></p></e>
@@ -1541,7 +1543,7 @@
     <e><p><l>erlyniad<s n="n"/><s n="m"/></l><r>prosecution<s n="n"/></r></p></e>
     <e><p><l>erthygl<s n="n"/><s n="f"/></l><r>article<s n="n"/></r></p></e>
     
-    <e><p><l>nwydd<s n="n"/><s n="m"/></l><r>article<g><b/>of<b/>merchandise</g><s n="n"/></r></p></e>
+    <e><p><l>nwydd<s n="n"/><s n="m"/></l><r>good<s n="n"/></r></p></e>
 
     <e><p><l>erw<s n="n"/><s n="f"/></l><r>acre<s n="n"/></r></p></e>
     <e><p><l>esboniad<s n="n"/><s n="m"/></l><r>explanation<s n="n"/></r></p></e>
@@ -4418,8 +4420,11 @@
 	<e><p><l>gyda<b/>llaw<s n="adv"/></l><r>by<b/>the<b/>way<s n="adv"/></r></p></e>
  	<e><p><l>o<b/>hyn<b/>ymlaen<s n="adv"/></l><r>from<b/>now<b/>on<s n="adv"/></r></p></e>
 	<e><p><l>ar<b/>ei<b/>hôl<b/>hi<s n="adv"/></l><r>running<b/>late<s n="adv"/></r></p></e>
-	<e><p><l>diolch<b/>yn<b/>fawr<s n="adv"/></l><r>thank<b/>you<b/>very<b/>much<s n="adv"/></r></p></e>
-	<e><p><l>diolch<b/>yn<b/>fawr<b/>iawn<s n="adv"/></l><r>thank<b/>you<b/>very<b/>much<b/>indeed<s n="adv"/></r></p></e>
+	<e><p><l>diolch<b/>yn<b/>fawr<s n="adv"/></l><r>thanks<b/>very<b/>much<s n="adv"/></r></p></e>
+	<e><p><l>diolch<b/>yn<b/>fawr<b/>i<b/>chi<s n="adv"/></l><r>thank<b/>you<b/>very<b/>much<s n="adv"/></r></p></e>
+	<e><p><l>diolch<b/>yn<b/>fawr<b/>iawn<s n="adv"/></l><r>thanks<b/>very<b/>much<b/>indeed<s n="adv"/></r></p></e>
+	<e><p><l>diolch<b/>yn<b/>fawr<b/>iawn<b/>i<b/>chi<s n="adv"/></l><r>thank<b/>you<b/>very<b/>much<b/>indeed<s n="adv"/></r></p></e>
+	<e><p><l>yn<b/>ogystal<b/>â<s n="adv"/></l><r>as<b/>good<b/>as<s n="adv"/></r></p></e>
 
 
 
@@ -9469,6 +9474,8 @@
  
  
      <!-- Multiword verbs -->
+
+ 	<e><p><l>dwn<b/>i<b/>ddim<s n="vaux"/></l><r>I<b/>don't<b/>know<s n="vaux"/></r></p></e>
 
     <e><p><l>achub<g><b/>ar</g><s n="vblex"/></l><r>take<g><b/>advantage<b/>of</g><s n="vblex"/></r></p></e>
     <e><p><l>anelu<g><b/>at</g><s n="vblex"/></l><r>aim<g><b/>at</g><s n="vblex"/></r></p></e>
