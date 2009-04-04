@@ -30,6 +30,7 @@
 /autogen.sh -text
 /configure.ac -text
 /cy-en.prob -text svneol=unset#unset
+dev/qtoutput.csv -text
 /en-cy.prob -text svneol=unset#unset
 /modes.xml -text
 /regression-tests.sh -text
