@@ -4482,7 +4482,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: pr_while VERB inf">
+    <rule comment="tra/wrth/gan (pr_while) + infin --> while + pres_part">
       <pattern>
         <pattern-item n="pr_while"/>
         <pattern-item n="verbinf"/>
