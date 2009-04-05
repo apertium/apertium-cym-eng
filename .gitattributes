@@ -34,4 +34,3 @@ dev/qtoutput.csv -text
 /en-cy.prob -text svneol=unset#unset
 /modes.xml -text
 /regression-tests.sh -text
-utilities/qtoutput.csv -text
