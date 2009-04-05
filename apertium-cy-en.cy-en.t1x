@@ -2020,6 +2020,7 @@
       </action>
     </rule>
 
+
     <rule comment="REGLA: DET NOM NOM">
       <pattern>
         <pattern-item n="det"/>
@@ -2115,8 +2116,6 @@
 	</choose>
       </action>
     </rule>
-
-
 
 
     <rule comment="REGLA: NUM o NOM">
@@ -2511,7 +2510,7 @@
         </choose>
       </action>
     </rule>
-
+<!--
     <rule comment="REGLA: NOM NOM">
       <pattern>
         <pattern-item n="nom"/>
@@ -2548,7 +2547,7 @@
         </let>
       </action>
     </rule>
-
+-->
     <rule comment="REGLA: NOM NOM GUIO NOM">
       <pattern>
         <pattern-item n="nom"/>
@@ -4137,7 +4136,7 @@
     </rule>
 
 
-    <rule comment="REGLA: yn VERBinf">
+    <rule comment="yn + infin --> pres_part">
       <pattern>
         <pattern-item n="yn"/>
         <pattern-item n="verbinf"/>
