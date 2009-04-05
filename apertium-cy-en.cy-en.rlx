@@ -1,10 +1,7 @@
-#
-# Note: This is currently not a real "Constraint Grammar", but more 
-#       of a tool to hack around the badly trained HMM POS tagger.
-#
-################## IMPORTANT #####################
-# If a rule is not having any effect, it may be because it is order-dependent
-# Try moving it up the pile and see if that works.
+################### IMPORTANT #####################
+# If a rule is not having any effect, or having the wrong effect, it is likely that it is not 
+# defined tightly enough.  Redo it more strictly, and it should have the desired effect.
+# Note that "casting" rules [SUBSTITUTE] should come after REMOVE and SELECT rules.
 ##################################################
 
 # to-dos
@@ -192,7 +189,7 @@ REMOVE MSoftC IF (1 Prn);
 # Pre-verbal particles
 #####################################
 
-# delete verbal particle reading if a verb does not follow
+# delete negative verbal particle reading if a verb does not follow
 # Mi welodd y bachgen ni a'n ffrindiau ar y traeth.
 REMOVE:R_ni_vpart ("ni" vpart) IF (NOT 1 V);
 
@@ -261,25 +258,9 @@ REMOVE Prn IF (-1 NC) (0 Prn) (0 DetDem);
 # Pronouns
 #####################################
 
-# Mi welodd y bachgen ni a'n ffrindiau ar y traeth.
-# this needs to be expanded for all the pronouns
-# entries for them as obj need to be put in cydix alongside the ones for subj
-#REMOVE:R_ni_subj ("ni"ri prn subj) IF (NOT -1 vb_1pl);
-# UPDATE - for some inexplicable reason this stopped working; even adjusting the location made no difference
-# but the outcome is that I tried the SUBSTITUTE rules below, and these work well
-# ... with the added benefit that we don't need to add obj entries to cydix :-)
-SUBSTITUTE:M_subj_obj_1sg (subj) (obj) prn_subj_1sg (-1 V) (NOT -1 vb_1sg) (NOT -1 (invariant));
-SUBSTITUTE:M_subj_obj_2sg (subj) (obj) prn_subj_2sg (-1 V) (NOT -1 vb_2sg) (NOT -1 (invariant));
-SUBSTITUTE:M_subj_obj_3sg_m (subj) (obj) prn_subj_3sg_m (-1 V) (NOT -1 vb_3sg) (NOT -1 (invariant));
-SUBSTITUTE:M_subj_obj_3sg_f (subj) (obj) prn_subj_3sg_f (-1 V) (NOT -1 vb_3sg) (NOT -1 (invariant));
-SUBSTITUTE:M_subj_obj_1pl (subj) (obj) prn_subj_1pl (-1 V) (NOT -1 vb_1pl) (NOT -1 (invariant));
-SUBSTITUTE:M_subj_obj_2pl (subj) (obj) prn_subj_2pl (-1 V) (NOT -1 vb_2pl) (NOT -1 (invariant));
-SUBSTITUTE:M_subj_obj_3pl (subj) (obj) prn_subj_3pl (-1 V) (NOT -1 vb_3pl) (NOT -1 (invariant));
-# (invariant) to cover "ddaru"
-
-# i ein rhai ein hunain
-#REMOVE PrnSubj IF (NOT -1 V);
-# too broad - revise
+# Edrychwn ymlaen i glywed ganddoch.
+# remove the prn_1sg reading if the preceding word is not a verb and we have an infinitive following
+REMOVE:R_prn1sg_preinfin_postnonvb prn_subj_1sg (NOT -1 V) (1 vb_inf);
 
 # delete a subject pronoun if preceded by an infinitive
 # i'w weld fo
@@ -293,6 +274,17 @@ REMOVE PrnSubj IF (1 NP) (-1 Adj);
 # convert iddyn nhw to a subject in subordinate clauses after cyn
 # Mi ddaeth y dyn yn ôl cyn iddyn nhw fynd.
 
+# Mi welodd y bachgen ni a'n ffrindiau ar y traeth.
+#REMOVE:R_ni_subj ("ni"ri prn subj) IF (NOT -1 vb_1pl);
+# UPDATE - for some inexplicable reason this stopped working; even adjusting the location made no difference, so changed to a SUBSTITUTE rule
+SUBSTITUTE:M_subj_obj_1sg (subj) (obj) prn_subj_1sg (NOT -1 vb_1sg) (NOT -1 (invariant));
+SUBSTITUTE:M_subj_obj_2sg (subj) (obj) prn_subj_2sg (NOT -1 vb_2sg) (NOT -1 (invariant));
+SUBSTITUTE:M_subj_obj_3sg_m (subj) (obj) prn_subj_3sg_m (NOT -1 vb_3sg) (NOT -1 (invariant));
+SUBSTITUTE:M_subj_obj_3sg_f (subj) (obj) prn_subj_3sg_f (NOT -1 vb_3sg) (NOT -1 (invariant));
+SUBSTITUTE:M_subj_obj_1pl (subj) (obj) prn_subj_1pl (NOT -1 vb_1pl) (NOT -1 (invariant));
+SUBSTITUTE:M_subj_obj_2pl (subj) (obj) prn_subj_2pl (NOT -1 vb_2pl) (NOT -1 (invariant));
+SUBSTITUTE:M_subj_obj_3pl (subj) (obj) prn_subj_3pl (NOT -1 vb_3pl) (NOT -1 (invariant));
+# (invariant) to cover "ddaru"
 
 
 

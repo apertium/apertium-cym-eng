@@ -3477,6 +3477,13 @@
         </p>
       </e>
 
+	  <e>
+        <p>
+          <l>ganddoch</l>
+          <r>gan<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+
       <e>
         <p>
           <l>gennych</l>
@@ -54461,7 +54468,6 @@
     <e lm="ymchwilio"><i>ymchwili</i><par n="achlysur/o__vblex"/><p><l><b/>i</l><r><g><b/>i</g></r></p></e>
     <e lm="ymdebygu"><i>ymdebyg</i><par n="aberth/u__vblex"/><p><l><b/>i</l><r><g><b/>i</g></r></p></e>
     <e lm="ymdrechu"><i>ymdrech</i><par n="aberth/u__vblex"/><p><l><b/>dros</l><r><g><b/>dros</g></r></p></e>
-    <e lm="ymweld"><i>ymw</i><par n="anghydw/eld__vblex"/><p><l><b/>â</l><r><g><b/>â</g></r></p></e>
     <e lm="ysgrifennu"><i>ysgrifenn</i><par n="absenn/u__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
 
     <e lm="adfywhau"><i>adfyw</i><par n="adfyw/hau__vblex"/></e>
@@ -58287,7 +58293,10 @@
     <e lm="ymwacáu"><i>ymwac</i><par n="agos/áu__vblex"/></e>
     <e lm="ymwadu"><i>ymwad</i><par n="aberth/u__vblex"/></e>
     <e lm="ymwaredu"><i>ymwared</i><par n="aberth/u__vblex"/></e>
+
     <e lm="ymweld"><i>ymw</i><par n="anghydw/eld__vblex"/></e>
+    <e lm="ymweld"><i>ymw</i><par n="anghydw/eld__vblex"/><p><l><b/>â</l><r><g><b/>â</g></r></p></e>
+
     <e lm="ymwisgo"><i>ymwisg</i><par n="achlysur/o__vblex"/></e>
     <e lm="ymwrando"><i>ymwrand</i><par n="achlysur/o__vblex"/></e>
     <e lm="ymwrthod"><i>ymwrthod</i><par n="achub__vblex"/></e>
