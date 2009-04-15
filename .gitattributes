@@ -30,6 +30,9 @@
 /autogen.sh -text
 /configure.ac -text
 /cy-en.prob -text svneol=unset#unset
+dev/cg_paper/my_cg.pdf -text
+dev/cg_paper/my_cg.tex -text
+dev/cg_paper/ruletrace.png -text
 dev/qtoutput.csv -text
 /en-cy.prob -text svneol=unset#unset
 /modes.xml -text
