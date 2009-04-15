@@ -255,6 +255,14 @@ REMOVE Prn IF (-1 NC) (0 Prn) (0 DetDem);
 
 
 
+# Adjectives
+#####################################
+# boi iawn; mae'n iawn rŵan
+SELECT:S_iawn_adj Adj ( (-1 NC) OR (-1 prep_yn));
+#REMOVE:R_iawn_adv ("iawn" adv) ( (-1 NC) OR (-1 ("yn" stative)) );
+
+
+
 # Pronouns
 #####################################
 
@@ -366,6 +374,7 @@ SELECT:S_yn_stative ("yn" stative) (1 (num));
 # note that these two rules are co-dependent
 # we use i_prep to decide that cyn is cnjsub
 # and then use cyn_cnjsub to choose the subj form of i_prep
+# this depends on adding subject entries for i in the same way that we already have object entries
 #SELECT:S_cyn_cnjsub_prei ("cyn" cnjsub) (1 Prep_i);
 #SELECT:S_subj_postcyn PrnSubj (-1 ("cyn"ri cnjsub));
 # had to revert - clashes with M_subj_obj_xyy.

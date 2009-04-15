@@ -24197,7 +24197,10 @@
     <e lm="tonight"><i>tonight</i><par n="maybe__adv"/></e>
     <e lm="perhaps"><i>perhaps</i><par n="maybe__adv"/></e>
     <e lm="rather"><i>rather</i><par n="maybe__adv"/></e>
+
     <e lm="OK"><i>OK</i><par n="maybe__adv"/></e>
+    <e lm="OK"><i>OK</i><par n="expensive__adj"/></e>
+
     <e lm="very"><i>very</i><par n="maybe__adv"/></e>
     <e lm="yes"><i>yes</i><par n="maybe__adv"/></e>
     <e lm="up"><i>up</i><par n="maybe__adv"/></e>
