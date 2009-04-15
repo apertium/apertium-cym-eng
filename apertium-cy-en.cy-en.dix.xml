@@ -72,7 +72,7 @@
     <e><p><l>rhywun<b/>arall<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>someone<b/>else<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>rhywun<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>someone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>unrhywun<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>anyone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
-	<e><p><l>rhywbeth<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>something<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+	<e><p><l>rhywbeth<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>something<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
     <e><p><l>rhywfaint<s n="adv"/></l><r>somewhat<s n="adv"/></r></p></e>
     <e><p><l>rhywle<s n="adv"/></l><r>somewhere<s n="adv"/></r></p></e>
 
@@ -1578,6 +1578,7 @@
     <e><p><l>genedigaeth<s n="n"/><s n="f"/></l><r>birth<s n="n"/></r></p></e>
     <e><p><l>geometreg<s n="n"/><s n="f"/></l><r>geometry<s n="n"/></r></p></e>
     <e><p><l>glanhad<s n="n"/><s n="m"/></l><r>cleanup<s n="n"/></r></p></e>
+    <e><p><l>glo<s n="n"/><s n="m"/></l><r>coal<s n="n"/></r></p></e>
     <e><p><l>glyniad<s n="n"/><s n="m"/></l><r>adherence<s n="n"/></r></p></e>
     <e><p><l>goddefiad<s n="n"/><s n="m"/></l><r>concession<s n="n"/></r></p></e>
     <e><p><l>gofod<s n="n"/><s n="m"/></l><r>whitespace<s n="n"/></r></p></e>
