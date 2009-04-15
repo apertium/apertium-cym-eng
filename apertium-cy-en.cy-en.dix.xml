@@ -327,10 +327,7 @@
  
     <!-- Adverbs -->
  
-    <e><p><l>iawn<s n="preadv"/></l><r>very<s n="preadv"/></r></p></e>
-
 <!--    <e><p><l>fel<b/>arfer<s n="adv"/></l><r>as<b/>usual<s n="adv"/></r></p></e> -->
-
     <e><p><l>o'r blaen<s n="adv"/></l><r>available<s n="adv"/></r></p></e>
     <e><p><l>ar gael<s n="adv"/></l><r>before<s n="adv"/></r></p></e>
     <e><p><l>er cof am<s n="adv"/></l><r>in memory of<s n="adv"/></r></p></e>
@@ -460,8 +457,11 @@
     <e><p><l>hwyrach<s n="adv"/></l><r>perhaps<s n="adv"/></r></p></e>
     <e><p><l>hyd<b/>yn<b/>hyn<s n="adv"/></l><r>up<b/>until<b/>now<s n="adv"/></r></p></e>
     <e><p><l>hytrach<s n="adv"/></l><r>rather<s n="adv"/></r></p></e>
-<!--    <e><p><l>iawn<s n="adv"/></l><r>OK<s n="adv"/></r></p></e> -->
+
+    <e><p><l>iawn<s n="preadv"/></l><r>very<s n="preadv"/></r></p></e> <!-- difference between preadv and adv?? -->
     <e><p><l>iawn<s n="adv"/></l><r>very<s n="adv"/></r></p></e>
+    <e><p><l>iawn<s n="adj"/></l><r>OK<s n="adj"/></r></p></e>
+
     <e><p><l>ie<s n="adv"/></l><r>yes<s n="adv"/></r></p></e>
     <e><p><l>i<b/>fyny<s n="adv"/></l><r>up<s n="adv"/></r></p></e>
     <e><p><l>i<b/>lawr<s n="adv"/></l><r>down<s n="adv"/></r></p></e>
