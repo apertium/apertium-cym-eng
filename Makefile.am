@@ -109,9 +109,6 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
 
 clean-dicts:
 	touch $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG2).dix $(BASENAME).$(PREFIX1).dix
-	rm $(BASENAME).$(LANG1).dix
-	rm $(BASENAME).$(LANG2).dix
-	rm $(BASENAME).$(PREFIX1).dix
 	
 apertium_cy_endir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_cy_modesdir=$(prefix)/share/apertium/modes/
