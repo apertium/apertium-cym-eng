@@ -18,13 +18,6 @@ TARGETS_COMMON = $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG2).dix $(BASENAME).$
 
 #$(PREFIX2).mode
 
-$(BASENAME).$(LANG1).dix:
-	xmllint --xinclude $(BASENAME).$(LANG1).dix.xml > $(BASENAME).$(LANG1).dix
-$(BASENAME).$(LANG2).dix:
-	xmllint --xinclude $(BASENAME).$(LANG2).dix.xml > $(BASENAME).$(LANG2).dix
-$(BASENAME).$(LANG1)-$(LANG2).dix:
-	xmllint --xinclude $(BASENAME).$(LANG1)-$(LANG2).dix.xml > $(BASENAME).$(LANG1)-$(LANG2).dix
-
 #$(PREFIX1).autopoly.bin: $(BASENAME).$(LANG2)-poly.dix
 #	apertium-validate-dictionary $(BASENAME).$(LANG2)-poly.dix
 #	lt-comp lr $(BASENAME).$(LANG2)-poly.dix $@ $(BASENAME).$(LANG2).acx
@@ -102,12 +95,8 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
 	   $(BASENAME).orth-$(LANG1).dix \
 	   $(BASENAME).$(LANG2).dix \
-	   $(BASENAME).$(LANG1).dix.xml \
-	   $(BASENAME).$(LANG2).dix.xml \
-	   $(BASENAME).$(PREFIX1).dix.xml \
 	   $(BASENAME).$(PREFIX1).rlx \
 	   $(BASENAME).pre-$(LANG1).t1x \
-	   $(BASENAME).symbols.xml \
            $(PREFIX1).prob $(PREFIX2).prob \
            $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
            $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \

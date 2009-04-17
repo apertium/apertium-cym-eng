@@ -261,6 +261,7 @@
       <attr-item tags="f"/>
       <attr-item tags="m"/>
       <attr-item tags="mf"/>
+      <attr-item tags="nt"/>
       <attr-item tags="GD"/>
     </def-attr>
     <def-attr n="pers">
