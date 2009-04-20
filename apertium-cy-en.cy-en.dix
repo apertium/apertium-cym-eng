@@ -4022,6 +4022,7 @@
     <e><p><l>echdynnydd<s n="n"/><s n="m"/></l><r>extractor<s n="n"/></r></p></e>
     <e><p><l>tudalennydd<s n="n"/><s n="m"/></l><r>paginator<s n="n"/></r></p></e>
     <e><p><l>ysgrifennydd<s n="n"/><s n="m"/></l><r>secretary<s n="n"/></r></p></e>
+    <e><p><l>cyn-ysgrifennydd<s n="n"/><s n="m"/></l><r>under<b/>secretary<s n="n"/></r></p></e>
     <e><p><l>atsain<s n="n"/><s n="f"/></l><r>echo<s n="n"/></r></p></e>
     <e><p><l>damwain<s n="n"/><s n="f"/></l><r>accident<s n="n"/></r></p></e>
     <e><p><l>glain<s n="n"/><s n="m"/></l><r>bead<s n="n"/></r></p></e>
@@ -4256,6 +4257,7 @@
     <e><p><l>rhombws<s n="n"/><s n="m"/></l><r>rhombus<s n="n"/></r></p></e>
     <e><p><l>pwll<s n="n"/><s n="m"/></l><r>pool<s n="n"/></r></p></e>
     <e><p><l>pwll<g><b/>tywod</g><s n="n"/><s n="m"/></l><r>sandbox<s n="n"/></r></p></e>
+    <e><p><l>pwll<g><b/>nofio</g><s n="n"/><s n="m"/></l><r>swimming<b/>pool<s n="n"/></r></p></e>
     <e><p><l>twll<s n="n"/><s n="m"/></l><r>hole<s n="n"/></r></p></e>
     <e><p><l>cerrynt<s n="n"/><s n="m"/></l><r>current<s n="n"/></r></p></e>
     <e><p><l>croesgerrynt<s n="n"/><s n="m"/></l><r>cross-current<s n="n"/></r></p></e>
@@ -11576,7 +11578,8 @@
     <e><p><l>Eryri<s n="np"/><s n="top"/><s n="f"/></l><r>Snowdonia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Efrog<s n="np"/><s n="top"/><s n="f"/></l><r>York<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caeredin<s n="np"/><s n="top"/><s n="f"/></l><r>Edinburgh<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Porthaethwy<s n="np"/><s n="top"/><s n="f"/></l><r>Menai Bridge<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Porthaethwy<s n="np"/><s n="top"/><s n="f"/></l><r>Menai<b/>Bridge<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Porthmadog<s n="np"/><s n="top"/><s n="f"/></l><r>Porthmadog<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Port<b/>Talbot<s n="np"/><s n="top"/><s n="f"/></l><r>Port<b/>Talbot<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Abergwaun<s n="np"/><s n="top"/><s n="f"/></l><r>Fishguard<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dinbych y Pysgod<s n="np"/><s n="top"/><s n="f"/></l><r>Tenby<s n="np"/><s n="top"/></r></p></e>

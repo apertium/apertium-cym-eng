@@ -52423,6 +52423,7 @@
     <e lm="echdynnydd"><i>echdyn</i><par n="cydran/nydd__n"/></e>
     <e lm="tudalennydd"><par n="initial-t"/><i>udalen</i><par n="cydran/nydd__n"/></e>
     <e lm="ysgrifennydd"><i>ysgrifen</i><par n="cydran/nydd__n"/></e>
+    <e lm="cyn-ysgrifennydd"><i>cyn-ysgrifen</i><par n="cydran/nydd__n"/></e>
     <e lm="glain"><par n="initial-g"/><i>l</i><par n="gl/ain__n"/></e>
     <e lm="lliain"><par n="initial-ll"/><i>i</i><par n="gl/ain__n"/></e>
     <e lm="atsain"><i>ats</i><par n="ats/ain__n"/></e>
@@ -52649,6 +52650,7 @@
     <e lm="rhombws"><par n="initial-rh"/><i>omb</i><par n="abac/ws__n"/></e>
     <e lm="pwll"><par n="initial-p"/><i/><par n="p/wll__n"/></e>
     <e lm="pwll tywod"><par n="initial-p"/><i/><par n="p/wll__n"/><p><l><b/>tywod</l><r><g><b/>tywod</g></r></p></e>
+    <e lm="pwll nofio"><par n="initial-p"/><i/><par n="p/wll__n"/><p><l><b/>nofio</l><r><g><b/>nofio</g></r></p></e>
     <e lm="twll"><par n="initial-t"/><par n="p/wll__n"/></e>
     <e lm="cerrynt"><par n="initial-c"/><i>er</i><par n="cer/rynt__n"/></e>
     <e lm="croesgerrynt"><par n="initial-c"/><i>roesger</i><par n="cer/rynt__n"/></e>
@@ -58629,6 +58631,7 @@
     <e lm="Efrog"><i>Efrog</i><par n="Blaenafon__np"/></e>
     <e lm="Caeredin"><par n="initial-C"/><i>aeredin</i><par n="Blaenafon__np"/></e>
     <e lm="Porthaethwy"><par n="initial-P"/><i>orthaethwy</i><par n="Blaenafon__np"/></e>
+    <e lm="Porthmadog"><par n="initial-P"/><i>orthmadog</i><par n="Blaenafon__np"/></e>
     <e lm="Port Talbot"><par n="initial-P"/><i>ort<b/>Talbot</i><par n="Blaenafon__np"/></e>
     <e lm="Llanfairpwllgwyngyllgogerychwyrndobwllllantysiliogogogoch"><par n="initial-Ll"/><i>anfairpwllgwyngyllgogerychwyrndobwllllantysiliogogogoch</i><par n="Blaenafon__np"/></e>
     <e lm="Abergwaun"><i>Abergwaun</i><par n="Blaenafon__np"/></e>
