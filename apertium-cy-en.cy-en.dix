@@ -1370,7 +1370,10 @@
     <e><p><l>canser<s n="n"/><s n="m"/></l><r>cancer<s n="n"/></r></p></e>
     <e><p><l>carchar<s n="n"/><s n="m"/></l><r>prison<s n="n"/></r></p></e>
     <e><p><l>carfan<s n="n"/><s n="f"/></l><r>faction<s n="n"/></r></p></e>
+
     <e><p><l>carn<s n="n"/><s n="m"/></l><r>handle<s n="n"/></r></p></e>
+   	<e><p><l>carn<s n="n"/><s n="f"/></l><r>cairn<s n="n"/></r></p></e>
+
     <e><p><l>casgliad<s n="n"/><s n="m"/></l><r>collection<s n="n"/></r></p></e>
     <e><p><l>casgliad<s n="n"/><s n="m"/></l><r>conclusion<s n="n"/></r></p></e>
     <e><p><l>catalog<s n="n"/><s n="m"/></l><r>catalog<s n="n"/></r></p></e>
@@ -1752,6 +1755,9 @@
     <e><p><l>gwely<s n="n"/><s n="m"/></l><r>bed<s n="n"/></r></p></e>
     <e><p><l>gwendid<s n="n"/><s n="m"/></l><r>weakness<s n="n"/></r></p></e>
     <e><p><l>gwenwyn<s n="n"/><s n="m"/></l><r>poison<s n="n"/></r></p></e>
+
+    <e><p><l>gwern<s n="n"/><s n="f"/></l><r>meadow<s n="n"/></r></p></e>
+
     <e><p><l>gwerthfawrogiad<s n="n"/><s n="m"/></l><r>appreciation<s n="n"/></r></p></e>
     <e><p><l>gweriniaeth<s n="n"/><s n="f"/></l><r>republic<s n="n"/></r></p></e>
     <e><p><l>gwerthusiad<s n="n"/><s n="m"/></l><r>evaluation<s n="n"/></r></p></e>
@@ -1871,6 +1877,7 @@
     <e><p><l>llywodraeth<s n="n"/><s n="f"/></l><r>government<s n="n"/></r></p></e>
     <e><p><l>logarithm<s n="n"/><s n="m"/></l><r>logarithm<s n="n"/></r></p></e>
     <e><p><l>lwfans<s n="n"/><s n="m"/></l><r>allowance<s n="n"/></r></p></e>
+    <e><p><l>magwyr<s n="n"/><s n="f"/></l><r>wall<s n="n"/></r></p></e>
     <e><p><l>mam<s n="n"/><s n="f"/></l><r>mother<s n="n"/></r></p></e>
     <e><p><l>manyleb<s n="n"/><s n="f"/></l><r>specification<s n="n"/></r></p></e>
     <e><p><l>manyleb<s n="n"/><s n="f"/></l><r>specification<s n="n"/></r></p></e>
@@ -1895,6 +1902,7 @@
     <e><p><l>mewnoliad<s n="n"/><s n="m"/></l><r>indent<s n="n"/></r></p></e>
     <e><p><l>mewnosodiad<s n="n"/><s n="m"/></l><r>insertion<s n="n"/></r></p></e>
     <e><p><l>mewnrwyd<s n="n"/><s n="f"/></l><r>intranet<s n="n"/></r></p></e>
+    <e><p><l>miaren<s n="n"/><s n="f"/></l><r>bramble<s n="n"/></r></p></e>
     <e><p><l>micromedr<s n="n"/><s n="m"/></l><r>micrometre<s n="n"/></r></p></e>
     <e><p><l>milieiliad<s n="n"/><s n="mf"/></l><r>millisecond<s n="n"/></r></p></e>
     <e><p><l>miligram<s n="n"/><s n="m"/></l><r>milligram<s n="n"/></r></p></e>
@@ -3998,7 +4006,10 @@
     <e><p><l>swm<s n="n"/><s n="m"/></l><r>sum<s n="n"/></r></p></e>
     <e><p><l>uchafswm<s n="n"/><s n="m"/></l><r>maximum<s n="n"/></r></p></e>
     <e r="LR"><p><l>tabl<s n="n"/><s n="m"/></l><r>table<s n="n"/></r></p></e>
+
     <e><p><l>bwrdd<s n="n"/><s n="m"/></l><r>table<s n="n"/></r></p></e>
+ 	<e r="LR"><p><l>bwrdd<s n="n"/><s n="m"/><s n="S1"/></l><r>board<s n="n"/></r></p></e>
+
     <e><p><l>bysellfwrdd<s n="n"/><s n="m"/></l><r>keyboard<s n="n"/></r></p></e>
     <e><p><l>cardfwrdd<s n="n"/><s n="m"/></l><r>cardboard<s n="n"/></r></p></e>
     <e><p><l>clipfwrdd<s n="n"/><s n="m"/></l><r>clipboard<s n="n"/></r></p></e>
@@ -4475,7 +4486,10 @@
     <e><p><l>cyfiawnhad<s n="n"/><s n="m"/></l><r>justification<s n="n"/></r></p></e>
     <e><p><l>cynghoryn<s n="n"/><s n="m"/></l><r>tip<s n="n"/></r></p></e>
     <e><p><l>llysieuyn<s n="n"/><s n="m"/></l><r>vegetable<s n="n"/></r></p></e>
+
     <e><p><l>draen<s n="n"/><s n="m"/></l><r>drain<s n="n"/></r></p></e>
+    <e><p><l>draen<s n="n"/><s n="f"/></l><r>thorn<s n="n"/></r></p></e>
+
     <e><p><l>ŷd<s n="n"/><s n="m"/></l><r>corn<s n="n"/></r></p></e>
     <e><p><l>seren<s n="n"/><s n="f"/></l><r>star<s n="n"/></r></p></e>
     <e><p><l>clwstwr<s n="n"/><s n="m"/></l><r>cluster<s n="n"/></r></p></e>
@@ -5516,6 +5530,9 @@
     <e><p><l>gwyrddlas<s n="adj"/></l><r>cyan<s n="adj"/></r></p></e>
     <e><p><l>gyrfaol<s n="adj"/></l><r>career<s n="adj"/></r></p></e>
     <e><p><l>hafal<s n="adj"/></l><r>equal<s n="adj"/></r></p></e>
+
+    <e><p><l>hael<s n="adj"/></l><r>generous<s n="adj"/></r></p></e>
+
     <e><p><l>hafalochrog<s n="adj"/></l><r>equilateral<s n="adj"/></r></p></e>
     <e><p><l>hallt<s n="adj"/></l><r>salty<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>hamddenol<s n="adj"/></l><r>leisurely<s n="adj"/></r></p></e>
@@ -5656,6 +5673,7 @@
     <e><p><l>maethlon<s n="adj"/></l><r>nutritious<s n="adj"/></r></p></e>
     <e><p><l>magenta<s n="adj"/></l><r>magenta<s n="adj"/></r></p></e>
     <e><p><l>magnetig<s n="adj"/></l><r>magnetic<s n="adj"/></r></p></e>
+    <e><p><l>mall<s n="adj"/></l><r>corrupt<s n="adj"/></r></p></e>
     <e><p><l>mân<s n="adj"/></l><r>fine<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>manteisiol<s n="adj"/></l><r>advantageous<s n="adj"/></r></p></e>
     <e><p><l>manwerth<s n="adj"/></l><r>retail<s n="adj"/></r></p></e>
@@ -8433,7 +8451,7 @@
     <e><p><l>meddalhau<s n="vblex"/></l><r>soften<s n="vblex"/></r></p></e>
     <e><p><l>meddalu<s n="vblex"/></l><r>soften<s n="vblex"/></r></p></e>
     <e><p><l>meddiannu<s n="vblex"/></l><r>possess<s n="vblex"/></r></p></e>
-    <e><p><l>meddu<s n="vblex"/></l><r>own<s n="vblex"/></r></p></e>
+    <e><p><l>meddu<s n="vblex"/></l><r>possess<s n="vblex"/></r></p></e>
     <e><p><l>meddwl<s n="vblex"/></l><r>think<s n="vblex"/></r></p></e>
     <e><p><l>meddyginiaethu<s n="vblex"/></l><r>treat<s n="vblex"/></r></p></e>
     <e><p><l>medi<s n="vblex"/></l><r>reap<s n="vblex"/></r></p></e>
@@ -9782,7 +9800,9 @@
     <e><p><l>englynu<s n="vblex"/></l><r>compose<g><b/>englynion</g><s n="vblex"/></r></p></e>
     <e><p><l>esgor<s n="vblex"/></l><r>give<g><b/>birth</g><s n="vblex"/></r></p></e>
     <e><p><l>ffinio<s n="vblex"/></l><r>border<g><b/>on</g><s n="vblex"/></r></p></e>
-    <e><p><l>gorwedd<s n="vblex"/></l><r>lie<g><b/>down</g><s n="vblex"/></r></p></e>
+
+    <e><p><l>gorwedd<s n="vblex"/></l><r>lie<s n="vblex"/></r></p></e>
+
     <e><p><l>graenio<s n="vblex"/></l><r>spruce<g><b/>up</g><s n="vblex"/></r></p></e>
     <e><p><l>graenu<s n="vblex"/></l><r>spruce<g><b/>up</g><s n="vblex"/></r></p></e>
     <e><p><l>gwaddota<s n="vblex"/></l><r>catch<g><b/>moles</g><s n="vblex"/></r></p></e>

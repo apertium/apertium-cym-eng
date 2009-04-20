@@ -200,7 +200,7 @@ SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex)))
 		((1 (vblex)) OR (1 (vbser)) OR (1 (vbmod)) OR (1 (vaux)))
 		(NOT 1 (vblex inf)) (NOT 1 (n)) (NOT 1 Num) (NOT 0 CC);
 
-SELECT Vpart IF ((-1 (cm)) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 Num) (NOT 0 CC);
+SELECT Vpart IF ( (-1 (cm)) OR (NOT -1 (vblex)) ) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 Num) (NOT 0 CC);
 
 SELECT (vbser cns) IF (-1 Vpart);
 
@@ -451,6 +451,13 @@ REMOVE:R_subjunctive_vb VblexPrs IF (0 V);
 REMOVE:R_imperative_be Imp IF (0 (vbser)); 
 REMOVE:R_imperative_vb Imp IF (0 (vblex past)); 
 
+# delete medd (say) if preceded by an obj prn
+# drain ac ysgall mall a'i medd
+REMOVE:R_medd_say ("medd" vblex inf) (-1 (det pos));
+#REMOVE:R_a_cnjcoo_preprn ("a" cnjcoo) (1 (prn obj p3 m sg));
+#SELECT:S_a_rel_preprn ("a" rel) (1 (prn obj p3 m sg));
+
+
 
 
 # Nouns
@@ -503,6 +510,7 @@ REMOVE ("<f.*>"ri "b.*"ri) IF (0 (n m sg)) (-1 DetDef);
 
 
 
+
 # Conjunctions
 #####################################
 
@@ -526,8 +534,12 @@ REMOVE (n f) (0 ("gwaith")) (0 MSoftC);
 # perhaps better to use the meaning tag approach?
 # hmm - does this make sense?  all it says is remove the time meaning when you have soft mutation - needs more
 
-# choose the direction sense of cyfeiriad (not address) if preceded by trafod
+# choose the "direction" sense of "cyfeiriad" (not address) if preceded by trafod
 SUBSTITUTE:M_cyfeiriad_direction_posttrafod ("cyfeiriad"ri n m) ("cyfeiriad" n m S1) NC (-1 ("trafod"ri vblex));
+# this doesn't handle cases where trafod is mutated ...
+
+# choose the "board" sense of "bwrdd" (not table) if detdef or noun follows
+#SUBSTITUTE:M_bwrdd_board_prenoun ("bwrdd"ri n m) ("bwrdd" n m S1) NC ( (NOT 1 ("pren"ri n)) OR (NOT 1 ("top"ri adj)) );
 
 # get rid of noun reading of trafod if it's followed by cyfeiriad
 # we could probably change this to NC, because it's of wider application
