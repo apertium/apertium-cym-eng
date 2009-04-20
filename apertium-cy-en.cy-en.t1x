@@ -263,6 +263,7 @@
       <attr-item tags="mf"/>
       <attr-item tags="nt"/>
       <attr-item tags="GD"/>
+	  <attr-item tags="nt"/>
     </def-attr>
     <def-attr n="pers">
       <attr-item tags="p1"/>

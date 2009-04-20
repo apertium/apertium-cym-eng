@@ -104,7 +104,7 @@
     <sdef n="guio"    c="Hyphen"/> 
     <sdef n="enc"/>
     <sdef n="vbdo"/>
-    <sdef n="unc"/>
+    <sdef n="unc"     c="Uncountable"/>
     <sdef n="sep"/>
     <sdef n="pron"/>
     <sdef n="apos"    c="Apostrophe"/>
@@ -3309,6 +3309,68 @@
         <p>
           <l>ing</l>
           <r>e<s n="vblex"/><s n="subs"/></r>
+        </p>
+      </e>
+    </pardef>
+	<pardef n="l/ie__vblex">
+      <e>
+        <p>
+          <l>ie</l>
+          <r>ie<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ie</l>
+          <r>ie<s n="vblex"/><s n="pres"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>ie</l>
+          <r>ie<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>ie</l>
+          <r>ie<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ies</l>
+          <r>ie<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ied</l>
+          <r>ie<s n="vblex"/><s n="past"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ied</l>
+          <r>ie<s n="vblex"/><s n="pp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ying</l>
+          <r>ie<s n="vblex"/><s n="ger"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ying</l>
+          <r>ie<s n="vblex"/><s n="pprs"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ying</l>
+          <r>ie<s n="vblex"/><s n="subs"/></r>
         </p>
       </e>
     </pardef>
@@ -6876,56 +6938,6 @@
         </p>
       </e>
     </pardef>
-    <pardef n="l/ie__vblex">
-      <e>
-        <p>
-          <l>ie</l>
-          <r>ie<s n="vblex"/><s n="inf"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ie</l>
-          <r>ie<s n="vblex"/><s n="pres"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ies</l>
-          <r>ie<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ay</l>
-          <r>ie<s n="vblex"/><s n="past"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ain</l>
-          <r>ie<s n="vblex"/><s n="pp"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ying</l>
-          <r>ie<s n="vblex"/><s n="ger"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ying</l>
-          <r>ie<s n="vblex"/><s n="pprs"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ying</l>
-          <r>ie<s n="vblex"/><s n="subs"/></r>
-        </p>
-      </e>
-    </pardef>
     <pardef n="lo/se__vblex">
       <e>
         <p>
@@ -9709,6 +9721,14 @@
         </p>
       </e>
     </pardef>
+	<pardef n="greatness__n">
+      <e>
+        <p>
+          <l/>
+          <r><s n="n"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="cut__vblex__sep">
       <e>
         <p>
@@ -10258,6 +10278,8 @@
     <e lm="English"><i>English</i><par n="expensive__adj"/></e>
     <e lm="Spanish"><i>Spanish</i><par n="expensive__adj"/></e>
     <e lm="Cornish"><i>Cornish</i><par n="expensive__adj"/></e>
+
+    <e lm="generous"><i>generous</i><par n="expensive__adj"/></e>
 
     <e lm="absolute"><i>absolute</i><par n="expensive__adj"/></e>
     <e lm="acute"><i>acute</i><par n="expensive__adj"/></e>
@@ -14300,6 +14322,8 @@
     <e lm="Saturday night"><i>Saturday<b/>night</i><par n="house__n"/></e>
     <e lm="Sunday night"><i>Sunday<b/>night</i><par n="house__n"/></e>
 
+    <e lm="thorn"><i>thorn</i><par n="house__n"/></e>
+
     <e lm="set"><i>set</i><par n="house__n"/></e>
     <e lm="run"><i>run</i><par n="house__n"/></e>
     <e lm="use"><i>use</i><par n="house__n"/></e>
@@ -14825,7 +14849,10 @@
     <e lm="domestic"><i>domestic</i><par n="house__n"/></e>
     <e lm="purchase"><i>purchase</i><par n="house__n"/></e>
     <e lm="ice"><i>ice</i><par n="house__n__unc"/></e>
+
     <e lm="handle"><i>handle</i><par n="house__n"/></e>
+    <e lm="cairn"><i>cairn</i><par n="house__n"/></e>
+
     <e lm="wine"><i>wine</i><par n="house__n"/></e>
     <e lm="science"><i>science</i><par n="house__n"/></e>
     <e lm="library science"><i>library<b/>science</i><par n="house__n"/></e>
@@ -16555,7 +16582,7 @@
     <e lm="overdose"><i>overdose</i><par n="house__n"/></e>
     <e lm="commonplace"><i>commonplace</i><par n="house__n"/></e>
     <e lm="brake"><i>brake</i><par n="house__n"/></e>
-    <e lm="greatness"><i>greatness</i><par n="east__n__unc"/></e>
+    <e lm="greatness"><i>greatness</i><par n="greatness__n"/></e>
     <e lm="captive"><i>captive</i><par n="house__n"/></e>
     <e lm="bungalow"><i>bungalow</i><par n="house__n"/></e>
     <e lm="barking"><i>barking</i><par n="house__n"/></e>
@@ -24689,7 +24716,7 @@
     <e lm="gaze"><i>gaz</i><par n="liv/e__vblex"/></e>
     <e lm="seise"><i>seis</i><par n="liv/e__vblex"/></e>
     <e lm="realise"><i>realis</i><par n="liv/e__vblex"/></e>
-    <e lm="lie"><i>lie</i><par n="d/ie__vblex"/></e>
+    <e lm="lie"><i>l</i><par n="d/ie__vblex"/></e>
     <e lm="institute"><i>institut</i><par n="liv/e__vblex"/></e>
     <e lm="live"><i>liv</i><par n="liv/e__vblex"/></e>
     <e lm="challenge"><i>challeng</i><par n="liv/e__vblex"/></e>
@@ -27675,9 +27702,7 @@
     <e lm="writhe"><i>writh</i><par n="liv/e__vblex"/></e>
     <e lm="tithe"><i>tith</i><par n="liv/e__vblex"/></e>
     <e lm="clothe"><i>cloth</i><par n="liv/e__vblex"/></e>
-    <e lm="die"><i>di</i><par n="liv/e__vblex"/></e>
-    <e lm="lie"><i>li</i><par n="liv/e__vblex"/></e>
-    <e lm="untie"><i>unti</i><par n="liv/e__vblex"/></e>
+    <e lm="untie"><i>unt</i><par n="d/ie__vblex"/></e>
     <e lm="overtake"><i>overtak</i><par n="liv/e__vblex"/></e>
     <e lm="stake"><i>stak</i><par n="liv/e__vblex"/></e>
     <e lm="mistake"><i>mistak</i><par n="liv/e__vblex"/></e>
@@ -29793,13 +29818,14 @@
       </p>
     </e>
     <e lm="lie down">
-      <i>lie</i>
+      <i>l</i>
       <par n="d/ie__vblex"/>
       <p>
         <l><b/>down</l>
         <r><g><b/>down</g></r>
       </p>
     </e>
+<!--
     <e lm="lie down">
       <i>li</i>
       <par n="liv/e__vblex"/>
@@ -29808,6 +29834,7 @@
         <r><g><b/>down</g></r>
       </p>
     </e>
+-->
     <e lm="link arms">
       <i>link</i>
       <par n="accept__vblex"/>
