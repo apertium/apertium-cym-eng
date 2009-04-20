@@ -839,6 +839,205 @@
     </rule>
 
 
+    <rule comment="REGLA: Vpart SV SN CC SN">
+      <pattern>
+        <pattern-item n="Vpart"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="CC"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <choose>
+	  <when>
+            <test>
+	      <equal>
+	        <clip pos="1" part="tags"/>
+	        <lit-tag v="Vpart.neg"/>
+	      </equal>
+	    </test>
+            <out>
+              <chunk>
+                <clip pos="3" part="lem"/>
+                <clip pos="3" part="tags"/>
+                <clip pos="3" part="chcontent"/>
+              </chunk>
+              <b pos="3"/>
+              <chunk>
+                <clip pos="4" part="lem"/>
+                <clip pos="4" part="tags"/>
+                <clip pos="4" part="chcontent"/>
+              </chunk>
+              <b pos="4"/>
+              <chunk>
+                <clip pos="5" part="lem"/>
+                <clip pos="5" part="tags"/>
+                <clip pos="5" part="chcontent"/>
+              </chunk>
+              <b/>
+              <chunk>
+                <clip pos="2" part="lem"/>
+                <clip pos="2" part="tags"/>
+                <clip pos="2" part="chcontent"/>
+              </chunk>
+              <b/>
+              <chunk>
+                <lit v="adv"/>
+                <lit-tag v="Adv"/>
+                <lit v="{^not"/>
+                <lit-tag v="adv"/>
+                <lit v="$}"/>
+              </chunk>
+            </out>
+            <let>
+              <var n="posa_neg"/>
+              <lit v="1"/>
+            </let>
+	  </when>
+	  <when>
+            <test>
+	      <and>
+	        <equal>
+	          <clip pos="1" part="tags"/>
+	          <lit-tag v="Vpart.itg"/>
+	        </equal>
+	        <equal caseless="yes">
+	          <clip pos="1" part="lem"/>
+	          <lit v="a"/>
+	        </equal>
+              </and>
+	    </test>
+            <out>
+              <chunk>
+                <lit v="do"/>
+                <lit-tag v="SV.vbdo"/>
+                <lit v="{^do"/>
+                <lit-tag v="vbdo.past"/>
+                <lit v="$}"/>
+              </chunk>
+              <b/>
+              <chunk>
+                <clip pos="3" part="lem"/>
+                <clip pos="3" part="tags"/>
+                <clip pos="3" part="chcontent"/>
+              </chunk>
+              <b pos="3"/>
+              <chunk>
+                <clip pos="4" part="lem"/>
+                <clip pos="4" part="tags"/>
+                <clip pos="4" part="chcontent"/>
+              </chunk>
+              <b pos="4"/>
+              <chunk>
+                <clip pos="5" part="lem"/>
+                <clip pos="5" part="tags"/>
+                <clip pos="5" part="chcontent"/>
+              </chunk>
+
+              <b/>
+              <chunk>
+                <clip pos="2" part="lem"/>
+		<clip pos="2" part="a_frase"/>
+		<clip pos="2" part="a_verb"/>
+		<lit-tag v="inf"/>
+                <clip pos="2" part="chcontent"/>
+              </chunk>
+            </out>
+	  </when>
+
+	  <when>
+            <test>
+	      <and>
+	        <equal>
+	          <clip pos="1" part="tags"/>
+	          <lit-tag v="Vpart.itg"/>
+	        </equal>
+	        <equal caseless="yes">
+	          <clip pos="1" part="lem"/>
+	          <lit v="oni"/>
+	        </equal>
+              </and>
+	    </test>
+            <out>
+              <chunk>
+                <lit v="do"/>
+                <lit-tag v="SV.vbdo"/>
+                <lit v="{^do"/>
+                <lit-tag v="vbdo.past"/>
+                <lit v="$}"/>
+              </chunk>
+	      <b/>
+              <chunk>
+                <lit v="adv"/>
+                <lit-tag v="Adv"/>
+                <lit v="{^not"/>
+                <lit-tag v="adv"/>
+                <lit v="$}"/>
+              </chunk>
+              <b/>
+              <chunk>
+                <clip pos="3" part="lem"/>
+                <clip pos="3" part="tags"/>
+                <clip pos="3" part="chcontent"/>
+              </chunk>
+              <b pos="3"/>
+              <chunk>
+                <clip pos="4" part="lem"/>
+                <clip pos="4" part="tags"/>
+                <clip pos="4" part="chcontent"/>
+              </chunk>
+              <b pos="4"/>
+              <chunk>
+                <clip pos="5" part="lem"/>
+                <clip pos="5" part="tags"/>
+                <clip pos="5" part="chcontent"/>
+              </chunk>
+
+              <b/>
+              <chunk>
+                <clip pos="2" part="lem"/>
+		<clip pos="2" part="a_frase"/>
+		<clip pos="2" part="a_verb"/>
+		<lit-tag v="inf"/>
+                <clip pos="2" part="chcontent"/>
+              </chunk>
+            </out>
+	  </when>
+
+
+          <otherwise>
+	    <out>
+              <chunk>
+                <clip pos="3" part="lem"/>
+                <clip pos="3" part="tags"/>
+                <clip pos="3" part="chcontent"/>
+              </chunk>
+              <b pos="3"/>
+              <chunk>
+                <clip pos="4" part="lem"/>
+                <clip pos="4" part="tags"/>
+                <clip pos="4" part="chcontent"/>
+              </chunk>
+              <b pos="4"/>
+              <chunk>
+                <clip pos="5" part="lem"/>
+                <clip pos="5" part="tags"/>
+                <clip pos="5" part="chcontent"/>
+              </chunk>
+              <b/>
+              <chunk>
+                <clip pos="2" part="lem"/>
+                <clip pos="2" part="tags"/>
+                <clip pos="2" part="chcontent"/>
+              </chunk>
+            </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+
+
     <rule comment="REGLA: Prn SV">
       <pattern>
         <pattern-item n="Prn"/>
@@ -924,6 +1123,101 @@
               <clip pos="2" part="chcontent"/>
             </chunk>
             <b/>
+            <chunk>
+              <get-case-from pos="2">
+                <clip pos="1" part="lem"/>
+              </get-case-from>
+              <clip pos="1" part="a_frase"/>
+              <clip pos="1" part="a_verb"/>
+              <clip pos="1" part="temps"/>
+              <clip pos="1" part="pers"/>
+<!--              <clip pos="2" part="nbr"/> -->
+              <clip pos="2" part="nbr"/> 
+              <clip pos="1" part="chcontent"/>
+            </chunk>
+          </out>
+        </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SV SN CC SN">
+      <pattern>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="CC"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+      <call-macro n="when_are_we1">
+        <with-param pos="1"/>
+      </call-macro>
+      <choose>
+        <when>
+          <test>
+              <or>
+                <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="inf"/>
+                </equal>
+                <equal>
+                  <clip pos="1" part="temps"/>
+                  <lit-tag v="imp"/>
+                </equal> 
+              </or>
+          </test>
+          <out>
+            <chunk>
+              <clip pos="1" part="lem"/>
+              <clip pos="1" part="a_frase"/>
+              <clip pos="1" part="a_verb"/>
+              <clip pos="1" part="temps"/>
+              <clip pos="1" part="pers"/>
+              <clip pos="2" part="nbr"/>
+              <clip pos="1" part="chcontent"/>
+            </chunk>
+            <b pos="1"/>
+            <chunk>
+              <clip pos="2" part="lem"/>
+              <clip pos="2" part="tags"/>
+              <clip pos="2" part="chcontent"/>
+            </chunk>
+            <b pos="2"/>
+            <chunk>
+              <clip pos="3" part="lem"/>
+              <clip pos="3" part="tags"/>
+              <clip pos="3" part="chcontent"/>
+            </chunk>
+            <b pos="3"/>
+            <chunk>
+              <clip pos="4" part="lem"/>
+              <clip pos="4" part="tags"/>
+              <clip pos="4" part="chcontent"/>
+            </chunk>
+          </out>
+        </when>
+        <otherwise>
+          <out>
+            <chunk>
+              <get-case-from pos="1">
+                <clip pos="2" part="lem"/>
+              </get-case-from>
+              <clip pos="2" part="tags"/>
+              <clip pos="2" part="chcontent"/>
+            </chunk>
+            <b pos="1"/>
+            <chunk>
+              <clip pos="3" part="lem"/>
+              <clip pos="3" part="tags"/>
+              <clip pos="3" part="chcontent"/>
+            </chunk>
+            <b pos="2"/>
+            <chunk>
+              <clip pos="4" part="lem"/>
+              <clip pos="4" part="tags"/>
+              <clip pos="4" part="chcontent"/>
+            </chunk>
+            <b pos="3"/>
             <chunk>
               <get-case-from pos="2">
                 <clip pos="1" part="lem"/>
