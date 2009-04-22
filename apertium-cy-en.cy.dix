@@ -51009,7 +51009,7 @@
     <e lm="hanfod"><i>hanfod</i><par n="achosiant__n"/></e>
     <e lm="hanfodion"><i>hanfodion</i><par n="achosiant__n"/></e>
     <e lm="hap-ddewis"><i>hap-ddewis</i><par n="achosiant__n"/></e>
-    <e lm="heddlu"><i>heddlu</i><par n="achosiant__n"/></e>
+    <e lm="heddlu"><i>heddlu</i><par n="aber__n"/></e>
     <e lm="heddwch"><i>heddwch</i><par n="achosiant__n"/></e>
     <e lm="helaethrwydd"><i>helaethrwydd</i><par n="achosiant__n"/></e>
     <e lm="hirdymor"><i>hirdymor</i><par n="achosiant__n"/></e>
@@ -51857,7 +51857,6 @@
     <e lm="gwirwerth"><par n="initial-g"/><i>wirwerth</i><par n="aber__n"/></e>
     <e lm="gwrych"><par n="initial-g"/><i>wrych</i><par n="aber__n"/></e>
     <e lm="gwynt"><par n="initial-g"/><i>wynt</i><par n="aber__n"/></e>
-    <e lm="heddlu"><i>heddlu</i><par n="aber__n"/></e>
     <e lm="hyd"><i>hyd</i><par n="aber__n"/></e>
     <e lm="hyder"><i>hyder</i><par n="aber__n"/></e>
     <e lm="iawndal"><i>iawndal</i><par n="aber__n"/></e>
@@ -52560,7 +52559,6 @@
     <e lm="echdynnydd"><i>echdyn</i><par n="cydran/nydd__n"/></e>
     <e lm="tudalennydd"><par n="initial-t"/><i>udalen</i><par n="cydran/nydd__n"/></e>
     <e lm="ysgrifennydd"><i>ysgrifen</i><par n="cydran/nydd__n"/></e>
-    <e lm="cyn-ysgrifennydd"><i>cyn-ysgrifen</i><par n="cydran/nydd__n"/></e>
     <e lm="glain"><par n="initial-g"/><i>l</i><par n="gl/ain__n"/></e>
     <e lm="lliain"><par n="initial-ll"/><i>i</i><par n="gl/ain__n"/></e>
     <e lm="atsain"><i>ats</i><par n="ats/ain__n"/></e>
@@ -52787,7 +52785,6 @@
     <e lm="rhombws"><par n="initial-rh"/><i>omb</i><par n="abac/ws__n"/></e>
     <e lm="pwll"><par n="initial-p"/><i/><par n="p/wll__n"/></e>
     <e lm="pwll tywod"><par n="initial-p"/><i/><par n="p/wll__n"/><p><l><b/>tywod</l><r><g><b/>tywod</g></r></p></e>
-    <e lm="pwll nofio"><par n="initial-p"/><i/><par n="p/wll__n"/><p><l><b/>nofio</l><r><g><b/>nofio</g></r></p></e>
     <e lm="twll"><par n="initial-t"/><par n="p/wll__n"/></e>
     <e lm="cerrynt"><par n="initial-c"/><i>er</i><par n="cer/rynt__n"/></e>
     <e lm="croesgerrynt"><par n="initial-c"/><i>roesger</i><par n="cer/rynt__n"/></e>
@@ -58777,7 +58774,6 @@
     <e lm="Efrog"><i>Efrog</i><par n="Blaenafon__np"/></e>
     <e lm="Caeredin"><par n="initial-C"/><i>aeredin</i><par n="Blaenafon__np"/></e>
     <e lm="Porthaethwy"><par n="initial-P"/><i>orthaethwy</i><par n="Blaenafon__np"/></e>
-    <e lm="Porthmadog"><par n="initial-P"/><i>orthmadog</i><par n="Blaenafon__np"/></e>
     <e lm="Port Talbot"><par n="initial-P"/><i>ort<b/>Talbot</i><par n="Blaenafon__np"/></e>
     <e lm="Llanfairpwllgwyngyllgogerychwyrndobwllllantysiliogogogoch"><par n="initial-Ll"/><i>anfairpwllgwyngyllgogerychwyrndobwllllantysiliogogogoch</i><par n="Blaenafon__np"/></e>
     <e lm="Abergwaun"><i>Abergwaun</i><par n="Blaenafon__np"/></e>
@@ -59976,7 +59972,6 @@
     <e lm="Jess"><i>Jess</i><par n="Elin__np"/></e>
     <e lm="Joanne"><i>Joanne</i><par n="Elin__np"/></e>
     <e lm="Kady"><i>Kady</i><par n="Elin__np"/></e>
-    <e lm="Stephanie"><i>Stephanie</i><par n="Elin__np"/></e>
     <e lm="Karla"><i>Karla</i><par n="Elin__np"/></e>
     <e lm="Kasey"><i>Kasey</i><par n="Elin__np"/></e>
     <e lm="Kaylee"><i>Kaylee</i><par n="Elin__np"/></e>

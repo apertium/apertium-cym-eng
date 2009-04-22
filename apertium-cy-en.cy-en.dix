@@ -240,6 +240,7 @@
     <e><p><l>yn<s n="stative"/></l><r></r></p></e>
 
     <e><p><l>o<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
+
     <e><p><l>rhwng<s n="pr"/></l><r>between<s n="pr"/></r></p></e>
     <e><p><l>er<s n="pr"/></l><r>although<s n="pr"/></r></p></e>
     <e r="LR"><p><l>gan<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
@@ -2599,6 +2600,7 @@
     <e><p><l>hanfodion<s n="n"/><s n="m"/></l><r>essentials<s n="n"/></r></p></e>
     <e><p><l>hap-ddewis<s n="n"/><s n="m"/></l><r>random choice<s n="n"/></r></p></e>
     <e><p><l>heddlu<s n="n"/><s n="m"/></l><r>police<s n="n"/></r></p></e>
+    <e><p><l>heddlu<s n="n"/><s n="m"/></l><r>police force<s n="n"/></r></p></e>
     <e><p><l>cabinet<s n="n"/><s n="m"/></l><r>cabinet<s n="n"/></r></p></e>
     <e><p><l>heddwch<s n="n"/><s n="m"/></l><r>peace<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>helaethrwydd<s n="n"/><s n="m"/></l><r>abundance<s n="n"/></r></p></e>
@@ -3379,7 +3381,6 @@
     <e><p><l>gwrych<s n="n"/><s n="m"/></l><r>hedge<s n="n"/></r></p></e>
     <e><p><l>gwynt<s n="n"/><s n="m"/></l><r>wind<s n="n"/></r></p></e>
     <e><p><l>gyrfa<s n="n"/><s n="f"/></l><r>career<s n="n"/></r></p></e>
-    <e><p><l>heddlu<s n="n"/><s n="m"/></l><r>police force<s n="n"/></r></p></e>
     <e><p><l>hyd<s n="n"/><s n="m"/></l><r>length<s n="n"/></r></p></e>
     <e><p><l>hyder<s n="n"/><s n="m"/></l><r>confidence<s n="n"/></r></p></e>
     <e><p><l>hynt<s n="n"/><s n="f"/></l><r>course<s n="n"/></r></p></e>
@@ -4033,7 +4034,6 @@
     <e><p><l>echdynnydd<s n="n"/><s n="m"/></l><r>extractor<s n="n"/></r></p></e>
     <e><p><l>tudalennydd<s n="n"/><s n="m"/></l><r>paginator<s n="n"/></r></p></e>
     <e><p><l>ysgrifennydd<s n="n"/><s n="m"/></l><r>secretary<s n="n"/></r></p></e>
-    <e><p><l>cyn-ysgrifennydd<s n="n"/><s n="m"/></l><r>under<b/>secretary<s n="n"/></r></p></e>
     <e><p><l>atsain<s n="n"/><s n="f"/></l><r>echo<s n="n"/></r></p></e>
     <e><p><l>damwain<s n="n"/><s n="f"/></l><r>accident<s n="n"/></r></p></e>
     <e><p><l>glain<s n="n"/><s n="m"/></l><r>bead<s n="n"/></r></p></e>
@@ -4268,7 +4268,6 @@
     <e><p><l>rhombws<s n="n"/><s n="m"/></l><r>rhombus<s n="n"/></r></p></e>
     <e><p><l>pwll<s n="n"/><s n="m"/></l><r>pool<s n="n"/></r></p></e>
     <e><p><l>pwll<g><b/>tywod</g><s n="n"/><s n="m"/></l><r>sandbox<s n="n"/></r></p></e>
-    <e><p><l>pwll<g><b/>nofio</g><s n="n"/><s n="m"/></l><r>swimming<b/>pool<s n="n"/></r></p></e>
     <e><p><l>twll<s n="n"/><s n="m"/></l><r>hole<s n="n"/></r></p></e>
     <e><p><l>cerrynt<s n="n"/><s n="m"/></l><r>current<s n="n"/></r></p></e>
     <e><p><l>croesgerrynt<s n="n"/><s n="m"/></l><r>cross-current<s n="n"/></r></p></e>
@@ -10768,7 +10767,6 @@
     <e><p><l>Drew<s n="np"/><s n="ant"/></l><r>Drew<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Edith<s n="np"/><s n="ant"/></l><r>Edith<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Elin<s n="np"/><s n="ant"/></l><r>Elin<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>Stephanie<s n="np"/><s n="ant"/></l><r>Stephanie<s n="np"/><s n="ant"/></r></p></e>
 
     <e><p><l>Annabelle<s n="np"/><s n="ant"/></l><r>Annabelle<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Antonia<s n="np"/><s n="ant"/></l><r>Antonia<s n="np"/><s n="ant"/></r></p></e>
@@ -11598,8 +11596,7 @@
     <e><p><l>Eryri<s n="np"/><s n="top"/><s n="f"/></l><r>Snowdonia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Efrog<s n="np"/><s n="top"/><s n="f"/></l><r>York<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Caeredin<s n="np"/><s n="top"/><s n="f"/></l><r>Edinburgh<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Porthaethwy<s n="np"/><s n="top"/><s n="f"/></l><r>Menai<b/>Bridge<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Porthmadog<s n="np"/><s n="top"/><s n="f"/></l><r>Porthmadog<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Porthaethwy<s n="np"/><s n="top"/><s n="f"/></l><r>Menai Bridge<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Port<b/>Talbot<s n="np"/><s n="top"/><s n="f"/></l><r>Port<b/>Talbot<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Abergwaun<s n="np"/><s n="top"/><s n="f"/></l><r>Fishguard<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dinbych y Pysgod<s n="np"/><s n="top"/><s n="f"/></l><r>Tenby<s n="np"/><s n="top"/></r></p></e>
@@ -11645,7 +11642,6 @@
 
     <e><p><l>Aberystwyth<s n="np"/><s n="top"/><s n="f"/></l><r>Aberystwyth<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Abercynon<s n="np"/><s n="top"/><s n="f"/></l><r>Abercynon<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Abertawe<s n="np"/><s n="top"/><s n="f"/></l><r>Swansea<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Doc Penfro<s n="np"/><s n="top"/><s n="f"/></l><r>Pembroke Dock<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Hwlffordd<s n="np"/><s n="top"/><s n="f"/></l><r>Haverfordwest<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bangor<s n="np"/><s n="top"/><s n="f"/></l><r>Bangor<s n="np"/><s n="top"/></r></p></e>

@@ -13216,7 +13216,6 @@
     <e lm="deanery"><i>deaner</i><par n="bab/y__n"/></e>
     <e lm="laboratory"><i>laborator</i><par n="bab/y__n"/></e>
     <e lm="secretary"><i>secretar</i><par n="bab/y__n"/></e>
-    <e lm="under secretary"><i>under<b/>secretar</i><par n="bab/y__n"/></e>
     <e lm="ray"><i>ray</i><par n="house__n"/></e>
     <e lm="emergency"><i>emergenc</i><par n="bab/y__n"/></e>
     <e lm="energy"><i>energ</i><par n="bab/y__n"/></e>
@@ -22461,7 +22460,6 @@
     <e lm="Blaenau Ffestiniog"><i>Blaenau<b/>Ffestiniog</i><par n="Barcelona__np"/></e>
     <e lm="Vale of Glamorgan"><i>Vale<b/>of<b/>Glamorgan</i><par n="Barcelona__np"/></e>
     <e lm="Neath Port Talbot"><i>Neath<b/>Port<b/>Talbot</i><par n="Barcelona__np"/></e>
-    <e lm="Porthmadog"><i>Porthmadog</i><par n="Barcelona__np"/></e>
     <e lm="Port Talbot"><i>Port<b/>Talbot</i><par n="Barcelona__np"/></e>
     <e lm="Conwy"><i>Conwy</i><par n="Barcelona__np"/></e>
     <e lm="Clwyd"><i>Clwyd</i><par n="Barcelona__np"/></e>
@@ -23725,8 +23723,6 @@
     <e lm="Abril"><i>Abril</i><par n="Mary__np"/></e>
     <e lm="Adriana"><i>Adriana</i><par n="Mary__np"/></e>
     <e lm="Elin"><i>Elin</i><par n="Mary__np"/></e>
-    <e lm="Stephanie"><i>Stephanie</i><par n="Mary__np"/></e>
-
     <e lm="Adam"><i>Adam</i><par n="Mark__np"/></e>
     <e lm="Adrià"><i>Adrià</i><par n="Mark__np"/></e>
     <e lm="Adriana "><i>Adriana </i><par n="Mary__np"/></e>

@@ -44,8 +44,9 @@ LIST F = f;			# feminine
 
 # pronouns
 
-LIST PrnSubj = (prn subj);		# subject pronoun
 LIST Prn = (prn tn) (prn subj);		# pronoun
+LIST PrnSubj = (prn subj);		# subject pronoun
+LIST PrnObj = (prn obj);		# subject pronoun
 
 LIST P1Sg = (p1 sg);		# first person singular - verb agreement
 LIST P3Sg = (p3 sg);		# third person singular - verb agreement
@@ -361,10 +362,8 @@ REMOVE PrnSubj IF (1 Num) (-1 Pr);
 # ymwelwyr o tramor 
 # un o hen
 # ôl i 1880
-REMOVE PrnSubj IF (0 Pr) 
-		  (0 PrnSubj) 
-		  (NOT -1 V)
-		  ((1 NC) OR (1 NP) OR (1 Adj) OR (1 Num));
+REMOVE PrnSubj IF (0 Pr) (0 PrnSubj)  (NOT -1 V) ((1 NC) OR (1 NP) OR (1 Adj) OR (1 Num));
+REMOVE PrnObj IF (0 Pr) (0 PrnObj)  (NOT -1 V) ((1 NC) OR (1 NP) OR (1 Adj) OR (1 Num));
 
 # stative
 SELECT:S_yn_stative ("yn" stative) (1 (num));
@@ -388,6 +387,9 @@ SUBSTITUTE:M_obj_subj_posti_preinf (obj) (subj) (+prpers obj) (1 vb_inf);
 # wrth fynd i'r ffenestr
 # select i_prep, not i_prn
 SELECT:S_i_postinfin ("i" pr) (-1 vb_inf);
+
+# dyn o Abertawe
+SELECT:S_o_pretop ("o" pr) (1 (np top));
 
 
 
