@@ -362,12 +362,19 @@ REMOVE PrnSubj IF (1 Num) (-1 Pr);
 # ymwelwyr o tramor 
 # un o hen
 # ôl i 1880
-REMOVE PrnSubj IF (0 Pr) (0 PrnSubj)  (NOT -1 V) ((1 NC) OR (1 NP) OR (1 Adj) OR (1 Num));
-REMOVE PrnObj IF (0 Pr) (0 PrnObj)  (NOT -1 V) ((1 NC) OR (1 NP) OR (1 Adj) OR (1 Num));
+REMOVE:R_prn_subj PrnSubj IF (0 Pr) (0 PrnSubj)  (NOT -1 V) ((1 NC) OR (1 NP) OR (1 Adj) OR (1 Num));
+REMOVE:R_prn_obj PrnObj IF (0 Pr) (0 PrnObj)  (NOT -1 V) ((1 NC) OR (1 NP) OR (1 Adj) OR (1 Num));
 
 # stative
 SELECT:S_yn_stative ("yn" stative) (1 (num));
 #SUBSTITUTE:M_pr_stative_yn (pr) (stative) ("yn" pr) (1 (num)) (2 ("oed"ri));
+
+# postnum
+# chwech o ddynion
+SELECT:S_o_postnum ("o" postnum) (-1 (num)) (NOT -1 (sp));
+# the NOT sp works, but is probably a bit fragile
+# it prevents the rule tripping on things like "dyn 41 oed o Abertawe"
+# num + oed probably needs to be looked at again some time
 
 # cyn iddyn nhw
 # note that these two rules are co-dependent
@@ -388,8 +395,7 @@ SUBSTITUTE:M_obj_subj_posti_preinf (obj) (subj) (+prpers obj) (1 vb_inf);
 # select i_prep, not i_prn
 SELECT:S_i_postinfin ("i" pr) (-1 vb_inf);
 
-# dyn o Abertawe
-SELECT:S_o_pretop ("o" pr) (1 (np top));
+
 
 
 
@@ -550,5 +556,24 @@ REMOVE:R_trafod_n ("trafod"ri n m) IF (1 ("cyfeiriad"ri n m S1));
 # this chooses the be able sense of cyfeiriad (not address) if preceded by yn
 SUBSTITUTE ("gallu"ri vbmod) ("gallu" vbmod S1) NC (-1 prep_yn);
 # doesn't work - investigate
+
+# choose the "from" sense of o (not of) if it is followed by a placename
+# dyn o Abertawe
+SUBSTITUTE:M_o_from_pretop ("o" pr) ("o" pr S1) ("o" pr) (1 (np top));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

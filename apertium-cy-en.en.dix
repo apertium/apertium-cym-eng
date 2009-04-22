@@ -125,6 +125,7 @@
 	
     <sdef n="S1"/>
     <sdef n="stative"/>
+    <sdef n="postnum"/>
     <sdef n="invariant"/>
 
   </sdefs>

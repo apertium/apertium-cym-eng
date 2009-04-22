@@ -125,6 +125,7 @@
 	
     <sdef n="S1"/>
     <sdef n="stative"/>
+    <sdef n="postnum"/>
     <sdef n="invariant"/>
 	
   </sdefs>
@@ -2879,6 +2880,15 @@
         <p>
           <l>ynddyn<b/>nhw</l>
           <r>yn<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+	<pardef n="postnum__dummy">
+      <e>
+        <p>
+          <l>o</l>
+          <r>o<s n="postnum"/></r>
         </p>
       </e>
     </pardef>
@@ -49159,7 +49169,9 @@
     <e lm="yn"><i/><par n="/yn__pr"/></e>   
     <e lm="yn"><i/><par n="stative__dummy"/></e>
 
-    <e lm="o"><i/><par n="/o__pr"/></e> 
+    <e lm="o"><i/><par n="/o__pr"/></e>
+    <e lm="o"><i/><par n="postnum__dummy"/></e> 
+
     <e lm="rhwng"><i/><par n="/rhwng__pr"/></e>   
     <e lm="rhag"><i/><par n="/rhag__pr"/></e> 
     <e lm="er"><i/><par n="/er__pr"/></e>  

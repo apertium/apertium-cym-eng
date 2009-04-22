@@ -124,6 +124,7 @@
 	
     <sdef n="S1"/>
     <sdef n="stative"/>
+    <sdef n="postnum"/>
     <sdef n="invariant"/>
   </sdefs>
  
@@ -240,6 +241,8 @@
     <e><p><l>yn<s n="stative"/></l><r></r></p></e>
 
     <e><p><l>o<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>o<s n="pr"/><s n="S1"/></l><r>from<s n="pr"/></r></p></e>
+    <e><p><l>o<s n="postnum"/></l><r></r></p></e>
 
     <e><p><l>rhwng<s n="pr"/></l><r>between<s n="pr"/></r></p></e>
     <e><p><l>er<s n="pr"/></l><r>although<s n="pr"/></r></p></e>

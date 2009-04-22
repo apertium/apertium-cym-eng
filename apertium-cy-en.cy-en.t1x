@@ -2238,7 +2238,7 @@
       </action>
     </rule>
 -->
-<!--
+
     <rule comment="REGLA: NUM o DET NOM">
       <pattern>
         <pattern-item n="num"/>
@@ -2283,7 +2283,6 @@
         </let>
       </action>
     </rule>
--->
 
 
     <rule comment="REGLA: NOM DET TOPONIM">
@@ -2449,7 +2448,6 @@
       </action>
     </rule>
 
-
     <rule comment="REGLA: NUM yn NOM">
       <pattern>
         <pattern-item n="num"/>
@@ -2525,6 +2523,7 @@
       </action>
     </rule>
 
+
     <rule comment="REGLA: NUM NOM">
       <pattern>
         <pattern-item n="num"/>
@@ -2594,6 +2593,7 @@
         </choose>
       </action>
     </rule>
+
 
 <!--
     <rule comment="REGLA: NOM NOM">
@@ -3402,8 +3402,6 @@
     </rule>
 
 
-
-
     <rule comment="REGLA: yn ADJ"> 
       <pattern>
         <pattern-item n="yn"/>
@@ -3779,7 +3777,6 @@
     </rule>
 
 
-
     <rule comment="REGLA: DET NOM ADJ">
       <pattern>
         <pattern-item n="det"/>
@@ -4002,6 +3999,7 @@
       </action>
     </rule>
 
+
     <rule comment="REGLA: DET NOM NUM NOM">
       <pattern>
         <pattern-item n="det"/>
@@ -4054,7 +4052,6 @@
         </let>
       </action>
     </rule>
-
 
 
   <!-- Sintagmas verbales -->

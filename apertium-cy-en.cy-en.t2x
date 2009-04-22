@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- -*- nxml -*- -->
 <interchunk>
   <section-def-cats>
@@ -1630,6 +1630,7 @@
       </action>
     </rule>
 
+	<!-- handled in CG
     <rule comment="REGLA: NUM SP_o SN">
       <pattern>
         <pattern-item n="NUM"/>
@@ -1654,6 +1655,7 @@
         </out>
       </action>
     </rule>
+	-->
 
     <rule comment="REGLA: SN REL SV SN">
       <pattern>
