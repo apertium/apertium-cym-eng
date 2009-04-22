@@ -2595,6 +2595,7 @@
       </action>
     </rule>
 
+<!--
     <rule comment="REGLA: NOM NOM">
       <pattern>
         <pattern-item n="nom"/>
@@ -2631,6 +2632,7 @@
         </let>
       </action>
     </rule>
+-->
 
     <rule comment="REGLA: NOM NOM GUIO NOM">
       <pattern>
