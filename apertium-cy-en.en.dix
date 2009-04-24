@@ -1071,23 +1071,29 @@
         </p>
       </e>
     </pardef>
-    <pardef n="the__det">
-      <e>
+    <pardef n="/the__det">
+      <e r="LR">
         <p>
-          <l/>
-          <r><s n="det"/><s n="def"/><s n="sp"/></r>
+          <l>the</l>
+          <r>the<s n="det"/><s n="def"/><s n="sp"/></r>
         </p>
       </e>
       <e r="RL">
         <p>
-          <l/>
-          <r><s n="det"/><s n="def"/><s n="sg"/></r>
+          <l><a/>the</l>
+          <r>the<s n="det"/><s n="def"/><s n="sp"/></r>
         </p>
       </e>
       <e r="RL">
         <p>
-          <l/>
-          <r><s n="det"/><s n="def"/><s n="pl"/></r>
+          <l><a/>the</l>
+          <r>the<s n="det"/><s n="def"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>the</l>
+          <r>the<s n="det"/><s n="def"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -14042,7 +14048,7 @@
     <e lm="such a"><i>such a</i><par n="another__det"/></e>
     <e lm="such"><i>such</i><par n="other__det"/></e>
     <e lm="that"><i>th</i><par n="th/at__det"/></e>
-    <e lm="the"><i>the</i><par n="the__det"/></e>
+    <e lm="the"><i/><par n="/the__det"/></e>
     <e lm="their"><i>their</i><par n="her__det"/></e>
     <e lm="this"><i>th</i><par n="th/is__det"/></e>
     <e lm="what"><i>what</i><par n="what__det"/></e>
@@ -22323,6 +22329,7 @@
     <e lm="Morgan"><i>Morgan</i><par n="Ifans__np"/></e>
     <e lm="Davies"><i>Davies</i><par n="Ifans__np"/></e>
     <e lm="Evans"><i>Evans</i><par n="Ifans__np"/></e>
+    <e lm="Ryder"><i>Ryder</i><par n="Ifans__np"/></e>
     <e lm="Glyndŵr"><i>Glyndŵr</i><par n="Ifans__np"/></e>
     <e lm="Hart"><i>Hart</i><par n="Ifans__np"/></e>
     <e lm="Hughes"><i>Hughes</i><par n="Ifans__np"/></e>
