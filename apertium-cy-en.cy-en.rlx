@@ -534,6 +534,9 @@ SELECT:S_na_cnjsub_postcomp ("na" cnjsub) IF (-1* (adj comp) BARRIER Det);
 #####################################
 SECTION
 
+# distinguish DU and du (UK and black)
+SELECT (n sg) IF (0 ("<DU>"));
+
 # distinguish between "lonely" and "only"
 ADD (pred) ("unig" adj) ((1 (n)) OR (1 (np)) OR (1 (pr)) OR (1 Det) OR (1 (cm)));
 
@@ -560,20 +563,6 @@ SUBSTITUTE ("gallu"ri vbmod) ("gallu" vbmod S1) NC (-1 prep_yn);
 # choose the "from" sense of o (not of) if it is followed by a placename
 # dyn o Abertawe
 SUBSTITUTE:M_o_from_pretop ("o" pr) ("o" pr S1) ("o" pr) (1 (np top));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

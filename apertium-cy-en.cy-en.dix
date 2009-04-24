@@ -10316,6 +10316,7 @@
     <e><p><l>Heddlu'r<b/>De<s n="np"/><s n="org"/><s n="f"/></l><r>South<b/>Wales<b/>Police<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Heddlu<b/>De<b/>Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>South<b/>Wales<b/>Police<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Ceidwadwyr<b/>Cymreig<s n="np"/><s n="org"/><s n="f"/></l><r>Welsh<b/>Conservatives<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Ceidwadwyr<s n="np"/><s n="org"/><s n="f"/></l><r>Conservatives<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Plaid Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>Plaid Cymru<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Plaid Lafur<s n="np"/><s n="org"/><s n="f"/></l><r>Labour Party<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Democratiaid Rhyddfrydol<s n="np"/><s n="org"/><s n="f"/></l><r>Liberal Democrats<s n="np"/><s n="org"/></r></p></e>
@@ -10374,6 +10375,7 @@
     <e><p><l>Wyn<s n="np"/><s n="ant"/></l><r>Wyn<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Gwyn<s n="np"/><s n="ant"/></l><r>Gwyn<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Siôn<s n="np"/><s n="ant"/></l><r>Siôn<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Siân<s n="np"/><s n="ant"/></l><r>Siân<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Sioned<s n="np"/><s n="ant"/></l><r>Sioned<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Talfan<s n="np"/><s n="ant"/></l><r>Talfan<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Dai<s n="np"/><s n="ant"/></l><r>Dai<s n="np"/><s n="ant"/></r></p></e>
