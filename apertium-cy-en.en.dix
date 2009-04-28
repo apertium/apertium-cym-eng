@@ -11491,6 +11491,7 @@
     <e lm="tabloid"><i>tabloid</i><par n="expensive__adj"/></e>
     <e lm="overriding"><i>overriding</i><par n="expensive__adj"/></e>
     <e lm="former"><i>former</i><par n="expensive__adj"/></e>
+    <e lm="former-"><i>former-</i><par n="expensive__adj"/></e>
     <e lm="unsatisfied"><i>unsatisfied</i><par n="expensive__adj"/></e>
     <e lm="diagonal"><i>diagonal</i><par n="expensive__adj"/></e>
     <e lm="oriental"><i>oriental</i><par n="expensive__adj"/></e>
@@ -12235,7 +12236,6 @@
     <e lm="weather"><i>weather</i><par n="house__n"/></e>
     <e lm="shoulder"><i>shoulder</i><par n="house__n"/></e>
     <e lm="disorder"><i>disorder</i><par n="house__n"/></e>
-    <e lm="former Minister"><i>former<b/>Minister</i><par n="house__n"/></e>
     <e lm="remainder"><i>remainder</i><par n="house__n"/></e>
     <e lm="September"><i>September</i><par n="house__n"/></e>
     <e lm="October"><i>October</i><par n="house__n"/></e>
@@ -14442,6 +14442,7 @@
     <e lm="TV"><i>TV</i><par n="BBC__n"/></e>
     <e lm="UN"><i>UN</i><par n="BBC__n"/></e>
     <e lm="BBC2"><i>BBC2</i><par n="BBC__n"/></e>
+    <e lm="S4C"><i>S4C</i><par n="BBC__n"/></e>
     <e lm="general"><i>general</i><par n="house__n"/></e>
     <e lm="turn"><i>turn</i><par n="house__n"/></e>
     <e lm="force"><i>force</i><par n="house__n"/></e>
@@ -22329,6 +22330,7 @@
     <e lm="Morgan"><i>Morgan</i><par n="Ifans__np"/></e>
     <e lm="Davies"><i>Davies</i><par n="Ifans__np"/></e>
     <e lm="Evans"><i>Evans</i><par n="Ifans__np"/></e>
+    <e lm="Wales"><i>Wales</i><par n="Ifans__np"/></e>
     <e lm="Ryder"><i>Ryder</i><par n="Ifans__np"/></e>
     <e lm="Glyndŵr"><i>Glyndŵr</i><par n="Ifans__np"/></e>
     <e lm="Hart"><i>Hart</i><par n="Ifans__np"/></e>
@@ -22951,6 +22953,7 @@
     <e lm="Tristan"><i>Tristan</i><par n="Mark__np"/></e>
     <e lm="Aedan"><i>Aedan</i><par n="Mark__np"/></e>
     <e lm="Anton"><i>Anton</i><par n="Mark__np"/></e>
+    <e lm="Tony"><i>Tony</i><par n="Mark__np"/></e>
     <e lm="Bruce"><i>Bruce</i><par n="Mark__np"/></e>
     <e lm="Donald"><i>Donald</i><par n="Mark__np"/></e>
     <e lm="Kane"><i>Kane</i><par n="Mark__np"/></e>
@@ -27288,7 +27291,7 @@
     <e lm="Sbondonics"><i>Sbondonics</i><par n="house__n"/></e>
     <e lm="mathematics"><i>mathematics</i><par n="house__n"/></e>
     <e lm="two-thirds"><i>two-thirds</i><par n="house__n"/></e>
-    <e lm="trees"><i>trees</i><par n="house__n"/></e>
+    <e lm="trees"><i>trees</i><par n="politics__n"/></e>
     <e lm="supplies"><i>supplies</i><par n="house__n"/></e>
     <e lm="scales"><i>scales</i><par n="house__n"/></e>
     <e lm="balancing-scales"><i>balancing-scales</i><par n="house__n"/></e>
@@ -27357,10 +27360,15 @@
     <e lm="warrant"><i>warrant</i><par n="house__n"/></e>
     <e lm="want"><i>want</i><par n="house__n"/></e>
     <e lm="descent"><i>descent</i><par n="house__n"/></e>
+
+    <e lm="former Minister"><i>former<b/>Minister</i><par n="house__n"/></e>
     <e lm="former president"><i>former<b/>president</i><par n="house__n"/></e>
+    <e lm="former councillor"><i>former<b/>councillor</i><par n="house__n"/></e>
+    <e lm="former chairman"><i>former<b/>chairman</i><par n="house__n"/></e>
+    <e lm="fellow student"><i>fellow<b/>student</i><par n="house__n"/></e>
+
     <e lm="indent"><i>indent</i><par n="house__n"/></e>
     <e lm="correspondent"><i>correspondent</i><par n="house__n"/></e>
-    <e lm="fellow student"><i>fellow<b/>student</i><par n="house__n"/></e>
     <e lm="recipient"><i>recipient</i><par n="house__n"/></e>
     <e lm="inducement"><i>inducement</i><par n="house__n"/></e>
     <e lm="management"><i>management</i><par n="house__n"/></e>

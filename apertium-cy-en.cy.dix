@@ -50886,7 +50886,13 @@
     <e lm="cynhyrchiant"><par n="initial-c"/><i>ynhyrchiant</i><par n="achosiant__n"/></e>
     <e lm="cynnydd"><par n="initial-c"/><i>ynnydd</i><par n="achosiant__n"/></e>
     <e lm="cynnydd"><par n="initial-c"/><i>ynnydd</i><par n="achosiant__n"/></e>
+
     <e lm="cyn-Weinidog"><par n="initial-c"/><i>yn-Weinidog</i><par n="achosiant__n"/></e>
+    <e lm="cyn-fyfyriwr"><par n="initial-c"/><i>yn-fyfyr</i><par n="apel/iwr__n"/></e>
+    <e lm="cyn-lywydd"><par n="initial-c"/><i>yn-lywydd</i><par n="academydd__n"/></e>
+    <e lm="cyn-gadeirydd"><par n="initial-c"/><i>yn-gadeirydd</i><par n="academydd__n"/></e>
+    <e lm="cyn-gynghorwr"><par n="initial-c"/><i>yn-gynghorw</i><par n="addasw/r__n"/></e>
+
     <e lm="cysondeb"><par n="initial-c"/><i>ysondeb</i><par n="achosiant__n"/></e>
     <e lm="cywasgedd"><par n="initial-c"/><i>ywasgedd</i><par n="achosiant__n"/></e>
     <e lm="cywirdeb"><par n="initial-c"/><i>ywirdeb</i><par n="achosiant__n"/></e>
@@ -51343,7 +51349,6 @@
     <e lm="cymharydd"><par n="initial-c"/><i>ymharydd</i><par n="academydd__n"/></e>
     <e lm="cymysgydd"><par n="initial-c"/><i>ymysgydd</i><par n="academydd__n"/></e>
     <e lm="cynghorydd"><par n="initial-c"/><i>ynghorydd</i><par n="academydd__n"/></e>
-    <e lm="cyn-lywydd"><par n="initial-c"/><i>yn-lywydd</i><par n="academydd__n"/></e>
     <e lm="cynorthwyydd"><par n="initial-c"/><i>ynorthwyydd</i><par n="academydd__n"/></e>
     <e lm="cynrychiolydd"><par n="initial-c"/><i>ynrychiolydd</i><par n="academydd__n"/></e>
     <e lm="cyrchydd"><par n="initial-c"/><i>yrchydd</i><par n="academydd__n"/></e>
@@ -52188,7 +52193,6 @@
     <e lm="contractiwr"><par n="initial-c"/><i>ontract</i><par n="apel/iwr__n"/></e>
     <e lm="cydweithiwr"><par n="initial-c"/><i>ydweith</i><par n="apel/iwr__n"/></e>
     <e lm="cyfreithiwr"><par n="initial-c"/><i>yfreith</i><par n="apel/iwr__n"/></e>
-    <e lm="cyn-fyfyriwr"><par n="initial-c"/><i>yn-fyfyr</i><par n="apel/iwr__n"/></e>
     <e lm="cynhaliwr"><par n="initial-c"/><i>ynhal</i><par n="apel/iwr__n"/></e>
     <e lm="daliwr"><par n="initial-d"/><i>al</i><par n="apel/iwr__n"/></e>
     <e lm="darluniwr"><par n="initial-d"/><i>arlun</i><par n="apel/iwr__n"/></e>
@@ -58670,6 +58674,7 @@
     <e lm="BBC Radio Cymru"><par n="initial-B"/><i>BC<b/>Radio<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="BBC Cymru"><par n="initial-B"/><i>BC<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="BBC2"><par n="initial-B"/><i>BC2</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="S4C"><i>S4C</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="NHS Cymru"><i>NHS<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Tesco"><i>Tesco</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Swyddfa'r Post"><i>Swyddfa'r<b/>Post</i><par n="Cymdeithas_yr_Iaith__np"/></e>
@@ -59252,6 +59257,7 @@
     <e lm="German"><par n="initial-G"/><i>erman</i><par n="Ifans__np"/></e>
     <e lm="Haf"><i>Haf</i><par n="Ifans__np"/></e>
     <e lm="Evans"><i>Evans</i><par n="Ifans__np"/></e>
+    <e lm="Wales"><i>Wales</i><par n="Ifans__np"/></e>
     <e lm="Ryder"><i>Ryder</i><par n="Ifans__np"/></e>
     <e lm="Cuthbertson"><par n="initial-C"/><i>uthbertson</i><par n="Ifans__np"/></e>
     <e lm="Thomas"><par n="initial-T"/><i>homas</i><par n="Ifans__np"/></e>
@@ -59442,6 +59448,7 @@
     <e lm="Àngel"><i>Àngel</i><par n="Aled__np"/></e>
     <e lm="Anthony"><i>Anthony</i><par n="Aled__np"/></e>
     <e lm="Antoni"><i>Antoni</i><par n="Aled__np"/></e>
+    <e lm="Tony"><i>Tony</i><par n="Aled__np"/></e>
     <e lm="Antony"><i>Antony</i><par n="Aled__np"/></e>
     <e lm="Arnald"><i>Arnald</i><par n="Aled__np"/></e>
     <e lm="Arnold"><i>Arnold</i><par n="Aled__np"/></e>
