@@ -2470,7 +2470,6 @@
     <e><p><l>cynhyrchiant<s n="n"/><s n="m"/></l><r>production<s n="n"/></r></p></e>
     <e><p><l>cynnydd<s n="n"/><s n="m"/></l><r>progress<s n="n"/></r></p></e>
     <e><p><l>cynnydd<s n="n"/><s n="m"/></l><r>increase<s n="n"/></r></p></e>
-    <e><p><l>cyn-Weinidog<s n="n"/><s n="m"/></l><r>former Minister<s n="n"/></r></p></e>
     <e><p><l>cysondeb<s n="n"/><s n="m"/></l><r>consistency<s n="n"/></r></p></e>
     <e><p><l>cywasgedd<s n="n"/><s n="m"/></l><r>compression<s n="n"/></r></p></e>
     <e><p><l>cywirdeb<s n="n"/><s n="m"/></l><r>integrity<s n="n"/></r></p></e>
@@ -2888,7 +2887,6 @@
     <e><p><l>cymharydd<s n="n"/><s n="m"/></l><r>comparator<s n="n"/></r></p></e>
     <e><p><l>cymysgydd<s n="n"/><s n="m"/></l><r>mixer<s n="n"/></r></p></e>
     <e><p><l>cynghorydd<s n="n"/><s n="m"/></l><r>councillor<s n="n"/></r></p></e>
-    <e><p><l>cyn-lywydd<s n="n"/><s n="m"/></l><r>former president<s n="n"/></r></p></e>
     <e><p><l>cynorthwyydd<s n="n"/><s n="m"/></l><r>assistant<s n="n"/></r></p></e>
     <e><p><l>cynrychiolydd<s n="n"/><s n="m"/></l><r>representative<s n="n"/></r></p></e>
     <e><p><l>cyrchydd<s n="n"/><s n="m"/></l><r>cursor<s n="n"/></r></p></e>
@@ -3685,7 +3683,11 @@
     <e><p><l>contractiwr<s n="n"/><s n="m"/></l><r>contractor<s n="n"/></r></p></e>
     <e><p><l>cydweithiwr<s n="n"/><s n="m"/></l><r>colleague<s n="n"/></r></p></e>
     <e><p><l>cyfreithiwr<s n="n"/><s n="m"/></l><r>lawyer<s n="n"/></r></p></e>
-    <e><p><l>cyn-fyfyriwr<s n="n"/><s n="m"/></l><r>fellow student<s n="n"/></r></p></e>
+    <e><p><l>cyn-Weinidog<s n="n"/><s n="m"/></l><r>former<b/>Minister<s n="n"/></r></p></e>
+    <e><p><l>cyn-lywydd<s n="n"/><s n="m"/></l><r>former<b/>president<s n="n"/></r></p></e>
+    <e><p><l>cyn-gadeirydd<s n="n"/><s n="m"/></l><r>former<b/>chairman<s n="n"/></r></p></e>
+    <e><p><l>cyn-gynghorwr<s n="n"/><s n="m"/></l><r>former<b/>councillor<s n="n"/></r></p></e>
+    <e><p><l>cyn-fyfyriwr<s n="n"/><s n="m"/></l><r>fellow<b/>student<s n="n"/></r></p></e>
     <e><p><l>cynhaliwr<s n="n"/><s n="m"/></l><r>supporter<s n="n"/></r></p></e>
     <e><p><l>daliwr<s n="n"/><s n="m"/></l><r>catcher<s n="n"/></r></p></e>
     <e><p><l>darluniwr<s n="n"/><s n="m"/></l><r>illustrator<s n="n"/></r></p></e>
@@ -4890,6 +4892,7 @@
     <e><p><l>byddar<s n="adj"/></l><r>deaf<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>byd-eang<s n="adj"/></l><r>worldwide<s n="adj"/></r></p></e>
     <e><p><l>bynnag<s n="adj"/></l><r>-ever<s n="adj"/></r></p></e>
+    <e><p><l>cyn-<s n="adj"/></l><r>former-<s n="adj"/></r></p></e>
     <e><p><l>byrhoedlog<s n="adj"/></l><r>short-lived<s n="adj"/></r></p></e>
     <e r="RL"><p><l>byrhoedlog<s n="adj"/></l><r>transient<s n="adj"/></r></p></e>
     <e><p><l>byr-rybudd<s n="adj"/></l><r>short notice<s n="adj"/></r></p></e>
@@ -10323,6 +10326,7 @@
     <e><p><l>BBC Radio Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>BBC Radio Cymru<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>BBC Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>BBC Cymru<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>BBC2<s n="np"/><s n="org"/><s n="f"/></l><r>BBC2<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>S4C<s n="np"/><s n="org"/><s n="f"/></l><r>S4C<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>NHS Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>NHS Cymru<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Tesco<s n="np"/><s n="org"/><s n="f"/></l><r>Tesco<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Swyddfa'r<b/>Post<s n="np"/><s n="org"/><s n="f"/></l><r>Post<b/>Office<s n="np"/><s n="org"/></r></p></e>
@@ -10703,6 +10707,7 @@
     <e><p><l>Anthony<s n="np"/><s n="ant"/></l><r>Anthony<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Antònia<s n="np"/><s n="ant"/></l><r>Antònia<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Antoni<s n="np"/><s n="ant"/></l><r>Antoni<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Tony<s n="np"/><s n="ant"/></l><r>Tony<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Antony<s n="np"/><s n="ant"/></l><r>Antony<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Anys<s n="np"/><s n="ant"/></l><r>Anys<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Arantxa<s n="np"/><s n="ant"/></l><r>Arantxa<s n="np"/><s n="ant"/></r></p></e>
@@ -11413,7 +11418,7 @@
     <e><p><l>Galliford<s n="np"/><s n="cog"/></l><r>Galliford<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>German<s n="np"/><s n="cog"/></l><r>German<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Collins<s n="np"/><s n="cog"/></l><r>Collins<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Evans<s n="np"/><s n="cog"/></l><r>Evans<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Wales<s n="np"/><s n="cog"/></l><r>Wales<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Ryder<s n="np"/><s n="cog"/></l><r>Ryder<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Thomas<s n="np"/><s n="cog"/></l><r>Thomas<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Roberts<s n="np"/><s n="cog"/></l><r>Roberts<s n="np"/><s n="cog"/></r></p></e>
