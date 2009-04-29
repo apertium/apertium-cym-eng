@@ -23483,6 +23483,84 @@
     <e lm="Torfaen"><i>Torfaen</i><par n="Barcelona__np"/></e>
 
 
+    <e lm="Afonwen"><i>Afonwen</i><par n="Barcelona__np"/></e>
+    <e lm="Babell"><i>Babell</i><par n="Barcelona__np"/></e>
+    <e lm="Bagillt"><i>Bagillt</i><par n="Barcelona__np"/></e>
+    <e lm="Bodfari"><i>Bodfari</i><par n="Barcelona__np"/></e>
+    <e lm="Betws Gwerfyl Goch"><i>Betws<b/>Gwerfyl<b/>Goch</i><par n="Barcelona__np"/></e>
+    <e lm="Bryn Eglwys"><i>Bryn<b/>Eglwys</i><par n="Barcelona__np"/></e>
+    <e lm="Brynford"><i>Brynford</i><par n="Barcelona__np"/></e>
+    <e lm="Bryn-y-Baal"><i>Bryn-y-Baal</i><par n="Barcelona__np"/></e>
+    <e lm="Bwcle"><i>Bwcle</i><par n="Barcelona__np"/></e>
+    <e lm="Cadole"><i>Cadole</i><par n="Barcelona__np"/></e>
+    <e lm="Caerwys"><i>Caerwys</i><par n="Barcelona__np"/></e>
+    <e lm="Carmel"><i>Carmel</i><par n="Barcelona__np"/></e>
+    <e lm="Cefn Meiriadog"><i>Cefn<b/>Meiriadog</i><par n="Barcelona__np"/></e>
+    <e lm="Cei Conna"><i>Cei<b/>Conna</i><par n="Barcelona__np"/></e>
+    <e lm="Chwitffordd"><i>Chwitffordd</i><par n="Barcelona__np"/></e>
+    <e lm="Cilcain"><i>Cilcain</i><par n="Barcelona__np"/></e>
+    <e lm="Clawddnewydd"><i>Clawddnewydd</i><par n="Barcelona__np"/></e>
+    <e lm="Clocaenog"><i>Clocaenog</i><par n="Barcelona__np"/></e>
+    <e lm="Corwen"><i>Corwen</i><par n="Barcelona__np"/></e>
+    <e lm="Cyffylliog"><i>Cyffylliog</i><par n="Barcelona__np"/></e>
+    <e lm="Cyffylliog"><i>Cyffylliog</i><par n="Barcelona__np"/></e>
+    <e lm="Cynwyd"><i>Cynwyd</i><par n="Barcelona__np"/></e>
+    <e lm="Dinbych"><i>Dinbych</i><par n="Barcelona__np"/></e>
+    <e lm="Derwen"><i>Derwen</i><par n="Barcelona__np"/></e>
+    <e lm="Derwydd"><i>Derwydd</i><par n="Barcelona__np"/></e>
+    <e lm="Efenechdyd"><i>Efenechdyd</i><par n="Barcelona__np"/></e>
+    <e lm="Eryrys"><i>Eryrys</i><par n="Barcelona__np"/></e>
+    <e lm="Ewlo"><i>Ewlo</i><par n="Barcelona__np"/></e>
+    <e lm="Fflint"><i>Fflint</i><par n="Barcelona__np"/></e>
+    <e lm="Ffynnongroyw"><i>Ffynnongroyw</i><par n="Barcelona__np"/></e>
+    <e lm="Glyndyfrdwy"><i>Glyndyfrdwy</i><par n="Barcelona__np"/></e>
+    <e lm="Graigfechan"><i>Graigfechan</i><par n="Barcelona__np"/></e>
+    <e lm="Gronant"><i>Gronant</i><par n="Barcelona__np"/></e>
+    <e lm="Gwernymynydd"><i>Gwernymynydd</i><par n="Barcelona__np"/></e>
+    <e lm="Gwespyr"><i>Gwespyr</i><par n="Barcelona__np"/></e>
+    <e lm="Gwyddelwern"><i>Gwyddelwern</i><par n="Barcelona__np"/></e>
+    <e lm="Helygain"><i>Helygain</i><par n="Barcelona__np"/></e>
+    <e lm="Henllan"><i>Henllan</i><par n="Barcelona__np"/></e>
+    <e lm="Licswm"><i>Licswm</i><par n="Barcelona__np"/></e>
+    <e lm="Llanarmon-yn-Iâl"><i>Llanarmon-yn-Iâl</i><par n="Barcelona__np"/></e>
+    <e lm="Llanasa"><i>Llanasa</i><par n="Barcelona__np"/></e>
+    <e lm="Llanbedr Dyffryn Clwyd"><i>Llanbedr<b/>Dyffryn<b/>Clwyd</i><par n="Barcelona__np"/></e>
+    <e lm="Llandegla"><i>Llandegla</i><par n="Barcelona__np"/></e>
+    <e lm="Llandrillo"><i>Llandrillo</i><par n="Barcelona__np"/></e>
+    <e lm="Llandyrnog"><i>Llandyrnog</i><par n="Barcelona__np"/></e>
+    <e lm="Llanefydd"><i>Llanefydd</i><par n="Barcelona__np"/></e>
+    <e lm="Llanelidan"><i>Llanelidan</i><par n="Barcelona__np"/></e>
+    <e lm="Llaneurgain"><i>Llaneurgain</i><par n="Barcelona__np"/></e>
+    <e lm="Llanfair Dyffryn Clwyd"><i>Llanfair<b/>Dyffryn<b/>Clwyd</i><par n="Barcelona__np"/></e>
+    <e lm="Llanferes"><i>Llanferes</i><par n="Barcelona__np"/></e>
+    <e lm="Llanfihangel Glyn Myfyr"><i>Llanfihangel<b/>Glyn<b/>Myfyr</i><par n="Barcelona__np"/></e>
+    <e lm="Llanfwrog"><i>Llanfwrog</i><par n="Barcelona__np"/></e>
+    <e lm="Llangwyfan"><i>Llangwyfan</i><par n="Barcelona__np"/></e>
+    <e lm="Llanrhaeadr"><i>Llanrhaeadr</i><par n="Barcelona__np"/></e>
+    <e lm="Llansannan"><i>Llansannan</i><par n="Barcelona__np"/></e>
+    <e lm="Maes Glas"><i>Maes<b/>Glas</i><par n="Barcelona__np"/></e>
+    <e lm="Melin-y-Wig"><i>Melin-y-Wig</i><par n="Barcelona__np"/></e>
+    <e lm="Mostyn"><i>Mostyn</i><par n="Barcelona__np"/></e>
+    <e lm="Mynydd Isa"><i>Mynydd<b/>Isa</i><par n="Barcelona__np"/></e>
+    <e lm="Nannerch"><i>Nannerch</i><par n="Barcelona__np"/></e>
+    <e lm="Nercwys"><i>Nercwys</i><par n="Barcelona__np"/></e>
+    <e lm="Oakenholt"><i>Oakenholt</i><par n="Barcelona__np"/></e>
+    <e lm="Pantymwyn"><i>Pantymwyn</i><par n="Barcelona__np"/></e>
+    <e lm="Pentrecelyn"><i>Pentrecelyn</i><par n="Barcelona__np"/></e>
+    <e lm="Pentrellyncymer"><i>Pentrellyncymer</i><par n="Barcelona__np"/></e>
+    <e lm="Pwllglas"><i>Pwllglas</i><par n="Barcelona__np"/></e>
+    <e lm="Rhes-y-Cae"><i>Rhes-y-Cae</i><par n="Barcelona__np"/></e>
+    <e lm="Rhosesmor"><i>Rhosesmor</i><par n="Barcelona__np"/></e>
+    <e lm="Rhydymwyn"><i>Rhydymwyn</i><par n="Barcelona__np"/></e>
+    <e lm="Rhuthun"><i>Rhuthun</i><par n="Barcelona__np"/></e>
+    <e lm="Sychdyn"><i>Sychdyn</i><par n="Barcelona__np"/></e>
+    <e lm="Talacre"><i>Talacre</i><par n="Barcelona__np"/></e>
+    <e lm="Treffynnon"><i>Treffynnon</i><par n="Barcelona__np"/></e>
+    <e lm="Trelawnyd"><i>Trelawnyd</i><par n="Barcelona__np"/></e>
+    <e lm="Y Waun"><i>Y<b/>Waun</i><par n="Barcelona__np"/></e>
+    <e lm="Yr Wyddgrug"><i>Yr<b/>Wyddgrug</i><par n="Barcelona__np"/></e>
+    <e lm="Ysgeifiog"><i>Ysgeifiog</i><par n="Barcelona__np"/></e>
+
     <e lm="Caernarfon"><i>Caernarfon</i><par n="Barcelona__np"/></e>
     <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Barcelona__np"/></e>
     <e lm="Ceredigion"><i>Ceredigion</i><par n="Barcelona__np"/></e>

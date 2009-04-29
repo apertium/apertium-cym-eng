@@ -11652,6 +11652,84 @@
     <e><p><l>Gwynedd<s n="np"/><s n="top"/><s n="f"/></l><r>Gwynedd<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Dyfed-Powys<s n="np"/><s n="top"/><s n="f"/></l><r>Dyfed-Powys<s n="np"/><s n="top"/></r></p></e>
 
+    <e><p><l>Afonwen<s n="np"/><s n="top"/><s n="f"/></l><r>Afonwen<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Babell<s n="np"/><s n="top"/><s n="f"/></l><r>Babell<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bagillt<s n="np"/><s n="top"/><s n="f"/></l><r>Bagillt<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bodfari<s n="np"/><s n="top"/><s n="f"/></l><r>Bodfari<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Betws<b/>Gwerfyl<b/>Goch<s n="np"/><s n="top"/><s n="f"/></l><r>Betws<b/>Gwerfyl<b/>Goch<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bryn<b/>Eglwys<s n="np"/><s n="top"/><s n="f"/></l><r>Bryn<b/>Eglwys<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Brynford<s n="np"/><s n="top"/><s n="f"/></l><r>Brynford<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bryn-y-Baal<s n="np"/><s n="top"/><s n="f"/></l><r>Bryn-y-Baal<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bwcle<s n="np"/><s n="top"/><s n="f"/></l><r>Bwcle<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Cadole<s n="np"/><s n="top"/><s n="f"/></l><r>Cadole<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Caerwys<s n="np"/><s n="top"/><s n="f"/></l><r>Caerwys<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Carmel<s n="np"/><s n="top"/><s n="f"/></l><r>Carmel<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Cefn<b/>Meiriadog<s n="np"/><s n="top"/><s n="f"/></l><r>Cefn<b/>Meiriadog<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Cei<b/>Conna<s n="np"/><s n="top"/><s n="f"/></l><r>Cei<b/>Conna<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Chwitffordd<s n="np"/><s n="top"/><s n="f"/></l><r>Chwitffordd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Cilcain<s n="np"/><s n="top"/><s n="f"/></l><r>Cilcain<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Clawddnewydd<s n="np"/><s n="top"/><s n="f"/></l><r>Clawddnewydd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Clocaenog<s n="np"/><s n="top"/><s n="f"/></l><r>Clocaenog<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Corwen<s n="np"/><s n="top"/><s n="f"/></l><r>Corwen<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Cyffylliog<s n="np"/><s n="top"/><s n="f"/></l><r>Cyffylliog<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Cyffylliog<s n="np"/><s n="top"/><s n="f"/></l><r>Cyffylliog<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Cynwyd<s n="np"/><s n="top"/><s n="f"/></l><r>Cynwyd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Dinbych<s n="np"/><s n="top"/><s n="f"/></l><r>Dinbych<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Derwen<s n="np"/><s n="top"/><s n="f"/></l><r>Derwen<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Derwydd<s n="np"/><s n="top"/><s n="f"/></l><r>Derwydd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Efenechdyd<s n="np"/><s n="top"/><s n="f"/></l><r>Efenechdyd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Eryrys<s n="np"/><s n="top"/><s n="f"/></l><r>Eryrys<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ewlo<s n="np"/><s n="top"/><s n="f"/></l><r>Ewlo<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Fflint<s n="np"/><s n="top"/><s n="f"/></l><r>Fflint<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ffynnongroyw<s n="np"/><s n="top"/><s n="f"/></l><r>Ffynnongroyw<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Glyndyfrdwy<s n="np"/><s n="top"/><s n="f"/></l><r>Glyndyfrdwy<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Graigfechan<s n="np"/><s n="top"/><s n="f"/></l><r>Graigfechan<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Gronant<s n="np"/><s n="top"/><s n="f"/></l><r>Gronant<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Gwernymynydd<s n="np"/><s n="top"/><s n="f"/></l><r>Gwernymynydd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Gwespyr<s n="np"/><s n="top"/><s n="f"/></l><r>Gwespyr<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Gwyddelwern<s n="np"/><s n="top"/><s n="f"/></l><r>Gwyddelwern<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Helygain<s n="np"/><s n="top"/><s n="f"/></l><r>Helygain<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Henllan<s n="np"/><s n="top"/><s n="f"/></l><r>Henllan<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Licswm<s n="np"/><s n="top"/><s n="f"/></l><r>Licswm<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanarmon-yn-Iâl<s n="np"/><s n="top"/><s n="f"/></l><r>Llanarmon-yn-Iâl<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanasa<s n="np"/><s n="top"/><s n="f"/></l><r>Llanasa<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanbedr<b/>Dyffryn<b/>Clwyd<s n="np"/><s n="top"/><s n="f"/></l><r>Llanbedr<b/>Dyffryn<b/>Clwyd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llandegla<s n="np"/><s n="top"/><s n="f"/></l><r>Llandegla<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llandrillo<s n="np"/><s n="top"/><s n="f"/></l><r>Llandrillo<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llandyrnog<s n="np"/><s n="top"/><s n="f"/></l><r>Llandyrnog<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanefydd<s n="np"/><s n="top"/><s n="f"/></l><r>Llanefydd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanelidan<s n="np"/><s n="top"/><s n="f"/></l><r>Llanelidan<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llaneurgain<s n="np"/><s n="top"/><s n="f"/></l><r>Llaneurgain<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanfair<b/>Dyffryn<b/>Clwyd<s n="np"/><s n="top"/><s n="f"/></l><r>Llanfair<b/>Dyffryn<b/>Clwyd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanferes<s n="np"/><s n="top"/><s n="f"/></l><r>Llanferes<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanfihangel<b/>Glyn<b/>Myfyr<s n="np"/><s n="top"/><s n="f"/></l><r>Llanfihangel<b/>Glyn<b/>Myfyr<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanfwrog<s n="np"/><s n="top"/><s n="f"/></l><r>Llanfwrog<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llangwyfan<s n="np"/><s n="top"/><s n="f"/></l><r>Llangwyfan<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanrhaeadr<s n="np"/><s n="top"/><s n="f"/></l><r>Llanrhaeadr<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llansannan<s n="np"/><s n="top"/><s n="f"/></l><r>Llansannan<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Maes<b/>Glas<s n="np"/><s n="top"/><s n="f"/></l><r>Maes<b/>Glas<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Melin-y-Wig<s n="np"/><s n="top"/><s n="f"/></l><r>Melin-y-Wig<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Mostyn<s n="np"/><s n="top"/><s n="f"/></l><r>Mostyn<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Mynydd<b/>Isa<s n="np"/><s n="top"/><s n="f"/></l><r>Mynydd<b/>Isa<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Nannerch<s n="np"/><s n="top"/><s n="f"/></l><r>Nannerch<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Nercwys<s n="np"/><s n="top"/><s n="f"/></l><r>Nercwys<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Oakenholt<s n="np"/><s n="top"/><s n="f"/></l><r>Oakenholt<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Pantymwyn<s n="np"/><s n="top"/><s n="f"/></l><r>Pantymwyn<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Pentrecelyn<s n="np"/><s n="top"/><s n="f"/></l><r>Pentrecelyn<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Pentrellyncymer<s n="np"/><s n="top"/><s n="f"/></l><r>Pentrellyncymer<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Pwllglas<s n="np"/><s n="top"/><s n="f"/></l><r>Pwllglas<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Rhes-y-Cae<s n="np"/><s n="top"/><s n="f"/></l><r>Rhes-y-Cae<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Rhosesmor<s n="np"/><s n="top"/><s n="f"/></l><r>Rhosesmor<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Rhydymwyn<s n="np"/><s n="top"/><s n="f"/></l><r>Rhydymwyn<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Rhuthun<s n="np"/><s n="top"/><s n="f"/></l><r>Rhuthun<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Sychdyn<s n="np"/><s n="top"/><s n="f"/></l><r>Sychdyn<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Talacre<s n="np"/><s n="top"/><s n="f"/></l><r>Talacre<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Treffynnon<s n="np"/><s n="top"/><s n="f"/></l><r>Treffynnon<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Trelawnyd<s n="np"/><s n="top"/><s n="f"/></l><r>Trelawnyd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Y<b/>Waun<s n="np"/><s n="top"/><s n="f"/></l><r>Y<b/>Waun<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Yr<b/>Wyddgrug<s n="np"/><s n="top"/><s n="f"/></l><r>Yr<b/>Wyddgrug<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ysgeifiog<s n="np"/><s n="top"/><s n="f"/></l><r>Ysgeifiog<s n="np"/><s n="top"/></r></p></e>
+
     <e><p><l>Aberystwyth<s n="np"/><s n="top"/><s n="f"/></l><r>Aberystwyth<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Abercynon<s n="np"/><s n="top"/><s n="f"/></l><r>Abercynon<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Doc Penfro<s n="np"/><s n="top"/><s n="f"/></l><r>Pembroke Dock<s n="np"/><s n="top"/></r></p></e>
