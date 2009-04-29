@@ -2929,7 +2929,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: ADJ NOM ADJ TOP">
+    <rule comment="REGLA: ADJ NOM ADJ TOP"> <!-- Prif Swyddog Meddygol Cymru -->
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="nom"/>
