@@ -64,6 +64,7 @@ LIST prn_subj_3pl = (prn subj p3 pl);
 
 
 LIST PrnSubjP1Sg = (prn subj p1 sg);
+LIST PrnSubjP1Sg = (prn obj p1 sg);
 
 SET PrnSubjP3Sg = PrnSubj + P3Sg;
 SET PrnSubjP1Pl = PrnSubj + P1Pl;
@@ -81,12 +82,12 @@ LIST Oes = (vbser sp); 		# oes
 
 LIST Vpart = (vpart neg) (vpart aff) (vpart itg); # Verbal particles
 
-LIST vb_1sg = (vblex p1 sg);
-LIST vb_2sg = (vblex p2 sg);
-LIST vb_3sg = (vblex p3 sg);
-LIST vb_1pl = (vblex p1 pl);
-LIST vb_2pl = (vblex p2 pl);
-LIST vb_3pl = (vblex p3 pl);
+LIST vb_1sg = V + (p1 sg);
+LIST vb_2sg = V + (p2 sg);
+LIST vb_3sg = V + (p3 sg);
+LIST vb_1pl = V + (p1 pl);
+LIST vb_2pl = V + (p2 pl);
+LIST vb_3pl = V + (p3 pl);
 
 LIST vb_inf = (vblex inf);
 
@@ -259,9 +260,14 @@ REMOVE Prn IF (-1 NC) (0 Prn) (0 DetDem);
 # Adjectives
 #####################################
 # boi iawn; mae'n iawn rŵan
-SELECT:S_iawn_adj Adj ( (-1 NC) OR (-1 prep_yn));
+SELECT:S_iawn_adj ("iawn" adj) ( (-1 NC) OR (-1 prep_yn) );
 #REMOVE:R_iawn_adv ("iawn" adv) ( (-1 NC) OR (-1 ("yn" stative)) );
 
+
+
+# Adverbs
+#####################################
+SELECT:S_cyn_adv ("cyn" adv) ( (1 Adj) OR (1 Adv) );
 
 
 # Pronouns
@@ -286,13 +292,13 @@ REMOVE PrnSubj IF (1 NP) (-1 Adj);
 # Mi welodd y bachgen ni a'n ffrindiau ar y traeth.
 #REMOVE:R_ni_subj ("ni"ri prn subj) IF (NOT -1 vb_1pl);
 # UPDATE - for some inexplicable reason this stopped working; even adjusting the location made no difference, so changed to a SUBSTITUTE rule
-SUBSTITUTE:M_subj_obj_1sg (subj) (obj) prn_subj_1sg (NOT -1 vb_1sg) (NOT -1 (invariant));
-SUBSTITUTE:M_subj_obj_2sg (subj) (obj) prn_subj_2sg (NOT -1 vb_2sg) (NOT -1 (invariant));
-SUBSTITUTE:M_subj_obj_3sg_m (subj) (obj) prn_subj_3sg_m (NOT -1 vb_3sg) (NOT -1 (invariant));
-SUBSTITUTE:M_subj_obj_3sg_f (subj) (obj) prn_subj_3sg_f (NOT -1 vb_3sg) (NOT -1 (invariant));
-SUBSTITUTE:M_subj_obj_1pl (subj) (obj) prn_subj_1pl (NOT -1 vb_1pl) (NOT -1 (invariant));
-SUBSTITUTE:M_subj_obj_2pl (subj) (obj) prn_subj_2pl (NOT -1 vb_2pl) (NOT -1 (invariant));
-SUBSTITUTE:M_subj_obj_3pl (subj) (obj) prn_subj_3pl (NOT -1 vb_3pl) (NOT -1 (invariant));
+SUBSTITUTE:M_subj_obj_1sg (subj) (obj) prn_subj_1sg (NOT -1 vb_1sg) (NOT -1 ("<ddaru>" "ddaru" vaux past));
+SUBSTITUTE:M_subj_obj_2sg (subj) (obj) prn_subj_2sg (NOT -1 vb_2sg) (NOT -1 ("<ddaru>" "ddaru" vaux past));
+SUBSTITUTE:M_subj_obj_3sg_m (subj) (obj) prn_subj_3sg_m (NOT -1 vb_3sg) (NOT -1 ("<ddaru>" "ddaru" vaux past));
+SUBSTITUTE:M_subj_obj_3sg_f (subj) (obj) prn_subj_3sg_f (NOT -1 vb_3sg) (NOT -1 ("<ddaru>" "ddaru" vaux past));
+SUBSTITUTE:M_subj_obj_1pl (subj) (obj) prn_subj_1pl (NOT -1 vb_1pl) (NOT -1 ("<ddaru>" "ddaru" vaux past));
+SUBSTITUTE:M_subj_obj_2pl (subj) (obj) prn_subj_2pl (NOT -1 vb_2pl) (NOT -1 ("<ddaru>" "ddaru" vaux past));
+SUBSTITUTE:M_subj_obj_3pl (subj) (obj) prn_subj_3pl (NOT -1 vb_3pl) (NOT -1 ("<ddaru>" "ddaru" vaux past));
 # (invariant) to cover "ddaru"
 
 
@@ -338,7 +344,7 @@ SUBSTITUTE:M_sg_pl_sydd (sg) (pl) (+bod sg) (-1* ("sawl"ri) BARRIER (sent));
 # aeth i gael y pres - he went to get the money
 # aethom i gael y pres - we went to get the money
 # the first is alright without this rule, the second isn't
-SELECT:S_i_prep Prep_i IF (NOT -1 vb_1sg) (0 Prep_i) (0 PrnSubjP1Sg);
+SELECT:S_i_prep Prep_i IF (NOT -1 vb_1sg) (0 Prep_i) (0 PrnSubjP1Sg)  (0 PrnSubjP1Sg);
 # We need more work to differentiate between
 # cerddaf i'r dre - I'll walk to the town (prep + yr)
 # and
@@ -395,8 +401,14 @@ SUBSTITUTE:M_obj_subj_posti_preinf (obj) (subj) (+prpers obj) (1 vb_inf);
 # select i_prep, not i_prn
 SELECT:S_i_postinfin ("i" pr) (-1 vb_inf);
 
+#i ba raddau
+# select i_prep, not i_prn
+SELECT:S_i_prepa ("i"ri pr) (1 ("pa" prn itg));
+# need to use ri or it won't catch the capital I
 
-
+# math o, fathau o
+# delete the bath sense before o_pr- this is not perfect
+REMOVE:R_bath_preo ("bath" n) (1 ("o" pr));
 
 
 
@@ -465,6 +477,9 @@ REMOVE:R_medd_say ("medd" vblex inf) (-1 (det pos));
 #REMOVE:R_a_cnjcoo_preprn ("a" cnjcoo) (1 (prn obj p3 m sg));
 #SELECT:S_a_rel_preprn ("a" rel) (1 (prn obj p3 m sg));
 
+# cyfathrebu dwyieithog
+# cast an infinitive as a verbal noun when an adj follows
+SUBSTITUTE:M_infin_vn_preadj (inf) (ger) (vblex) (1 (adj));
 
 
 
@@ -563,6 +578,26 @@ SUBSTITUTE ("gallu"ri vbmod) ("gallu" vbmod S1) NC (-1 prep_yn);
 # choose the "from" sense of o (not of) if it is followed by a placename
 # dyn o Abertawe
 SUBSTITUTE:M_o_from_pretop ("o" pr) ("o" pr S1) ("o" pr) (1 (np top));
+
+# choose the "way" sense of "ffordd" when in the vicinity of "gwahanol"
+# mewn gwahanol ffyrdd
+SUBSTITUTE:M_ffordd_way_gwahanol ("ffordd" n f) ("ffordd" n f S1) ("ffordd" n f) ( (1 ("gwahanol" adj)) OR (-1 ("gwahanol" adj)) );
+# not perfect, because it would apply in other contexts too
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
