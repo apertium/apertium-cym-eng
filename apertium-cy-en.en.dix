@@ -127,6 +127,9 @@
     <sdef n="stative"/>
     <sdef n="postnum"/>
     <sdef n="invariant"/>
+	<sdef n="peri"/>
+	<sdef n="vrbnull"/>
+
 
   </sdefs>
 
@@ -1071,29 +1074,23 @@
         </p>
       </e>
     </pardef>
-    <pardef n="/the__det">
-      <e r="LR">
+    <pardef n="the__det">
+      <e>
         <p>
-          <l>the</l>
-          <r>the<s n="det"/><s n="def"/><s n="sp"/></r>
+          <l/>
+          <r><s n="det"/><s n="def"/><s n="sp"/></r>
         </p>
       </e>
       <e r="RL">
         <p>
-          <l><a/>the</l>
-          <r>the<s n="det"/><s n="def"/><s n="sp"/></r>
+          <l/>
+          <r><s n="det"/><s n="def"/><s n="sg"/></r>
         </p>
       </e>
       <e r="RL">
         <p>
-          <l><a/>the</l>
-          <r>the<s n="det"/><s n="def"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e r="RL">
-        <p>
-          <l><a/>the</l>
-          <r>the<s n="det"/><s n="def"/><s n="pl"/></r>
+          <l/>
+          <r><s n="det"/><s n="def"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -9188,6 +9185,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="prsubj__prn">
       <e>
         <p>
@@ -9201,7 +9199,6 @@
           <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
- 
       <e r="RL">
         <p>
           <l>you</l>
@@ -9219,8 +9216,7 @@
           <l>you</l>
           <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r>
         </p>
-      </e>
- 
+      </e> 
       <e>
         <p>
           <l>he</l>
@@ -9252,6 +9248,7 @@
         </p>
       </e>
     </pardef>
+
     <pardef n="probj__prn">
       <e>
         <p>
@@ -10014,6 +10011,8 @@
   <section id="main" type="standard">
     <e lm="the most"><p><l>the<b/>most</l><r>the<s n="det"/><s n="def"/><s n="sp"/><j/>most<s n="preadv"/></r></p></e>
     <e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+
+
 
     <e lm="including"><i>including</i><par n="expensive__adj"/></e>
     <e lm="cosmopolitan"><i>cosmopolitan</i><par n="expensive__adj"/></e>
@@ -11491,7 +11490,6 @@
     <e lm="tabloid"><i>tabloid</i><par n="expensive__adj"/></e>
     <e lm="overriding"><i>overriding</i><par n="expensive__adj"/></e>
     <e lm="former"><i>former</i><par n="expensive__adj"/></e>
-    <e lm="former-"><i>former-</i><par n="expensive__adj"/></e>
     <e lm="unsatisfied"><i>unsatisfied</i><par n="expensive__adj"/></e>
     <e lm="diagonal"><i>diagonal</i><par n="expensive__adj"/></e>
     <e lm="oriental"><i>oriental</i><par n="expensive__adj"/></e>
@@ -12236,6 +12234,7 @@
     <e lm="weather"><i>weather</i><par n="house__n"/></e>
     <e lm="shoulder"><i>shoulder</i><par n="house__n"/></e>
     <e lm="disorder"><i>disorder</i><par n="house__n"/></e>
+    <e lm="former Minister"><i>former<b/>Minister</i><par n="house__n"/></e>
     <e lm="remainder"><i>remainder</i><par n="house__n"/></e>
     <e lm="September"><i>September</i><par n="house__n"/></e>
     <e lm="October"><i>October</i><par n="house__n"/></e>
@@ -14048,7 +14047,7 @@
     <e lm="such a"><i>such a</i><par n="another__det"/></e>
     <e lm="such"><i>such</i><par n="other__det"/></e>
     <e lm="that"><i>th</i><par n="th/at__det"/></e>
-    <e lm="the"><i/><par n="/the__det"/></e>
+    <e lm="the"><i>the</i><par n="the__det"/></e>
     <e lm="their"><i>their</i><par n="her__det"/></e>
     <e lm="this"><i>th</i><par n="th/is__det"/></e>
     <e lm="what"><i>what</i><par n="what__det"/></e>
@@ -14442,7 +14441,6 @@
     <e lm="TV"><i>TV</i><par n="BBC__n"/></e>
     <e lm="UN"><i>UN</i><par n="BBC__n"/></e>
     <e lm="BBC2"><i>BBC2</i><par n="BBC__n"/></e>
-    <e lm="S4C"><i>S4C</i><par n="BBC__n"/></e>
     <e lm="general"><i>general</i><par n="house__n"/></e>
     <e lm="turn"><i>turn</i><par n="house__n"/></e>
     <e lm="force"><i>force</i><par n="house__n"/></e>
@@ -22330,8 +22328,6 @@
     <e lm="Morgan"><i>Morgan</i><par n="Ifans__np"/></e>
     <e lm="Davies"><i>Davies</i><par n="Ifans__np"/></e>
     <e lm="Evans"><i>Evans</i><par n="Ifans__np"/></e>
-    <e lm="Wales"><i>Wales</i><par n="Ifans__np"/></e>
-    <e lm="Ryder"><i>Ryder</i><par n="Ifans__np"/></e>
     <e lm="Glyndŵr"><i>Glyndŵr</i><par n="Ifans__np"/></e>
     <e lm="Hart"><i>Hart</i><par n="Ifans__np"/></e>
     <e lm="Hughes"><i>Hughes</i><par n="Ifans__np"/></e>
@@ -22449,7 +22445,6 @@
     <e lm="Scottish National Party"><i>Scottish<b/>National<b/>Party</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Plaid Cymru"><i>Plaid<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Welsh Conservatives"><i>Welsh<b/>Conservatives</i><par n="Cymdeithas_yr_Iaith__np"/></e>
-    <e lm="Conservatives"><i>Conservatives</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Labour Party"><i>Labour<b/>Party</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="North Wales Police"><i>North<b/>Wales<b/>Police</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="South Wales Police"><i>South<b/>Wales<b/>Police</i><par n="Cymdeithas_yr_Iaith__np"/></e>
@@ -22953,7 +22948,6 @@
     <e lm="Tristan"><i>Tristan</i><par n="Mark__np"/></e>
     <e lm="Aedan"><i>Aedan</i><par n="Mark__np"/></e>
     <e lm="Anton"><i>Anton</i><par n="Mark__np"/></e>
-    <e lm="Tony"><i>Tony</i><par n="Mark__np"/></e>
     <e lm="Bruce"><i>Bruce</i><par n="Mark__np"/></e>
     <e lm="Donald"><i>Donald</i><par n="Mark__np"/></e>
     <e lm="Kane"><i>Kane</i><par n="Mark__np"/></e>
@@ -23222,7 +23216,6 @@
     <e lm="Ieuan"><i>Ieuan</i><par n="Mark__np"/></e>
     <e lm="Rhys"><i>Rhys</i><par n="Mark__np"/></e>
     <e lm="Siôn"><i>Siôn</i><par n="Mary__np"/></e>
-    <e lm="Siân"><i>Siân</i><par n="Mary__np"/></e>
     <e lm="Sioned"><i>Sioned</i><par n="Mary__np"/></e>
     <e lm="Talfan"><i>Talfan</i><par n="Mark__np"/></e>
 
@@ -23482,84 +23475,6 @@
     <e lm="Caernarfonshire"><i>Caernarfonshire</i><par n="Barcelona__np"/></e>
     <e lm="Torfaen"><i>Torfaen</i><par n="Barcelona__np"/></e>
 
-
-    <e lm="Afonwen"><i>Afonwen</i><par n="Barcelona__np"/></e>
-    <e lm="Babell"><i>Babell</i><par n="Barcelona__np"/></e>
-    <e lm="Bagillt"><i>Bagillt</i><par n="Barcelona__np"/></e>
-    <e lm="Bodfari"><i>Bodfari</i><par n="Barcelona__np"/></e>
-    <e lm="Betws Gwerfyl Goch"><i>Betws<b/>Gwerfyl<b/>Goch</i><par n="Barcelona__np"/></e>
-    <e lm="Bryn Eglwys"><i>Bryn<b/>Eglwys</i><par n="Barcelona__np"/></e>
-    <e lm="Brynford"><i>Brynford</i><par n="Barcelona__np"/></e>
-    <e lm="Bryn-y-Baal"><i>Bryn-y-Baal</i><par n="Barcelona__np"/></e>
-    <e lm="Bwcle"><i>Bwcle</i><par n="Barcelona__np"/></e>
-    <e lm="Cadole"><i>Cadole</i><par n="Barcelona__np"/></e>
-    <e lm="Caerwys"><i>Caerwys</i><par n="Barcelona__np"/></e>
-    <e lm="Carmel"><i>Carmel</i><par n="Barcelona__np"/></e>
-    <e lm="Cefn Meiriadog"><i>Cefn<b/>Meiriadog</i><par n="Barcelona__np"/></e>
-    <e lm="Cei Conna"><i>Cei<b/>Conna</i><par n="Barcelona__np"/></e>
-    <e lm="Chwitffordd"><i>Chwitffordd</i><par n="Barcelona__np"/></e>
-    <e lm="Cilcain"><i>Cilcain</i><par n="Barcelona__np"/></e>
-    <e lm="Clawddnewydd"><i>Clawddnewydd</i><par n="Barcelona__np"/></e>
-    <e lm="Clocaenog"><i>Clocaenog</i><par n="Barcelona__np"/></e>
-    <e lm="Corwen"><i>Corwen</i><par n="Barcelona__np"/></e>
-    <e lm="Cyffylliog"><i>Cyffylliog</i><par n="Barcelona__np"/></e>
-    <e lm="Cyffylliog"><i>Cyffylliog</i><par n="Barcelona__np"/></e>
-    <e lm="Cynwyd"><i>Cynwyd</i><par n="Barcelona__np"/></e>
-    <e lm="Dinbych"><i>Dinbych</i><par n="Barcelona__np"/></e>
-    <e lm="Derwen"><i>Derwen</i><par n="Barcelona__np"/></e>
-    <e lm="Derwydd"><i>Derwydd</i><par n="Barcelona__np"/></e>
-    <e lm="Efenechdyd"><i>Efenechdyd</i><par n="Barcelona__np"/></e>
-    <e lm="Eryrys"><i>Eryrys</i><par n="Barcelona__np"/></e>
-    <e lm="Ewlo"><i>Ewlo</i><par n="Barcelona__np"/></e>
-    <e lm="Fflint"><i>Fflint</i><par n="Barcelona__np"/></e>
-    <e lm="Ffynnongroyw"><i>Ffynnongroyw</i><par n="Barcelona__np"/></e>
-    <e lm="Glyndyfrdwy"><i>Glyndyfrdwy</i><par n="Barcelona__np"/></e>
-    <e lm="Graigfechan"><i>Graigfechan</i><par n="Barcelona__np"/></e>
-    <e lm="Gronant"><i>Gronant</i><par n="Barcelona__np"/></e>
-    <e lm="Gwernymynydd"><i>Gwernymynydd</i><par n="Barcelona__np"/></e>
-    <e lm="Gwespyr"><i>Gwespyr</i><par n="Barcelona__np"/></e>
-    <e lm="Gwyddelwern"><i>Gwyddelwern</i><par n="Barcelona__np"/></e>
-    <e lm="Helygain"><i>Helygain</i><par n="Barcelona__np"/></e>
-    <e lm="Henllan"><i>Henllan</i><par n="Barcelona__np"/></e>
-    <e lm="Licswm"><i>Licswm</i><par n="Barcelona__np"/></e>
-    <e lm="Llanarmon-yn-Iâl"><i>Llanarmon-yn-Iâl</i><par n="Barcelona__np"/></e>
-    <e lm="Llanasa"><i>Llanasa</i><par n="Barcelona__np"/></e>
-    <e lm="Llanbedr Dyffryn Clwyd"><i>Llanbedr<b/>Dyffryn<b/>Clwyd</i><par n="Barcelona__np"/></e>
-    <e lm="Llandegla"><i>Llandegla</i><par n="Barcelona__np"/></e>
-    <e lm="Llandrillo"><i>Llandrillo</i><par n="Barcelona__np"/></e>
-    <e lm="Llandyrnog"><i>Llandyrnog</i><par n="Barcelona__np"/></e>
-    <e lm="Llanefydd"><i>Llanefydd</i><par n="Barcelona__np"/></e>
-    <e lm="Llanelidan"><i>Llanelidan</i><par n="Barcelona__np"/></e>
-    <e lm="Llaneurgain"><i>Llaneurgain</i><par n="Barcelona__np"/></e>
-    <e lm="Llanfair Dyffryn Clwyd"><i>Llanfair<b/>Dyffryn<b/>Clwyd</i><par n="Barcelona__np"/></e>
-    <e lm="Llanferes"><i>Llanferes</i><par n="Barcelona__np"/></e>
-    <e lm="Llanfihangel Glyn Myfyr"><i>Llanfihangel<b/>Glyn<b/>Myfyr</i><par n="Barcelona__np"/></e>
-    <e lm="Llanfwrog"><i>Llanfwrog</i><par n="Barcelona__np"/></e>
-    <e lm="Llangwyfan"><i>Llangwyfan</i><par n="Barcelona__np"/></e>
-    <e lm="Llanrhaeadr"><i>Llanrhaeadr</i><par n="Barcelona__np"/></e>
-    <e lm="Llansannan"><i>Llansannan</i><par n="Barcelona__np"/></e>
-    <e lm="Maes Glas"><i>Maes<b/>Glas</i><par n="Barcelona__np"/></e>
-    <e lm="Melin-y-Wig"><i>Melin-y-Wig</i><par n="Barcelona__np"/></e>
-    <e lm="Mostyn"><i>Mostyn</i><par n="Barcelona__np"/></e>
-    <e lm="Mynydd Isa"><i>Mynydd<b/>Isa</i><par n="Barcelona__np"/></e>
-    <e lm="Nannerch"><i>Nannerch</i><par n="Barcelona__np"/></e>
-    <e lm="Nercwys"><i>Nercwys</i><par n="Barcelona__np"/></e>
-    <e lm="Oakenholt"><i>Oakenholt</i><par n="Barcelona__np"/></e>
-    <e lm="Pantymwyn"><i>Pantymwyn</i><par n="Barcelona__np"/></e>
-    <e lm="Pentrecelyn"><i>Pentrecelyn</i><par n="Barcelona__np"/></e>
-    <e lm="Pentrellyncymer"><i>Pentrellyncymer</i><par n="Barcelona__np"/></e>
-    <e lm="Pwllglas"><i>Pwllglas</i><par n="Barcelona__np"/></e>
-    <e lm="Rhes-y-Cae"><i>Rhes-y-Cae</i><par n="Barcelona__np"/></e>
-    <e lm="Rhosesmor"><i>Rhosesmor</i><par n="Barcelona__np"/></e>
-    <e lm="Rhydymwyn"><i>Rhydymwyn</i><par n="Barcelona__np"/></e>
-    <e lm="Rhuthun"><i>Rhuthun</i><par n="Barcelona__np"/></e>
-    <e lm="Sychdyn"><i>Sychdyn</i><par n="Barcelona__np"/></e>
-    <e lm="Talacre"><i>Talacre</i><par n="Barcelona__np"/></e>
-    <e lm="Treffynnon"><i>Treffynnon</i><par n="Barcelona__np"/></e>
-    <e lm="Trelawnyd"><i>Trelawnyd</i><par n="Barcelona__np"/></e>
-    <e lm="Y Waun"><i>Y<b/>Waun</i><par n="Barcelona__np"/></e>
-    <e lm="Yr Wyddgrug"><i>Yr<b/>Wyddgrug</i><par n="Barcelona__np"/></e>
-    <e lm="Ysgeifiog"><i>Ysgeifiog</i><par n="Barcelona__np"/></e>
 
     <e lm="Caernarfon"><i>Caernarfon</i><par n="Barcelona__np"/></e>
     <e lm="Aberystwyth"><i>Aberystwyth</i><par n="Barcelona__np"/></e>
@@ -27369,7 +27284,7 @@
     <e lm="Sbondonics"><i>Sbondonics</i><par n="house__n"/></e>
     <e lm="mathematics"><i>mathematics</i><par n="house__n"/></e>
     <e lm="two-thirds"><i>two-thirds</i><par n="house__n"/></e>
-    <e lm="trees"><i>trees</i><par n="politics__n"/></e>
+    <e lm="trees"><i>trees</i><par n="house__n"/></e>
     <e lm="supplies"><i>supplies</i><par n="house__n"/></e>
     <e lm="scales"><i>scales</i><par n="house__n"/></e>
     <e lm="balancing-scales"><i>balancing-scales</i><par n="house__n"/></e>
@@ -27438,15 +27353,10 @@
     <e lm="warrant"><i>warrant</i><par n="house__n"/></e>
     <e lm="want"><i>want</i><par n="house__n"/></e>
     <e lm="descent"><i>descent</i><par n="house__n"/></e>
-
-    <e lm="former Minister"><i>former<b/>Minister</i><par n="house__n"/></e>
     <e lm="former president"><i>former<b/>president</i><par n="house__n"/></e>
-    <e lm="former councillor"><i>former<b/>councillor</i><par n="house__n"/></e>
-    <e lm="former chairman"><i>former<b/>chairman</i><par n="house__n"/></e>
-    <e lm="fellow student"><i>fellow<b/>student</i><par n="house__n"/></e>
-
     <e lm="indent"><i>indent</i><par n="house__n"/></e>
     <e lm="correspondent"><i>correspondent</i><par n="house__n"/></e>
+    <e lm="fellow student"><i>fellow<b/>student</i><par n="house__n"/></e>
     <e lm="recipient"><i>recipient</i><par n="house__n"/></e>
     <e lm="inducement"><i>inducement</i><par n="house__n"/></e>
     <e lm="management"><i>management</i><par n="house__n"/></e>

@@ -25,9 +25,10 @@ DELIMITERS = "<.>" "<!>" "<?>" (sent); # end-of-sentence markers
 LIST MSoftC = ("<g.*>"ri "c.*"ri)  ("<d.*>"ri "t.*"ri) ("<f.*>"ri "b.*"ri)  ("<w.*>"ri "gw.*"ri) ("<b.*>"ri "p.*"ri) ("<dd.*>"ri "d.*"ri) ("<f.*>"ri "m.*"ri);	
 	
 # aspirate mutation
-LIST MAspC = ("<ch.*>"ri "c.*"ri) ("<th.*>"ri "t.*"ri);		
+LIST MAspC = ("<ch.*>"ri "c.*"ri) ("<th.*>"ri "t.*"ri);	
 
-LIST MNasC = ("<n.*>"ri "d.*"ri) ("<m.*>"ri "b.*"ri);		# nasal mutation
+# nasal mutation
+LIST MNasC = ("<n.*>"ri "d.*"ri) ("<m.*>"ri "b.*"ri);
 
 
 # nouns
@@ -202,7 +203,9 @@ SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex)))
 		((1 (vblex)) OR (1 (vbser)) OR (1 (vbmod)) OR (1 (vaux)))
 		(NOT 1 (vblex inf)) (NOT 1 (n)) (NOT 1 Num) (NOT 0 CC);
 
-SELECT Vpart IF ( (-1 (cm)) OR (NOT -1 (vblex)) ) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 Num) (NOT 0 CC);
+# SELECT Vpart IF ( (-1 (cm)) OR (NOT -1 (vblex)) ) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 Num) (NOT 0 CC);
+# commented out because it interferes with R_oes_age
+# needs to be broken down
 
 SELECT (vbser cns) IF (-1 Vpart);
 
@@ -292,14 +295,16 @@ REMOVE PrnSubj IF (1 NP) (-1 Adj);
 # Mi welodd y bachgen ni a'n ffrindiau ar y traeth.
 #REMOVE:R_ni_subj ("ni"ri prn subj) IF (NOT -1 vb_1pl);
 # UPDATE - for some inexplicable reason this stopped working; even adjusting the location made no difference, so changed to a SUBSTITUTE rule
-SUBSTITUTE:M_subj_obj_1sg (subj) (obj) prn_subj_1sg (NOT -1 vb_1sg) (NOT -1 ("<ddaru>" "ddaru" vaux past));
-SUBSTITUTE:M_subj_obj_2sg (subj) (obj) prn_subj_2sg (NOT -1 vb_2sg) (NOT -1 ("<ddaru>" "ddaru" vaux past));
-SUBSTITUTE:M_subj_obj_3sg_m (subj) (obj) prn_subj_3sg_m (NOT -1 vb_3sg) (NOT -1 ("<ddaru>" "ddaru" vaux past));
-SUBSTITUTE:M_subj_obj_3sg_f (subj) (obj) prn_subj_3sg_f (NOT -1 vb_3sg) (NOT -1 ("<ddaru>" "ddaru" vaux past));
-SUBSTITUTE:M_subj_obj_1pl (subj) (obj) prn_subj_1pl (NOT -1 vb_1pl) (NOT -1 ("<ddaru>" "ddaru" vaux past));
-SUBSTITUTE:M_subj_obj_2pl (subj) (obj) prn_subj_2pl (NOT -1 vb_2pl) (NOT -1 ("<ddaru>" "ddaru" vaux past));
-SUBSTITUTE:M_subj_obj_3pl (subj) (obj) prn_subj_3pl (NOT -1 vb_3pl) (NOT -1 ("<ddaru>" "ddaru" vaux past));
-# (invariant) to cover "ddaru"
+SUBSTITUTE:M_subj_obj_1sg (subj) (obj) prn_subj_1sg (NOT -1 vb_1sg) (NOT -1 ("<ddaru>" "ddaru" vaux past)) (NOT @1 (prn));
+SUBSTITUTE:M_subj_obj_2sg (subj) (obj) prn_subj_2sg (NOT -1 vb_2sg) (NOT -1 ("<ddaru>" "ddaru" vaux past)) (NOT @1 (prn));
+SUBSTITUTE:M_subj_obj_3sg_m (subj) (obj) prn_subj_3sg_m (NOT -1 vb_3sg) (NOT -1 ("<ddaru>" "ddaru" vaux past)) (NOT @1 (prn));
+SUBSTITUTE:M_subj_obj_3sg_f (subj) (obj) prn_subj_3sg_f (NOT -1 vb_3sg) (NOT -1 ("<ddaru>" "ddaru" vaux past)) (NOT @1 (prn));
+SUBSTITUTE:M_subj_obj_1pl (subj) (obj) prn_subj_1pl (NOT -1 vb_1pl) (NOT -1 ("<ddaru>" "ddaru" vaux past)) (NOT @1 (prn));
+SUBSTITUTE:M_subj_obj_2pl (subj) (obj) prn_subj_2pl (NOT -1 vb_2pl) (NOT -1 ("<ddaru>" "ddaru" vaux past)) (NOT @1 (prn));
+SUBSTITUTE:M_subj_obj_3pl (subj) (obj) prn_subj_3pl (NOT -1 vb_3pl) (NOT -1 ("<ddaru>" "ddaru" vaux past)) (NOT @1 (prn));
+# the last clause says not to apply the rule if a pronoun is the first word in the sentence
+# eg Hi yw'r ferch a welais ddoe
+# may need some tweaking
 
 
 
@@ -359,7 +364,7 @@ REMOVE:R_ynôl_adv Adv IF (0 Prep_yn_ôl) (1 Ant);
 # needs expansion - perhaps put two meanings in the dictionary?
 
 # dawnsio yn y cae
-SELECT NC IF (-1 DetDef) (0 NC) (0 V);
+SELECT:S_cae_n ("cae" n m) IF (-1 DetDef) (0 NC) (0 V);
 
 # mewn i un system
 REMOVE PrnSubj IF (1 Num) (-1 Pr);
@@ -461,7 +466,6 @@ SELECT PrnSubj IF (0 PrnSubj) (0 (vbser prs)) (-1 (vblex past));
 # Verbs - lexical
 #####################################
 
-
 # delete a verb from a {verb, noun} cohort if preceded by "preposition + the"
 # yn y golchi
 REMOVE:R_vb_postdef V IF (0 V) (0 NC) (NOT 0 Acr) (-1 DetDef) (-2 Pr);
@@ -483,6 +487,24 @@ SUBSTITUTE:M_infin_vn_preadj (inf) (ger) (vblex) (1 (adj));
 
 
 
+# Verbs - periphrastic constructions
+#####################################
+
+# SUBSTITUTE:S_poss_subj_prebodwedi (det pos sp) (prn subj) DetPos (1 (vbser)) (2 ("wedi" pr)) (3 vb_inf);
+
+# ei fod wedi taflu
+# delete wedi when used as a periphrastic construction
+SELECT:S_wedi_peri ("wedi" peri) (-1 (vbser inf)) (1 V);
+
+# cast infin to past
+SUBSTITUTE:M_infin_past_postwedi (inf) (past) (inf) (-3 (det pos)) (-2 (vbser)) (-1 ("wedi" peri));
+
+# lose bod
+SELECT:S_bod_vrbnull ("bod" vrbnull) (1 ("wedi" peri));
+
+
+
+
 # Nouns
 #####################################
 
@@ -498,7 +520,7 @@ REMOVE NC IF (-1 Pr) (0 NC) (0 VbMod);
 
 # delete a noun from a {verb, noun} cohort if preceded by a verbal particle
 # nad oes (that there is not) - *not age
-REMOVE:R_oes_age NC IF (-1 Vpart) (0 NC) (0 V);
+REMOVE:R_oes_age ("oes" n f) IF (-1 Vpart) (0 NC) (0 V);
 
 
 
@@ -549,9 +571,6 @@ SELECT:S_na_cnjsub_postcomp ("na" cnjsub) IF (-1* (adj comp) BARRIER Det);
 #####################################
 SECTION
 
-# distinguish DU and du (UK and black)
-SELECT (n sg) IF (0 ("<DU>"));
-
 # distinguish between "lonely" and "only"
 ADD (pred) ("unig" adj) ((1 (n)) OR (1 (np)) OR (1 (pr)) OR (1 Det) OR (1 (cm)));
 
@@ -583,9 +602,6 @@ SUBSTITUTE:M_o_from_pretop ("o" pr) ("o" pr S1) ("o" pr) (1 (np top));
 # mewn gwahanol ffyrdd
 SUBSTITUTE:M_ffordd_way_gwahanol ("ffordd" n f) ("ffordd" n f S1) ("ffordd" n f) ( (1 ("gwahanol" adj)) OR (-1 ("gwahanol" adj)) );
 # not perfect, because it would apply in other contexts too
-
-
-
 
 
 
