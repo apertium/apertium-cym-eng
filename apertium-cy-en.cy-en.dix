@@ -258,7 +258,11 @@
     <e r="LR"><p><l>rhag<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
     <e r="LR"><p><l>oddi<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
     <e r="RL"><p><l>o<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
-    
+
+    <e><p><l>cyn<s n="pr"/></l><r>before<s n="pr"/></r></p></e>
+    <e><p><l>cyn<s n="cnjsub"/></l><r>before<s n="cnjsub"/></r></p></e>
+    <e><p><l>cyn<s n="adv"/></l><r>as<s n="preadv"/></r></p></e>
+    <e><p><l>cyn<s n="adj"/></l><r>former<s n="adj"/></r></p></e>
     
     <!-- Uninflected prepositions -->
     <e><p><l>gyda<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
@@ -267,10 +271,9 @@
     <e r="LR"><p><l>efo<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
     <e><p><l>tua<s n="pr"/></l><r>towards<s n="pr"/></r></p></e>
     <e><p><l>hyd<s n="pr"/></l><r>until<s n="pr"/></r></p></e>
-    <e><p><l>cyn<s n="pr"/></l><r>before<s n="pr"/></r></p></e>
     <e><p><l>fel<s n="pr"/></l><r>like<s n="pr"/></r></p></e>
     <e r="LR"><p><l>ger<s n="pr"/></l><r>near<s n="pr"/></r></p></e>
-    <e><p><l>megis<s n="pr"/></l><r>as<s n="pr"/></r></p></e>
+    <e><p><l>megis<s n="pr"/></l><r>like<s n="pr"/></r></p></e>
     <e r="LR"><p><l>mewn<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
     <e><p><l>wedi<s n="pr"/></l><r>after<s n="pr"/></r></p></e>
     <e><p><l>erbyn<s n="pr"/></l><r>by<s n="pr"/></r></p></e>
@@ -441,7 +444,6 @@
     <e><p><l>megis<s n="cnjsub"/></l><r>just<b/>as<s n="cnjsub"/></r></p></e>
     <e><p><l>er<b/>mwyn<s n="cnjsub"/></l><r>for<b/>the<b/>sake<b/>of<s n="cnjsub"/></r></p></e>
     <e><p><l>hyd<s n="cnjsub"/></l><r>as<b/>far<b/>as<s n="cnjsub"/></r></p></e>
-    <e><p><l>cyn<s n="cnjsub"/></l><r>before<s n="cnjsub"/></r></p></e>
     <e><p><l>ar<b/>ôl<s n="cnjsub"/></l><r>after<s n="cnjsub"/></r></p></e>
     <e><p><l>wedi<s n="cnjsub"/></l><r>after<s n="cnjsub"/></r></p></e>
     <e><p><l>gyda<s n="cnjsub"/></l><r>as<b/>soon<b/>as<s n="cnjsub"/></r></p></e>
@@ -1566,7 +1568,7 @@
     <e><p><l>darn<s n="n"/><s n="m"/></l><r>fragment<s n="n"/></r></p></e>
     <e><p><l>darn<s n="n"/><s n="m"/></l><r>piece<s n="n"/></r></p></e>
     <e><p><l>datblygiad<s n="n"/><s n="m"/></l><r>development<s n="n"/></r></p></e>
-    <e><p><l>datganiad<s n="n"/><s n="m"/></l><r>declaration<s n="n"/></r></p></e>
+    <e><p><l>datganiad<s n="n"/><s n="m"/></l><r>statement<s n="n"/></r></p></e>
     <e><p><l>datguddiad<s n="n"/><s n="m"/></l><r>revelation<s n="n"/></r></p></e>
     <e><p><l>dathliad<s n="n"/><s n="m"/></l><r>celebration<s n="n"/></r></p></e>
     <e><p><l>datrysiad<s n="n"/><s n="m"/></l><r>solution<s n="n"/></r></p></e>
@@ -4164,7 +4166,10 @@
     <e><p><l>cynnig<s n="n"/><s n="m"/></l><r>offer<s n="n"/></r></p></e>
     <e><p><l>cynnig<s n="n"/><s n="m"/></l><r>proposal<s n="n"/></r></p></e>
     <e><p><l>rhaglennig<s n="n"/><s n="m"/></l><r>applet<s n="n"/></r></p></e>
+
     <e><p><l>ffordd<s n="n"/><s n="f"/></l><r>road<s n="n"/></r></p></e>
+	<e r="LR"><p><l>ffordd<s n="n"/><s n="f"/><s n="S1"/></l><r>way<s n="n"/></r></p></e>
+    
     <e><p><l>priffordd<s n="n"/><s n="f"/></l><r>highway<s n="n"/></r></p></e>
     <e><p><l>rheilffordd<s n="n"/><s n="f"/></l><r>railway<s n="n"/></r></p></e>
     <e><p><l>gwreiddyn<s n="n"/><s n="m"/></l><r>root<s n="n"/></r></p></e>
@@ -5118,7 +5123,6 @@
     <e><p><l>cymwysedig<s n="adj"/></l><r>qualified<s n="adj"/></r></p></e>
     <e><p><l>cymysg<s n="adj"/></l><r>mixed<s n="adj"/></r></p></e>
     <e><p><l>cymysglyd<s n="adj"/></l><r>muddled<s n="adj"/></r></p></e>
-    <e><p><l>cyn<s n="adj"/></l><r>as<s n="adj"/></r></p></e>
     <e><p><l>cynaladwy<s n="adj"/></l><r>sustainable<s n="adj"/></r></p></e>
     <e><p><l>cynaliadwy<s n="adj"/></l><r>sustainable<s n="adj"/></r></p></e>
     <e><p><l>cynaliedig<s n="adj"/></l><r>supported<s n="adj"/></r></p></e>
@@ -7724,7 +7728,7 @@
     <e><p><l>eferwi<s n="vblex"/></l><r>effervesce<s n="vblex"/></r></p></e>
 
     <e><p><l>effeithio<s n="vblex"/></l><r>effect<s n="vblex"/></r></p></e>
-    <e r="LR"><p><l>effeithio<g><b/>ar</g><s n="vblex"/></l><r>effect<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>effeithio<g><b/>ar</g><s n="vblex"/></l><r>affect<s n="vblex"/></r></p></e>
 
     <e><p><l>efrydio<s n="vblex"/></l><r>study<s n="vblex"/></r></p></e>
     <e><p><l>efrydu<s n="vblex"/></l><r>study<s n="vblex"/></r></p></e>
@@ -10317,7 +10321,6 @@
     <e><p><l>Plaid<b/>Genedlaethol<b/>yr<b/>Alban<s n="np"/><s n="org"/><s n="f"/></l><r>Scottish<b/>National<b/>Party<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Heddlu'r<b/>Gogledd<s n="np"/><s n="org"/><s n="f"/></l><r>North<b/>Wales<b/>Police<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Heddlu'r<b/>De<s n="np"/><s n="org"/><s n="f"/></l><r>South<b/>Wales<b/>Police<s n="np"/><s n="org"/></r></p></e>
-    <e><p><l>Heddlu<b/>De<b/>Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>South<b/>Wales<b/>Police<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Ceidwadwyr<b/>Cymreig<s n="np"/><s n="org"/><s n="f"/></l><r>Welsh<b/>Conservatives<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Ceidwadwyr<s n="np"/><s n="org"/><s n="f"/></l><r>Conservatives<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Plaid Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>Plaid Cymru<s n="np"/><s n="org"/></r></p></e>

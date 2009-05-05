@@ -19735,7 +19735,19 @@
       </e>
       <e>
         <p>
+          <l>eles</l>
+          <r>eld<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
           <l>elaist</l>
+          <r>eld<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>elest</l>
           <r>eld<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
@@ -19753,6 +19765,12 @@
       </e>
       <e>
         <p>
+          <l>elson</l>
+          <r>eld<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
           <l>elsoch</l>
           <r>eld<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
         </p>
@@ -19760,6 +19778,12 @@
       <e>
         <p>
           <l>elsant</l>
+          <r>eld<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>elson</l>
           <r>eld<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
@@ -29703,10 +29727,22 @@
           <r>mynd<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
+	  <e>
+        <p>
+          <l>es</l>
+          <r>mynd<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>aethost</l>
           <r>mynd<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+	  <e>
+        <p>
+          <l>est</l>
+          <r>mynd<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -29723,6 +29759,12 @@
       </e>
       <e>
         <p>
+          <l>aethon</l>
+          <r>mynd<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
           <l>aethoch</l>
           <r>mynd<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r>
         </p>
@@ -29730,6 +29772,12 @@
       <e>
         <p>
           <l>aethant</l>
+          <r>mynd<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aethon</l>
           <r>mynd<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
@@ -49149,10 +49197,14 @@
 
     <e lm="â"><i/><par n="/â__pr"/></e>
 
+    <e lm="cyn"><par n="initial-c"/><i>yn</i><par n="gyda__pr"/></e><!-- preposition - cyn y Pasg -->
+    <e lm="cyn"><i>cyn</i><par n="oherwydd__cnjsub"/></e><!-- before - cyn iddyn nhw fynd -->
+    <e lm="cyn"><i>cyn</i><par n="yma__adv"/></e><!-- equative - cyn lleied-->
+    <e lm="cyn"><par n="initial-c"/><i>yn</i><par n="caredig__adj"/></e><!-- adjective - former - cyn-gadeirydd -->
+
     <e lm="efo"><i>efo</i><par n="gyda__pr"/></e>
     <e lm="tua"><i/><par n="/tua__pr"/></e>
     <e lm="hyd"><i>hyd</i><par n="gyda__pr"/></e>
-    <e lm="cyn"><par n="initial-c"/><i>yn</i><par n="gyda__pr"/></e>
     <e lm="fel"><i>fel</i><par n="gyda__pr"/></e>
     <e lm="ger"><i>ger</i><par n="gyda__pr"/></e>
     <e lm="megis"><par n="initial-m"/><i>egis</i><par n="gyda__pr"/></e>
@@ -49266,7 +49318,6 @@
     <e lm="megis"><i>megis</i><par n="oherwydd__cnjsub"/></e>
     <e lm="er mwyn"><i>er<b/>mwyn</i><par n="oherwydd__cnjsub"/></e>
     <e lm="hyd"><i>hyd</i><par n="oherwydd__cnjsub"/></e>
-    <e lm="cyn"><i>cyn</i><par n="oherwydd__cnjsub"/></e>
     <e lm="gyda"><i>gyda</i><par n="oherwydd__cnjsub"/></e>
     <e lm="ers"><i>ers</i><par n="oherwydd__cnjsub"/></e>
 
@@ -49409,7 +49460,7 @@
     <e lm="byth"><i>byth</i><par n="yma__adv"/></e>
     <e lm="chwaith"><i>chwaith</i><par n="yma__adv"/></e>
     <e lm="'cw"><i>'cw</i><par n="yma__adv"/></e>
-    <e lm="cynted"><i>cynted</i><par n="yma__adv"/></e>
+    <e lm="cynted"><par n="initial-c"/><i>ynted</i><par n="yma__adv"/></e>
     <e lm="ddim"><i>ddim</i><par n="yma__adv"/></e>
     <e lm="ddoe"><i>ddoe</i><par n="yma__adv"/></e>
     <e lm="dim"><i>dim</i><par n="yma__adv"/></e>
@@ -53639,7 +53690,6 @@
     <e lm="cymwysedig"><par n="initial-c"/><i>ymwysedig</i><par n="caredig__adj"/></e>
     <e lm="cymysg"><par n="initial-c"/><i>ymysg</i><par n="caredig__adj"/></e>
     <e lm="cymysglyd"><par n="initial-c"/><i>ymysglyd</i><par n="caredig__adj"/></e>
-    <e lm="cyn"><par n="initial-c"/><i>yn</i><par n="caredig__adj"/></e>
     <e lm="cynaladwy"><par n="initial-c"/><i>ynaladwy</i><par n="caredig__adj"/></e>
     <e lm="cynaliadwy"><par n="initial-c"/><i>ynaliadwy</i><par n="caredig__adj"/></e>
     <e lm="cynaliedig"><par n="initial-c"/><i>ynaliedig</i><par n="caredig__adj"/></e>
@@ -54151,7 +54201,6 @@
     <e lm="lled"><par n="initial-ll"/><i>ed</i><par n="caredig__adj"/></e>
     <e lm="lleiafol"><par n="initial-ll"/><i>eiafol</i><par n="caredig__adj"/></e>
     <e lm="lleiafrifol"><par n="initial-ll"/><i>eiafrifol</i><par n="caredig__adj"/></e>
-    <e lm="lleied"><par n="initial-ll"/><i>eied</i><par n="caredig__adj"/></e>
     <e lm="llem"><par n="initial-ll"/><i>em</i><par n="caredig__adj"/></e>
     <e lm="llenyddol"><par n="initial-ll"/><i>enyddol</i><par n="caredig__adj"/></e>
     <e lm="lleol"><par n="initial-ll"/><i>eol</i><par n="caredig__adj"/></e>
@@ -54659,8 +54708,12 @@
     -->
 
     <e lm="byw"><i>byw</i><par n="byw__vblex"/></e>
+
     <e lm="oes"><i>oes</i><par n="oes__vbser"/></e>
+
+ 	<e lm="does"><p><l>does</l><r>ni<s n="vpart"/><s n="neg"/><j/>oes</r></p><par n="oes__vbser"/></e>
     <e lm="does"><p><l>does</l><r>ni<s n="vpart"/><s n="neg"/><j/>oes</r></p><par n="oes__vbser"/></e>
+
     <e lm="dyna"><i>dyna</i><par n="oes__vbser"/></e>
     <e lm="dyma"><i>dyma</i><par n="oes__vbser"/></e>
 
@@ -58660,7 +58713,6 @@
     <e lm="Plaid Genedlaethol yr Alban"><par n="initial-P"/><i>laid<b/>Genedlaethol<b/>yr<b/>Alban</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Heddlu'r Gogledd"><i>Heddlu'r<b/>Gogledd</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Heddlu'r De"><i>Heddlu'r<b/>De</i><par n="Cymdeithas_yr_Iaith__np"/></e>
-    <e lm="Heddlu De Cymru"><i>Heddlu<b/>De<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Plaid Cymru"><par n="initial-P"/><i>laid<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Gorsedd"><par n="initial-G"/><i>orsedd</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Plaid Lafur"><par n="initial-P"/><i>laid<b/>Lafur</i><par n="Cymdeithas_yr_Iaith__np"/></e>
