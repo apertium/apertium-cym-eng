@@ -415,6 +415,13 @@ SELECT:S_i_prepa ("i"ri pr) (1 ("pa" prn itg));
 # delete the bath sense before o_pr- this is not perfect
 REMOVE:R_bath_preo ("bath" n) (1 ("o" pr));
 
+# mae o'n cynnig ateb
+# delete yn before infin, and cast infin to gerund
+SELECT:S_yn_stative ("yn" stative) (1 (inf));
+SUBSTITUTE:M_infin_vn_postyn (inf) (ger) (inf) (-1 ("yn" stative));
+
+
+
 
 
 # Verbs - bod
@@ -485,6 +492,13 @@ REMOVE:R_medd_say ("medd" vblex inf) (-1 (det pos));
 # cast an infinitive as a verbal noun when an adj follows
 SUBSTITUTE:M_infin_vn_preadj (inf) (ger) (vblex) (1 (adj));
 
+# cyfrannu at gaffael
+# cast an infinitive as a verbal noun when at precedes
+# needed to comment out cyfrannu#at multiword for this particular example to work
+# there seems no way of triggering the rule by using a subset of the multiword
+SUBSTITUTE:M_infin_vn_postat (inf) (ger) (vblex) (-1 ("at" pr));
+
+
 
 
 # Verbs - periphrastic constructions
@@ -521,7 +535,7 @@ REMOVE NC IF (-1 Pr) (0 NC) (0 VbMod);
 # delete a noun from a {verb, noun} cohort if preceded by a verbal particle
 # nad oes (that there is not) - *not age
 REMOVE:R_oes_age ("oes" n f) IF (-1 Vpart) (0 NC) (0 V);
-
+# needed to tighten this to specify oes
 
 
 # Nouns - tweaking
