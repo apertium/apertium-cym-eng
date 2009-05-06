@@ -60591,13 +60591,6 @@
     <e lm="'m" r="LR">
       <p>
         <l>'m</l>
-        <r>eu<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
-      </p>
-    </e>
-
-    <e lm="'m" r="LR">
-      <p>
-        <l>'m</l>
         <r>fy<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
