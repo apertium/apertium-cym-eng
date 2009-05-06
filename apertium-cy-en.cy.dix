@@ -49029,7 +49029,6 @@
       </e>
     </pardef>
 
-
     <pardef n="e.e.__abbr">
       <e>
         <p>
@@ -51422,7 +51421,6 @@
     <e lm="arsefydlydd"><i>arsefydlydd</i><par n="academydd__n"/></e>
     <e lm="arweinydd"><i>arweinydd</i><par n="academydd__n"/></e>
     <e lm="ased"><i>ased</i><par n="academydd__n"/></e>
- <!--   <e lm="ateb"><i>ateb</i><par n="academydd__n"/></e> -->
     <e lm="atgof"><i>atgof</i><par n="academydd__n"/></e>
     <e lm="awdiolegydd"><i>awdiolegydd</i><par n="academydd__n"/></e>
     <e lm="brasamcan"><par n="initial-b"/><i>rasamcan</i><par n="academydd__n"/></e>
@@ -51603,7 +51601,7 @@
     <e lm="ymarferydd"><i>ymarferydd</i><par n="academydd__n"/></e>
     <e lm="ymateb"><i>ymateb</i><par n="academydd__n"/></e>
     <e lm="ymateb"><p><l>hymateb</l><r>ymateb</r></p><par n="academydd__n"/></e>
-
+    <e lm="ateb"><i>ateb</i><par n="academydd__n"/></e>
     <e lm="ymatebydd"><i>ymatebydd</i><par n="academydd__n"/></e>
     <e lm="ymchwil"><i>ymchwil</i><par n="academydd__n"/></e>
     <e lm="ymchwilydd"><i>ymchwilydd</i><par n="academydd__n"/></e>
@@ -54239,6 +54237,7 @@
     <e lm="Iddewig"><i>Iddewig</i><par n="caredig__adj"/></e>
     <e lm="ideolegol"><i>ideolegol</i><par n="caredig__adj"/></e>
     <e lm="ieithyddol"><i>ieithyddol</i><par n="caredig__adj"/></e>
+    <e lm="anieithyddol"><i>anieithyddol</i><par n="caredig__adj"/></e>
     <e lm="ieuainc"><i>ieuainc</i><par n="caredig__adj"/></e>
     <e lm="ieuanc"><i>ieuanc</i><par n="caredig__adj"/></e>
     <e lm="imperial"><i>imperial</i><par n="caredig__adj"/></e>
@@ -54803,7 +54802,7 @@
     <e lm="chwilio"><par n="initial-c"/><i>hwili</i><par n="achlysur/o__vblex"/><p><l><b/>am</l><r><g><b/>am</g></r></p></e>
     <e lm="cwrdd"><par n="initial-c"/><i>wrdd</i><par n="achub__vblex"/><p><l><b/>â</l><r><g><b/>â</g></r></p></e>
     <e lm="cyfeirio"><par n="initial-c"/><i>yfeiri</i><par n="achlysur/o__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
-    <e lm="cyfrannu"><par n="initial-c"/><i>yfrann</i><par n="absenn/u__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
+    <!--<e lm="cyfrannu"><par n="initial-c"/><i>yfrann</i><par n="absenn/u__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>-->
     <e lm="dod â"><par n="initial-d"/><i/><par n="d/od__vblex"/><p><l><b/>â</l><r><g><b/>â</g></r></p></e>
 
 	
@@ -56786,6 +56785,8 @@
 
     <e lm="gafael"><par n="initial-g"/><i>afael</i><par n="achub__vblex"/></e>
     <e lm="gafael ar"><par n="initial-g"/><i>afael</i><par n="achub__vblex"/><p><l><b/>ar</l><r><g><b/>ar</g></r></p></e>
+
+	<e lm="caffael"><par n="initial-c"/><i>affael</i><par n="achub__vblex"/></e>
 
     <e lm="galarnadu"><par n="initial-g"/><i>alarnad</i><par n="aberth/u__vblex"/></e>
     <e lm="galaru"><par n="initial-g"/><i>alar</i><par n="aberth/u__vblex"/></e>

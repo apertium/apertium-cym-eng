@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
 
+<!--
+You need to recompile after editing this file, so that the rule-changes are seen.
+-->
+
 <transfer default="chunk">
   <section-def-cats>
     <def-cat n="unknown">
@@ -1817,7 +1821,10 @@
       </action>
     </rule>
 
-
+<!--
+DET NOM DET covers "y bachgen yma", y ferch hon"
+it converts this seqence to the English "this boy", "this girl"
+-->
     <rule comment="REGLA: DET NOM DET">
       <pattern>
         <pattern-item n="det"/>
@@ -1886,6 +1893,7 @@
 	</choose>
       </action>
     </rule>
+
 
     <rule comment="REGLA: DET NOM ADJ DET">
       <pattern>
@@ -2489,6 +2497,7 @@
     </rule>
 
 <!--
+>>>>>>> .r10341
     <rule comment="REGLA: NOM DET">
       <pattern>
         <pattern-item n="nom"/>
@@ -2524,7 +2533,6 @@
       </action>
     </rule>
 -->
-
 
     <rule comment="REGLA: NUM NOM">
       <pattern>

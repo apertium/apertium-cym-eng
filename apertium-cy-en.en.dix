@@ -282,6 +282,15 @@
       </e>
     </pardef>
 
+	<pardef n="e.g.__abbr">
+      <e>
+        <p>
+          <l/>
+          <r><s n="abbr"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="time">
       <e>
         <re>[0-9]+[.:][0-5][0-9](pm|PM|am|AM)</re>
@@ -10012,7 +10021,7 @@
     <e lm="the most"><p><l>the<b/>most</l><r>the<s n="det"/><s n="def"/><s n="sp"/><j/>most<s n="preadv"/></r></p></e>
     <e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
 
-
+    <e lm="e.g."><i>e.g.</i><par n="e.g.__abbr"/></e>
 
     <e lm="including"><i>including</i><par n="expensive__adj"/></e>
     <e lm="cosmopolitan"><i>cosmopolitan</i><par n="expensive__adj"/></e>
@@ -10576,6 +10585,7 @@
     <e lm="magic"><i>magic</i><par n="expensive__adj"/></e>
     <e lm="hyperbolic"><i>hyperbolic</i><par n="expensive__adj"/></e>
     <e lm="linguistic"><i>linguistic</i><par n="expensive__adj"/></e>
+    <e lm="non-linguistic"><i>non-linguistic</i><par n="expensive__adj"/></e>
     <e lm="isometric"><i>isometric</i><par n="expensive__adj"/></e>
     <e lm="greynetic"><i>greynetic</i><par n="expensive__adj"/></e>
     <e lm="bibliographic"><i>bibliographic</i><par n="expensive__adj"/></e>

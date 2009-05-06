@@ -2855,7 +2855,6 @@
     <e><p><l>arwydd<s n="n"/><s n="mf"/></l><r>sign<s n="n"/></r></p></e>
     <e><p><l>ased<s n="n"/><s n="m"/></l><r>asset<s n="n"/></r></p></e>
     <e><p><l>ateb<s n="n"/><s n="m"/></l><r>answer<s n="n"/></r></p></e>
-    <e><p><l>ateb<s n="n"/><s n="m"/></l><r>reply<s n="n"/></r></p></e>
     <e><p><l>atgof<s n="n"/><s n="m"/></l><r>reminder<s n="n"/></r></p></e>
     <e><p><l>awdiolegydd<s n="n"/><s n="m"/></l><r>audiologist<s n="n"/></r></p></e>
     <e><p><l>bendith<s n="n"/><s n="f"/></l><r>blessing<s n="n"/></r></p></e>
@@ -3060,6 +3059,7 @@
     <e><p><l>ymarfer<s n="n"/><s n="f"/></l><r>exercise<s n="n"/></r></p></e>
     <e><p><l>ymarferydd<s n="n"/><s n="m"/></l><r>practitioner<s n="n"/></r></p></e>
     <e><p><l>ymateb<s n="n"/><s n="m"/></l><r>response<s n="n"/></r></p></e>
+    <e><p><l>ateb<s n="n"/><s n="m"/></l><r>answer<s n="n"/></r></p></e>
     <e><p><l>ymatebydd<s n="n"/><s n="m"/></l><r>respondent<s n="n"/></r></p></e>
     <e><p><l>ymchwil<s n="n"/><s n="m"/></l><r>research<s n="n"/><s n="unc"/></r></p></e>
     <e><p><l>ymchwilydd<s n="n"/><s n="m"/></l><r>researcher<s n="n"/></r></p></e>
@@ -5609,7 +5609,8 @@
     <e><p><l>Iddewig<s n="adj"/></l><r>Jewish<s n="adj"/></r></p></e>
     <e><p><l>ideolegol<s n="adj"/></l><r>ideological<s n="adj"/></r></p></e>
     <e><p><l>ieithyddol<s n="adj"/></l><r>linguistic<s n="adj"/></r></p></e>
- 
+    <e><p><l>anieithyddol<s n="adj"/></l><r>non-linguistic<s n="adj"/></r></p></e>
+
     <e><p><l>ifanc<s n="adj"/><s n="sint"/></l><r>young<s n="adj"/><s n="sint"/></r></p></e> 
     <e r="LR"><p><l>ieuainc<s n="adj"/></l><r>young<s n="adj"/><s n="sint"/></r></p></e> 
     <e r="LR"><p><l>ieuanc<s n="adj"/></l><r>young<s n="adj"/><s n="sint"/></r></p></e> 
@@ -7884,6 +7885,7 @@
     <e><p><l>gaeafu<s n="vblex"/></l><r>winter<s n="vblex"/></r></p></e>
     <e><p><l>gafael<s n="vblex"/></l><r>grasp<s n="vblex"/></r></p></e>
     <e><p><l>gafael<g><b/>ar</g><s n="vblex"/></l><r>grab<s n="vblex"/></r></p></e>
+    <e><p><l>caffael<s n="vblex"/></l><r>acquire<s n="vblex"/></r></p></e>
     <e><p><l>galarnadu<s n="vblex"/></l><r>lament<s n="vblex"/></r></p></e>
     <e><p><l>galaru<s n="vblex"/></l><r>wail<s n="vblex"/></r></p></e>
     <e><p><l>galfaneiddio<s n="vblex"/></l><r>galvanise<s n="vblex"/></r></p></e>
@@ -9646,7 +9648,7 @@
     <e><p><l>chwilio<g><b/>am</g><s n="vblex"/></l><r>search<g><b/>for</g><s n="vblex"/></r></p></e>
     <e><p><l>cwrdd<g><b/>â</g><s n="vblex"/></l><r>meet<s n="vblex"/></r></p></e>
     <e><p><l>cyfeirio<g><b/>at</g><s n="vblex"/></l><r>refer<g><b/>to</g><s n="vblex"/></r></p></e>
-    <e><p><l>cyfrannu<g><b/>at</g><s n="vblex"/></l><r>contribute<g><b/>to</g><s n="vblex"/></r></p></e>
+    <!--<e><p><l>cyfrannu<g><b/>at</g><s n="vblex"/></l><r>contribute<g><b/>to</g><s n="vblex"/></r></p></e>-->
     <e><p><l>dod<g><b/>â</g><s n="vblex"/></l><r>bring<s n="vblex"/></r></p></e>
     <e><p><l>dod<g><b/>o<b/>hyd<b/>i</g><s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
     <e><p><l>dweud<g><b/>wrth</g><s n="vblex"/></l><r>tell<s n="vblex"/></r></p></e>
