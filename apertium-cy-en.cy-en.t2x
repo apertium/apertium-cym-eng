@@ -1141,6 +1141,7 @@
       </action>
     </rule>
 
+
     <rule comment="REGLA: SV SN CC SN">
       <pattern>
         <pattern-item n="SV"/>
@@ -1511,6 +1512,7 @@
          Welsh: SV SN1 SN2 (Verb Subj Obj) 
 	 output English SN1 SV SN2 (Subject Verb Obj) 
     -->
+
     <rule comment="REGLA: SV SN SN">
       <pattern>
         <pattern-item n="SV"/>
@@ -1550,6 +1552,7 @@
         </out>
       </action>
     </rule>
+
 
     <!--
          Welsh: CS SN1 SV SN2 (Subj Verb Obj) 

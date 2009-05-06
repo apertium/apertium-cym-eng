@@ -506,16 +506,17 @@ SUBSTITUTE:M_infin_vn_postat (inf) (ger) (vblex) (-1 ("at" pr));
 
 # SUBSTITUTE:S_poss_subj_prebodwedi (det pos sp) (prn subj) DetPos (1 (vbser)) (2 ("wedi" pr)) (3 vb_inf);
 
-# ei fod wedi taflu
-# delete wedi when used as a periphrastic construction
+# ei fod wedi taflu (that he threw)
+# delete wedi, cast infin to past, and delete bod
 SELECT:S_wedi_peri ("wedi" peri) (-1 (vbser inf)) (1 V);
-
-# cast infin to past
 SUBSTITUTE:M_infin_past_postwedi (inf) (past) (inf) (-3 (det pos)) (-2 (vbser)) (-1 ("wedi" peri));
-
-# lose bod
 SELECT:S_bod_vrbnull ("bod" vrbnull) (1 ("wedi" peri));
+# also need to cast poss to subj, but this doesn't seem to be possible
 
+# wedi ei seilio (based)
+# delete wedi, cast infin to past participle, and delete poss
+SELECT:S_wedi_peri ("wedi" peri) (1 (det pos)) (2 V);
+SUBSTITUTE:M_infin_past_postwedi (inf) (pp) (inf)  (-2 ("wedi" peri)) (-1 (det pos));
 
 
 
