@@ -54760,6 +54760,7 @@
     </e>
 
     <e lm="bod"><i/><par n="/bod__vbser"/></e>
+    
     <e lm="bod"><i/><par n="vrbnull__dummy"/></e>
     <e lm="bod yn rhaid"><i/><par n="/bod__vbser"/><p><l><b/>yn<b/>rhaid</l><r><g><b/>yn<b/>rhaid</g></r></p></e>
 
@@ -54772,7 +54773,13 @@
     <e lm="byw"><i>byw</i><par n="byw__vblex"/></e>
 
     <e lm="oes"><i>oes</i><par n="oes__vbser"/></e>
- 	<e lm="does"><p><l>does</l><r>ni<s n="vpart"/><s n="neg"/><j/>oes</r></p><par n="oes__vbser"/></e>
+    <e lm="does"><p><l>does</l><r>ni<s n="vpart"/><s n="neg"/><j/>oes</r></p><par n="oes__vbser"/></e>
+
+    <e lm="taswn"><p><l>taswn</l><r>pe<s n="cnjsub"/><j/>bod<s n="vbser"/><s n="plu"/><s n="p1"/><s n="sg"/></r></p></e>
+    <e lm="tasai"><p><l>taswn</l><r>pe<s n="cnjsub"/><j/>bod<s n="vbser"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e lm="tasen"><p><l>taswn</l><r>pe<s n="cnjsub"/><j/>bod<s n="vbser"/><s n="plu"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e lm="tasen"><p><l>taswn</l><r>pe<s n="cnjsub"/><j/>bod<s n="vbser"/><s n="plu"/><s n="p3"/><s n="pl"/></r></p></e>
+    <e lm="tasech"><p><l>taswn</l><r>pe<s n="cnjsub"/><j/>bod<s n="vbser"/><s n="plu"/><s n="p2"/><s n="pl"/></r></p></e>
 
     <e lm="dyna"><i>dyna</i><par n="oes__vbser"/></e>
     <e lm="dyma"><i>dyma</i><par n="oes__vbser"/></e>
