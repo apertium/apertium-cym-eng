@@ -28961,6 +28961,12 @@
         </p>
       </e>
       <e>
+        <p>
+          <l>swn</l>
+          <r>bod<s n="vbser"/><s n="plu"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
         <par n="initial-b"/>
         <p>
           <l>uasit</l>
@@ -54770,10 +54776,10 @@
     <e lm="does"><p><l>does</l><r>ni<s n="vpart"/><s n="neg"/><j/>oes</r></p><par n="oes__vbser"/></e>
 
     <e lm="taswn"><p><l>taswn</l><r>pe<s n="cnjsub"/><j/>bod<s n="vbser"/><s n="plu"/><s n="p1"/><s n="sg"/></r></p></e>
-    <e lm="tasai"><p><l>taswn</l><r>pe<s n="cnjsub"/><j/>bod<s n="vbser"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e lm="tasen"><p><l>taswn</l><r>pe<s n="cnjsub"/><j/>bod<s n="vbser"/><s n="plu"/><s n="p1"/><s n="pl"/></r></p></e>
-    <e lm="tasen"><p><l>taswn</l><r>pe<s n="cnjsub"/><j/>bod<s n="vbser"/><s n="plu"/><s n="p3"/><s n="pl"/></r></p></e>
-    <e lm="tasech"><p><l>taswn</l><r>pe<s n="cnjsub"/><j/>bod<s n="vbser"/><s n="plu"/><s n="p2"/><s n="pl"/></r></p></e>
+    <e lm="tasai"><p><l>tasai</l><r>pe<s n="cnjsub"/><j/>bod<s n="vbser"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e lm="tasen"><p><l>tasen</l><r>pe<s n="cnjsub"/><j/>bod<s n="vbser"/><s n="plu"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e lm="tasen"><p><l>tasen</l><r>pe<s n="cnjsub"/><j/>bod<s n="vbser"/><s n="plu"/><s n="p3"/><s n="pl"/></r></p></e>
+    <e lm="tasech"><p><l>tasech</l><r>pe<s n="cnjsub"/><j/>bod<s n="vbser"/><s n="plu"/><s n="p2"/><s n="pl"/></r></p></e>
 
     <e lm="dyna"><i>dyna</i><par n="oes__vbser"/></e>
     <e lm="dyma"><i>dyma</i><par n="oes__vbser"/></e>
