@@ -434,6 +434,11 @@ SELECT (vbser) IF (0 NC) (0 (vbser)) (1 DetQnt) (2 DetDef);
 #Ac maen nhw wedi
 REMOVE NC IF (0 (vbser)) (1 PrnSubj);
 
+# taswn i yn dy le di
+# select bod, not tasu
+REMOVE:R_tasu_wherecond ("tasu" vblex) (NOT -1 (vpart));
+# not ideal, because it will not choose "tasu" (stack) *unless* it has mi, fe, a, ni in front, but OK.
+
 
 
 # Verbs - agreement
@@ -581,10 +586,11 @@ SELECT:S_na_cnjsub_postcomp ("na" cnjsub) IF (-1* (adj comp) BARRIER Det);
 
 
 
-# Conjunctions
+# Chunking
 #####################################
 
-# adjectives joined by a[c]
+# prosesau ieithyddol ac anieithyddol
+# two adjectives joined by a[c]
 ADD (beginAP) (adj) (1 ("a" cnjcoo)) (2 (adj));
 ADD (endAP) (adj) (-2 (adj))(-1 ("a" cnjcoo)) ;
 
