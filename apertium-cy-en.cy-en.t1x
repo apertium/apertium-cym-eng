@@ -3001,7 +3001,7 @@ it converts this seqence to the English "this boy", "this girl"
 
 
 
-
+<!--
     <rule comment="REGLA: NOM ADJ">
       <pattern>
         <pattern-item n="nom"/>
@@ -3021,9 +3021,9 @@ it converts this seqence to the English "this boy", "this girl"
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
-	      <var n="adjectiu1"/> <!--
+	      <var n="adjectiu1"/> 
               <clip pos="2" side="tl" part="lem"/>
-              <clip pos="2" side="tl" part="a_adj"/> -->
+              <clip pos="2" side="tl" part="a_adj"/> 
             </lu>
             <b pos="1"/>
             <lu>
@@ -3040,6 +3040,7 @@ it converts this seqence to the English "this boy", "this girl"
         </let>
       </action>
     </rule>
+-->
 
     <rule comment="REGLA: NOM ADJ NOM">
       <pattern>

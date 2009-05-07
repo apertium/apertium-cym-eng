@@ -577,6 +577,16 @@ REMOVE ("<f.*>"ri "b.*"ri) IF (0 (n m sg)) (-1 DetDef);
 #well o lawer na'r
 SELECT:S_na_cnjsub_postcomp ("na" cnjsub) IF (-1* (adj comp) BARRIER Det);
 
+# cath fach a tew
+
+
+
+# Conjunctions
+#####################################
+
+# adjectives joined by a[c]
+ADD (beginAP) (adj) (1 ("a" cnjcoo)) (2 (adj));
+ADD (endAP) (adj) (-2 (adj))(-1 ("a" cnjcoo)) ;
 
 
 
