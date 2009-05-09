@@ -163,11 +163,13 @@ SECTION
 
 #Early removal of impossible aspirate mutations
 #Gobeithio bod popeth yn iawn gyda chi
-REMOVE:R_SM_notpostprep  MAspC IF (NOT -1 ("ei")) (NOT -1 ("a" cnjcoo)) (NOT -1 ("â")) (NOT -1 ("chwech"));
+REMOVE:R_sm_notpostprep  MAspC IF (NOT -1 ("ei")) (NOT -1 ("a" cnjcoo)) (NOT -1 ("â")) (NOT -1 ("chwech"));
 
 # naeth o ddarllen y llythyr
 # remove nasally mutated verbs, which are impossible
-REMOVE:R_NM_whereverb  MNasC (0 V);
+REMOVE:R_nm_whereverb  MNasC (0 V);
+# hmm, except in places like "fy mod i", so may need to qualify this
+# doesn't seem to be a problem as yet, because it knocks out naeth when it comes from dod (daeth), which is the main aim
 
 
 #mynd â chi ar
@@ -505,8 +507,6 @@ SUBSTITUTE:M_infin_vn_preadj (inf) (ger) (vblex) (1 (adj));
 # needed to comment out cyfrannu#at multiword for this particular example to work
 # there seems no way of triggering the rule by using a subset of the multiword
 SUBSTITUTE:M_infin_vn_postat (inf) (ger) (vblex) (-1 ("at" pr));
-
-SELECT:S_naeth_do ("naeth" vblex past) (@1 (prn));;
 
 
 
