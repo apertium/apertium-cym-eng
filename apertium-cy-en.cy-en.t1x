@@ -4460,7 +4460,7 @@ it converts this seqence to the English "this boy", "this girl"
           <with-param pos="1"/>
         </call-macro>
         <out>
-          <chunk name="verbcj" case="caseFirstWord">
+          <chunk name="verbcj_inf" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
 	      <tag><lit-tag v="vblex"/></tag>
