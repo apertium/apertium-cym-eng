@@ -6190,7 +6190,7 @@
  
     <!-- Verbs -->
 
-	<e><p><l>ddaru<s n="vaux"/><s n="past"/><s n="invariant"/></l><r>do<s n="vblex"/><s n="past"/></r></p></e>
+    <e><p><l>ddaru<s n="vaux"/><s n="past"/><s n="invariant"/></l><r>do<s n="vblex"/><s n="past"/></r></p></e>
  
     <e><p><l>plygu<s n="vblex"/></l><r>bend<s n="vblex"/></r></p></e>
     <e><p><l>eangu<s n="vblex"/></l><r>broaden<s n="vblex"/></r></p></e>
@@ -6198,6 +6198,7 @@
     <e><p><l>galluogi<s n="vblex"/></l><r>empower<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>gorfodi<s n="vblex"/></l><r>force<s n="vblex"/></r></p></e>
 
+    <e><p><l>gorfod<s n="vaux"/></l><r>must<s n="vaux"/></r></p></e>
     <e><p><l>byw<s n="vblex"/></l><r>live<s n="vblex"/></r></p></e>
     <e><p><l>oes<s n="vbser"/></l><r>there be<s n="vbser"/></r></p></e>
     <e><p><l>dyna<s n="vbser"/></l><r>there be<s n="vbser"/></r></p></e>
