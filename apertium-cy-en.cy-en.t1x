@@ -2340,6 +2340,39 @@ it converts this seqence to the English "this boy", "this girl"
       </action>
     </rule>
 
+	<rule comment="indef-art - insert an indefinite article">
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action> 
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="indef_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="a"/>
+              <lit-tag v="det.indef.sp"/>
+            </lu>
+	    <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: NOM DET NOM">
       <pattern>
@@ -2367,11 +2400,11 @@ it converts this seqence to the English "this boy", "this girl"
               <clip pos="1" side="tl" part="a_nom"/>
               <clip pos="1" side="tl" part="nbr"/>
             </lu>
-            <b/>
+        <b/>
             <lu>
               <lit v="of"/>
               <lit-tag v="pr"/>
-	    </lu>
+	    	</lu>
 	    <b/>
             <lu>
               <clip pos="2" side="tl" part="lem"/>

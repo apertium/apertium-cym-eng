@@ -161,9 +161,14 @@ SECTION
 # Mutations
 #####################################
 
-#Early removal of impossible aspirate mutations.
+#Early removal of impossible aspirate mutations
 #Gobeithio bod popeth yn iawn gyda chi
-REMOVE:R_asp_c_notpostprep  MAspC IF (NOT -1 ("ei")) (NOT -1 ("a" cnjcoo)) (NOT -1 ("â")) (NOT -1 ("chwech"));
+REMOVE:R_SM_notpostprep  MAspC IF (NOT -1 ("ei")) (NOT -1 ("a" cnjcoo)) (NOT -1 ("â")) (NOT -1 ("chwech"));
+
+# naeth o ddarllen y llythyr
+# remove nasally mutated verbs, which are impossible
+REMOVE:R_NM_whereverb  MNasC (0 V);
+
 
 #mynd â chi ar
 REMOVE:R_aspC_imposs MAspC IF (-1 (vblex)) (0 MAspC) (0 PrnSubj);
@@ -199,9 +204,7 @@ REMOVE:R_ni_vpart ("ni" vpart) IF (NOT 1 V);
 
 # this needs to be checked and perhaps broken down into smaller rules
 # choose verbal partical if sandwiched between Conj + verb
-SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex))) 
-		((1 (vblex)) OR (1 (vbser)) OR (1 (vbmod)) OR (1 (vaux)))
-		(NOT 1 (vblex inf)) (NOT 1 (n)) (NOT 1 Num) (NOT 0 CC);
+SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbser)) OR (1 (vbmod)) OR (1 (vaux))) (NOT 1 (vblex inf)) (NOT 1 (n)) (NOT 1 Num) (NOT 0 CC);
 
 # SELECT Vpart IF ( (-1 (cm)) OR (NOT -1 (vblex)) ) ((1 (vblex)) OR (1 (vbser))) (NOT 1 (vblex inf)) (NOT 1 Num) (NOT 0 CC);
 # commented out because it interferes with R_oes_age
@@ -503,6 +506,7 @@ SUBSTITUTE:M_infin_vn_preadj (inf) (ger) (vblex) (1 (adj));
 # there seems no way of triggering the rule by using a subset of the multiword
 SUBSTITUTE:M_infin_vn_postat (inf) (ger) (vblex) (-1 ("at" pr));
 
+SELECT:S_naeth_do ("naeth" vblex past) (@1 (prn));;
 
 
 
@@ -591,8 +595,10 @@ SELECT:S_na_cnjsub_postcomp ("na" cnjsub) IF (-1* (adj comp) BARRIER Det);
 
 # prosesau ieithyddol ac anieithyddol
 # two adjectives joined by a[c]
-ADD (beginAP) (adj) (1 ("a" cnjcoo)) (2 (adj));
-ADD (endAP) (adj) (-2 (adj))(-1 ("a" cnjcoo)) ;
+#ADD (beginAP) (adj) (1 ("a" cnjcoo)) (2 (adj));
+#ADD (endAP) (adj) (-2 (adj))(-1 ("a" cnjcoo));
+# this works, but commented out for now
+
 
 
 
@@ -633,8 +639,6 @@ SUBSTITUTE:M_o_from_pretop ("o" pr) ("o" pr S1) ("o" pr) (1 (np top));
 # mewn gwahanol ffyrdd
 SUBSTITUTE:M_ffordd_way_gwahanol ("ffordd" n f) ("ffordd" n f S1) ("ffordd" n f) ( (1 ("gwahanol" adj)) OR (-1 ("gwahanol" adj)) );
 # not perfect, because it would apply in other contexts too
-
-
 
 
 
