@@ -203,6 +203,9 @@ REMOVE MSoftC IF (1 Prn);
 # Mi welodd y bachgen ni a'n ffrindiau ar y traeth.
 REMOVE:R_ni_vpart ("ni" vpart) IF (NOT 1 V);
 
+# a yw Apertium yn gallu ...
+# choose a vpart if a precedes yw
+SELECT:S_a_vpart (vpart itg) (1 V) (NOT 1 (infin));
 
 # this needs to be checked and perhaps broken down into smaller rules
 # choose verbal partical if sandwiched between Conj + verb
@@ -488,6 +491,7 @@ SELECT PrnSubj IF (0 PrnSubj) (0 (vbser prs)) (-1 (vblex past));
 REMOVE:R_vb_postdef V IF (0 V) (0 NC) (NOT 0 Acr) (-1 DetDef) (-2 Pr);
 
 # See 1.3.36 -- we currently just drop subjunctives and imperatives
+# needs to be revised
 REMOVE:R_subjunctive_vb VblexPrs IF (0 V); 
 REMOVE:R_imperative_be Imp IF (0 (vbser)); 
 REMOVE:R_imperative_vb Imp IF (0 (vblex past)); 
@@ -507,6 +511,9 @@ SUBSTITUTE:M_infin_vn_preadj (inf) (ger) (vblex) (1 (adj));
 # needed to comment out cyfrannu#at multiword for this particular example to work
 # there seems no way of triggering the rule by using a subset of the multiword
 SUBSTITUTE:M_infin_vn_postat (inf) (ger) (vblex) (-1 ("at" pr));
+
+
+SUBSTITUTE:M_impers_imp (imp impers pl) (imp) (vblex);
 
 
 

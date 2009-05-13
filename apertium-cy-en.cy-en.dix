@@ -158,6 +158,8 @@
     <e><p><l>rheiny<s n="det"/><s n="dem"/><s n="mf"/></l><r>that<s n="det"/><s n="dem"/></r></p></e>
  
     <e><p><l>llawer<b/>o<s n="det"/><s n="qnt"/></l><r>a<b/>lot<b/>of<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>lot<b/>o<s n="det"/><s n="qnt"/></l><r>a<b/>lot<b/>of<s n="det"/><s n="qnt"/></r></p></e>
+
     <e><p><l>mwy<b/>o<s n="det"/><s n="qnt"/></l><r>more<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>llawer<b/>iawn<b/>o<s n="det"/><s n="qnt"/></l><r>very<b/>many<s n="det"/><s n="qnt"/></r></p></e>
 
@@ -691,6 +693,9 @@
     <e><p><l>ymlaen<s n="adv"/></l><r>forward<s n="adv"/></r></p></e>
     <e><p><l>ym<b/>mhobman<s n="adv"/></l><r>everywhere<s n="adv"/></r></p></e>
     <e><p><l>yna<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
+    <e><p><l>yna<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
+    <e><p><l>ene<s n="adv"/></l><r>then<s n="cnjadv"/></r></p></e>
+
     <e><p><l>yn<b/>ddiymdroi<s n="adv"/></l><r>with<b/>immediate<b/>effect<s n="adv"/></r></p></e>
     <e><p><l>yn<b/>ddiymyrraeth<s n="adv"/></l><r>without<b/>interference<s n="adv"/></r></p></e>
     <e><p><l>yn<b/>dra<b/>pherthnasol<s n="adv"/></l><r>very<b/>relevant<b/>to<s n="adv"/></r></p></e>
@@ -1564,7 +1569,7 @@
     <e><p><l>cywydd<s n="n"/><s n="m"/></l><r>alliterative poem<s n="n"/></r></p></e>
     <e><p><l>dadansoddiad<s n="n"/><s n="m"/></l><r>analysis<s n="n"/></r></p></e>
     <e><p><l>dadl<s n="n"/><s n="f"/></l><r>argument<s n="n"/></r></p></e>
-    <e><p><l>dadl<s n="n"/><s n="f"/></l><r>debate<s n="n"/></r></p></e>
+    <!--<e><p><l>dadl<s n="n"/><s n="f"/></l><r>debate<s n="n"/></r></p></e>-->
     <e><p><l>dadrithiad<s n="n"/><s n="m"/></l><r>disillusionment<s n="n"/></r></p></e>
     <e><p><l>daear<s n="n"/><s n="f"/></l><r>earth<s n="n"/></r></p></e>
     <e><p><l>daliad<s n="n"/><s n="m"/></l><r>holding<s n="n"/></r></p></e>
@@ -2155,7 +2160,7 @@
     <e><p><l>targed<s n="n"/><s n="m"/></l><r>target<s n="n"/></r></p></e>
     <e><p><l>tarian<s n="n"/><s n="f"/></l><r>shield<s n="n"/></r></p></e>
     <e><p><l>tasg<s n="n"/><s n="f"/></l><r>task<s n="n"/></r></p></e>
-    <e><p><l>tebygolwrydd<s n="n"/><s n="m"/></l><r>probability<s n="n"/></r></p></e>
+    <e><p><l>tebygolrwydd<s n="n"/><s n="m"/></l><r>probability<s n="n"/></r></p></e>
     <e><p><l>techneg<s n="n"/><s n="f"/></l><r>technique<s n="n"/></r></p></e>
     <e><p><l>technoleg<s n="n"/><s n="f"/></l><r>technology<s n="n"/></r></p></e>
     <e><p><l>teimlad<s n="n"/><s n="m"/></l><r>feeling<s n="n"/></r></p></e>
@@ -3516,6 +3521,8 @@
     <e><p><l>capel<s n="n"/><s n="m"/></l><r>chapel<s n="n"/></r></p></e>
     <e><p><l>cartref<s n="n"/><s n="m"/></l><r>home<s n="n"/></r></p></e>
 
+    <e><p><l>cwantwm<s n="n"/><s n="m"/></l><r>quantum<s n="n"/></r></p></e>
+
     <e><p><l>cerdd<s n="n"/><s n="f"/></l><r>poem<s n="n"/></r></p></e>
     <e><p><l>cerdd<s n="n"/><s n="f"/></l><r>music<s n="n"/></r></p></e>
     <e><p><l>cerdd<g><b/>dant</g><s n="n"/><s n="f"/></l><r>harp singing<s n="n"/><s n="unc"/></r></p></e>
@@ -3759,6 +3766,8 @@
     <e><p><l>gwaith<s n="n"/><s n="f"/></l><r>time<s n="n"/><s n="unc"/></r></p></e>
 
     <e><p><l>mecanwaith<s n="n"/><s n="m"/></l><r>mechanism<s n="n"/></r></p></e>
+    <e><p><l>mecaneg<s n="n"/><s n="f"/></l><r>mechanics<s n="n"/></r></p></e>
+
     <e><p><l>noswaith<s n="n"/><s n="f"/></l><r>evening<s n="n"/></r></p></e>
     <e><p><l>patrymwaith<s n="n"/><s n="m"/></l><r>mosaic<s n="n"/></r></p></e>
     <e><p><l>peirianwaith<s n="n"/><s n="m"/></l><r>mechanism<s n="n"/></r></p></e>
@@ -6190,7 +6199,7 @@
  
     <!-- Verbs -->
 
-    <e><p><l>ddaru<s n="vaux"/><s n="past"/><s n="invariant"/></l><r>do<s n="vblex"/><s n="past"/></r></p></e>
+	<e><p><l>ddaru<s n="vaux"/><s n="past"/><s n="invariant"/></l><r>do<s n="vblex"/><s n="past"/></r></p></e>
  
     <e><p><l>plygu<s n="vblex"/></l><r>bend<s n="vblex"/></r></p></e>
     <e><p><l>eangu<s n="vblex"/></l><r>broaden<s n="vblex"/></r></p></e>
@@ -6198,7 +6207,6 @@
     <e><p><l>galluogi<s n="vblex"/></l><r>empower<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>gorfodi<s n="vblex"/></l><r>force<s n="vblex"/></r></p></e>
 
-    <e><p><l>gorfod<s n="vaux"/></l><r>must<s n="vaux"/></r></p></e>
     <e><p><l>byw<s n="vblex"/></l><r>live<s n="vblex"/></r></p></e>
     <e><p><l>oes<s n="vbser"/></l><r>there be<s n="vbser"/></r></p></e>
     <e><p><l>dyna<s n="vbser"/></l><r>there be<s n="vbser"/></r></p></e>
@@ -9489,6 +9497,7 @@
     <e><p><l>ymdeimlo<s n="vblex"/></l><r>feel<s n="vblex"/></r></p></e>
     <e><p><l>ymdeithio<s n="vblex"/></l><r>march<s n="vblex"/></r></p></e>
     <e><p><l>ymdoddi<s n="vblex"/></l><r>melt<s n="vblex"/></r></p></e>
+    <e><p><l>ymdopi<s n="vblex"/></l><r>cope<s n="vblex"/></r></p></e>
     <e><p><l>ymdrechu<s n="vblex"/></l><r>strive<s n="vblex"/></r></p></e>
     <e><p><l>ymdreiddio<s n="vblex"/></l><r>pervade<s n="vblex"/></r></p></e>
     <e><p><l>ymdreiglo<s n="vblex"/></l><r>tumble<s n="vblex"/></r></p></e>
@@ -9907,7 +9916,6 @@
     <e><p><l>ymddyfalu<s n="vblex"/></l><r>describe<g><b/>oneself</g><s n="vblex"/></r></p></e>
     <e><p><l>ymddyrchafu<s n="vblex"/></l><r>exalt<g><b/>oneself</g><s n="vblex"/></r></p></e>
     <e><p><l>ymdecáu<s n="vblex"/></l><r>prettify<g><b/>oneself</g><s n="vblex"/></r></p></e>
-    <e><p><l>ymdopi<s n="vblex"/></l><r>cope<g><b/>with</g><s n="vblex"/></r></p></e>
     <e><p><l>ymdrwsio<s n="vblex"/></l><r>adorn<g><b/>oneself</g><s n="vblex"/></r></p></e>
     <e><p><l>ymdrythyllu<s n="vblex"/></l><r>behave<g><b/>wantonly</g><s n="vblex"/></r></p></e>
     <e><p><l>ymehangu<s n="vblex"/></l><r>spread<g><b/>out</g><s n="vblex"/></r></p></e>
@@ -10340,7 +10348,8 @@
     <e><p><l>NHS Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>NHS Cymru<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Tesco<s n="np"/><s n="org"/><s n="f"/></l><r>Tesco<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Swyddfa'r<b/>Post<s n="np"/><s n="org"/><s n="f"/></l><r>Post<b/>Office<s n="np"/><s n="org"/></r></p></e>
- 
+    <e><p><l>Apertium<s n="np"/><s n="org"/><s n="f"/></l><r>Apertium<s n="np"/><s n="org"/></r></p></e>
+
  
       <!--  Anthroponyms -->
  
