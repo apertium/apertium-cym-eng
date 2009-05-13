@@ -13912,7 +13912,7 @@
     <e lm="on the point of"><i>on<b/>the<b/>point<b/>of</i><par n="at__pr"/></e>
     <e lm="on the edge of"><i>on<b/>the<b/>edge<b/>of</i><par n="at__pr"/></e>
     <e lm="in the presence of"><i>in<b/>the<b/>presence<b/>of</i><par n="at__pr"/></e>
-    <e lm="aound"><i>aound</i><par n="at__pr"/></e>
+    <e lm="around"><i>around</i><par n="at__pr"/></e>
     <e lm="in the presence of"><i>in<b/>the<b/>presence<b/>of</i><par n="at__pr"/></e>
     <e lm="in the middle of"><i>in<b/>the<b/>middle<b/>of</i><par n="at__pr"/></e>
 
@@ -13938,6 +13938,9 @@
 
     <e lm="after"><i>after</i><par n="after__cnjadv"/></e>
     <e lm="then"><i>then</i><par n="after__cnjadv"/></e>
+    
+
+
     <e lm="although"><i>although</i><par n="after__cnjadv"/></e>
     <e lm="and"><i>and</i><par n="and__cnjcoo"/></e>
     <e lm="except"><i>except</i><par n="and__cnjcoo"/></e>
@@ -20382,6 +20385,7 @@
     <e lm="phytoparasite"><i>phytoparasite</i><par n="house__n"/></e>
     <e lm="minim"><i>minim</i><par n="house__n"/></e>
     <e lm="photomechanics"><i>photomechanics</i><par n="politics__n"/></e>
+    <e lm="mechanics"><i>mechanics</i><par n="politics__n"/></e>
     <e lm="subdomain"><i>subdomain</i><par n="house__n"/></e>
     <e lm="peridot"><i>peridot</i><par n="house__n"/></e>
     <e lm="metaphase"><i>metaphase</i><par n="house__n"/></e>
@@ -22468,6 +22472,8 @@
     <e lm="BBC2"><i>BBC2</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="NHS Cymru"><i>NHS<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Post Office"><i>Post<b/>Office</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Apertium"><i>Apertium</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+
     <e lm="Bank of England"><i>Bank<b/>of<b/>England</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Tesco"><i>Tesco</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
@@ -29257,6 +29263,7 @@
         <r><g><b/>deeply</g></r>
       </p>
     </e>
+<!--
     <e lm="cope with">
       <i>cop</i>
       <par n="liv/e__vblex"/>
@@ -29265,6 +29272,7 @@
         <r><g><b/>with</g></r>
       </p>
     </e>
+-->
     <e lm="correspond to">
       <i>correspond</i>
       <par n="accept__vblex"/>

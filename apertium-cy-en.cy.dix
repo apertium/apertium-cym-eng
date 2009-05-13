@@ -4176,6 +4176,22 @@
     </pardef>
 
     <!-- Nouns -->
+
+	<pardef n="cwant/wm__n">
+      <e>
+        <p>
+          <l>wm</l>
+          <r>wm<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>wm<s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="ager__n">
       <e>
         <p>
@@ -49433,6 +49449,9 @@
     <e lm="yma"><i>yma</i><par n="yna__det"/></e>
     <e lm="yna"><i>yna</i><par n="yna__det"/></e>
 
+    <e lm="ene"><i>ene</i><par n="yma__adv"/></e>
+
+
     <e lm="fy"><i>fy</i><par n="fy__det"/></e>  
     <e lm="dy"><par n="initial-d"/><i>y</i><par n="fy__det"/></e>
 
@@ -49457,6 +49476,8 @@
     <e lm="rheini"><p><l>rheini</l><r>rheiny</r></p><par n="hyn__det"/></e>
 
     <e lm="llawer o"><par n="initial-ll"/><i>awer<b/>o</i><par n="llawer_o__det"/></e>
+    <e lm="lot o"><i>lot<b/>o</i><par n="llawer_o__det"/></e>
+
     <e lm="mwy o"><par n="initial-m"/><i>wy<b/>o</i><par n="llawer_o__det"/></e>
     <e lm="llawer iawn o"><par n="initial-ll"/><i>awer<b/>iawn<b/>o</i><par n="llawer_o__det"/></e>
     <e lm="ychydig"><i>ychydig</i><par n="llawer_o__det"/></e>
@@ -50537,7 +50558,7 @@
     <e lm="tarddiad"><par n="initial-t"/><i>arddiad</i><par n="aberth__n"/></e>
     <e lm="targed"><par n="initial-t"/><i>arged</i><par n="aberth__n"/></e>
     <e lm="targed"><par n="initial-t"/><i>arged</i><par n="aberth__n"/></e>
-    <e lm="tebygolwrydd"><par n="initial-t"/><i>ebygolwrydd</i><par n="aberth__n"/></e>
+    <e lm="tebygolrwydd"><par n="initial-t"/><i>ebygolrwydd</i><par n="aberth__n"/></e>
     <e lm="teimlad"><par n="initial-t"/><i>eimlad</i><par n="aberth__n"/></e>
     <e lm="teitl"><par n="initial-t"/><i>eitl</i><par n="aberth__n"/></e>
     <e lm="telathrebiad"><par n="initial-t"/><i>elathrebiad</i><par n="aberth__n"/></e>
@@ -51007,6 +51028,7 @@
     <e lm="crynswth"><par n="initial-c"/><i>rynswth</i><par n="achosiant__n"/></e>
     <e lm="cuddni"><par n="initial-c"/><i>uddni</i><par n="achosiant__n"/></e>
     <e lm="cwmpas"><par n="initial-c"/><i>wmpas</i><par n="achosiant__n"/></e>
+    <e lm="cwantwm"><par n="initial-c"/><i>want</i><par n="cwant/wm__n"/></e>
     <e lm="cydamrywiad"><par n="initial-c"/><i>ydamrywiad</i><par n="achosiant__n"/></e>
     <e lm="cydbwysedd"><par n="initial-c"/><i>ydbwysedd</i><par n="achosiant__n"/></e>
     <e lm="cyd-chwarae"><par n="initial-c"/><i>yd-chwarae</i><par n="achosiant__n"/></e>
@@ -52394,6 +52416,8 @@
     <e lm="fframwaith"><i>fframw</i><par n="adw/aith__n"/></e>
     <e lm="gwaith"><par n="initial-g"/><i>w</i><par n="adw/aith__n"/></e>
     <e lm="mecanwaith"><par n="initial-m"/><i>ecanw</i><par n="adw/aith__n"/></e>
+    <e lm="mecaneg"><par n="initial-m"/><i>ecaneg</i><par n="addysg__n"/></e>
+
     <e lm="patrymwaith"><par n="initial-p"/><i>atrymw</i><par n="adw/aith__n"/></e>
     <e lm="peirianwaith"><par n="initial-p"/><i>eirianw</i><par n="adw/aith__n"/></e>
     <e lm="rheolwaith"><par n="initial-rh"/><i>eolw</i><par n="adw/aith__n"/></e>
@@ -58831,6 +58855,7 @@
     <e lm="NHS Cymru"><i>NHS<b/>Cymru</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Tesco"><i>Tesco</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Swyddfa'r Post"><i>Swyddfa'r<b/>Post</i><par n="Cymdeithas_yr_Iaith__np"/></e>
+    <e lm="Apertium"><i>Apertium</i><par n="Cymdeithas_yr_Iaith__np"/></e>
 
 
     <e lm="Sir Aberteifi"><i>Sir<b/>Aberteifi</i><par n="Blaenafon__np"/></e>
