@@ -65,7 +65,7 @@ LIST prn_subj_3pl = (prn subj p3 pl);
 
 
 LIST PrnSubjP1Sg = (prn subj p1 sg);
-LIST PrnSubjP1Sg = (prn obj p1 sg);
+#LIST PrnSubjP1Sg = (prn obj p1 sg);
 
 SET PrnSubjP3Sg = PrnSubj + P3Sg;
 SET PrnSubjP1Pl = PrnSubj + P1Pl;
