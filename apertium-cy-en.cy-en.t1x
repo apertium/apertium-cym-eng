@@ -80,7 +80,8 @@ You need to recompile after editing this file, so that the rule-changes are seen
     </def-cat>
 
     <def-cat n="yn">
-      <cat-item lemma="yn" tags="*"/>
+      <cat-item lemma="yn" tags="pr"/>
+      <cat-item lemma="yn" tags="stative"/>
     </def-cat>
     <def-cat n="pr_until">
       <cat-item lemma="tan" tags="*"/>
