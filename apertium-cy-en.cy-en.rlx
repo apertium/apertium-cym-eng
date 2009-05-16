@@ -167,10 +167,9 @@ REMOVE:R_sm_notpostprep  MAspC IF (NOT -1 ("ei")) (NOT -1 ("a" cnjcoo)) (NOT -1 
 
 # naeth o ddarllen y llythyr
 # remove nasally mutated verbs, which are impossible
-REMOVE:R_nm_whereverb  MNasC (0 V);
-# hmm, except in places like "fy mod i", so may need to qualify this
-# doesn't seem to be a problem as yet, because it knocks out naeth when it comes from dod (daeth), which is the main aim
-
+REMOVE:R_nm_whereverb  MNasC (0 V) (NOT 0 ("mod")) (NOT 0 ("maen"));
+# this needs improvement - all conjugated verbs beginning with a nasal will also be removed
+# ideally, we need mutated words to be marked with a tag saying they are mutated, so that we can remove them based on that
 
 #mynd â chi ar
 REMOVE:R_aspC_imposs MAspC IF (-1 (vblex)) (0 MAspC) (0 PrnSubj);
@@ -196,12 +195,23 @@ REMOVE MSoftC IF (1 Prn);
 
 
 
+# Sentence-based rules
+#####################################
+
+# a fydd o'n mynd (and he'll be going) - spoken for a mi fydd o'n mynd or a bydd o'n mynd
+# seems impossible to disambiguate from a_vpart+SM except by looking for a question-mark at the end of the sentence
+#SELECT:S_a_cnjcoo (cnjcoo) (@1 ("a"ri)) (NOT @-1 ("?" sent));
+# in theory, this would select a_cnj if the sentence does not end in a question mark
+# but it doesn't work - the 2nd condition never seems to apply
+
+
+
 # Pre-verbal particles
 #####################################
 
 # delete negative verbal particle reading if a verb does not follow
 # Mi welodd y bachgen ni a'n ffrindiau ar y traeth.
-REMOVE:R_ni_vpart ("ni" vpart) IF (NOT 1 V);
+REMOVE:R_ni_vpart ("ni" vpart) (NOT 1 V);
 
 # a yw Apertium yn gallu ...
 # choose a vpart if a precedes yw
@@ -215,15 +225,15 @@ SELECT Vpart IF ((-1 CC) OR (-1 CS) OR (NOT -1 (vblex))) ((1 (vblex)) OR (1 (vbs
 # commented out because it interferes with R_oes_age
 # needs to be broken down
 
-SELECT (vbser cns) IF (-1 Vpart);
+SELECT (vbser cns) (-1 Vpart);
 
 # choose det.def after a verb and before a noun
-REMOVE:R_yr_vpart Vpart IF (-1 V) (1 NC);
+REMOVE:R_yr_vpart Vpart (-1 V) (1 NC);
 
 # choose the interrogative "a" instead of the conjunctive "a" if oes follows
 # this could probably be broadened out
 # a oes lle yma? (is there room (a place) here?) - *and there are where here
-REMOVE:R_a_cnjcoo ("a" cnjcoo) IF (1 Oes);
+REMOVE:R_a_cnjcoo ("a" cnjcoo) (1 Oes);
 # Oops - gives "did this place there are"
 # With above "lle yma" rules, we now get "did place there are here"
 # not ideal, but slightly better than original "and there are where here"
@@ -303,7 +313,9 @@ REMOVE PrnSubj IF (1 NP) (-1 Adj);
 # Mi welodd y bachgen ni a'n ffrindiau ar y traeth.
 #REMOVE:R_ni_subj ("ni"ri prn subj) IF (NOT -1 vb_1pl);
 # UPDATE - for some inexplicable reason this stopped working; even adjusting the location made no difference, so changed to a SUBSTITUTE rule
-SUBSTITUTE:M_subj_obj_1sg (subj) (obj) prn_subj_1sg (NOT -1 vb_1sg) (NOT -1 ("<ddaru>" "ddaru" vaux past)) (NOT @1 (prn));
+SUBSTITUTE:M_subj_obj_1sg (subj) (obj) prn_subj_1sg (NOT 0 vb_1sg) (NOT -1 vb_1sg) (NOT -1 ("<ddaru>" "ddaru" vaux past)) (NOT @1 (prn));
+# the (NOT 0 vb_1sg) is to cover dwi'n - this decomposes to vbser+prn+stative, but since CG sees all of these as the current focus
+# it will not fire this rule, since the previous (-1) item is not in fact the verb
 SUBSTITUTE:M_subj_obj_2sg (subj) (obj) prn_subj_2sg (NOT -1 vb_2sg) (NOT -1 ("<ddaru>" "ddaru" vaux past)) (NOT @1 (prn));
 SUBSTITUTE:M_subj_obj_3sg_m (subj) (obj) prn_subj_3sg_m (NOT -1 vb_3sg) (NOT -1 ("<ddaru>" "ddaru" vaux past)) (NOT @1 (prn));
 SUBSTITUTE:M_subj_obj_3sg_f (subj) (obj) prn_subj_3sg_f (NOT -1 vb_3sg) (NOT -1 ("<ddaru>" "ddaru" vaux past)) (NOT @1 (prn));
@@ -440,7 +452,7 @@ SUBSTITUTE:M_infin_vn_postyn (inf) (ger) (inf) (-1 ("yn" stative));
 SELECT (vbser) IF (0 NC) (0 (vbser)) (1 DetQnt) (2 DetDef);
 
 #Ac maen nhw wedi
-REMOVE NC IF (0 (vbser)) (1 PrnSubj);
+REMOVE:R_maen_stone NC (0 ("maen")) (1 PrnSubj);
 
 # taswn i yn dy le di
 # select bod, not tasu
@@ -512,7 +524,13 @@ SUBSTITUTE:M_infin_vn_preadj (inf) (ger) (vblex) (1 (adj));
 # there seems no way of triggering the rule by using a subset of the multiword
 SUBSTITUTE:M_infin_vn_postat (inf) (ger) (vblex) (-1 ("at" pr));
 
+#d w i'n meddwl
+# cast an infinitive as a verbal noun when at precedes
+SUBSTITUTE:M_infin_vn_postyn (inf) (ger) (vblex) (-1 (+yn stative));
 
+
+# gweler y nodiadau
+# remove impers tag to avoid passive in the imperative
 SUBSTITUTE:M_impers_imp (imp impers pl) (imp) (vblex);
 
 
@@ -573,7 +591,8 @@ REMOVE MNasC IF ((-1 DetDef) OR (-1 V) OR (-1 (n m)));
 REMOVE PrnSubj IF (-1 (np)) (0 Pr) (0 PrnSubj) (1 (np));
 
 #ym Medi 1999
-REMOVE (vblex) IF (-1 Pr) (0 NC) (NOT 0 Acr) (0 V);
+#REMOVE (vblex) IF (-1 Pr) (0 NC) (NOT 0 Acr) (0 V);
+# too broad - seems to interfere with M_infin_vn_postyn
 
 #54 acer o barcio 
 SELECT Pr IF (-1 NC) (1 V);
@@ -593,7 +612,13 @@ REMOVE ("<f.*>"ri "b.*"ri) IF (0 (n m sg)) (-1 DetDef);
 #well o lawer na'r
 SELECT:S_na_cnjsub_postcomp ("na" cnjsub) IF (-1* (adj comp) BARRIER Det);
 
-# cath fach a tew
+# Anne a Bev
+SELECT:S_a_cnjcoo_tweennames ("a" cnjcoo) (-1 (np ant)) (1 (np ant));
+
+# yn ystod y dydd a gyda'r nos
+SELECT:S_a_cnjcoo_noverb ("a" cnjcoo) (NOT -1 V) (NOT 1 V);
+
+
 
 
 
@@ -622,6 +647,11 @@ ADD (pred) ("unig" adj) ((1 (n)) OR (1 (np)) OR (1 (pr)) OR (1 Det) OR (1 (cm)))
 REMOVE (n f) (0 ("gwaith")) (0 MSoftC);
 # perhaps better to use the meaning tag approach?
 # hmm - does this make sense?  all it says is remove the time meaning when you have soft mutation - needs more
+REMOVE (n f) (0 ("gwaith")) (NOT -1 (num));
+
+REMOVE (n f) (0 ("llif")) (-1 (adj));
+
+REMOVE (vpart neg) (0 ("ni")) (-1 (inf));
 
 # choose the "direction" sense of "cyfeiriad" (not address) if preceded by trafod
 SUBSTITUTE:M_cyfeiriad_direction_posttrafod ("cyfeiriad"ri n m) ("cyfeiriad" n m S1) NC (-1 ("trafod"ri vblex));
@@ -638,9 +668,14 @@ REMOVE:R_trafod_n ("trafod"ri n m) IF (1 ("cyfeiriad"ri n m S1));
 SUBSTITUTE ("gallu"ri vbmod) ("gallu" vbmod S1) NC (-1 prep_yn);
 # doesn't work - investigate
 
-# choose the "from" sense of o (not of) if it is followed by a placename
 # dyn o Abertawe
+# choose the "from" sense of o (not of) if it is followed by a placename
 SUBSTITUTE:M_o_from_pretop ("o" pr) ("o" pr S1) ("o" pr) (1 (np top));
+
+# o nos Fawrth
+# choose the "from" sense of o (not of) if it is followed by a dayname
+SUBSTITUTE:M_o_from_preday ("o" pr) ("o" pr S1) ("o" pr) ( (1 ("nos# Lun" n)) OR (1 ("nos# Fawrth" n)) OR (1 ("nos# Fercher" n)) OR (1 ("nos# Iau" n)) OR (1 ("nos# Wener" n)) OR (1 ("nos# Sadwrn" n)) OR (1 ("nos# Sul" n)) OR (1 ("dydd# Llun" n)) OR (1 ("dydd# Mawrth" n)) OR (1 ("dydd# Mercher" n)) OR (1 ("dydd# Iau" n)) OR (1 ("dydd# Gwener" n)) OR (1 ("dydd# Sadwrn" n)) OR (1 ("dydd# Sul" n)) );
+
 
 # choose the "way" sense of "ffordd" when in the vicinity of "gwahanol"
 # mewn gwahanol ffyrdd

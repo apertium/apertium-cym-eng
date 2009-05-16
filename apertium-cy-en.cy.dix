@@ -49319,6 +49319,9 @@
     <e lm="ger"><i>ger</i><par n="gyda__pr"/></e>
     <e lm="megis"><par n="initial-m"/><i>egis</i><par n="gyda__pr"/></e>
     <e lm="mewn"><par n="initial-m"/><i>ewn</i><par n="gyda__pr"/></e>
+    <e lm="i mewn"><i>i<b/>mewn</i><par n="gyda__pr"/></e>
+    <e lm="i fewn"><i>i<b/>fewn</i><par n="gyda__pr"/></e>
+
     <e lm="mwy na"><par n="initial-m"/><i>wy<b/>na</i><par n="gyda__pr"/></e>
 
     <e lm="wedi"><i>wedi</i><par n="gyda__pr"/></e>
@@ -58822,6 +58825,7 @@
 	<e lm="trwy gyfrwng y Gymraeg"><par n="initial-t"/><i>rwy<b/>gyfrwng<b/>y<b/>Gymraeg</i><par n="yma__adv"/></e>
 	<e lm="yn y pen draw"><i>yn<b/>y<b/>pen<b/>draw</i><par n="yma__adv"/></e>
 	<e lm="gyda llaw"><i>gyda<b/>llaw</i><par n="yma__adv"/></e>
+	<e lm="gyda'r nos"><i>gyda'r<b/>nos</i><par n="yma__adv"/></e>
 	<e lm="o hyn ymlaen"><i>o<b/>hyn<b/>ymlaen</i><par n="yma__adv"/></e>
 	<e lm="ar ei hôl hi"><i>ar<b/>ei<b/>hôl<b/>hi</i><par n="yma__adv"/></e>
 	<e lm="diolch yn fawr"><i>diolch<b/>yn<b/>fawr</i><par n="yma__adv"/></e>
@@ -60381,6 +60385,8 @@
     <e lm="Ava"><i>Ava</i><par n="Elin__np"/></e>
     <e lm="Caitlin"><par n="initial-C"/><i>aitlin</i><par n="Elin__np"/></e>
     <e lm="Anna"><i>Anna</i><par n="Elin__np"/></e>
+    <e lm="Beverley"><i>Beverley</i><par n="Elin__np"/></e>
+    <e lm="Bev"><i>Bev</i><par n="Elin__np"/></e>
     <e lm="Ann-Marie"><i>Ann-Marie</i><par n="Elin__np"/></e>
     <e lm="Mia"><par n="initial-M"/><i>ia</i><par n="Elin__np"/></e>
     <e lm="Niamh"><i>Niamh</i><par n="Elin__np"/></e>
@@ -60675,13 +60681,12 @@
       <par n="y_ll/all__prn"/>
     </e>
 
-
     <e lm="'n" r="LR">
       <p>
         <l>'n</l>
         <r>yn</r>
       </p>
-      <par n="gyda__pr"/>
+      <par n="stative__dummy"/>
     </e>
 
     <e lm="'na" r="LR">
@@ -60831,7 +60836,14 @@
 	<e lm="i'n" r="LR">
       <p>
         <l>i'n</l>
-		<r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>yn<s n="pr"/></r>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>yn<s n="stative"/></r>
+      </p>
+    </e>
+
+	<e lm="dwi'n" r="LR">
+      <p>
+        <l>dwi'n</l>
+		<r>bod<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/><j/>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>yn<s n="stative"/></r>
       </p>
     </e>
 
