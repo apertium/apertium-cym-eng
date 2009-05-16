@@ -280,6 +280,8 @@
     <e r="LR"><p><l>ger<s n="pr"/></l><r>near<s n="pr"/></r></p></e>
     <e><p><l>megis<s n="pr"/></l><r>like<s n="pr"/></r></p></e>
     <e r="LR"><p><l>mewn<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>i<b/>mewn<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>i<b/>fewn<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
 
     <e><p><l>wedi<s n="pr"/></l><r>after<s n="pr"/></r></p></e>
     <e><p><l>wedi<s n="peri"/></l><r></r></p></e>
@@ -3181,7 +3183,6 @@
     <e><p><l>jar<s n="n"/><s n="f"/></l><r>jar<s n="n"/></r></p></e>
     <e><p><l>llafur<s n="n"/><s n="m"/></l><r>labour<s n="n"/></r></p></e>
     <e><p><l>llanc<s n="n"/><s n="m"/></l><r>young man<s n="n"/></r></p></e>
-    <e><p><l>llif<s n="n"/><s n="f"/></l><r>saw<s n="n"/></r></p></e>
     <e><p><l>lliw<s n="n"/><s n="m"/></l><r>colour<s n="n"/></r></p></e>
     <e><p><l>llun<s n="n"/><s n="m"/></l><r>picture<s n="n"/></r></p></e>
     <e><p><l>map<s n="n"/><s n="m"/></l><r>map<s n="n"/></r></p></e>
@@ -3401,7 +3402,10 @@
     <e><p><l>hyder<s n="n"/><s n="m"/></l><r>confidence<s n="n"/></r></p></e>
     <e><p><l>hynt<s n="n"/><s n="f"/></l><r>course<s n="n"/></r></p></e>
     <e><p><l>iawndal<s n="n"/><s n="m"/></l><r>compensation<s n="n"/></r></p></e>
+
+    <e><p><l>llif<s n="n"/><s n="f"/></l><r>saw<s n="n"/></r></p></e>
     <e><p><l>llif<s n="n"/><s n="m"/></l><r>flow<s n="n"/></r></p></e>
+
     <e><p><l>llu<s n="n"/><s n="m"/></l><r>host<s n="n"/></r></p></e>
     <e><p><l>llyfrgell<s n="n"/><s n="m"/></l><r>library<s n="n"/></r></p></e>
     <e><p><l>llys<s n="n"/><s n="m"/></l><r>court<s n="n"/></r></p></e>
@@ -4580,6 +4584,7 @@
     <e><p><l>trwy<b/>gyfrwng<b/>y<b/>Gymraeg<s n="adv"/></l><r>through<b/>the<b/>medium<b/>of<b/>Welsh<s n="adv"/></r></p></e>
     <e><p><l>yn<b/>y<b/>pen<b/>draw<s n="adv"/></l><r>eventually<s n="adv"/></r></p></e>
 	<e><p><l>gyda<b/>llaw<s n="adv"/></l><r>by<b/>the<b/>way<s n="adv"/></r></p></e>
+	<e><p><l>gyda'r<b/>nos<s n="adv"/></l><r>at<b/>night<s n="adv"/></r></p></e>
  	<e><p><l>o<b/>hyn<b/>ymlaen<s n="adv"/></l><r>from<b/>now<b/>on<s n="adv"/></r></p></e>
 	<e><p><l>ar<b/>ei<b/>hôl<b/>hi<s n="adv"/></l><r>running<b/>late<s n="adv"/></r></p></e>
 	<e><p><l>diolch<b/>yn<b/>fawr<s n="adv"/></l><r>thanks<b/>very<b/>much<s n="adv"/></r></p></e>
@@ -10721,6 +10726,8 @@
     <e><p><l>Annabel<s n="np"/><s n="ant"/></l><r>Annabel<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Anna Maria<s n="np"/><s n="ant"/></l><r>Anna Maria<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Anna<s n="np"/><s n="ant"/></l><r>Anna<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Beverley<s n="np"/><s n="ant"/></l><r>Beverley<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Bev<s n="np"/><s n="ant"/></l><r>Bev<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Ann<s n="np"/><s n="ant"/></l><r>Ann<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Anthony<s n="np"/><s n="ant"/></l><r>Anthony<s n="np"/><s n="ant"/></r></p></e>
     <e><p><l>Antònia<s n="np"/><s n="ant"/></l><r>Antònia<s n="np"/><s n="ant"/></r></p></e>
