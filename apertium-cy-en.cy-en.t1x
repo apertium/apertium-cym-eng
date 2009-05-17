@@ -1866,7 +1866,7 @@ it converts this seqence to the English "this boy", "this girl"
           </when>
           <otherwise>
             <out>
-              <chunk name="det_nom" case="caseFirstWord">
+              <chunk name="det_nom_det" case="caseFirstWord">
                 <tags>
                   <tag><lit-tag v="SN"/></tag>
                   <tag><clip pos="2" side="tl" part="nbr"/></tag>
