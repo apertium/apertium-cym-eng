@@ -127,6 +127,10 @@ You need to recompile after editing this file, so that the rule-changes are seen
       <cat-item tags="vbser.*.impers.*"/>  
     </def-cat>
 
+    <def-cat n="verbimp">
+      <cat-item tags="vblex.imp"/>
+    </def-cat>
+
     <def-cat n="verbaux">
       <cat-item tags="vaux.*"/>
     </def-cat>
@@ -4302,6 +4306,35 @@ it converts this seqence to the English "this boy", "this girl"
         </out>
       </action>
     </rule>
+
+
+    <rule comment="REGLA: VERB imp">
+      <pattern>
+        <pattern-item n="verbimp"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="verbimp" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><lit-tag v="imp"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="inf"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
     <rule comment="REGLA: VERB inf">
       <pattern>
