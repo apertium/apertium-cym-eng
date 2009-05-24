@@ -1088,7 +1088,7 @@ You need to recompile after editing this file, so that the rule-changes are seen
 
     <rule comment="REGLA: TOPONIM">
       <pattern>
-        <pattern-item n="nom"/>
+        <pattern-item n="toponim"/>
       </pattern>
       <action>
         <call-macro n="firstWord">

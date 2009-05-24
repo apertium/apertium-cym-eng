@@ -124,7 +124,6 @@
     <sdef n="mon"/>
 	
     <sdef n="S1"/>
-    <sdef n="stative"/>
     <sdef n="postnum"/>
     <sdef n="invariant"/>
 	<sdef n="peri"/>
@@ -2728,24 +2727,6 @@
       </e>
     </pardef>
 
-	<pardef n="stative__dummy">
-      <e>
-        <p>
-          <l>yn</l>
-          <r>yn<s n="stative"/></r>
-        </p>
-      </e>
-    </pardef>
-
-	<pardef n="peri__dummy">
-      <e>
-        <p>
-          <l>wedi</l>
-          <r>wedi<s n="peri"/></r>
-        </p>
-      </e>
-    </pardef>
-
 	<pardef n="vrbnull__dummy">
       <e>
         <p>
@@ -2763,6 +2744,30 @@
         <p>
           <l>mod</l>
           <r>bod<s n="vrbnull"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="wedi__part">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="part"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/yn__part">
+      <e r="LR">
+        <p>
+          <l>yn</l>
+          <r>yn<s n="part"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>yn</l>
+          <r>yn<s n="part"/></r>
         </p>
       </e>
     </pardef>
@@ -28320,6 +28325,12 @@
           <r>wn<s n="vaux"/><s n="pii"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>et</l>
+          <r>wn<s n="vaux"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>it</l>
@@ -28336,6 +28347,12 @@
         <p>
           <l>id</l>
           <r>wn<s n="vaux"/><s n="pii"/><s n="impers"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>en</l>
+          <r>wn<s n="vaux"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
@@ -49072,24 +49089,6 @@
       </e>
     </pardef>
 
-    <pardef n="yn__part">
-      <e>
-        <p>
-          <l/>
-          <r><s n="part"/></r>
-        </p>
-      </e>
-    </pardef>
-
-	<pardef n="wedi__part">
-      <e>
-        <p>
-          <l/>
-          <r><s n="part"/></r>
-        </p>
-      </e>
-    </pardef>
-
     <pardef n="/ni__vpart">
       <e r="LR">
         <p>
@@ -49239,10 +49238,10 @@
     <e lm="yr"><i/><par n="/yr__vpart"/></e>
     <e lm="mi"><i>mi</i><par n="fe__vpart"/></e>
 
-	<e lm="wedi"><i>wedi</i><par n="wedi__part"/></e>
-	<e lm="am"><i>am</i><par n="wedi__part"/></e>
-	<e lm="am"><i>ar</i><par n="wedi__part"/></e>
-	<e lm="am"><i>newydd</i><par n="wedi__part"/></e>
+    <e lm="wedi"><i>wedi</i><par n="wedi__part"/></e>
+    <e lm="am"><i>am</i><par n="wedi__part"/></e>
+    <e lm="ar"><i>ar</i><par n="wedi__part"/></e>
+    <e lm="newydd"><i>newydd</i><par n="wedi__part"/></e>
 
     <e lm="pronoms personals de subjecte"><i/><par n="prsubj__prn"/></e>
     <e lm="pronoms reflexius"><i/><par n="prref__prn"/></e>
@@ -49252,7 +49251,7 @@
     <e lm="rhywun arall"><par n="initial-rh"/><i>ywun<b/>arall</i><par n="unrhywun__prn"/></e>
     <e lm="rhywun"><par n="initial-rh"/><i>ywun</i><par n="unrhywun__prn"/></e>
     <e lm="pawb"><par n="initial-p"/><i>awb</i><par n="unrhywun__prn"/></e>
-	<e lm="rhywbeth"><par n="initial-rh"/><i>ywbeth</i><par n="unrhywun__prn"/></e>
+    <e lm="rhywbeth"><par n="initial-rh"/><i>ywbeth</i><par n="unrhywun__prn"/></e>
     <e lm="rhywfaint"><par n="initial-rh"/><i>ywfaint</i><par n="yma__adv"/></e>
     <e lm="rhywle"><par n="initial-rh"/><i>ywle</i><par n="yma__adv"/></e>
 
@@ -49270,9 +49269,6 @@
 
     <e lm="a"><i>a</i><par n="a__rel"/></e>
 
- <!--
-    <e lm="yn"><i>yn</i><par n="yn__part"/></e>  -->
-
 <!-- prepositions -->
 
     <e lm="ar"><i/><par n="/ar__pr"/></e>
@@ -49288,7 +49284,7 @@
     <e lm="heb"><i/><par n="/heb__pr"/></e> 
 
     <e lm="yn"><i/><par n="/yn__pr"/></e>   
-    <e lm="yn"><i/><par n="stative__dummy"/></e>
+    <e lm="yn"><i/><par n="/yn__part"/></e>
 
     <e lm="o"><i/><par n="/o__pr"/></e>
     <e lm="o"><i/><par n="postnum__dummy"/></e> 
@@ -49325,7 +49321,6 @@
     <e lm="mwy na"><par n="initial-m"/><i>wy<b/>na</i><par n="gyda__pr"/></e>
 
     <e lm="wedi"><i>wedi</i><par n="gyda__pr"/></e>
-    <e lm="wedi"><i/><par n="peri__dummy"/></e>
 
     <e lm="erbyn"><i>erbyn</i><par n="gyda__pr"/></e>
     <e lm="heblaw"><i>heblaw</i><par n="gyda__pr"/></e>
@@ -60684,9 +60679,8 @@
     <e lm="'n" r="LR">
       <p>
         <l>'n</l>
-        <r>yn</r>
+        <r>yn<s n="part"/></r>
       </p>
-      <par n="stative__dummy"/>
     </e>
 
     <e lm="'na" r="LR">
@@ -60836,14 +60830,14 @@
 	<e lm="i'n" r="LR">
       <p>
         <l>i'n</l>
-		<r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>yn<s n="stative"/></r>
+		<r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>yn<s n="part"/></r>
       </p>
     </e>
 
 	<e lm="dwi'n" r="LR">
       <p>
         <l>dwi'n</l>
-		<r>bod<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/><j/>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>yn<s n="stative"/></r>
+		<r>bod<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/><j/>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>yn<s n="part"/></r>
       </p>
     </e>
 
@@ -61044,6 +61038,12 @@
       </p>
     </e>
 
+<e lm="mae'n" r="LR">
+ <p>
+   <l>mae'n</l>
+   <r>bod<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/><j/>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>yn<s n="part"/></r>
+ </p>
+ </e>
 
 <!-- end elision section -->
   </section>

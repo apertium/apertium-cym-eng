@@ -7,9 +7,6 @@
 # to-dos
 # check and remove if nec items in "apostrophes" section of cydix
 
-
-
-
 #####################################
 # Intial configuration
 #####################################
@@ -30,18 +27,17 @@ LIST MAspC = ("<ch.*>"ri "c.*"ri) ("<th.*>"ri "t.*"ri);
 # nasal mutation
 LIST MNasC = ("<n.*>"ri "d.*"ri) ("<m.*>"ri "b.*"ri);
 
-
 # nouns
 
 LIST NC = n; 				# common nouns
 LIST NP = (np top) (np ant) (np cog);		# proper nouns (toponyms, anthroponyms, cognomens)
+LIST Top = (np top);
 LIST Ant = (np ant);		# anthroponyms
 LIST Acr = (n acr);
 
 LIST MF = mf;		# masculine/feminine
 LIST M = m;			# masculine
 LIST F = f;			# feminine
-
 
 # pronouns
 
@@ -63,7 +59,6 @@ LIST prn_subj_1pl = (prn subj p1 pl);
 LIST prn_subj_2pl = (prn subj p2 pl);
 LIST prn_subj_3pl = (prn subj p3 pl);
 
-
 LIST PrnSubjP1Sg = (prn subj p1 sg);
 #LIST PrnSubjP1Sg = (prn obj p1 sg);
 
@@ -76,6 +71,7 @@ SET PrnSubjP3Pl = PrnSubj + P3Pl;
 
 LIST V = vaux vblex vbser vbmod;		 	# lexical verbs and "to be"
 #LIST VblexInf = (vblex inf);		# verb in the infinitive
+LIST Inf = inf;
 LIST VblexPrs = (vblex prs);		# verb in the present subjunctive
 LIST Imp = imp;		# imperative
 LIST VbMod = (vbmod);		# modal verb (eg gallu)
@@ -98,9 +94,6 @@ LIST be_pres_3sg = (vbser pres p3 sg);
 
 SET VbP1Sg = V + P1Sg;
 SET VbP2Pl = V + P2Pl;
-
-
-
 
 # determiners and possessive pronouns
 
@@ -149,6 +142,9 @@ SET Conj = CC + CS;
 LIST Interj = ij;			# interjection
 
 
+# Semantic sets
+
+LIST Days = ("nos# Lun"ri n) ("nos# Fawrth"ri n) ("nos# Fercher"ri n) ("nos# Iau"ri n) ("nos# Wener"ri n) ("nos# Sadwrn"ri n) ("nos# Sul"ri n) ("dydd# Llun"ri n) ("dydd# Mawrth"ri n) ("dydd# Mercher"ri n) ("dydd# Iau"ri n) ("dydd# Gwener"ri n) ("dydd# Sadwrn"ri n) ("dydd# Sul"ri n);
 
 
 #####################################
@@ -282,7 +278,7 @@ REMOVE Prn IF (-1 NC) (0 Prn) (0 DetDem);
 #####################################
 # boi iawn; mae'n iawn rŵan
 SELECT:S_iawn_adj ("iawn" adj) ( (-1 NC) OR (-1 prep_yn) );
-#REMOVE:R_iawn_adv ("iawn" adv) ( (-1 NC) OR (-1 ("yn" stative)) );
+#REMOVE:R_iawn_adv ("iawn" adv) ( (-1 NC) OR (-1 ("yn" part)) );
 
 
 
@@ -327,7 +323,6 @@ SUBSTITUTE:M_subj_obj_3pl (subj) (obj) prn_subj_3pl (NOT -1 vb_3pl) (NOT -1 ("<d
 # may need some tweaking
 
 
-
 # Interrogatives
 #####################################
 
@@ -338,9 +333,6 @@ REMOVE:R_sut_adv_prenoun ("sut"ri adv) (1 NC);
 
 # Mae sawl anifail yn y maes - adjectival use
 REMOVE:R_sawl_interrogative ("sawl" itg) (-1 be_any);
-
-# After "sawl", the Welsh noun will always be singular, but the English one plural.
-SUBSTITUTE:M_sg_pl_postsawl (sg) (pl) NC (-1 ("sawl"ri));
 
 # Also need to propagate pl to following sydd
 # sydd is entered in cydix as a+bod pres, 3p, mf, sg
@@ -397,12 +389,12 @@ REMOVE:R_prn_subj PrnSubj IF (0 Pr) (0 PrnSubj)  (NOT -1 V) ((1 NC) OR (1 NP) OR
 REMOVE:R_prn_obj PrnObj IF (0 Pr) (0 PrnObj)  (NOT -1 V) ((1 NC) OR (1 NP) OR (1 Adj) OR (1 Num));
 
 # stative
-SELECT:S_yn_stative ("yn" stative) (1 (num));
-#SUBSTITUTE:M_pr_stative_yn (pr) (stative) ("yn" pr) (1 (num)) (2 ("oed"ri));
+SELECT:S_yn_stative ("yn" part) (1 Num);
+#SUBSTITUTE:M_pr_stative_yn (pr) (stative) ("yn" pr) (1 Num) (2 ("oed"ri));
 
 # postnum
 # chwech o ddynion
-SELECT:S_o_postnum ("o" postnum) (-1 (num)) (NOT -1 (sp));
+SELECT:S_o_postnum ("o" postnum) (-1 Num) (NOT -1 (sp));
 # the NOT sp works, but is probably a bit fragile
 # it prevents the rule tripping on things like "dyn 41 oed o Abertawe"
 # num + oed probably needs to be looked at again some time
@@ -437,8 +429,8 @@ REMOVE:R_bath_preo ("bath" n) (1 ("o" pr));
 
 # mae o'n cynnig ateb
 # delete yn before infin, and cast infin to gerund
-SELECT:S_yn_stative ("yn" stative) (1 (inf));
-SUBSTITUTE:M_infin_vn_postyn (inf) (ger) (inf) (-1 ("yn" stative));
+SELECT:S_yn_stative ("yn" part) (1 (inf));
+SUBSTITUTE:M_infin_vn_postyn (inf) (ger) (inf) (-1 ("yn" part));
 
 
 
@@ -526,7 +518,7 @@ SUBSTITUTE:M_infin_vn_postat (inf) (ger) (vblex) (-1 ("at" pr));
 
 #d w i'n meddwl
 # cast an infinitive as a verbal noun when at precedes
-SUBSTITUTE:M_infin_vn_postyn (inf) (ger) (vblex) (-1 (+yn stative));
+SUBSTITUTE:M_infin_vn_postyn (inf) (ger) (vblex) (-1 (+yn part));
 
 
 # gweler y nodiadau
@@ -542,15 +534,15 @@ SUBSTITUTE:M_impers_imp (imp impers pl) (imp) (vblex);
 
 # ei fod wedi taflu (that he threw)
 # delete wedi, cast infin to past, and delete bod
-SELECT:S_wedi_peri ("wedi" peri) (-1 (vbser inf)) (1 V);
-SUBSTITUTE:M_infin_past_postwedi (inf) (past) (inf) (-3 (det pos)) (-2 (vbser)) (-1 ("wedi" peri));
-SELECT:S_bod_vrbnull ("bod" vrbnull) (1 ("wedi" peri));
+SELECT:S_wedi_peri ("wedi" part) (-1 (vbser inf)) (1 V);
+SUBSTITUTE:M_infin_past_postwedi (inf) (past) (inf) (-3 (det pos)) (-2 (vbser)) (-1 ("wedi" part));
+SELECT:S_bod_vrbnull ("bod" vrbnull) (1 ("wedi" part));
 # also need to cast poss to subj, but this doesn't seem to be possible
 
 # wedi ei seilio (based)
 # delete wedi, cast infin to past participle, and delete poss
-SELECT:S_wedi_peri ("wedi" peri) (1 (det pos)) (2 V);
-SUBSTITUTE:M_infin_past_postwedi (inf) (pp) (inf)  (-2 ("wedi" peri)) (-1 (det pos));
+SELECT:S_wedi_peri ("wedi" part) (1 (det pos)) (2 V);
+SUBSTITUTE:M_infin_past_postwedi (inf) (pp) (inf)  (-2 ("wedi" part)) (-1 (det pos));
 
 
 
@@ -635,10 +627,13 @@ SELECT:S_a_cnjcoo_noverb ("a" cnjcoo) (NOT -1 V) (NOT 1 V);
 
 
 #####################################
-# Lexical disambiguation
+# Lexical and translation disambiguation and rules
 # Note: this needs more work
 #####################################
 SECTION
+
+# After "sawl", the Welsh noun will always be singular, but the English one plural.
+SUBSTITUTE:M_sg_pl_postsawl (sg) (pl) NC (-1 ("sawl"ri));
 
 # distinguish between "lonely" and "only"
 ADD (pred) ("unig" adj) ((1 (n)) OR (1 (np)) OR (1 (pr)) OR (1 Det) OR (1 (cm)));
@@ -647,11 +642,11 @@ ADD (pred) ("unig" adj) ((1 (n)) OR (1 (np)) OR (1 (pr)) OR (1 Det) OR (1 (cm)))
 REMOVE (n f) (0 ("gwaith")) (0 MSoftC);
 # perhaps better to use the meaning tag approach?
 # hmm - does this make sense?  all it says is remove the time meaning when you have soft mutation - needs more
-REMOVE (n f) (0 ("gwaith")) (NOT -1 (num));
+REMOVE (n f) (0 ("gwaith")) (NOT -1 Num);
 
-REMOVE (n f) (0 ("llif")) (-1 (adj));
+REMOVE (n f) (0 ("llif")) (-1 Adj);
 
-REMOVE (vpart neg) (0 ("ni")) (-1 (inf));
+REMOVE (vpart neg) (0 ("ni")) (-1 Inf);
 
 # choose the "direction" sense of "cyfeiriad" (not address) if preceded by trafod
 SUBSTITUTE:M_cyfeiriad_direction_posttrafod ("cyfeiriad"ri n m) ("cyfeiriad" n m S1) NC (-1 ("trafod"ri vblex));
@@ -670,27 +665,16 @@ SUBSTITUTE ("gallu"ri vbmod) ("gallu" vbmod S1) NC (-1 prep_yn);
 
 # dyn o Abertawe
 # choose the "from" sense of o (not of) if it is followed by a placename
-SUBSTITUTE:M_o_from_pretop ("o" pr) ("o" pr S1) ("o" pr) (1 (np top));
+SUBSTITUTE:M_o_from_pretop ("o" pr) ("o" pr S1) ("o" pr) (1 Top);
+#MAP:M_o_from_pretop (@A:from) ("o" pr) (1 Top)
 
 # o nos Fawrth
 # choose the "from" sense of o (not of) if it is followed by a dayname
-SUBSTITUTE:M_o_from_preday ("o" pr) ("o" pr S1) ("o" pr) ( (1 ("nos# Lun" n)) OR (1 ("nos# Fawrth" n)) OR (1 ("nos# Fercher" n)) OR (1 ("nos# Iau" n)) OR (1 ("nos# Wener" n)) OR (1 ("nos# Sadwrn" n)) OR (1 ("nos# Sul" n)) OR (1 ("dydd# Llun" n)) OR (1 ("dydd# Mawrth" n)) OR (1 ("dydd# Mercher" n)) OR (1 ("dydd# Iau" n)) OR (1 ("dydd# Gwener" n)) OR (1 ("dydd# Sadwrn" n)) OR (1 ("dydd# Sul" n)) );
-
+SUBSTITUTE:M_o_from_preday ("o" pr) ("o" pr S1) ("o" pr) (1 Days);
 
 # choose the "way" sense of "ffordd" when in the vicinity of "gwahanol"
 # mewn gwahanol ffyrdd
 SUBSTITUTE:M_ffordd_way_gwahanol ("ffordd" n f) ("ffordd" n f S1) ("ffordd" n f) ( (1 ("gwahanol" adj)) OR (-1 ("gwahanol" adj)) );
 # not perfect, because it would apply in other contexts too
-
-
-
-
-
-
-
-
-
-
-
 
 
