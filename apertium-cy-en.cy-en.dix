@@ -46,7 +46,6 @@
 
     <sdef n="detnt"   c="Neuter determiner"/>
     <sdef n="predet"  c="Pre determiner"/>
-    <sdef n="atn"/>
     <sdef n="qnt"/>
     <sdef n="ord"     c="Ordinal"/>
     <sdef n="obj"     c="Object"/>
@@ -104,8 +103,6 @@
     <sdef n="enc"/>
     <sdef n="vbdo"/>
     <sdef n="unc"/>
-    <sdef n="sep"/>
-    <sdef n="pron"/>
     <sdef n="apos"    c="Apostrophe"/>
     <sdef n="abbr"    c="Abbreviation"/>
     <sdef n="part"    c="Particle"/>
@@ -121,12 +118,11 @@
     <sdef n="GD"/>
     
     <sdef n="mon"/>
+
 	
     <sdef n="S1"/>
-    <sdef n="stative"/>
     <sdef n="postnum"/>
     <sdef n="invariant"/>
-	<sdef n="peri"/>
 	<sdef n="vrbnull"/>
 
 
@@ -227,6 +223,14 @@
 
     <e><p><l>a<s n="rel"/></l><r>that<s n="rel"/></r></p></e>
  
+    <!-- Particles -->
+
+    <e><p><l>yn<s n="part"/></l><r></r></p></e>
+    <e><p><l>wedi<s n="part"/></l><r></r></p></e>
+    <e><p><l>newydd<s n="part"/></l><r></r></p></e>
+    <e><p><l>ar<s n="part"/></l><r></r></p></e>
+    <e><p><l>am<s n="part"/></l><r></r></p></e>
+
     <!-- Prepositions -->
     
     <!-- Inflected prepositions -->
@@ -243,7 +247,6 @@
     <e><p><l>heb<s n="pr"/></l><r>without<s n="pr"/></r></p></e>
 
     <e><p><l>yn<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
-    <e><p><l>yn<s n="stative"/></l><r></r></p></e>
 
     <e><p><l>o<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
     <e r="LR"><p><l>o<s n="pr"/><s n="S1"/></l><r>from<s n="pr"/></r></p></e>
@@ -284,7 +287,6 @@
     <e r="LR"><p><l>i<b/>fewn<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
 
     <e><p><l>wedi<s n="pr"/></l><r>after<s n="pr"/></r></p></e>
-    <e><p><l>wedi<s n="peri"/></l><r></r></p></e>
 
     <e><p><l>erbyn<s n="pr"/></l><r>by<s n="pr"/></r></p></e>
     <e r="LR"><p><l>heblaw<s n="pr"/></l><r>without<s n="pr"/></r></p></e>
