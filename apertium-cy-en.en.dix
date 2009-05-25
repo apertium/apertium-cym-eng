@@ -26157,6 +26157,7 @@
     <e lm="splash"><i>splash</i><par n="approach__vblex"/></e>
     <e lm="cherish"><i>cherish</i><par n="approach__vblex"/></e>
     <e lm="contribute"><i>contribut</i><par n="liv/e__vblex"/></e>
+    <e lm="contribute to"><i>contribut</i><par n="liv/e__vblex"/><p><l><b/>to</l><r><g><b/>to</g></r></p></e>
     <e lm="interface"><i>interfac</i><par n="liv/e__vblex"/></e>
     <e lm="phrase"><i>phras</i><par n="liv/e__vblex"/></e>
     <e lm="circularise"><i>circularis</i><par n="liv/e__vblex"/></e>
