@@ -54871,6 +54871,8 @@
 	
     
     <e lm="dod o hyd i"><par n="initial-d"/><i/><par n="d/od__vblex"/><p><l><b/>o<b/>hyd<b/>i</l><r><g><b/>o<b/>hyd<b/>i</g></r></p></e>
+
+<!-- This doesn't work, although I could have sworn I managed to make it work once.
     <e lm="dweud wrth"> 
      <par n="initial-d"/>
      <i/>
@@ -54881,7 +54883,7 @@
      </p>
      <par n="/wrth__pr"/>
     </e>
-
+-->
 
     <e lm="dweud wrth"><par n="initial-d"/><i/><par n="aildd/weud__vblex"/><p><l><b/>wrth</l><r><g><b/>wrth</g></r></p></e>
 
