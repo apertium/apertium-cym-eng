@@ -143,6 +143,9 @@ You need to recompile after editing this file, so that the rule-changes are seen
     <def-cat n="verbinf">
       <cat-item tags="vblex.inf"/>
     </def-cat>
+    <def-cat n="verbger">
+      <cat-item tags="vblex.ger"/>
+    </def-cat>
     <def-cat n="verbserinf">
       <cat-item tags="vbser.inf"/>  
     </def-cat>
@@ -292,6 +295,7 @@ You need to recompile after editing this file, so that the rule-changes are seen
       <attr-item tags="inf"/>
       <attr-item tags="plu"/>
       <attr-item tags="cns"/>
+      <attr-item tags="ger"/>
     </def-attr>
 
   </section-def-attrs>
@@ -4334,6 +4338,34 @@ it converts this seqence to the English "this boy", "this girl"
       </action>
     </rule>
 
+
+
+    <rule comment="REGLA: VERB ger">
+      <pattern>
+        <pattern-item n="verbger"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="verbger" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><lit-tag v="ger"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps" link-to="3"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+	  <b/>
+        </out>
+      </action>
+    </rule>
 
 
     <rule comment="REGLA: VERB inf">

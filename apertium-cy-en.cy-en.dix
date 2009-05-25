@@ -1561,7 +1561,7 @@
     <e><p><l>cynulliad<s n="n"/><s n="m"/></l><r>assembly<s n="n"/></r></p></e>
     <e><p><l>cyrchiad<s n="n"/><s n="m"/></l><r>access<s n="n"/></r></p></e>
     <e><p><l>cyrchnod<s n="n"/><s n="m"/></l><r>goal<s n="n"/></r></p></e>
-    <e><p><l>cysawd<s n="n"/><s n="m"/></l><r>computer system<s n="n"/></r></p></e>
+    <e><p><l>cysawd<s n="n"/><s n="m"/></l><r>system<s n="n"/></r></p></e>
     <e><p><l>cysoniad<s n="n"/><s n="m"/></l><r>synchronisation<s n="n"/></r></p></e>
     <e><p><l>cysylltiad<s n="n"/><s n="m"/></l><r>connection<s n="n"/></r></p></e>
     <e><p><l>cysylltiad<s n="n"/><s n="m"/></l><r>association<s n="n"/></r></p></e>
@@ -4103,6 +4103,7 @@
     <e><p><l>warws<s n="n"/><s n="m"/></l><r>warehouse<s n="n"/></r></p></e>
     <e><p><l>annibynnwr<s n="n"/><s n="m"/></l><r>independent<s n="n"/></r></p></e>
     <e><p><l>cyfrannwr<s n="n"/><s n="m"/></l><r>contributor<s n="n"/></r></p></e>
+<e><p><l>cyfrannu<g><b/>at</g><s n="vblex"/></l><r>contribute<g><b/>to</g><s  n="vblex"/></r></p></e>
     <e><p><l>pecynnwr<s n="n"/><s n="m"/></l><r>packager<s n="n"/></r></p></e>
     <e><p><l>peiriannwr<s n="n"/><s n="m"/></l><r>engineer<s n="n"/></r></p></e>
     <e><p><l>rhaglennwr<s n="n"/><s n="m"/></l><r>programmer<s n="n"/></r></p></e>

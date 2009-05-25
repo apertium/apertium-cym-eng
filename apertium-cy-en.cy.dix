@@ -52744,6 +52744,8 @@
     <e lm="warws"><i>war</i><par n="dr/ws__n"/></e>
     <e lm="annibynnwr"><i>annibyn</i><par n="annibyn/nwr__n"/></e>
     <e lm="cyfrannwr"><par n="initial-c"/><i>yfran</i><par n="annibyn/nwr__n"/></e>
+<e lm="cyfrannu"><par n="initial-c"/><i>yfrann</i><par  n="absenn/u__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
+ 
     <e lm="pecynnwr"><par n="initial-p"/><i>ecyn</i><par n="annibyn/nwr__n"/></e>
     <e lm="peiriannwr"><par n="initial-p"/><i>eirian</i><par n="annibyn/nwr__n"/></e>
     <e lm="rhaglennwr"><par n="initial-rh"/><i>aglen</i><par n="annibyn/nwr__n"/></e>
@@ -54869,7 +54871,20 @@
 	
     
     <e lm="dod o hyd i"><par n="initial-d"/><i/><par n="d/od__vblex"/><p><l><b/>o<b/>hyd<b/>i</l><r><g><b/>o<b/>hyd<b/>i</g></r></p></e>
+    <e lm="dweud wrth"> 
+     <par n="initial-d"/>
+     <i/>
+     <par n="aildd/weud__vblex"/>
+     <p>
+       <l><b/></l>
+       <r><b/>wrth<j/></r>
+     </p>
+     <par n="/wrth__pr"/>
+    </e>
+
+
     <e lm="dweud wrth"><par n="initial-d"/><i/><par n="aildd/weud__vblex"/><p><l><b/>wrth</l><r><g><b/>wrth</g></r></p></e>
+
     <e lm="edrych ar"><i>edrych</i><par n="achub__vblex"/><p><l><b/>ar</l><r><g><b/>ar</g></r></p></e>
     <e lm="edrych ymlaen"><i>edrych</i><par n="achub__vblex"/><p><l><b/>ymlaen<b/>at</l><r><g><b/>ymlaen<b/>at</g></r></p></e>
 
