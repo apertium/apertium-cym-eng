@@ -54905,10 +54905,7 @@
 
     <e lm="meddwl am"><par n="initial-m"/><i>edd</i><par n="ailfedd/wl__vblex"/><p><l><b/>am</l><r><g><b/>am</g></r></p></e>
 
-    <e lm="mynd â"><i/><par n="/mynd__vblex"/><p><l><b/>â</l><r><g><b/>â</g></r></p></e>
-    <e lm="cyd-fynd"><i>cyd-</i><par n="/mynd__vblex"/></e>
 
-    <e lm="mynd i'r afael"><i/><par n="/mynd__vblex"/><p><l><b/>i'r<b/>afael</l><r><g><b/>i'r<b/>afael</g></r></p></e>
     <e lm="paratoi"><par n="initial-p"/><i>arato</i><par n="atgno/i__vblex"/><p><l><b/>at</l><r><g><b/>at</g></r></p></e>
     <e lm="peidio"><par n="initial-p"/><i>eidi</i><par n="achlysur/o__vblex"/><p><l><b/>â</l><r><g><b/>â</g></r></p></e>
     <e lm="pleidleisio"><par n="initial-p"/><i>leidleisi</i><par n="achlysur/o__vblex"/><p><l><b/>dros</l><r><g><b/>dros</g></r></p></e>
@@ -57626,6 +57623,10 @@
     <e lm="myllio"><par n="initial-m"/><i>ylli</i><par n="achlysur/o__vblex"/></e>
 
     <e lm="mynd"><i/><par n="/mynd__vblex"/></e>
+    <e lm="cyd-fynd"><i>cyd-</i><par n="/mynd__vblex"/></e>
+    <e lm="mynd â"><i/><par n="/mynd__vblex"/><p><l><b/>â</l><r><g><b/>â</g></r></p></e>
+    <e lm="mynd yn hŷn"><i/><par n="/mynd__vblex"/><p><l><b/>yn<b/>hŷn</l><r><g><b/>yn<b/>hŷn</g></r></p></e>
+    <e lm="mynd i'r afael"><i/><par n="/mynd__vblex"/><p><l><b/>i'r<b/>afael</l><r><g><b/>i'r<b/>afael</g></r></p></e>
 
     <e lm="mynegeio"><par n="initial-m"/><i>ynegei</i><par n="achlysur/o__vblex"/></e>
     <e lm="mynegi"><par n="initial-m"/><i>yneg</i><par n="achos/i__vblex"/></e>
@@ -58849,6 +58850,7 @@
 	<e lm="yn ogystal â"><i>yn<b/>ogystal<b/>â</i><par n="yma__adv"/></e>
 
 
+    <e lm="Cenhedloedd Unedig"><par n="initial-C"/><i>enhedloedd<b/>Unedig</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Llywodraeth y Cynulliad"><par n="initial-Ll"/><i>ywodraeth<b/>y<b/>Cynulliad</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas"><par n="initial-C"/><i>ymdeithas</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas Feddygol Brydeinig"><par n="initial-C"/><i>ymdeithas<b/>Feddygol<b/>Brydeinig</i><par n="Cymdeithas_yr_Iaith__np"/></e>

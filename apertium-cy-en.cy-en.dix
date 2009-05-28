@@ -9686,6 +9686,7 @@
     <e><p><l>meddwl<g><b/>am</g><s n="vblex"/></l><r>think<g><b/>about</g><s n="vblex"/></r></p></e>
     <e><p><l>mynd<g><b/>â</g><s n="vblex"/></l><r>take<s n="vblex"/></r></p></e>
     <e><p><l>mynd<g><b/>i'r<b/>afael</g><s n="vblex"/></l><r>get<g><b/>to<b/>grips</g><s n="vblex"/></r></p></e>
+    <e><p><l>mynd<g><b/>yn<b/>hŷn</g><s n="vblex"/></l><r>get<g><b/>older</g><s n="vblex"/></r></p></e>
     <e><p><l>paratoi<g><b/>at</g><s n="vblex"/></l><r>prepare<g><b/>for</g><s n="vblex"/></r></p></e>
     <e><p><l>peidio<g><b/>â</g><s n="vblex"/></l><r>stop<s n="vblex"/></r></p></e>
     <e><p><l>pleidleisio<g><b/>dros</g><s n="vblex"/></l><r>vote<g><b/>for</g><s n="vblex"/></r></p></e>
@@ -10333,6 +10334,7 @@
     <!-- Proper names -->
       <!-- Organisations -->
  
+    <e><p><l>Cenhedloedd<b/>Unedig<s n="np"/><s n="org"/><s n="f"/></l><r>United<b/>Nations<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Llywodraeth Cynulliad Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>Welsh Assembly Government<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Llywodraeth y Cynulliad<s n="np"/><s n="org"/><s n="f"/></l><r>Assembly Government<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Cymdeithas yr Iaith Gymraeg<s n="np"/><s n="org"/><s n="f"/></l><r>Cymdeithas yr Iaith Gymraeg<s n="np"/><s n="org"/></r></p></e>

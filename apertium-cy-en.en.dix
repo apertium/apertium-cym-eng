@@ -22451,6 +22451,7 @@
     <e lm="Wyn"><i>Wyn</i><par n="Mark__np"/></e>
     <e lm="Gwyn"><i>Gwyn</i><par n="Mark__np"/></e>
 
+    <e lm="United Nations"><i>United<b/>Nations</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Welsh Assembly Government"><i>Welsh<b/>Assembly<b/>Government</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Assembly Government"><i>Assembly<b/>Government</i><par n="Cymdeithas_yr_Iaith__np"/></e>
     <e lm="Cymdeithas"><i>Cymdeithas</i><par n="Cymdeithas_yr_Iaith__np"/></e>
@@ -23672,7 +23673,6 @@
     <e lm="Uganda"><i>Uganda</i><par n="Barcelona__np"/></e>
     <e lm="Ukraine"><i>Ukraine</i><par n="Barcelona__np"/></e>
     <e lm="United Arab Emirates"><i>United<b/>Arab<b/>Emirates</i><par n="United_States__np"/></e>
-    <e lm="United Kingdom"><i>United<b/>Kingdom</i><par n="Barcelona__np"/></e>
     <e lm="United States"><i>United<b/>States</i><par n="United_States__np"/></e>
     <e lm="United States of America"><i>United<b/>States<b/>of<b/>America</i><par n="United_States__np"/></e>
     <e lm="Uranus"><i>Uranus</i><par n="Barcelona__np"/></e>
@@ -24898,6 +24898,7 @@
     <e lm="get"><i>g</i><par n="g/et__vblex"/></e>
 
     <e lm="get to grips"><i>g</i><par n="g/et__vblex"/><p><l><b/>to<b/>grips</l><r><g><b/>to<b/>grips</g></r></p></e>
+    <e lm="get older"><i>g</i><par n="g/et__vblex"/><p><l><b/>older</l><r><g><b/>older</g></r></p></e>
     <e lm="get frosty"><i>g</i><par n="g/et__vblex"/><p><l><b/>frosty</l><r><g><b/>frosty</g></r></p></e>
     <e lm="get drunk"><i>g</i><par n="g/et__vblex"/><p><l><b/>drunk</l><r><g><b/>drunk</g></r></p></e>
     <e lm="get angry"><i>g</i><par n="g/et__vblex"/><p><l><b/>angry</l><r><g><b/>angry</g></r></p></e>
