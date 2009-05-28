@@ -4284,6 +4284,7 @@
     <e><p><l>porth<s n="n"/><s n="m"/></l><r>gateway<s n="n"/></r></p></e>
     <e><p><l>caethwas<s n="n"/><s n="m"/></l><r>slave<s n="n"/></r></p></e>
     <e><p><l>gwas<s n="n"/><s n="m"/></l><r>servant<s n="n"/></r></p></e>
+    <e><p><l>gwas<g><b/>y<b/>neidr</g><s n="n"/><s n="m"/></l><r>dragonfly<s n="n"/></r></p></e>
     <e><p><l>ansawdd<s n="n"/><s n="m"/></l><r>quality<s n="n"/></r></p></e>
     <e><p><l>hinsawdd<s n="n"/><s n="f"/></l><r>climate<s n="n"/></r></p></e>
     <e><p><l>plân<s n="n"/><s n="m"/></l><r>plane<s n="n"/></r></p></e>
@@ -8107,6 +8108,7 @@
 
     <e><p><l>gwneud<g><b/>penderfyniadau</g><s n="vblex"/></l><r>make<g><b/>decisions</g><s n="vblex"/></r></p></e>
     <e><p><l>gwneud<g><b/>cais</g><s n="vblex"/></l><r>make<g><b/>a<b/>request</g><s n="vblex"/></r></p></e>
+    <e><p><l>gwneud<g><b/>defnydd</g><s n="vblex"/></l><r>make<g><b/>use</g><s n="vblex"/></r></p></e>
 
     <e><p><l>gwnïo<s n="vblex"/></l><r>sew<s n="vblex"/></r></p></e>
     <e><p><l>gwobrwyo<s n="vblex"/></l><r>reward<s n="vblex"/></r></p></e>
