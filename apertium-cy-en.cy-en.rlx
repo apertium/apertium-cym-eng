@@ -33,6 +33,7 @@ LIST NC = n; 				# common nouns
 LIST NP = (np top) (np ant) (np cog);		# proper nouns (toponyms, anthroponyms, cognomens)
 LIST Top = (np top);
 LIST Ant = (np ant);		# anthroponyms
+LIST Cog = (np cog);
 LIST Acr = (n acr);
 
 LIST MF = mf;		# masculine/feminine
@@ -563,6 +564,9 @@ REMOVE NC IF (-1 Pr) (0 NC) (0 VbMod);
 # nad oes (that there is not) - *not age
 REMOVE:R_oes_age ("oes" n f) IF (-1 Vpart) (0 NC) (0 V);
 # needed to tighten this to specify oes
+
+# Trodd Peter Law fwyafrif Llafur o 19,000 i fwyafrif o 9,000 iddo ef.
+SELECT Cog IF (-1C Ant) (NOT 0 (vblex));
 
 
 # Nouns - tweaking
