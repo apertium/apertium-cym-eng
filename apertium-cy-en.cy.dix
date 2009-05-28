@@ -52919,6 +52919,7 @@
     <e lm="porth"><par n="initial-p"/><i/><par n="p/orth__n"/></e>
     <e lm="caethwas"><par n="initial-c"/><i>aethw</i><par n="caethw/as__n"/></e>
     <e lm="gwas"><par n="initial-g"/><i>w</i><par n="caethw/as__n"/></e>
+    <e lm="gwas y neidr"><par n="initial-g"/><i>w</i><par n="caethw/as__n"/><p><l><b/>y<b/>neidr</l><r><g><b/>y<b/>neidr</g></r></p></e>
     <e lm="ansawdd"><i>ans</i><par n="ans/awdd__n"/></e>
     <e lm="hinsawdd"><i>hins</i><par n="hins/awdd__n"/></e>
     <e lm="plân"><i>pl</i><par n="pl/ân__n"/></e>
@@ -57098,6 +57099,7 @@
 
     <e lm="gwneud penderfyniadau"><par n="initial-g"/><i>wn</i><par n="ailwn/eud__vblex"/><p><l><b/>penderfyniadau</l><r><g><b/>penderfyniadau</g></r></p></e>
     <e lm="gwneud cais"><par n="initial-g"/><i>wn</i><par n="ailwn/eud__vblex"/><p><l><b/>cais</l><r><g><b/>cais</g></r></p></e>
+    <e lm="gwneud defnydd"><par n="initial-g"/><i>wn</i><par n="ailwn/eud__vblex"/><p><l><b/>defnydd</l><r><g><b/>defnydd</g></r></p></e>
 
 
     <e lm="gwnïo"><par n="initial-g"/><i>wnï</i><par n="achlysur/o__vblex"/></e>

@@ -13224,6 +13224,8 @@
     <e lm="key"><i>key</i><par n="house__n"/></e>
     <e lm="hay"><i>hay</i><par n="house__n"/></e>
     <e lm="baby"><i>bab</i><par n="bab/y__n"/></e>
+    <e lm="fly"><i>fl</i><par n="bab/y__n"/></e>
+    <e lm="dragonfly"><i>dragonfl</i><par n="bab/y__n"/></e>
     <e lm="survey"><i>survey</i><par n="house__n"/></e>
     <e lm="party"><i>part</i><par n="bab/y__n"/></e>
     <e lm="necessity"><i>necessit</i><par n="bab/y__n"/></e>
@@ -24967,6 +24969,7 @@
     <e lm="maintain"><i>maintain</i><par n="accept__vblex"/></e>
     <e lm="make"><i>ma</i><par n="ma/ke__vblex"/></e>
     <e lm="make a request"><i>ma</i><par n="ma/ke__vblex"/><p><l><b/>a<b/>request</l><r><g><b/>a<b/>request</g></r></p></e>
+    <e lm="make use"><i>ma</i><par n="ma/ke__vblex"/><p><l><b/>use</l><r><g><b/>use</g></r></p></e>
 
     <e lm="manage"><i>manag</i><par n="liv/e__vblex"/></e>
     <e lm="matter"><i>matter</i><par n="accept__vblex"/></e>

@@ -685,4 +685,4 @@ SUBSTITUTE:M_ffordd_way_gwahanol ("ffordd" n f) ("ffordd" n f S1) ("ffordd" n f)
 # TODO:
 #       Disambiguation of 'oes'
 #       Disambiguation of 'yn'
-#
+#	Disambiguation of 'sawl'
