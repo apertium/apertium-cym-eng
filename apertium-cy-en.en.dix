@@ -10419,6 +10419,7 @@
     <e lm="descriptive"><i>descriptive</i><par n="expensive__adj"/></e>
     <e lm="wise"><i>wise</i><par n="nice/__adj"/></e>
     <e lm="expensive"><i>expensive</i><par n="expensive__adj"/></e>
+    <e lm="non-profit"><i>non-profit</i><par n="expensive__adj"/></e>
     <e lm="stable"><i>stable</i><par n="expensive__adj"/></e>
     <e lm="double"><i>double</i><par n="expensive__adj"/></e>
     <e lm="capital-intensive"><i>capital-intensive</i><par n="expensive__adj"/></e>

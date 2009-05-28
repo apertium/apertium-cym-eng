@@ -49500,6 +49500,8 @@
 	<e lm="iawn"><i>iawn</i><par n="yma__adv"/></e>
     <e lm="iawn"><i>iawn</i><par n="iawn__adj"/></e>
 
+    <e lm="di-elw"><i>di-elw</i><par n="iawn__adj"/></e>
+
     <e lm="ble"><i>ble</i><par n="ble__adv"/></e>
     <e lm="lle"><i>lle</i><par n="ble__adv"/></e>
     <e lm="pryd"><i>pryd</i><par n="ble__adv"/></e>
