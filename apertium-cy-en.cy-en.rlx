@@ -678,3 +678,11 @@ SUBSTITUTE:M_ffordd_way_gwahanol ("ffordd" n f) ("ffordd" n f S1) ("ffordd" n f)
 # not perfect, because it would apply in other contexts too
 
 
+
+####
+# Some things extracted from evaluation of cy-en 0.1 test sentences
+#
+# TODO:
+#       Disambiguation of 'oes'
+#       Disambiguation of 'yn'
+#
