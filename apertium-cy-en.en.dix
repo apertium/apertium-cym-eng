@@ -12754,6 +12754,8 @@
     <e lm="assumption"><i>assumption</i><par n="house__n"/></e>
     <e lm="region"><i>region</i><par n="house__n"/></e>
     <e lm="station"><i>station</i><par n="house__n"/></e>
+    <e lm="bus station"><i>bus<b/>station</i><par n="house__n"/></e>
+    <e lm="train station"><i>train<b/>station</i><par n="house__n"/></e>
     <e lm="sub-station"><i>sub-station</i><par n="house__n"/></e>
     <e lm="action"><i>action</i><par n="house__n"/></e>
     <e lm="compensation"><i>compensation</i><par n="house__n"/></e>
@@ -15091,6 +15093,7 @@
     <e lm="exercise"><i>exercise</i><par n="house__n"/></e>
     <e lm="editor"><i>editor</i><par n="house__n"/></e>
     <e lm="farm"><i>farm</i><par n="house__n"/></e>
+    <e lm="windfarm"><i>windfarm</i><par n="house__n"/></e>
     <e lm="trend"><i>trend</i><par n="house__n"/></e>
     <e lm="welcome"><i>welcome</i><par n="house__n"/></e>
     <e lm="equal"><i>equal</i><par n="house__n"/></e>

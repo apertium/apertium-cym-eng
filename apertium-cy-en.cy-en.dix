@@ -3384,6 +3384,8 @@
     <e><p><l>geirfa<s n="n"/><s n="f"/></l><r>vocabulary<s n="n"/></r></p></e>
 
     <e><p><l>gorsaf<s n="n"/><s n="f"/></l><r>station<s n="n"/></r></p></e>
+    <e><p><l>gorsaf<g><b/>bysiau</g><s n="n"/><s n="f"/></l><r>bus<b/>station<s n="n"/></r></p></e>
+    <e><p><l>gorsaf<g><b/>trenau</g><s n="n"/><s n="f"/></l><r>train<b/>station<s n="n"/></r></p></e>
     <e><p><l>is-orsaf<s n="n"/><s n="f"/></l><r>sub-station<s n="n"/></r></p></e>
 
     <e><p><l>grym<s n="n"/><s n="m"/></l><r>strength<s n="n"/></r></p></e>
@@ -3830,6 +3832,7 @@
     <e><p><l>cyfarfod<s n="n"/><s n="m"/></l><r>meeting<s n="n"/></r></p></e>
     <e><p><l>diod<s n="n"/><s n="f"/></l><r>drink<s n="n"/></r></p></e>
     <e><p><l>fferm<s n="n"/><s n="f"/></l><r>farm<s n="n"/></r></p></e>
+    <e><p><l>fferm<g><b/>gwynt</g><s n="n"/><s n="f"/></l><r>windfarm<s n="n"/></r></p></e>
     <e><p><l>ffos<s n="n"/><s n="f"/></l><r>ditch<s n="n"/></r></p></e>
     <e><p><l>gwymon<s n="n"/><s n="m"/></l><r>seaweed<s n="n"/></r></p></e>
     <e><p><l>llofft<s n="n"/><s n="f"/></l><r>bedroom<s n="n"/></r></p></e>

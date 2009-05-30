@@ -52055,6 +52055,8 @@
     <e lm="geirfa"><par n="initial-g"/><i>eirfa</i><par n="archfarchnad__n"/></e>
 
     <e lm="gorsaf"><par n="initial-g"/><i>orsaf</i><par n="archfarchnad__n"/></e>
+    <e lm="gorsaf bysiau"><par n="initial-g"/><i>orsaf</i><par n="archfarchnad__n"/><p><l><b/>bysiau</l><r><g><b/>bysiau</g></r></p></e>
+    <e lm="gorsaf trenau"><par n="initial-g"/><i>orsaf</i><par n="archfarchnad__n"/><p><l><b/>trenau</l><r><g><b/>trenau</g></r></p></e>
     <e lm="is-orsaf"><i>is-orsaf</i><par n="archfarchnad__n"/></e>
 
     <e lm="gwe"><par n="initial-g"/><i>we</i><par n="archfarchnad__n"/></e>
@@ -52487,6 +52489,7 @@
     <e lm="afon"><i>afon</i><par n="aden__n"/></e>
     <e lm="diod"><par n="initial-d"/><i>iod</i><par n="aden__n"/></e>
     <e lm="fferm"><i>fferm</i><par n="aden__n"/></e>
+    <e lm="fferm gwynt"><i>fferm</i><par n="aden__n"/><p><l><b/>gwynt</l><r><g><b/>gwynt</g></r></p></e>
     <e lm="ffos"><i>ffos</i><par n="aden__n"/></e>
     <e lm="llofft"><par n="initial-ll"/><i>offt</i><par n="aden__n"/></e>
     <e lm="mynwent"><par n="initial-m"/><i>ynwent</i><par n="aden__n"/></e>
