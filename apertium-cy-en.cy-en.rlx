@@ -692,3 +692,5 @@ SELECT ("<gynnwys>" vblex inf) IF (-1 ("i" pr)) (1 NC);
 #       Disambiguation of 'oes'
 #       Disambiguation of 'yn'
 #	Disambiguation of 'sawl'
+#	Disambiguation of 'a'
+#       Selection of bigger/more/greater/larger from 'mawr/mwyaf'

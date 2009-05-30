@@ -2916,6 +2916,67 @@ it converts this seqence to the English "this boy", "this girl"
       </action>
     </rule>
 
+    <rule comment="REGLA: NOM NOM NOM TOP">
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="toponim"/>
+      </pattern>
+      <action> 
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="det_nom_nom_nom_of_top" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+	    <lu>
+              <lit v="the"/>
+	      <lit-tag v="det.def.sp"/>
+	    </lu>
+	    <b/>
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="nbr" link-to="2"/>
+            </lu>
+	    <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="nbr" link-to="2"/>
+            </lu>
+	    <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="nbr" link-to="2"/>
+            </lu>
+	    <b/>
+	    <lu>
+              <lit v="of"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b/>
+            <lu>
+              <clip pos="4" side="tl" part="lem"/>
+              <clip pos="4" side="tl" part="a_nom"/>
+              <clip pos="4" side="tl" part="gen"/>
+              <clip pos="3" side="tl" part="nbr"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: NOM NOM NOM_propi">
       <pattern>
         <pattern-item n="nom"/>
