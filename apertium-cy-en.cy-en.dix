@@ -10338,14 +10338,16 @@
       <!-- Organisations -->
  
     <e><p><l>Cenhedloedd<b/>Unedig<s n="np"/><s n="org"/><s n="f"/></l><r>United<b/>Nations<s n="np"/><s n="org"/></r></p></e>
-    <e><p><l>Llywodraeth Cynulliad Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>Welsh Assembly Government<s n="np"/><s n="org"/></r></p></e>
-    <e><p><l>Llywodraeth y Cynulliad<s n="np"/><s n="org"/><s n="f"/></l><r>Assembly Government<s n="np"/><s n="org"/></r></p></e>
-    <e><p><l>Cymdeithas yr Iaith Gymraeg<s n="np"/><s n="org"/><s n="f"/></l><r>Cymdeithas yr Iaith Gymraeg<s n="np"/><s n="org"/></r></p></e>
-    <e><p><l>Cymdeithas yr Iaith<s n="np"/><s n="org"/><s n="f"/></l><r>Cymdeithas yr Iaith<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Llywodraeth<b/>Cynulliad<b/>Cymru<s n="np"/><s n="org"/><s n="f"/></l><r>Welsh<b/>Assembly<b/>Government<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Llywodraeth<b/>y<b/>Cynulliad<s n="np"/><s n="org"/><s n="f"/></l><r>Assembly<b/>Government<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Cymdeithas<b/>Pêl-droed<s n="np"/><s n="org"/><s n="f"/></l><r>Football<b/>Association<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Rygbi'r<b/>Undeb<s n="np"/><s n="org"/><s n="f"/></l><r>Rugby<b/>Union<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Cymdeithas<b/>yr<b/>Iaith<b/>Gymraeg<s n="np"/><s n="org"/><s n="f"/></l><r>Cymdeithas<b/>yr<b/>Iaith<b/>Gymraeg<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Cymdeithas<b/>yr<b/>Iaith<s n="np"/><s n="org"/><s n="f"/></l><r>Cymdeithas<b/>yr<b/>Iaith<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Cymdeithas<s n="np"/><s n="org"/><s n="f"/></l><r>Cymdeithas<s n="np"/><s n="org"/></r></p></e>
-    <e><p><l>Cymdeithas Feddygol Brydeinig<s n="np"/><s n="org"/><s n="f"/></l><r>British Medical Association<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Cymdeithas<b/>Feddygol<b/>Brydeinig<s n="np"/><s n="org"/><s n="f"/></l><r>British<b/>Medical<b/>Association<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Bwrdd<b/>yr<b/>Iaith<s n="np"/><s n="org"/><s n="m"/></l><r>Language<b/>Board<s n="np"/><s n="org"/></r></p></e>
-    <e><p><l>Bwrdd yr Iaith Gymraeg<s n="np"/><s n="org"/><s n="m"/></l><r>Welsh Language Board<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Bwrdd<b/>yr<b/>Iaith<b/>Gymraeg<s n="np"/><s n="org"/><s n="m"/></l><r>Welsh<b/>Language<b/>Board<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Bwrdd<b/>Iaith<b/>Aeleg<b/>yr<b/>Alban<s n="np"/><s n="org"/><s n="m"/></l><r>Scottish<b/>Gaelic<b/>Language<b/>Board<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Bord<b/>na<b/>Gaidhlig<s n="np"/><s n="org"/><s n="m"/></l><r>Bord<b/>na<b/>Gaidhlig<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Banc<b/>Lloegr<s n="np"/><s n="org"/><s n="m"/></l><r>Bank<b/>of<b/>England<s n="np"/><s n="org"/></r></p></e>
