@@ -681,6 +681,8 @@ SUBSTITUTE:M_o_from_preday ("o" pr) ("o" pr S1) ("o" pr) (1 Days);
 SUBSTITUTE:M_ffordd_way_gwahanol ("ffordd" n f) ("ffordd" n f S1) ("ffordd" n f) ( (1 ("gwahanol" adj)) OR (-1 ("gwahanol" adj)) );
 # not perfect, because it would apply in other contexts too
 
+# datblygodd y cwricwlwm i gynnwys mathemateg
+SELECT ("<gynnwys>" vblex inf) IF (-1 ("i" pr)) (1 NC);
 
 
 ####
