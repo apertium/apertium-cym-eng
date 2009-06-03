@@ -524,7 +524,7 @@ SUBSTITUTE:M_infin_vn_postyn (inf) (ger) (vblex) (-1 (+yn part));
 
 # gweler y nodiadau
 # remove impers tag to avoid passive in the imperative
-SUBSTITUTE:M_impers_imp (imp impers pl) (imp) (vblex);
+#SUBSTITUTE:M_impers_imp (imp impers pl) (imp) (vblex);
 
 
 
