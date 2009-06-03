@@ -123,12 +123,34 @@ You need to recompile after editing this file, so that the rule-changes are seen
     </def-cat>
 
     <def-cat n="verbimpers">
-      <cat-item tags="vblex.*.impers.*"/>  
-      <cat-item tags="vbser.*.impers.*"/>  
+      <cat-item tags="vblex.cni.impers.*"/>
+      <cat-item tags="vblex.cns.impers.*"/>
+      <cat-item tags="vblex.fti.impers.*"/>
+      <cat-item tags="vblex.ifi.impers.*"/>
+      <cat-item tags="vblex.pii.impers.*"/>
+      <cat-item tags="vblex.pis.impers.*"/>
+      <cat-item tags="vblex.fut.impers.*"/>
+      <cat-item tags="vblex.pres.impers.*"/>
+      <cat-item tags="vblex.past.impers.*"/>
+      <cat-item tags="vblex.plu.impers.*"/>
+      <cat-item tags="vblex.prs.impers.*"/>
+
+      <cat-item tags="vbser.cni.impers.*"/>
+      <cat-item tags="vbser.cns.impers.*"/>
+      <cat-item tags="vbser.fti.impers.*"/>
+      <cat-item tags="vbser.ifi.impers.*"/>
+      <cat-item tags="vbser.pii.impers.*"/>
+      <cat-item tags="vbser.pis.impers.*"/>
+      <cat-item tags="vbser.fut.impers.*"/>
+      <cat-item tags="vbser.pres.impers.*"/>
+      <cat-item tags="vbser.past.impers.*"/>
+      <cat-item tags="vbser.plu.impers.*"/>
+      <cat-item tags="vbser.prs.impers.*"/>
     </def-cat>
 
     <def-cat n="verbimp">
       <cat-item tags="vblex.imp"/>
+      <cat-item tags="vblex.imp.*"/>
     </def-cat>
 
     <def-cat n="verbaux">
@@ -154,7 +176,6 @@ You need to recompile after editing this file, so that the rule-changes are seen
       <cat-item tags="vblex.cns.*"/>
       <cat-item tags="vblex.fti.*"/>
       <cat-item tags="vblex.ifi.*"/>
-      <cat-item tags="vblex.imp.*"/>
       <cat-item tags="vblex.pii.*"/>
       <cat-item tags="vblex.pis.*"/>
       <cat-item tags="vblex.fut.*"/>

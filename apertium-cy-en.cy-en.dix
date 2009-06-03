@@ -2735,8 +2735,8 @@
     <e><p><l>plith<s n="n"/><s n="m"/></l><r>midst<s n="n"/></r></p></e>
     <e><p><l>plwm<s n="n"/><s n="m"/></l><r>lead<s n="n"/></r></p></e>
     <e><p><l>plws<s n="n"/><s n="m"/></l><r>plus<s n="n"/></r></p></e>
-    <e><p><l>pobl<s n="n"/><s n="f"/></l><r>people<s n="n"/><s n="pl"/></r></p></e>
-    <e><p><l>pobol<s n="n"/><s n="f"/></l><r>people<s n="n"/><s n="pl"/></r></p></e>
+    <e><p><l>pobl<s n="n"/><s n="f"/></l><r>person<s n="n"/><s n="pl"/></r></p></e>
+    <e><p><l>pobol<s n="n"/><s n="f"/></l><r>person<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>pop<s n="n"/><s n="m"/></l><r>pop<s n="n"/></r></p></e>
     <e><p><l>popeth<s n="n"/><s n="m"/></l><r>everything<s n="n"/></r></p></e>
     <e><p><l>posibilrwydd<s n="n"/><s n="m"/></l><r>possibility<s n="n"/></r></p></e>
@@ -5274,6 +5274,7 @@
     <e><p><l>diderfyn<s n="adj"/></l><r>unlimited<s n="adj"/></r></p></e>
     <e><p><l>didor<s n="adj"/></l><r>uninterrupted<s n="adj"/></r></p></e>
     <e><p><l>di-dor<s n="adj"/></l><r>continuous<s n="adj"/></r></p></e>
+    <e><p><l>di-waith<s n="adj"/></l><r>redundant<s n="adj"/></r></p></e>
     <e><p><l>didrafferth<s n="adj"/></l><r>trouble-free<s n="adj"/></r></p></e>
     <e><p><l>diduedd<s n="adj"/></l><r>unbiased<s n="adj"/></r></p></e>
     <e><p><l>diduedd<s n="adj"/></l><r>unbiased<s n="adj"/></r></p></e>
