@@ -30,8 +30,11 @@
     <def-cat n="CC">
       <cat-item tags="CC"/>
     </def-cat>
-    <def-cat n="CS">
-      <cat-item tags="CS"/>
+    <def-cat n="CS_VSO">
+      <cat-item tags="CS.VSO"/>
+    </def-cat>
+    <def-cat n="CS_SVO">
+      <cat-item tags="CS.SVO"/>
     </def-cat>
 
     <def-cat n="PRNSUBJ">
@@ -1555,12 +1558,12 @@
 
 
     <!--
-         Welsh: CS SN1 SV SN2 (Subj Verb Obj) 
+         Welsh: CS_SVO SN1 SV SN2 (Subj Verb Obj) 
 	 output English CS SN1 SV SN2 (Subject Verb Obj) 
     -->
-    <rule comment="REGLA: CS SN SV SN">
+    <rule comment="REGLA: CS_SVO SN SV SN">
       <pattern>
-        <pattern-item n="CS"/>
+        <pattern-item n="CS_SVO"/>
         <pattern-item n="SN"/>
         <pattern-item n="SV"/>
         <pattern-item n="SN"/>

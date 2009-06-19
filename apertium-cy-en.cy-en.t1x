@@ -336,6 +336,7 @@ You need to recompile after editing this file, so that the rule-changes are seen
     <def-var n="verbfinal"/>
     <def-var n="prntags"/>
     <def-var n="adjectiu1"/>
+    <def-var n="sub_worder" v="&lt;F_VSO&gt;"/>
     <def-var n="EOS" v="true"/>
   </section-def-vars>
 
@@ -5299,10 +5300,31 @@ it converts this seqence to the English "this boy", "this girl"
         <call-macro n="firstWord">
           <with-param pos="1"/>
         </call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="mai"/>
+              </equal>
+            </test>
+            <let>
+              <var n="sub_worder"/>
+              <lit-tag v="F_SVO"/>
+            </let>
+          </when>
+          <otherwise>
+            <let>
+              <var n="sub_worder"/>
+              <lit-tag v="F_VSO"/>
+            </let>
+          </otherwise>
+        </choose>
         <out>
           <chunk name="cnjsub" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="CS"/></tag>
+              <tag><var n="sub_worder"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
