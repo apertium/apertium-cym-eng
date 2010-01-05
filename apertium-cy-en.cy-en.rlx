@@ -238,6 +238,8 @@ REMOVE:R_a_cnjcoo ("a" cnjcoo) (1 Oes);
 # and where is the plural coming from?
 # "place there is here" would be acceptable
 
+#Mae hen wlad fy'n nhadau
+SELECT (part) IF (-1C DetPos) (0 (part)) (0 DetPos);
 
 
 # Determiners
