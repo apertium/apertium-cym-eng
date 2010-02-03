@@ -54,6 +54,10 @@
       <attr-item tags="np.loc"/>
       <attr-item tags="np.ant"/>
     </def-attr>
+    <def-attr n="a_np_acr">
+      <attr-item tags="np"/>
+      <attr-item tags="acr"/>
+    </def-attr>
     <def-attr n="pers">
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>

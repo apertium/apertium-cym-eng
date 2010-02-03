@@ -281,6 +281,13 @@ You need to recompile after editing this file, so that the rule-changes are seen
     <def-attr n="a_rel">
       <attr-item tags="rel.an"/>
     </def-attr>
+    <def-attr n="sep">
+      <attr-item tags="sep"/>
+    </def-attr>
+    <def-attr n="a_np_acr">
+      <attr-item tags="np"/>
+      <attr-item tags="acr"/>
+    </def-attr>
     <def-attr n="nbr">
       <attr-item tags="sp"/>
       <attr-item tags="sg"/>
@@ -2383,7 +2390,7 @@ it converts this seqence to the English "this boy", "this girl"
           <chunk name="indef_nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
-              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
               <lit v="a"/>
@@ -2391,9 +2398,10 @@ it converts this seqence to the English "this boy", "this girl"
             </lu>
 	    <b/>
             <lu>
-              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
               <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -4313,7 +4321,7 @@ it converts this seqence to the English "this boy", "this girl"
               <clip pos="4" side="tl" part="lemh"/>
               <clip pos="4" side="tl" part="a_nom"/>
               <clip pos="4" side="tl" part="nbr" link-to="2"/>
-              <clip pos="4" side="tl" part="lem1"/>
+              <clip pos="4" side="tl" part="lemq"/>
             </lu>
             <b pos="3"/>
             <lu>
