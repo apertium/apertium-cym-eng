@@ -1,17 +1,10 @@
 Welsh--English
 
-== Notes ==
-
-* Differently from most other pairs, .dix files are generated from .dix.xml and
-  .xml files using xmllint. When you edit a file, make sure you are editing the 
-  source files (.dix.xml, .xml) and not the .dix file directly, as it will be
-  overwritten next time you make.
-
-  You can do this manually using:
-
-    $ xmllint --xinclude apertium-cy-en.cy.dix.xml > apertium-cy-en.cy.dix
-
 == Test ==
 
 echo "Genir pawb yn rhydd ac yn gydradd â'i gilydd mewn urddas a hawliau." | apertium -d . cy-en
 
+===================================================================
+
+More information about this module, and others can be found on
+the Apertium: Wiki, http://wiki.apertium.org
