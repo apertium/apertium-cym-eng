@@ -159,7 +159,7 @@
     </pipeline>
   </mode>
 
-  <mode name="en-cy" install="yes">
+  <mode name="en-cy" install="no">
     <pipeline>
       <program name="lt-proc">
         <file name="en-cy.automorf.bin"/>
