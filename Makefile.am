@@ -136,7 +136,7 @@ apertium_cy_en_DATA=$(PREFIX1).rlx.bin $(PREFIX1).automorf.bin $(PREFIX2).automo
 #$(PREFIX2).mode
 
 
-#$(INSTALL_DATA) $(PREFIX2).mode $(apertium_cy_modesdir)
+#$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_cy_modesdir)
 
 install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
