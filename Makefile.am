@@ -136,6 +136,7 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_cy_endir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_cy_endir)
 	$(INSTALL_DATA) $(BASENAME).pre-$(LANG1).t1x $(DESTDIR)$(apertium_cy_endir)
+	rm $(PREFIX1).mode
 
 
 CLEANFILES = $(TARGETS_COMMON)
