@@ -14,9 +14,7 @@ TARGETS_COMMON =  \
      $(PREFIX2).autoorth.bin \
      $(PREFIX1).rlx.bin \
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin pre-$(LANG1).t1x.bin \
-     $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin $(PREFIX1).mode 
-
-#$(PREFIX2).mode
+     $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin
 
 #$(PREFIX1).autopoly.bin: $(BASENAME).$(LANG2)-poly.dix
 #	apertium-validate-dictionary $(BASENAME).$(LANG2)-poly.dix
@@ -113,39 +111,33 @@ clean-dicts:
 apertium_cy_endir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_cy_modesdir=$(prefix)/share/apertium/modes/
 
-$(PREFIX1).mode: modes.xml 
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-$(PREFIX2).mode: modes.xml 
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
 
 #                    $(PREFIX1).autopoly.bin 
-apertium_cy_en_DATA=$(PREFIX1).rlx.bin $(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
-                    $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
-                    $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
-                    $(PREFIX1).autopgen.bin \
-                    $(PREFIX2).autopgen.bin \
-		    $(PREFIX2).autoorth.bin \
+apertium_cy_en_DATA=$(TARGETS_COMMON) \
                     $(PREFIX1).prob $(PREFIX2).prob \
-		    $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
-		    $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin pre-$(LANG1).t1x.bin \
-		    $(PREFIX1).mode 
+		    modes.xml
 
-#$(PREFIX2).mode
+modes/$(PREFIX1).mode: modes.xml 
+	apertium-validate-modes modes.xml
+	apertium-gen-modes modes.xml
+	cp *.mode modes/
 
-
-#$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_cy_modesdir)
+# All modes are created by the same goal, listing several will just give problems with make -j2
+noinst_DATA=modes/$(PREFIX1).mode
 
 install-data-local:
+	mv modes modes.bak
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
+	rm -rf modes
+	mv modes.bak modes
 	test -d $(DESTDIR)$(apertium_cy_modesdir) || mkdir $(DESTDIR)$(apertium_cy_modesdir)
 	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_cy_modesdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_cy_endir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_cy_endir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_cy_endir)
 	$(INSTALL_DATA) $(BASENAME).pre-$(LANG1).t1x $(DESTDIR)$(apertium_cy_endir)
-	cp *.mode modes/
 
-CLEANFILES = -rf $(TARGETS_COMMON) modes
+
+CLEANFILES = $(TARGETS_COMMON)
+clean-local: 
+	-rm -rf .deps modes
