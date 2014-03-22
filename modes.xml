@@ -12,10 +12,12 @@
         <file name="cy-en.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="cy-en.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-cy-en.cy-en.t1x"/>
         <file name="cy-en.t1x.bin"/>
-        <file name="cy-en.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-cy-en.cy-en.t2x"/>
@@ -34,40 +36,22 @@
     </pipeline>
   </mode>
 
-  <mode name="cy-en-multi" install="no">
+  <mode name="cy-en-morph" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="cy-en.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="cy-en-disam" install="no">
     <pipeline>
       <program name="lt-proc">
         <file name="cy-en.automorf.bin"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
         <file name="cy-en.rlx.bin"/> 
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="cy-en.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="apertium-cy-en.cy-en.t1x"/>
-        <file name="cy-en.t1x.bin"/>
-        <file name="cy-en.autobil.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-cy-en.cy-en.t2x"/>
-        <file name="cy-en.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-cy-en.cy-en.t3x"/>
-        <file name="cy-en.t3x.bin"/>
-      </program>
-      <program name="apertium-multiple-translations">
-        <file name="en-cy.t1x.bin"/> <!-- Empty transfer -->
-        <file name="cy-en.autopoly.bin"/>
-      </program>
-      <program name="lt-proc $1">
-        <file name="cy-en.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="cy-en.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -87,6 +71,24 @@
     </pipeline>
   </mode>
 
+  <mode name="cy-en-biltrans" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="cy-en.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="cy-en.rlx.bin"/> 
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="cy-en.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="cy-en.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="cy-en-chunker" install="no">
     <pipeline>
       <program name="lt-proc">
@@ -99,10 +101,12 @@
         <file name="cy-en.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="cy-en.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-cy-en.cy-en.t1x"/>
         <file name="cy-en.t1x.bin"/>
-        <file name="cy-en.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -119,10 +123,12 @@
         <file name="cy-en.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="cy-en.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-cy-en.cy-en.t1x"/>
         <file name="cy-en.t1x.bin"/>
-        <file name="cy-en.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-cy-en.cy-en.t2x"/>
@@ -143,10 +149,12 @@
         <file name="cy-en.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="cy-en.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-cy-en.cy-en.t1x"/>
         <file name="cy-en.t1x.bin"/>
-        <file name="cy-en.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-cy-en.cy-en.t2x"/>
