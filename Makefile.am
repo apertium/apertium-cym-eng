@@ -109,13 +109,16 @@ clean-dicts:
 	touch $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG2).dix $(BASENAME).$(PREFIX1).dix
 
 apertium_cy_endir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_cy_modesdir=$(prefix)/share/apertium/modes/
+apertium_modesdir=$(prefix)/share/apertium/modes/
 
 
 #                    $(PREFIX1).autopoly.bin 
 apertium_cy_en_DATA=$(TARGETS_COMMON) \
-                    $(PREFIX1).prob $(PREFIX2).prob \
-		    modes.xml
+	$(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
+	$(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \
+	$(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x \
+	$(BASENAME).pre-$(LANG1).t1x \
+	$(PREFIX1).prob $(PREFIX2).prob
 
 modes/$(PREFIX1).mode: modes.xml 
 	apertium-validate-modes modes.xml
@@ -130,12 +133,8 @@ install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
 	rm -rf modes
 	mv modes.bak modes
-	test -d $(DESTDIR)$(apertium_cy_modesdir) || mkdir $(DESTDIR)$(apertium_cy_modesdir)
-	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_cy_modesdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_cy_endir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_cy_endir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_cy_endir)
-	$(INSTALL_DATA) $(BASENAME).pre-$(LANG1).t1x $(DESTDIR)$(apertium_cy_endir)
+	test -d $(DESTDIR)$(apertium_modesdir) || mkdir $(DESTDIR)$(apertium_modesdir)
+	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_modesdir)
 	rm $(PREFIX1).mode
 
 
