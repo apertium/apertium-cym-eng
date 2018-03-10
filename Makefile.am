@@ -1,6 +1,6 @@
 VERSION=0.1.0
-LANG1=cy
-LANG2=en
+LANG1=cym
+LANG2=eng
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
 
@@ -108,12 +108,12 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
 clean-dicts:
 	touch $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG2).dix $(BASENAME).$(PREFIX1).dix
 
-apertium_cy_endir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
+apertium_cym_engdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_modesdir=$(prefix)/share/apertium/modes/
 
 
 #                    $(PREFIX1).autopoly.bin 
-apertium_cy_en_DATA=$(TARGETS_COMMON) \
+apertium_cym_eng_DATA=$(TARGETS_COMMON) \
 	$(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
 	$(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \
 	$(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x \
