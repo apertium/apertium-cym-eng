@@ -4,13 +4,13 @@
 
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-cy-en], [0.1.1], [ftyers@users.sourceforge.net])
-AM_INIT_AUTOMAKE([apertium-cy-en], [0.1.1], no-define)
+AC_INIT([apertium-cym-eng], [0.1.1], [ftyers@users.sourceforge.net])
+AM_INIT_AUTOMAKE([apertium-cym-eng], [0.1.1], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 AC_CONFIG_HEADER([config])
 
-m4_define([required_apertium_version], [3.2.0])
+m4_define([required_apertium_version], [3.4.0])
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version)])
 
 
