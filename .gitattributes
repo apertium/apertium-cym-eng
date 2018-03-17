@@ -33,3 +33,8 @@ dev/qtoutput.csv -text
 /en-cy.prob -text svneol=unset#unset
 /modes.xml -text
 /regression-tests.sh -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
