@@ -172,7 +172,7 @@
       <program name="lt-proc">
         <file name="eng-cym.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="apertium-tagger -gx">
         <file name="eng-cym.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -190,8 +190,8 @@
         <file name="eng-cym.t3x.bin"/>
       </program>
       <program name="apertium-transfer -n">
-        <file name="apertium-cym-eng.pre-cy.t1x"/>
-        <file name="pre-cy.t1x.bin"/>
+        <file name="pre-eng-cym.t1x"/>
+        <file name="pre-eng-cym.t1x.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="eng-cym.autogen.bin"/>
