@@ -27,6 +27,7 @@
     <sdef n="past"    c="Past tense"/>
     <sdef n="pres"    c="Present tense"/>
     <sdef n="inf"     c="Infinitive"/>
+    <sdef n="sep"     c="Separable"/>
 
     <sdef n="aff"     c="Affirmative"/>
     <sdef n="itg"     c="Interrogative"/>
@@ -225,11 +226,11 @@
  
     <!-- Particles -->
 
-    <e><p><l>yn<s n="part"/></l><r></r></p></e>
-    <e><p><l>wedi<s n="part"/></l><r></r></p></e>
-    <e><p><l>newydd<s n="part"/></l><r></r></p></e>
-    <e><p><l>ar<s n="part"/></l><r></r></p></e>
-    <e><p><l>am<s n="part"/></l><r></r></p></e>
+    <e r="LR"><p><l>yn<s n="part"/></l><r></r></p></e>
+    <e r="LR"><p><l>wedi<s n="part"/></l><r></r></p></e>
+    <e r="LR"><p><l>newydd<s n="part"/></l><r></r></p></e>
+    <e r="LR"><p><l>ar<s n="part"/></l><r></r></p></e>
+    <e r="LR"><p><l>am<s n="part"/></l><r></r></p></e>
 
     <!-- Prepositions -->
     
@@ -250,7 +251,7 @@
 
     <e><p><l>o<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
     <e r="LR"><p><l>o<s n="pr"/><s n="S1"/></l><r>from<s n="pr"/></r></p></e>
-    <e><p><l>o<s n="postnum"/></l><r></r></p></e>
+    <e r="LR"><p><l>o<s n="postnum"/></l><r></r></p></e>
 
     <e><p><l>rhwng<s n="pr"/></l><r>between<s n="pr"/></r></p></e>
     <e><p><l>er<s n="pr"/></l><r>although<s n="pr"/></r></p></e>
@@ -553,7 +554,7 @@
     <e><p><l>byth<s n="adv"/></l><r>forever<s n="adv"/></r></p></e>
     <e><p><l>chwaith<s n="adv"/></l><r>neither<s n="adv"/></r></p></e>
     <e><p><l>'cw<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
-    <e><p><l>cynted<s n="adv"/></l><r>soon<b/><s n="adv"/></r></p></e>
+    <e><p><l>cynted<s n="adv"/></l><r>soon<s n="adv"/></r></p></e>
     <e><p><l>ddim<s n="adv"/></l><r>not<s n="adv"/></r></p></e>
     <e><p><l>ddoe<s n="adv"/></l><r>yesterday<s n="adv"/></r></p></e>
     <e><p><l>dim<s n="adv"/></l><r>not<s n="adv"/></r></p></e>
@@ -4692,17 +4693,17 @@
     <e><p><l>amhosib<s n="adj"/></l><r>impossible<s n="adj"/></r></p></e>
     <e><p><l>amhosibl<s n="adj"/></l><r>impossible<s n="adj"/></r></p></e>
     <e><p><l>amhriodol<s n="adj"/></l><r>improper<s n="adj"/></r></p></e>
-    <e><p><l>aml-asiantaethol<s n="adj"/></l><r>multi-agency<s n="adj"/></r></p></e>
+    <e><p><l>aml-asiantaethol<s n="adj"/></l><r>multiagency<s n="adj"/></r></p></e>
     <e><p><l>amlben<s n="adj"/></l><r>multihead<s n="adj"/></r></p></e>
-    <e><p><l>aml-broffesiynol<s n="adj"/></l><r>multi-professional<s n="adj"/></r></p></e>
+    <e><p><l>aml-broffesiynol<s n="adj"/></l><r>multiprofessional<s n="adj"/></r></p></e>
     <e><p><l>aml-bwrpas<s n="adj"/></l><r>multi-purpose<s n="adj"/></r></p></e>
-    <e><p><l>aml-chwaraeon<s n="adj"/></l><r>multi-sport<s n="adj"/></r></p></e>
+    <e><p><l>aml-chwaraeon<s n="adj"/></l><r>multisport<s n="adj"/></r></p></e>
     <e><p><l>amlchwaraewr<s n="adj"/></l><r>multiplayer<s n="adj"/></r></p></e>
-    <e><p><l>aml-ddefnydd<s n="adj"/></l><r>multi-use<s n="adj"/></r></p></e>
+    <e><p><l>aml-ddefnydd<s n="adj"/></l><r>multiuse<s n="adj"/></r></p></e>
     <e><p><l>aml-ddisgyblaethol<s n="adj"/></l><r>multidisciplinary<s n="adj"/></r></p></e>
     <e><p><l>aml-ddiwylliannol<s n="adj"/></l><r>multicultural<s n="adj"/></r></p></e>
     <e><p><l>amlieithog<s n="adj"/></l><r>multilingual<s n="adj"/></r></p></e> <!-- check -->
-    <e><p><l>aml-iaith<s n="adj"/></l><r>multi-lingual<s n="adj"/></r></p></e>
+    <e><p><l>aml-iaith<s n="adj"/></l><r>multilingual<s n="adj"/></r></p></e>
     <e><p><l>amlran<s n="adj"/></l><r>multipart<s n="adj"/></r></p></e>
     <e><p><l>amlygedig<s n="adj"/></l><r>highlighted<s n="adj"/></r></p></e>
     <e><p><l>amodol<s n="adj"/></l><r>conditional<s n="adj"/></r></p></e>
@@ -4787,7 +4788,7 @@
     <e><p><l>annegatif<s n="adj"/></l><r>non-negative<s n="adj"/></r></p></e>
     <e><p><l>annerbyniol<s n="adj"/></l><r>unacceptable<s n="adj"/></r></p></e>
     <e><p><l>annhebyg<s n="adj"/></l><r>dissimilar<s n="adj"/></r></p></e>
-    <e><p><l>annhebygol<s n="adj"/></l><r>unlikely<s n="adj"/></r></p></e>
+    <e><p><l>annhebygol<s n="adj"/></l><r>unlikely<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>annheg<s n="adj"/></l><r>unfair<s n="adj"/></r></p></e>
     <e><p><l>annibynnol<s n="adj"/></l><r>independent<s n="adj"/></r></p></e>
     <e><p><l>anniffiniedig<s n="adj"/></l><r>undefined<s n="adj"/></r></p></e>
@@ -4795,8 +4796,8 @@
     <e><p><l>annigonol<s n="adj"/></l><r>insufficient<s n="adj"/></r></p></e>
     <e><p><l>annilys<s n="adj"/></l><r>invalid<s n="adj"/></r></p></e>
     <e><p><l>annisgwyl<s n="adj"/></l><r>unexpected<s n="adj"/></r></p></e>
-    <e><p><l>annoeth<s n="adj"/></l><r>unwise<s n="adj"/></r></p></e>
-    <e><p><l>annwyl<s n="adj"/></l><r>dear<s n="adj"/></r></p></e>
+    <e><p><l>annoeth<s n="adj"/></l><r>unwise<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>annwyl<s n="adj"/></l><r>dear<s n="adj"/><s n="sint"/></r></p></e>
     <e r="RL"><p><l>annymunol<s n="adj"/></l><r>unwanted<s n="adj"/></r></p></e>
     <e><p><l>annymunol<s n="adj"/></l><r>unpleasant<s n="adj"/></r></p></e>
     <e><p><l>anochel<s n="adj"/></l><r>inevitable<s n="adj"/></r></p></e>
@@ -4914,7 +4915,7 @@
     <e><p><l>brown<s n="adj"/></l><r>brown<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>brwd<s n="adj"/><s n="sint"/></l><r>hot<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>brwdfrydig<s n="adj"/></l><r>enthusiastic<s n="adj"/></r></p></e>
-    <e><p><l>buan<s n="adj"/></l><r>soon<s n="adj"/></r></p></e>
+    <e><p><l>buan<s n="adj"/></l><r>soon<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>buddiol<s n="adj"/></l><r>beneficial<s n="adj"/></r></p></e>
     <e><p><l>budr<s n="adj"/></l><r>dirty<s n="adj"/><s n="sint"/></r></p></e> 
     <e r="LR"><p><l>budron<s n="adj"/></l><r>dirty<s n="adj"/><s n="sint"/></r></p></e> 
@@ -4928,11 +4929,11 @@
     <e r="RL"><p><l>byrhoedlog<s n="adj"/></l><r>transient<s n="adj"/></r></p></e>
     <e><p><l>byr-rybudd<s n="adj"/></l><r>short notice<s n="adj"/></r></p></e>
     <e><p><l>bywgraffyddol<s n="adj"/></l><r>biographical<s n="adj"/></r></p></e>
-    <e><p><l>bywiog<s n="adj"/></l><r>lively<s n="adj"/></r></p></e>
+    <e><p><l>bywiog<s n="adj"/></l><r>lively<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>bywiol<s n="adj"/></l><r>alive<s n="adj"/></r></p></e>
     <e><p><l>bywluniedig<s n="adj"/></l><r>animated<s n="adj"/></r></p></e>
-    <e><p><l>caci<s n="adj"/></l><r>khaki<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>cadarn<s n="adj"/></l><r>firm<s n="adj"/></r></p></e>
+    <e><p><l>caci<s n="adj"/></l><r>khaki<s n="adj"/></r></p></e> 
+    <e><p><l>cadarn<s n="adj"/></l><r>firm<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>cadarnhaol<s n="adj"/></l><r>affirmative<s n="adj"/></r></p></e>
     <e><p><l>cadwedig<s n="adj"/></l><r>saved<s n="adj"/></r></p></e>
     <e><p><l>cadwedig<s n="adj"/></l><r>saved<s n="adj"/></r></p></e>
@@ -4967,7 +4968,7 @@
     <e><p><l>rhoddedig<s n="adj"/></l><r>given<s n="adj"/></r></p></e> 
     <e><p><l>cwynfannus<s n="adj"/></l><r>mournful<s n="adj"/></r></p></e>
     <e><p><l>nesaf<s n="adj"/></l><r>next<s n="adj"/></r></p></e> 
-    <e><p><l>cartesaidd<s n="adj"/></l><r>cartesian<s n="adj"/></r></p></e>
+    <e><p><l>cartesaidd<s n="adj"/></l><r>Cartesian<s n="adj"/></r></p></e>
     <e><p><l>cas<s n="adj"/></l><r>nasty<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>cefnogol<s n="adj"/></l><r>encouraging<s n="adj"/></r></p></e>
     <e><p><l>ceinciog<s n="adj"/></l><r>burled<s n="adj"/></r></p></e>
@@ -4987,7 +4988,7 @@
     <e><p><l>chwerthinllyd<s n="adj"/></l><r>laughable<s n="adj"/></r></p></e>
     <e><p><l>chwerw<s n="adj"/></l><r>bitter<s n="adj"/></r></p></e>
     <e><p><l>chwiliadwy<s n="adj"/></l><r>searchable<s n="adj"/></r></p></e>
-    <e><p><l>chwim<s n="adj"/></l><r>nimble<s n="adj"/></r></p></e>
+    <e><p><l>chwim<s n="adj"/></l><r>nimble<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>chwith<s n="adj"/></l><r>left<s n="adj"/></r></p></e>
     <e r="RL"><p><l>chwithig<s n="adj"/></l><r>clumsy<s n="adj"/></r></p></e>
     <e><p><l>chwithig<s n="adj"/></l><r>awkward<s n="adj"/></r></p></e>
@@ -5005,7 +5006,7 @@
     <e><p><l>clymadwy<s n="adj"/></l><r>mountable<s n="adj"/></r></p></e>
     <e><p><l>clymedig<s n="adj"/></l><r>mounted<s n="adj"/></r></p></e>
     <e><p><l>clywedig<s n="adj"/></l><r>audible<s n="adj"/></r></p></e>
-    <e><p><l>coch<s n="adj"/></l><r>red<s n="adj"/></r></p></e>
+    <e><p><l>coch<s n="adj"/></l><r>red<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>du<s n="adj"/><s n="sint"/></l><r>black<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>cofrestredig<s n="adj"/></l><r>registered<s n="adj"/></r></p></e>
     <e><p><l>coll<s n="adj"/></l><r>lost<s n="adj"/></r></p></e>
@@ -5100,7 +5101,7 @@
     <e><p><l>cyfnodol<s n="adj"/></l><r>periodic<s n="adj"/></r></p></e>
     <e><p><l>cyfochrog<s n="adj"/></l><r>parallel<s n="adj"/></r></p></e>
     <e><p><l>cyfoes<s n="adj"/></l><r>modern<s n="adj"/></r></p></e>
-    <e><p><l>cyfoethog<s n="adj"/></l><r>wealthy<s n="adj"/></r></p></e>
+    <e><p><l>cyfoethog<s n="adj"/></l><r>wealthy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>cyfrannol<s n="adj"/></l><r>proportional<s n="adj"/></r></p></e>
     <e><p><l>cyfredol<s n="adj"/></l><r>current<s n="adj"/></r></p></e>
     <e><p><l>cyfreithiol<s n="adj"/></l><r>legal<s n="adj"/></r></p></e>
@@ -5201,7 +5202,7 @@
     <e><p><l>darfodedig<s n="adj"/></l><r>expired<s n="adj"/></r></p></e>
     <e><p><l>darllenadwy<s n="adj"/></l><r>readable<s n="adj"/></r></p></e>
     <e><p><l>darllenedig<s n="adj"/></l><r>read<s n="adj"/></r></p></e>
-    <e><p><l>darpar<s n="adj"/></l><r>designate<s n="adj"/></r></p></e>
+    <e><p><l>darpar<s n="adj"/></l><r>designated<s n="adj"/></r></p></e>
     <e><p><l>darparedig<s n="adj"/></l><r>provided<s n="adj"/></r></p></e>
     <e><p><l>darpariaethol<s n="adj"/></l><r>provisional<s n="adj"/></r></p></e>
     <e><p><l>datblygedig<s n="adj"/></l><r>developed<s n="adj"/></r></p></e>
@@ -5411,7 +5412,7 @@
     <e><p><l>enfawr<s n="adj"/></l><r>enormous<s n="adj"/></r></p></e>
     <e><p><l>enghreifftiol<s n="adj"/></l><r>illustrative<s n="adj"/></r></p></e>
     <e><p><l>enwebedig<s n="adj"/></l><r>nominated<s n="adj"/></r></p></e>
-    <e><p><l>enwedig<s n="adj"/></l><r>especially<s n="adj"/></r></p></e>
+    <e><p><l>enwedig<s n="adj"/></l><r>special<s n="adj"/></r></p></e>
     <e><p><l>enwol<s n="adj"/></l><r>nominal<s n="adj"/></r></p></e>
     <e><p><l>epidemiolegol<s n="adj"/></l><r>epidemiological<s n="adj"/></r></p></e>
     <e><p><l>erchyll<s n="adj"/></l><r>horrible<s n="adj"/></r></p></e>
@@ -5433,7 +5434,7 @@
     <e><p><l>Ewropeaidd<s n="adj"/></l><r>European<s n="adj"/></r></p></e>
     <e><p><l>fechan<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>fed<s n="adj"/></l><r>th<s n="adj"/></r></p></e>
-    <e><p><l>fer<s n="adj"/></l><r>short<s n="adj"/></r></p></e> 
+    <e><p><l>fer<s n="adj"/></l><r>short<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>fertigol<s n="adj"/></l><r>vertical<s n="adj"/></r></p></e>
     <e><p><l>ffafriol<s n="adj"/></l><r>favourable<s n="adj"/></r></p></e>
     <e><p><l>ffeithiol<s n="adj"/></l><r>factual<s n="adj"/></r></p></e>
@@ -5460,7 +5461,7 @@
     <e><p><l>ffyddlon<s n="adj"/></l><r>faithful<s n="adj"/></r></p></e>
     <e><p><l>ffynci<s n="adj"/></l><r>funky<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>ffyniannus<s n="adj"/></l><r>prosperous<s n="adj"/></r></p></e>
-    <e><p><l>ffyrnig<s n="adj"/></l><r>fierce<s n="adj"/></r></p></e>
+    <e><p><l>ffyrnig<s n="adj"/></l><r>fierce<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>galarnadus<s n="adj"/></l><r>mournful<s n="adj"/></r></p></e>
     <e r="RL"><p><l>galluog<s n="adj"/></l><r>enabled<s n="adj"/></r></p></e>
     <e><p><l>galluog<s n="adj"/></l><r>able<s n="adj"/><s n="sint"/></r></p></e> 
@@ -5472,7 +5473,7 @@
     <e><p><l>geneuol<s n="adj"/></l><r>oral<s n="adj"/></r></p></e>
     <e><p><l>geometrig<s n="adj"/></l><r>geometric<s n="adj"/></r></p></e>
     <e><p><l>glân<s n="adj"/></l><r>clean<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>glas<s n="adj"/></l><r>blue<s n="adj"/></r></p></e>
+    <e><p><l>glas<s n="adj"/></l><r>blue<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gludog<s n="adj"/></l><r>sticky<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>goddefol<s n="adj"/></l><r>passive<s n="adj"/></r></p></e>
     <e><p><l>gofalus<s n="adj"/></l><r>careful<s n="adj"/></r></p></e>
@@ -5482,7 +5483,7 @@
     <e><p><l>gogleisiol<s n="adj"/></l><r>ticklish<s n="adj"/></r></p></e>
     <e><p><l>gohiriedig<s n="adj"/></l><r>deferred<s n="adj"/></r></p></e>
     <e><p><l>goleddol<s n="adj"/></l><r>sloping<s n="adj"/></r></p></e>
-    <e><p><l>gollyngus<s n="adj"/></l><r>lossy<s n="adj"/></r></p></e>
+    <e><p><l>gollyngus<s n="adj"/></l><r>lossy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>golygedig<s n="adj"/></l><r>edited<s n="adj"/></r></p></e>
     <e><p><l>golygyddol<s n="adj"/></l><r>editorial<s n="adj"/></r></p></e>
     <e><p><l>gorchestol<s n="adj"/></l><r>masterly<s n="adj"/></r></p></e>
@@ -5505,15 +5506,15 @@
     <e><p><l>graffigol<s n="adj"/></l><r>graphical<s n="adj"/></r></p></e>
     <e><p><l>grediniol<s n="adj"/></l><r>believing<s n="adj"/></r></p></e>
     <e><p><l>gros<s n="adj"/></l><r>gross<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>grymus<s n="adj"/></l><r>mighty<s n="adj"/></r></p></e>
+    <e><p><l>grymus<s n="adj"/></l><r>mighty<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gwael<s n="adj"/></l><r>poorly<s n="adj"/></r></p></e>
     <e><p><l>gwaelodol<s n="adj"/></l><r>underlying<s n="adj"/></r></p></e>
     <e><p><l>gwahân<s n="adj"/></l><r>separate<s n="adj"/></r></p></e>
     <e><p><l>gwahaniaethol<s n="adj"/></l><r>distinct<s n="adj"/></r></p></e>
     <e><p><l>gwahanol<s n="adj"/></l><r>different<s n="adj"/></r></p></e>
     <e><p><l>gwahoddedig<s n="adj"/></l><r>invited<s n="adj"/></r></p></e>
-    <e><p><l>gwallgof<s n="adj"/></l><r>mad<s n="adj"/></r></p></e>
-    <e><p><l>gwallus<s n="adj"/></l><r>faulty<s n="adj"/></r></p></e>
+    <e><p><l>gwallgof<s n="adj"/></l><r>mad<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>gwallus<s n="adj"/></l><r>faulty<s n="adj"/><s n="sint"/></r></p></e>
     <e r="RL"><p><l>gwallus<s n="adj"/></l><r>bad<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>gwan<s n="adj"/></l><r>weak<s n="adj"/><s n="sint"/></r></p></e> 
     <e r="RL"><p><l>gwan<s n="adj"/></l><r>pale<s n="adj"/></r></p></e>
@@ -5543,7 +5544,7 @@
     <e><p><l>gwladol<s n="adj"/></l><r>national<s n="adj"/></r></p></e>
     <e><p><l>gwledig<s n="adj"/></l><r>rural<s n="adj"/></r></p></e>
     <e><p><l>gwleidyddol<s n="adj"/></l><r>political<s n="adj"/></r></p></e>
-    <e><p><l>gwlyb<s n="adj"/></l><r>wet<s n="adj"/></r></p></e>
+    <e><p><l>gwlyb<s n="adj"/></l><r>wet<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gwreiddiol<s n="adj"/></l><r>original<s n="adj"/></r></p></e>
     <e><p><l>gwresog<s n="adj"/></l><r>warm<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>gwrogaethol<s n="adj"/></l><r>submissive<s n="adj"/></r></p></e>
@@ -5556,7 +5557,7 @@
     <e><p><l>gwrth-Gymreig<s n="adj"/></l><r>anti-Welsh<s n="adj"/></r></p></e>
     <e><p><l>gwrthrychol<s n="adj"/></l><r>objective<s n="adj"/></r></p></e>
     <e><p><l>gwryw<s n="adj"/></l><r>male<s n="adj"/></r></p></e>
-    <e><p><l>gwrywaidd<s n="adj"/></l><r>manly<s n="adj"/></r></p></e>
+    <e><p><l>gwrywaidd<s n="adj"/></l><r>manly<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gwybodus<s n="adj"/></l><r>knowledgeable<s n="adj"/></r></p></e>
     <e><p><l>gwybyddol<s n="adj"/></l><r>cognitive<s n="adj"/></r></p></e>
     <e><p><l>gwybyddus<s n="adj"/></l><r>known<s n="adj"/></r></p></e>
@@ -5654,8 +5655,8 @@
     <e><p><l>iterus<s n="adj"/></l><r>iterative<s n="adj"/></r></p></e>
     <e><p><l>llachar<s n="adj"/></l><r>bright<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>lladin<s n="adj"/></l><r>Latin<s n="adj"/></r></p></e>
-    <e><p><l>llaes<s n="adj"/></l><r>loose<s n="adj"/></r></p></e>
-    <e><p><l>llaith<s n="adj"/></l><r>damp<s n="adj"/></r></p></e>
+    <e><p><l>llaes<s n="adj"/></l><r>loose<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>llaith<s n="adj"/></l><r>damp<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>llawen<s n="adj"/></l><r>merry<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>llon<s n="adj"/><s n="sint"/></l><r>merry<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>llawer<s n="adj"/></l><r>many<s n="adj"/></r></p></e>
@@ -5664,7 +5665,7 @@
     <e><p><l>lleiafol<s n="adj"/></l><r>minimalist<s n="adj"/></r></p></e>
     <e><p><l>lleiafrifol<s n="adj"/></l><r>minority<s n="adj"/></r></p></e>
     <e><p><l>lleied<s n="adj"/></l><r>small<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>llem<s n="adj"/></l><r>sharp<s n="adj"/></r></p></e>
+    <e><p><l>llem<s n="adj"/></l><r>sharp<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>llenyddol<s n="adj"/></l><r>literary<s n="adj"/></r></p></e>
     <e><p><l>lleol<s n="adj"/></l><r>local<s n="adj"/></r></p></e>
     <e><p><l>llesol<s n="adj"/></l><r>advantageous<s n="adj"/></r></p></e>
@@ -5700,8 +5701,8 @@
     <e><p><l>llyfn<s n="adj"/></l><r>smooth<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>llyfryddol<s n="adj"/></l><r>bibliographic<s n="adj"/></r></p></e>
     <e><p><l>llygredig<s n="adj"/></l><r>polluted<s n="adj"/></r></p></e>
-    <e><p><l>llym<s n="adj"/></l><r>sharp<s n="adj"/></r></p></e>
-    <e><p><l>llythrennol<s n="adj"/></l><r>literally<s n="adj"/></r></p></e>
+    <e><p><l>llym<s n="adj"/></l><r>sharp<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>llythrennol<s n="adj"/></l><r>literal<s n="adj"/></r></p></e>
     <e><p><l>llywodraethol<s n="adj"/></l><r>governing<s n="adj"/></r></p></e>
     <e><p><l>logarithmig<s n="adj"/></l><r>logarithmic<s n="adj"/></r></p></e>
     <e><p><l>logistaidd<s n="adj"/></l><r>logistic<s n="adj"/></r></p></e>
@@ -5735,7 +5736,7 @@
     <e><p><l>meintiol<s n="adj"/></l><r>quantitative<s n="adj"/></r></p></e>
     <e><p><l>meirw<s n="adj"/></l><r>dead<s n="adj"/></r></p></e>
     <e><p><l>melyn<s n="adj"/></l><r>yellow<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>melynddu<s n="adj"/></l><r>tan<s n="adj"/></r></p></e>
+    <e><p><l>melynddu<s n="adj"/></l><r>tan<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>melys<s n="adj"/></l><r>sweet<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>mentergarol<s n="adj"/></l><r>entrepreneurial<s n="adj"/></r></p></e>
     <e><p><l>mentrus<s n="adj"/></l><r>enterprising<s n="adj"/></r></p></e>
@@ -5810,7 +5811,7 @@
     <e r="RL"><p><l>parhaol<s n="adj"/></l><r>persistent<s n="adj"/></r></p></e>
     <e><p><l>parhaol<s n="adj"/></l><r>permanent<s n="adj"/></r></p></e>
     <e><p><l>parhaus<s n="adj"/></l><r>perpetual<s n="adj"/></r></p></e>
-    <e><p><l>parod<s n="adj"/></l><r>ready<s n="adj"/></r></p></e>
+    <e><p><l>parod<s n="adj"/></l><r>ready<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>partneriaethol<s n="adj"/></l><r>partnership<s n="adj"/></r></p></e>
 
 
@@ -5830,7 +5831,7 @@
     <e><p><l>perifferol<s n="adj"/></l><r>peripheral<s n="adj"/></r></p></e>
     <e><p><l>perpendicwlar<s n="adj"/></l><r>perpendicular<s n="adj"/></r></p></e>
     <e><p><l>personol<s n="adj"/></l><r>personal<s n="adj"/></r></p></e>
-    <e><p><l>pert<s n="adj"/></l><r>pretty<s n="adj"/></r></p></e>
+    <e><p><l>pert<s n="adj"/></l><r>pretty<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>perthnasol<s n="adj"/></l><r>relevant<s n="adj"/></r></p></e>
     <e><p><l>perthynol<s n="adj"/></l><r>relative<s n="adj"/></r></p></e>
     <e><p><l>peryglus<s n="adj"/></l><r>dangerous<s n="adj"/></r></p></e>
@@ -5880,7 +5881,7 @@
     <e><p><l>pur<s n="adj"/></l><r>pure<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>pwdr<s n="adj"/></l><r>rotten<s n="adj"/></r></p></e>
     <e><p><l>pwerus<s n="adj"/></l><r>powerful<s n="adj"/></r></p></e>
-    <e><p><l>pŵl<s n="adj"/></l><r>dim<s n="adj"/></r></p></e>
+    <e><p><l>pŵl<s n="adj"/></l><r>dim<s n="adj"/><s n="sint"/></r></p></e>
     <e r="RL"><p><l>pŵl<s n="adj"/></l><r>fading<s n="adj"/></r></p></e>
     <e><p><l>pwrpasol<s n="adj"/></l><r>suitable<s n="adj"/></r></p></e>
     <e><p><l>pybyr<s n="adj"/></l><r>ardent<s n="adj"/></r></p></e>
@@ -5969,14 +5970,14 @@
     <e><p><l>sengl<s n="adj"/></l><r>single<s n="adj"/></r></p></e>
     <e><p><l>sensitif<s n="adj"/></l><r>sensitive<s n="adj"/></r></p></e>
     <e><p><l>serth<s n="adj"/></l><r>steep<s n="adj"/><s n="sint"/></r></p></e> 
-    <e><p><l>sgleiniog<s n="adj"/></l><r>glossy<s n="adj"/></r></p></e>
+    <e><p><l>sgleiniog<s n="adj"/></l><r>glossy<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>Siapanaidd<s n="adj"/></l><r>Japanese<s n="adj"/></r></p></e>
     <e><p><l>siartredig<s n="adj"/></l><r>chartered<s n="adj"/></r></p></e>
     <e><p><l>sicr<s n="adj"/></l><r>sure<s n="adj"/><s n="sint"/></r></p></e> 
     <e r="RL"><p><l>sicr<s n="adj"/></l><r>certain<s n="adj"/></r></p></e>
     <e><p><l>sifil<s n="adj"/></l><r>civil<s n="adj"/></r></p></e>
     <e><p><l>siomedig<s n="adj"/></l><r>disappointed<s n="adj"/></r></p></e>
-    <e><p><l>sionc<s n="adj"/></l><r>nimble<s n="adj"/></r></p></e>
+    <e><p><l>sionc<s n="adj"/></l><r>nimble<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>sirol<s n="adj"/></l><r>county<s n="adj"/></r></p></e>
     <e><p><l>siwr<s n="adj"/></l><r>sure<s n="adj"/><s n="sint"/></r></p></e> 
     <e><p><l>siŵr<s n="adj"/></l><r>sure<s n="adj"/><s n="sint"/></r></p></e> 
@@ -6006,7 +6007,7 @@
     <e><p><l>mudol<s n="adj"/></l><r>moving<s n="adj"/></r></p></e>
     <e><p><l>syn<s n="adj"/></l><r>amazed<s n="adj"/></r></p></e>
     <e><p><l>synhwyrol<s n="adj"/></l><r>sensible<s n="adj"/></r></p></e>
-    <e><p><l>syntheseiddio<s n="adj"/></l><r>synthesise<s n="adj"/></r></p></e>
+    <e><p><l>syntheseiddio<s n="adj"/></l><r>synthesised<s n="adj"/></r></p></e>
     <e><p><l>synthetig<s n="adj"/></l><r>synthetic<s n="adj"/></r></p></e>
     <e><p><l>Syrilig<s n="adj"/></l><r>Cyrillic<s n="adj"/></r></p></e>
     <e><p><l>systematig<s n="adj"/></l><r>systematic<s n="adj"/></r></p></e>
@@ -6018,9 +6019,9 @@
     <e><p><l>tameidiog<s n="adj"/></l><r>fragmented<s n="adj"/></r></p></e>
     <e><p><l>tanfor<s n="adj"/></l><r>submarine<s n="adj"/></r></p></e>
     <e><p><l>tanysgrifiedig<s n="adj"/></l><r>subscribed<s n="adj"/></r></p></e>
-    <e><p><l>tawel<s n="adj"/></l><r>quiet<s n="adj"/></r></p></e>
+    <e><p><l>tawel<s n="adj"/></l><r>quiet<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>tebyg<s n="adj"/></l><r>similar<s n="adj"/></r></p></e>
-    <e><p><l>tebygol<s n="adj"/></l><r>likely<s n="adj"/></r></p></e>
+    <e><p><l>tebygol<s n="adj"/></l><r>likely<s n="adj"/><s n="sint"/></r></p></e>
     <e r="RL"><p><l>tebygol<s n="adj"/></l><r>probable<s n="adj"/></r></p></e>
     <e><p><l>technegol<s n="adj"/></l><r>technical<s n="adj"/></r></p></e>
     <e><p><l>technolegol<s n="adj"/></l><r>technological<s n="adj"/></r></p></e>
@@ -6032,7 +6033,7 @@
     <e><p><l>teuluol<s n="adj"/></l><r>familial<s n="adj"/></r></p></e>
     <e><p><l>therapiwtig<s n="adj"/></l><r>therapeutic<s n="adj"/></r></p></e>
     <e><p><l>thermodynamig<s n="adj"/></l><r>thermodynamic<s n="adj"/></r></p></e>
-    <e><p><l>tlws<s n="adj"/></l><r>pretty<s n="adj"/></r></p></e>
+    <e><p><l>tlws<s n="adj"/></l><r>pretty<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>toredig<s n="adj"/></l><r>broken<s n="adj"/></r></p></e>
     <e><p><l>torfol<s n="adj"/></l><r>collective<s n="adj"/></r></p></e>
     <e><p><l>tosturiol<s n="adj"/></l><r>compassionate<s n="adj"/></r></p></e>
@@ -6056,7 +6057,7 @@
     <e><p><l>tringar<s n="adj"/></l><r>sensitive<s n="adj"/></r></p></e>
     <e><p><l>trionglog<s n="adj"/></l><r>triangular<s n="adj"/></r></p></e>
     <e><p><l>triphlyg<s n="adj"/></l><r>triple<s n="adj"/></r></p></e>
-    <e><p><l>trist<s n="adj"/></l><r>sad<s n="adj"/></r></p></e>
+    <e><p><l>trist<s n="adj"/></l><r>sad<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>troellog<s n="adj"/></l><r>twisting<s n="adj"/></r></p></e>
     <e><p><l>troseddol<s n="adj"/></l><r>criminal<s n="adj"/></r></p></e>
     <e><p><l>trosfwaol<s n="adj"/></l><r>overarching<s n="adj"/></r></p></e>
@@ -6154,7 +6155,7 @@
     <e><p><l>ysgrifenedig<s n="adj"/></l><r>written<s n="adj"/></r></p></e>
     <e><p><l>ysgubol<s n="adj"/></l><r>sweeping<s n="adj"/></r></p></e>
     <e><p><l>ystadegol<s n="adj"/></l><r>statistical<s n="adj"/></r></p></e>
-    <e><p><l>ystwyth<s n="adj"/></l><r>supple<s n="adj"/></r></p></e>
+    <e><p><l>ystwyth<s n="adj"/></l><r>supple<s n="adj"/><s n="sint"/></r></p></e>
     <e r="RL"><p><l>ystyrlon<s n="adj"/></l><r>meaningful<s n="adj"/></r></p></e>
     <e><p><l>ystyrlon<s n="adj"/></l><r>significant<s n="adj"/></r></p></e>
     <e><p><l>agos<s n="adj"/><s n="sint"/></l><r>close<s n="adj"/><s n="sint"/></r></p></e> 
@@ -6646,10 +6647,13 @@
     <e><p><l>bocsio<s n="vblex"/></l><r>box<s n="vblex"/></r></p></e>
  
     <e><p><l>bod<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
-    <e><p><l>bod<s n="vrbnull"/></l><r></r></p></e>
+    <e r="LR"><p><l>bod<s n="vrbnull"/></l><r></r></p></e>
 
-    <e><p><l>dylwn<s n="vaux"/></l><r>should<s n="vaux"/></r></p></e>
- 
+    <e r="LR"><p><l>dylwn<s n="vaux"/><s n="pii"/></l><r>shall<s n="vbmod"/><s n="past"/></r></p></e>
+    <e r="LR"><p><l>dylwn<s n="vaux"/><s n="plu"/></l><r>shall<s n="vbmod"/><s n="past"/></r></p></e>
+    <e r="RL"><p><l>dylwn<s n="vaux"/></l><r>shall<s n="vbmod"/></r></p></e>
+
+
     <e><p><l>boddhau<s n="vblex"/></l><r>please<s n="vblex"/></r></p></e>
     <e><p><l>boddi<s n="vblex"/></l><r>drown<s n="vblex"/></r></p></e>
     <e><p><l>boddloni<s n="vblex"/></l><r>gratify<s n="vblex"/></r></p></e>
@@ -9728,7 +9732,7 @@
     <e><p><l>amlapio<s n="vblex"/></l><r>wrap<g><b/>around</g><s n="vblex"/></r></p></e>
     <e><p><l>anhuddo<s n="vblex"/></l><r>bank<g><b/>up</g><s n="vblex"/></r></p></e>
     <e><p><l>anlladu<s n="vblex"/></l><r>behave<g><b/>wantonly</g><s n="vblex"/></r></p></e>
-    <e><p><l>arafu<s n="vblex"/></l><r>slow<g><b/>down</g><s n="vblex"/></r></p></e>
+    <e><p><l>arafu<s n="vblex"/></l><r>slow<g><b/>down</g><s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>arogldarthu<s n="vblex"/></l><r>burn<g><b/>incense</g><s n="vblex"/></r></p></e>
     <e><p><l>atgnoi<s n="vblex"/></l><r>feel<g><b/>remorse</g><s n="vblex"/></r></p></e>
     <e><p><l>atgryfhau<s n="vblex"/></l><r>recover<g><b/>health</g><s n="vblex"/></r></p></e>
@@ -10033,7 +10037,7 @@
 
 
     <e r="LR"><p><l>gallu<s n="vblex"/><s n="S1"/></l><r>be<g><b/>able<b/>to</g><s n="vbmod"/></r></p></e>
-    <e><p><l>gallu<s n="vbmod"/></l><r>can<s n="vaux"/></r></p></e>
+    <e><p><l>gallu<s n="vbmod"/></l><r>can<s n="vbmod"/></r></p></e>
 
 
     <e><p><l>mwyglo<s n="vblex"/></l><r>be<g><b/>tepid</g><s n="vblex"/></r></p></e>
@@ -11399,176 +11403,176 @@
 
       <!-- Cognomens -->
 
-    <e><p><l>Cormack<s n="np"/><s n="cog"/></l><r>Cormack<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Macleod<s n="np"/><s n="cog"/></l><r>Macleod<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Cameron<s n="np"/><s n="cog"/></l><r>Cameron<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Colman<s n="np"/><s n="cog"/></l><r>Colman<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Cooper<s n="np"/><s n="cog"/></l><r>Cooper<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Murphy<s n="np"/><s n="cog"/></l><r>Murphy<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Parry<s n="np"/><s n="cog"/></l><r>Parry<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Price<s n="np"/><s n="cog"/></l><r>Price<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Prys<s n="np"/><s n="cog"/></l><r>Prys<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Glyn<s n="np"/><s n="cog"/></l><r>Glyn<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Cuthbertson<s n="np"/><s n="cog"/></l><r>Cuthbertson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Hutt<s n="np"/><s n="cog"/></l><r>Hutt<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Serwotka<s n="np"/><s n="cog"/></l><r>Serwotka<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Summers<s n="np"/><s n="cog"/></l><r>Summers<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Cormack<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Cormack<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Macleod<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Macleod<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Cameron<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Cameron<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Colman<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Colman<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Cooper<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Cooper<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Murphy<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Murphy<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Parry<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Parry<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Price<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Price<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Prys<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Prys<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Glyn<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Glyn<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Cuthbertson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Cuthbertson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Hutt<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Hutt<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Serwotka<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Serwotka<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Summers<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Summers<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
 
-    <e><p><l>Hart<s n="np"/><s n="cog"/></l><r>Hart<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>O'Leary<s n="np"/><s n="cog"/></l><r>O'Leary<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>O'Regan<s n="np"/><s n="cog"/></l><r>O'Regan<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Ifans<s n="np"/><s n="cog"/></l><r>Ifans<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Bourne<s n="np"/><s n="cog"/></l><r>Bourne<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Randerson<s n="np"/><s n="cog"/></l><r>Randerson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Ffransis<s n="np"/><s n="cog"/></l><r>Ffransis<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Hart<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Hart<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>O'Leary<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>O'Leary<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>O'Regan<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>O'Regan<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Ifans<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Ifans<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Bourne<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Bourne<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Randerson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Randerson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Ffransis<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Ffransis<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
 
-    <e><p><l>Wood<s n="np"/><s n="cog"/></l><r>Wood<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Turner<s n="np"/><s n="cog"/></l><r>Turner<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Hill<s n="np"/><s n="cog"/></l><r>Hill<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Morris<s n="np"/><s n="cog"/></l><r>Morris<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Moore<s n="np"/><s n="cog"/></l><r>Moore<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>King<s n="np"/><s n="cog"/></l><r>King<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Baker<s n="np"/><s n="cog"/></l><r>Baker<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Allen<s n="np"/><s n="cog"/></l><r>Allen<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Parker<s n="np"/><s n="cog"/></l><r>Parker<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Bennett<s n="np"/><s n="cog"/></l><r>Bennett<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Cook<s n="np"/><s n="cog"/></l><r>Cook<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Shaw<s n="np"/><s n="cog"/></l><r>Shaw<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Richardson<s n="np"/><s n="cog"/></l><r>Richardson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Adams<s n="np"/><s n="cog"/></l><r>Adams<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Richards<s n="np"/><s n="cog"/></l><r>Richards<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Wilkinson<s n="np"/><s n="cog"/></l><r>Wilkinson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Foster<s n="np"/><s n="cog"/></l><r>Foster<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Chapman<s n="np"/><s n="cog"/></l><r>Chapman<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Powell<s n="np"/><s n="cog"/></l><r>Powell<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Webb<s n="np"/><s n="cog"/></l><r>Webb<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Rogers<s n="np"/><s n="cog"/></l><r>Rogers<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Hunt<s n="np"/><s n="cog"/></l><r>Hunt<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Holmes<s n="np"/><s n="cog"/></l><r>Holmes<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Palmer<s n="np"/><s n="cog"/></l><r>Palmer<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Matthews<s n="np"/><s n="cog"/></l><r>Matthews<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Fisher<s n="np"/><s n="cog"/></l><r>Fisher<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Barnes<s n="np"/><s n="cog"/></l><r>Barnes<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Knight<s n="np"/><s n="cog"/></l><r>Knight<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Barker<s n="np"/><s n="cog"/></l><r>Barker<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Butler<s n="np"/><s n="cog"/></l><r>Butler<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Jenkins<s n="np"/><s n="cog"/></l><r>Jenkins<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Stevens<s n="np"/><s n="cog"/></l><r>Stevens<s n="np"/><s n="cog"/></r></p></e>
-
-
-    <e><p><l>Galliford<s n="np"/><s n="cog"/></l><r>Galliford<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>German<s n="np"/><s n="cog"/></l><r>German<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Collins<s n="np"/><s n="cog"/></l><r>Collins<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Evans<s n="np"/><s n="cog"/></l><r>Evans<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Thomas<s n="np"/><s n="cog"/></l><r>Thomas<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Roberts<s n="np"/><s n="cog"/></l><r>Roberts<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Williams<s n="np"/><s n="cog"/></l><r>Williams<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Dixon<s n="np"/><s n="cog"/></l><r>Dixon<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Blears<s n="np"/><s n="cog"/></l><r>Blears<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Hughes<s n="np"/><s n="cog"/></l><r>Hughes<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Huws<s n="np"/><s n="cog"/></l><r>Huws<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Lewis<s n="np"/><s n="cog"/></l><r>Lewis<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Morgan<s n="np"/><s n="cog"/></l><r>Morgan<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Griffiths<s n="np"/><s n="cog"/></l><r>Griffiths<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Cyfanswm<s n="np"/><s n="cog"/></l><r>Cyfanswm<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Davies<s n="np"/><s n="cog"/></l><r>Davies<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Jones<s n="np"/><s n="cog"/></l><r>Jones<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Dodd<s n="np"/><s n="cog"/></l><r>Dodd<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Machreth<s n="np"/><s n="cog"/></l><r>Machreth<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Llwyd<s n="np"/><s n="cog"/></l><r>Llwyd<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Lloyd<s n="np"/><s n="cog"/></l><r>Lloyd<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Nelson<s n="np"/><s n="cog"/></l><r>Nelson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Havard<s n="np"/><s n="cog"/></l><r>Havard<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Haf<s n="np"/><s n="cog"/></l><r>Haf<s n="np"/><s n="cog"/></r></p></e>
-
-    <e><p><l>Alexander<s n="np"/><s n="cog"/></l><r>Alexander<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Ali<s n="np"/><s n="cog"/></l><r>Ali<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Allan<s n="np"/><s n="cog"/></l><r>Allan<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Anderson<s n="np"/><s n="cog"/></l><r>Anderson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Bell<s n="np"/><s n="cog"/></l><r>Bell<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Black<s n="np"/><s n="cog"/></l><r>Black<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Brown<s n="np"/><s n="cog"/></l><r>Brown<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Cameron<s n="np"/><s n="cog"/></l><r>Cameron<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Campbell<s n="np"/><s n="cog"/></l><r>Campbell<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Clark<s n="np"/><s n="cog"/></l><r>Clark<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Clarke<s n="np"/><s n="cog"/></l><r>Clarke<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Cox<s n="np"/><s n="cog"/></l><r>Cox<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Davidson<s n="np"/><s n="cog"/></l><r>Davidson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Davies<s n="np"/><s n="cog"/></l><r>Davies<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Davis<s n="np"/><s n="cog"/></l><r>Davis<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Dhesi<s n="np"/><s n="cog"/></l><r>Dhesi<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Duncan<s n="np"/><s n="cog"/></l><r>Duncan<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Edwards<s n="np"/><s n="cog"/></l><r>Edwards<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Law<s n="np"/><s n="cog"/></l><r>Law<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Evans<s n="np"/><s n="cog"/></l><r>Evans<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Ferguson<s n="np"/><s n="cog"/></l><r>Ferguson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Fraser<s n="np"/><s n="cog"/></l><r>Fraser<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Gibson<s n="np"/><s n="cog"/></l><r>Gibson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Graham<s n="np"/><s n="cog"/></l><r>Graham<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Grant<s n="np"/><s n="cog"/></l><r>Grant<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Gray<s n="np"/><s n="cog"/></l><r>Gray<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Green<s n="np"/><s n="cog"/></l><r>Green<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Hall<s n="np"/><s n="cog"/></l><r>Hall<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Hamilton<s n="np"/><s n="cog"/></l><r>Hamilton<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Harris<s n="np"/><s n="cog"/></l><r>Harris<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Henderson<s n="np"/><s n="cog"/></l><r>Henderson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Hughes<s n="np"/><s n="cog"/></l><r>Hughes<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Hunter<s n="np"/><s n="cog"/></l><r>Hunter<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Jackson<s n="np"/><s n="cog"/></l><r>Jackson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>James<s n="np"/><s n="cog"/></l><r>James<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Johnson<s n="np"/><s n="cog"/></l><r>Johnson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Johnston<s n="np"/><s n="cog"/></l><r>Johnston<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Jones<s n="np"/><s n="cog"/></l><r>Jones<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Kelly<s n="np"/><s n="cog"/></l><r>Kelly<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Kerr<s n="np"/><s n="cog"/></l><r>Kerr<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Khan<s n="np"/><s n="cog"/></l><r>Khan<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Lewis<s n="np"/><s n="cog"/></l><r>Lewis<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Macdonald<s n="np"/><s n="cog"/></l><r>Macdonald<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Mackay<s n="np"/><s n="cog"/></l><r>Mackay<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Mackenzie<s n="np"/><s n="cog"/></l><r>Mackenzie<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>MacLeod<s n="np"/><s n="cog"/></l><r>MacLeod<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Marshall<s n="np"/><s n="cog"/></l><r>Marshall<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Martin<s n="np"/><s n="cog"/></l><r>Martin<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Mason<s n="np"/><s n="cog"/></l><r>Mason<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>McDonald<s n="np"/><s n="cog"/></l><r>McDonald<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>McLean<s n="np"/><s n="cog"/></l><r>McLean<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Miller<s n="np"/><s n="cog"/></l><r>Miller<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Mitchell<s n="np"/><s n="cog"/></l><r>Mitchell<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Morrison<s n="np"/><s n="cog"/></l><r>Morrison<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Murray<s n="np"/><s n="cog"/></l><r>Murray<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Patel<s n="np"/><s n="cog"/></l><r>Patel<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Paterson<s n="np"/><s n="cog"/></l><r>Paterson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Phillips<s n="np"/><s n="cog"/></l><r>Phillips<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Reid<s n="np"/><s n="cog"/></l><r>Reid<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Roberts<s n="np"/><s n="cog"/></l><r>Roberts<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Robertson<s n="np"/><s n="cog"/></l><r>Robertson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Robinson<s n="np"/><s n="cog"/></l><r>Robinson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Rodriguez<s n="np"/><s n="cog"/></l><r>Rodriguez<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Rose<s n="np"/><s n="cog"/></l><r>Rose<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Ross<s n="np"/><s n="cog"/></l><r>Ross<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Russell<s n="np"/><s n="cog"/></l><r>Russell<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Scott<s n="np"/><s n="cog"/></l><r>Scott<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Simpson<s n="np"/><s n="cog"/></l><r>Simpson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Slater<s n="np"/><s n="cog"/></l><r>Slater<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Smith<s n="np"/><s n="cog"/></l><r>Smith<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Stewart<s n="np"/><s n="cog"/></l><r>Stewart<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Taylor<s n="np"/><s n="cog"/></l><r>Taylor<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Thomas<s n="np"/><s n="cog"/></l><r>Thomas<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Thompson<s n="np"/><s n="cog"/></l><r>Thompson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Thomson<s n="np"/><s n="cog"/></l><r>Thomson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Walker<s n="np"/><s n="cog"/></l><r>Walker<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Wallace<s n="np"/><s n="cog"/></l><r>Wallace<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Watson<s n="np"/><s n="cog"/></l><r>Watson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>White<s n="np"/><s n="cog"/></l><r>White<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Williams<s n="np"/><s n="cog"/></l><r>Williams<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Wilson<s n="np"/><s n="cog"/></l><r>Wilson<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Wright<s n="np"/><s n="cog"/></l><r>Wright<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Young<s n="np"/><s n="cog"/></l><r>Young<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Wood<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Wood<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Turner<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Turner<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Hill<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Hill<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Morris<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Morris<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Moore<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Moore<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>King<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>King<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Baker<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Baker<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Allen<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Allen<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Parker<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Parker<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Bennett<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Bennett<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Cook<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Cook<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Shaw<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Shaw<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Richardson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Richardson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Adams<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Adams<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Richards<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Richards<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Wilkinson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Wilkinson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Foster<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Foster<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Chapman<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Chapman<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Powell<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Powell<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Webb<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Webb<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Rogers<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Rogers<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Hunt<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Hunt<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Holmes<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Holmes<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Palmer<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Palmer<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Matthews<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Matthews<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Fisher<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Fisher<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Barnes<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Barnes<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Knight<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Knight<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Barker<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Barker<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Butler<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Butler<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Jenkins<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Jenkins<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Stevens<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Stevens<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
 
 
-    <e><p><l>Edwards<s n="np"/><s n="cog"/></l><r>Edwards<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Mills<s n="np"/><s n="cog"/></l><r>Mills<s n="np"/><s n="cog"/></r></p></e>
-    <e><p><l>Glyndŵr<s n="np"/><s n="cog"/></l><r>Glyndŵr<s n="np"/><s n="cog"/></r></p></e>
+    <e><p><l>Galliford<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Galliford<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>German<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>German<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Collins<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Collins<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Evans<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Evans<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Thomas<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Thomas<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Roberts<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Roberts<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Williams<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Williams<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Dixon<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Dixon<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Blears<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Blears<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Hughes<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Hughes<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Huws<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Huws<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Lewis<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Lewis<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Morgan<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Morgan<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Griffiths<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Griffiths<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Cyfanswm<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Cyfanswm<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Davies<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Davies<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Jones<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Jones<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Dodd<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Dodd<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Machreth<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Machreth<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Llwyd<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Llwyd<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Lloyd<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Lloyd<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Nelson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Nelson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Havard<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Havard<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Haf<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Haf<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+
+    <e><p><l>Alexander<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Alexander<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Ali<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Ali<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Allan<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Allan<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Anderson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Anderson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Bell<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Bell<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Black<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Black<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Brown<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Brown<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Cameron<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Cameron<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Campbell<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Campbell<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Clark<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Clark<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Clarke<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Clarke<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Cox<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Cox<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Davidson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Davidson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Davies<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Davies<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Davis<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Davis<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Dhesi<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Dhesi<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Duncan<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Duncan<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Edwards<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Edwards<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Law<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Law<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Evans<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Evans<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Ferguson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Ferguson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Fraser<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Fraser<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Gibson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Gibson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Graham<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Graham<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Grant<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Grant<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Gray<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Gray<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Green<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Green<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Hall<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Hall<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Hamilton<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Hamilton<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Harris<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Harris<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Henderson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Henderson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Hughes<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Hughes<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Hunter<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Hunter<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Jackson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Jackson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>James<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>James<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Johnson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Johnson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Johnston<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Johnston<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Jones<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Jones<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Kelly<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Kelly<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Kerr<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Kerr<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Khan<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Khan<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Lewis<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Lewis<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Macdonald<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Macdonald<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Mackay<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Mackay<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Mackenzie<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Mackenzie<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>MacLeod<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>MacLeod<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Marshall<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Marshall<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Martin<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Martin<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Mason<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Mason<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>McDonald<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>McDonald<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>McLean<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>McLean<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Miller<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Miller<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Mitchell<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Mitchell<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Morrison<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Morrison<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Murray<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Murray<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Patel<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Patel<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Paterson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Paterson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Phillips<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Phillips<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Reid<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Reid<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Roberts<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Roberts<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Robertson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Robertson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Robinson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Robinson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Rodriguez<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Rodriguez<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Rose<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Rose<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Ross<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Ross<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Russell<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Russell<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Scott<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Scott<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Simpson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Simpson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Slater<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Slater<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Smith<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Smith<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Stewart<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Stewart<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Taylor<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Taylor<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Thomas<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Thomas<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Thompson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Thompson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Thomson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Thomson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Walker<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Walker<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Wallace<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Wallace<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Watson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Watson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>White<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>White<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Williams<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Williams<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Wilson<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Wilson<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Wright<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Wright<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Young<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Young<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+
+
+    <e><p><l>Edwards<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Edwards<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Mills<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Mills<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    <e><p><l>Glyndŵr<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></l><r>Glyndŵr<s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
 
 
  

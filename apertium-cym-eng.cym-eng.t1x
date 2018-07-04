@@ -254,7 +254,7 @@ You need to recompile after editing this file, so that the rule-changes are seen
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
-      <attr-item tags="n.unc"/>
+      <!--<attr-item tags="n.unc"/>-->
       <attr-item tags="np.top"/>
       <attr-item tags="np.org"/>
       <attr-item tags="np.ant"/>
@@ -549,8 +549,8 @@ You need to recompile after editing this file, so that the rule-changes are seen
                 <let>
                   <var n="verbfinal"/>
                   <concat>
-                      <lit v="would"/>
-                      <lit-tag v="vaux.inf"/>
+                      <lit v="will"/>
+                      <lit-tag v="vbmod.past"/>
                       <lit v="$ ^"/>
                       <clip pos="1" side="tl" part="lemh"/>
                       <clip pos="1" side="tl" part="a_verb"/>
@@ -4443,6 +4443,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="sep"/>
 	      <lit-tag v="pp"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -4502,6 +4503,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="sep"/>
               <lit-tag v="inf"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -4530,6 +4532,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="sep"/>
               <clip pos="1" side="tl" part="temps" link-to="3"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -4558,6 +4561,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="sep"/>
               <clip pos="1" side="tl" part="temps" link-to="3"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -4629,6 +4633,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="sep"/>
               <clip pos="1" side="tl" part="temps" link-to="3"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -4657,6 +4662,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="sep"/>
               <clip pos="1" side="tl" part="temps" link-to="3"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -4685,6 +4691,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="sep"/>
               <clip pos="1" side="tl" part="temps" link-to="3"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -4712,6 +4719,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="sep"/>
               <clip pos="1" side="tl" part="temps" link-to="3"/>
             </lu>
           </chunk>
@@ -4742,6 +4750,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
 	      <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="sep"/>
               <lit-tag v="inf"/>
 	      <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -4775,6 +4784,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="sep"/>
               <clip pos="2" side="tl" part="temps" link-to="3"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
@@ -4813,6 +4823,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="sep"/>
               <lit-tag v="ger"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
@@ -4852,6 +4863,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="3" side="tl" part="lemh"/>
               <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="sep"/>
               <lit-tag v="ger"/>
               <clip pos="3" side="tl" part="lemq"/>
             </lu>
@@ -4883,6 +4895,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="sep"/>
               <clip pos="2" side="tl" part="temps" link-to="3"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
@@ -4926,6 +4939,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="3" side="tl" part="lemh"/>
               <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="sep"/>
               <clip pos="3" side="tl" part="temps" link-to="3"/>
               <clip pos="3" side="tl" part="lemq"/>
             </lu>
@@ -4970,6 +4984,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="3" side="tl" part="lemh"/>
               <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="sep"/>
               <clip pos="3" side="tl" part="temps" link-to="3"/>
               <clip pos="3" side="tl" part="lemq"/>
             </lu>
@@ -5016,6 +5031,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="sep"/>
               <clip pos="2" side="tl" part="temps" link-to="3"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
@@ -5053,6 +5069,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="sep"/>
               <clip pos="2" side="tl" part="temps" link-to="3"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
@@ -5092,6 +5109,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="sep"/>
               <clip pos="2" side="tl" part="temps" link-to="3"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
@@ -5130,6 +5148,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="sep"/>
               <clip pos="2" side="tl" part="temps" link-to="3"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
@@ -5168,6 +5187,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="sep"/>
               <clip pos="2" side="tl" part="temps" link-to="3"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
@@ -5213,6 +5233,7 @@ it converts this seqence to the English "this boy", "this girl"
             <lu>
               <clip pos="4" side="tl" part="lemh"/>
               <clip pos="4" side="tl" part="a_verb"/>
+              <clip pos="4" side="tl" part="sep"/>
               <clip pos="4" side="tl" part="temps" link-to="3"/>
 	      <lit-tag v="4"/>
 	      <lit-tag v="5"/>
