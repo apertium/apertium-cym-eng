@@ -216,6 +216,8 @@ You need to recompile after editing this file, so that the rule-changes are seen
       <cat-item tags="vbmod.fut.*"/>
       <cat-item tags="vbmod.pres.*"/>
       <cat-item tags="vbmod.prs.*"/>
+      <cat-item tags="vbmod.past.*"/>
+      <cat-item tags="vbmod.plu.*"/>
     </def-cat>
 
     <def-cat n="guio">
@@ -236,6 +238,9 @@ You need to recompile after editing this file, so that the rule-changes are seen
       <attr-item tags="adj"/>
       <attr-item tags="adj.sint"/>
       <attr-item tags="adj.pos"/>
+      <attr-item tags="adj.ord"/>
+      <attr-item tags="det.itg"/>
+      <attr-item tags="predet.sp"/>
     </def-attr>
     <def-attr n="a_det">
       <attr-item tags="det.ind"/>
@@ -245,6 +250,8 @@ You need to recompile after editing this file, so that the rule-changes are seen
       <attr-item tags="det.itg"/>
       <attr-item tags="det.qnt"/>
       <attr-item tags="det.ord"/>
+      <attr-item tags="adj.ord"/>
+      <attr-item tags="adv.itg"/>
     </def-attr>
     <def-attr n="a_num">
       <attr-item tags="num"/>
@@ -277,6 +284,8 @@ You need to recompile after editing this file, so that the rule-changes are seen
       <attr-item tags="prn.obj"/>
       <attr-item tags="prn.itg"/>
       <attr-item tags="prn.tn"/>
+      <attr-item tags="prn.ind"/>
+      <attr-item tags="prn.dem"/>
     </def-attr>
     <def-attr n="a_rel">
       <attr-item tags="rel.an"/>
