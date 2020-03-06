@@ -120,6 +120,15 @@
   </sdefs>
   <section id="main" type="standard">
 
+<e r="LR"><p><l>ni<s n="vpart"/></l><r></r></p></e>
+<e r="LR"><p><l>na<s n="vpart"/></l><r></r></p></e>
+<e r="LR"><p><l>a<s n="vpart"/></l><r></r></p></e>
+<e r="LR"><p><l>oni<s n="vpart"/></l><r></r></p></e>
+<e r="LR"><p><l>fe<s n="vpart"/></l><r></r></p></e>
+<e r="LR"><p><l>yr<s n="vpart"/></l><r></r></p></e>
+<e r="LR"><p><l>mi<s n="vpart"/></l><r></r></p></e>
+
+
     <!-- Determiners -->
  
 <e>       <p><l>yr<s n="det"/></l>                     <r>the<s n="det"/></r></p></e>
