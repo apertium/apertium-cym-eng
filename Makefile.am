@@ -193,8 +193,7 @@ apertium_cym_eng_DATA=	\
 	$(BASENAME).$(PREFIX1).t3x			\
 	$(BASENAME).$(PREFIX2).t1x			\
 	$(BASENAME).$(PREFIX2).t2x			\
-	$(BASENAME).$(PREFIX2).t3x			\
-	pre-$(PREFIX2).t1x
+	$(BASENAME).$(PREFIX2).t3x
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode
