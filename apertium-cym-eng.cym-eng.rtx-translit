@@ -1,0 +1,372 @@
+!!!!!!
+!!!!!! This is mostly a direct transliteration of cym-eng.t*x
+!!!!!! It is here for testing purposes
+!!!!!! It should be removed before merging this branch with master
+!!!!!!
+
+num: a_num;
+np: a_nom.gen.nbr;
+np_top: a_nom.nbr;
+prn_pers: a_prn.pers.gen.nbr;
+prn_impers: a_prn.gen.nbr;
+det: a_det.nbr;
+n_base: a_nom.nbr;
+pr: _;
+guio: _;
+adv: _;
+cm: _;
+cnjcoo: _;
+cnjsub: _;
+
+n: (always 1(n_base)[nbr=(if (1.nbr = sp) sg else 1.nbr)]);
+
+rel: _.<an>.<mf>.<sp>;
+
+a_cnj = cnjcoo cnjsub cnjadv ;
+a_adj = adj "adj.sint" "adj.pos" "adj.ord" "det.itg" "predet.sp" ;
+a_det = "det.ind" "det.def" "det.pos" "det.dem" "det.itg" "det.qnt" "det.ord" "adj.ord" "adv.itg" ;
+a_num = num "num.mon" "num.ord" ;
+a_nom = n "n.acr" "np.top" "np.org" "np.ant" "np.cog" ;
+a_mood = neg imp aff itg ;
+a_verb = vblex vbmod vaux vbser ;
+a_prn = "prn.subj" "prn.obj" "prn.itg" "prn.tn" "prn.ind" "prn.dem" ;
+sep = sep ;
+a_np_acr = np acr ;
+nbr = (ND sg) sp sg pl ND ;
+deg = sup comp ;
+gen = (GD m) f m mf nt GD nt ;
+pers = (PD p3) p1 p2 p3 PD ;
+temps = (TD pres) TD past prs cni pii fut pres imp inf plu cns ger pp ;
+
+SV: a_frase.a_verb.temps.pers.nbr;
+SN: _.pers.gen.nbr;
+
+a_frase = SV SN SP ;
+sv_ser_temps = cni cns fut imp past pii plu pres prs ;
+pos_neg = (no no) yes no ;
+
+t2x: _.pos_neg.temps;
+
+temps > temps : prs pres, pii past, plu past;
+
+vbsercj_temps = plu pii past prs;
+
+vbcj_temps = cni cns pii fut pres past plu prs;
+
+verb_pers: a_verb.sep.temps.pers.nbr;
+verb_impers: a_verb.sep.temps;
+conj_verb: (if ((1.a_verb/tl = vbser) and (1.temps/sl in vbsercj_temps) and
+                ((1.pers/sl = p1) or (1.pers/sl = p3)) and (1.nbr/sl = sg))
+               1(verb_pers)[temps=past]
+            if ((1.temps/sl = pres) and (1.nbr/sl = sg) and
+                (((1.a_verb/tl = vbser) and (1.pers/sl = p1)) or (1.pers/sl = p3)))
+               1(verb_pers)
+            if (1.temps/sl = cni)
+               [ will@vbmod.past _ 1(verb_impers)[temps=inf] ]
+            if (1.temps/sl = cns)
+               [ might@vaux.inf _ 1(verb_impers)[temps=inf] ]
+            if (1.temps/sl = fut)
+               [ will@vaux.inf _ 1(verb_impers)[temps=inf] ]
+            if ((1.temps/sl = pres) or (1.temps/sl = prs) or (1.temps/sl = imp))
+               1(verb_impers)[temps=pres]
+            if ((1.temps/sl = plu) or (1.temps/sl = past) or (1.temps/sl = pii))
+               1(verb_impers)[temps=past]);
+
+temps_for_impers = past pres pii;
+
+verbcj: _.a_verb.temps.pers.nbr;
+verbcj -> %vblex.[vbcj_temps]
+          [$lem=(if ((1.temps/sl = cni) or (1.temps/sl = cns) or (1.temps/sl = fut)) aux_verb else verbcj)]
+          { %1(conj_verb) } |
+
+          2: %vblex.[temps_for_impers].impers [$lem=verbcj]
+          { !prpers(prn_pers)[a_prn="prn.subj", gen=nt, nbr=sg, lemcase=$lemcase] _
+            be(verb_impers)[a_verb=vbser, temps=1.temps] _ 1(verb_impers)[temps=pp, lemcase=aa] } |
+
+          %vbser.[vbcj_temps]
+          [$lem=(if ((1.temps/sl = cni) or (1.temps/sl = cns) or (1.temps/sl = fut)) aux_verb else verbcj)]
+          { %1(conj_verb)[lemcase=$lemcase] } |
+
+          1: %vbser.[vbsercj_temps].*.sg
+          [$lem=verbcj, $temps=(if ((1.pers/sl = p1) or (1.pers/sl = p3)) past else 1.temps)]
+          { %1(conj_verb) } |
+
+          %vbmod.[vbcj_temps]
+          [$lem=(if ((1.temps/sl = cni) or (1.temps/sl = cns) or (1.temps/sl = fut)) aux_verb else verbcj)]
+          { %1(conj_verb) } |
+
+          %vbser.imp.$temps/sl [$lem=verbcj] { %1(conj_verb) } |
+
+          %vbmod.imp.$temps/sl [$lem=verbcj] { %1(conj_verb) } ;
+
+!    <def-macro n="prnobj_from_detpos1" npar="1">
+!      $$prntags = ""
+!      <choose>
+!        if (1.lem/sl =cl fy) $$prntags = "prn.obj.p1.mf.sg"
+!        if (1.lem/sl =cl dy) $$prntags = "prn.obj.p2.mf.sg"
+!        if (1.lem/sl =cl ei) $$prntags = "prn.obj.p3.[1.gen/sl].sg"
+!        if (1.lem/sl =cl ein) $$prntags = "prn.obj.p1.mf.pl"
+!        if (1.lem/sl =cl eich) $$prntags = "prn.obj.p2.mf.pl"
+!        if (1.lem/sl =cl eu) $$prntags = "prn.obj.p3.mf.pl"
+!        else $$prntags = ""
+!      </choose>
+!    </def-macro>
+
+adj_sint: <adj>.<sint>.deg;
+adj_no_sint: a_adj;
+adj: (if (1.a_adj/tl = "adj.sint") 1(adj_sint)
+      if ((1.a_adj/sl = "adj.sint") and (1.deg/sl = comp))
+         [ more@adv _ 1(adj_no_sint) ]
+      if ((1.a_adj/sl = "adj.sint") and (1.deg/sl = sup))
+         [ most@adv _ 1(adj_no_sint) ]
+      if (1.pos_tag/tl = det)
+         1(det)
+      else 1(adj_no_sint));
+
+NP_AC: _.nbr;
+NP_AC -> np.ant.$nbr/tl { %1 } |
+         np.cog.$nbr/tl { %1 } |
+         !* np.cog.$nbr/tl { 1 _1 %2 } |
+         NP_AC.$nbr NP_AC { %1 _1 %2 } |
+         NP_AC.$nbr guio NP_AC { %1 _1 2 _2 %3 } ;
+
+N: _.nbr;
+N -> %n { %1 } |
+     !%n N { 2 _1 1 } |
+     %n N { %1 _1 2 } |
+     1: %n adj { 2 _1 1 } |
+     adj %n { 1 _1 2 } |
+     %n guio n { 1 _1 2 _2 3 } |
+     n adj adj (if (2.lem/sl = llawer) { much@det.qnt.sg _2 3 _1 1 }
+                else { 3 _2 2 _1 1 }) |
+     num N [$nbr=(if ((1.lem/tl = "1") or (1.lem/tl = one)) sg else pl)] { %1 _1 %2 } |
+     %n cm n { 1 _1 2 _2 3 } |
+     %n cm n n { 1 _1 2 _2 3 _3 4 } ;
+
+DN: _.nbr;
+DN -> det %N { 1 _1 2 } |
+      %np.top { 1(np_top) } |
+      N DN [$nbr=(if (1.nbr = sp) 2.nbr else 1.nbr)] { the@det.def.sp _ %1 _ of@pr _ 2 } ;
+
+NPloc: _;
+NPloc -> np.top { 1(np_top) } |
+         det np.top { 2(np_top) } |
+         np { 1 } |
+         np np { 1 _1 2 } ;
+
+SN -> num [$nbr=(if ((1.lem/tl = "1") or (1.lem/tl = one)) sg else pl)] { %1 } |
+      !%N { a@det.ind.sg _ %1 } |
+      %N { %1 } |
+      %DN { %1 } |
+      1: num.mon.$nbr/tl [$lem=mon] { %1 } |
+      NP_AC.$nbr { %1 } |
+      %prpers@prn.subj [$lem=prnsubj] { %1(prn_pers) } |
+      %prpers@prn.obj [$lem=prnobj] { %1(prn_pers) } |
+      prn.tn.$nbr/tl [$lem=prn] { %1(prn_impers) } |
+      prn.itg.$nbr/tl [$lem=prn] { %1(prn_impers) } |
+      num o@postnum %det n { 1 _1 _2 3 _3 %4 } |
+      %DN NPloc { 1 _1 2 } |
+      num yr@det.def.sp n.$nbr/tl { 1 _1 per@pr _2 %3 } |
+      det N.$nbr det (if (3.a_det/sl = "det.dem")
+                         { 3 _1 %2 }
+                      else
+                         { 1 _1 %2 _2 3 }) |
+      num adj [$nbr=ND] { 1 _1 2 } |
+      det n.$nbr/tl adj (if (3.lem/tl = this) { 3 _2 %2 }
+                         if (3.lem/tl = all) { 3 _2 1 _2 %2 }
+                         else { 1 _1 3 _2 %2 }) ;
+
+
+SD: _.a_det.nbr;
+SD -> %det { %1 } |
+      %det det { %1 (if (not ((1.a_det/sl = "det.qnt") or (2.a_det/sl = "det.def"))) [ _ %2 ]) } ;
+
+!    <rule comment="REGLA: DET NOM DET NOM">
+!      <pattern>det n det n</pattern>
+!      <action>
+!        [ SN.[2.nbr/tl] [lem=det_nom] { 1 _ %2 } _ SN.[4.nbr/tl] [lem=det_nom] { 3 _ %4 } ]
+!      </action>
+!    </rule>
+
+
+comparative = mor cyn;
+SA: _;
+SA -> adj { 1 } |
+      adj adv { 2 _1 1 } |
+      yn@pr adj { 2 } |
+      yn@pr adj adv { 3 _2 2 } |
+      $comparative@adv adj â@pr { as@pr _1 2 _2 as@pr } |
+      $comparative@adv adj â@cnjcoo { as@pr _1 2 _2 as@pr } ;
+
+Vpart: _.a_mood;
+Vpart -> vpart.$a_mood/tl [$lem=1.lem/sl] {} ;
+
+SV: _.a_verb.temps.pers.nbr;
+impers_temps = cni cns pii fut pres past plu prs;
+SV -> %vblex.[impers_temps].impers { be@vbser.[1.temps/tl] _ 1(verb_impers)[temps=pp] } |
+      %vbser.[impers_temps].impers { be@vbser.[1.temps/tl] _ 1(verb_impers)[temps=pp] } ;
+
+temps_impers = imp ger inf;
+
+SV -> %verbcj { %1[lemcase=$lemcase] } |
+      %vblex.[temps_impers] { %1(verb_impers) } |
+      1: %cael@vblex.inf [$lem=verbcael] { %1(verb_impers) } |
+      %vbser.inf { %1(verb_impers) } |
+      %vaux { %1(verb_impers) } ;
+
+SV -> %vaux vblex.inf [$a_verb=vblex, $lem=verbcj_inf] { 1(verb_impers)[temps=inf] _ 2(verb_impers) } ;
+
+SV -> yn@pr vblex.inf.$a_verb/tl [$temps=ger, $lem=verbger] { %2(verb_impers) } ;
+
+SV -> vbser.pres.$temps/tl.$pers/tl.$nbr/tl vblex.inf [$a_verb=vblex, $lem=verbcj_verbger]
+      { (if (((1.pers/sl = p1) or (1.pers/sl = p3)) and (1.nbr/sl = sg))
+            %1(verb_pers)[a_verb=1.a_verb/tl]
+         else 1(verb_impers)[temps=pres, a_verb=1.a_verb/tl])
+        _1 2(verb_impers)[temps=ger] } ;
+
+SV -> %verbcj yn@pr vblex.inf [$lem=verbcj_verbger] { 1 _1 3(verb_impers)[temps=ger] } ;
+
+!    <rule comment="REGLA: DET pos VERB inf">
+!      <pattern>det.pos vblex.inf</pattern>
+!      <action>
+!        prnobj_from_detpos1(1)
+!        [ SV.[2.a_verb/tl].inf [lem=verbinf] { %2(verb_impers) } _ SN.[$$prntags] [lem=prnobj] { prpers@[prntags] } ]
+!      </action>
+!    </rule>
+!    <rule comment="REGLA: yn DET pos VERB inf">
+!      <pattern>yn@pr det.pos vblex.inf</pattern>
+!      <action>
+!        prnobj_from_detpos1(2)
+!        [ SV.[3.a_verb/tl].ger [lem=verbger] { %3(verb_impers) } _ SN.[$$prntags] [lem=prnobj] { prpers@[prntags] } ]
+!      </action>
+!    </rule>
+!    <rule comment="REGLA: yn DET pos VERB inf PRNSUBJ">
+!      <pattern>yn@pr det.pos vblex.inf prpers@prn.subj</pattern>
+!      <action>
+!        prnobj_from_detpos1(2)
+!        [ SV.[3.a_verb/tl].ger [lem=verbger] { %3(verb_impers) } _ SN.[$$prntags] [lem=prnobj] { prpers@[prntags] } ]
+!      </action>
+!    </rule>
+
+pr_vinf = tan "yn lle" at "tuag at" o wrth tra gan;
+pr_while = wrth tra gan;
+t2x -> $pr_vinf@SP SV.vblex.inf
+       { (if (1.lem incl pr_while) while@cnjadv
+          if (1.lem equalcl tan) until@cnjadv    !TODO =cl parses wrong
+          else 1)
+         _1 2[temps=ger] } ;
+t2x -> o@postnum SV.vblex.inf { _1 2[temps=ger] } |
+       $pr_while@cnjsub SV.vblex.inf { while@cnjsub _1 2[temps=ger] } |
+       tra@adv SV.vblex.inf { while@cnjsub _1 2[temps=ger] } ;
+
+rel SV -> rel vbser.pres.$a_verb/tl yn@pr vblex.inf
+          [$temps=pres, $pers=p3, $nbr=sg, $lem=verbcj]
+          { 1 _ { %4(verb_pers)[a_verb=4.a_verb] } } ;
+SP: _;
+SP -> pr.$lem/sl { 1 } ;
+
+verbfinal_ser: (if (1.nbr = sg) be@vbser.[1.temps].p3.sg
+                else be@vbser.[1.temps]);
+verbfinal_haver: (if (1.nbr = sg) have@vbhaver.[1.temps].p3.sg
+                  else have@vbhaver.[1.temps]);
+verbfinal_ser_tense: (always 1(verbfinal_ser)[temps=(if ((1.temps = past) or (1.temps = pii)) past else pres)]);
+verbfinal_haver_tense: (always 1(verbfinal_haver)[temps=(if ((1.temps = past) or (1.temps = pii)) past else pres)]);
+
+ARG: _.nbr;
+ARG -> %SN { 1 } |
+       %SN cnjcoo SN { 1 _1 2 _2 3 } |
+       %SN cm SN { 1 _1 2 _2 3 } |
+       %SD SN { 1 _1 2 } |
+       %SD.det.pos SN prnsubj@SN { 1 _1 2 } ;
+
+t2x -> SN { 1[nbr=(if ((1.nbr = sp) and (not (1.lem = prn))) sg
+                   else 1.nbr)] } ;
+t2x -> Vpart [$pos_neg=(if (1.tags = "Vpart.neg") yes else no)]
+       { (if ($pos_neg=yes) not@adv) } ;
+t2x -> ddim@adv [$pos_neg=yes] { (if ($pos_neg=yes) not@adv) } ;
+
+t2x -> Vpart SV [$pos_neg=(if (1.tags = "Vpart.neg") yes else no)]
+       { (if (((2.a_verb = vblex) or (2.a_verb = vbser)) and
+              ((2.pers = p1) or (2.pers = p2)))
+             [ prpers@prn.subj.[2.pers].mf.[2.nbr] _ ])
+         2
+         (if ($pos_neg = yes) [ _ not@adv ]) } ;
+
+t2x -> Vpart SV ARG [$pos_neg=(if (1.tags = "Vpart.neg") yes else no)]
+       (if (1.tags = "Vpart.neg")
+           { 3 _ 2 _ not@adv }
+        if ((1.tags = "Vpart.itg") and (1.lem equalcl a)) ! TODO: again with =cl
+           { do@vbdo.past _ 3 _ 2[temps=inf] }
+        if ((1.tags = "Vpart.itg") and (1.lem equalcl oni))
+           { do@vbdo.past _ not@adv _ 3 _ 2[temps=inf] }
+        else { 3 _ 2 }) ;
+
+t2x -> prn@SN SV [$temps=(if (1.temps = pii) past if (1.lem = verbcj) 1.temps else pres)]
+       { 1 _ 2[nbr=1.nbr] } |
+
+       SV ARG [$temps=(if (1.temps = pii) past if (1.lem = verbcj) 1.temps else pres)]
+       (if ((1.temps = inf) or (1.temps = imp)) { 1[nbr=2.nbr] _ 2 }
+        else { 2[lemcase=1.lemcase] _ 1[lemcase=2.lemcase, nbr=2.nbr] }) |
+       3: SV.vbser ARG adj [$temps=(if (1.temps = pii) past if (1.lem = verbcj) 1.temps else pres)]
+       (if ((1.temps = inf) or (1.temps = imp)) { 1[nbr=2.nbr] _ 2 _ 3 }
+        else { 2[lemcase=1.lemcase] _ 1[lemcase=2.lemcase, nbr=2.nbr] _ 3 }) ;
+
+t2x -> SV SN SN [$temps=(if (1.temps = pii) past if (1.lem = verbcj) 1.temps else pres)]
+       { 2[lemcase=1.lemcase] _ 1[lemcase=2.lemcase, nbr=2.nbr] _ 3 } ;
+
+t2x -> mai@cnjsub SN SV SN
+       [$temps=(if (1.temps = pii) past if (1.lem = verbcj) 1.temps else pres)]
+       { 1 _1 2 _2 3[nbr=2.nbr] _3 4 } ;
+
+t2x -> mon@SN o@SP SN { 1 _ 2 _ 3 } ;
+t2x -> SN rel SV SN { 1 _ 2 _ 3[nbr=1.nbr] _ 4 } ;
+
+t2x -> SV SN SV.vblex.inf SN
+       [$temps=(if (1.temps = pii) past if (1.lem = verbcj) 1.temps else pres)]
+       { 2[lemcase=1.lemcase] _ 1[lemcase=2.lemcase, nbr=2.nbr] _ 3 _ 4 } ;
+
+t2x -> SV.vbser.[sv_ser_temps] wedi@SP SV.vblex.inf
+       { 1(verbfinal_haver_tense) _ 3[temps=pp] } |
+       SV.vbser.[sv_ser_temps] SN wedi@SP SV.vblex.inf
+       { 2 _ 2(verbfinal_haver_tense)[temps=1.temps] _ 4[temps=pp] } |
+       SV.vbser.[sv_ser_temps] SN am@SP SV.vblex.inf
+       { 2 _ 2(verbfinal_ser_tense)[temps=1.temps] _ go@vblex.ger _ to@pr _ 4 } ;
+
+inf_n_pr_inf = wedi am ar;
+t2x -> SV.vbser.inf SN $inf_n_pr_inf@SP SV.vblex.inf
+       { that@cnjsub _ 2 _ (if (3.lem = wedi)
+                               [ 2(verbfinal_haver)[temps=pres] _ 4[temps=pp] ]
+                            if (3.lem = am)
+                               [ will@vaux _ 4 ]
+                            else ! ar
+                               [ 2(verbfinal_ser)[temps=past] _ "about to"@pr _ 4 ]) } ;
+t2x -> SV.vbser.inf SN wedi@SP SV.vblex.inf SV.vblex.inf
+       { that@cnjsub _ 2 _ 2(verbfinal_haver)[temps=pres] _ 4[temps=pp] _ to@pr _ 5 } ;
+pos_inf_prn_pr_inf = wedi am ar;
+t2x -> SD.det.pos SV.vbser.inf prnsubj@SN $pos_inf_prn_pr_inf@SP SV.vblex.inf
+       { that@cnjsub _ 3 _ (if (4.lem = wedi)
+                               [ 2(verbfinal_haver)[temps=pres] _ 5[temps=pp] ]
+                            if (4.lem = am)
+                               [ will@vaux.inf _ 5 ]
+                            else ! ar
+                               [ 3(verbfinal_ser)[temps=pres] _ "about to"@pr _ 5 ]) } ;
+t2x -> SV.vbser.inf SN SV.vblex.ger
+       { that@cnjsub _ 2 _ 2(verbfinal_ser)[temps=pres] _ 3 } |
+
+       SD.det.pos SV.vbser.inf prnsubj@SN SV.vblex.ger
+       { that@cnjsub _ 3 _ 3(verbfinal_ser)[temps=pres] _ 4 } |
+
+t2x -> SD.det.pos SV.vbser.inf prnsubj@SN verbcael@SV.vblex.inf SN SP
+       { that@cnjsub _ 3 _ 3(verbfinal_ser)[temps=pres] _ have@vbhaver.ger _ 5 _ 6 } ;
+
+subcl_sp = wedi wrth cyn erbyn "ar ôl";
+subcl_en = after as before "by the time that";
+lem > subcl_en : wedi after, wrth as, cyn before, erbyn "by the time that", "ar ôl" after;
+t2x -> $subcl_sp@SP i@SP SN SV.vblex.inf
+       { *(cnjsub)[lem=1.lem>subcl_en] _ 3 _ 4[temps=$temps] } ;
+
+S: _.pos_neg.temps;
+S -> %t2x { %1 } |
+     %S t2x [$temps=(if (1.temps = TD) 2.temps else 1.temps),
+             $pos_neg=(if ((1.pos_neg = yes) or (2.pos_neg = yes)) yes else no)]
+     { %1 _1 %2[pos_neg=(if (1.pos_neg = no) $pos_neg else no)] } ;

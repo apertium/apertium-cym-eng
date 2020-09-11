@@ -31,7 +31,10 @@ TARGETS_COMMON =		\
 	$(PREFIX2).t2x.bin	\
 	$(PREFIX2).t3x.bin	\
 	pre-$(PREFIX2).t1x.bin	\
-	pre-$(PREFIX2).t1x
+	pre-$(PREFIX2).t1x	\
+	$(PREFIX1).rtx.bin	\
+	$(PREFIX2).rtx.bin	\
+	$(PREFIX1).rtx-translit.bin
 
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
@@ -136,6 +139,16 @@ $(PREFIX2).t2x.bin: $(BASENAME).$(PREFIX2).t2x
 $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 	apertium-validate-postchunk $<
 	apertium-preprocess-transfer $< $@
+
+
+$(PREFIX1).rtx.bin: $(BASENAME).$(PREFIX1).rtx
+	rtx-comp $< $@
+
+$(PREFIX1).rtx-translit.bin: $(BASENAME).$(PREFIX1).rtx-translit
+	rtx-comp $< $@
+
+$(PREFIX2).rtx.bin: $(BASENAME).$(PREFIX2).rtx
+	rtx-comp $< $@
 
 ###############################################################################
 ## Monolingual transfer rules (after structural transfer and before generation)

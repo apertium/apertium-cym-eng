@@ -1,0 +1,67 @@
+det_type = ind def dem pos ord ;
+adj_type = sint ;
+case = subj obj ref emph ;
+
+a_det = "det.ind" "det.def" "det.dem" "det.pos" "det.ord" ;
+a_verb = vblex vbmod vbser vbhaver ;
+a_adj = adj "adj.sint" ;
+a_nom = n "n.acr" "n.unc" "np.loc" "np.ant" ;
+a_np_acr = np acr ;
+pers = p1 p2 p3 ;
+deg = comp sup ;
+nbr = (ND sg) sg pl sp ND ;
+gen = (GD m) f m mf nt GD ;
+temps = past prs cni pii fut pres imp inf plu cns ger ;
+
+prepos_adjs = hen ambell pob prif holl cryn ;
+
+n: _.gen.nbr;
+np: _.gen.nbr;
+det: _.det_type.nbr;
+pr: _;
+prn: _.case.pers.gen.nbr;
+
+base_adj: _.adj_type.deg;
+adj: (if ((1.adj_type/sl = sint) and (1.adj_type/tl = "") and (1.deg/sl not = ""))
+         [ mawr(base_adj)[adj_type=sint, lemcase=1.lemcase, deg=1.deg/sl] _ 1(base_adj) ]
+      else 1(base_adj));
+
+verb_fin: _.temps.pers.nbr;
+verb_inf: _.temps;
+verb: (if (1.temps = inf) 1(verb_inf)
+       else 1(verb_fin));
+vblex: (always 1(verb));
+vbmod: (always 1(verb));
+vbser: (always 1(verb));
+vbhaver: (always 1(verb));
+
+NOM: _.gen.nbr;
+NP: _.gen.nbr;
+DP: _.gen.nbr;
+DET: _;
+V: _.temps.pers.nbr;
+S: _;
+
+NOM -> %n {%1} |
+       %np.top {%1} ;
+
+NP -> %NOM {%1} |
+      adj %NOM { (if (2.lem/tl in prepos_adjs) [1 _1 %2]
+                  else [2[lemcase=$lemcase] _1 1[lemcase=aa]]) } ;
+
+DP -> %NP {%1} |
+      DET %NP { (if (1.det_type/sl = ind) %2[lemcase=$lemcase]
+                 else [1 _1 %2]) } ;
+
+DET -> det { (if (1.det_type not = ind) 1) } ;
+
+V -> %vblex {%1} |
+     %vbmod {%1} |
+     %vbser {%1} |
+     %vbhaver {%1} |
+     0: "instead of"@pr %V.ger [$temps=inf] { 1 _1 %2 } ;
+
+S -> DP V { 2[lemcase=$lemcase] _1 1[lemcase=aa] } |
+     prn.subj V { 2[lemcase=$lemcase] _1 1[lemcase=aa] } |
+     DP V DP { 2[lemcase=$lemcase] _1 1[lemcase=aa] _2 3 } ;
+

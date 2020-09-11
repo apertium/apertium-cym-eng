@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <mode name="cym-eng" install="yes">
+  <mode name="cym-eng" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="cym-eng.automorf.bin"/>
@@ -36,42 +36,7 @@
     </pipeline>
   </mode>
 
-  <mode name="cym-eng-morph" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="cym-eng.automorf.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="cym-eng-disam" install="no">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="cym-eng.automorf.bin"/>
-      </program>
-      <program name="cg-conv -a"/>
-      <program name="vislcg3 --trace --grammar">
-        <file name="cym-eng.rlx.bin"/> 
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="cym-eng-tagger" install="no">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="cym-eng.automorf.bin"/>
-      </program>
-      <program name="cg-proc">
-        <file name="cym-eng.rlx.bin"/> 
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="cym-eng.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-    </pipeline>
-  </mode>
-
-  <mode name="cym-eng-biltrans" install="no">
+  <mode name="cym-eng_rtx" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="cym-eng.automorf.bin"/>
@@ -86,10 +51,19 @@
       <program name="lt-proc -b">
         <file name="cym-eng.autobil.bin"/>
       </program>
+      <program name="rtx-proc">
+        <file name="cym-eng.rtx.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="cym-eng.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="cym-eng.autopgen.bin"/>
+      </program>
     </pipeline>
   </mode>
 
-  <mode name="cym-eng-chunker" install="no">
+  <mode name="cym-eng_rtx_translit" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="cym-eng.automorf.bin"/>
@@ -104,65 +78,14 @@
       <program name="lt-proc -b">
         <file name="cym-eng.autobil.bin"/>
       </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-cym-eng.cym-eng.t1x"/>
-        <file name="cym-eng.t1x.bin"/>
+      <program name="rtx-proc">
+        <file name="cym-eng.rtx-translit.bin"/>
       </program>
-    </pipeline>
-  </mode>
-
-  <mode name="cym-eng-interchunk" install="no">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="cym-eng.automorf.bin"/>
+      <program name="lt-proc $1">
+        <file name="cym-eng.autogen.bin"/>
       </program>
-      <program name="cg-proc">
-        <file name="cym-eng.rlx.bin"/> 
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="cym-eng.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="cym-eng.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-cym-eng.cym-eng.t1x"/>
-        <file name="cym-eng.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-cym-eng.cym-eng.t2x"/>
-        <file name="cym-eng.t2x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="cym-eng-postchunk" install="no">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="cym-eng.automorf.bin"/>
-      </program>
-      <program name="cg-proc">
-        <file name="cym-eng.rlx.bin"/> 
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="cym-eng.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="cym-eng.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-cym-eng.cym-eng.t1x"/>
-        <file name="cym-eng.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-cym-eng.cym-eng.t2x"/>
-        <file name="cym-eng.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-cym-eng.cym-eng.t3x"/>
-        <file name="cym-eng.t3x.bin"/>
+      <program name="lt-proc -p">
+        <file name="cym-eng.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
