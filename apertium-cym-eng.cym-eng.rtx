@@ -30,7 +30,6 @@ adj: (if (1.a_adj/tl = "adj.sint") 1(adj_sint)
          1(det)
       else 1(adj_no_sint));
 SA: _;
-adv: _;
 
 NP_AC: _.nbr;
 NPloc: _;
@@ -94,8 +93,8 @@ N -> %n { %1 } |
      %n N { %1 _ 2 } |
      %n guio n { 1 2 3 } |
      NUM.$nbr %N { %1 _ %2 } |
-     %n cm n { 1 _ 2 _ 3 } |
-     %n cm n n { 1 _ 2 _ 3 _ 4 } ;
+     %n cm n { 1 2 _ 3 } |
+     %n cm n n { 1 2 _ 3 _ 4 } ;
 
 SN -> %N { %1 } |
       1: %SN SA { %2 _ 1 } |
@@ -103,7 +102,8 @@ SN -> %N { %1 } |
       %NUM { %1 } ;
       
 
-SD -> DET %SN { 1 _ 2 } |
+SD -> 2: DET %SN { 1 _ 2 } |
+      %SN { 1 } |
       %NP_AC { %1 } |
       %NPloc { %1 } |
       SN SD [$nbr=(if (1.nbr = sp) 2.nbr else 1.nbr)] { the@det.def.sp _ %1 _ of@pr _ 2 } |
@@ -114,14 +114,14 @@ SD -> DET %SN { 1 _ 2 } |
       num o@postnum %SD { 1 _ 3 } |
       %SD NPloc { 1 _ 2 } |
       NUM yr@det.def.sp %SN { 1 _ per@pr _ %3 } |
-      DET %SN DET (if (3.a_det/sl = "det.dem")
+      DET %SN DET (if (3.a_det = "det.dem")
                       { 3 _ %2 }
                    else
                       { 1 _ %2 _ 3 }) |
       NUM SA [$nbr=ND] { 1 _ 2 } |
       2: DET n.$nbr/tl adj (if (3.lem/tl = all) { 3 _ 1 _ %2 }
                             else { 1 _ 3 _ %2 }) |
-      %SD cm SD { 1 _ 2 _ 3 } |
+      %SD cm SD { 1 2 _ 3 } |
       %SD cnjcoo SD { 1 _ 2 _ 3 } |
       %SD.det.pos SN prnsubj@SN { 1 _ 2 } ;
 
@@ -180,3 +180,15 @@ detpos_to_prnobj: (if (1.lem/sl equalcl fy) prpers@prn.obj.p1.mf.sg
                    if (1.lem/sl equalcl eu) prpers@prn.obj.p3.mf.pl
                    else []);
 
+S: _;
+SP: _;
+
+SP -> pr SD { 1 _ 2 } ;
+
+S -> V SD SD { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 3 } |
+     V SD SP { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 3 } |
+     V SD SA { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 3 } |
+     V SD yn@part SA { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 4 } |
+     V SD yn@pr SA { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 4 } |
+     V.vbser SD yn@part V.*.ger SD { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 4 _ 5 } |
+     V SD V.*.inf SD { 2 _ 1[nbr=2.nbr,pers=2.pers] _ to@pr _ 3 _ 4 } ;
