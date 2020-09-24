@@ -142,6 +142,11 @@ tense_to_aux: (if (1.temps = cni) [ will@vbmod.past _ ]
                if (1.temps = fut) [ will@vaux.inf _ ]
                else []);
 
+tense_to_itg: (if (1.temps = cni) [ will@vbmod.past _ ]
+               if (1.temps = cns) [ might@vaux.inf _ ]
+               if (1.temps = fut) [ will@vaux.inf _ ]
+               else [ do@vbdo.[1.temps>eng_tense] ]);
+
 eng_tense = (TD pres) TD inf pres past imp pp ger ;
 temps > eng_tense : cni inf, cns inf, fut inf,
                     pres pres, prs pres, imp pres,
@@ -185,10 +190,18 @@ SP: _;
 
 SP -> pr SD { 1 _ 2 } ;
 
-S -> V SD SD { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 3 } |
-     V SD SP { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 3 } |
-     V SD SA { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 3 } |
-     V SD yn@part SA { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 4 } |
-     V SD yn@pr SA { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 4 } |
-     V.vbser SD yn@part V.*.ger SD { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 4 _ 5 } |
-     V SD V.*.inf SD { 2 _ 1[nbr=2.nbr,pers=2.pers] _ to@pr _ 3 _ 4 } ;
+OBJ: _;
+OBJ -> SD { 1 } |
+       SP { 1 } |
+       SA { 1 } |
+       yn@part SA { 2 } |
+       yn@part V.*.ger SD { 2 _ 3 } |
+       V.*.inf SD { to@pr _ 1 _ 2 } |
+       DET.det.pos bod@V.vbser SD wedi@pr V { that@prn.rel.an.mf.sp _ 3 _ have@vbhaver.pres _ 5 } ;
+
+
+S -> V SD { (if (1.temps = imp) [ 1 _ 2 ]
+             else [ 2 _ 1[nbr=2.nbr,pers=2.pers] ]) } |
+     V SD OBJ { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 3 } |
+     oni@vpart.itg V SD { 2(tense_to_itg) + not@adv _ 3 _ 2[nbr=2.nbr,pers=2.pers,temps=inf] } |
+     oni@vpart.itg V SD OBJ { 2(tense_to_itg) + not@adv _ 3 _ 2[nbr=2.nbr,pers=2.pers,temps=inf] _ 4 } ;
