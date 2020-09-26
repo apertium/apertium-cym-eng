@@ -123,7 +123,8 @@ SD -> 2: DET %SN { 1 _ 2 } |
                             else { 1 _ 3 _ %2 }) |
       %SD cm SD { 1 2 _ 3 } |
       %SD cnjcoo SD { 1 _ 2 _ 3 } |
-      %SD.det.pos SN prnsubj@SN { 1 _ 2 } ;
+      %SD.det.pos SN prnsubj@SN { 1 _ 2 } |
+      %SD NREL { 1 _ 2 } ;
 
 
 DET -> %det { %1 } |
@@ -190,6 +191,19 @@ SP: _;
 
 SP -> pr SD { 1 _ 2 } ;
 
+NREL: _;
+NREL -> rel V.vbser yn@pr V.*.inf SD { 1 _ 4[temps=2.temps,nbr=2.nbr,pers=2.pers] _ 5 } ;
+
+VREL: _;
+VREL -> bod@V.vbser.inf SD pr V.vblex.inf
+          { that@rel.an.mf.sp _ 2 _
+              (if (3.lem/sl = am)
+                  [ will@vbmod.pres _ 4 ]
+               if (3.lem/sl = wedi)
+                  [ have@vbhaver.pres.p3.sg _ 4[temps=pp] ] ! TODO: actually conjugate
+               if (3.lem/sl = ar)
+                  [ be@vbser.past.p3.sg _ about@pr _ to@pr _ 4 ] ) } ;
+
 OBJ: _;
 OBJ -> SD { 1 } |
        SP { 1 } |
@@ -197,11 +211,19 @@ OBJ -> SD { 1 } |
        yn@part SA { 2 } |
        yn@part V.*.ger SD { 2 _ 3 } |
        V.*.inf SD { to@pr _ 1 _ 2 } |
-       DET.det.pos bod@V.vbser SD wedi@pr V { that@prn.rel.an.mf.sp _ 3 _ have@vbhaver.pres _ 5 } ;
+       DET.det.pos bod@V.vbser SD wedi@pr V
+            { that@prn.rel.an.mf.sp _ 3 _
+              (if (3.nbr = sg and 3.pers = p3)
+                  have@vbhaver.pres.p3.sg
+               else
+                  have@vbhaver.pres)
+              _ 5[temps=pp] } |
+       VREL { 1 } ;
 
 
 S -> V SD { (if (1.temps = imp) [ 1 _ 2 ]
              else [ 2 _ 1[nbr=2.nbr,pers=2.pers] ]) } |
      V SD OBJ { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 3 } |
+     V.vbser SD yn@part V.*.ger { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 4 } |
      oni@vpart.itg V SD { 2(tense_to_itg) + not@adv _ 3 _ 2[nbr=2.nbr,pers=2.pers,temps=inf] } |
      oni@vpart.itg V SD OBJ { 2(tense_to_itg) + not@adv _ 3 _ 2[nbr=2.nbr,pers=2.pers,temps=inf] _ 4 } ;
