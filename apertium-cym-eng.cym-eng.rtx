@@ -175,6 +175,7 @@ V -> %vblex.$lem/sl { %1(verb) } |
      %vbmod.$lem/sl { %1(verb) } |
      %vbser.$lem/sl { %1(verb) } |
      %vaux.$lem/sl  { %1(verb) } |
+     vpart.neg %vbmod.$lem/sl { %2(verb) + not@adv } |
      1: %vbser.[vbsercj_temps].*.sg [$temps=(if ((1.pers/sl = p1) or (1.pers/sl = p3)) past else 1.temps)]
         { %1(verb) } |
      1: %vblex.[impers_temps].impers { be@vbser.[$temps] _ 1(verb_impers)[temps=pp] } |
@@ -193,8 +194,20 @@ V -> %vblex.$lem/sl { %1(verb) } |
               [ %be(verb)[a_verb=vbser] _ about@pr _ to@pr _ 2 ]
            if (1.lem/sl = wedi)
                 [ %have(verb)[pos_tag=vbhaver] _ 2[temps=pp] ]) } |
-     %cael@V.vblex V.vblex.inf { %1 _ to@pr _ 2 } ;
+     %cael@V.vblex V.vblex.inf { %1 _ to@pr _ 2 } |
+     %V.vbmod V.vblex.inf { 1 _ 2 } ;
 
+
+detpos_lems = fy dy ei ein eich eu;
+detpos_lems > pers : fy p1, dy p2, ei p3, ein p1, eich p2, eu p3;
+detpos_lems > nbr : fy sg, dy sg, ei sg, ein pl, eich pl, eu pl;
+! TODO: make this approach work
+
+detpos_p1 = fy ein;
+detpos_p2 = dy eich;
+detpos_p3 = ei eu;
+detpos_sg = fy dy ei;
+detpos_pl = ein eich eu;
 
 detpos_to_prnobj: (if (1.lem/sl equalcl fy) prpers@prn.obj.p1.mf.sg
                    if (1.lem/sl equalcl dy) prpers@prn.obj.p2.mf.sg
@@ -203,6 +216,14 @@ detpos_to_prnobj: (if (1.lem/sl equalcl fy) prpers@prn.obj.p1.mf.sg
                    if (1.lem/sl equalcl eich) prpers@prn.obj.p2.mf.pl
                    if (1.lem/sl equalcl eu) prpers@prn.obj.p3.mf.pl
                    else []);
+
+detpos_to_prnsubj: (if (1.lem/sl equalcl fy) prpers@prn.subj.p1.mf.sg
+                    if (1.lem/sl equalcl dy) prpers@prn.subj.p2.mf.sg
+                    if (1.lem/sl equalcl ei) prpers@prn.subj.p3.[1.gen/sl].sg
+                    if (1.lem/sl equalcl ein) prpers@prn.subj.p1.mf.pl
+                    if (1.lem/sl equalcl eich) prpers@prn.subj.p2.mf.pl
+                    if (1.lem/sl equalcl eu) prpers@prn.subj.p3.mf.pl
+                    else []);
 
 S: _;
 SP: _;
@@ -221,7 +242,17 @@ VREL -> bod@V.vbser.inf SD V.vblex.inf
             _ 4[temps=pres, nbr=3.nbr,pers=3.pers] } |
         det.pos bod@V.vbser.inf SD yn@pr V.vblex.inf
           { that@rel.an.mf.sp _ 3[lem=(if (3.lem = prnobj) prnsubj else 3.lem)]
-            _ be(verb)[a_verb=vbser,temps=pres,pers=3.pers,nbr=2.nbr,sep=""] _ 5[temps=ger] } ;
+            _ be(verb)[a_verb=vbser,temps=pres,pers=3.pers,nbr=2.nbr,sep=""] _ 5[temps=ger] } |
+        det.pos bod@V.vbser.inf yn@part V.vblex.ger SD
+          { that@rel.an.mf.sp _ 1(detpos_to_prnsubj) _
+            2[temps=pres,pers=(if (1.lem/sl incl detpos_p1) p1
+                               if (1.lem/sl incl detpos_p2) p2
+                               if (1.lem/sl incl detpos_p3) p3
+                               else p3),
+                         nbr=(if (1.lem/sl incl detpos_sg) sg
+                              if (1.lem/sl incl detpos_pl) pl
+                              else sg)]
+            _ 4 _ 5 } ;
 
 OBJ: _;
 OBJ -> SD { 1 } |
@@ -241,6 +272,7 @@ OBJ -> SD { 1 } |
        yn@pr V.*.inf VREL { 2[temps=ger] _ 3 } |
        wedi@pr i@pr SD V.vblex.inf { 1 _ 3 _ 4[temps=past,nbr=3.nbr,pers=3.pers] } ;
 
+p1or2 = p1 p2;
 
 S -> V SD { (if (1.temps = imp) [ 1 _ 2 ]
              else [ 2 _ 1[nbr=2.nbr,pers=2.pers] ]) } |
@@ -251,4 +283,6 @@ S -> V SD { (if (1.temps = imp) [ 1 _ 2 ]
      bod@V.vbser gan@pr SD SD { 3 _ have(verb)[a_verb=vbhaver,temps=1.temps,nbr=3.nbr,pers=3.pers,sep=""] _ 4 } |
      oni@vpart.itg V SD { 2(tense_to_itg) + not@adv _ 3 _ 2[nbr=2.nbr,pers=2.pers,temps=inf] } |
      oni@vpart.itg V SD OBJ { 2(tense_to_itg) + not@adv _ 3 _ 2[nbr=2.nbr,pers=2.pers,temps=inf] _ 4 } |
-     S adv { 1 _ 2 } ;
+     S adv { 1 _ 2 } |
+     SD V.vbser V.vblex.inf { prpers@prn.subj.p3.nt.sg _ 2 _ 1 _ 3 } |
+     V.*.[p1or2] OBJ { prpers@prn.subj.[1.pers].mf.[1.nbr] _ 1 _ 2 } ;
