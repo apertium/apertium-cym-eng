@@ -156,6 +156,7 @@ eng_tense = (TD pres) TD inf pres past imp pp ger ;
 temps > eng_tense : cni inf, cns inf, fut inf,
                     pres pres, prs pres, imp pres,
                     plu past, past past, pii past ;
+                    ! TODO: there seems to be a bug here that makes it sometimes not convert <fut>
 
 verb_pers: a_verb.sep.temps.pers.nbr;
 verb_impers: a_verb.sep.temps;
@@ -280,9 +281,12 @@ S -> V SD { (if (1.temps = imp) [ 1 _ 2 ]
      V.vbser SD yn@part V.*.ger { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 4 } |
      V.vbser SD V.*.ger { 2 _ 1[nbr=2.nbr,pers=2.pers] _ 3 } |
      V.vbser SD V.*.inf { 2 _ 3[temps=1.temps,nbr=2.nbr,pers=2.pers] } |
-     bod@V.vbser gan@pr SD SD { 3 _ have(verb)[a_verb=vbhaver,temps=1.temps,nbr=3.nbr,pers=3.pers,sep=""] _ 4 } |
+     bod@V.vbser gan@pr SD SD
+        { 3[lem=(if (3.lem = prnobj) prnsubj else 3.lem)] _
+          have(verb)[a_verb=vbhaver,temps=1.temps,nbr=3.nbr,pers=3.pers,sep=""] _ 4 } |
      oni@vpart.itg V SD { 2(tense_to_itg) + not@adv _ 3 _ 2[nbr=2.nbr,pers=2.pers,temps=inf] } |
      oni@vpart.itg V SD OBJ { 2(tense_to_itg) + not@adv _ 3 _ 2[nbr=2.nbr,pers=2.pers,temps=inf] _ 4 } |
      S adv { 1 _ 2 } |
      SD V.vbser V.vblex.inf { prpers@prn.subj.p3.nt.sg _ 2 _ 1 _ 3 } |
-     V.*.[p1or2] OBJ { prpers@prn.subj.[1.pers].mf.[1.nbr] _ 1 _ 2 } ;
+     V.*.[p1or2] OBJ { prpers@prn.subj.[1.pers].mf.[1.nbr] _ 1 _ 2 } |
+     SD V.vbser SD { 1 _ 2 _ 3 } ;
