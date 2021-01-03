@@ -2,7 +2,6 @@
 ## Makefile for Welsh--English
 ###############################################################################
 
-VERSION=0.1.0
 LANG1=cym
 LANG2=eng
 PREFIX1=$(LANG1)-$(LANG2)
@@ -213,11 +212,10 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "house" | apertium -d . ron-cat | tee .test-mt
-	@echo "house" > .test-ref
+	echo "Tŷ" | apertium -d . cym-eng | tee .test-mt
+	@echo "House" > .test-ref
 	@diff .test-ref .test-mt
-	echo "house" | apertium -d . cat-ron | tee .test-mt
-	@echo "house" > .test-ref
+	echo "House" | apertium -d . eng-cym | tee .test-mt
+	@echo "Tŷ" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
-

@@ -1,25 +1,11 @@
-#                                               -*- Autoconf -*-
-# Process this file with autoconf to produce a configure script.
-
-
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Welsh-English], [0.1.1], [ftyers@users.sourceforge.net], [apertium-cym-eng], [http://wiki.apertium.org/wiki/Apertium-cym-eng])
-AM_INIT_AUTOMAKE([apertium-cym-eng], [0.1.1], no-define)
-
-AC_PROG_LN_S
+AC_INIT([Apertium Welsh-English], [0.1.1], [apertium-stuff@lists.sourceforge.net], [apertium-cym-eng], [http://wiki.apertium.org/wiki/Apertium-cym-eng])
+AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
-AC_CONFIG_HEADER([config])
-
-m4_define([required_apertium_version], [3.4.0])
-PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version)])
-
-AC_PATH_PROG([CGCOMP], [cg-comp], [false], [$PATH$PATH_SEPARATOR$with_cg_comp/bin])
-AS_IF([test x$CGCOMP = xfalse], [AC_MSG_ERROR([You don't have cg-comp installed])])
-
-AC_PATH_PROG([CGPROC], [cg-proc], [false], [$PATH$PATH_SEPARATOR$with_cg_proc/bin])
-AS_IF([test x$CGPROC = xfalse], [AC_MSG_ERROR([You don't have cg-proc installed])])
+PKG_CHECK_MODULES(APERTIUM, apertium >= 3.7.1)
+PKG_CHECK_MODULES(CG3, cg3 >= 1.3.2)
 
 AC_PATH_PROGS(ZCAT, [gzcat zcat], [false])
 AS_IF([test x$ZCAT = xfalse], [AC_MSG_ERROR([You don't have zcat nor gzcat installed])])

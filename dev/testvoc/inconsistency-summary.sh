@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 INC=$1
 PAIR=$2
 OUT=testvoc-summary.$PAIR.txt

@@ -1,40 +1,7 @@
-* text=auto !eol
-/ACKNOWLEDGEMENTS -text
-/AUTHORS -text
-/COPYING -text
-/ChangeLog -text
-/Makefile.am -text
-/NEWS -text
-/README -text
-/TODO -text
-/apertium-cy-en.cy-en.dix -text
-/apertium-cy-en.cy-en.rlx -text
-/apertium-cy-en.cy-en.t1x -text
-/apertium-cy-en.cy-en.t2x -text
-/apertium-cy-en.cy-en.t3x -text
-/apertium-cy-en.cy.acx -text
-/apertium-cy-en.cy.dix -text
-/apertium-cy-en.cy.tsx -text
-/apertium-cy-en.en-cy.t1x -text
-/apertium-cy-en.en-cy.t2x -text
-/apertium-cy-en.en-cy.t3x -text
-/apertium-cy-en.en-poly.dix -text
-/apertium-cy-en.en.acx -text
-/apertium-cy-en.en.dix -text
-/apertium-cy-en.en.tsx -text
-/apertium-cy-en.orth-cy.dix -text
-/apertium-cy-en.post-cy.dix -text
-/apertium-cy-en.post-en.dix -text
-/apertium-cy-en.pre-cy.t1x -text
-/autogen.sh -text
-/configure.ac -text
-/cy-en.prob -text svneol=unset#unset
-dev/qtoutput.csv -text
-/en-cy.prob -text svneol=unset#unset
-/modes.xml -text
-/regression-tests.sh -text
+* text eol=lf
 *.dix linguist-language=XML linguist-detectable=true
 *.lrx linguist-language=XML linguist-detectable=true
 *.lsx linguist-language=XML linguist-detectable=true
 *.tsx linguist-language=XML linguist-detectable=true
 *.t[[:digit:]]x linguist-language=XML linguist-detectable=true
+*.prob binary

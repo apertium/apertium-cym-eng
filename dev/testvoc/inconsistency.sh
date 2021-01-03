@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 TMPDIR=/tmp
 
 if [[ $1 = "cym-eng" ]]; then
@@ -25,5 +26,5 @@ rm $TMPDIR/tmp_testvoc2-$1.txt
 rm $TMPDIR/tmp_testvoc3-$1.txt
 
 else
-	echo "sh inconsistency.sh <direction>";
+	echo "inconsistency.sh <direction>";
 fi
