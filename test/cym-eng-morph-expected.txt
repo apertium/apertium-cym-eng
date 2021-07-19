@@ -1,0 +1,32 @@
+[0ZQkgxvgUC3R#0] ^p'un/pa<prn><itg><mf><sp>+un<num><sg>$
+[/0ZQkgxvgUC3R]
+[1EGadFDa-rIs#0] ^‘r lleill/y llall<prn><tn><mf><pl>$
+[/1EGadFDa-rIs]
+[24t2khaiT32p#0] ^S1294/S1294<n><acr><sp>$
+[/24t2khaiT32p]
+[5_bAEXdujbfN#0] ^6/6<num><sp>$
+[/5_bAEXdujbfN]
+[6CYbAy-b_1xa#0] ^p‘un/pa<prn><itg><mf><sp>+un<num><sg>$
+[/6CYbAy-b_1xa]
+[7R9XoK80O57j#0] ^aur/aur<n><m><sp>$
+[/7R9XoK80O57j]
+[8sT7Nj6KCMAD#0] ^02il/02il<num><ord>$
+[/8sT7Nj6KCMAD]
+[H8CRRfJHzwcs#0] ^'ma/yma<det><dem><mf><sp>$
+[/H8CRRfJHzwcs]
+[J217d7k43noR#0] ^‘m/fy<det><pos><mf><sp>$
+[/J217d7k43noR]
+[P8_d5Ney2_V3#0] ^‘i/ei<det><pos><mf><sp>/prpers<prn><obj><p3><m><sg>$
+[/P8_d5Ney2_V3]
+[PNhSv0U3c7yL#0] ^drwyʼr/drwy<pr>+yr<det><def><sp>$
+[/PNhSv0U3c7yL]
+[nn8quFRnr6R2#0] ^'ch/eich<det><pos><mf><sp>$
+[/nn8quFRnr6R2]
+[oTfxehmgnL5R#0] ^·/·<sent>$
+[/oTfxehmgnL5R]
+[oqJ1-7Z0m0hP#0] ^aʼr/a<cnjcoo>+yr<det><def><sp>/â<pr>+yr<det><def><sp>$
+[/oqJ1-7Z0m0hP]
+[r8WfVT9WgAFO#0] ^llaoloflwiyG/*llaoloflwiyG$
+[/r8WfVT9WgAFO]
+[ryxYoo2vIUQ2#0] ^gydaʼr/gyda<pr>+yr<det><def><sp>$
+[/ryxYoo2vIUQ2]

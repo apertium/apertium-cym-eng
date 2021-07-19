@@ -1,0 +1,26 @@
+[0DUCxD10owuT#0] ^,<cm>$
+[/0DUCxD10owuT]
+[661aKwOrXIKW#0] ^WPC<n><acr>$
+[/661aKwOrXIKW]
+[IH9HbcwtCw9K#0] ^7,3%<num>$
+[/IH9HbcwtCw9K]
+[JdxBTKtmkTak#0] ^bod<vbser><pres><p3><sg>$
+[/JdxBTKtmkTak]
+[K2dWrteH7UP6#0] ^yno<adv>/yna<adv>/'na<adv>/'cw<adv>$ ^bod<vbser><pres>$
+[/K2dWrteH7UP6]
+[Rx3UaAd5cB3J#0] ^*Glenscor$
+[/Rx3UaAd5cB3J]
+[gYfMtNRR1OO7#0] ^hynny<prn><tn><mf><sg>$ ^bod<vbser><pres><p3><sg>$
+[/gYfMtNRR1OO7]
+[n45eG68QaVUa#0] ^*UDFiCt$
+[/n45eG68QaVUa]
+[qTg_0ZILEzah#0] ^bod<vbser><past>$ ^nac<adv>/dim<adv>/mi<adv>/mo<adv>/ddim<adv>$
+[/qTg_0ZILEzah]
+[qnF2mUlZe9Yd#0] ^*IDlb$
+[/qnF2mUlZe9Yd]
+[ul7FHQekrA6V#0] ^)<rpar>$
+[/ul7FHQekrA6V]
+[yIlI9ve5Sz43#0] ^*wertumt$
+[/yIlI9ve5Sz43]
+[zbrJVsZDMAU8#0] ^bod<vbser><pres><p3><sg>$ ^prpers<prn><subj><p3><f><sg>$
+[/zbrJVsZDMAU8]

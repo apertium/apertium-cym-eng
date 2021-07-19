@@ -1,0 +1,32 @@
+[0ZQkgxvgUC3R#0] ^Prn<SN><mf><sg>{^which<prn><itg><2><3>$}$ ^num<SN><sg>{^one<num><2>$}$
+[/0ZQkgxvgUC3R]
+[1EGadFDa-rIs#0] ^Prn<SN><mf><pl>{^the other<prn><dem><2><3>$}$
+[/1EGadFDa-rIs]
+[24t2khaiT32p#0] ^nom<SN><sg>{^S1294<n><acr><2>$}$
+[/24t2khaiT32p]
+[5_bAEXdujbfN#0] ^Num<SN><pl>{^6<num><2>$}$
+[/5_bAEXdujbfN]
+[6CYbAy-b_1xa#0] ^Prn<SN><mf><sg>{^which<prn><itg><2><3>$}$ ^num<SN><sg>{^one<num><2>$}$
+[/6CYbAy-b_1xa]
+[7R9XoK80O57j#0] ^Nom<SN><sg>{^gold<n><2>$}$
+[/7R9XoK80O57j]
+[8sT7Nj6KCMAD#0] ^Num<SN><pl>{^02nd<num><ord>$}$
+[/8sT7Nj6KCMAD]
+[H8CRRfJHzwcs#0] ^Det<SD><det><dem><sg>{^this<det><dem><4>$}$
+[/H8CRRfJHzwcs]
+[J217d7k43noR#0] ^Det<SD><det><pos><sp>{^my<det><pos><4>$}$
+[/J217d7k43noR]
+[P8_d5Ney2_V3#0] ^Det<SD><det><pos><sp>{^its<det><pos><4>$}$
+[/P8_d5Ney2_V3]
+[PNhSv0U3c7yL#0] ^Drwy<SP>{^through<pr>$}$ ^det<SD><det><def><sp>{^the<det><def><4>$}$
+[/PNhSv0U3c7yL]
+[nn8quFRnr6R2#0] ^Det<SD><det><pos><sp>{^your<det><pos><4>$}$
+[/nn8quFRnr6R2]
+[oTfxehmgnL5R#0] ^default<default>{^·<sent>$}$
+[/oTfxehmgnL5R]
+[oqJ1-7Z0m0hP#0] ^Cnjcoo<CC>{^and<cnjcoo>$}$ ^det<SD><det><def><sp>{^the<det><def><4>$}$
+[/oqJ1-7Z0m0hP]
+[r8WfVT9WgAFO#0] ^unknown<unknown>{^*llaoloflwiyG$}$
+[/r8WfVT9WgAFO]
+[ryxYoo2vIUQ2#0] ^Gyda<SP>{^with<pr>$}$ ^det<SD><det><def><sp>{^the<det><def><4>$}$
+[/ryxYoo2vIUQ2]

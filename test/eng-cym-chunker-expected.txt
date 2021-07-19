@@ -1,0 +1,26 @@
+[0DUCxD10owuT#0] ^default<default>{^,<cm>$}$
+[/0DUCxD10owuT]
+[661aKwOrXIKW#0] ^nom<SN><sg>{^WPC<n><acr><3>$}$
+[/661aKwOrXIKW]
+[IH9HbcwtCw9K#0] ^default<default>{^7,3%<num>$}$
+[/IH9HbcwtCw9K]
+[JdxBTKtmkTak#0] ^verb<SV><sg>{^bod<vbser><pres><p3><sg>$}$
+[/JdxBTKtmkTak]
+[K2dWrteH7UP6#0] ^default<default>{^yno<adv>/yna<adv>/'na<adv>/'cw<adv>$}$ ^verb<SV>{^bod<vbser><pres>$}$
+[/K2dWrteH7UP6]
+[Rx3UaAd5cB3J#0] ^unknown<unknown>{^*Glenscor$}$
+[/Rx3UaAd5cB3J]
+[gYfMtNRR1OO7#0] ^default<default>{^hynny<prn><tn><mf><sg>$}$ ^verb<SV><sg>{^bod<vbser><pres><p3><sg>$}$
+[/gYfMtNRR1OO7]
+[n45eG68QaVUa#0] ^unknown<unknown>{^*UDFiCt$}$
+[/n45eG68QaVUa]
+[qTg_0ZILEzah#0] ^verb<SV>{^bod<vbser><past>$}$ ^default<default>{^nac<adv>/dim<adv>/mi<adv>/mo<adv>/ddim<adv>$}$
+[/qTg_0ZILEzah]
+[qnF2mUlZe9Yd#0] ^unknown<unknown>{^*IDlb$}$
+[/qnF2mUlZe9Yd]
+[ul7FHQekrA6V#0] ^default<default>{^)<rpar>$}$
+[/ul7FHQekrA6V]
+[yIlI9ve5Sz43#0] ^unknown<unknown>{^*wertumt$}$
+[/yIlI9ve5Sz43]
+[zbrJVsZDMAU8#0] ^prn_verb<SV><p3><sg>{^bod<vbser><pres><2><3>$ ^prpers<prn><subj><p3><f><sg>$}$
+[/zbrJVsZDMAU8]

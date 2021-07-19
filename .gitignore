@@ -16,6 +16,11 @@
 /modes
 /stamp-h1
 /ap_include.am
-/cym-eng.prob
-/eng-cym.prob
 /pre-eng-cym.t1x
+/*.hfst
+/*.gz
+/*.pc
+/*.zhfst
+/.DS_Store
+/*-*.prob
+/test/*-output.txt

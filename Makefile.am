@@ -212,10 +212,4 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "Tŷ" | apertium -d . cym-eng | tee .test-mt
-	@echo "House" > .test-ref
-	@diff .test-ref .test-mt
-	echo "House" | apertium -d . eng-cym | tee .test-mt
-	@echo "Tŷ" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
+	apertium-regtest test

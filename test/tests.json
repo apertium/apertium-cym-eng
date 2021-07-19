@@ -1,0 +1,10 @@
+{
+    "cym-eng": {
+        "input": "cym-eng-input.txt",
+        "mode": "cym-eng"
+    },
+    "eng-cym": {
+        "input": "eng-cym-input.txt",
+        "mode": "eng-cym"
+    }
+}
