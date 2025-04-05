@@ -172,7 +172,7 @@
       <program name="lt-proc">
         <file name="eng-cym.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -gx">
+      <program name="apertium-tagger -g">
         <file name="eng-cym.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
